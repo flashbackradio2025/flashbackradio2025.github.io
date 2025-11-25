@@ -14,10 +14,10 @@
       font-family: 'Orbitron', sans-serif;
     }
 
-    /* ✅ CABECERA: altura ideal para ver todo el video */
+    /* ✅ CABECERA: altura suficiente para ver todo el video */
     #header-intro {
       width: 100%;
-      height: 320px;
+      height: 320px;          /* ← Esto es clave */
       max-height: 40vh;
       overflow: hidden;
       position: relative;
@@ -25,7 +25,7 @@
     #intro-video {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: cover;       /* ← Recorta bien sin deformar */
     }
 
     main {
@@ -34,7 +34,7 @@
       margin: 0 auto;
     }
 
-    /* ✅ GIFS RETRO EN FILA */
+    /* ✅ GIFs ochenteros */
     .retro-gifs {
       display: flex;
       justify-content: center;
@@ -47,7 +47,7 @@
       filter: drop-shadow(0 0 6px rgba(255, 215, 0, 0.7));
     }
 
-    /* ✅ SECCIÓN DEL VINILO */
+    /* ✅ VINILO MÁS CLARO */
     .player-section {
       position: relative;
       padding: 30px 10px;
@@ -60,13 +60,13 @@
       width: 100%;
       height: 100%;
       z-index: 0;
-      opacity: 0.07; /* ✅ Muy transparente → más claro */
+      opacity: 0.07;           /* ← Muy transparente = más claro */
     }
     .vinyl-background video {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      filter: brightness(1.25) contrast(1.1); /* ✅ Más luz, más definido */
+      filter: brightness(1.25) contrast(1.1); /* ← Brillo y contraste */
     }
 
     .muses-player-container {
@@ -97,7 +97,6 @@
       margin: 0 auto;
     }
 
-    /* Frase de bienvenida inspirada en tu Wix */
     .quote {
       text-align: center;
       font-family: 'Special Elite', cursive;
@@ -112,7 +111,7 @@
 </head>
 <body>
 
-  <!-- ✅ Cabecera: video completo -->
+  <!-- ✅ CABECERA COMPLETA -->
   <header id="header-intro">
     <video id="intro-video" autoplay muted playsinline>
       <source src="video/presentacion.mp4" type="video/mp4">
@@ -120,19 +119,19 @@
   </header>
 
   <main>
-    <!-- ✅ Frase inspirada en tu Wix -->
+    <!-- Frase de tu Wix -->
     <div class="quote">
       "Hay músicas que no se escuchan con los oídos.<br>Se recuerdan con el alma."
     </div>
 
-    <!-- ✅ GIFs ochenteros (usa tus URLs de Wix) -->
+    <!-- ✅ TUS GIFS OCHENTEROS -->
     <div class="retro-gifs">
       <img src="https://static.wixstatic.com/media/da6f98_152ffd5bcbd64e94a2ba49fc1ab71345~mv2.gif" alt="Retro 1">
       <img src="https://static.wixstatic.com/media/da6f98_2493d16d46f9442d9194f2fa6edc2b23~mv2.gif" alt="Retro 2">
       <img src="https://static.wixstatic.com/media/da6f98_d7417aa13a9b4a75af096acc03354264~mv2.gif" alt="Retro 3">
     </div>
 
-    <!-- ✅ Reproductor con vinilo de fondo -->
+    <!-- ✅ SECCIÓN DEL VINILO + REPRODUCTOR -->
     <section class="player-section">
       <div class="vinyl-background">
         <video autoplay muted loop playsinline>
@@ -145,7 +144,7 @@
         <h2>📻 FlashBack Radio</h2>
         <p style="color:#ccc; font-size:1em; margin:5px 0 15px;">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
 
-        <!-- ✅ Ecualizador real -->
+        <!-- ✅ IFRAME DEL ECUALIZADOR -->
         <iframe src="player.html" width="180" height="60" style="border:none; margin:10px auto; display:block;"></iframe>
 
         <p style="margin-top:20px; color:#888; font-size:0.9em;">✨ Música con alma retro – Hecho a pulmón 💜</p>
@@ -179,7 +178,7 @@
   </main>
 
   <script>
-    // Detener el video intro al final
+    // Detener el video de cabecera al final
     document.getElementById('intro-video').onended = function() {
       this.pause();
     };
