@@ -15,7 +15,7 @@
       color: #fff;
     }
 
-    /* ✅ Cabecera: solo el video, sin capas superpuestas */
+    /* ✅ CABECERA LIMPIA: SOLO VIDEO */
     #header-intro {
       position: relative;
       width: 100%;
@@ -32,6 +32,7 @@
       padding: 20px;
       max-width: 800px;
       margin: 0 auto;
+      box-sizing: border-box;
     }
 
     .player-section h2,
@@ -42,7 +43,7 @@
       text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
     }
 
-    /* ✅ Contenedor del reproductor: centrado y ajustado */
+    /* ✅ CONTENEDOR DEL REPRODUCTOR */
     .muses-player-container {
       background: linear-gradient(135deg, #0d0d0d, #1a1a40);
       padding: 25px;
@@ -53,12 +54,14 @@
       box-shadow: 0 0 25px rgba(138, 43, 226, 0.7);
       box-sizing: border-box;
     }
+
     .muses-player-container img {
       max-width: 140px;
       margin-bottom: 15px;
       border-radius: 12px;
       box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
     }
+
     .muses-player-container h2 {
       color: #00ffff;
       font-family: 'Trebuchet MS', sans-serif;
@@ -66,18 +69,20 @@
       margin: 0;
       font-size: 1.4em;
     }
+
     .muses-player-container p.subtitle {
       color: #ccc;
       font-size: 0.95em;
       margin: 5px 0 15px;
     }
+
     .muses-player-container .footer-note {
       margin-top: 15px;
       color: #888;
       font-size: 0.9em;
     }
 
-    /* ✅ iframe del reproductor Muses */
+    /* ✅ IFRAME CENTRADO Y SEGURO */
     .player-iframe {
       width: 180px;
       height: 60px;
@@ -87,7 +92,7 @@
       background: transparent;
     }
 
-    /* Widget OnlineRadioBox */
+    /* ONLINE RADIO BOX */
     .orbL {
       margin: 0 auto;
       max-width: 350px;
@@ -96,7 +101,7 @@
 </head>
 <body>
 
-  <!-- ✅ CABECERA: SOLO VIDEO, SIN LOGO NI SLOGAN SUPERPUESTO -->
+  <!-- ✅ CABECERA: SOLO VIDEO, SIN LOGO NI TEXTO ENCIMA -->
   <header id="header-intro">
     <video id="intro-video" autoplay muted playsinline loop>
       <source src="video/presentacion.mp4" type="video/mp4">
@@ -105,7 +110,7 @@
   </header>
 
   <main>
-    <!-- Reproductor con ecualizador -->
+    <!-- REPRODUCTOR -->
     <section class="player-section">
       <h2>🎧 Escuchanos en Vivo</h2>
       <div class="muses-player-container">
@@ -113,19 +118,18 @@
         <h2>FlashBack Radio</h2>
         <p class="subtitle">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
 
-        <!-- ✅ REPRODUCTOR CON ECUALIZADOR (iframe seguro) -->
-        <iframe class="player-iframe" src="https://hosted.muses.org/?url=https%3A%2F%2Fstream.zeno.fm%2Fb4waiz3jkmnvv&lang=es&volume=100&autoplay=true&skin=mcclean&width=180&height=60"></iframe>
+        <!-- ✅ IFRAME que carga TU player.html -->
+        <iframe class="player-iframe" src="player.html"></iframe>
 
         <p class="footer-note">✨ Música con alma retro – Hecho a pulmón 💜</p>
       </div>
     </section>
 
-    <!-- Playlist -->
+    <!-- PLAYLIST -->
     <section class="playlist-section">
       <h2>🎶 Ahora en FlashBack Radio</h2>
       <div class="orbL" id="orb_pl_1c330825cc9bd307">
         <style media="screen">
-          /* (Estilos de OnlineRadioBox sin cambios, omitidos por brevedad) */
           .orbL{position:relative;box-sizing:border-box;overflow:hidden;font-weight:normal;border:1px solid;text-align:left;background:#0f0c29 !important;border-color:#00f3ff !important;border-radius:8px}.orbL br,.orbL>br{display:none!important;}.orbL p,.orbL>p{margin:0!important;padding:0!important;line-height:normal!important;font-size:inherit!important}.orbLh{display:block;position:absolute;z-index:100;top:22px;right:10px;margin-top:-12px;width:21px;text-decoration:none!important;cursor:pointer}.orbLh>img{margin:0!important;border:none!important;height:24px!important;-webkit-filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4));filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4))}.orbLt{display:block;box-sizing:border-box;overflow:hidden;padding-left:10px!important;font-weight:normal;line-height:44px!important;min-height:44px;text-decoration:none!important;background:rgba(0,50,100,0.4) !important}.orbLti{float:left!important;margin:10px 10px 10px 0!important;height:24px!important;width:44px!important;border:none!important;border-radius:2px!important;opacity:1!important;}.orbLtn{display:block;margin-right:54px!important;font-size:16px!important;font-weight:bold;color:#00f3ff !important;text-shadow: 0 0 8px #00f3ff;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.orbIL{position:relative;overflow:auto;overflow-x:hidden;overflow-y:auto;margin:0!important;padding:0!important;list-style:none!important;background:#0a081a !important}.orbILi{box-sizing:border-box;margin:0!important;padding:0 10px!important;list-style:none!important}.orbILi>a,.orbILi>span{display:block!important;height:auto!important;font-weight:normal!important;text-decoration:none!important;line-height:32px!important;font-size:14px!important;color:#ffcc00 !important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;-webkit-transition:color .125s;transition:color .125s;text-shadow: 0 0 5px rgba(255,204,0,0.6)}.orbILi>a:hover,.orbILi>span:hover{color:#ff33cc !important;text-shadow: 0 0 8px #ff33cc}.orbILi>a>time,.orbILi>span>time{display:inline-block;font-size:12px!important;width:3em;color:#00f3ff !important}.orbILi+li{border-style:solid!important;border-width:1px 0 0!important;border-color:#00f3ff33 !important}.orbILs{display:none}
         </style>
         <a class="orbLh" href="https://onlineradiobox.com/ar/" target="_blank">
