@@ -15,12 +15,11 @@
       color: #fff;
     }
 
-    /* ✅ CABECERA LIMPIA: SOLO VIDEO */
     #header-intro {
-      position: relative;
       width: 100%;
       height: 220px;
       overflow: hidden;
+      position: relative;
     }
     #intro-video {
       width: 100%;
@@ -43,7 +42,6 @@
       text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
     }
 
-    /* ✅ CONTENEDOR DEL REPRODUCTOR */
     .muses-player-container {
       background: linear-gradient(135deg, #0d0d0d, #1a1a40);
       padding: 25px;
@@ -82,7 +80,6 @@
       font-size: 0.9em;
     }
 
-    /* ✅ IFRAME CENTRADO Y SEGURO */
     .player-iframe {
       width: 180px;
       height: 60px;
@@ -92,7 +89,6 @@
       background: transparent;
     }
 
-    /* ONLINE RADIO BOX */
     .orbL {
       margin: 0 auto;
       max-width: 350px;
@@ -101,16 +97,15 @@
 </head>
 <body>
 
-  <!-- ✅ CABECERA: SOLO VIDEO, SIN LOGO NI TEXTO ENCIMA -->
+  <!-- ✅ CABECERA: Video que se reproduce una vez y se detiene -->
   <header id="header-intro">
-    <video id="intro-video" autoplay muted playsinline loop>
+    <video id="intro-video" autoplay muted playsinline>
       <source src="video/presentacion.mp4" type="video/mp4">
       Tu navegador no soporta el video.
     </video>
   </header>
 
   <main>
-    <!-- REPRODUCTOR -->
     <section class="player-section">
       <h2>🎧 Escuchanos en Vivo</h2>
       <div class="muses-player-container">
@@ -118,14 +113,14 @@
         <h2>FlashBack Radio</h2>
         <p class="subtitle">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
 
-        <!-- ✅ IFRAME que carga TU player.html -->
+        <!-- ✅ REPRODUCTOR (debe funcionar si player.html está subido) -->
         <iframe class="player-iframe" src="player.html"></iframe>
 
         <p class="footer-note">✨ Música con alma retro – Hecho a pulmón 💜</p>
       </div>
     </section>
 
-    <!-- PLAYLIST -->
+    <!-- Playlist -->
     <section class="playlist-section">
       <h2>🎶 Ahora en FlashBack Radio</h2>
       <div class="orbL" id="orb_pl_1c330825cc9bd307">
@@ -147,10 +142,17 @@
           });
           var s = document.createElement('script');
           s.src = "//ecdn.onlineradiobox.com/js/plwidget.min.a1649ec0.js";
-          document.head.appendChild(s);
+         document.head.appendChild(s);
         </script>
       </div>
     </section>
   </main>
+
+  <!-- ✅ Script para detener el video al final -->
+  <script>
+    document.getElementById('intro-video').onended = function() {
+      this.pause();
+    };
+  </script>
 </body>
 </html>
