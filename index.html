@@ -13,6 +13,8 @@
       color: white;
       font-family: 'Orbitron', sans-serif;
     }
+
+    /* Cabecera */
     #header-intro {
       width: 100%;
       height: 220px;
@@ -24,8 +26,40 @@
       height: 100%;
       object-fit: cover;
     }
+
+    /* Sección del vinilo */
+    .player-section {
+      position: relative;
+      padding: 30px 20px;
+    }
+    .vinyl-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      opacity: 0.15;
+    }
+    .vinyl-background video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .muses-player-container {
+      position: relative;
+      z-index: 1;
+      background: linear-gradient(135deg, #0d0d0d, #1a1a40);
+      padding: 25px;
+      text-align: center;
+      border-radius: 20px;
+      max-width: 350px;
+      margin: 0 auto;
+      box-shadow: 0 0 25px rgba(138, 43, 226, 0.7);
+    }
+
     main {
-      padding: 20px;
+      padding: 0 15px;
       max-width: 800px;
       margin: 0 auto;
     }
@@ -43,30 +77,36 @@
 </head>
 <body>
 
-  <!-- Cabecera: video que se reproduce una vez y se detiene -->
+  <!-- Cabecera: video intro una sola vez -->
   <header id="header-intro">
     <video id="intro-video" autoplay muted playsinline>
       <source src="video/presentacion.mp4" type="video/mp4">
-      Tu navegador no soporta el video.
     </video>
   </header>
 
   <main>
-    <h2>🎧 Escuchanos en Vivo</h2>
+    <section class="player-section">
+      <!-- Vinilo de fondo girando -->
+      <div class="vinyl-background">
+        <video autoplay muted loop playsinline>
+          <source src="video/vinilo-loop.mp4" type="video/mp4">
+        </video>
+      </div>
 
-    <!-- ✅ TU BLOQUE COMPLETO CON IFRAME DEL REPRODUCTOR -->
-    <div style="background: linear-gradient(135deg, #0d0d0d, #1a1a40); padding: 25px; text-align: center; border-radius: 20px; max-width: 350px; margin: 0 auto; box-shadow: 0 0 25px rgba(138, 43, 226, 0.7);">
-      <img src="https://static.wixstatic.com/media/da6f98_5c139a923d8849978c3b8ce6ed99aeac~mv2.png" alt="FlashBack Radio" style="max-width:140px; margin-bottom:15px; border-radius:12px; box-shadow:0 0 15px rgba(0,255,255,0.6);">
-      <h2 style="color:#00ffff; font-family:'Trebuchet MS', sans-serif; text-shadow:0 0 8px #8a2be2;">📻 FlashBack Radio</h2>
-      <p style="color:#ccc; font-size:1em; margin:5px 0 15px;">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
+      <!-- Reproductor con ecualizador -->
+      <div class="muses-player-container">
+        <img src="https://static.wixstatic.com/media/da6f98_5c139a923d8849978c3b8ce6ed99aeac~mv2.png" alt="FlashBack Radio" style="max-width:140px; margin-bottom:15px; border-radius:12px; box-shadow:0 0 15px rgba(0,255,255,0.6);">
+        <h2 style="color:#00ffff; font-family:'Trebuchet MS', sans-serif; text-shadow:0 0 8px #8a2be2;">📻 FlashBack Radio</h2>
+        <p style="color:#ccc; font-size:1em; margin:5px 0 15px;">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
 
-      <!-- ✅ IFRAME QUE CARGA EL ECUALIZADOR -->
-      <iframe src="player.html" width="180" height="60" style="border:none; margin:10px auto; display:block;"></iframe>
+        <!-- ✅ Ecualizador real (si player.html está subido) -->
+        <iframe src="player.html" width="180" height="60" style="border:none; margin:10px auto; display:block;"></iframe>
 
-      <p style="margin-top:20px; color:#888; font-size:0.9em;">✨ Música con alma retro – Hecho a pulmón 💜</p>
-    </div>
+        <p style="margin-top:20px; color:#888; font-size:0.9em;">✨ Música con alma retro – Hecho a pulmón 💜</p>
+      </div>
+    </section>
 
-    <!-- Widget de OnlineRadioBox -->
+    <!-- Playlist -->
     <h2>🎶 Ahora en FlashBack Radio</h2>
     <div class="orbL" id="orb_pl_1c330825cc9bd307">
       <style media="screen">
@@ -92,8 +132,8 @@
     </div>
   </main>
 
-  <!-- Script para detener el video al final -->
   <script>
+    // Detener el video intro al final
     document.getElementById('intro-video').onended = function() {
       this.pause();
     };
