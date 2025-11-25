@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a081a;
+  color: #ffcc00;
+  font-family: 'Special Elite', cursive;
+  overflow-x: hidden;
+}
+
+header#header-intro {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.header-overlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+}
+
+.header-logo {
+  max-width: 300px;
+  filter: drop-shadow(0 0 10px #00f3ff);
+  margin-bottom: 20px;
+}
+
+.slogan {
+  font-size: 2em;
+  color: #ff33cc;
+  text-shadow: 0 0 12px #ff33cc;
+  font-family: 'Orbitron', sans-serif;
+}
+
+main {
+  max-width: 900px;
+  margin: -80px auto 40px;
+  padding: 0 20px;
+  background: rgba(10, 8, 26, 0.85);
+  border: 2px solid #00f3ff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.3);
+}
+
+.player-section, .playlist-section {
+  padding: 25px 0;
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00f3ff;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(0, 243, 255, 0.7);
+}
+
+.player-container {
+  position: relative;
+  height: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.vinyl-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.vinyl-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.player-overlay {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+}
+
+.player-logo {
+  max-width: 80px;
+  margin-bottom: 15px;
+  filter: drop-shadow(0 0 8px #ffcc00);
+}
+
+#radio-player {
+  width: 90%;
+  max-width: 400px;
+  margin: 15px 0;
+}
+
+#visualizer {
+  width: 90%;
+  max-width: 400px;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.playlist-section .orbL {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .header-logo { max-width: 220px; }
+  .slogan { font-size: 1.5em; }
+  main { margin-top: -60px; }
+  .player-container { height: 280px; }
+}
