@@ -4,17 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FlashBack Radio – El Eco del Tiempo</title>
-  <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Orbitron', sans-serif;
       background: #000;
-      color: #fff;
+      color: white;
+      font-family: 'Orbitron', sans-serif;
     }
-
     #header-intro {
       width: 100%;
       height: 220px;
@@ -26,78 +24,26 @@
       height: 100%;
       object-fit: cover;
     }
-
     main {
       padding: 20px;
       max-width: 800px;
       margin: 0 auto;
-      box-sizing: border-box;
     }
-
-    .player-section h2,
-    .playlist-section h2 {
+    h2 {
       text-align: center;
       color: #00ffff;
       margin: 30px 0 20px;
       text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
     }
-
-    .muses-player-container {
-      background: linear-gradient(135deg, #0d0d0d, #1a1a40);
-      padding: 25px;
-      text-align: center;
-      border-radius: 20px;
-      max-width: 350px;
-      margin: 0 auto;
-      box-shadow: 0 0 25px rgba(138, 43, 226, 0.7);
-      box-sizing: border-box;
-    }
-
-    .muses-player-container img {
-      max-width: 140px;
-      margin-bottom: 15px;
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
-    }
-
-    .muses-player-container h2 {
-      color: #00ffff;
-      font-family: 'Trebuchet MS', sans-serif;
-      text-shadow: 0 0 8px #8a2be2;
-      margin: 0;
-      font-size: 1.4em;
-    }
-
-    .muses-player-container p.subtitle {
-      color: #ccc;
-      font-size: 0.95em;
-      margin: 5px 0 15px;
-    }
-
-    .muses-player-container .footer-note {
-      margin-top: 15px;
-      color: #888;
-      font-size: 0.9em;
-    }
-
-    .player-iframe {
-      width: 180px;
-      height: 60px;
-      border: none;
-      margin: 10px auto;
-      display: block;
-      background: transparent;
-    }
-
     .orbL {
-      margin: 0 auto;
       max-width: 350px;
+      margin: 0 auto;
     }
   </style>
 </head>
 <body>
 
-  <!-- ✅ CABECERA: Video que se reproduce una vez y se detiene -->
+  <!-- Cabecera: video que se reproduce una vez y se detiene -->
   <header id="header-intro">
     <video id="intro-video" autoplay muted playsinline>
       <source src="video/presentacion.mp4" type="video/mp4">
@@ -106,49 +52,47 @@
   </header>
 
   <main>
-    <section class="player-section">
-      <h2>🎧 Escuchanos en Vivo</h2>
-      <div class="muses-player-container">
-        <img src="https://static.wixstatic.com/media/da6f98_5c139a923d8849978c3b8ce6ed99aeac~mv2.png" alt="FlashBack Radio">
-        <h2>FlashBack Radio</h2>
-        <p class="subtitle">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
+    <h2>🎧 Escuchanos en Vivo</h2>
 
-        <!-- ✅ REPRODUCTOR (debe funcionar si player.html está subido) -->
-        <iframe class="player-iframe" src="player.html"></iframe>
+    <!-- ✅ TU BLOQUE COMPLETO CON IFRAME DEL REPRODUCTOR -->
+    <div style="background: linear-gradient(135deg, #0d0d0d, #1a1a40); padding: 25px; text-align: center; border-radius: 20px; max-width: 350px; margin: 0 auto; box-shadow: 0 0 25px rgba(138, 43, 226, 0.7);">
+      <img src="https://static.wixstatic.com/media/da6f98_5c139a923d8849978c3b8ce6ed99aeac~mv2.png" alt="FlashBack Radio" style="max-width:140px; margin-bottom:15px; border-radius:12px; box-shadow:0 0 15px rgba(0,255,255,0.6);">
+      <h2 style="color:#00ffff; font-family:'Trebuchet MS', sans-serif; text-shadow:0 0 8px #8a2be2;">📻 FlashBack Radio</h2>
+      <p style="color:#ccc; font-size:1em; margin:5px 0 15px;">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
 
-        <p class="footer-note">✨ Música con alma retro – Hecho a pulmón 💜</p>
-      </div>
-    </section>
+      <!-- ✅ IFRAME QUE CARGA EL ECUALIZADOR -->
+      <iframe src="player.html" width="180" height="60" style="border:none; margin:10px auto; display:block;"></iframe>
 
-    <!-- Playlist -->
-    <section class="playlist-section">
-      <h2>🎶 Ahora en FlashBack Radio</h2>
-      <div class="orbL" id="orb_pl_1c330825cc9bd307">
-        <style media="screen">
-          .orbL{position:relative;box-sizing:border-box;overflow:hidden;font-weight:normal;border:1px solid;text-align:left;background:#0f0c29 !important;border-color:#00f3ff !important;border-radius:8px}.orbL br,.orbL>br{display:none!important;}.orbL p,.orbL>p{margin:0!important;padding:0!important;line-height:normal!important;font-size:inherit!important}.orbLh{display:block;position:absolute;z-index:100;top:22px;right:10px;margin-top:-12px;width:21px;text-decoration:none!important;cursor:pointer}.orbLh>img{margin:0!important;border:none!important;height:24px!important;-webkit-filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4));filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4))}.orbLt{display:block;box-sizing:border-box;overflow:hidden;padding-left:10px!important;font-weight:normal;line-height:44px!important;min-height:44px;text-decoration:none!important;background:rgba(0,50,100,0.4) !important}.orbLti{float:left!important;margin:10px 10px 10px 0!important;height:24px!important;width:44px!important;border:none!important;border-radius:2px!important;opacity:1!important;}.orbLtn{display:block;margin-right:54px!important;font-size:16px!important;font-weight:bold;color:#00f3ff !important;text-shadow: 0 0 8px #00f3ff;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.orbIL{position:relative;overflow:auto;overflow-x:hidden;overflow-y:auto;margin:0!important;padding:0!important;list-style:none!important;background:#0a081a !important}.orbILi{box-sizing:border-box;margin:0!important;padding:0 10px!important;list-style:none!important}.orbILi>a,.orbILi>span{display:block!important;height:auto!important;font-weight:normal!important;text-decoration:none!important;line-height:32px!important;font-size:14px!important;color:#ffcc00 !important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;-webkit-transition:color .125s;transition:color .125s;text-shadow: 0 0 5px rgba(255,204,0,0.6)}.orbILi>a:hover,.orbILi>span:hover{color:#ff33cc !important;text-shadow: 0 0 8px #ff33cc}.orbILi>a>time,.orbILi>span>time{display:inline-block;font-size:12px!important;width:3em;color:#00f3ff !important}.orbILi+li{border-style:solid!important;border-width:1px 0 0!important;border-color:#00f3ff33 !important}.orbILs{display:none}
-        </style>
-        <a class="orbLh" href="https://onlineradiobox.com/ar/" target="_blank">
-          <img src="//ecdn.onlineradiobox.com/img/wl.svg" alt="Listen on Online Radio Box!">
-        </a>
-        <a class="orbLt" href="https://onlineradiobox.com/ar/musicaparaelrecuerdo/" target="_blank">
-          <img class="orbLti" src="//cdn.onlineradiobox.com/img/l/5/150015.v2.png" alt="Musica para el Recuerdo">
-          <span class="orbLtn">FlashBack Radio</span>
-        </a>
-        <script>
-          var orbpl_w = orbpl_w || { lang: "es-es" };
-          orbpl_w.cmd = orbpl_w.cmd || [];
-          orbpl_w.cmd.push(function() {
-            orbpl_w.init("orb_pl_1c330825cc9bd307");
-          });
-          var s = document.createElement('script');
-          s.src = "//ecdn.onlineradiobox.com/js/plwidget.min.a1649ec0.js";
-         document.head.appendChild(s);
-        </script>
-      </div>
-    </section>
+      <p style="margin-top:20px; color:#888; font-size:0.9em;">✨ Música con alma retro – Hecho a pulmón 💜</p>
+    </div>
+
+    <!-- Widget de OnlineRadioBox -->
+    <h2>🎶 Ahora en FlashBack Radio</h2>
+    <div class="orbL" id="orb_pl_1c330825cc9bd307">
+      <style media="screen">
+        .orbL{position:relative;box-sizing:border-box;overflow:hidden;font-weight:normal;border:1px solid;text-align:left;background:#0f0c29 !important;border-color:#00f3ff !important;border-radius:8px}.orbL br,.orbL>br{display:none!important;}.orbL p,.orbL>p{margin:0!important;padding:0!important;line-height:normal!important;font-size:inherit!important}.orbLh{display:block;position:absolute;z-index:100;top:22px;right:10px;margin-top:-12px;width:21px;text-decoration:none!important;cursor:pointer}.orbLh>img{margin:0!important;border:none!important;height:24px!important;-webkit-filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4));filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4))}.orbLt{display:block;box-sizing:border-box;overflow:hidden;padding-left:10px!important;font-weight:normal;line-height:44px!important;min-height:44px;text-decoration:none!important;background:rgba(0,50,100,0.4) !important}.orbLti{float:left!important;margin:10px 10px 10px 0!important;height:24px!important;width:44px!important;border:none!important;border-radius:2px!important;opacity:1!important;}.orbLtn{display:block;margin-right:54px!important;font-size:16px!important;font-weight:bold;color:#00f3ff !important;text-shadow: 0 0 8px #00f3ff;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.orbIL{position:relative;overflow:auto;overflow-x:hidden;overflow-y:auto;margin:0!important;padding:0!important;list-style:none!important;background:#0a081a !important}.orbILi{box-sizing:border-box;margin:0!important;padding:0 10px!important;list-style:none!important}.orbILi>a,.orbILi>span{display:block!important;height:auto!important;font-weight:normal!important;text-decoration:none!important;line-height:32px!important;font-size:14px!important;color:#ffcc00 !important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;-webkit-transition:color .125s;transition:color .125s;text-shadow: 0 0 5px rgba(255,204,0,0.6)}.orbILi>a:hover,.orbILi>span:hover{color:#ff33cc !important;text-shadow: 0 0 8px #ff33cc}.orbILi>a>time,.orbILi>span>time{display:inline-block;font-size:12px!important;width:3em;color:#00f3ff !important}.orbILi+li{border-style:solid!important;border-width:1px 0 0!important;border-color:#00f3ff33 !important}.orbILs{display:none}
+      </style>
+      <a class="orbLh" href="https://onlineradiobox.com/ar/" target="_blank">
+        <img src="//ecdn.onlineradiobox.com/img/wl.svg" alt="Listen on Online Radio Box!">
+      </a>
+      <a class="orbLt" href="https://onlineradiobox.com/ar/musicaparaelrecuerdo/" target="_blank">
+        <img class="orbLti" src="//cdn.onlineradiobox.com/img/l/5/150015.v2.png" alt="Musica para el Recuerdo">
+        <span class="orbLtn">FlashBack Radio</span>
+      </a>
+      <script>
+        var orbpl_w = orbpl_w || { lang: "es-es" };
+        orbpl_w.cmd = orbpl_w.cmd || [];
+        orbpl_w.cmd.push(function() {
+          orbpl_w.init("orb_pl_1c330825cc9bd307");
+        });
+        var s = document.createElement('script');
+        s.src = "//ecdn.onlineradiobox.com/js/plwidget.min.a1649ec0.js";
+        document.head.appendChild(s);
+      </script>
+    </div>
   </main>
 
-  <!-- ✅ Script para detener el video al final -->
+  <!-- Script para detener el video al final -->
   <script>
     document.getElementById('intro-video').onended = function() {
       this.pause();
