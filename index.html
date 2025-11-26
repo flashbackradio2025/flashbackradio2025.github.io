@@ -6,13 +6,7 @@
   <title>FlashBack Radio – El Eco del Tiempo</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
   <style>
-    body 
-    <div class="vinyl-background">
-  <video autoplay muted loop playsinline>
-    <source src="vinilo-loop.mp4" type="video/mp4">
-  </video>
-</div>
-    {
+    body {
       margin: 0;
       padding: 0;
       font-family: 'Orbitron', sans-serif;
@@ -20,23 +14,43 @@
       color: #fff;
     }
 
-    /* ✅ CABECERA MÁS ALTA PARA VER TODO EL VIDEO */
-#header-intro {
-  width: 100%;
-  height: 60vh; /* ← altura: 60% de la pantalla */
-  max-height: 700px;
-  max-width: 800px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-}
+    /* VINILO DE FONDO */
+    .vinyl-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      pointer-events: none;
+      overflow: hidden;
+    }
 
-#intro-video {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  background: #000;
-}
+    .vinyl-background video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(1.8) contrast(1.0);
+    }
+
+    /* CABECERA: VIDEO COMPLETO */
+    #header-intro {
+      width: 100%;
+      height: 60vh;
+      max-height: 700px;
+      max-width: 800px;
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #intro-video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #000;
+    }
+
     main {
       padding: 20px;
       max-width: 800px;
@@ -102,7 +116,7 @@
       max-width: 350px;
     }
 
-    /* Frases inspiradas en tu Wix */
+    /* Frase inspiradora */
     .quote {
       text-align: center;
       font-family: 'Special Elite', cursive;
@@ -113,38 +127,31 @@
       text-shadow: 0 0 6px rgba(255, 204, 102, 0.4);
     }
 
-    /* GIFs ochenteros */
+    /* GIFs ochenteros – responsivos */
     .retro-gifs {
-      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
       margin: 20px 0;
     }
     .retro-gifs img {
       height: 55px;
-      margin: 0 8px;
       filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.6));
+      max-width: 100%;
     }
-
-    .vinyl-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  pointer-events: none;
-}
-
-.vinyl-background video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(1.8) contrast(1.0);
-}
   </style>
 </head>
 <body>
 
-  <!-- Cabecera: video completo -->
+  <!-- VINILO DE FONDO – RUTA CORRECTA -->
+  <div class="vinyl-background">
+    <video autoplay muted loop playsinline>
+      <source src="video/vinilo-loop.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- CABECERA -->
   <header id="header-intro">
     <video id="intro-video" autoplay muted playsinline preload="metadata">
       <source src="video/presentacion.mp4" type="video/mp4">
@@ -152,19 +159,16 @@
   </header>
 
   <main>
-    <!-- Frase de tu Wix -->
     <div class="quote">
       "Hay músicas que no se escuchan con los oídos.<br>Se recuerdan con el alma."
     </div>
 
-    <!-- GIFs ochenteros -->
     <div class="retro-gifs">
       <img src="https://static.wixstatic.com/media/da6f98_152ffd5bcbd64e94a2ba49fc1ab71345~mv2.gif" alt="Retro 1">
       <img src="https://static.wixstatic.com/media/da6f98_2493d16d46f9442d9194f2fa6edc2b23~mv2.gif" alt="Retro 2">
       <img src="https://static.wixstatic.com/media/da6f98_d7417aa13a9b4a75af096acc03354264~mv2.gif" alt="Retro 3">
     </div>
 
-    <!-- Reproductor con ecualizador -->
     <section class="player-section">
       <h2>🎧 Escuchanos en Vivo</h2>
       <div class="muses-player-container">
@@ -176,7 +180,6 @@
       </div>
     </section>
 
-    <!-- Playlist -->
     <section class="playlist-section">
       <h2>🎶 Ahora en FlashBack Radio</h2>
       <div class="orbL" id="orb_pl_1c330825cc9bd307">
@@ -211,6 +214,7 @@
   </script>
 </body>
 </html>
+
 
 
 
