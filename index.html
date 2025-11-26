@@ -6,7 +6,13 @@
   <title>FlashBack Radio – El Eco del Tiempo</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
   <style>
-    body {
+    body 
+    <div class="vinyl-background">
+  <video autoplay muted loop playsinline>
+    <source src="vinilo.mp4" type="video/mp4">
+  </video>
+</div>
+    {
       margin: 0;
       padding: 0;
       font-family: 'Orbitron', sans-serif;
@@ -117,6 +123,23 @@
       margin: 0 8px;
       filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.6));
     }
+
+    .vinyl-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.vinyl-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(1.8) contrast(1.0);
+}
   </style>
 </head>
 <body>
@@ -188,6 +211,7 @@
   </script>
 </body>
 </html>
+
 
 
 
