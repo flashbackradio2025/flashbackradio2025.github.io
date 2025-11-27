@@ -140,19 +140,27 @@
     }
 
     /* GIFs ochenteros – responsivos */
-    .retro-gifs {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 8px;
-      margin: 20px 0;
-    }
-    .retro-gifs img {
-      height: 55px;
-      filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.6));
-      max-width: 100%;
-    }
-  </style>
+      /* ... otros estilos ... */
+
+  .retro-gifs img {
+    height: 55px;
+    filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.6));
+    max-width: 100%;
+  }
+
+  .cafecito-glow {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
+    animation: pulseGlow 4s infinite;
+  }
+
+  @keyframes pulseGlow {
+    0%, 100% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.6); }
+    50%     { box-shadow: 0 0 30px rgba(255, 215, 0, 0.9); }
+  }
+</style>
 </head>
 <body>
 
@@ -220,8 +228,7 @@
   <!-- 👇 BOTÓN DE APOYO CON TU IMAGEN -->
   <div style="text-align: center; margin: 30px 0;">
     <a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener">
-      <img src="img/apoyo.png" alt="El eco del tiempo suena mejor con tu apoyo, invitame un cafecito" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);">
-    </a>
+     <img src="img/apoyo.png" alt="El eco del tiempo suena mejor con tu apoyo, invitame un cafecito" class="cafecito-glow">
   </div>
 </section>
   </main>
@@ -250,6 +257,7 @@
   
 </body>
 </html>
+
 
 
 
