@@ -6,15 +6,18 @@
   <title>FlashBack Radio – El Eco del Tiempo</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <meta name="google-site-verification" content="CR25F-doYcltro-Lpu18SlzL2Yupded_stDh56s4VxI" />
+  
   <!-- SEO y redes sociales -->
   <meta name="description" content="FlashBack Radio – El Eco del Tiempo: Clásicos de los 60s, 70s, 80s y 90s. Música con alma, sin comerciales. Escuchá en vivo desde cualquier lugar.">
   <meta name="keywords" content="radio retro, música clásica, años 80, radio online, FlashBack Radio">
-  <!-- Open Graph (para compartir en redes) -->
+  
+  <!-- Open Graph -->
   <meta property="og:title" content="FlashBack Radio – El Eco del Tiempo">
   <meta property="og:description" content="Clásicos de los 60s a los 90s. Música que se recuerda con el alma.">
   <meta property="og:image" content="img/logo.png">
   <meta property="og:url" content="https://flashbackradio2025.github.io">
   <meta property="og:type" content="website">
+
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
   <style>
     body {
@@ -25,7 +28,7 @@
       color: #fff;
     }
 
-    /* VINILO DE FONDO */
+    /* Fondo de vinilo animado */
     .vinyl-background {
       position: fixed;
       top: 0;
@@ -36,7 +39,6 @@
       pointer-events: none;
       overflow: hidden;
     }
-
     .vinyl-background video {
       width: 100%;
       height: 100%;
@@ -44,7 +46,7 @@
       filter: brightness(1.8) contrast(1.0);
     }
 
-    /* CABECERA: VIDEO COMPLETO */
+    /* Video de presentación */
     #header-intro {
       width: 100%;
       aspect-ratio: 16 / 9;
@@ -54,7 +56,6 @@
       position: relative;
       box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
     }
-
     #intro-video {
       width: 100%;
       height: 100%;
@@ -69,65 +70,20 @@
       box-sizing: border-box;
     }
 
-    h2 {
+    h2, h3 {
       text-align: center;
-      color: #00ffff;
       margin: 30px 0 20px;
       text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
     }
-
-    .muses-player-container {
-      background: linear-gradient(135deg, #0d0d0d, #1a1a40);
-      padding: 25px;
-      text-align: center;
-      border-radius: 20px;
-      max-width: 350px;
-      margin: 0 auto;
-      box-shadow: 0 0 25px rgba(138, 43, 226, 0.7);
-    }
-
-    .muses-player-container img {
-      max-width: 140px;
-      margin-bottom: 15px;
-      border-radius: 12px;
-      box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
-    }
-
-    .muses-player-container h2 {
+    h2 {
       color: #00ffff;
-      font-family: 'Trebuchet MS', sans-serif;
-      text-shadow: 0 0 8px #8a2be2;
-      margin: 0;
+      font-size: 1.8em;
+    }
+    h3 {
+      color: #ffcc66;
       font-size: 1.4em;
     }
 
-    .muses-player-container .subtitle {
-      color: #ccc;
-      font-size: 0.95em;
-      margin: 5px 0 15px;
-    }
-
-    .muses-player-container .footer-note {
-      margin-top: 15px;
-      color: #888;
-      font-size: 0.9em;
-    }
-
-    .player-iframe {
-      width: 180px;
-      height: 60px;
-      border: none;
-      margin: 10px auto;
-      display: block;
-      background: transparent;
-    }
-
-    .orbL {
-      margin: 0 auto;
-      max-width: 350px;
-    }
-
-    /* Frase inspiradora */
     .quote {
       text-align: center;
       font-family: 'Special Elite', cursive;
@@ -138,7 +94,6 @@
       text-shadow: 0 0 6px rgba(255, 204, 102, 0.4);
     }
 
-    /* GIFs ochenteros – responsivos */
     .retro-gifs {
       display: flex;
       flex-wrap: wrap;
@@ -146,14 +101,67 @@
       gap: 8px;
       margin: 20px 0;
     }
-
     .retro-gifs img {
       height: 55px;
       filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.6));
       max-width: 100%;
     }
 
-    /* Brillo pulsante Cafecito */
+    /* Reproductor principal */
+    .player-section {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .radio-card {
+      background: linear-gradient(135deg, #0d0d0d, #1a1a40);
+      padding: 25px;
+      border-radius: 20px;
+      max-width: 350px;
+      margin: 0 auto;
+      box-shadow: 0 0 25px rgba(138, 43, 226, 0.7);
+    }
+
+    .radio-card img {
+      max-width: 140px;
+      margin-bottom: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+    }
+
+    .radio-card h3 {
+      color: #00ffff;
+      margin: 0 0 10px;
+      font-size: 1.4em;
+      text-shadow: 0 0 8px #8a2be2;
+    }
+
+    .radio-card .subtitle {
+      color: #ccc;
+      font-size: 0.95em;
+      margin-bottom: 15px;
+    }
+
+    .player-iframe {
+      width: 300px;
+      height: 90px;
+      border: none;
+      margin: 15px auto;
+      display: block;
+      background: transparent;
+    }
+
+    /* Playlist en vivo */
+    .playlist-section {
+      margin: 30px 0;
+    }
+
+    .orbL {
+      max-width: 350px;
+      margin: 0 auto;
+    }
+
+    /* Cafecito */
     .cafecito-glow {
       max-width: 100%;
       height: auto;
@@ -166,18 +174,46 @@
       0%, 100% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.6); }
       50%     { box-shadow: 0 0 30px rgba(255, 215, 0, 0.9); }
     }
+
+    .app-link {
+      text-align: center;
+      margin: 25px 0;
+      font-size: 0.95em;
+      color: #aaa;
+    }
+    .app-link a {
+      color: #ffcc66;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 0.9em;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      color: #4a6fa5;
+      text-shadow: 
+        -2px -2px 0 #ffd700,
+         2px -2px 0 #ffd700,
+        -2px 2px 0 #ffd700,
+         2px 2px 0 #ffd700,
+         0 0 10px rgba(255, 215, 0, 0.4);
+      border-top: 1px solid #2a3a5f;
+    }
   </style>
 </head>
 <body>
 
-  <!-- VINILO DE FONDO -->
+  <!-- Fondo de vinilo -->
   <div class="vinyl-background">
     <video autoplay muted loop playsinline>
       <source src="video/vinilo-loop.mp4" type="video/mp4">
     </video>
   </div>
 
-  <!-- CABECERA -->
+  <!-- Video introductorio -->
   <header id="header-intro">
     <video id="intro-video" autoplay muted playsinline preload="metadata">
       <source src="video/presentacion.mp4" type="video/mp4">
@@ -186,41 +222,53 @@
 
   <main>
     <!-- Frase aleatoria -->
-    <div class="quote" id="random-quote">
-      <!-- Se reemplaza con JS -->
-    </div>
+    <div class="quote" id="random-quote"></div>
 
-    <!-- GIFs ochenteros -->
+    <!-- GIFs retro -->
     <div class="retro-gifs">
       <img src="https://static.wixstatic.com/media/da6f98_152ffd5bcbd64e94a2ba49fc1ab71345~mv2.gif" alt="Retro 1">
       <img src="https://static.wixstatic.com/media/da6f98_2493d16d46f9442d9194f2fa6edc2b23~mv2.gif" alt="Retro 2">
       <img src="https://static.wixstatic.com/media/da6f98_d7417aa13a9b4a75af096acc03354264~mv2.gif" alt="Retro 3">
     </div>
 
-    <!-- Reproductor -->
+    <!-- Reproductor en vivo -->
     <section class="player-section">
-      <h2>🎧 Escuchanos en Vivo <span style="color:#ff3366; text-shadow: 0 0 8px #ff0044; font-size:0.9em;">●</span></h2>
-      <div class="muses-player-container">
+      <h2>🎧 Escuchanos en Vivo</h2>
+      <div class="radio-card">
         <img src="https://static.wixstatic.com/media/da6f98_5c139a923d8849978c3b8ce6ed99aeac~mv2.png" alt="FlashBack Radio">
-        <h2>FlashBack Radio</h2>
-        <p class="subtitle">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
+        <h3>FlashBack Radio</h3>
+        <p class="subtitle">El Eco del Tiempo – Clásicos de los ‘60s a los ‘90s</p>
         <iframe class="player-iframe" src="player.html"></iframe>
-        <p class="footer-note">✨ Música retro – Hecho a pulmón 💜</p>
+        <p class="subtitle" style="font-size:0.85em; margin-top:10px;">✨ Música retro – Hecho a pulmón 💜</p>
       </div>
     </section>
 
-    <!-- Playlist + Cafecito -->
+    <!-- Playlist en vivo -->
     <section class="playlist-section">
-      <h2>🎶 Ahora en FlashBack Radio</h2>
+      <h3>🎶 Ahora: Un recuerdo que vuelve a sonar</h3>
       <div class="orbL" id="orb_pl_1c330825cc9bd307">
         <style media="screen">
-          .orbL{position:relative;box-sizing:border-box;overflow:hidden;font-weight:normal;border:1px solid;text-align:left;background:#0f0c29 !important;border-color:#00f3ff !important;border-radius:8px}.orbL br,.orbL>br{display:none!important;}.orbL p,.orbL>p{margin:0!important;padding:0!important;line-height:normal!important;font-size:inherit!important}.orbLh{display:block;position:absolute;z-index:100;top:22px;right:10px;margin-top:-12px;width:21px;text-decoration:none!important;cursor:pointer}.orbLh>img{margin:0!important;border:none!important;height:24px!important;-webkit-filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4));filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4))}.orbLt{display:block;box-sizing:border-box;overflow:hidden;padding-left:10px!important;font-weight:normal;line-height:44px!important;min-height:44px;text-decoration:none!important;background:rgba(0,50,100,0.4) !important}.orbLti{float:left!important;margin:10px 10px 10px 0!important;height:24px!important;width:44px!important;border:none!important;border-radius:2px!important;opacity:1!important;}.orbLtn{display:block;margin-right:54px!important;font-size:16px!important;font-weight:bold;color:#00f3ff !important;text-shadow: 0 0 8px #00f3ff;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.orbIL{position:relative;overflow:auto;overflow-x:hidden;overflow-y:auto;margin:0!important;padding:0!important;list-style:none!important;background:#0a081a !important}.orbILi{box-sizing:border-box;margin:0!important;padding:0 10px!important;list-style:none!important}.orbILi>a,.orbILi>span{display:block!important;height:auto!important;font-weight:normal!important;text-decoration:none!important;line-height:32px!important;font-size:14px!important;color:#ffcc00 !important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;-webkit-transition:color .125s;transition:color .125s;text-shadow: 0 0 5px rgba(255,204,0,0.6)}.orbILi>a:hover,.orbILi>span:hover{color:#ff33cc !important;text-shadow: 0 0 8px #ff33cc}.orbILi>a>time,.orbILi>span>time{display:inline-block;font-size:12px!important;width:3em;color:#00f3ff !important}.orbILi+li{border-style:solid!important;border-width:1px 0 0!important;border-color:#00f3ff33 !important}.orbILs{display:none}
+          .orbL{position:relative;box-sizing:border-box;overflow:hidden;font-weight:normal;border:1px solid;text-align:left;background:#0f0c29 !important;border-color:#00f3ff !important;border-radius:8px}
+          .orbL br,.orbL>br{display:none!important;}
+          .orbL p,.orbL>p{margin:0!important;padding:0!important;line-height:normal!important;font-size:inherit!important}
+          .orbLh{display:block;position:absolute;z-index:100;top:22px;right:10px;margin-top:-12px;width:21px;text-decoration:none!important;cursor:pointer}
+          .orbLh>img{margin:0!important;border:none!important;height:24px!important;-webkit-filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4));filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4))}
+          .orbLt{display:block;box-sizing:border-box;overflow:hidden;padding-left:10px!important;font-weight:normal;line-height:44px!important;min-height:44px;text-decoration:none!important;background:rgba(0,50,100,0.4) !important}
+          .orbLti{float:left!important;margin:10px 10px 10px 0!important;height:24px!important;width:44px!important;border:none!important;border-radius:2px!important;opacity:1!important;}
+          .orbLtn{display:block;margin-right:54px!important;font-size:16px!important;font-weight:bold;color:#00f3ff !important;text-shadow: 0 0 8px #00f3ff;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
+          .orbIL{position:relative;overflow:auto;overflow-x:hidden;overflow-y:auto;margin:0!important;padding:0!important;list-style:none!important;background:#0a081a !important}
+          .orbILi{box-sizing:border-box;margin:0!important;padding:0 10px!important;list-style:none!important}
+          .orbILi>a,.orbILi>span{display:block!important;height:auto!important;font-weight:normal!important;text-decoration:none!important;line-height:32px!important;font-size:14px!important;color:#ffcc00 !important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;-webkit-transition:color .125s;transition:color .125s;text-shadow: 0 0 5px rgba(255,204,0,0.6)}
+          .orbILi>a:hover,.orbILi>span:hover{color:#ff33cc !important;text-shadow: 0 0 8px #ff33cc}
+          .orbILi>a>time,.orbILi>span>time{display:inline-block;font-size:12px!important;width:3em;color:#00f3ff !important}
+          .orbILi+li{border-style:solid!important;border-width:1px 0 0!important;border-color:#00f3ff33 !important}
+          .orbILs{display:none}
         </style>
         <a class="orbLh" href="https://onlineradiobox.com/ar/" target="_blank">
           <img src="//ecdn.onlineradiobox.com/img/wl.svg" alt="Listen on Online Radio Box!">
         </a>
         <a class="orbLt" href="https://onlineradiobox.com/ar/musicaparaelrecuerdo/" target="_blank">
-          <img class="orbLti" src="//cdn.onlineradiobox.com/img/l/5/150015.v2.png" alt="Musica para el Recuerdo">
+          <img class="orbLti" src="//cdn.onlineradiobox.com/img/l/5/150015.v2.png" alt="FlashBack Radio">
           <span class="orbLtn">FlashBack Radio</span>
         </a>
         <script>
@@ -234,23 +282,31 @@
           document.head.appendChild(s);
         </script>
       </div>
-
-      <!-- Botón de Cafecito -->
-      <div style="text-align: center; margin: 30px 0;">
-        <a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener">
-          <img src="img/apoyo.png" alt="El eco del tiempo suena mejor con tu apoyo, invitame un cafecito" class="cafecito-glow">
-        </a>
-      </div>
     </section>
+
+    <!-- Cafecito -->
+    <div style="text-align: center; margin: 30px 0;">
+      <p style="color: #ffcc66; margin-bottom: 15px; font-size: 1.1em;">
+        ¿Te gusta la Radio? Invitános un cafecito y ayudanos a mantener viva la nostalgia.
+      </p>
+      <a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener">
+        <img src="img/apoyo.png" alt="Invitame un cafecito" class="cafecito-glow">
+      </a>
+    </div>
+
+    <!-- App de OnlineRadioBox -->
+    <div class="app-link">
+      ¿Querés escuchar desde tu celular?<br>
+      <a href="https://onlineradiobox.com/app" target="_blank">Descargá la app gratuita de OnlineRadioBox</a>
+    </div>
   </main>
 
-  <!-- Script: frase aleatoria -->
+  <!-- Scripts -->
   <script>
     document.getElementById('intro-video').onended = function() {
       this.pause();
     };
 
-    // Frases inspiradoras aleatorias
     const frases = [
       "Hay músicas que no se escuchan con los oídos.<br>Se recuerdan con el alma.",
       "Algunas canciones son puertas al pasado.",
@@ -263,24 +319,19 @@
     quoteElement.innerHTML = `"${fraseAleatoria}"`;
   </script>
 
-  <!-- Contador de visitas (GoatCounter) -->
+  <!-- Contador -->
   <script data-goatcounter="https://flashbackradio.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
 
-  <!-- Pie de página legal -->
-  <footer style="text-align: center; margin-top: 40px; padding: 20px; font-size: 0.9em; font-family: 'Orbitron', sans-serif; font-weight: bold; color: #4a6fa5; text-shadow: 
-    -2px -2px 0 #ffd700,
-     2px -2px 0 #ffd700,
-    -2px 2px 0 #ffd700,
-     2px 2px 0 #ffd700,
-     0 0 10px rgba(255, 215, 0, 0.4);
-    border-top: 1px solid #2a3a5f;">
+  <!-- Footer legal -->
+  <footer>
     FlashBack Radio es un proyecto personal sin fines de lucro.<br>
     La música transmitida pertenece a sus respectivos autores.<br>
     Escuchá con respeto y apoyá a los artistas.
   </footer>
 </body>
 </html>
+
 
 
 
