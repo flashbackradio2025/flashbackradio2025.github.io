@@ -43,12 +43,12 @@
   height: 100%;
   object-fit: cover;
   filter: brightness(1.8) contrast(1.0);
-  opacity: 0;
-  animation: vinylFadeIn 5s forwards;
+  animation: vinylGlow 8s infinite alternate;
 }
 
-@keyframes vinylFadeIn {
-  to { opacity: 1; }
+@keyframes vinylGlow {
+  from { filter: brightness(1.6) contrast(1.0); }
+  to   { filter: brightness(2.0) contrast(1.0); }
 }
 
     /* CABECERA: VIDEO COMPLETO */
@@ -256,6 +256,7 @@
   
 </body>
 </html>
+
 
 
 
