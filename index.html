@@ -325,17 +325,110 @@
     La música transmitida pertenece a sus respectivos autores.<br>
     Escuchá con respeto y apoyá a los artistas.
   </footer>
+
+  <!-- Scripts: Service Worker + Banner PWA -->
   <script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/sw.js')
-        .then(() => console.log('Service Worker registrado para PWA'))
-        .catch(err => console.log('Error al registrar SW:', err));
+    // Registrar Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(() => console.log('Service Worker registrado para PWA'))
+          .catch(err => console.log('Error al registrar SW:', err));
+      });
+    }
+
+    // Banner de instalación PWA
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      document.getElementById('pwa-banner').style.display = 'flex';
     });
-  }
-</script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Botón Instalar
+      document.getElementById('pwa-install-btn').addEventListener('click', () => {
+        if (deferredPrompt) {
+          deferredPrompt.prompt();
+          deferredPrompt.userChoice.then((choiceResult) => {
+            if (choiceResult.outcome === 'accepted') {
+              console.log('Usuario instaló la app');
+            }
+            deferredPrompt = null;
+            document.getElementById('pwa-banner').style.display = 'none';
+          });
+        }
+      });
+
+      // Cerrar banner
+      document.getElementById('pwa-close-banner').addEventListener('click', () => {
+        document.getElementById('pwa-banner').style.display = 'none';
+      });
+
+      // Mensaje alternativo para iOS (tras 3 segundos)
+      setTimeout(() => {
+        const banner = document.getElementById('pwa-banner');
+        if (banner.style.display === 'none' && !deferredPrompt) {
+          const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+          if (isIOS) {
+            banner.innerHTML = `
+              <div>📲 En iPhone: abre en <strong>Safari</strong>, toca <strong>Compartir → Añadir a pantalla de inicio</strong></div>
+              <button id="pwa-close-banner" style="background:transparent; color:#aaa; border:none; font-size:0.85em; cursor:pointer; margin-top:4px;">Cerrar</button>
+            `;
+            banner.style.display = 'flex';
+            // Volver a asignar el evento de cierre (nuevo botón)
+            document.getElementById('pwa-close-banner').addEventListener('click', () => {
+              banner.style.display = 'none';
+            });
+          }
+        }
+      }, 3000);
+    });
+  </script>
+
+  <!-- Banner de instalación PWA -->
+  <div id="pwa-banner" style="
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #ffcc66;
+    padding: 12px 20px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.95em;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+  ">
+    <div>🎧 ¿Te gusta FlashBack Radio? ¡Instálala como app en tu celular!</div>
+    <button id="pwa-install-btn" style="
+      background: #ff0066;
+      color: white;
+      border: none;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 0 8px rgba(255, 0, 102, 0.6);
+      margin-top: 4px;
+    ">➕ Instalar App</button>
+    <button id="pwa-close-banner" style="
+      background: transparent;
+      color: #aaa;
+      border: none;
+      font-size: 0.85em;
+      cursor: pointer;
+      margin-top: 4px;
+    ">Cerrar</button>
+  </div>
 </body>
 </html>
+
 
 
 
