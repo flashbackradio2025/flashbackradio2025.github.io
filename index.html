@@ -20,27 +20,6 @@
   <meta property="og:type" content="website">
 
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
-
-  /* Guirnalda navideña (solo en diciembre) */
-    .navidad-guirnalda {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 12px;
-      background: repeating-linear-gradient(
-        90deg,
-        #d4af37, /* dorado viejo */
-        #d4af37 10px,
-        #8b0000 10px, /* rojo oscuro */
-        #8b0000 20px,
-        #013220 20px, /* verde oscuro */
-        #013220 30px
-      );
-      z-index: 1000;
-      box-shadow: 0 2px 6px rgba(212, 175, 55, 0.3);
-      pointer-events: none;
-    }
   <style>
     body {
       margin: 0;
@@ -85,7 +64,7 @@
       background: #000;
     }
 
-        main {
+    main {
       padding: 20px;
       max-width: 800px;
       margin: 20px auto;
@@ -230,10 +209,30 @@
          0 0 10px rgba(255, 215, 0, 0.4);
       border-top: 1px solid #2a3a5f;
     }
+
+    /* Guirnalda navideña (solo en diciembre) */
+    .navidad-guirnalda {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 12px;
+      background: repeating-linear-gradient(
+        90deg,
+        #d4af37, /* dorado viejo */
+        #d4af37 10px,
+        #8b0000 10px, /* rojo oscuro */
+        #8b0000 20px,
+        #013220 20px, /* verde oscuro */
+        #013220 30px
+      );
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(212, 175, 55, 0.3);
+      pointer-events: none;
+    }
   </style>
 </head>
 <body>
-  
   <!-- Guirnalda navideña (solo en diciembre) -->
   <script>
     const hoy = new Date();
@@ -241,7 +240,6 @@
       document.body.insertAdjacentHTML('afterbegin', '<div class="navidad-guirnalda"></div>');
     }
   </script>
-  
 
   <!-- Fondo de vinilo -->
   <div class="vinyl-background">
@@ -479,6 +477,7 @@
   </div>
 </body>
 </html>
+
 
 
 
