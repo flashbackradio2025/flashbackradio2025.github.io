@@ -99,7 +99,18 @@
       margin: 20px 0;
       line-height: 1.5;
       text-shadow: 0 0 6px rgba(255, 204, 102, 0.4);
+      position: relative;
     }
+
+    /* Contenedores para adornos en la frase */
+    .adorno-izquierda, .adorno-derecha {
+      position: absolute;
+      top: -30px;
+      width: 40px;
+      height: 40px;
+    }
+    .adorno-izquierda { left: 10px; }
+    .adorno-derecha { right: 10px; }
 
     .retro-gifs {
       display: flex;
@@ -161,6 +172,17 @@
     /* Playlist en vivo */
     .playlist-section {
       margin: 30px 0;
+      position: relative;
+    }
+
+    /* Adorno central en playlist */
+    .adorno-centro-playlist {
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 50px;
     }
 
     .orbL {
@@ -193,6 +215,18 @@
       text-decoration: underline;
     }
 
+    /* Contacto con adornos */
+    .contacto-navidad {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+    }
+    .contacto-navidad .adorno-contacto {
+      width: 35px;
+      height: 35px;
+    }
+
     footer {
       text-align: center;
       margin-top: 40px;
@@ -209,64 +243,9 @@
          0 0 10px rgba(255, 215, 0, 0.4);
       border-top: 1px solid #2a3a5f;
     }
-
-    /* Guirnalda navideña con luces (solo en diciembre) */
-    .navidad-guirnalda-luces {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 20px;
-      z-index: 1000;
-      pointer-events: none;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 18px;
-      padding: 5px 0;
-    }
-
-    .navidad-guirnalda-luces .luz {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      box-shadow: 0 0 8px currentColor;
-      animation: parpadear 2.5s infinite;
-    }
-
-    .navidad-guirnalda-luces .luz:nth-child(2) { color: #d4af37; animation-delay: 0.3s; }
-    .navidad-guirnalda-luces .luz:nth-child(3) { color: #8b0000; animation-delay: 0.6s; }
-    .navidad-guirnalda-luces .luz:nth-child(4) { color: #013220; animation-delay: 0.9s; }
-    .navidad-guirnalda-luces .luz:nth-child(5) { color: #f5f5dc; animation-delay: 1.2s; }
-    .navidad-guirnalda-luces .luz:nth-child(6) { color: #d4af37; animation-delay: 1.5s; }
-    .navidad-guirnalda-luces .luz:nth-child(7) { color: #8b0000; animation-delay: 1.8s; }
-
-    @keyframes parpadear {
-      0%, 100% { opacity: 0.4; box-shadow: 0 0 4px currentColor; }
-      50% { opacity: 1; box-shadow: 0 0 12px currentColor; }
-    }
   </style>
 </head>
 <body>
-  <!-- Guirnalda de luces navideña (solo en diciembre) -->
-  <script>
-    const hoy = new Date();
-    if (hoy.getMonth() === 11) {
-      const guirnalda = document.createElement('div');
-      guirnalda.className = 'navidad-guirnalda-luces';
-      guirnalda.innerHTML = `
-        <div class="luz"></div>
-        <div class="luz"></div>
-        <div class="luz"></div>
-        <div class="luz"></div>
-        <div class="luz"></div>
-        <div class="luz"></div>
-        <div class="luz"></div>
-      `;
-      document.body.prepend(guirnalda);
-    }
-  </script>
-
   <!-- Fondo de vinilo -->
   <div class="vinyl-background">
     <video autoplay muted loop playsinline>
@@ -282,8 +261,10 @@
   </header>
 
   <main>
-    <!-- Frase aleatoria -->
-    <div class="quote" id="random-quote"></div>
+    <!-- Frase aleatoria con adornos navideños -->
+    <div class="quote" id="random-quote">
+      <!-- Los adornos se insertarán aquí si es diciembre/enero -->
+    </div>
 
     <!-- GIFs retro -->
     <div class="retro-gifs">
@@ -304,7 +285,7 @@
       </div>
     </section>
 
-    <!-- Playlist en vivo -->
+    <!-- Playlist en vivo con árbol navideño -->
     <section class="playlist-section">
       <h3>🎶 Ahora: Un recuerdo que vuelve a sonar</h3>
       <div class="orbL" id="orb_pl_1c330825cc9bd307">
@@ -355,25 +336,62 @@
       </a>
     </div>
 
-    <div style="
-      text-align: center;
-      margin: 25px 0;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.95em;
-      color: #aaa;
-    ">
-      <p style="margin: 8px 0;">
-        📧 <a href="mailto:flashbackradio2025@gmail.com" style="color: #ffcc66; text-decoration: underline;">flashbackradio2025@gmail.com</a>
-      </p>
-      <p style="margin: 8px 0;">
-        📘 <a href="https://www.facebook.com/profile.php?id=100076717266837" target="_blank" rel="noopener" style="color: #ffcc66; text-decoration: underline;">Algo Para Recordar y Compartir</a>
-      </p>
+    <!-- Contacto con adornos navideños -->
+    <div class="contacto-navidad" id="contacto-navidad">
+      <img src="https://www.gifsanimados.org/data/media/333/adorno-para-el-arbol-de-navidad-imagen-animada-0161.gif" class="adorno-contacto" alt="Adorno izquierda">
+      <div style="text-align: center; font-family: 'Orbitron', sans-serif; font-size: 0.95em; color: #aaa;">
+        <p style="margin: 8px 0;">
+          📧 <a href="mailto:flashbackradio2025@gmail.com" style="color: #ffcc66; text-decoration: underline;">flashbackradio2025@gmail.com</a>
+        </p>
+        <p style="margin: 8px 0;">
+          📘 <a href="https://www.facebook.com/profile.php?id=100076717266837" target="_blank" rel="noopener" style="color: #ffcc66; text-decoration: underline;">Algo Para Recordar y Compartir</a>
+        </p>
+      </div>
+      <img src="https://www.gifsanimados.org/data/media/333/adorno-para-el-arbol-de-navidad-imagen-animada-0156.gif" class="adorno-contacto" alt="Adorno derecha">
     </div>
-
    </main>
 
   <!-- Scripts -->
   <script>
+    // Fecha actual
+    const hoy = new Date();
+    const mes = hoy.getMonth(); // Diciembre = 11, Enero = 0
+    const dia = hoy.getDate();
+    const anio = hoy.getFullYear();
+
+    // Rango navideño: 1/12 al 6/1
+    const esNavidad = 
+      (mes === 11 && dia >= 1) || 
+      (mes === 0 && dia <= 6 && anio === (new Date().getFullYear()));
+
+    // Si es navidad, insertar los adornos
+    if (esNavidad) {
+      // 1. Adornos en la frase (arriba derecha e izquierda)
+      const quote = document.getElementById('random-quote');
+      const adornoIzq = document.createElement('img');
+      adornoIzq.src = "https://www.gifsanimados.org/data/media/333/adorno-para-el-arbol-de-navidad-imagen-animada-0187.gif";
+      adornoIzq.className = "adorno-izquierda";
+      adornoIzq.alt = "Adorno izquierda";
+
+      const adornoDer = document.createElement('img');
+      adornoDer.src = "https://www.gifsanimados.org/data/media/333/adorno-para-el-arbol-de-navidad-imagen-animada-0124.gif";
+      adornoDer.className = "adorno-derecha";
+      adornoDer.alt = "Adorno derecha";
+
+      quote.style.position = "relative";
+      quote.appendChild(adornoIzq);
+      quote.appendChild(adornoDer);
+
+      // 2. Árbol navideño en playlist (centrado abajo)
+      const playlist = document.querySelector('.playlist-section');
+      const arbol = document.createElement('img');
+      arbol.src = "https://www.gifsanimados.org/data/media/357/arbol-de-navidad-imagen-animada-0335.gif";
+      arbol.className = "adorno-centro-playlist";
+      arbol.alt = "Árbol de Navidad";
+      playlist.appendChild(arbol);
+    }
+
+    // Frase aleatoria
     document.getElementById('intro-video').onended = function() {
       this.pause();
     };
@@ -386,8 +404,10 @@
       "La mejor banda sonora es la de tu vida."
     ];
     const quoteElement = document.getElementById('random-quote');
-    const fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
-    quoteElement.innerHTML = `"${fraseAleatoria}"`;
+    if (!esNavidad) {
+      const fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
+      quoteElement.innerHTML = `"${fraseAleatoria}"`;
+    }
   </script>
 
   <!-- Contador -->
@@ -502,6 +522,7 @@
   </div>
 </body>
 </html>
+
 
 
 
