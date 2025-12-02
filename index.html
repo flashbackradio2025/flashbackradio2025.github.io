@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FlashBack Radio – El Eco del Tiempo</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="manifest" href="/manifest.json"> <!-- ✅ AÑADIDO AQUÍ -->
+  <link rel="manifest" href="/manifest.json">
   <meta name="google-site-verification" content="CR25F-doYcltro-Lpu18SlzL2Yupded_stDh56s4VxI" />
   
   <!-- SEO y redes sociales -->
@@ -210,34 +210,60 @@
       border-top: 1px solid #2a3a5f;
     }
 
-    /* Guirnalda navideña (solo en diciembre) */
-    .navidad-guirnalda {
+    /* Guirnalda navideña con luces (solo en diciembre) */
+    .navidad-guirnalda-luces {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
-      height: 12px;
-      background: repeating-linear-gradient(
-        90deg,
-        #d4af37, /* dorado viejo */
-        #d4af37 10px,
-        #8b0000 10px, /* rojo oscuro */
-        #8b0000 20px,
-        #013220 20px, /* verde oscuro */
-        #013220 30px
-      );
+      height: 20px;
       z-index: 1000;
-      box-shadow: 0 2px 6px rgba(212, 175, 55, 0.3);
       pointer-events: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 18px;
+      padding: 5px 0;
+    }
+
+    .navidad-guirnalda-luces .luz {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      box-shadow: 0 0 8px currentColor;
+      animation: parpadear 2.5s infinite;
+    }
+
+    .navidad-guirnalda-luces .luz:nth-child(2) { color: #d4af37; animation-delay: 0.3s; }
+    .navidad-guirnalda-luces .luz:nth-child(3) { color: #8b0000; animation-delay: 0.6s; }
+    .navidad-guirnalda-luces .luz:nth-child(4) { color: #013220; animation-delay: 0.9s; }
+    .navidad-guirnalda-luces .luz:nth-child(5) { color: #f5f5dc; animation-delay: 1.2s; }
+    .navidad-guirnalda-luces .luz:nth-child(6) { color: #d4af37; animation-delay: 1.5s; }
+    .navidad-guirnalda-luces .luz:nth-child(7) { color: #8b0000; animation-delay: 1.8s; }
+
+    @keyframes parpadear {
+      0%, 100% { opacity: 0.4; box-shadow: 0 0 4px currentColor; }
+      50% { opacity: 1; box-shadow: 0 0 12px currentColor; }
     }
   </style>
 </head>
 <body>
-  <!-- Guirnalda navideña (solo en diciembre) -->
+  <!-- Guirnalda de luces navideña (solo en diciembre) -->
   <script>
     const hoy = new Date();
-    if (hoy.getMonth() === 11) { // Diciembre = mes 11
-      document.body.insertAdjacentHTML('afterbegin', '<div class="navidad-guirnalda"></div>');
+    if (hoy.getMonth() === 11) {
+      const guirnalda = document.createElement('div');
+      guirnalda.className = 'navidad-guirnalda-luces';
+      guirnalda.innerHTML = `
+        <div class="luz"></div>
+        <div class="luz"></div>
+        <div class="luz"></div>
+        <div class="luz"></div>
+        <div class="luz"></div>
+        <div class="luz"></div>
+        <div class="luz"></div>
+      `;
+      document.body.prepend(guirnalda);
     }
   </script>
 
@@ -425,7 +451,6 @@
               <button id="pwa-close-banner" style="background:transparent; color:#aaa; border:none; font-size:0.85em; cursor:pointer; margin-top:4px;">Cerrar</button>
             `;
             banner.style.display = 'flex';
-            // Volver a asignar el evento de cierre (nuevo botón)
             document.getElementById('pwa-close-banner').addEventListener('click', () => {
               banner.style.display = 'none';
             });
@@ -477,6 +502,7 @@
   </div>
 </body>
 </html>
+
 
 
 
