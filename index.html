@@ -102,7 +102,6 @@
       position: relative;
     }
 
-    /* Contenedores para adornos en la frase */
     .adorno-izquierda, .adorno-derecha {
       position: absolute;
       top: -30px;
@@ -169,13 +168,47 @@
       background: transparent;
     }
 
+    /* LED indicator en vivo */
+    .live-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin: 10px 0;
+      padding: 6px 16px;
+      background: rgba(255, 0, 0, 0.2);
+      border: 1px solid #ff0000;
+      border-radius: 20px;
+      font-size: 0.9em;
+      color: #ff3333;
+      font-weight: bold;
+      animation: pulse-live 2s infinite;
+    }
+    
+    .live-dot {
+      width: 10px;
+      height: 10px;
+      background: #ff0000;
+      border-radius: 50%;
+      box-shadow: 0 0 10px #ff0000;
+      animation: blink-live 1s infinite;
+    }
+    
+    @keyframes blink-live {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    
+    @keyframes pulse-live {
+      0%, 100% { box-shadow: 0 0 10px rgba(255, 0, 0, 0.4); }
+      50% { box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); }
+    }
+
     /* Playlist en vivo */
     .playlist-section {
       margin: 30px 0;
       position: relative;
     }
 
-    /* Adorno central en playlist */
     .adorno-centro-playlist {
       position: absolute;
       bottom: -30px;
@@ -183,11 +216,6 @@
       transform: translateX(-50%);
       width: 50px;
       height: 50px;
-    }
-
-    .orbL {
-      max-width: 350px;
-      margin: 0 auto;
     }
 
     /* Cafecito */
@@ -243,6 +271,123 @@
          0 0 10px rgba(255, 215, 0, 0.4);
       border-top: 1px solid #2a3a5f;
     }
+
+    /* Widget de metadatos personalizado (estilo neón) */
+    .metadata-widget {
+      background: rgba(10, 8, 26, 0.95);
+      border: 2px solid #00f3ff;
+      border-radius: 16px;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 500px;
+      box-shadow: 0 0 30px rgba(0, 243, 255, 0.4);
+      text-align: left;
+      font-family: 'Special Elite', cursive;
+    }
+    
+    .metadata-widget h3 {
+      color: #00ffff;
+      margin: 0 0 15px;
+      font-size: 1.3em;
+      text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
+      text-align: center;
+    }
+    
+    .meta-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(0, 243, 255, 0.3);
+      font-size: 0.95em;
+    }
+    .meta-row:last-child { border-bottom: none; }
+    .meta-label { color: #ffcc00; font-weight: bold; }
+    .meta-value { color: #fff; text-align: right; max-width: 60%; }
+    
+    .history-list {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+      max-height: 150px;
+      overflow-y: auto;
+    }
+    .history-list li {
+      padding: 4px 0;
+      font-size: 0.9em;
+      color: #ffcc66;
+      border-bottom: 1px dashed rgba(255, 204, 102, 0.3);
+    }
+    .history-list li:last-child { border-bottom: none; }
+    
+    .meta-loading, .schedule-loading {
+      text-align: center;
+      color: #aaa;
+      font-style: italic;
+      padding: 10px;
+    }
+    
+    .meta-error, .schedule-error {
+      color: #ff6666;
+      font-size: 0.9em;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* === NUEVO: Grilla de programación (estilo neón) === */
+    .schedule-section {
+      background: rgba(10, 8, 26, 0.95);
+      border: 2px solid #00f3ff;
+      border-radius: 16px;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 500px;
+      box-shadow: 0 0 30px rgba(0, 243, 255, 0.4);
+      text-align: left;
+      font-family: 'Special Elite', cursive;
+    }
+    
+    .schedule-section h3 {
+      color: #00ffff;
+      margin: 0 0 15px;
+      font-size: 1.3em;
+      text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
+      text-align: center;
+    }
+    
+    .schedule-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .schedule-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(0, 243, 255, 0.3);
+      font-size: 0.95em;
+    }
+    .schedule-item:last-child { border-bottom: none; }
+    
+    .schedule-time {
+      color: #ffcc00;
+      font-weight: bold;
+      min-width: 60px;
+    }
+    
+    .schedule-show {
+      color: #fff;
+      text-align: right;
+      flex: 1;
+      padding-left: 10px;
+    }
+    
+    .schedule-empty {
+      text-align: center;
+      color: #aaa;
+      font-style: italic;
+      padding: 15px;
+    }
   </style>
 </head>
 <body>
@@ -262,9 +407,7 @@
 
   <main>
     <!-- Frase aleatoria con adornos navideños -->
-    <div class="quote" id="random-quote">
-      <!-- Los adornos se insertarán aquí si es diciembre/enero -->
-    </div>
+    <div class="quote" id="random-quote"></div>
 
     <!-- GIFs retro -->
     <div class="retro-gifs">
@@ -273,56 +416,38 @@
       <img src="https://static.wixstatic.com/media/da6f98_d7417aa13a9b4a75af096acc03354264~mv2.gif" alt="Retro 3">
     </div>
 
-    <!-- Reproductor en vivo -->
+    <!-- Reproductor en vivo (Zeno) -->
     <section class="player-section">
       <h2>🎧 Escuchanos en Vivo</h2>
       <div class="radio-card">
         <img src="https://static.wixstatic.com/media/da6f98_5c139a923d8849978c3b8ce6ed99aeac~mv2.png" alt="FlashBack Radio">
         <h3>FlashBack Radio</h3>
-        <p class="subtitle">El Eco del Tiempo – Clásicos de los ‘60s a los ‘90s</p>
+        <p class="subtitle">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
+        
+        <!-- LED Indicator EN VIVO -->
+        <div class="live-indicator">
+          <span class="live-dot"></span>
+          <span>EN VIVO</span>
+        </div>
+        
         <iframe class="player-iframe" src="player.html"></iframe>
         <p class="subtitle" style="font-size:0.85em; margin-top:10px;">✨ Música retro – Hecho a pulmón 💜</p>
       </div>
     </section>
 
-    <!-- Playlist en vivo con árbol navideño -->
-    <section class="playlist-section">
-      <h3>🎶 Ahora: Un recuerdo que vuelve a sonar</h3>
-      <div class="orbL" id="orb_pl_1c330825cc9bd307">
-        <style media="screen">
-          .orbL{position:relative;box-sizing:border-box;overflow:hidden;font-weight:normal;border:1px solid;text-align:left;background:#0f0c29 !important;border-color:#00f3ff !important;border-radius:8px}
-          .orbL br,.orbL>br{display:none!important;}
-          .orbL p,.orbL>p{margin:0!important;padding:0!important;line-height:normal!important;font-size:inherit!important}
-          .orbLh{display:block;position:absolute;z-index:100;top:22px;right:10px;margin-top:-12px;width:21px;text-decoration:none!important;cursor:pointer}
-          .orbLh>img{margin:0!important;border:none!important;height:24px!important;-webkit-filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4));filter:drop-shadow(2px 2px 0 rgba(0,243,255,.4))}
-          .orbLt{display:block;box-sizing:border-box;overflow:hidden;padding-left:10px!important;font-weight:normal;line-height:44px!important;min-height:44px;text-decoration:none!important;background:rgba(0,50,100,0.4) !important}
-          .orbLti{float:left!important;margin:10px 10px 10px 0!important;height:24px!important;width:44px!important;border:none!important;border-radius:2px!important;opacity:1!important;}
-          .orbLtn{display:block;margin-right:54px!important;font-size:16px!important;font-weight:bold;color:#00f3ff !important;text-shadow: 0 0 8px #00f3ff;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}
-          .orbIL{position:relative;overflow:auto;overflow-x:hidden;overflow-y:auto;margin:0!important;padding:0!important;list-style:none!important;background:#0a081a !important}
-          .orbILi{box-sizing:border-box;margin:0!important;padding:0 10px!important;list-style:none!important}
-          .orbILi>a,.orbILi>span{display:block!important;height:auto!important;font-weight:normal!important;text-decoration:none!important;line-height:32px!important;font-size:14px!important;color:#ffcc00 !important;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;-webkit-transition:color .125s;transition:color .125s;text-shadow: 0 0 5px rgba(255,204,0,0.6)}
-          .orbILi>a:hover,.orbILi>span:hover{color:#ff33cc !important;text-shadow: 0 0 8px #ff33cc}
-          .orbILi>a>time,.orbILi>span>time{display:inline-block;font-size:12px!important;width:3em;color:#00f3ff !important}
-          .orbILi+li{border-style:solid!important;border-width:1px 0 0!important;border-color:#00f3ff33 !important}
-          .orbILs{display:none}
-        </style>
-        <a class="orbLh" href="https://onlineradiobox.com/ar/" target="_blank">
-          <img src="//ecdn.onlineradiobox.com/img/wl.svg" alt="Listen on Online Radio Box!">
-        </a>
-        <a class="orbLt" href="https://onlineradiobox.com/ar/musicaparaelrecuerdo/" target="_blank">
-          <img class="orbLti" src="//cdn.onlineradiobox.com/img/l/5/150015.v2.png" alt="FlashBack Radio">
-          <span class="orbLtn">FlashBack Radio</span>
-        </a>
-        <script>
-          var orbpl_w = orbpl_w || { lang: "es-es" };
-          orbpl_w.cmd = orbpl_w.cmd || [];
-          orbpl_w.cmd.push(function() {
-            orbpl_w.init("orb_pl_1c330825cc9bd307");
-          });
-          var s = document.createElement('script');
-          s.src = "//ecdn.onlineradiobox.com/js/plwidget.min.a1649ec0.js";
-          document.head.appendChild(s);
-        </script>
+    <!-- Widget de metadatos personalizado (AzuraCast) - SIN contador de oyentes -->
+    <section class="metadata-widget">
+      <h3>📊 Información en Vivo</h3>
+      <div id="meta-content">
+        <p class="meta-loading">⏳ Cargando datos de AzuraCast...</p>
+      </div>
+    </section>
+
+    <!-- === NUEVO: Grilla de programación de HOY (API custom) === -->
+    <section class="schedule-section">
+      <h3>📅 Programación de Hoy</h3>
+      <div id="schedule-content">
+        <p class="schedule-loading">⏳ Cargando programación...</p>
       </div>
     </section>
 
@@ -355,18 +480,15 @@
   <script>
     // Fecha actual
     const hoy = new Date();
-    const mes = hoy.getMonth(); // Diciembre = 11, Enero = 0
+    const mes = hoy.getMonth();
     const dia = hoy.getDate();
     const anio = hoy.getFullYear();
 
-    // Rango navideño: 1/12 al 6/1
     const esNavidad = 
       (mes === 11 && dia >= 1) || 
       (mes === 0 && dia <= 6 && anio === (new Date().getFullYear()));
 
-    // Si es navidad, insertar los adornos
     if (esNavidad) {
-      // 1. Adornos en la frase (arriba derecha e izquierda)
       const quote = document.getElementById('random-quote');
       const adornoIzq = document.createElement('img');
       adornoIzq.src = "https://www.gifsanimados.org/data/media/333/adorno-para-el-arbol-de-navidad-imagen-animada-0187.gif";
@@ -381,17 +503,8 @@
       quote.style.position = "relative";
       quote.appendChild(adornoIzq);
       quote.appendChild(adornoDer);
-
-      // 2. Árbol navideño en playlist (centrado abajo)
-      const playlist = document.querySelector('.playlist-section');
-      const arbol = document.createElement('img');
-      arbol.src = "https://www.gifsanimados.org/data/media/357/arbol-de-navidad-imagen-animada-0335.gif";
-      arbol.className = "adorno-centro-playlist";
-      arbol.alt = "Árbol de Navidad";
-      playlist.appendChild(arbol);
     }
 
-    // Frase aleatoria
     document.getElementById('intro-video').onended = function() {
       this.pause();
     };
@@ -408,6 +521,129 @@
       const fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
       quoteElement.innerHTML = `"${fraseAleatoria}"`;
     }
+
+    // === Función para cargar metadatos desde AzuraCast (HTTPS) - SIN contador de oyentes ===
+    async function cargarMetadatos() {
+      const API_URL = 'https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio';
+      const contenedor = document.getElementById('meta-content');
+      
+      try {
+        const response = await fetch(API_URL);
+        if (!response.ok) throw new Error('Error en la respuesta');
+        
+        const data = await response.json();
+        
+        // Formatear datos
+        const actual = data.now_playing?.song?.text || 'Desconocido';
+        const artista = data.now_playing?.song?.artist || '';
+        const proxima = data.playing_next?.song?.text || 'No programada';
+        const historial = data.song_history?.slice(0, 5) || [];
+        
+        // Construir HTML (sin fila de oyentes)
+        let html = `
+          <div class="meta-row">
+            <span class="meta-label">🎵 Ahora:</span>
+            <span class="meta-value">${artista ? `<strong>${artista}</strong><br>` : ''}${actual}</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">⏭️ Próxima:</span>
+            <span class="meta-value">${proxima}</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">📜 Últimas:</span>
+            <span class="meta-value"></span>
+          </div>
+          <ul class="history-list">
+        `;
+        
+        historial.forEach(item => {
+          const titulo = item.song?.text || 'Desconocido';
+          const artistaItem = item.song?.artist || '';
+          const tiempo = item.played_at ? new Date(item.played_at * 1000).toLocaleTimeString('es-AR', {hour: '2-digit', minute:'2-digit'}) : '';
+          html += `<li>${tiempo} • ${artistaItem ? `<strong>${artistaItem}</strong> - ` : ''}${titulo}</li>`;
+        });
+        
+        html += `</ul>`;
+        contenedor.innerHTML = html;
+        
+      } catch (error) {
+        console.error('Error cargando metadatos:', error);
+        contenedor.innerHTML = `
+          <p class="meta-error">⚠️ No se pudieron cargar los datos.</p>
+          <p style="font-size:0.85em;color:#888;text-align:center;">
+            Revisá la conexión o intentá más tarde.
+          </p>
+        `;
+      }
+    }
+    
+    // === NUEVO: Función para cargar programación de HOY desde API ===
+    async function cargarProgramacionHoy() {
+      const API_URL = 'https://flashbackradio.duckdns.org/api/flashbackradio/schedule';
+      const contenedor = document.getElementById('schedule-content');
+      
+      try {
+        const response = await fetch(API_URL);
+        if (!response.ok) throw new Error('Error en la respuesta');
+        
+        const data = await response.json();
+        const schedule = data.schedule || [];
+        
+        // Obtener día actual (0 = Domingo, 1 = Lunes, ..., 6 = Sábado)
+        const diaSemana = new Date().getDay();
+        const nombreDia = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'][diaSemana];
+        
+        // Filtrar programas de HOY
+        const programasHoy = schedule.filter(item => {
+          const diaPrograma = new Date(item.start_time).getDay();
+          return diaPrograma === diaSemana;
+        }).sort((a, b) => new Date(a.start_time) - new Date(b.start_time));
+        
+        if (programasHoy.length === 0) {
+          contenedor.innerHTML = `<p class="schedule-empty">🎵 Sin programación específica para ${nombreDia}</p>`;
+          return;
+        }
+        
+        // Construir lista HTML
+        let html = `<ul class="schedule-list">`;
+        
+        programasHoy.slice(0, 6).forEach(item => { // Mostrar máx. 6 programas
+          const hora = new Date(item.start_time).toLocaleTimeString('es-AR', {hour: '2-digit', minute:'2-digit'});
+          const titulo = item.title || 'Sin título';
+          html += `
+            <li class="schedule-item">
+              <span class="schedule-time">🕐 ${hora}</span>
+              <span class="schedule-show">${titulo}</span>
+            </li>
+          `;
+        });
+        
+        html += `</ul>`;
+        if (programasHoy.length > 6) {
+          html += `<p style="text-align:center;color:#aaa;font-size:0.85em;margin-top:10px;">+ ${programasHoy.length - 6} programas más</p>`;
+        }
+        
+        contenedor.innerHTML = html;
+        
+      } catch (error) {
+        console.error('Error cargando programación:', error);
+        contenedor.innerHTML = `
+          <p class="schedule-error">⚠️ No se pudo cargar la programación.</p>
+          <p style="font-size:0.85em;color:#888;text-align:center;">
+            Intentá más tarde.
+          </p>
+        `;
+      }
+    }
+    
+    // Cargar al iniciar
+    document.addEventListener('DOMContentLoaded', () => {
+      cargarMetadatos();
+      setInterval(cargarMetadatos, 30000);
+      
+      cargarProgramacionHoy();
+      // No actualizamos la programación automáticamente (cambia una vez por día)
+    });
   </script>
 
   <!-- Contador -->
@@ -426,7 +662,6 @@
 
   <!-- Scripts: Service Worker + Banner PWA -->
   <script>
-    // Registrar Service Worker
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js')
@@ -435,7 +670,6 @@
       });
     }
 
-    // Banner de instalación PWA
     let deferredPrompt;
     window.addEventListener('beforeinstallprompt', (e) => {
       e.preventDefault();
@@ -444,8 +678,7 @@
     });
 
     document.addEventListener('DOMContentLoaded', () => {
-      // Botón Instalar
-      document.getElementById('pwa-install-btn').addEventListener('click', () => {
+      document.getElementById('pwa-install-btn')?.addEventListener('click', () => {
         if (deferredPrompt) {
           deferredPrompt.prompt();
           deferredPrompt.userChoice.then((choiceResult) => {
@@ -458,15 +691,13 @@
         }
       });
 
-      // Cerrar banner
-      document.getElementById('pwa-close-banner').addEventListener('click', () => {
+      document.getElementById('pwa-close-banner')?.addEventListener('click', () => {
         document.getElementById('pwa-banner').style.display = 'none';
       });
 
-      // Mensaje alternativo para iOS (tras 3 segundos)
       setTimeout(() => {
         const banner = document.getElementById('pwa-banner');
-        if (banner.style.display === 'none' && !deferredPrompt) {
+        if (banner?.style.display === 'none' && !deferredPrompt) {
           const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
           if (isIOS) {
             banner.innerHTML = `
@@ -474,7 +705,7 @@
               <button id="pwa-close-banner" style="background:transparent; color:#aaa; border:none; font-size:0.85em; cursor:pointer; margin-top:4px;">Cerrar</button>
             `;
             banner.style.display = 'flex';
-            document.getElementById('pwa-close-banner').addEventListener('click', () => {
+            document.getElementById('pwa-close-banner')?.addEventListener('click', () => {
               banner.style.display = 'none';
             });
           }
@@ -525,46 +756,3 @@
   </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
