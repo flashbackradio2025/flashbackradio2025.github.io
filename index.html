@@ -203,12 +203,6 @@
       50% { box-shadow: 0 0 20px rgba(255, 0, 0, 0.7); }
     }
 
-    /* Playlist en vivo */
-    .playlist-section {
-      margin: 30px 0;
-      position: relative;
-    }
-
     /* Cafecito */
     .cafecito-glow {
       max-width: 100%;
@@ -223,7 +217,7 @@
       50%     { box-shadow: 0 0 30px rgba(255, 215, 0, 0.9); }
     }
 
-    /* Contacto con adornos */
+    /* Contacto */
     .contacto-navidad {
       display: flex;
       justify-content: space-between;
@@ -252,7 +246,7 @@
       border-top: 1px solid #2a3a5f;
     }
 
-    /* Widget de metadatos personalizado (estilo neón) */
+    /* Widget de metadatos personalizado */
     .metadata-widget {
       background: rgba(10, 8, 26, 0.95);
       border: 2px solid #00f3ff;
@@ -299,67 +293,36 @@
     }
     .history-list li:last-child { border-bottom: none; }
     
-    .meta-loading, .schedule-loading {
+    .meta-loading {
       text-align: center;
       color: #aaa;
       font-style: italic;
       padding: 10px;
     }
     
-    .meta-error, .schedule-error {
+    .meta-error {
       color: #ff6666;
       font-size: 0.9em;
       text-align: center;
       padding: 10px;
     }
 
-    /* Grilla de programación (estilo neón) */
-    .schedule-section {
+    /* === IFRAME GRILLA (Estilo neón integrado) === */
+    .schedule-iframe-wrapper {
       background: rgba(10, 8, 26, 0.95);
       border: 2px solid #00f3ff;
       border-radius: 16px;
-      padding: 20px;
+      padding: 15px;
       margin: 30px auto;
       max-width: 500px;
       box-shadow: 0 0 30px rgba(0, 243, 255, 0.4);
-      text-align: left;
-      font-family: 'Special Elite', cursive;
     }
-    
-    .schedule-section h3 {
-      color: #00ffff;
-      margin: 0 0 15px;
-      font-size: 1.3em;
-      text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
-      text-align: center;
-    }
-    
-    .schedule-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    
-    .schedule-item {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px 0;
-      border-bottom: 1px solid rgba(0, 243, 255, 0.3);
-      font-size: 0.95em;
-    }
-    .schedule-item:last-child { border-bottom: none; }
-    
-    .schedule-time {
-      color: #ffcc00;
-      font-weight: bold;
-      min-width: 70px;
-    }
-    
-    .schedule-show {
-      color: #fff;
-      text-align: right;
-      flex: 1;
-      padding-left: 10px;
+    .schedule-iframe-wrapper iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+      border-radius: 12px;
+      background: #0a081a;
     }
   </style>
 </head>
@@ -397,7 +360,6 @@
         <h3>FlashBack Radio</h3>
         <p class="subtitle">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
         
-        <!-- LED Indicator EN VIVO -->
         <div class="live-indicator">
           <span class="live-dot"></span>
           <span>EN VIVO</span>
@@ -408,7 +370,7 @@
       </div>
     </section>
 
-    <!-- Widget de metadatos personalizado (AzuraCast) -->
+    <!-- Widget de metadatos personalizado -->
     <section class="metadata-widget">
       <h3>📊 Información en Vivo</h3>
       <div id="meta-content">
@@ -416,12 +378,13 @@
       </div>
     </section>
 
-    <!-- Grilla de programación (API con Puente Proxy) -->
-    <section class="schedule-section">
-      <h3>📅 Programación de Hoy</h3>
-      <div id="schedule-content">
-        <p class="schedule-loading">⏳ Conectando con la grilla...</p>
-      </div>
+    <!-- Grilla oficial de AzuraCast (Iframe integrado) -->
+    <section class="schedule-iframe-wrapper">
+      <iframe 
+        src="https://flashbackradio.duckdns.org/public/flashbackradio/schedule" 
+        loading="lazy"
+        title="Programación FlashBack Radio">
+      </iframe>
     </section>
 
     <!-- Cafecito -->
@@ -449,7 +412,6 @@
 
   <!-- Scripts -->
   <script>
-    // Fecha actual
     const hoy = new Date();
     const mes = hoy.getMonth();
     const dia = hoy.getDate();
@@ -531,74 +493,10 @@
       }
     }
     
-    // === Función para cargar Programación con Puente Proxy (CORREGIDA) ===
-    async function cargarProgramacionHoy() {
-      const contenedor = document.getElementById('schedule-content');
-      
-      // Usamos un 'puente' (Proxy) para evitar el bloqueo CORS de GitHub
-      const targetUrl = 'https://flashbackradio.duckdns.org/api/flashbackradio/schedule';
-      const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}`;
-      
-      try {
-        const response = await fetch(proxyUrl);
-        if (!response.ok) throw new Error('Error en el puente');
-        
-        const data = await response.json();
-        
-        // AzuraCast devuelve un array de objetos 'records' por día
-        // Buscamos el programa que corresponde al día actual (0=Domingo, 1=Lunes, etc.)
-        const hoyIndex = new Date().getDay();
-        
-        // Buscamos el día de hoy en el array
-        const diaActual = data.find(d => d.day_of_week === hoyIndex);
-        
-        if (!diaActual || !diaActual.records || diaActual.records.length === 0) {
-          contenedor.innerHTML = `<p class="schedule-empty">🎵 Música automática (Sin programación fija)</p>`;
-          return;
-        }
-        
-        // Ordenamos por hora de inicio
-        const programasOrdenados = diaActual.records.sort((a, b) => a.start_time - b.start_time);
-        
-        let html = `<ul class="schedule-list">`;
-        
-        programasOrdenados.forEach(item => {
-          // item.start_time viene en formato "07:00:00" (ejemplo)
-          // Tomamos solo las primeras 5 letras para HH:MM
-          let hora = "";
-          if(item.start_time && item.start_time.length > 5) {
-            hora = item.start_time.slice(0, 5);
-          } else {
-            hora = "00:00";
-          }
-
-          const titulo = item.title || 'Bloque Musical';
-          
-          html += `
-            <li class="schedule-item">
-              <span class="schedule-time">🕐 ${hora}</span>
-              <span class="schedule-show">${titulo}</span>
-            </li>
-          `;
-        });
-        
-        html += `</ul>`;
-        contenedor.innerHTML = html;
-        
-      } catch (error) {
-        console.error('Error cargando grilla:', error);
-        contenedor.innerHTML = `
-          <p class="schedule-error">⚠️ No se pudo cargar la programación.</p>
-        `;
-      }
-    }
-    
     // Cargar al iniciar
     document.addEventListener('DOMContentLoaded', () => {
       cargarMetadatos();
-      setInterval(cargarMetadatos, 30000); // Actualiza cada 30 seg
-      
-      cargarProgramacionHoy(); // Carga la grilla una vez
+      setInterval(cargarMetadatos, 30000);
     });
   </script>
 
