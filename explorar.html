@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explorá FlashBack Radio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #0d0d0d, #1a1a40);
+      color: #fff;
+      font-family: 'Special Elite', cursive;
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: rgba(10, 8, 26, 0.95);
+      border: 2px solid #00f3ff;
+      border-radius: 16px;
+      padding: 40px 30px;
+      box-shadow: 0 0 30px rgba(0, 243, 255, 0.4);
+    }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #00f3ff;
+      text-align: center;
+      text-shadow: 0 0 12px rgba(0, 243, 255, 0.8);
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #aaa;
+      margin-bottom: 40px;
+      font-style: italic;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: rgba(0, 50, 100, 0.4);
+      border: 1px solid #00f3ff;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgba(0, 243, 255, 0.6);
+      border-color: #ffcc00;
+    }
+    .card-icon {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+    }
+    .card h3 {
+      color: #ffcc00;
+      margin: 10px 0;
+      text-shadow: 0 0 5px rgba(255, 204, 0, 0.6);
+    }
+    .card p {
+      color: #ccc;
+      font-size: 0.95em;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      color: #00f3ff;
+      text-decoration: none;
+      font-size: 1em;
+    }
+    .back-link:hover {
+      color: #ffcc00;
+      text-shadow: 0 0 8px rgba(255, 204, 0, 0.8);
+    }
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: 1fr; }
+      .container { padding: 30px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🗺️ Explorá FlashBack Radio</h1>
+    <p class="subtitle">Todo nuestro contenido en un solo lugar</p>
+
+    <div class="grid">
+      <!-- Programación -->
+      <a href="programacion.html" class="card">
+        <div class="card-icon">📅</div>
+        <h3>Programación</h3>
+        <p>Horarios, programas especiales y qué suena cada día.</p>
+      </a>
+
+      <!-- Mezclas -->
+      <a href="mezclas.html" class="card">
+        <div class="card-icon">🎵</div>
+        <h3>Mezclas Exclusivas</h3>
+        <p>Sets creados con VirtualDJ • Música que estremece.</p>
+      </a>
+
+      <!-- Arte & Historias -->
+      <a href="arte-historias.html" class="card">
+        <div class="card-icon">🎨</div>
+        <h3>Arte & Historias</h3>
+        <p>Cuentos narrados + Imágenes creadas con IA.</p>
+      </a>
+
+      <!-- Cuentos 🦷✨ -->
+      <a href="cuentos.html" class="card">
+        <div class="card-icon">🦷✨</div>
+        <h3>Cuentos con Música</h3>
+        <p>Historias únicas con banda sonora retro • Narración y magia.</p>
+      </a>
+	  
+	  <!-- Artistas -->
+      <a href="artistas.html" class="card">
+        <div class="card-icon">🎤</div>
+        <h3>Artistas</h3>
+        <p>Biografías, curiosidades y especiales de tus bandas favoritas.</p>
+      </a>
+
+    </div>
+
+    <a href="index.html" class="back-link">← Volver a la Radio</a>
+  </div>
+</body>
+</html>
