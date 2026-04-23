@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 – Señal Perdida | FlashBack Radio</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0d0d0d, #1a1a40);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .card {
+      background: rgba(10, 8, 26, 0.95);
+      border: 2px solid #ff00ff;
+      border-radius: 16px;
+      padding: 40px 30px;
+      max-width: 450px;
+      box-shadow: 0 0 30px rgba(255, 0, 255, 0.5);
+      animation: pulse404 3s infinite;
+    }
+    @keyframes pulse404 {
+      0%, 100% { box-shadow: 0 0 30px rgba(255, 0, 255, 0.5); }
+      50% { box-shadow: 0 0 45px rgba(0, 255, 255, 0.7); }
+    }
+    .error-code {
+      font-size: 4em;
+      color: #ff00ff;
+      text-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
+      margin: 0 0 10px;
+      line-height: 1;
+    }
+    h1 {
+      color: #00ffff;
+      margin: 10px 0 20px;
+      text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
+    }
+    p {
+      font-family: 'Special Elite', cursive;
+      color: #ffcc66;
+      line-height: 1.6;
+      margin: 15px 0;
+      font-size: 1.05em;
+    }
+    .back-btn {
+      margin-top: 25px;
+      display: inline-block;
+      padding: 12px 30px;
+      background: transparent;
+      border: 2px solid #00f3ff;
+      color: #00ffff;
+      border-radius: 25px;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .back-btn:hover {
+      background: rgba(0, 243, 255, 0.2);
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+      transform: scale(1.05);
+    }
+    .vinyl-icon {
+      font-size: 3em;
+      margin: 20px 0;
+      animation: spin 8s linear infinite;
+    }
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="error-code">404</div>
+    <div class="vinyl-icon">📡</div>
+    <h1>Señal Perdida</h1>
+    <p>
+      Parece que esta frecuencia no está en el dial.<br>
+      No te preocupes, volvamos a sintonizar.
+    </p>
+    <a href="index.html" class="back-btn">🎧 Volver a FlashBack Radio</a>
+  </div>
+</body>
+</html>
