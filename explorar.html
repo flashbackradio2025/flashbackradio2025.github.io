@@ -3,20 +3,105 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Explorá FlashBack Radio</title>
+  <title>Explorá FlashBack Radio – El Eco del Tiempo</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="google-site-verification" content="CR25F-doYcltro-Lpu18SlzL2Yupded_stDh56s4VxI" />
+  
+  <meta name="description" content="Explorá todo el contenido de FlashBack Radio: mezclas exclusivas, arte con IA, cuentos narrados y especiales de artistas. Música retro con alma.">
+  <meta name="keywords" content="radio retro, mezclas DJ, cuentos narrados, arte IA, FlashBack Radio, artistas clásicos">
+  
+  <meta property="og:title" content="Explorá FlashBack Radio – El Eco del Tiempo">
+  <meta property="og:description" content="Mezclas, historias, arte y especiales de tus artistas favoritos. Todo en un solo lugar.">
+  <meta property="og:image" content="img/logo.png">
+  <meta property="og:url" content="https://flashbackradio2025.github.io/explorar.html">
+  <meta property="og:type" content="website">
+
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://flashbackradio2025.github.io/explorar.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Explorá FlashBack Radio">
+  <meta name="twitter:description" content="Contenido on-demand: mezclas, cuentos, arte y artistas.">
+  <meta name="twitter:image" content="https://flashbackradio2025.github.io/img/logo.png">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Explorá FlashBack Radio",
+    "description": "Hub de contenido on-demand: mezclas exclusivas, cuentos narrados, arte con IA y especiales de artistas.",
+    "url": "https://flashbackradio2025.github.io/explorar.html",
+    "isPartOf": {
+      "@type": "RadioStation",
+      "name": "FlashBack Radio – El Eco del Tiempo",
+      "url": "https://flashbackradio2025.github.io"
+    }
+  }
+  </script>
+
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
+  
   <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
+      margin: 0; padding: 0;
+      font-family: 'Special Elite', cursive;
       background: linear-gradient(135deg, #0d0d0d, #1a1a40);
       color: #fff;
-      font-family: 'Special Elite', cursive;
-      margin: 0;
-      padding: 20px;
+      padding-top: 70px;
       min-height: 100vh;
     }
+
+    /* === MENÚ FIJO (IDÉNTICO A INDEX.HTML) === */
+    .main-nav {
+      position: fixed; top: 0; left: 0; width: 100%;
+      background: rgba(10, 8, 26, 0.95);
+      border-bottom: 2px solid #00f3ff;
+      padding: 10px 0; z-index: 1000;
+      box-shadow: 0 2px 15px rgba(0, 243, 255, 0.3);
+      font-family: 'Orbitron', sans-serif;
+    }
+    .nav-container {
+      max-width: 900px; margin: 0 auto;
+      display: flex; justify-content: space-between; align-items: center; padding: 0 20px;
+    }
+    .nav-logo {
+      color: #ffcc66; font-size: 1.1em; font-weight: bold; text-decoration: none;
+      text-shadow: 0 0 8px rgba(255, 204, 102, 0.6);
+    }
+    .nav-menu { display: flex; gap: 15px; list-style: none; margin: 0; padding: 0; }
+    .nav-menu a {
+      color: #00ffff; text-decoration: none; font-size: 0.9em; padding: 6px 10px;
+      border-radius: 6px; transition: all 0.2s; text-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
+    }
+    .nav-menu a:hover {
+      background: rgba(0, 243, 255, 0.2); color: #fff; box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    }
+    .nav-toggle {
+      display: none; background: transparent; border: 1px solid #00f3ff;
+      padding: 8px; border-radius: 6px; cursor: pointer;
+    }
+    .hamburger { display: block; width: 20px; height: 2px; background: #00ffff; position: relative; }
+    .hamburger::before, .hamburger::after {
+      content: ''; position: absolute; width: 20px; height: 2px; background: #00ffff; left: 0;
+    }
+    .hamburger::before { top: -6px; } .hamburger::after { top: 6px; }
+    
+    @media (max-width: 768px) {
+      .nav-toggle { display: block; }
+      .nav-menu {
+        position: absolute; top: 100%; left: 0; right: 0;
+        background: rgba(10, 8, 26, 0.98); flex-direction: column;
+        padding: 15px; gap: 10px; display: none; border-bottom: 2px solid #00f3ff;
+      }
+      .nav-menu.active { display: flex; }
+      .nav-menu a { text-align: center; padding: 10px; font-size: 1em; }
+    }
+
+    /* === CONTENEDOR PRINCIPAL === */
     .container {
       max-width: 1000px;
-      margin: auto;
+      margin: 40px auto;
       background: rgba(10, 8, 26, 0.95);
       border: 2px solid #00f3ff;
       border-radius: 16px;
@@ -29,43 +114,68 @@
       text-align: center;
       text-shadow: 0 0 12px rgba(0, 243, 255, 0.8);
       margin-bottom: 10px;
+      font-size: 1.8em;
     }
     .subtitle {
       text-align: center;
       color: #aaa;
       margin-bottom: 40px;
       font-style: italic;
+      font-size: 1.1em;
     }
+
+    /* === GRILLA DE TARJETAS === */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 25px;
     }
     .card {
-      background: rgba(0, 50, 100, 0.4);
+      background: rgba(0, 30, 60, 0.5);
       border: 1px solid #00f3ff;
       border-radius: 12px;
-      padding: 25px;
+      padding: 25px 20px;
       text-align: center;
-      transition: transform 0.3s, box-shadow 0.3s;
+      transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
       cursor: pointer;
       text-decoration: none;
       color: inherit;
       display: block;
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, #00f3ff, #ff33cc, #ffcc00);
+      opacity: 0;
+      transition: opacity 0.3s;
     }
     .card:hover {
       transform: translateY(-5px);
       box-shadow: 0 0 25px rgba(0, 243, 255, 0.6);
       border-color: #ffcc00;
     }
+    .card:hover::before { opacity: 1; }
+    
     .card-icon {
       font-size: 2.5em;
       margin-bottom: 15px;
+      display: block;
+      animation: float 3s ease-in-out infinite;
     }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+    
     .card h3 {
       color: #ffcc00;
-      margin: 10px 0;
+      margin: 10px 0 12px;
       text-shadow: 0 0 5px rgba(255, 204, 0, 0.6);
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.2em;
     }
     .card p {
       color: #ccc;
@@ -73,6 +183,8 @@
       margin: 0;
       line-height: 1.5;
     }
+
+    /* === BACK LINK === */
     .back-link {
       display: block;
       text-align: center;
@@ -80,61 +192,134 @@
       color: #00f3ff;
       text-decoration: none;
       font-size: 1em;
+      font-family: 'Orbitron', sans-serif;
+      padding: 10px 20px;
+      border: 1px solid #00f3ff;
+      border-radius: 8px;
+      transition: all 0.2s;
+      max-width: 220px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .back-link:hover {
       color: #ffcc00;
       text-shadow: 0 0 8px rgba(255, 204, 0, 0.8);
+      box-shadow: 0 0 15px rgba(0, 243, 255, 0.5);
+      transform: scale(1.03);
     }
+
+    /* === RESPONSIVE === */
     @media (max-width: 600px) {
       .grid { grid-template-columns: 1fr; }
-      .container { padding: 30px 20px; }
+      .container { padding: 30px 20px; margin: 20px auto; }
+      h1 { font-size: 1.5em; }
+      .subtitle { font-size: 1em; }
+      .card-icon { font-size: 2em; }
+    }
+    @media (max-width: 400px) {
+      .card { padding: 20px 15px; }
+      .card h3 { font-size: 1.1em; }
+      .card p { font-size: 0.9em; }
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <!-- === MENÚ FIJO === -->
+  <nav id="main-nav" class="main-nav">
+    <div class="nav-container">
+      <a href="index.html#player-section" class="nav-logo">📻 FlashBack Radio</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Menú"><span class="hamburger"></span></button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="index.html#player-section">En Vivo</a></li>
+        <li><a href="index.html#schedule-section">Programación</a></li>
+        <li><a href="explorar.html">Explorar</a></li>
+        <li><a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener">Apoyanos</a></li>
+        <li><a href="index.html#contacto-section">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
     <h1>🗺️ Explorá FlashBack Radio</h1>
-    <p class="subtitle">Todo nuestro contenido en un solo lugar</p>
+    <p class="subtitle">Todo nuestro contenido on-demand en un solo lugar</p>
 
     <div class="grid">
-      <!-- Programación -->
-      <a href="programacion.html" class="card">
-        <div class="card-icon">📅</div>
-        <h3>Programación</h3>
-        <p>Horarios, programas especiales y qué suena cada día.</p>
-      </a>
-
       <!-- Mezclas -->
       <a href="mezclas.html" class="card">
-        <div class="card-icon">🎵</div>
+        <span class="card-icon">🎵</span>
         <h3>Mezclas Exclusivas</h3>
-        <p>Sets creados con VirtualDJ • Música que estremece.</p>
+        <p>Sets creados con VirtualDJ • Música que estremece • Hechos a pulmón.</p>
       </a>
 
       <!-- Arte & Historias -->
       <a href="arte-historias.html" class="card">
-        <div class="card-icon">🎨</div>
+        <span class="card-icon">🎨</span>
         <h3>Arte & Historias</h3>
-        <p>Cuentos narrados + Imágenes creadas con IA.</p>
+        <p>Cuentos narrados + Imágenes creadas con IA • Viajes sensoriales retro.</p>
       </a>
 
       <!-- Cuentos 🦷✨ -->
       <a href="cuentos.html" class="card">
-        <div class="card-icon">🦷✨</div>
+        <span class="card-icon">🦷✨</span>
         <h3>Cuentos con Música</h3>
-        <p>Historias únicas con banda sonora retro • Narración y magia.</p>
+        <p>Historias únicas con banda sonora retro • Narración y magia en cada episodio.</p>
       </a>
 	  
-	  <!-- Artistas -->
+      <!-- Artistas -->
       <a href="artistas.html" class="card">
-        <div class="card-icon">🎤</div>
+        <span class="card-icon">🎤</span>
         <h3>Artistas</h3>
-        <p>Biografías, curiosidades y especiales de tus bandas favoritas.</p>
+        <p>Biografías, curiosidades y especiales de The Hollies, Beatles, Stones y más.</p>
       </a>
-
     </div>
 
     <a href="index.html" class="back-link">← Volver a la Radio</a>
-  </div>
+  </main>
+
+  <!-- === FOOTER CONSISTENTE === -->
+  <footer style="text-align:center;margin:40px 20px;padding:20px;font-family:'Orbitron',sans-serif;font-size:0.9em;color:#4a6fa5;text-shadow:-1px -1px 0 #ffd700,1px -1px 0 #ffd700,-1px 1px 0 #ffd700,1px 1px 0 #ffd700;border-top:1px solid #2a3a5f;">
+    FlashBack Radio es un proyecto personal sin fines de lucro<br>
+    La música transmitida pertenece a sus respectivos autores<br>
+    - Capilla del Monte, Córdoba © 2025 - Todos los derechos reservados.<br>
+    <a href="privacidad.html" style="color:#00ffff;text-decoration:underline;">🔒 Privacidad</a> | 
+    ¿Te gustó esta web? <a href="https://wa.me/543548584454?text=Hola%20Ra%C3%BAl,%20vi%20tu%20web%20de%20FlashBack%20Radio%20y%20me%20gustar%C3%ADa%20consultar%20por%20una%20p%C3%A1gina%20similar%20para%20mi%20proyecto.%20%C2%BFPod%C3%A9s%20pasarme%20informaci%C3%B3n?" style="color:#25D366;text-decoration:underline;" target="_blank" rel="noopener">💬 Consultá por tu web personalizada</a>
+  </footer>
+
+  <!-- === SCRIPTS COMPARTIDOS === -->
+  <script>
+    // Menú hamburguesa
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    navToggle?.addEventListener('click', () => navMenu.classList.toggle('active'));
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => navMenu.classList.remove('active'));
+    });
+    
+    // Efecto scroll en menú
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('main-nav');
+      if (window.scrollY > 50) {
+        nav.style.background = 'rgba(10, 8, 26, 0.98)';
+        nav.style.boxShadow = '0 4px 20px rgba(0, 243, 255, 0.5)';
+      } else {
+        nav.style.background = 'rgba(10, 8, 26, 0.95)';
+        nav.style.boxShadow = '0 2px 15px rgba(0, 243, 255, 0.3)';
+      }
+    });
+  </script>
+
+  <!-- GoatCounter -->
+  <script data-goatcounter="https://flashbackradio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <!-- PWA Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(() => console.log('Service Worker registrado'))
+          .catch(err => console.log('Error SW:', err));
+      });
+    }
+  </script>
 </body>
 </html>
