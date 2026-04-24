@@ -89,6 +89,7 @@
       padding: 20px; max-width: 800px; margin: 20px auto; box-sizing: border-box;
       background: rgba(15, 28, 40, 0.5); border-radius: 16px;
       backdrop-filter: blur(1px); box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); position: relative; z-index: 10;
+      transition: opacity 0.3s ease; /* SUAVIZA EL CAMBIO DE PÁGINA */
     }
     h2, h3 { text-align: center; margin: 30px 0 20px; text-shadow: 0 0 8px rgba(0, 255, 255, 0.6); }
     h2 { color: #00ffff; font-size: 1.8em; } h3 { color: #ffcc66; font-size: 1.4em; }
@@ -146,6 +147,33 @@
     .meta-loading { text-align: center; color: #aaa; font-style: italic; padding: 10px; }
     .meta-error { color: #ff6666; font-size: 0.9em; text-align: center; padding: 10px; }
 
+    /* === BANNER DE MOMENTO ACTUAL (NEÓN) === */
+    #playlist-banner {
+      background: linear-gradient(135deg, #0a0a1a, #1a0a2a);
+      border: 2px solid #00f3ff;
+      border-radius: 12px;
+      padding: 15px 25px;
+      margin: 20px auto;
+      max-width: 500px;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.15em;
+      color: #00ffff;
+      box-shadow: 0 0 20px rgba(0, 243, 255, 0.4), inset 0 0 10px rgba(0, 243, 255, 0.1);
+      animation: neonPulse 2.5s infinite alternate;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      transition: all 0.3s ease;
+    }
+    @keyframes neonPulse {
+      0% { box-shadow: 0 0 15px rgba(0, 243, 255, 0.3), inset 0 0 5px rgba(0, 243, 255, 0.1); }
+      100% { box-shadow: 0 0 30px rgba(0, 243, 255, 0.7), 0 0 10px rgba(255, 0, 255, 0.3), inset 0 0 15px rgba(0, 243, 255, 0.2); }
+    }
+    #playlist-banner .icon { font-size: 1.6em; filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.4)); }
+    #playlist-banner .label { text-shadow: 0 0 8px rgba(0, 255, 255, 0.6); font-weight: 600; }
+
     .especial-banner {
       background: linear-gradient(135deg, #1a0033, #001a33); border: 2px solid #ff00ff; border-radius: 12px;
       padding: 12px 20px; margin: 20px auto; max-width: 500px;
@@ -184,6 +212,7 @@
     body.mode-programacion .retro-gifs,
     body.mode-programacion .sobre-radio,
     body.mode-programacion .especial-banner,
+    body.mode-programacion #playlist-banner,
     body.mode-programacion .metadata-widget,
     body.mode-programacion .seccion-apoyo,
     body.mode-programacion #contacto-section,
@@ -206,8 +235,9 @@
       .schedule-iframe-wrapper iframe { height: 400px; }
       .radio-card { padding: 20px; }
       .player-iframe { width: 280px; height: 85px; }
+      #playlist-banner { padding: 12px 15px; font-size: 1em; }
     }
-	    .btn-cartelera {
+    .btn-cartelera {
       display: block;
       width: 100%;
       text-align: center;
@@ -262,7 +292,8 @@
       <ul id="nav-menu" class="nav-menu">
         <li><a href="#player-section">En Vivo</a></li>
         <li><a href="#schedule-section">Programación</a></li>
-        <li><a href="explorar.html">Explorar</a></li>
+        <!-- ENLACE SPA PARA EXPLORAR -->
+        <li><a href="#" data-spa="explorar">Explorar</a></li>
         <li><a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener">Apoyanos</a></li>
         <li><a href="#contacto-section">Contacto</a></li>
       </ul>
@@ -297,6 +328,12 @@
         <p class="subtitle" style="font-size:0.85em; margin-top:10px;">✨ Música retro – Hecho a pulmón 💜</p>
       </div>
     </section>
+
+    <!-- === BANNER DE MOMENTO ACTUAL === -->
+    <div id="playlist-banner" style="display:none;">
+      <span class="icon">🎙️</span>
+      <span class="label">Cargando momento...</span>
+    </div>
 
     <section class="sobre-radio">
       <p>Esta radio nace de un vinilo, un recuerdo y las ganas de compartir.<br>Sin prisas. Solo aquella música que vibra el alma.</p>
@@ -378,60 +415,155 @@
       } catch (error) { contenedor.innerHTML = `<p class="meta-error">⚠️ No se pudieron cargar los datos.</p>`; }
     }
 
-// === BANNER ESPECIALES (NUEVO) ===
-const especialBanner = document.getElementById('especial-banner');
-const especialText = document.getElementById('especial-text');
-const especialClose = document.getElementById('especial-close');
-const KEYWORDS_ESPECIALES = ['ESPECIAL', 'PROGRAMA', 'MICRO'];
+    // === BANNER DE MOMENTO ACTUAL (LÓGICA SIMPLE) ===
+    const playlistBanner = document.getElementById('playlist-banner');
+    const playlistIcon = playlistBanner.querySelector('.icon');
+    const playlistLabel = playlistBanner.querySelector('.label');
 
-async function checkEspecialActivo() {
-  try {
-    if (sessionStorage.getItem('bannerEspecialCerrado') === 'true') return;
-    const response = await fetch('https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio');
-    if (!response.ok) return;
-    const data = await response.json();
-    const playlist = data.now_playing?.playlist?.name || '';
-    const song = data.now_playing?.song?.text || '';
-    const artist = data.now_playing?.song?.artist || '';
-    const textoCompleto = `${playlist} ${song} ${artist}`.toUpperCase();
-    const esEspecial = KEYWORDS_ESPECIALES.some(kw => textoCompleto.includes(kw));
-    
-    // Detectar playlists específicas aunque no tengan las keywords
-    const playlistsEspeciales = ['BLOQUE_FITNESS', 'DESPIERTA_FLASHBACK', 'BOLICHERO_DISCO', 'LENTOS_NOCHE', 'PROGRAMA_ROCK'];
-    const esPlaylistEspecial = playlistsEspeciales.some(pl => playlist.toUpperCase().includes(pl));
-    
-    if (esEspecial || esPlaylistEspecial) {
-      let mensaje = '🎙️ Programa Especial en Vivo';
-      
-      // === NUEVAS PLAYLISTS AGREGADAS ===
-      if (playlist.includes('BLOQUE_FITNESS')) mensaje = '💪 EN VIVO: Bloque Fitness';
-      else if (playlist.includes('DESPIERTA_FLASHBACK')) mensaje = '🌅 EN VIVO: Despierta Flashback';
-      else if (playlist.includes('BOLICHERO_DISCO')) mensaje = '🕺 EN VIVO: Bolicheiro Disco';
-      else if (playlist.includes('LENTOS_NOCHE')) mensaje = '🌙 EN VIVO: Lentos de Noche';
-      else if (playlist.includes('PROGRAMA_ROCK')) mensaje = '🎸 EN VIVO: Rock & Roll';
-      // === PLAYLISTS EXISTENTES ===
-      else if (playlist.includes('ALAN PARSONS')) mensaje = '🎹 EN VIVO: Alan Parsons Project';
-      else if (playlist.includes('ROLLING STONES')) mensaje = '🤘 EN VIVO: Rolling Stones Marathon';
-      else if (playlist.includes('HOLLIES')) mensaje = '🎸 EN VIVO: The Hollies Special';
-      else if (playlist.includes('CERATI')) mensaje = '🇦 EN VIVO: Homenaje a Gustavo Cerati';
-      else if (playlist.includes('BEATLES')) mensaje = '🐞 EN VIVO: The Beatles Hour';
-      else if (playlist.includes('PLATEROS')) mensaje = '🚬 EN VIVO: Plateros y Tú';
-      else if (playlist.includes('ROMANTICOS')) mensaje = '💖 EN VIVO: Clásicos Románticos';
-      else if (playlist.includes('RECUERDO')) mensaje = '🕰️ EN VIVO: Del Recuerdo';
-      else if (playlist.includes('OLDIES')) mensaje = '📻 EN VIVO: Oldies But Goodies';
-      else mensaje = `🎙️ EN VIVO: ${playlist.replace('_', ' ')}`;
-      
-      especialText.textContent = mensaje;
-      especialBanner.style.display = 'block';
-    } else {
-      especialBanner.style.display = 'none';
+    const playlistMap = {
+      'BLOQUE_FITNESS': { icon: '💪', label: 'Bloque Fitness' },
+      'DESPIERTA_FLASHBACK': { icon: '🌅', label: 'Despierta Flashback' },
+      'BOLICHERO_DISCO': { icon: '🕺', label: 'Bolicheiro Disco' },
+      'LENTOS_NOCHE': { icon: '🌙', label: 'Lentos de Noche' },
+      'PROGRAMA_ROCK': { icon: '🎸', label: 'Rock & Roll' },
+      'PROGRAMA_BEATLES': { icon: '🐞', label: 'The Beatles Hour' },
+      'PROGRAMA_OLDIES': { icon: '📻', label: 'Oldies But Goodies' },
+      'MUSICA_DIA': { icon: '🎵', label: 'Música del Día' },
+      'ESPECIALES_DOMINGO': { icon: '🌟', label: 'Especiales de Domingo' },
+      'REFLEXIONES_MAÑANA': { icon: '🧘', label: 'Reflexiones de la Mañana' },
+      'MICROS_VERSIONES': { icon: '🎙️', label: 'Micros & Versiones' }
+    };
+
+    async function actualizarBannerMomento() {
+      try {
+        const res = await fetch('https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio');
+        if (!res.ok) throw new Error('API error');
+        const data = await res.json();
+        const rawName = data.now_playing?.playlist?.name || '';
+        
+        if (!rawName) {
+          playlistBanner.style.display = 'none';
+          return;
+        }
+
+        const upperName = rawName.toUpperCase().trim();
+        let config = playlistMap[upperName];
+        
+        // Fallback: buscar coincidencia parcial
+        if (!config) {
+          const matchKey = Object.keys(playlistMap).find(k => upperName.includes(k) || k.includes(upperName));
+          config = matchKey ? playlistMap[matchKey] : null;
+        }
+
+        const icon = config ? config.icon : '🎙️';
+        const label = config ? config.label : rawName.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+        playlistIcon.textContent = icon;
+        playlistLabel.textContent = `🔴 AHORA: ${label}`;
+        playlistBanner.style.display = 'flex';
+      } catch (err) {
+        console.warn('Banner no actualizado:', err);
+      }
     }
-  } catch (error) {
-    console.error('Error al verificar especiales:', error);
-  }
-}
-// === FIN BANNER ESPECIALES ===
-    especialClose?.addEventListener('click', () => { especialBanner.style.display = 'none'; sessionStorage.setItem('bannerEspecialCerrado', 'true'); });
+
+    actualizarBannerMomento();
+    setInterval(actualizarBannerMomento, 30000);
+
+    // === BANNER ESPECIALES (EXISTENTE) ===
+    const especialBanner = document.getElementById('especial-banner');
+    const especialText = document.getElementById('especial-text');
+    const especialClose = document.getElementById('especial-close');
+    const KEYWORDS_ESPECIALES = ['ESPECIAL', 'PROGRAMA', 'MICRO'];
+
+    async function checkEspecialActivo() {
+      try {
+        if (sessionStorage.getItem('bannerEspecialCerrado') === 'true') return;
+        const response = await fetch('https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio');
+        if (!response.ok) return;
+        const data = await response.json();
+        const playlist = data.now_playing?.playlist?.name || '';
+        const song = data.now_playing?.song?.text || '';
+        const artist = data.now_playing?.song?.artist || '';
+        const textoCompleto = `${playlist} ${song} ${artist}`.toUpperCase();
+        const esEspecial = KEYWORDS_ESPECIALES.some(kw => textoCompleto.includes(kw));
+        
+        const playlistsEspeciales = ['BLOQUE_FITNESS', 'DESPIERTA_FLASHBACK', 'BOLICHERO_DISCO', 'LENTOS_NOCHE', 'PROGRAMA_ROCK'];
+        const esPlaylistEspecial = playlistsEspeciales.some(pl => playlist.toUpperCase().includes(pl));
+        
+        if (esEspecial || esPlaylistEspecial) {
+          let mensaje = '🎙️ Programa Especial en Vivo';
+          if (playlist.includes('BLOQUE_FITNESS')) mensaje = '💪 EN VIVO: Bloque Fitness';
+          else if (playlist.includes('DESPIERTA_FLASHBACK')) mensaje = '🌅 EN VIVO: Despierta Flashback';
+          else if (playlist.includes('BOLICHERO_DISCO')) mensaje = '🕺 EN VIVO: Bolicheiro Disco';
+          else if (playlist.includes('LENTOS_NOCHE')) mensaje = '🌙 EN VIVO: Lentos de Noche';
+          else if (playlist.includes('PROGRAMA_ROCK')) mensaje = '🎸 EN VIVO: Rock & Roll';
+          else if (playlist.includes('ALAN PARSONS')) mensaje = '🎹 EN VIVO: Alan Parsons Project';
+          else if (playlist.includes('ROLLING STONES')) mensaje = '🤘 EN VIVO: Rolling Stones Marathon';
+          else if (playlist.includes('HOLLIES')) mensaje = '🎸 EN VIVO: The Hollies Special';
+          else if (playlist.includes('CERATI')) mensaje = '🇦 EN VIVO: Homenaje a Gustavo Cerati';
+          else if (playlist.includes('BEATLES')) mensaje = '🐞 EN VIVO: The Beatles Hour';
+          else if (playlist.includes('PLATEROS')) mensaje = '🚬 EN VIVO: Plateros y Tú';
+          else if (playlist.includes('ROMANTICOS')) mensaje = '💖 EN VIVO: Clásicos Románticos';
+          else if (playlist.includes('RECUERDO')) mensaje = '🕰️ EN VIVO: Del Recuerdo';
+          else if (playlist.includes('OLDIES')) mensaje = '📻 EN VIVO: Oldies But Goodies';
+          else mensaje = `🎙️ EN VIVO: ${playlist.replace('_', ' ')}`;
+          
+          especialText.textContent = mensaje;
+          especialBanner.style.display = 'block';
+        } else {
+          especialBanner.style.display = 'none';
+        }
+      } catch (error) { console.error('Error especiales:', error); }
+    }
+    
+    especialClose?.addEventListener('click', () => { 
+      especialBanner.style.display = 'none'; 
+      sessionStorage.setItem('bannerEspecialCerrado', 'true'); 
+    });
+
+    // === NAVEGACIÓN SPA (SIN RECARGAR PÁGINA) ===
+    const spaLinks = document.querySelectorAll('[data-spa]');
+    const mainContent = document.querySelector('main');
+
+    async function cargarSPA(ruta) {
+      if (mainContent.style.opacity === '0') return;
+      mainContent.style.opacity = '0';
+      
+      try {
+        const res = await fetch(`${ruta}.html`);
+        if (!res.ok) throw new Error('No encontrado');
+        const text = await res.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(text, 'text/html');
+        // Busca el contenido dentro de main o .container
+        const nuevoContenido = doc.querySelector('main') || doc.querySelector('.container');
+        if (nuevoContenido) {
+          mainContent.innerHTML = nuevoContenido.innerHTML;
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          history.pushState({ ruta: ruta }, '', `${ruta}.html`);
+        }
+      } catch (err) {
+        console.error('Error SPA:', err);
+        mainContent.innerHTML = `<p style="text-align:center;color:#ff6666;padding:40px;">⚠️ Error al cargar. <a href="index.html" style="color:#00ffff;">Volver al inicio</a></p>`;
+      } finally {
+        setTimeout(() => { mainContent.style.opacity = '1'; }, 150);
+      }
+    }
+
+    spaLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        cargarSPA(link.dataset.spa);
+      });
+    });
+
+    // Soporte para botón "Atrás" del navegador
+    window.addEventListener('popstate', () => {
+      const path = location.pathname.split('/').pop().replace('.html', '');
+      if (path && path !== 'index') cargarSPA(path);
+      else location.href = 'index.html';
+    });
+    // === FIN SPA ===
 
     const navToggle = document.getElementById('nav-toggle');
     const navMenu = document.getElementById('nav-menu');
@@ -445,7 +577,6 @@ async function checkEspecialActivo() {
       else { nav.style.background = 'rgba(10, 8, 26, 0.95)'; nav.style.boxShadow = '0 2px 15px rgba(0, 243, 255, 0.3)'; }
     });
 
-    // === LÓGICA DE VISTAS (EN VIVO vs PROGRAMACIÓN) ===
     function actualizarVista() {
       const hash = window.location.hash;
       if (hash === '#schedule-section') {
@@ -454,6 +585,7 @@ async function checkEspecialActivo() {
         document.body.classList.remove('mode-programacion');
       }
     }
+    
     window.addEventListener('hashchange', actualizarVista);
     window.addEventListener('DOMContentLoaded', () => {
       actualizarVista();
