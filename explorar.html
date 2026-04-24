@@ -46,13 +46,20 @@
     body {
       margin: 0; padding: 0;
       font-family: 'Special Elite', cursive;
-      background: linear-gradient(135deg, #0d0d0d, #1a1a40);
+      background: #0f1c28;
       color: #fff;
       padding-top: 70px;
       min-height: 100vh;
     }
 
-    /* === MENÚ FIJO (IDÉNTICO A INDEX.HTML) === */
+    /* === FONDO DE VINILO === */
+    .vinyl-background {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      z-index: -1; pointer-events: none; overflow: hidden;
+    }
+    .vinyl-background video { width: 100%; height: 100%; object-fit: cover; filter: brightness(1.8) contrast(1.0); }
+
+    /* === MENÚ FIJO (IGUAL AL INDEX) === */
     .main-nav {
       position: fixed; top: 0; left: 0; width: 100%;
       background: rgba(10, 8, 26, 0.95);
@@ -102,7 +109,7 @@
     .container {
       max-width: 1000px;
       margin: 40px auto;
-      background: rgba(10, 8, 26, 0.95);
+      background: rgba(10, 8, 26, 0.92);
       border: 2px solid #00f3ff;
       border-radius: 16px;
       padding: 40px 30px;
@@ -119,9 +126,35 @@
     .subtitle {
       text-align: center;
       color: #aaa;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       font-style: italic;
       font-size: 1.1em;
+    }
+
+    /* === REPRODUCTOR EN EXPLORAR === */
+    .player-mini {
+      text-align: center;
+      margin: 0 auto 35px;
+      max-width: 320px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      border-radius: 12px;
+      border: 1px solid #ff00ff;
+      box-shadow: 0 0 15px rgba(255, 0, 255, 0.4);
+    }
+    .player-mini iframe {
+      width: 100%;
+      height: 90px;
+      border: none;
+      border-radius: 8px;
+      background: transparent;
+    }
+    .player-mini p {
+      color: #ffcc00;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9em;
+      margin-top: 8px;
+      text-shadow: 0 0 6px rgba(255, 204, 0, 0.6);
     }
 
     /* === GRILLA DE TARJETAS === */
@@ -215,6 +248,7 @@
       h1 { font-size: 1.5em; }
       .subtitle { font-size: 1em; }
       .card-icon { font-size: 2em; }
+      .player-mini { padding: 12px; }
     }
     @media (max-width: 400px) {
       .card { padding: 20px 15px; }
@@ -239,9 +273,20 @@
     </div>
   </nav>
 
+  <!-- === FONDO DE VINILO === -->
+  <div class="vinyl-background">
+    <video autoplay muted loop playsinline><source src="video/vinilo-loop.mp4" type="video/mp4"></video>
+  </div>
+
   <main class="container">
     <h1>🗺️ Explorá FlashBack Radio</h1>
     <p class="subtitle">Todo nuestro contenido on-demand en un solo lugar</p>
+
+    <!-- REPRODUCTOR MINI -->
+    <div class="player-mini">
+      <iframe src="player.html" allow="autoplay; encrypted-media" title="Reproductor FlashBack Radio"></iframe>
+      <p>🎧 Escuchá mientras explorás</p>
+    </div>
 
     <div class="grid">
       <!-- Mezclas -->
