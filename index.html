@@ -147,25 +147,110 @@
     .meta-error { color: #ff6666; font-size: 0.9em; text-align: center; padding: 10px; }
 
     /* === BANNER DE MOMENTO ACTUAL (NEÓN) === */
-    #playlist-banner {
-      background: linear-gradient(135deg, #0a0a1a, #1a0a2a);
-      border: 2px solid #00f3ff;
-      border-radius: 12px;
-      padding: 15px 25px;
-      margin: 20px auto;
-      max-width: 500px;
-      text-align: center;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.15em;
-      color: #00ffff;
-      box-shadow: 0 0 20px rgba(0, 243, 255, 0.4), inset 0 0 10px rgba(0, 243, 255, 0.1);
-      animation: neonPulse 2.5s infinite alternate;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      transition: all 0.3s ease;
-    }
+/* === BANNER NEÓN MEJORADO === */
+#playlist-banner {
+  background: linear-gradient(135deg, rgba(10,10,30,0.95), rgba(30,10,40,0.95));
+  border: 3px solid #00f3ff;
+  border-radius: 16px;
+  padding: 20px 30px;
+  margin: 25px auto;
+  max-width: 550px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffff;
+  box-shadow: 
+    0 0 20px rgba(0, 243, 255, 0.6),
+    0 0 40px rgba(0, 243, 255, 0.3),
+    inset 0 0 20px rgba(0, 243, 255, 0.1);
+  animation: neonGlow 2s ease-in-out infinite alternate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Efecto de brillo animado */
+#playlist-banner::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #00f3ff, #ff00ff, #00f3ff);
+  border-radius: 16px;
+  opacity: 0;
+  z-index: -1;
+  animation: borderGlow 3s ease-in-out infinite;
+}
+
+@keyframes neonGlow {
+  0% { 
+    box-shadow: 
+      0 0 20px rgba(0, 243, 255, 0.6),
+      0 0 40px rgba(0, 243, 255, 0.3),
+      inset 0 0 20px rgba(0, 243, 255, 0.1);
+    border-color: #00f3ff;
+  }
+  100% { 
+    box-shadow: 
+      0 0 30px rgba(0, 243, 255, 0.9),
+      0 0 60px rgba(0, 243, 255, 0.5),
+      0 0 80px rgba(255, 0, 255, 0.3),
+      inset 0 0 30px rgba(0, 243, 255, 0.2);
+    border-color: #ff00ff;
+  }
+}
+
+@keyframes borderGlow {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 0.3; }
+}
+
+/* Icono animado */
+#playlist-banner .icon {
+  font-size: 2em;
+  filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.8));
+  animation: iconPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes iconPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+/* Texto con efecto neón */
+#playlist-banner .label {
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+  line-height: 1.4;
+}
+
+#playlist-banner .label div:first-child {
+  color: #00ffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#playlist-banner .label div:last-child {
+  color: #ffcc66;
+  font-family: 'Special Elite', cursive;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  #playlist-banner {
+    padding: 15px 20px;
+    max-width: 95%;
+    font-size: 0.9em;
+  }
+  #playlist-banner .icon {
+    font-size: 1.5em;
+  }
+}
     @keyframes neonPulse {
       0% { box-shadow: 0 0 15px rgba(0, 243, 255, 0.3), inset 0 0 5px rgba(0, 243, 255, 0.1); }
       100% { box-shadow: 0 0 30px rgba(0, 243, 255, 0.7), 0 0 10px rgba(255, 0, 255, 0.3), inset 0 0 15px rgba(0, 243, 255, 0.2); }
@@ -328,10 +413,13 @@
     </section>
 
     <!-- === BANNER DE MOMENTO ACTUAL === -->
-      <div id="playlist-banner" style="display: flex !important; background: red;">
-        <span class="icon">🎙️</span>
-        <span class="label">Cargando momento...</span>
+      <div id="playlist-banner">
+        <span class="icon">🎵</span>
+        <span class="label">
+        <div>Cargando...</div>
+       </span>
       </div>
+
     <section class="sobre-radio">
       <p>Esta radio nace de un vinilo, un recuerdo y las ganas de compartir.<br>Sin prisas. Solo aquella música que me vibra el alma.</p>
       <p class="firma">— Raúl, desde Capilla del Monte, Córdoba 💜 — </p>
@@ -390,83 +478,164 @@
 
     // 1. CONFIGURACIÓN DE TUS PROGRAMAS Y FRASES
 const playlistMap = {
-  'BLOQUE_FITNESS': { icon: '💪', label: 'Bloque Fitness: ¡Hora y media para bailar y entrenar con energía!' },
+  'BLOQUE_FITNESS': { icon: '', label: '¡Hora y media para bailar y entrenar con energía!' },
   'BOLICHERO_DISCO': { icon: '🕺', label: '¡Sacudí la nostalgia con los hits de la pista!' },
-  'Despierta_Flashback': { icon: '🌅', label: 'Empezá el día con los mejores clásicos.' },
-  'ESPECIALES_DOMINGO': { icon: '🌟', label: 'Especiales de Domingo' },
+  'Despierta_Flashback': { icon: '🌅', label: '¡Buen día, viajero del tiempo! Arrancamos con los clásicos que te acompañan.' },
+  'ESPECIALES_DOMINGO': { icon: '🌟', label: 'Domingos de Oro: un viaje por las leyendas que marcaron época.' },
   'LENTOS_NOCHE': { icon: '🌙', label: 'Baladas que llegan directo al corazón.' },
-  'MUSICA_DIA': { icon: '🎵', label: ' La mejor selección para acompañar tu jornada.' },
-  'PROGRAMAS_RECUERDO': { icon: '📽️', label: 'Programas del Recuerdo' },
-  'PROGRAMAS_ROMANTICOS': { icon: '💖', label: 'Canciones para enamorarse otra vez.' },
-  'PROGRAMA_BEATLES': { icon: '🍏', label: 'Especial de The Beatles' },
-  'PROGRAMA_OLDIES': { icon: '📻', label: 'Grandes Éxitos de Siempre' },
-  'PROGRAMA_PLATEROS': { icon: '✨', label: 'El momento de Los Plateros' },
-  'PROGRAMA_ROCK': { icon: '🎸', label: 'Rock & Roll: Los Hits que marcaron la historia.' },
-  'REFLEXIONES_MAÑANA': { icon: '🧘', label: 'Reflexiones de Mañana' }
+  'MUSICA_DIA': { icon: '🎵', label: 'La mejor selección para acompañar tu jornada.' },
+  'PROGRAMAS_RECUERDO': { icon: '📼', label: 'Viajes en el tiempo: Programas que rescatan lo mejor de cada época.' },
+  'PROGRAMAS_ROMANTICOS': { icon: '💖', label: 'Canciones para enamorarse una y otra vez.' },
+  'PROGRAMA_ROCK': { icon: '🎸', label: 'Rock & Roll: los Hits que me marcaron momentos inolvidables.' },
+  'PROGRAMA_OLDIES': { icon: '📻', label: 'Oldies but Goldies: Aquellos clásicos que nunca pasan de moda.' },
+  
+  // === ESPECIALES INDIVIDUALES ===
+  'ESPECIAL_BEATLES': { icon: '', label: 'The Beatles: Un viaje musical que marcó y cambió la historia.' },
+  'ESPECIAL_PLATEROS': { icon: '🇪🇸', label: 'Los Plateros: Un momento del Recuerdo que me hizo vibrar.' },
+  'ESPECIAL_HOLLIES': { icon: '🎸', label: 'The Hollies: Armonías perfectas y clásicos eternos.' },
+  'ESPECIAL_STONES': { icon: '👅', label: 'The Rolling Stones: Actitud, blues y rock en estado puro.' },
+  'ESPECIAL_PARSONS': { icon: '🌌', label: 'Alan Parsons Project: sinfonías electrónicas y sonidos del espacio.' },
+  'ESPECIAL_CERATI': { icon: '🎹', label: 'Gustavo Cerati & Soda Stereo: Poesía rock que sigue latiendo.' },
+  
+  // === REFLEXIONES ===
+  'REFLEXIONES_MAÑANA': { icon: '', label: 'Un momento de calma: palabras para arrancar el día con buena energía.' }
 };
 
-    // 2. FUNCIÓN ÚNICA PARA CARGAR DATOS Y BANNER
-    async function actualizarRadio() {
-      const API_URL = 'https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio';
-      try {
-        const response = await fetch(API_URL);
-        if (!response.ok) throw new Error('Error API');
-        const data = await response.json();
+    // 2. FUNCIÓN CORREGIDA PARA CARGAR DATOS Y BANNER (NUNCA SE OCULTA)
+ async function actualizarRadio() {
+  const API_URL = 'https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio';
+  const banner = document.getElementById('playlist-banner');
+  const iconSpan = banner?.querySelector('.icon');
+  const labelSpan = banner?.querySelector('.label');
+  const contenedorMeta = document.getElementById('meta-content');
 
-        // Actualizar Metadatos (Lista de canciones)
-        const actual = data.now_playing?.song?.text || 'Desconocido';
-        const artista = data.now_playing?.song?.artist || '';
-        const proxima = data.playing_next?.song?.text || 'No programada';
-        const historial = data.song_history?.slice(0, 5) || [];
-        const contenedorMeta = document.getElementById('meta-content');
+  try {
+    const response = await fetch(API_URL, { 
+      method: 'GET',
+      headers: { 'Accept': 'application/json' },
+      mode: 'cors' 
+    });
+    
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
 
-        let html = `<div class="meta-row"><span class="meta-label">🎵 Ahora:</span><span class="meta-value">${artista ? `<strong>${artista}</strong><br>` : ''}${actual}</span></div>
-          <div class="meta-row"><span class="meta-label">⏭️ Próxima:</span><span class="meta-value">${proxima}</span></div>
-          <div class="meta-row"><span class="meta-label">📜 Últimas:</span><span class="meta-value"></span></div><ul class="history-list">`;
-        historial.forEach(item => {
-          const titulo = item.song?.text || 'Desconocido';
-          const art = item.song?.artist || '';
-          const tiempo = item.played_at ? new Date(item.played_at * 1000).toLocaleTimeString('es-AR', {hour:'2-digit', minute:'2-digit'}) : '';
-          html += `<li>${tiempo} • ${art ? `<strong>${art}</strong> - ` : ''}${titulo}</li>`;
-        });
-        html += `</ul>`; 
-        if(contenedorMeta) contenedorMeta.innerHTML = html;
+    // === DEBUG ===
+    console.log('📡 API Data:', data);
+    console.log('🎵 Canción actual:', data.now_playing?.song);
 
-        // Actualizar Banner de Programa (Aviso)
-        const banner = document.getElementById('playlist-banner');
-        const especialBanner = document.getElementById('especial-banner'); // Lo ocultaremos siempre para evitar conflicto
-        const iconSpan = banner?.querySelector('.icon');
-        const labelSpan = banner?.querySelector('.label');
-        const rawName = data.now_playing?.playlist?.name || '';
+    // === ACTUALIZAR METADATOS ===
+    const actual = data.now_playing?.song?.text || 'Desconocido';
+    const artista = data.now_playing?.song?.artist || '';
+    const proxima = data.playing_next?.song?.text || 'No programada';
+    const historial = data.song_history?.slice(0, 5) || [];
 
-        if (especialBanner) especialBanner.style.display = 'none'; // Matamos el banner viejo
+    let html = `<div class="meta-row"><span class="meta-label">🎵 Ahora:</span><span class="meta-value">${artista ? `<strong>${artista}</strong><br>` : ''}${actual}</span></div>
+      <div class="meta-row"><span class="meta-label">⏭️ Próxima:</span><span class="meta-value">${proxima}</span></div>
+      <div class="meta-row"><span class="meta-label">📜 Últimas:</span><span class="meta-value"></span></div><ul class="history-list">`;
+    
+    historial.forEach(item => {
+      const titulo = item.song?.text || 'Desconocido';
+      const art = item.song?.artist || '';
+      const tiempo = item.played_at ? new Date(item.played_at * 1000).toLocaleTimeString('es-AR', {hour:'2-digit', minute:'2-digit'}) : '';
+      html += `<li>${tiempo} • ${art ? `<strong>${art}</strong> - ` : ''}${titulo}</li>`;
+    });
+    html += `</ul>`;
+    if(contenedorMeta) contenedorMeta.innerHTML = html;
 
-        if (rawName && banner) {
-          // Este código reconoce tus listas tal cual están en la foto de AzuraCast
-          const currentPlaylist = rawName.trim();
-          console.log("DEBUG: La lista que manda AzuraCast es:", currentPlaylist); // AGREGÁ ESTA LÍNEA
-          let config = playlistMap[currentPlaylist];
+    // === DETECCIÓN DE ESPECIAL POR TÍTULO DE CANCIÓN ===
+    const currentSong = data.now_playing?.song?.text || '';
+    const currentArtist = data.now_playing?.song?.artist || '';
+    const currentPlaylist = data.now_playing?.playlist || '';
+    
+    // Combinar artista + título para buscar coincidencias
+    const fullText = `${currentArtist} ${currentSong}`.toUpperCase();
+    
+    console.log('🔍 Buscando en:', fullText);
 
-          // Si no encuentra el nombre exacto, busca una coincidencia parcial
-          if (!config) {
-            const matchKey = Object.keys(playlistMap).find(k => currentPlaylist.includes(k));
-            config = matchKey ? playlistMap[matchKey] : null;
-          }
-
-          const icon = config ? config.icon : '🎙️';
-          const label = config ? config.label : rawName.replace(/_/g, ' ');
-
-          if(iconSpan) iconSpan.textContent = icon;
-          if(labelSpan) labelSpan.textContent = `🔴 AHORA: ${label}`;
-          banner.style.display = 'flex';
-        } else if (banner) {
-          banner.style.display = 'none';
-        }
-
-      } catch (error) { 
-        console.error('Error en radio:', error); 
+    // === BUSCAR COINCIDENCIAS CON LOS ESPECIALES ===
+    let detectedSpecial = null;
+    
+    // Lista de palabras clave para cada especial
+    const specialKeywords = {
+      'ESPECIAL_BEATLES': ['BEATLES', 'FAB FOUR', 'LIVERPOOL'],
+      'ESPECIAL_HOLLIES': ['HOLLIES', 'THE HOLLIES'],
+      'ESPECIAL_STONES': ['ROLLING STONES', 'STONES', 'JAGGER', 'RICHARDS'],
+      'ESPECIAL_PARSONS': ['ALAN PARSONS', 'PARSONS PROJECT'],
+      'ESPECIAL_PLATEROS': ['PLATEROS', 'PLATEROS Y TU'],
+      'ESPECIAL_CERATI': ['CERATI', 'SODA STEREO', 'GUSTAVO CERATI'],
+      'ESPECIALES_DOMINGO': [] // Fallback
+    };
+    
+    // Buscar coincidencias
+    for (const [specialName, keywords] of Object.entries(specialKeywords)) {
+      if (keywords.some(keyword => fullText.includes(keyword))) {
+        detectedSpecial = specialName;
+        console.log('✅ Especial detectado:', detectedSpecial);
+        break;
       }
     }
+    
+    // Si no detectó ningún especial pero está en la playlist ESPECIALES_DOMINGO
+    if (!detectedSpecial && currentPlaylist === 'ESPECIALES_DOMINGO') {
+      detectedSpecial = 'ESPECIALES_DOMINGO';
+    }
+
+    // === ACTUALIZAR BANNER ===
+    const isLive = data.live?.is_live || false;
+    const rawPlaylistName = currentPlaylist || '';
+
+    if (banner) {
+      // PRIORIDAD 1: Si detectó un especial por el título → mostrar su info
+      if (detectedSpecial && playlistMap[detectedSpecial]) {
+        const config = playlistMap[detectedSpecial];
+        if(iconSpan) iconSpan.textContent = config.icon;
+        if(labelSpan) {
+          labelSpan.innerHTML = `
+            <div>🔴 AHORA: ${detectedSpecial.replace('_', ' ')}</div>
+            <div>${config.label}</div>
+          `;
+        }
+        banner.style.display = 'flex';
+        
+      // PRIORIDAD 2: Si coincide con playlistMap por nombre exacto
+      } else if (rawPlaylistName && playlistMap[rawPlaylistName]) {
+        const config = playlistMap[rawPlaylistName];
+        if(iconSpan) iconSpan.textContent = config.icon;
+        if(labelSpan) {
+          labelSpan.innerHTML = `
+            <div>🔴 AHORA: ${rawPlaylistName}</div>
+            <div>${config.label}</div>
+          `;
+        }
+        banner.style.display = 'flex';
+        
+      // FALLBACK: Mostrar canción actual
+      } else if (isLive || data.now_playing?.song?.text) {
+        if(iconSpan) iconSpan.textContent = '🎧';
+        if(labelSpan) {
+          labelSpan.innerHTML = `<div>🔴 En vivo: ${artista || 'Música'} - ${actual}</div>`;
+        }
+        banner.style.display = 'flex';
+        
+      } else {
+        if(iconSpan) iconSpan.textContent = '⏳';
+        if(labelSpan) {
+          labelSpan.innerHTML = '<div>Cargando programación...</div>';
+        }
+        banner.style.display = 'flex';
+      }
+    }
+
+  } catch (error) { 
+    console.error('❌ Error en actualizarRadio:', error);
+    if (banner && labelSpan) {
+      labelSpan.innerHTML = '<div>⚠️ Sin conexión con la radio</div>';
+      banner.style.display = 'flex';
+      banner.style.borderColor = '#ff6666';
+      banner.style.boxShadow = '0 0 20px rgba(255, 102, 102, 0.5)';
+    }
+  }
+}
 
     // 3. NAVEGACIÓN Y CARGA INICIAL
     const navToggle = document.getElementById('nav-toggle');
