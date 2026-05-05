@@ -432,38 +432,41 @@ const playlistMap = {
         html += `</ul>`; 
         if(contenedorMeta) contenedorMeta.innerHTML = html;
 
-// Actualizar Banner de Programa (Aviso)
+        // Actualizar Banner de Programa (Aviso)
         const banner = document.getElementById('playlist-banner');
+        const especialBanner = document.getElementById('especial-banner'); // Lo ocultaremos siempre para evitar conflicto
         const iconSpan = banner?.querySelector('.icon');
         const labelSpan = banner?.querySelector('.label');
         const rawName = data.now_playing?.playlist?.name || '';
 
-        if (banner) {
+        if (especialBanner) especialBanner.style.display = 'none'; // Matamos el banner viejo
+
+        if (rawName && banner) {
+          // Este código reconoce tus listas tal cual están en la foto de AzuraCast
           const currentPlaylist = rawName.trim();
-          console.log("DEBUG: La lista que manda AzuraCast es:", currentPlaylist);
+          console.log("DEBUG: La lista que manda AzuraCast es:", currentPlaylist); // AGREGÁ ESTA LÍNEA
+          let config = playlistMap[currentPlaylist];
 
-          // Buscamos coincidencia ignorando mayúsculas/minúsculas
-          const matchKey = Object.keys(playlistMap).find(k => 
-            k.toLowerCase() === currentPlaylist.toLowerCase() || 
-            currentPlaylist.toLowerCase().includes(k.toLowerCase())
-          );
-          
-          let config = matchKey ? playlistMap[matchKey] : null;
-
-          if (config) {
-            if(iconSpan) iconSpan.textContent = config.icon;
-            if(labelSpan) labelSpan.textContent = `🔴 AHORA: ${config.label}`;
-            banner.style.display = 'flex';
-          } else if (currentPlaylist !== "") {
-             // Si hay un nombre pero no está en el mapa, mostramos el nombre crudo para no quedar vacíos
-            if(iconSpan) iconSpan.textContent = '🎙️';
-            if(labelSpan) labelSpan.textContent = `🔴 AHORA: ${currentPlaylist.replace(/_/g, ' ')}`;
-            banner.style.display = 'flex';
-          } else {
-            // Si realmente no hay nada sonando, ahí sí lo ocultamos
-            banner.style.display = 'none';
+          // Si no encuentra el nombre exacto, busca una coincidencia parcial
+          if (!config) {
+            const matchKey = Object.keys(playlistMap).find(k => currentPlaylist.includes(k));
+            config = matchKey ? playlistMap[matchKey] : null;
           }
+
+          const icon = config ? config.icon : '🎙️';
+          const label = config ? config.label : rawName.replace(/_/g, ' ');
+
+          if(iconSpan) iconSpan.textContent = icon;
+          if(labelSpan) labelSpan.textContent = `🔴 AHORA: ${label}`;
+          banner.style.display = 'flex';
+        } else if (banner) {
+          banner.style.display = 'none';
         }
+
+      } catch (error) { 
+        console.error('Error en radio:', error); 
+      }
+    }
 
     // 3. NAVEGACIÓN Y CARGA INICIAL
     const navToggle = document.getElementById('nav-toggle');
