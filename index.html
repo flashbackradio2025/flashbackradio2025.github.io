@@ -390,18 +390,18 @@
 
     // 1. CONFIGURACIÓN DE TUS PROGRAMAS Y FRASES
 const playlistMap = {
-  'BLOQUE_FITNESS': { icon: '💪', label: 'Bloque Fitness: ¡A mover el cuerpo!' },
-  'BOLICHERO_DISCO': { icon: '🕺', label: 'Boliche Disco: Los hits de la pista' },
-  'Despierta_Flashback': { icon: '🌅', label: 'Despierta Flashback: El mejor arranque' },
+  'BLOQUE_FITNESS': { icon: '💪', label: 'Bloque Fitness: ¡Hora y media para bailar y entrenar con energía!' },
+  'BOLICHERO_DISCO': { icon: '🕺', label: '¡Sacudí la nostalgia con los hits de la pista!' },
+  'Despierta_Flashback': { icon: '🌅', label: 'Empezá el día con los mejores clásicos.' },
   'ESPECIALES_DOMINGO': { icon: '🌟', label: 'Especiales de Domingo' },
-  'LENTOS_NOCHE': { icon: '🌙', label: 'Lentos de Noche: Música para el alma' },
-  'MUSICA_DIA': { icon: '🎵', label: 'Música del Día en FlashBack Radio' },
+  'LENTOS_NOCHE': { icon: '🌙', label: 'Baladas que llegan directo al corazón.' },
+  'MUSICA_DIA': { icon: '🎵', label: ' La mejor selección para acompañar tu jornada.' },
   'PROGRAMAS_RECUERDO': { icon: '📽️', label: 'Programas del Recuerdo' },
-  'PROGRAMAS_ROMANTICOS': { icon: '💖', label: 'Clásicos Románticos' },
+  'PROGRAMAS_ROMANTICOS': { icon: '💖', label: 'Canciones para enamorarse otra vez.' },
   'PROGRAMA_BEATLES': { icon: '🍏', label: 'Especial de The Beatles' },
   'PROGRAMA_OLDIES': { icon: '📻', label: 'Grandes Éxitos de Siempre' },
   'PROGRAMA_PLATEROS': { icon: '✨', label: 'El momento de Los Plateros' },
-  'PROGRAMA_ROCK': { icon: '🎸', label: 'Rock & Roll: Los himnos del género' },
+  'PROGRAMA_ROCK': { icon: '🎸', label: 'Rock & Roll: Los Hits que marcaron la historia.' },
   'REFLEXIONES_MAÑANA': { icon: '🧘', label: 'Reflexiones de Mañana' }
 };
 
@@ -432,41 +432,38 @@ const playlistMap = {
         html += `</ul>`; 
         if(contenedorMeta) contenedorMeta.innerHTML = html;
 
-        // Actualizar Banner de Programa (Aviso)
+// Actualizar Banner de Programa (Aviso)
         const banner = document.getElementById('playlist-banner');
-        const especialBanner = document.getElementById('especial-banner'); // Lo ocultaremos siempre para evitar conflicto
         const iconSpan = banner?.querySelector('.icon');
         const labelSpan = banner?.querySelector('.label');
         const rawName = data.now_playing?.playlist?.name || '';
 
-        if (especialBanner) especialBanner.style.display = 'none'; // Matamos el banner viejo
-
-        if (rawName && banner) {
-          // Este código reconoce tus listas tal cual están en la foto de AzuraCast
+        if (banner) {
           const currentPlaylist = rawName.trim();
-console.log("DEBUG: La lista que manda AzuraCast es:", currentPlaylist); // AGREGÁ ESTA LÍNEA
-let config = playlistMap[currentPlaylist];
+          console.log("DEBUG: La lista que manda AzuraCast es:", currentPlaylist);
 
-          // Si no encuentra el nombre exacto, busca una coincidencia parcial
-          if (!config) {
-            const matchKey = Object.keys(playlistMap).find(k => currentPlaylist.includes(k));
-            config = matchKey ? playlistMap[matchKey] : null;
+          // Buscamos coincidencia ignorando mayúsculas/minúsculas
+          const matchKey = Object.keys(playlistMap).find(k => 
+            k.toLowerCase() === currentPlaylist.toLowerCase() || 
+            currentPlaylist.toLowerCase().includes(k.toLowerCase())
+          );
+          
+          let config = matchKey ? playlistMap[matchKey] : null;
+
+          if (config) {
+            if(iconSpan) iconSpan.textContent = config.icon;
+            if(labelSpan) labelSpan.textContent = `🔴 AHORA: ${config.label}`;
+            banner.style.display = 'flex';
+          } else if (currentPlaylist !== "") {
+             // Si hay un nombre pero no está en el mapa, mostramos el nombre crudo para no quedar vacíos
+            if(iconSpan) iconSpan.textContent = '🎙️';
+            if(labelSpan) labelSpan.textContent = `🔴 AHORA: ${currentPlaylist.replace(/_/g, ' ')}`;
+            banner.style.display = 'flex';
+          } else {
+            // Si realmente no hay nada sonando, ahí sí lo ocultamos
+            banner.style.display = 'none';
           }
-
-          const icon = config ? config.icon : '🎙️';
-          const label = config ? config.label : rawName.replace(/_/g, ' ');
-
-          if(iconSpan) iconSpan.textContent = icon;
-          if(labelSpan) labelSpan.textContent = `🔴 AHORA: ${label}`;
-          banner.style.display = 'flex';
-        } else if (banner) {
-          banner.style.display = 'none';
         }
-
-      } catch (error) { 
-        console.error('Error en radio:', error); 
-      }
-    }
 
     // 3. NAVEGACIÓN Y CARGA INICIAL
     const navToggle = document.getElementById('nav-toggle');
