@@ -238,12 +238,11 @@
 
 @media (max-width: 600px) {
   #playlist-banner {
-    padding: 15px 20px;
-    max-width: 95%;
-    font-size: 0.9em;
+    animation: none !important; /* Desactiva animación en móvil */
+    box-shadow: 0 0 20px rgba(0, 243, 255, 0.6) !important;
   }
-  #playlist-banner .icon {
-    font-size: 1.5em;
+  #playlist-banner::before {
+    display: none; /* Elimina el brillo extra */
   }
 }
     @keyframes neonPulse {
@@ -579,7 +578,9 @@
        </span>
       </div>
     <!-- === EFEMÉRIDE MUSICAL === -->
-    <div id="efemeride-banner" style="display:none; background:linear-gradient(135deg,rgba(26,0,51,0.9),rgba(0,26,51,0.9)); border:2px solid #ff00ff; border-radius:12px; padding:12px 20px; margin:15px auto; max-width:500px; text-align:center; font-family:'Special Elite',cursive; color:#ffcc66; box-shadow:0 0 15px rgba(255,0,255,0.5); animation:pulseBanner 3s infinite;">
+	<h3 style="color:#00ffff; text-align:center; margin:20px 0 10px; font-family:'Orbitron',sans-serif; text-shadow:0 0 8px rgba(0,243,255,0.6);">📅 Efemérides</h3>
+      <div id="efemeride-banner" style="...">
+      <div id="efemeride-banner" style="display:none; background:linear-gradient(135deg,rgba(26,0,51,0.9),rgba(0,26,51,0.9)); border:2px solid #ff00ff; border-radius:12px; padding:12px 20px; margin:15px auto; max-width:500px; text-align:center; font-family:'Special Elite',cursive; color:#ffcc66; box-shadow:0 0 15px rgba(255,0,255,0.5); animation:pulseBanner 3s infinite;">
       <span id="efemeride-text"></span>
     </div>
 
@@ -910,7 +911,7 @@ const playlistMap = {
 	  const elHora = document.getElementById('clock-time');
 	  const elFecha = document.getElementById('clock-date');
 	  if (elHora) elHora.textContent = ahora.toLocaleTimeString('es-AR', { hour:'2-digit', minute:'2-digit' });
-	  if (elFecha) elFecha.textContent = ahora.toLocaleDateString('es-AR', { weekday:'long', day:'numeric', month:'long' });
+	  if (elFecha) elFecha.textContent = `${ahora.toLocaleDateString('es-AR', { weekday:'long', day:'numeric', month:'long' })} ${ahora.getFullYear()}`;
 	}
 	setInterval(actualizarReloj, 1000);
 	actualizarReloj();
