@@ -147,7 +147,6 @@
     .meta-error { color: #ff6666; font-size: 0.9em; text-align: center; padding: 10px; }
 
     /* === BANNER DE MOMENTO ACTUAL (NEÓN) === */
-/* === BANNER NEÓN MEJORADO === */
 #playlist-banner {
   background: linear-gradient(135deg, rgba(10,10,30,0.95), rgba(30,10,40,0.95));
   border: 3px solid #00f3ff;
@@ -172,7 +171,6 @@
   overflow: hidden;
 }
 
-/* Efecto de brillo animado */
 #playlist-banner::before {
   content: '';
   position: absolute;
@@ -210,7 +208,6 @@
   50% { opacity: 0.3; }
 }
 
-/* Icono animado */
 #playlist-banner .icon {
   font-size: 2em;
   filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.8));
@@ -222,7 +219,6 @@
   50% { transform: scale(1.1); }
 }
 
-/* Texto con efecto neón */
 #playlist-banner .label {
   text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
   line-height: 1.4;
@@ -240,7 +236,6 @@
   font-family: 'Special Elite', cursive;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   #playlist-banner {
     padding: 15px 20px;
@@ -375,7 +370,7 @@
 }
 
 .radio-logo {
-  max-width: 250px;  /* AUMENTADO de 180px a 250px */
+  max-width: 250px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(255, 204, 102, 0.8);
@@ -457,7 +452,7 @@
   }
   
   .radio-logo {
-    max-width: 200px;  /* En tablet/móvil grande: 200px */
+    max-width: 200px;
   }
   
   .cafecito-pregunta {
@@ -481,7 +476,7 @@
   }
   
   .radio-logo {
-    max-width: 160px;  /* En móvil chico: 160px */
+    max-width: 160px;
   }
   
   .cafecito-pregunta {
@@ -497,6 +492,14 @@
     padding: 10px 18px;
   }
 }
+    /* === GADGETS RESPONSIVE === */
+    @media (max-width: 480px) {
+      #weather-time-widget { gap: 10px; }
+      .neon-gadget { padding: 10px 12px !important; min-width: 120px !important; }
+      #clock-time, #weather-temp { font-size: 1.3em !important; }
+      #album-art { width: 110px !important; height: 110px !important; }
+    }
+    #album-art:hover { transform: scale(1.05); }
   </style>
     <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://flashbackradio2025.github.io/">
@@ -575,7 +578,22 @@
         <div>Cargando...</div>
        </span>
       </div>
+    <!-- === EFEMÉRIDE MUSICAL === -->
+    <div id="efemeride-banner" style="display:none; background:linear-gradient(135deg,rgba(26,0,51,0.9),rgba(0,26,51,0.9)); border:2px solid #ff00ff; border-radius:12px; padding:12px 20px; margin:15px auto; max-width:500px; text-align:center; font-family:'Special Elite',cursive; color:#ffcc66; box-shadow:0 0 15px rgba(255,0,255,0.5); animation:pulseBanner 3s infinite;">
+      <span id="efemeride-text"></span>
+    </div>
 
+    <!-- === HORA Y TEMPERATURA (GADGET) === -->
+    <div id="weather-time-widget" style="display:flex; justify-content:center; gap:15px; margin:20px auto; max-width:500px; flex-wrap:wrap;">
+      <div class="neon-gadget" style="background:rgba(10,8,26,0.9); border:2px solid #00f3ff; border-radius:12px; padding:12px 18px; text-align:center; box-shadow:0 0 15px rgba(0,243,255,0.4); min-width:140px;">
+        <div style="font-family:'Orbitron',sans-serif; font-size:1.6em; color:#00ffff; text-shadow:0 0 10px rgba(0,243,255,0.8);" id="clock-time">--:--</div>
+        <div style="font-family:'Special Elite',cursive; font-size:0.85em; color:#ffcc66; margin-top:4px;" id="clock-date">Cargando...</div>
+      </div>
+      <div class="neon-gadget" style="background:rgba(10,8,26,0.9); border:2px solid #ffcc00; border-radius:12px; padding:12px 18px; text-align:center; box-shadow:0 0 15px rgba(255,204,102,0.4); min-width:140px;">
+        <div style="font-family:'Orbitron',sans-serif; font-size:1.6em; color:#ffcc00; text-shadow:0 0 10px rgba(255,204,102,0.8);" id="weather-temp">--°C</div>
+        <div style="font-family:'Special Elite',cursive; font-size:0.85em; color:#ffcc66; margin-top:4px;">Capilla del Monte</div>
+      </div>
+    </div>
     <section class="sobre-radio">
       <p>Esta radio nace de un vinilo, un recuerdo y las ganas de compartir.<br>Sin prisas. Solo aquella música que me vibra el alma.</p>
       <p class="firma">— Raúl, desde Capilla del Monte, Córdoba 💜 — </p>
@@ -591,6 +609,10 @@
 
     <section class="metadata-widget">
       <h3>📊 Información en Vivo</h3>
+<!-- ✅ AGREGADO: TAPA DEL DISCO -->
+      <div style="text-align:center; margin-bottom:15px;">
+      <img id="album-art" src="img/logo.png" alt="Tapa del disco" style="width:130px; height:130px; object-fit:cover; border-radius:12px; border:2px solid #00f3ff; box-shadow:0 0 20px rgba(0,243,255,0.5); transition: transform 0.3s;">
+    </div>
       <div id="meta-content"><p class="meta-loading">⏳ Cargando datos de AzuraCast...</p></div>
     </section>
 
@@ -675,20 +697,21 @@ const playlistMap = {
   'ESPECIAL_CERATI': { icon: '🎹', label: 'Gustavo Cerati & Soda Stereo: Poesía rock que sigue latiendo.' },
   
     // === MICROS Y VERSIONES (¡Agregado!) ===
-  'MICROS_VERSIONES': { icon: '📻', label: 'Momento de versiones únicas y especiales.' }, // Fallback si no detecta la canción exacta
+  'MICROS_VERSIONES': { icon: '', label: 'Momento de versiones únicas y especiales.' },
   'MICRO_COME_PRIMA': { icon: '🎻', label: 'Viajes de una Canción: "Come Prima", un clásico que cruzó océanos.' },
   
   // === REFLEXIONES ===
   'REFLEXIONES_MAÑANA': { icon: '', label: 'Un momento de calma: palabras para arrancar el día con buena energía.' }
 };
 
-    // 2. FUNCIÓN CORREGIDA PARA CARGAR DATOS Y BANNER (NUNCA SE OCULTA)
+    // 2. FUNCIÓN ACTUALIZAR RADIO (VERSIÓN FINAL CON CARÁTULA BLINDADA)
  async function actualizarRadio() {
   const API_URL = 'https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio';
   const banner = document.getElementById('playlist-banner');
   const iconSpan = banner?.querySelector('.icon');
   const labelSpan = banner?.querySelector('.label');
   const contenedorMeta = document.getElementById('meta-content');
+  const albumArt = document.getElementById('album-art');
 
   try {
     const response = await fetch(API_URL, { 
@@ -700,15 +723,25 @@ const playlistMap = {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
 
-    // === DEBUG ===
-    console.log('📡 API Data:', data);
-    console.log('🎵 Canción actual:', data.now_playing?.song);
-
-    // === ACTUALIZAR METADATOS ===
     const actual = data.now_playing?.song?.text || 'Desconocido';
     const artista = data.now_playing?.song?.artist || '';
     const proxima = data.playing_next?.song?.text || 'No programada';
     const historial = data.song_history?.slice(0, 5) || [];
+    
+    // ✅ LÓGICA DE CARÁTULA ROBUSTA (acepta rutas relativas y absolutas)
+    if(albumArt) {
+      const artRaw = data.now_playing?.song?.art;
+      if (artRaw) {
+        if (artRaw.startsWith('http')) {
+          albumArt.src = artRaw;
+        } else {
+          albumArt.src = `https://flashbackradio.duckdns.org${artRaw}`;
+        }
+        albumArt.onerror = () => { albumArt.src = 'img/logo.png'; };
+      } else {
+        albumArt.src = 'img/logo.png';
+      }
+    }
 
     let html = `<div class="meta-row"><span class="meta-label">🎵 Ahora:</span><span class="meta-value">${artista ? `<strong>${artista}</strong><br>` : ''}${actual}</span></div>
       <div class="meta-row"><span class="meta-label">⏭️ Próxima:</span><span class="meta-value">${proxima}</span></div>
@@ -727,16 +760,9 @@ const playlistMap = {
     const currentSong = data.now_playing?.song?.text || '';
     const currentArtist = data.now_playing?.song?.artist || '';
     const currentPlaylist = data.now_playing?.playlist || '';
-    
-    // Combinar artista + título para buscar coincidencias
     const fullText = `${currentArtist} ${currentSong}`.toUpperCase();
     
-    console.log('🔍 Buscando en:', fullText);
-
-    // === BUSCAR COINCIDENCIAS CON LOS ESPECIALES ===
     let detectedSpecial = null;
-    
-    // Lista de palabras clave para cada especial
     const specialKeywords = {
       'ESPECIAL_BEATLES': ['BEATLES', 'FAB FOUR', 'LIVERPOOL'],
       'ESPECIAL_HOLLIES': ['HOLLIES', 'THE HOLLIES'],
@@ -744,21 +770,17 @@ const playlistMap = {
       'ESPECIAL_PARSONS': ['ALAN PARSONS', 'PARSONS PROJECT'],
       'ESPECIAL_PLATEROS': ['PLATEROS', 'PLATEROS Y TU'],
       'ESPECIAL_CERATI': ['CERATI', 'SODA STEREO', 'GUSTAVO CERATI'],
-	//  ESTA LÍNEA ES CLAVE PARA TU MICRO 👇
       'MICRO_COME_PRIMA': ['COME_PRIMA', 'COME PRIMA', 'MICRO'], 
-      'ESPECIALES_DOMINGO': [] // Fallback
+      'ESPECIALES_DOMINGO': []
     };
     
-    // Buscar coincidencias
     for (const [specialName, keywords] of Object.entries(specialKeywords)) {
       if (keywords.some(keyword => fullText.includes(keyword))) {
         detectedSpecial = specialName;
-        console.log('✅ Especial detectado:', detectedSpecial);
         break;
       }
     }
     
-    // Si no detectó ningún especial pero está en la playlist ESPECIALES_DOMINGO
     if (!detectedSpecial && currentPlaylist === 'ESPECIALES_DOMINGO') {
       detectedSpecial = 'ESPECIALES_DOMINGO';
     }
@@ -768,45 +790,30 @@ const playlistMap = {
     const rawPlaylistName = currentPlaylist || '';
 
     if (banner) {
-      // PRIORIDAD 1: Si detectó un especial por el título → mostrar su info
       if (detectedSpecial && playlistMap[detectedSpecial]) {
         const config = playlistMap[detectedSpecial];
         if(iconSpan) iconSpan.textContent = config.icon;
         if(labelSpan) {
-          labelSpan.innerHTML = `
-            <div>🔴 AHORA: ${detectedSpecial.replace('_', ' ')}</div>
-            <div>${config.label}</div>
-          `;
+          labelSpan.innerHTML = `<div>🔴 AHORA: ${detectedSpecial.replace('_', ' ')}</div><div>${config.label}</div>`;
         }
-        banner.style.display = 'flex';
-        
-      // PRIORIDAD 2: Si coincide con playlistMap por nombre exacto
       } else if (rawPlaylistName && playlistMap[rawPlaylistName]) {
         const config = playlistMap[rawPlaylistName];
         if(iconSpan) iconSpan.textContent = config.icon;
         if(labelSpan) {
-          labelSpan.innerHTML = `
-            <div>🔴 AHORA: ${rawPlaylistName}</div>
-            <div>${config.label}</div>
-          `;
+          labelSpan.innerHTML = `<div>🔴 AHORA: ${rawPlaylistName}</div><div>${config.label}</div>`;
         }
-        banner.style.display = 'flex';
-        
-      // FALLBACK: Mostrar canción actual
       } else if (isLive || data.now_playing?.song?.text) {
         if(iconSpan) iconSpan.textContent = '🎧';
         if(labelSpan) {
           labelSpan.innerHTML = `<div>🔴 En vivo: ${artista || 'Música'} - ${actual}</div>`;
         }
-        banner.style.display = 'flex';
-        
       } else {
         if(iconSpan) iconSpan.textContent = '⏳';
         if(labelSpan) {
           labelSpan.innerHTML = '<div>Cargando programación...</div>';
         }
-        banner.style.display = 'flex';
       }
+      banner.style.display = 'flex';
     }
 
   } catch (error) { 
@@ -815,7 +822,6 @@ const playlistMap = {
       labelSpan.innerHTML = '<div>⚠️ Sin conexión con la radio</div>';
       banner.style.display = 'flex';
       banner.style.borderColor = '#ff6666';
-      banner.style.boxShadow = '0 0 20px rgba(255, 102, 102, 0.5)';
     }
   }
 }
@@ -849,11 +855,6 @@ const playlistMap = {
     }
 
     window.addEventListener('hashchange', actualizarVista);
-    window.addEventListener('DOMContentLoaded', () => {
-      actualizarVista();
-      actualizarRadio(); // Carga todo de una vez
-      setInterval(actualizarRadio, 30000); // Refresca cada 30 segundos
-    });
   </script>
   <script data-goatcounter="https://flashbackradio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
@@ -902,10 +903,73 @@ const playlistMap = {
         }
       }, 3000);
     });
+	
+	// === 1. RELOJ EN TIEMPO REAL ===
+	function actualizarReloj() {
+	  const ahora = new Date();
+	  const elHora = document.getElementById('clock-time');
+	  const elFecha = document.getElementById('clock-date');
+	  if (elHora) elHora.textContent = ahora.toLocaleTimeString('es-AR', { hour:'2-digit', minute:'2-digit' });
+	  if (elFecha) elFecha.textContent = ahora.toLocaleDateString('es-AR', { weekday:'long', day:'numeric', month:'long' });
+	}
+	setInterval(actualizarReloj, 1000);
+	actualizarReloj();
+
+	// === 2. TEMPERATURA (Open-Meteo - Gratis, sin API Key) ===
+	async function cargarClima() {
+	  try {
+		const lat = -30.7333, lon = -64.5167;
+		const res = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`);
+		const data = await res.json();
+		const temp = Math.round(data.current_weather.temperature);
+		const elTemp = document.getElementById('weather-temp');
+		if (elTemp) elTemp.textContent = `${temp}°C`;
+	  } catch (e) {
+		const elTemp = document.getElementById('weather-temp');
+		if (elTemp) elTemp.textContent = 'N/D';
+	  }
+	}
+	cargarClima();
+	setInterval(cargarClima, 1800000);
+
+	// === 3. EFEMÉRIDES DESDE JSON ===
+	async function cargarEfemerides() {
+	  try {
+		const res = await fetch('efemerides.json');
+		const lista = await res.json();
+		
+		const hoy = new Date();
+		const mes = String(hoy.getMonth()+1).padStart(2,'0');
+		const dia = String(hoy.getDate()).padStart(2,'0');
+		const clave = `${mes}-${dia}`;
+		
+		const evento = lista.find(e => e.fecha === clave);
+		
+		if(evento) {
+		  const banner = document.getElementById('efemeride-banner');
+		  const txtEl = document.getElementById('efemeride-text');
+		  if(banner && txtEl) {
+			txtEl.textContent = evento.texto;
+			banner.style.display = 'block';
+		  }
+		}
+	  } catch(e) {
+		console.log(' Efemérides: sin evento para hoy');
+	  }
+	}
+	cargarEfemerides();
+
+	// === 4. INICIALIZACIÓN FINAL ===
+	window.addEventListener('DOMContentLoaded', () => {
+	  actualizarVista();
+	  actualizarRadio();
+	  if (window.radioInterval) clearInterval(window.radioInterval);
+	  window.radioInterval = setInterval(actualizarRadio, 30000);
+	});
   </script>
 
   <div id="pwa-banner" style="position:fixed;bottom:0;left:0;width:100%;background:linear-gradient(135deg,#1a1a2e,#16213e);color:#ffcc66;padding:12px 20px;text-align:center;font-family:'Orbitron',sans-serif;font-size:0.95em;box-shadow:0 -2px 10px rgba(0,0,0,0.5);z-index:9999;display:none;flex-direction:column;gap:8px;">
-    <div>🎧 ¿Te gusta FlashBack Radio? ¡Instálala como app en tu celular!</div>
+    <div> ¿Te gusta FlashBack Radio? ¡Instálala como app en tu celular!</div>
     <button id="pwa-install-btn" style="background:#ff0066;color:white;border:none;padding:6px 16px;border-radius:20px;font-family:'Orbitron',sans-serif;font-weight:bold;cursor:pointer;box-shadow:0 0 8px rgba(255,0,102,0.6);margin-top:4px;">➕ Instalar App</button>
     <button id="pwa-close-banner" style="background:transparent;color:#aaa;border:none;font-size:0.85em;cursor:pointer;margin-top:4px;">Cerrar</button>
   </div>
