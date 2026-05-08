@@ -577,12 +577,15 @@
         <div>Cargando...</div>
        </span>
       </div>
-    <!-- === TÍTULO EFEMÉRIDE === -->
-    <h3 style="color:#00ffff; text-align:center; margin:20px 0 10px; font-family:'Orbitron',sans-serif; text-shadow:0 0 8px rgba(0,243,255,0.6);">📅 Efemérides</h3>
-    
-    <!-- === BANNER EFEMÉRIDE === -->
-    <div id="efemeride-banner" style="display:none; background:linear-gradient(135deg,rgba(26,0,51,0.9),rgba(0,26,51,0.9)); border:2px solid #ff00ff; border-radius:12px; padding:12px 20px; margin:15px auto; max-width:500px; text-align:center; font-family:'Special Elite',cursive; color:#ffcc66; box-shadow:0 0 15px rgba(255,0,255,0.5); animation:pulseBanner 3s infinite;">
-      <span id="efemeride-text"></span>
+    <!-- === EFEMÉRIDE (TODO EN UN BOX) === -->
+    <div style="background:rgba(10,8,26,0.95); border:2px solid #00f3ff; border-radius:16px; padding:20px; margin:20px auto; max-width:500px; box-shadow:0 0 30px rgba(0,243,255,0.4);">
+      <h3 style="color:#00ffff; text-align:center; margin:0 0 15px; font-family:'Orbitron',sans-serif; font-size:1.3em; text-shadow:0 0 8px rgba(0,243,255,0.6);">📅 Efemérides</h3>
+      <div id="efemeride-banner" style="display:none; background:linear-gradient(135deg,rgba(26,0,51,0.9),rgba(0,26,51,0.9)); border:2px solid #ff00ff; border-radius:12px; padding:12px 20px; text-align:center; font-family:'Special Elite',cursive; color:#ffcc66; box-shadow:0 0 15px rgba(255,0,255,0.5); animation:pulseBanner 3s infinite;">
+        <span id="efemeride-text"></span>
+      </div>
+      <div id="efemeride-placeholder" style="text-align:center; color:#888; font-family:'Special Elite',cursive; font-size:0.9em; padding:10px;">
+        Sin efeméride para hoy
+      </div>
     </div>
 	
     <!-- === HORA Y TEMPERATURA (GADGET) === -->
@@ -934,32 +937,38 @@ const playlistMap = {
 	cargarClima();
 	setInterval(cargarClima, 1800000);
 
-	// === 3. EFEMÉRIDES DESDE JSON ===
-	async function cargarEfemerides() {
-	  try {
-		const res = await fetch('efemerides.json');
-		const lista = await res.json();
-		
-		const hoy = new Date();
-		const mes = String(hoy.getMonth()+1).padStart(2,'0');
-		const dia = String(hoy.getDate()).padStart(2,'0');
-		const clave = `${mes}-${dia}`;
-		
-		const evento = lista.find(e => e.fecha === clave);
-		
-		if(evento) {
-		  const banner = document.getElementById('efemeride-banner');
-		  const txtEl = document.getElementById('efemeride-text');
-		  if(banner && txtEl) {
-			txtEl.textContent = evento.texto;
-			banner.style.display = 'block';
-		  }
-		}
-	  } catch(e) {
-		console.log(' Efemérides: sin evento para hoy');
-	  }
-	}
-	cargarEfemerides();
+// === 3. EFEMÉRIDES DESDE JSON ===
+async function cargarEfemerides() {
+  try {
+    const res = await fetch('efemerides.json');
+    const lista = await res.json();
+    
+    const hoy = new Date();
+    const mes = String(hoy.getMonth()+1).padStart(2,'0');
+    const dia = String(hoy.getDate()).padStart(2,'0');
+    const clave = `${mes}-${dia}`;
+    
+    const evento = lista.find(e => e.fecha === clave);
+    
+    if(evento) {
+      const banner = document.getElementById('efemeride-banner');
+      const txtEl = document.getElementById('efemeride-text');
+      const placeholder = document.getElementById('efemeride-placeholder');
+      
+      if(banner && txtEl && placeholder) {
+        txtEl.textContent = evento.texto;
+        banner.style.display = 'block';
+        placeholder.style.display = 'none';
+      }
+    } else {
+      const placeholder = document.getElementById('efemeride-placeholder');
+      if(placeholder) placeholder.style.display = 'block';
+    }
+  } catch(e) {
+    console.log('📅 Efemérides: sin evento para hoy');
+  }
+}
+cargarEfemerides();
 
 	// === 4. INICIALIZACIÓN FINAL ===
 	window.addEventListener('DOMContentLoaded', () => {
