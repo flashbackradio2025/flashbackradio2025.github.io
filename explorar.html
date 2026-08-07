@@ -1,370 +1,1014 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Explorá FlashBack Radio – El Eco del Tiempo</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="google-site-verification" content="CR25F-doYcltro-Lpu18SlzL2Yupded_stDh56s4VxI" />
-  
-  <meta name="description" content="Explorá todo el contenido de FlashBack Radio: mezclas exclusivas, arte con IA, cuentos narrados y especiales de artistas. Música retro con alma.">
-  <meta name="keywords" content="radio retro, mezclas DJ, cuentos narrados, arte IA, FlashBack Radio, artistas clásicos">
-  
-  <meta property="og:title" content="Explorá FlashBack Radio – El Eco del Tiempo">
-  <meta property="og:description" content="Mezclas, historias, arte y especiales de tus artistas favoritos. Todo en un solo lugar.">
-  <meta property="og:image" content="img/logo.png">
-  <meta property="og:url" content="https://flashbackradio2025.github.io/explorar.html">
-  <meta property="og:type" content="website">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FlashBack Radio - El Archivo del Tiempo</title>
+<link rel="icon" href="favicon.ico">
+<link rel="manifest" href="manifest.json">
+<meta name="description" content="FlashBack Radio. Mucho más que una radio. Explorá el Archivo del Tiempo.">
+<meta name="keywords" content="radio retro,música,oldies,flashback,archivo del tiempo">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="FlashBack Radio - El Archivo del Tiempo">
+<meta property="og:description" content="Mucho más que una radio">
+<meta property="og:image" content="img/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://flashbackradio2025.github.io/explorar.html">
+<link rel="canonical" href="https://flashbackradio2025.github.io/explorar.html">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
+<!-- Carga la imagen del portal antes, para que no tarde en aparecer -->
+<link rel="preload" as="image" href="img/puertas.jpg">
+<style>
+/*==================================================
+RESET
+==================================================*/
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+html{
+scroll-behavior:smooth;
+}
+body{
+background:#09131d;
+color:#fff;
+font-family:'Special Elite',cursive;
+overflow-x:hidden;
+padding-top:70px;
+}
+/*==================================================
+FONDO
+==================================================*/
+.vinyl-background{
+position:fixed;
+left:0;
+top:0;
+width:100%;
+height:100%;
+z-index:-100;
+overflow:hidden;
+}
+.vinyl-background video{
+width:100%;
+height:100%;
+object-fit:cover;
+filter:brightness(.45);
+}
+/*==================================================
+MENÚ
+==================================================*/
+.main-nav{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:70px;
+display:flex;
+align-items:center;
+background:rgba(8,10,20,.92);
+backdrop-filter:blur(8px);
+border-bottom:1px solid #00ffff55;
+z-index:5000;
+}
+.nav-container{
+width:min(1200px,95%);
+margin:auto;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.nav-logo{
+font-family:'Orbitron';
+font-size:1.1rem;
+color:#ffd700;
+text-decoration:none;
+}
+.nav-menu{
+display:flex;
+list-style:none;
+gap:18px;
+}
+.nav-menu a{
+color:#00ffff;
+text-decoration:none;
+transition:.35s;
+}
+.nav-menu a:hover{
+color:white;
+text-shadow:0 0 15px cyan;
+}
+.nav-toggle{
+display:none;
+background:transparent;
+border:1px solid #00f3ff;
+color:#00ffff;
+font-size:1.5rem;
+padding:5px 10px;
+border-radius:6px;
+cursor:pointer;
+}
+/*==================================================
+INTRO CINEMÁTICA: PORTAL MÍSTICO
+==================================================*/
+#intro-screen{
+position:fixed;
+left:0;
+top:0;
+width:100%;
+height:100vh;
+background:transparent;
+overflow:hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:999999;
+transition:opacity 1.5s;
+}
+#intro-screen.fade{
+opacity:0;
+pointer-events:none;
+}
+.intro-bg{
+display:none; /* ya no tapamos la página: el fondo es la web real */
+}
+.door{
+position:absolute;
+top:0;
+width:50%;
+height:100%;
+background-image:
+url('img/puertas.jpg'),
+linear-gradient(to bottom,#4b331d,#2a1709);
+background-size:200% 100%, cover;
+background-repeat:no-repeat;
+box-shadow:
+inset 0 0 60px rgba(0,0,0,.8);
+transition:transform 3s cubic-bezier(.2,.7,.2,1), box-shadow 2s ease, border-color 2s ease;
+will-change:transform;
+}
+.left-door{
+left:0;
+border-right:2px solid #bf9655;
+background-position:0% 50%, center;
+}
+.right-door{
+right:0;
+border-left:2px solid #bf9655;
+background-position:100% 50%, center;
+}
+#intro-screen.open .left-door{
+transform:translateX(-100%);
+box-shadow: inset 0 0 60px rgba(0,0,0,.8), 0 0 40px #00f3ff;
+border-right: 2px solid #00f3ff;
+}
+#intro-screen.open .right-door{
+transform:translateX(100%);
+box-shadow: inset 0 0 60px rgba(0,0,0,.8), 0 0 40px #00f3ff;
+border-left: 2px solid #00f3ff;
+}
+/* Luz mística que "inunda" la sala al abrir */
+.light{
+position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+width:250px;
+height:250px;
+border-radius:50%;
+background:
+radial-gradient(circle,#ffffff,#5fdfff,transparent 75%);
+filter:blur(8px);
+opacity:0;
+transition:all 3s;
+}
+#intro-screen.open .light{
+opacity:.9;
+transform:translate(-50%,-50%) scale(3);
+animation:heartGlow 2.8s ease-in-out infinite;
+}
+@keyframes heartGlow{
+0%,100%{opacity:.65;}
+50%{opacity:1;}
+}
+/* Ondas expansivas del latido */
+.pulse-ring{
+position:absolute;
+left:50%;
+top:50%;
+width:120px;
+height:120px;
+margin:-60px 0 0 -60px;
+border:2px solid rgba(95,223,255,.6);
+border-radius:50%;
+opacity:0;
+pointer-events:none;
+}
+#intro-screen.open .pulse-ring{
+animation:ring 2.8s ease-out infinite;
+}
+@keyframes ring{
+0%{transform:scale(.4);opacity:.8;}
+100%{transform:scale(5);opacity:0;}
+}
+/*==================================================
+POLVO DE HADAS: dorado, denso y con zigzag
+==================================================*/
+.stars{
+position:absolute;
+left:0;
+top:0;
+width:100%;
+height:100%;
+pointer-events:none;
+overflow:hidden;
+}
+.star{
+position:absolute;
+bottom:-10px;
+width:3px;
+height:3px;
+border-radius:50%;
+background:#ffd700;
+box-shadow:0 0 6px #ffcc00, 0 0 12px #ffcc00;
+opacity:0;
+animation:rise linear infinite;
+}
+.star:nth-child(3n){
+width:2px;
+height:2px;
+background:#9fe8ff;
+box-shadow:0 0 6px #5fdfff, 0 0 12px #5fdfff;
+}
+.star:nth-child(4n){
+width:4px;
+height:4px;
+}
+.star:nth-child(1){left:5%;animation-duration:6.5s;animation-delay:0s;}
+.star:nth-child(2){left:10%;animation-duration:7.5s;animation-delay:.6s;}
+.star:nth-child(3){left:16%;animation-duration:6s;animation-delay:1.2s;}
+.star:nth-child(4){left:22%;animation-duration:8s;animation-delay:.3s;}
+.star:nth-child(5){left:28%;animation-duration:6.8s;animation-delay:1.8s;}
+.star:nth-child(6){left:34%;animation-duration:7.2s;animation-delay:.9s;}
+.star:nth-child(7){left:40%;animation-duration:6.2s;animation-delay:2.4s;}
+.star:nth-child(8){left:46%;animation-duration:7.8s;animation-delay:.4s;}
+.star:nth-child(9){left:52%;animation-duration:6.6s;animation-delay:1.5s;}
+.star:nth-child(10){left:58%;animation-duration:7.4s;animation-delay:2.1s;}
+.star:nth-child(11){left:64%;animation-duration:6.1s;animation-delay:.8s;}
+.star:nth-child(12){left:70%;animation-duration:7.9s;animation-delay:1.1s;}
+.star:nth-child(13){left:76%;animation-duration:6.4s;animation-delay:2.7s;}
+.star:nth-child(14){left:82%;animation-duration:7.1s;animation-delay:.2s;}
+.star:nth-child(15){left:88%;animation-duration:6.9s;animation-delay:1.6s;}
+.star:nth-child(16){left:93%;animation-duration:7.6s;animation-delay:2.3s;}
+.star:nth-child(17){left:12%;animation-duration:8.2s;animation-delay:3s;}
+.star:nth-child(18){left:68%;animation-duration:8.4s;animation-delay:3.4s;}
+@keyframes rise{
+0%{transform:translate(0,0);opacity:0;}
+10%{opacity:1;}
+25%{transform:translate(9px,-28vh);}
+50%{transform:translate(-9px,-55vh);}
+75%{transform:translate(9px,-82vh);}
+90%{opacity:.6;}
+100%{transform:translate(0,-110vh);opacity:0;}
+}
+/*==================================================
+HADITAS: puntito de luz que vuela dejando estela dorada
+==================================================*/
+.fairy{
+position:absolute;
+width:6px;
+height:6px;
+border-radius:50%;
+background:#fff8dc;
+box-shadow:0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffcc00;
+opacity:0;
+pointer-events:none;
+}
+/* Estela (colita de polvo) hacia atrás del vuelo */
+.fairy::after{
+content:'';
+position:absolute;
+top:50%;
+right:4px;
+width:70px;
+height:3px;
+transform:translateY(-50%);
+border-radius:3px;
+background:linear-gradient(to left, rgba(255,215,0,.75), rgba(255,215,0,0));
+}
+.fairy1{
+animation:fly1 6s ease-in-out infinite;
+}
+.fairy2::after{
+right:auto;
+left:4px;
+background:linear-gradient(to right, rgba(255,215,0,.75), rgba(255,215,0,0));
+}
+.fairy2{
+animation:fly2 7.5s ease-in-out infinite;
+animation-delay:2s;
+}
+@keyframes fly1{
+0%{transform:translate(-10vw,80vh);opacity:0;}
+8%{opacity:1;}
+50%{transform:translate(45vw,30vh);}
+92%{opacity:1;}
+100%{transform:translate(110vw,-10vh);opacity:0;}
+}
+@keyframes fly2{
+0%{transform:translate(110vw,70vh);opacity:0;}
+8%{opacity:1;}
+50%{transform:translate(50vw,22vh);}
+92%{opacity:1;}
+100%{transform:translate(-10vw,-15vh);opacity:0;}
+}
+/*==================================================
+NIEBLA al pie del portal
+==================================================*/
+.fog{
+position:absolute;
+left:0;
+bottom:0;
+width:100%;
+height:35%;
+pointer-events:none;
+overflow:hidden;
+}
+.fog-layer{
+position:absolute;
+bottom:-40px;
+left:0;
+width:200%;
+height:100%;
+background:
+radial-gradient(ellipse at 20% 80%, rgba(160,220,255,.14), transparent 60%),
+radial-gradient(ellipse at 55% 90%, rgba(255,255,255,.10), transparent 55%),
+radial-gradient(ellipse at 85% 75%, rgba(95,223,255,.12), transparent 60%);
+animation:fogMove 14s linear infinite alternate;
+}
+.fog-layer.f2{
+animation-duration:20s;
+animation-direction:alternate-reverse;
+opacity:.7;
+}
+@keyframes fogMove{
+from{transform:translateX(0);}
+to{transform:translateX(-25%);}
+}
+/* Los títulos se desvanecen al abrir */
+.intro-content{
+position:relative;
+z-index:5;
+text-align:center;
+transition:opacity 1s;
+}
+#intro-screen.open .intro-content{
+opacity:0;
+}
+.intro-icon{
+font-size:75px;
+animation:pulse 2.2s infinite;
+}
+.intro-title{
+font-family:'Orbitron';
+font-size:3rem;
+margin-top:15px;
+color:#00ffff;
+text-shadow:0 0 20px cyan;
+}
+.intro-subtitle{
+font-family:'Orbitron';
+font-size:2rem;
+margin-top:12px;
+color:#ffd700;
+}
+.intro-text{
+margin-top:25px;
+font-size:1.2rem;
+letter-spacing:3px;
+}
+.intro-loading{
+margin-top:35px;
+letter-spacing:5px;
+color:#bbbbbb;
+animation:blink 1.5s infinite;
+}
+@keyframes pulse{
+50%{
+transform:scale(1.12);
+}
+}
+@keyframes blink{
+50%{
+opacity:.3;
+}
+}
+/*==================================================
+CONTENEDOR (efecto "cámara" al cruzar el umbral)
+==================================================*/
+.container{
+width:min(1100px,94%);
+margin:40px auto;
+padding:35px;
+background:rgba(8,18,28,.88);
+border:1px solid #00ffff55;
+border-radius:18px;
+backdrop-filter:blur(10px);
+transform:scale(1.07);
+transition:transform 2.5s ease;
+}
+body.puerto-abierto .container{
+transform:scale(1);
+}
+h1{
+font-family:'Orbitron';
+text-align:center;
+font-size:2rem;
+color:#00f3ff;
+margin-bottom:15px;
+}
+.subtitle{
+text-align:center;
+color:#cccccc;
+margin-bottom:35px;
+font-size:1.1rem;
+}
+.player-mini{
+max-width:340px;
+margin:auto;
+padding:15px;
+border:1px solid #ff00ff55;
+border-radius:12px;
+text-align:center;
+margin-bottom:35px;
+}
+.player-mini iframe{
+width:100%;
+height:90px;
+border:none;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:35px;
+}
+/*==================================================
+SALAS: profundidad y luz propia
+==================================================*/
+.card{
+padding:25px;
+background:#0e2235;
+border:1px solid #00ffff55;
+border-radius:14px;
+text-decoration:none;
+color:white;
+text-align:center;
+transition:all .4s cubic-bezier(.25,.8,.25,1);
+position:relative;
+overflow:hidden;
+box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+cursor: pointer;
+}
+.card::before {
+content: '';
+position: absolute;
+top: 0; left: 0; right: 0; bottom: 0;
+background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 50%);
+pointer-events: none;
+}
+.card:hover{
+transform:translateY(-8px) scale(1.03);
+}
+.sala-mezclas:hover{
+box-shadow:0 0 30px #00f3ff, 0 0 15px #00f3ff inset;
+border-color:#00f3ff;
+}
+.sala-galeria:hover{
+box-shadow:0 0 30px #ff33cc, 0 0 15px #ff33cc inset;
+border-color:#ff33cc;
+}
+.sala-biblioteca:hover{
+box-shadow:0 0 30px #ffcc00, 0 0 15px #ffcc00 inset;
+border-color:#ffcc00;
+}
+.sala-salon:hover{
+box-shadow:0 0 30px #ffd700, 0 0 15px #ffd700 inset;
+border-color:#ffd700;
+}
+.card-icon {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  display: block;
+  animation: float 3s ease-in-out infinite;
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
 
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://flashbackradio2025.github.io/explorar.html">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Explorá FlashBack Radio">
-  <meta name="twitter:description" content="Contenido on-demand: mezclas, cuentos, arte y artistas.">
-  <meta name="twitter:image" content="https://flashbackradio2025.github.io/img/logo.png">
-  
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Explorá FlashBack Radio",
-    "description": "Hub de contenido on-demand: mezclas exclusivas, cuentos narrados, arte con IA y especiales de artistas.",
-    "url": "https://flashbackradio2025.github.io/explorar.html",
-    "isPartOf": {
-      "@type": "RadioStation",
-      "name": "FlashBack Radio – El Eco del Tiempo",
-      "url": "https://flashbackradio2025.github.io"
-    }
+/* === VIDA EN LOS ICONOS DEL ARCHIVO === */
+
+.card:hover .card-icon {
+  transform: scale(1.18) rotate(-3deg);
+  filter: drop-shadow(0 0 8px rgba(255, 204, 0, 0.9));
+}
+.card h3{
+font-family:'Orbitron';
+color:#ffd700;
+margin-bottom:12px;
+}
+.back-link{
+display:block;
+width:240px;
+margin:45px auto;
+text-align:center;
+padding:12px;
+border:1px solid cyan;
+text-decoration:none;
+color:white;
+border-radius:10px;
+transition:.3s;
+}
+.back-link:hover{
+background:cyan;
+color:black;
+}
+@media(max-width:768px){
+.nav-menu{
+display:none;
+position:absolute;
+top:100%;
+left:0;
+right:0;
+background:rgba(8,10,20,.98);
+flex-direction:column;
+padding:15px;
+gap:10px;
+border-bottom:2px solid #00f3ff;
+}
+.nav-menu.active{
+display:flex;
+}
+.nav-toggle{
+display:block;
+}
+.container{
+padding:20px;
+}
+.intro-title{
+font-size:2.2rem;
+}
+.intro-subtitle{
+font-size:1.4rem;
+}
+}
+/* =========================================
+   ENTRADA CINEMATOGRÁFICA DE LAS TARJETAS
+   ========================================= */
+
+/* Estado inicial: las tarjetas están ocultas */
+.grid .card {
+  opacity: 0;
+  transform: translateY(35px) scale(0.96);
+  filter: blur(4px);
+}
+
+/* Cuando el Archivo ya está abierto */
+body.puerto-abierto .grid .card {
+  animation: entradaArchivo 1.2s ease forwards;
+}
+
+/* Entrada escalonada de cada sala */
+body.puerto-abierto .grid .card:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+body.puerto-abierto .grid .card:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+body.puerto-abierto .grid .card:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+body.puerto-abierto .grid .card:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+/* Animación principal */
+@keyframes entradaArchivo {
+
+  0% {
+    opacity: 0;
+    transform: translateY(35px) scale(0.96);
+    filter: blur(4px);
   }
-  </script>
 
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
-  
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      margin: 0; padding: 0;
-      font-family: 'Special Elite', cursive;
-      background: #0f1c28;
-      color: #fff;
-      padding-top: 70px;
-      min-height: 100vh;
-    }
+  60% {
+    opacity: 1;
+    transform: translateY(-5px) scale(1.01);
+    filter: blur(0);
+  }
 
-    /* === FONDO DE VINILO === */
-    .vinyl-background {
-      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-      z-index: -1; pointer-events: none; overflow: hidden;
-    }
-    .vinyl-background video { width: 100%; height: 100%; object-fit: cover; filter: brightness(1.8) contrast(1.0); }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
 
-    /* === MENÚ FIJO (IGUAL AL INDEX) === */
-    .main-nav {
-      position: fixed; top: 0; left: 0; width: 100%;
-      background: rgba(10, 8, 26, 0.95);
-      border-bottom: 2px solid #00f3ff;
-      padding: 10px 0; z-index: 1000;
-      box-shadow: 0 2px 15px rgba(0, 243, 255, 0.3);
-      font-family: 'Orbitron', sans-serif;
-    }
-    .nav-container {
-      max-width: 900px; margin: 0 auto;
-      display: flex; justify-content: space-between; align-items: center; padding: 0 20px;
-    }
-    .nav-logo {
-      color: #ffcc66; font-size: 1.1em; font-weight: bold; text-decoration: none;
-      text-shadow: 0 0 8px rgba(255, 204, 102, 0.6);
-    }
-    .nav-menu { display: flex; gap: 15px; list-style: none; margin: 0; padding: 0; }
-    .nav-menu a {
-      color: #00ffff; text-decoration: none; font-size: 0.9em; padding: 6px 10px;
-      border-radius: 6px; transition: all 0.2s; text-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
-    }
-    .nav-menu a:hover {
-      background: rgba(0, 243, 255, 0.2); color: #fff; box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
-    }
-    .nav-toggle {
-      display: none; background: transparent; border: 1px solid #00f3ff;
-      padding: 8px; border-radius: 6px; cursor: pointer;
-    }
-    .hamburger { display: block; width: 20px; height: 2px; background: #00ffff; position: relative; }
-    .hamburger::before, .hamburger::after {
-      content: ''; position: absolute; width: 20px; height: 2px; background: #00ffff; left: 0;
-    }
-    .hamburger::before { top: -6px; } .hamburger::after { top: 6px; }
-    
-    @media (max-width: 768px) {
-      .nav-toggle { display: block; }
-      .nav-menu {
-        position: absolute; top: 100%; left: 0; right: 0;
-        background: rgba(10, 8, 26, 0.98); flex-direction: column;
-        padding: 15px; gap: 10px; display: none; border-bottom: 2px solid #00f3ff;
-      }
-      .nav-menu.active { display: flex; }
-      .nav-menu a { text-align: center; padding: 10px; font-size: 1em; }
-    }
+}
 
-    /* === CONTENEDOR PRINCIPAL === */
-    .container {
-      max-width: 1000px;
-      margin: 40px auto;
-      background: rgba(10, 8, 26, 0.92);
-      border: 2px solid #00f3ff;
-      border-radius: 16px;
-      padding: 40px 30px;
-      box-shadow: 0 0 30px rgba(0, 243, 255, 0.4);
-    }
-    h1 {
-      font-family: 'Orbitron', sans-serif;
-      color: #00f3ff;
-      text-align: center;
-      text-shadow: 0 0 12px rgba(0, 243, 255, 0.8);
-      margin-bottom: 10px;
-      font-size: 1.8em;
-    }
-    .subtitle {
-      text-align: center;
-      color: #aaa;
-      margin-bottom: 30px;
-      font-style: italic;
-      font-size: 1.1em;
-    }
+/* Pequeño brillo al terminar de aparecer */
+body.puerto-abierto .grid .card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    120deg,
+    transparent 30%,
+    rgba(255,255,255,0.12) 50%,
+    transparent 70%
+  );
+  transform: translateX(-120%);
+  animation: barridoLuz 1.2s ease forwards;
+}
+/* El barrido también aparece escalonado */
+body.puerto-abierto .grid .card:nth-child(1)::after {
+  animation-delay: 0.5s;
+}
+body.puerto-abierto .grid .card:nth-child(2)::after {
+  animation-delay: 0.8s;
+}
+body.puerto-abierto .grid .card:nth-child(3)::after {
+  animation-delay: 1.1s;
+}
+body.puerto-abierto .grid .card:nth-child(4)::after {
+  animation-delay: 1.4s;
+}
+@keyframes barridoLuz {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
+/* =========================================
+   VIDA DEL TÍTULO DEL ARCHIVO
+   ========================================= */
 
-    /* === REPRODUCTOR EN EXPLORAR === */
-    .player-mini {
-      text-align: center;
-      margin: 0 auto 35px;
-      max-width: 320px;
-      background: rgba(0, 0, 0, 0.6);
-      padding: 15px;
-      border-radius: 12px;
-      border: 1px solid #ff00ff;
-      box-shadow: 0 0 15px rgba(255, 0, 255, 0.4);
-    }
-    .player-mini iframe {
-      width: 100%;
-      height: 90px;
-      border: none;
-      border-radius: 8px;
-      background: transparent;
-    }
-    .player-mini p {
-      color: #ffcc00;
-      font-family: 'Orbitron', sans-serif;
-      font-size: 0.9em;
-      margin-top: 8px;
-      text-shadow: 0 0 6px rgba(255, 204, 0, 0.6);
-    }
+.container h1 {
+  opacity: 0;
+  transform: translateY(12px) scale(0.98);
+  text-shadow: 0 0 0 transparent;
+  transition:
+    opacity 1.5s ease,
+    transform 1.5s ease,
+    text-shadow 1.5s ease;
+}
+body.puerto-abierto .container h1 {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  animation: respirarTitulo 4s ease-in-out 1.5s infinite;
+}
+@keyframes respirarTitulo {
 
-    /* === GRILLA DE TARJETAS === */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 25px;
-    }
-    .card {
-      background: rgba(0, 30, 60, 0.5);
-      border: 1px solid #00f3ff;
-      border-radius: 12px;
-      padding: 25px 20px;
-      text-align: center;
-      transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
-      cursor: pointer;
-      text-decoration: none;
-      color: inherit;
-      display: block;
-      position: relative;
-      overflow: hidden;
-    }
-    .card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; height: 3px;
-      background: linear-gradient(90deg, #00f3ff, #ff33cc, #ffcc00);
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 0 25px rgba(0, 243, 255, 0.6);
-      border-color: #ffcc00;
-    }
-    .card:hover::before { opacity: 1; }
-    
-    .card-icon {
-      font-size: 2.5em;
-      margin-bottom: 15px;
-      display: block;
-      animation: float 3s ease-in-out infinite;
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-8px); }
-    }
-    
-    .card h3 {
-      color: #ffcc00;
-      margin: 10px 0 12px;
-      text-shadow: 0 0 5px rgba(255, 204, 0, 0.6);
-      font-family: 'Orbitron', sans-serif;
-      font-size: 1.2em;
-    }
-    .card p {
-      color: #ccc;
-      font-size: 0.95em;
-      margin: 0;
-      line-height: 1.5;
-    }
+  0%, 100% {
+    text-shadow:
+      0 0 8px rgba(0,243,255,.45),
+      0 0 18px rgba(0,243,255,.25);
+  }
+  50% {
+    text-shadow:
+      0 0 15px rgba(0,243,255,.85),
+      0 0 35px rgba(0,243,255,.45),
+      0 0 55px rgba(255,215,0,.20);
+  }
+}
+/* =========================================
+   VIDA DEL SUBTÍTULO Y BIENVENIDA
+   ========================================= */
 
-    /* === BACK LINK === */
-    .back-link {
-      display: block;
-      text-align: center;
-      margin-top: 40px;
-      color: #00f3ff;
-      text-decoration: none;
-      font-size: 1em;
-      font-family: 'Orbitron', sans-serif;
-      padding: 10px 20px;
-      border: 1px solid #00f3ff;
-      border-radius: 8px;
-      transition: all 0.2s;
-      max-width: 220px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .back-link:hover {
-      color: #ffcc00;
-      text-shadow: 0 0 8px rgba(255, 204, 0, 0.8);
-      box-shadow: 0 0 15px rgba(0, 243, 255, 0.5);
-      transform: scale(1.03);
-    }
+.container .subtitle,
+.container .archivo-intro {
+  opacity: 0;
+  transform: translateY(15px);
+  transition:
+    opacity 1.4s ease,
+    transform 1.4s ease;
+}
 
-    /* === RESPONSIVE === */
-    @media (max-width: 600px) {
-      .grid { grid-template-columns: 1fr; }
-      .container { padding: 30px 20px; margin: 20px auto; }
-      h1 { font-size: 1.5em; }
-      .subtitle { font-size: 1em; }
-      .card-icon { font-size: 2em; }
-      .player-mini { padding: 12px; }
-    }
-    @media (max-width: 400px) {
-      .card { padding: 20px 15px; }
-      .card h3 { font-size: 1.1em; }
-      .card p { font-size: 0.9em; }
-    }
-  </style>
+body.puerto-abierto .container .subtitle {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.4s;
+}
+
+body.puerto-abierto .container .archivo-intro {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.9s;
+}
+
+
+/* =========================================
+   RESPLANDOR DEL "BIENVENIDO AL ARCHIVO"
+   ========================================= */
+
+.container .archivo-intro h2 {
+  color: #ffd700;
+  text-shadow:
+    0 0 5px rgba(255,215,0,.25);
+}
+body.puerto-abierto .container .archivo-intro h2 {
+  animation: brilloArchivo 3.5s ease-in-out 1.5s infinite;
+}
+@keyframes brilloArchivo {
+  0%, 100% {
+    text-shadow:
+      0 0 5px rgba(255,215,0,.25),
+      0 0 10px rgba(255,215,0,.10);
+  }
+  50% {
+    text-shadow:
+      0 0 10px rgba(255,215,0,.8),
+      0 0 25px rgba(255,215,0,.55),
+      0 0 40px rgba(255,215,0,.25);
+  }
+}
+</style>
 </head>
 <body>
-  <!-- === MENÚ FIJO === -->
-  <nav id="main-nav" class="main-nav">
-    <div class="nav-container">
-      <a href="index.html#player-section" class="nav-logo">📻 FlashBack Radio</a>
-      <button id="nav-toggle" class="nav-toggle" aria-label="Menú"><span class="hamburger"></span></button>
-      <ul id="nav-menu" class="nav-menu">
-        <li><a href="index.html#player-section">En Vivo</a></li>
-        <li><a href="index.html#schedule-section">Programación</a></li>
-        <li><a href="explorar.html">Explorar</a></li>
-        <li><a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener">Apoyanos</a></li>
-        <li><a href="index.html#contacto-section">Contacto</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- === FONDO DE VINILO === -->
-  <div class="vinyl-background">
-    <video autoplay muted loop playsinline><source src="video/vinilo-loop.mp4" type="video/mp4"></video>
-  </div>
-
-  <main class="container">
-    <h1>🗺️ Explorá FlashBack Radio</h1>
-    <p class="subtitle">Todo nuestro contenido on-demand en un solo lugar</p>
-
-    <!-- REPRODUCTOR MINI -->
-    <div class="player-mini">
-      <iframe src="player.html" allow="autoplay; encrypted-media" title="Reproductor FlashBack Radio"></iframe>
-      <p>🎧 Escuchá mientras explorás</p>
-    </div>
-
-    <div class="grid">
-      <!-- Mezclas -->
-      <a href="mezclas.html" class="card">
-        <span class="card-icon">🎵</span>
-        <h3>Mezclas Exclusivas</h3>
-        <p>Sets creados con VirtualDJ • Música que estremece • Hechos a pulmón.</p>
-      </a>
-
-      <!-- Arte & Historias -->
-      <a href="arte-historias.html" class="card">
-        <span class="card-icon">🎨</span>
-        <h3>Arte & Historias</h3>
-        <p>Cuentos narrados + Imágenes creadas con IA • Viajes sensoriales retro.</p>
-      </a>
-
-      <!-- Cuentos 🦷✨ -->
-      <a href="cuentos.html" class="card">
-        <span class="card-icon">🦷✨</span>
-        <h3>Cuentos con Música</h3>
-        <p>Historias únicas con banda sonora retro • Narración y magia en cada episodio.</p>
-      </a>
-	  
-      <!-- Artistas -->
-      <a href="artistas.html" class="card">
-        <span class="card-icon">🎤</span>
-        <h3>Artistas</h3>
-        <p>Biografías, curiosidades y especiales de The Hollies, Beatles, Stones y más.</p>
-      </a>
-    </div>
-
-    <a href="index.html" class="back-link">← Volver a la Radio</a>
-  </main>
-
-  <!-- === FOOTER CONSISTENTE === -->
-  <footer style="text-align:center;margin:40px 20px;padding:20px;font-family:'Orbitron',sans-serif;font-size:0.9em;color:#4a6fa5;text-shadow:-1px -1px 0 #ffd700,1px -1px 0 #ffd700,-1px 1px 0 #ffd700,1px 1px 0 #ffd700;border-top:1px solid #2a3a5f;">
-    FlashBack Radio es un proyecto personal sin fines de lucro<br>
-    La música transmitida pertenece a sus respectivos autores<br>
-    - Capilla del Monte, Córdoba © 2025 - Todos los derechos reservados.<br>
-    <a href="privacidad.html" style="color:#00ffff;text-decoration:underline;">🔒 Privacidad</a> | 
-    ¿Te gustó esta web? <a href="https://wa.me/543548584454?text=Hola%20Ra%C3%BAl,%20vi%20tu%20web%20de%20FlashBack%20Radio%20y%20me%20gustar%C3%ADa%20consultar%20por%20una%20p%C3%A1gina%20similar%20para%20mi%20proyecto.%20%C2%BFPod%C3%A9s%20pasarme%20informaci%C3%B3n?" style="color:#25D366;text-decoration:underline;" target="_blank" rel="noopener">💬 Consultá por tu web personalizada</a>
-  </footer>
-
-  <!-- === SCRIPTS COMPARTIDOS === -->
-  <script>
-    // Menú hamburguesa
-    const navToggle = document.getElementById('nav-toggle');
-    const navMenu = document.getElementById('nav-menu');
-    navToggle?.addEventListener('click', () => navMenu.classList.toggle('active'));
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-      link.addEventListener('click', () => navMenu.classList.remove('active'));
-    });
+<!-- ===========================================================
+INTRO CINEMÁTICA
+=========================================================== -->
+<div id="intro-screen">
+<div class="intro-bg"></div>
+<div class="light"></div>
+<div class="door left-door"></div>
+<div class="door right-door"></div>
+<!-- Polvo de hadas dorado -->
+<div class="stars">
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+<span class="star"></span>
+</div>
+<!-- Haditas volando con estela dorada -->
+<div class="fairy fairy1"></div>
+<div class="fairy fairy2"></div>
+<!-- Niebla al pie del portal -->
+<div class="fog">
+<div class="fog-layer f1"></div>
+<div class="fog-layer f2"></div>
+</div>
+<!-- Ondas del latido -->
+<div class="pulse-ring"></div>
+<div class="intro-content">
+<div class="intro-icon"> 📻 </div>
+<div class="intro-title">
+FlashBack Radio
+</div>
+<div class="intro-subtitle">
+El Archivo del Tiempo
+</div>
+<div class="intro-text">
+Mucho más que una radio
+</div>
+<div class="intro-loading">
+ABRIENDO EL ARCHIVO...
+</div>
+</div>
+</div>
+<audio id="doorSound" preload="auto">
+<source src="audio/door.mp3" type="audio/mpeg">
+</audio>
+<!-- ===========================================================
+MENÚ
+=========================================================== -->
+<nav id="main-nav" class="main-nav">
+<div class="nav-container">
+<a href="index.html" class="nav-logo">
+📻 FlashBack Radio
+</a>
+<button id="nav-toggle" class="nav-toggle" aria-label="Menú">
+☰
+</button>
+<ul id="nav-menu" class="nav-menu">
+<li><a href="index.html#player-section">En Vivo</a></li>
+<li><a href="index.html#schedule-section">Programación</a></li>
+<li><a href="explorar.html">Explorar</a></li>
+<li><a href="https://cafecito.app/flashbackradio" target="_blank">
+Apoyanos
+</a></li>
+<li><a href="index.html#contacto-section">
+Contacto
+</a></li>
+</ul>
+</div>
+</nav>
+<!-- ===========================================================
+FONDO
+=========================================================== -->
+<div class="vinyl-background">
+<video autoplay muted loop playsinline>
+<source src="video/vinilo-loop.mp4" type="video/mp4">
+</video>
+</div>
+<!-- ===========================================================
+CONTENIDO
+=========================================================== -->
+<main class="container">
+<h1>
+📻 FlashBack Radio  –  El Archivo del Tiempo
+</h1>
+<p class="subtitle">
+No estás entrando en una simple radio.
+Estás entrando en un archivo vivo donde cada canción,
+cada historia y cada artista siguen respirando.
+</p>
+<div class="player-mini">
+<iframe src="player.html"></iframe>
+<p>
+🎧  Escuchá mientras recorrés el Archivo
+</p>
+</div>
+<section class="archivo-intro">
+<h2>
+Bienvenido al Archivo
+</h2>
+<p>
+Aquí cada sala conserva una parte de la memoria.
+No hay algoritmos.
+No hay listas impersonales.
+Sólo música elegida con el corazón.
+</p>
+</section>
+<div class="grid">
+<a href="mezclas.html" class="card sala-mezclas">
+<span class="card-icon"> 🎛️ </span>
+<h3>Sala de Mezclas</h3>
+<p>
+Sets exclusivos creados para FlashBack Radio.
+</p>
+</a>
+<a href="arte-historias.html" class="card sala-galeria">
+<span class="card-icon"> 🖼️ </span>
+<h3>Galería del Tiempo</h3>
+<p>
+Arte generado con IA y relatos musicales.
+</p>
+</a>
+<a href="cuentos.html" class="card sala-biblioteca">
+<span class="card-icon"> 📚 </span>
+<h3>Biblioteca Sonora</h3>
+<p>
+Historias narradas con banda sonora retro.
+</p>
+</a>
+<a href="artistas.html" class="card sala-salon">
+<span class="card-icon"> ⭐ </span>
+<h3>Salón de los Grandes</h3>
+<p>
+Biografías y especiales de los artistas.
+</p>
+</a>
+</div>
+<!-- ===========================================================
+TOP 5 SEMANAL
+=========================================================== -->
+<div style="margin:40px 0;padding:25px;border:1px solid #ffcc00;border-radius:15px;background:rgba(255,204,0,.05);">
+<h2 style="font-family:'Orbitron';text-align:center;color:#ffd700;margin-bottom:20px;">
+🏆  Top 5 de la Semana
+</h2>
+<div id="top5-container" style="text-align:center;">
+Cargando...
+</div>
+</div>
+<!-- ===========================================================
+FRASE DEL DÍA
+=========================================================== -->
+<section style="margin-top:40px;padding:30px;border-left:4px solid cyan;background:rgba(0,255,255,.05);border-radius:10px;">
+<h2 style="font-family:'Orbitron';margin-bottom:20px;">
+El Eco del Tiempo
+</h2>
+<p id="fraseArchivo" style="font-size:1.1rem;line-height:1.8;"></p>
+</section>
+<a href="index.html" class="back-link">
+←  Volver a FlashBack Radio
+</a>
+</main>
+<footer style="text-align:center;padding:35px;margin-top:50px;border-top:1px solid #355;color:#bbbbbb;">
+FlashBack Radio  © 2025
+<br><br>
+La música pertenece a sus respectivos autores.
+<br><br>
+Capilla del Monte · Córdoba · Argentina
+</footer>
+<script>
+const frases=[
+"Cada canción guarda un recuerdo que alguien creyó perdido.",
+"Los archivos no conservan música. Conservan vidas.",
+"El tiempo jamás desaparece. Sólo cambia de frecuencia.",
+"Hay melodías que recuerdan por nosotros.",
+"Todo recuerdo tiene una banda sonora."
+];
+document.getElementById("fraseArchivo").innerHTML=
+frases[Math.floor(Math.random()*frases.length)];
+</script>
+<script>
+async function cargarTop5(){
+const apiKey="a3b258ab0f4e27b04c6cbc9de0dbc6db";
+const user="fbradioficial";
+const url=`https://ws.audioscrobbler.com/2.0/?method=user.gettoptracks&user=${user}&api_key=${apiKey}&period=7day&format=json&limit=5`;
+try{
+const r=await fetch(url);
+const data=await r.json();
+const tracks=data.toptracks.track;
+let html="<ol style='text-align:left;'>";
+tracks.forEach(function(t,i){
+html+="<li><b>#"+(i+1)+"</b> "+t.name+"  —  "+t.artist.name+"</li>";
+});
+html+="</ol>";
+document.getElementById("top5-container").innerHTML=html;
+}catch{
+document.getElementById("top5-container").innerHTML="No fue posible cargar el ranking.";
+}
+}
+cargarTop5();
+</script>
+<script>
+window.addEventListener("load", function(){
+    const intro = document.getElementById("intro-screen");
+    const sonidoPuerta = document.getElementById("doorSound");
+    setTimeout(function(){
+        // Reproducir sonido del portal
+        if(sonidoPuerta){
+            sonidoPuerta.currentTime = 0;
+            sonidoPuerta.play().catch(()=>{});
+        }
+        // Abrir las puertas
+        intro.classList.add("open");
+        document.body.classList.add("puerto-abierto");
+    }, 500);
+    // Desvanecer la pantalla
+    setTimeout(function(){
+        intro.classList.add("fade");
+    }, 3000);
+    // Eliminar completamente la intro
+    setTimeout(function(){
+        intro.remove();
+    }, 5000);
+});
+</script>
+<script>
+// Sonido al TOCAR / CLICKEAR la puerta de una sala
+document.addEventListener("DOMContentLoaded", function() {
+    const puertas = document.querySelectorAll('.card');
+    const sonidoPuerta = document.getElementById("doorSound");
     
-    // Efecto scroll en menú
-    window.addEventListener('scroll', () => {
-      const nav = document.getElementById('main-nav');
-      if (window.scrollY > 50) {
-        nav.style.background = 'rgba(10, 8, 26, 0.98)';
-        nav.style.boxShadow = '0 4px 20px rgba(0, 243, 255, 0.5)';
-      } else {
-        nav.style.background = 'rgba(10, 8, 26, 0.95)';
-        nav.style.boxShadow = '0 2px 15px rgba(0, 243, 255, 0.3)';
-      }
+    puertas.forEach(puerta => {
+        puerta.addEventListener('click', function() {
+            if(sonidoPuerta) {
+                sonidoPuerta.currentTime = 0;
+                sonidoPuerta.play().catch(()=>{});
+            }
+        });
     });
-  </script>
-
-  <!-- GoatCounter -->
-  <script data-goatcounter="https://flashbackradio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-
-  <!-- PWA Service Worker -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(() => console.log('Service Worker registrado'))
-          .catch(err => console.log('Error SW:', err));
-      });
-    }
-  </script>
+});
+</script>
+<script>
+const navToggle=document.getElementById("nav-toggle");
+const navMenu=document.getElementById("nav-menu");
+if(navToggle){
+navToggle.onclick=function(){
+navMenu.classList.toggle("active");
+}
+}
+</script>
+<script data-goatcounter="https://flashbackradio.goatcounter.com/count"
+async
+src="//gc.zgo.at/count.js">
+</script>
+<script>
+if("serviceWorker" in navigator){
+window.addEventListener("load",function(){
+navigator.serviceWorker.register("/sw.js");
+});
+}
+</script>
 </body>
 </html>
