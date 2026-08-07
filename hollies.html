@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Hollies – FlashBack Radio | Salón de los Grandes</title>
+  
+  <!-- === FAVICON Y PWA === -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="/manifest.json">
+  
+  <!-- === SEO COMPLETO === -->
+  <meta name="description" content="The Hollies en FlashBack Radio: historia completa, integrantes, épocas, discografía esencial, curiosidades y efemérides. Las armonías que definieron una época.">
+  <meta name="keywords" content="The Hollies, British Invasion, Long Cool Woman, He Ain't Heavy, Bus Stop, Allan Clarke, Graham Nash, FlashBack Radio, radio retro">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://flashbackradio2025.github.io/hollies.html">
+  
+  <!-- === OPEN GRAPH === -->
+  <meta property="og:title" content="The Hollies – FlashBack Radio">
+  <meta property="og:description" content="Historia completa, integrantes, épocas, discografía y curiosidades de las armonías que definieron una época.">
+  <meta property="og:image" content="img/artistas/hollies.jpg">
+  <meta property="og:url" content="https://flashbackradio2025.github.io/hollies.html">
+  <meta property="og:type" content="article">
+  
+  <!-- === TWITTER CARDS === -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Hollies – FlashBack Radio">
+  <meta name="twitter:description" content="Historia completa, integrantes, épocas, discografía y curiosidades.">
+  <meta name="twitter:image" content="https://flashbackradio2025.github.io/img/artistas/hollies.jpg">
+  
+  <!-- === JSON-LD === -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "name": "The Hollies",
+    "description": "Banda británica formada en 1962 en Manchester, parte fundamental de la British Invasion.",
+    "url": "https://flashbackradio2025.github.io/hollies.html",
+    "foundingDate": "1962",
+    "genre": ["Pop rock", "British Invasion", "Beat music"],
+    "isPartOf": {
+      "@type": "RadioStation",
+      "name": "FlashBack Radio – El Eco del Tiempo",
+      "url": "https://flashbackradio2025.github.io"
+    }
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
+  
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      margin: 0; padding: 0;
+      font-family: 'Special Elite', cursive;
+      background: #0f1c28;
+      color: #fff;
+      padding-top: 70px;
+      min-height: 100vh;
+    }
+
+    /* === FONDO DE VINILO === */
+    .vinyl-background {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      z-index: -1; pointer-events: none; overflow: hidden;
+    }
+    .vinyl-background video { width: 100%; height: 100%; object-fit: cover; filter: brightness(1.8) contrast(1.0); }
+
+    /* === BIENVENIDA DE SALA: luz DORADA (1.5 segundos) === */
+    #sala-intro {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: #030507;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      pointer-events: none;
+      transition: opacity 0.6s ease 0.9s;
+    }
+    #sala-intro.oculto { opacity: 0; }
+    .sala-luz {
+      position: absolute;
+      left: 50%; top: 50%;
+      transform: translate(-50%, -50%);
+      width: 60px; height: 60px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #ffffff 0%, #ffd700 40%, transparent 70%);
+      filter: blur(6px);
+      animation: expandirLuz 1.5s ease-out forwards;
+    }
+    .sala-titulo {
+      position: relative;
+      z-index: 2;
+      font-family: 'Orbitron', sans-serif;
+      color: #ffd700;
+      font-size: 1.8rem;
+      letter-spacing: 6px;
+      text-shadow: 0 0 20px #ffd700, 0 0 40px #ffd700;
+      opacity: 0;
+      animation: aparecerTitulo 1.5s ease-out forwards;
+      text-align: center;
+      padding: 0 20px;
+    }
+    @keyframes expandirLuz {
+      0% { width: 60px; height: 60px; opacity: 0; }
+      30% { opacity: 1; }
+      100% { width: 200vmax; height: 200vmax; opacity: 0; }
+    }
+    @keyframes aparecerTitulo {
+      0% { opacity: 0; transform: translateY(10px); }
+      40% { opacity: 1; transform: translateY(0); }
+      80% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    /* === MENÚ FIJO === */
+    .main-nav {
+      position: fixed; top: 0; left: 0; width: 100%;
+      background: rgba(10, 8, 26, 0.95);
+      border-bottom: 2px solid #ffd700;
+      padding: 10px 0; z-index: 1000;
+      box-shadow: 0 2px 15px rgba(255, 215, 0, 0.3);
+      font-family: 'Orbitron', sans-serif;
+    }
+    .nav-container {
+      max-width: 900px; margin: 0 auto;
+      display: flex; justify-content: space-between; align-items: center; padding: 0 20px;
+    }
+    .nav-logo {
+      color: #ffcc66; font-size: 1.1em; font-weight: bold; text-decoration: none;
+      text-shadow: 0 0 8px rgba(255, 204, 102, 0.6);
+    }
+    .nav-menu { display: flex; gap: 15px; list-style: none; margin: 0; padding: 0; }
+    .nav-menu a {
+      color: #00ffff; text-decoration: none; font-size: 0.9em; padding: 6px 10px;
+      border-radius: 6px; transition: all 0.2s; text-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
+    }
+    .nav-menu a:hover {
+      background: rgba(255, 215, 0, 0.2); color: #fff; box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    }
+    .nav-toggle {
+      display: none; background: transparent; border: 1px solid #ffd700;
+      padding: 8px; border-radius: 6px; cursor: pointer;
+    }
+    .hamburger { display: block; width: 20px; height: 2px; background: #ffd700; position: relative; }
+    .hamburger::before, .hamburger::after {
+      content: ''; position: absolute; width: 20px; height: 2px; background: #ffd700; left: 0;
+    }
+    .hamburger::before { top: -6px; } .hamburger::after { top: 6px; }
+    
+    @media (max-width: 768px) {
+      .nav-toggle { display: block; }
+      .nav-menu {
+        position: absolute; top: 100%; left: 0; right: 0;
+        background: rgba(10, 8, 26, 0.98); flex-direction: column;
+        padding: 15px; gap: 10px; display: none; border-bottom: 2px solid #ffd700;
+      }
+      .nav-menu.active { display: flex; }
+      .nav-menu a { text-align: center; padding: 10px; font-size: 1em; }
+    }
+
+    /* === CONTENEDOR PRINCIPAL === */
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: rgba(10, 8, 26, 0.92);
+      border: 2px solid #ffd700;
+      border-radius: 16px;
+      padding: 40px 30px;
+      box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+    }
+
+    /* === HERO: FOTO COMPLETA SIN RECORTES === */
+    .artist-hero {
+      position: relative;
+      margin: -70px -30px 25px -30px;
+      border-radius: 16px 16px 0 0;
+      overflow: hidden;
+      border-bottom: 3px solid #ffd700;
+      background: #000;
+    }
+    .artist-hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+      filter: brightness(0.9);
+    }
+    .artist-hero-badge {
+      position: absolute;
+      top: 15px; right: 15px;
+      background: rgba(255, 215, 0, 0.9);
+      color: #0a0a1a;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.75em;
+      font-weight: bold;
+      text-shadow: none;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+    }
+    .artist-title {
+      font-family: 'Orbitron', sans-serif;
+      color: #ffd700;
+      text-align: center;
+      text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+      font-size: 2em;
+      margin: 0 0 5px;
+      animation: respirarTitulo 4s ease-in-out infinite;
+    }
+    @keyframes respirarTitulo {
+      0%, 100% { text-shadow: 0 0 12px rgba(255, 215, 0, 0.8); }
+      50% { text-shadow: 0 0 20px rgba(255, 215, 0, 1), 0 0 35px rgba(255, 215, 0, 0.5); }
+    }
+    .artist-sub {
+      text-align: center;
+      color: #ccc;
+      font-style: italic;
+      margin-bottom: 25px;
+    }
+
+    /* === REPRODUCTOR MINI === */
+    .player-mini {
+      text-align: center;
+      margin: 0 auto 35px;
+      max-width: 320px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      border-radius: 12px;
+      border: 1px solid #00f3ff;
+      box-shadow: 0 0 15px rgba(0, 243, 255, 0.4);
+    }
+    .player-mini iframe {
+      width: 100%; height: 90px; border: none; border-radius: 8px; background: transparent;
+    }
+    .player-mini p {
+      color: #ffd700;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9em;
+      margin-top: 8px;
+      text-shadow: 0 0 6px rgba(255, 215, 0, 0.6);
+    }
+
+    /* === BANNER "AHORA SUENA" === */
+    #playlist-banner {
+      background: linear-gradient(135deg, #0a0a1a, #2a1a00);
+      border: 2px solid #ffd700;
+      border-radius: 12px;
+      padding: 12px 20px;
+      margin: 0 auto 30px;
+      max-width: 500px;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1em;
+      color: #ffd700;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+      animation: neonPulse 2.5s infinite alternate;
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+    }
+    @keyframes neonPulse {
+      0% { box-shadow: 0 0 15px rgba(255, 215, 0, 0.3); }
+      100% { box-shadow: 0 0 30px rgba(255, 215, 0, 0.7), 0 0 10px rgba(0, 243, 255, 0.3); }
+    }
+    #playlist-banner .icon { font-size: 1.4em; }
+
+    /* === SECCIONES === */
+    .section {
+      margin: 25px 0;
+      padding: 20px;
+      background: rgba(50, 40, 0, 0.4);
+      border-left: 4px solid #ffd700;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .section:hover {
+      transform: translateX(3px);
+      box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+    }
+    .section h3 {
+      color: #ffd700;
+      margin-top: 0; margin-bottom: 12px;
+      text-shadow: 0 0 6px rgba(255, 215, 0, 0.6);
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.15em;
+    }
+    .section p { line-height: 1.7; color: #ddd; }
+
+    /* === LISTAS (canciones, discos, hitos) === */
+    .songs-list { list-style: none; padding: 0; }
+    .songs-list li {
+      padding: 10px 0 10px 10px;
+      border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+      transition: all 0.2s;
+      line-height: 1.5;
+    }
+    .songs-list li:hover {
+      padding-left: 18px;
+      color: #ffd700;
+      text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+    }
+    .songs-list li:before { content: "🎵 "; }
+    .songs-list li:last-child { border-bottom: none; }
+    .songs-list.discos li:before { content: "💿 "; }
+    .songs-list.hitos li:before { content: "🏆 "; }
+    .songs-list strong { color: #ffd700; }
+
+    /* === ÉPOCAS (línea de tiempo) === */
+    .era { display: flex; gap: 12px; align-items: flex-start; margin: 14px 0; }
+    .era-year {
+      font-family: 'Orbitron', sans-serif;
+      color: #0a0a1a;
+      background: #ffd700;
+      padding: 4px 10px;
+      border-radius: 14px;
+      font-size: 0.75em;
+      font-weight: bold;
+      white-space: nowrap;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+      margin-top: 2px;
+    }
+    .era p { margin: 0; color: #ddd; line-height: 1.6; }
+
+    /* === CURIOSIDADES === */
+    .curiosity {
+      background: rgba(255, 51, 204, 0.15);
+      padding: 12px 15px;
+      border-radius: 8px;
+      margin: 10px 0;
+      border: 1px solid #ff33cc;
+      box-shadow: 0 2px 8px rgba(255, 51, 204, 0.2);
+      transition: all 0.3s;
+      line-height: 1.6;
+    }
+    .curiosity:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(255, 51, 204, 0.4);
+    }
+    .curiosity strong { color: #ffd700; }
+
+    /* === CAJA DE EFEMÉRIDES CONECTADA AL JSON === */
+    .efemerides-box {
+      background: linear-gradient(135deg, rgba(0, 243, 255, 0.08), rgba(255, 215, 0, 0.08));
+      border: 2px solid #00f3ff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 20px rgba(0, 243, 255, 0.25);
+    }
+    .efemerides-box h3 {
+      color: #00f3ff;
+      font-family: 'Orbitron', sans-serif;
+      margin-bottom: 12px;
+      text-shadow: 0 0 8px rgba(0, 243, 255, 0.6);
+    }
+
+    /* === ESPECIAL FLASHBACK === */
+    .especial-box {
+      background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 51, 204, 0.1));
+      border: 2px solid #ffd700;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    }
+    .especial-box h3 {
+      color: #ffd700;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.3em;
+      margin-bottom: 15px;
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
+    }
+    .especial-box p { color: #ddd; margin-bottom: 15px; }
+    .especial-placeholder {
+      display: inline-block;
+      background: rgba(0, 0, 0, 0.4);
+      color: #ffcc00;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: 1px dashed #ffd700;
+      font-style: italic;
+      font-size: 0.95em;
+    }
+    .video-destacado iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 10px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+
+    /* === NAVEGACIÓN === */
+    .nav-buttons {
+      display: flex; gap: 15px; margin-top: 40px;
+      flex-wrap: wrap; justify-content: center;
+    }
+    .nav-buttons a {
+      display: inline-block;
+      padding: 12px 22px;
+      border: 1px solid #ffd700;
+      color: #ffd700;
+      text-decoration: none;
+      border-radius: 8px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.95em;
+      transition: all 0.2s;
+    }
+    .nav-buttons a:hover {
+      background: #ffd700; color: #0a0a1a;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+      transform: scale(1.03);
+    }
+    .nav-buttons a.secondary { border-color: #00f3ff; color: #00f3ff; }
+    .nav-buttons a.secondary:hover {
+      background: #00f3ff; color: #0a0a1a;
+      box-shadow: 0 0 15px rgba(0, 243, 255, 0.5);
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 600px) {
+      .container { padding: 20px 15px; margin: 20px 10px; }
+      .artist-hero { margin: -50px -15px 20px -15px; }
+      .artist-title { font-size: 1.5em; }
+      .sala-titulo { font-size: 1.3rem; letter-spacing: 3px; }
+      .era { flex-direction: column; gap: 6px; }
+      .video-destacado iframe { height: 200px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- === BIENVENIDA MÍSTICA (luz dorada, 1.5s) === -->
+  <div id="sala-intro">
+    <div class="sala-luz"></div>
+    <div class="sala-titulo">THE HOLLIES</div>
+  </div>
+
+  <!-- === MENÚ FIJO === -->
+  <nav id="main-nav" class="main-nav">
+    <div class="nav-container">
+      <a href="index.html#player-section" class="nav-logo">📻 FlashBack Radio</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Menú"><span class="hamburger"></span></button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="index.html#player-section">En Vivo</a></li>
+        <li><a href="index.html#schedule-section">Programación</a></li>
+        <li><a href="explorar.html">Explorar</a></li>
+        <li><a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener">Apoyanos</a></li>
+        <li><a href="index.html#contacto-section">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- === FONDO DE VINILO === -->
+  <div class="vinyl-background">
+    <video autoplay muted loop playsinline><source src="video/vinilo-loop.mp4" type="video/mp4"></video>
+  </div>
+
+  <main class="container">
+
+    <!-- === HERO: FOTO COMPLETA SIN RECORTES === -->
+    <div class="artist-hero">
+      <img src="img/artistas/hollies.jpg" alt="The Hollies - British Invasion">
+      <div class="artist-hero-badge">⭐ SALÓN DE LOS GRANDES</div>
+    </div>
+
+    <h1 class="artist-title">🎤 The Hollies</h1>
+    <p class="artist-sub">Armonías que definieron una época</p>
+
+    <!-- === REPRODUCTOR MINI === -->
+    <div class="player-mini">
+      <iframe src="player.html" allow="autoplay; encrypted-media" title="Reproductor FlashBack Radio"></iframe>
+      <p>🎧 Escuchá la radio mientras leés</p>
+    </div>
+
+    <!-- === BANNER "AHORA SUENA" === -->
+    <div id="playlist-banner" style="display:none;">
+      <span class="icon">🎙️</span>
+      <span class="label">Cargando...</span>
+    </div>
+
+    <!-- === ORIGEN === -->
+    <div class="section">
+      <h3>📅 Origen</h3>
+      <p>Formados en 1962 en Manchester, Inglaterra. Parte fundamental de la "British Invasion" junto a The Beatles y The Rolling Stones.</p>
+    </div>
+
+    <!-- === INTEGRANTES CLÁSICOS (NUEVO) === -->
+    <div class="section">
+      <h3>👥 Integrantes Clásicos</h3>
+      <ul class="songs-list">
+        <li><strong>Allan Clarke</strong> – Voz líder: el sello distintivo de la banda.</li>
+        <li><strong>Tony Hicks</strong> – Guitarra líder: el único presente en todas las épocas.</li>
+        <li><strong>Graham Nash</strong> – Armonías y canciones; en 1968 se fue para fundar Crosby, Stills & Nash.</li>
+        <li><strong>Bobby Elliott</strong> – Batería desde 1963: el corazón del sonido.</li>
+        <li><strong>Bernie Calvert</strong> – Bajo, de 1966 a 1981.</li>
+      </ul>
+    </div>
+
+    <!-- === ÉPOCAS (NUEVO) === -->
+    <div class="section">
+      <h3>🕰️ Las Tres Épocas</h3>
+      <div class="era">
+        <span class="era-year">1962–1968</span>
+        <p>La British Invasion con Nash: "Bus Stop", "Carrie Anne" y las armonías doradas que conquistaron el mundo.</p>
+      </div>
+      <div class="era">
+        <span class="era-year">1969–1979</span>
+        <p>El éxito mundial sin Nash: "He Ain't Heavy, He's My Brother" y "Long Cool Woman" los consagran en los 70s.</p>
+      </div>
+      <div class="era">
+        <span class="era-year">1980–HOY</span>
+        <p>Leyendas vivientes: Salón de la Fama del Rock (2010) y siguen subiendo a los escenarios de todo el mundo.</p>
+      </div>
+    </div>
+
+    <!-- === CANCIONES EMBLEMÁTICAS === -->
+    <div class="section">
+      <h3>🎵 Canciones Emblemáticas</h3>
+      <ul class="songs-list">
+        <li>Long Cool Woman (In a Black Dress)</li>
+        <li>He Ain't Heavy, He's My Brother</li>
+        <li>Bus Stop</li>
+        <li>The Air That I Breathe</li>
+        <li>Stay</li>
+      </ul>
+    </div>
+
+    <!-- === DISCOGRAFÍA ESENCIAL (NUEVO) === -->
+    <div class="section">
+      <h3>💿 Discografía Esencial</h3>
+      <ul class="songs-list discos">
+        <li><strong>Evolution</strong> (1967) – El giro psicodélico de la banda.</li>
+        <li><strong>Butterfly</strong> (1967) – La joya más delicada de su primera época.</li>
+        <li><strong>Distant Light</strong> (1971) – El hogar de "Long Cool Woman".</li>
+        <li><strong>Hollies</strong> (1974) – Contiene "The Air That I Breathe".</li>
+		<li><strong>Another Night</strong> (1975) – Décimo quinto álbum; el que mas me gusta.</li>
+      </ul>
+    </div>
+
+    <!-- === CURIOSIDADES === -->
+    <div class="section">
+      <h3>💡 Curiosidades</h3>
+      <div class="curiosity">
+        🔹 Su nombre viene de la película "Holiday Inn" con Bing Crosby.
+      </div>
+      <div class="curiosity">
+        🔹 Fueron de los pocos grupos británicos que mantuvieron éxito continuo en los 70s y 80s.
+      </div>
+      <div class="curiosity">
+        🔹 "He Ain't Heavy" fue grabada en 1969 pero se hizo mundialmente famosa décadas después.
+      </div>
+      <div class="curiosity">
+        🔹 Allan Clarke (voz líder de The Hollies) prestó su voz en el tema <strong>"Breakdown"</strong> de Alan Parsons Project (álbum <em>The Turn of a Friendly Card</em>, 1980).
+      </div>
+    </div>
+
+    <!-- === HITOS (NUEVO) === -->
+    <div class="section">
+      <h3>🏆 Hitos</h3>
+      <ul class="songs-list hitos">
+        <li>2010: incorporados al Salón de la Fama del Rock and Roll.</li>
+        <li>Más de 100 millones de discos vendidos y más de 20 éxitos en el Top 10 británico.</li>
+        <li>De las pocas bandas de la British Invasion que siguen activas sobre los escenarios.</li>
+      </ul>
+    </div>
+
+    <!-- === EFEMÉRIDES CONECTADAS AL JSON (NUEVO) === -->
+    <div class="section">
+      <div class="efemerides-box">
+        <h3>📅 El Archivo Recuerda</h3>
+        <div id="efemerides-artista"></div>
+        <div id="efemerides-hoy"></div>
+      </div>
+    </div>
+
+    <!-- === ESPECIAL EN LA RADIO === -->
+    <div class="section">
+      <div class="especial-box">
+        <h3>🎧 Especial en FlashBack Radio</h3>
+        <p>Escuchá nuestro programa especial dedicado a The Hollies con las mejores canciones y curiosidades.</p>
+        <span class="especial-placeholder">⏳ Próximamente en Mixcloud</span>
+      </div>
+    </div>
+
+    <!-- === VIDEO DESTACADO (NUEVO - opcional) === -->
+    <div class="section video-destacado">
+      <h3>🎬 Para Ver y Escuchar</h3>
+      <p>Un clásico de The Hollies en vivo, para cerrar la visita como se debe.</p>
+      <!-- Reemplazá TU_VIDEO_ID por el ID de YouTube que elijas (ej: un vivo de Long Cool Woman) -->
+      <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- === NAVEGACIÓN === -->
+    <div class="nav-buttons">
+      <a href="artistas.html">← Volver al Salón</a>
+      <a href="explorar.html" class="secondary">← Volver al Archivo</a>
+    </div>
+  </main>
+
+  <!-- === FOOTER === -->
+  <footer style="text-align:center;margin:40px 20px;padding:20px;font-family:'Orbitron',sans-serif;font-size:0.9em;color:#4a6fa5;text-shadow:-1px -1px 0 #ffd700,1px -1px 0 #ffd700,-1px 1px 0 #ffd700,1px 1px 0 #ffd700;border-top:1px solid #2a3a5f;">
+    FlashBack Radio es un proyecto personal sin fines de lucro<br>
+    La música transmitida pertenece a sus respectivos autores<br>
+    - Capilla del Monte, Córdoba © 2025 - Todos los derechos reservados.<br>
+    <a href="privacidad.html" style="color:#00ffff;text-decoration:underline;">🔒 Privacidad</a> | 
+    ¿Te gustó esta web? <a href="https://wa.me/543548584454?text=Hola%20Ra%C3%BAl,%20vi%20tu%20web%20de%20FlashBack%20Radio%20y%20me%20gustar%C3%ADa%20consultar%20por%20una%20p%C3%A1gina%20similar%20para%20mi%20proyecto.%20%C2%BFPod%C3%A9s%20pasarme%20informaci%C3%B3n?" style="color:#25D366;text-decoration:underline;" target="_blank" rel="noopener">💬 Consultá por tu web personalizada</a>
+  </footer>
+
+  <!-- === SCRIPTS === -->
+  <script>
+    // Ocultar bienvenida mística
+    window.addEventListener('load', function() {
+      const intro = document.getElementById('sala-intro');
+      if (intro) {
+        setTimeout(function() { intro.classList.add('oculto'); }, 900);
+        setTimeout(function() { intro.remove(); }, 1800);
+      }
+    });
+
+    // Menú hamburguesa
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    navToggle?.addEventListener('click', () => navMenu.classList.toggle('active'));
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => navMenu.classList.remove('active'));
+    });
+    
+    // Efecto scroll en menú
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('main-nav');
+      if (window.scrollY > 50) {
+        nav.style.background = 'rgba(10, 8, 26, 0.98)';
+        nav.style.boxShadow = '0 4px 20px rgba(255, 215, 0, 0.5)';
+      } else {
+        nav.style.background = 'rgba(10, 8, 26, 0.95)';
+        nav.style.boxShadow = '0 2px 15px rgba(255, 215, 0, 0.3)';
+      }
+    });
+
+    // === BANNER "AHORA SUENA" ===
+    const playlistBanner = document.getElementById('playlist-banner');
+    const playlistLabel = playlistBanner.querySelector('.label');
+    
+    async function actualizarBanner() {
+      try {
+        const res = await fetch('https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio');
+        if (!res.ok) return;
+        const data = await res.json();
+        const rawName = data.now_playing?.playlist?.name || '';
+        if (rawName) {
+          const cleanName = rawName.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+          playlistLabel.textContent = `🔴 AHORA: ${cleanName}`;
+          playlistBanner.style.display = 'flex';
+        }
+      } catch (err) { /* Silencioso */ }
+    }
+    actualizarBanner();
+    setInterval(actualizarBanner, 30000);
+
+    // =====================================================
+    // EFEMÉRIDES CONECTADAS AL efemerides.json
+    // Busca el archivo en la raíz o en /data/ (funciona igual)
+    // Muestra: 1) efemérides que mencionen a The Hollies
+    //          2) la efeméride del día de hoy
+    // =====================================================
+    async function cargarEfemerides() {
+      let data = null;
+      const rutas = ['efemerides.json', 'data/efemerides.json'];
+      for (const ruta of rutas) {
+        try {
+          const r = await fetch(ruta);
+          if (r.ok) { data = await r.json(); break; }
+        } catch (e) { /* prueba la siguiente ruta */ }
+      }
+      if (!data || !Array.isArray(data)) return;
+
+      // Limpia espacios sobrantes en claves y textos
+      const lista = data.map(o => ({
+        fecha: ((o.fecha || o['fecha '] || '') + '').trim(),
+        texto: ((o.texto || o['texto '] || '') + '').trim()
+      }));
+
+      // Fecha de hoy en formato MM-DD
+      const hoy = new Date();
+      const clave = String(hoy.getMonth() + 1).padStart(2, '0') + '-' + String(hoy.getDate()).padStart(2, '0');
+
+      const deHoy = lista.find(e => e.fecha === clave);
+      const delArtista = lista.filter(e => /hollies/i.test(e.texto));
+
+      const cajaArtista = document.getElementById('efemerides-artista');
+      const cajaHoy = document.getElementById('efemerides-hoy');
+
+      if (delArtista.length && cajaArtista) {
+        cajaArtista.innerHTML =
+          '<p style="color:#ffd700;margin-bottom:8px;">🎤 The Hollies en la historia:</p>' +
+          '<ul class="songs-list">' +
+          delArtista.map(e => '<li>' + e.texto + '</li>').join('') +
+          '</ul>';
+      }
+      if (deHoy && cajaHoy) {
+        cajaHoy.innerHTML =
+          '<p style="color:#ccc;line-height:1.6;">📅 <strong style="color:#00f3ff;">Tal día como hoy:</strong> ' +
+          deHoy.texto + '</p>';
+      }
+    }
+    cargarEfemerides();
+  </script>
+
+  <!-- === ANALYTICS Y PWA === -->
+  <script data-goatcounter="https://flashbackradio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(() => console.log('Service Worker registrado'))
+          .catch(err => console.log('Error SW:', err));
+      });
+    }
+  </script>
+</body>
+</html>

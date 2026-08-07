@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biblioteca Sonora – FlashBack Radio</title>
+  
+  <!-- === FAVICON Y PWA === -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="/manifest.json">
+  
+  <!-- === SEO COMPLETO === -->
+  <meta name="description" content="Biblioteca Sonora de FlashBack Radio: cuentos narrados con banda sonora retro. Historias que se escuchan, se sienten y se recuerdan.">
+  <meta name="keywords" content="cuentos narrados, audiolibros retro, biblioteca sonora, historias con música, FlashBack Radio">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://flashbackradio2025.github.io/cuentos.html">
+  
+  <!-- === OPEN GRAPH === -->
+  <meta property="og:title" content="Biblioteca Sonora – FlashBack Radio">
+  <meta property="og:description" content="Cuentos narrados con banda sonora retro. Cada historia, una emoción.">
+  <meta property="og:image" content="img/logo.png">
+  <meta property="og:url" content="https://flashbackradio2025.github.io/cuentos.html">
+  <meta property="og:type" content="website">
+  
+  <!-- === TWITTER CARDS === -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Biblioteca Sonora – FlashBack Radio">
+  <meta name="twitter:description" content="Historias narradas con música retro que se escuchan y se recuerdan.">
+  <meta name="twitter:image" content="https://flashbackradio2025.github.io/img/logo.png">
+  
+  <!-- === JSON-LD === -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Biblioteca Sonora",
+    "description": "Cuentos narrados con banda sonora retro. Historias que se escuchan, se sienten y se recuerdan.",
+    "url": "https://flashbackradio2025.github.io/cuentos.html",
+    "isPartOf": {
+      "@type": "RadioStation",
+      "name": "FlashBack Radio – El Eco del Tiempo",
+      "url": "https://flashbackradio2025.github.io"
+    }
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
+  
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      margin: 0; padding: 0;
+      font-family: 'Special Elite', cursive;
+      background: #0f1c28;
+      color: #fff;
+      padding-top: 70px;
+      min-height: 100vh;
+    }
+
+    /* === FONDO DE VINILO === */
+    .vinyl-background {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      z-index: -1; pointer-events: none; overflow: hidden;
+    }
+    .vinyl-background video { width: 100%; height: 100%; object-fit: cover; filter: brightness(1.8) contrast(1.0); }
+
+    /* =========================================================
+       BIENVENIDA DE SALA: luz AMARILLA cálida (luz de lámpara
+       antigua de biblioteca) que se expande al entrar
+       ========================================================= */
+    #sala-intro {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: #030507;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      pointer-events: none;
+      transition: opacity 0.6s ease 0.9s;
+    }
+    #sala-intro.oculto {
+      opacity: 0;
+    }
+    .sala-luz {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #fff8dc 0%, #ffcc00 40%, transparent 70%);
+      filter: blur(6px);
+      animation: expandirLuz 1.5s ease-out forwards;
+    }
+    .sala-titulo {
+      position: relative;
+      z-index: 2;
+      font-family: 'Orbitron', sans-serif;
+      color: #ffcc00;
+      font-size: 1.8rem;
+      letter-spacing: 6px;
+      text-shadow: 0 0 20px #ffcc00, 0 0 40px #ffcc00;
+      opacity: 0;
+      animation: aparecerTitulo 1.5s ease-out forwards;
+      text-align: center;
+      padding: 0 20px;
+    }
+    @keyframes expandirLuz {
+      0% { width: 60px; height: 60px; opacity: 0; }
+      30% { opacity: 1; }
+      100% { width: 200vmax; height: 200vmax; opacity: 0; }
+    }
+    @keyframes aparecerTitulo {
+      0% { opacity: 0; transform: translateY(10px); }
+      40% { opacity: 1; transform: translateY(0); }
+      80% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    /* === MENÚ FIJO === */
+    .main-nav {
+      position: fixed; top: 0; left: 0; width: 100%;
+      background: rgba(10, 8, 26, 0.95);
+      border-bottom: 2px solid #ffcc00;
+      padding: 10px 0; z-index: 1000;
+      box-shadow: 0 2px 15px rgba(255, 204, 0, 0.3);
+      font-family: 'Orbitron', sans-serif;
+    }
+    .nav-container {
+      max-width: 900px; margin: 0 auto;
+      display: flex; justify-content: space-between; align-items: center; padding: 0 20px;
+    }
+    .nav-logo {
+      color: #ffcc66; font-size: 1.1em; font-weight: bold; text-decoration: none;
+      text-shadow: 0 0 8px rgba(255, 204, 102, 0.6);
+    }
+    .nav-menu { display: flex; gap: 15px; list-style: none; margin: 0; padding: 0; }
+    .nav-menu a {
+      color: #00ffff; text-decoration: none; font-size: 0.9em; padding: 6px 10px;
+      border-radius: 6px; transition: all 0.2s; text-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
+    }
+    .nav-menu a:hover {
+      background: rgba(255, 204, 0, 0.2); color: #fff; box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+    }
+    .nav-toggle {
+      display: none; background: transparent; border: 1px solid #ffcc00;
+      padding: 8px; border-radius: 6px; cursor: pointer;
+    }
+    .hamburger { display: block; width: 20px; height: 2px; background: #ffcc00; position: relative; }
+    .hamburger::before, .hamburger::after {
+      content: ''; position: absolute; width: 20px; height: 2px; background: #ffcc00; left: 0;
+    }
+    .hamburger::before { top: -6px; } .hamburger::after { top: 6px; }
+    
+    @media (max-width: 768px) {
+      .nav-toggle { display: block; }
+      .nav-menu {
+        position: absolute; top: 100%; left: 0; right: 0;
+        background: rgba(10, 8, 26, 0.98); flex-direction: column;
+        padding: 15px; gap: 10px; display: none; border-bottom: 2px solid #ffcc00;
+      }
+      .nav-menu.active { display: flex; }
+      .nav-menu a { text-align: center; padding: 10px; font-size: 1em; }
+    }
+
+    /* === CONTENEDOR PRINCIPAL === */
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(10, 8, 26, 0.92);
+      border: 2px solid #ffcc00;
+      border-radius: 16px;
+      padding: 40px 30px;
+      box-shadow: 0 0 30px rgba(255, 204, 0, 0.4);
+    }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #ffcc00;
+      text-align: center;
+      text-shadow: 0 0 12px rgba(255, 204, 0, 0.8);
+      margin-bottom: 10px;
+      font-size: 1.8em;
+      animation: respirarTitulo 4s ease-in-out infinite;
+    }
+    @keyframes respirarTitulo {
+      0%, 100% { text-shadow: 0 0 12px rgba(255, 204, 0, 0.8); }
+      50% { text-shadow: 0 0 20px rgba(255, 204, 0, 1), 0 0 35px rgba(255, 204, 0, 0.5); }
+    }
+    .subtitle {
+      text-align: center;
+      color: #ccc;
+      margin-bottom: 30px;
+      font-style: italic;
+      font-size: 1.1em;
+    }
+
+    /* === REPRODUCTOR MINI === */
+    .player-mini {
+      text-align: center;
+      margin: 0 auto 35px;
+      max-width: 320px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      border-radius: 12px;
+      border: 1px solid #ff33cc;
+      box-shadow: 0 0 15px rgba(255, 51, 204, 0.4);
+    }
+    .player-mini iframe {
+      width: 100%;
+      height: 90px;
+      border: none;
+      border-radius: 8px;
+      background: transparent;
+    }
+    .player-mini p {
+      color: #ffcc00;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9em;
+      margin-top: 8px;
+      text-shadow: 0 0 6px rgba(255, 204, 0, 0.6);
+    }
+
+    /* === BANNER "AHORA SUENA" === */
+    #playlist-banner {
+      background: linear-gradient(135deg, #0a0a1a, #2a1a0a);
+      border: 2px solid #ffcc00;
+      border-radius: 12px;
+      padding: 12px 20px;
+      margin: 0 auto 30px;
+      max-width: 500px;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1em;
+      color: #ffcc00;
+      box-shadow: 0 0 20px rgba(255, 204, 0, 0.4);
+      animation: neonPulse 2.5s infinite alternate;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    @keyframes neonPulse {
+      0% { box-shadow: 0 0 15px rgba(255, 204, 0, 0.3); }
+      100% { box-shadow: 0 0 30px rgba(255, 204, 0, 0.7), 0 0 10px rgba(255, 51, 204, 0.3); }
+    }
+    #playlist-banner .icon { font-size: 1.4em; }
+
+    /* === TÍTULOS DE SECCIÓN === */
+    .section-title {
+      color: #ffcc00;
+      border-bottom: 2px solid #ffcc00;
+      padding-bottom: 8px;
+      margin: 40px 0 20px;
+      text-shadow: 0 0 8px rgba(255, 204, 0, 0.6);
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    /* === VIDEOS (con efecto de libro al hover) === */
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+    .video-card {
+      background: rgba(50, 30, 0, 0.4);
+      border: 1px solid #ffcc00;
+      border-radius: 12px;
+      padding: 15px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      position: relative;
+      overflow: hidden;
+    }
+    .video-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, #ffcc00, #ffd700, #ffcc00);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    /* Efecto libro: como si una página se levantara */
+    .video-card::after {
+      content: '';
+      position: absolute;
+      top: 0; right: 0;
+      width: 0; height: 0;
+      border-style: solid;
+      border-width: 0 0 30px 30px;
+      border-color: transparent transparent #ffcc00 transparent;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .video-card:hover {
+      transform: translateY(-5px) scale(1.01) rotate(-0.5deg);
+      box-shadow: 0 0 25px rgba(255, 204, 0, 0.6), 0 0 12px rgba(255, 204, 0, 0.3) inset;
+    }
+    .video-card:hover::before { opacity: 1; }
+    .video-card:hover::after { opacity: 0.6; }
+    .video-card iframe {
+      width: 100%;
+      height: 200px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      border: none;
+    }
+    .video-card h3 {
+      color: #ffcc00;
+      margin: 10px 0 5px;
+      font-family: 'Orbitron', sans-serif;
+      text-shadow: 0 0 5px rgba(255, 204, 0, 0.6);
+    }
+    .video-card p {
+      color: #ccc;
+      font-size: 0.95em;
+      margin: 0;
+      line-height: 1.4;
+    }
+    .video-card .duration {
+      display: inline-block;
+      background: rgba(255, 204, 0, 0.15);
+      color: #ffcc00;
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 0.8em;
+      margin-top: 8px;
+      border: 1px solid rgba(255, 204, 0, 0.3);
+    }
+    
+    /* === CUENTO DEL MES (destacado) === */
+    .cuento-destacado {
+      background: linear-gradient(135deg, rgba(50, 30, 0, 0.6), rgba(80, 50, 10, 0.4));
+      border: 2px solid #ffcc00;
+      border-radius: 16px;
+      padding: 30px;
+      margin: 30px 0;
+      position: relative;
+      box-shadow: 0 0 25px rgba(255, 204, 0, 0.3);
+    }
+    .cuento-destacado::before {
+      content: '📖';
+      position: absolute;
+      top: -25px;
+      left: 30px;
+      font-size: 3em;
+      background: #0a0a1a;
+      padding: 0 10px;
+      border-radius: 50%;
+    }
+    .cuento-destacado-badge {
+      display: inline-block;
+      background: #ffcc00;
+      color: #0a0a1a;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.85em;
+      font-weight: bold;
+      margin-bottom: 15px;
+      text-shadow: none;
+    }
+    .cuento-destacado h3 {
+      color: #ffcc00;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.4em;
+      margin-bottom: 15px;
+      text-shadow: 0 0 8px rgba(255, 204, 0, 0.6);
+    }
+    .cuento-extracto {
+      font-family: 'Special Elite', cursive;
+      font-size: 1.1em;
+      line-height: 1.8;
+      color: #e8d8a8;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      border-left: 4px solid #ffcc00;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-style: italic;
+      position: relative;
+    }
+    .cuento-extracto::before {
+      content: '"';
+      position: absolute;
+      top: -10px;
+      left: 10px;
+      font-size: 3em;
+      color: #ffcc00;
+      opacity: 0.3;
+      font-family: serif;
+    }
+    .cuento-autor {
+      color: #aaa;
+      font-size: 0.9em;
+      text-align: right;
+      margin-top: 10px;
+    }
+    
+    /* === ESTADÍSTICAS DE LA BIBLIOTECA === */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin: 30px 0;
+    }
+    .stat-card {
+      background: rgba(50, 30, 0, 0.4);
+      border: 1px solid rgba(255, 204, 0, 0.4);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      transition: all 0.3s;
+    }
+    .stat-card:hover {
+      border-color: #ffcc00;
+      box-shadow: 0 0 20px rgba(255, 204, 0, 0.4);
+      transform: translateY(-3px);
+    }
+    .stat-number {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2em;
+      color: #ffcc00;
+      text-shadow: 0 0 10px rgba(255, 204, 0, 0.6);
+      display: block;
+      margin-bottom: 5px;
+    }
+    .stat-label {
+      color: #ccc;
+      font-size: 0.9em;
+      letter-spacing: 1px;
+    }
+    
+    /* === PRÓXIMAMENTE EN LA BIBLIOTECA === */
+    .proximos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .proximo-card {
+      background: rgba(30, 20, 0, 0.5);
+      border: 1px dashed rgba(255, 204, 0, 0.5);
+      border-radius: 12px;
+      padding: 25px 20px;
+      text-align: center;
+      transition: all 0.3s;
+      position: relative;
+      opacity: 0.8;
+    }
+    .proximo-card:hover {
+      opacity: 1;
+      border-color: #ffcc00;
+      transform: translateY(-3px);
+      box-shadow: 0 0 20px rgba(255, 204, 0, 0.3);
+    }
+    .proximo-icon {
+      font-size: 2.5em;
+      display: block;
+      margin-bottom: 10px;
+      opacity: 0.7;
+    }
+    .proximo-card h4 {
+      color: #ffcc00;
+      font-family: 'Orbitron', sans-serif;
+      margin-bottom: 8px;
+      font-size: 1.1em;
+    }
+    .proximo-card p {
+      color: #aaa;
+      font-size: 0.9em;
+      line-height: 1.5;
+    }
+    .proximo-badge {
+      display: inline-block;
+      background: rgba(255, 204, 0, 0.15);
+      color: #ffcc00;
+      padding: 3px 12px;
+      border-radius: 12px;
+      font-size: 0.75em;
+      margin-top: 10px;
+      border: 1px solid rgba(255, 204, 0, 0.4);
+    }
+
+    /* === NOTA FINAL === */
+    .note {
+      text-align: center;
+      margin-top: 30px;
+      color: #ccc;
+      font-size: 0.95em;
+      font-style: italic;
+      padding: 20px;
+      border: 1px dashed rgba(255, 204, 0, 0.5);
+      border-radius: 10px;
+      background: rgba(255, 204, 0, 0.05);
+    }
+    .note a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 0 0 5px rgba(255, 204, 0, 0.6);
+    }
+    .note a:hover { text-shadow: 0 0 10px rgba(255, 204, 0, 1); }
+
+    /* === BOTÓN VOLVER === */
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      color: #ffcc00;
+      text-decoration: none;
+      font-size: 1em;
+      font-family: 'Orbitron', sans-serif;
+      padding: 10px 20px;
+      border: 1px solid #ffcc00;
+      border-radius: 8px;
+      transition: all 0.2s;
+      max-width: 220px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .back-link:hover {
+      color: #000;
+      background: #ffcc00;
+      box-shadow: 0 0 15px rgba(255, 204, 0, 0.5);
+      transform: scale(1.03);
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 600px) {
+      .container { padding: 30px 20px; margin: 20px auto; }
+      h1 { font-size: 1.5em; }
+      .subtitle { font-size: 1em; }
+      .video-grid, .proximos-grid { grid-template-columns: 1fr; }
+      .player-mini { padding: 12px; }
+      #playlist-banner { font-size: 0.95em; padding: 10px 15px; }
+      .sala-titulo { font-size: 1.3rem; letter-spacing: 3px; }
+      .cuento-destacado { padding: 25px 20px; }
+      .cuento-destacado h3 { font-size: 1.2em; }
+      .cuento-extracto { font-size: 1em; padding: 15px; }
+      .stat-number { font-size: 1.5em; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- === BIENVENIDA MÍSTICA DE SALA (luz amarilla cálida, dura 1.5s) === -->
+  <div id="sala-intro">
+    <div class="sala-luz"></div>
+    <div class="sala-titulo">BIBLIOTECA SONORA</div>
+  </div>
+
+  <!-- === MENÚ FIJO === -->
+  <nav id="main-nav" class="main-nav">
+    <div class="nav-container">
+      <a href="index.html#player-section" class="nav-logo">📻 FlashBack Radio</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Menú"><span class="hamburger"></span></button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="index.html#player-section">En Vivo</a></li>
+        <li><a href="index.html#schedule-section">Programación</a></li>
+        <li><a href="explorar.html">Explorar</a></li>
+        <li><a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener">Apoyanos</a></li>
+        <li><a href="index.html#contacto-section">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- === FONDO DE VINILO === -->
+  <div class="vinyl-background">
+    <video autoplay muted loop playsinline><source src="video/vinilo-loop.mp4" type="video/mp4"></video>
+  </div>
+
+  <main class="container">
+    <h1>📚 Biblioteca Sonora</h1>
+    <p class="subtitle">Historias narradas con banda sonora retro. Cada cuento, una emoción.</p>
+
+    <!-- === REPRODUCTOR MINI === -->
+    <div class="player-mini">
+      <iframe src="player.html" allow="autoplay; encrypted-media" title="Reproductor FlashBack Radio"></iframe>
+      <p>🎧 Escuchá la radio mientras leés</p>
+    </div>
+
+    <!-- === BANNER "AHORA SUENA" === -->
+    <div id="playlist-banner" style="display:none;">
+      <span class="icon">🎙️</span>
+      <span class="label">Cargando...</span>
+    </div>
+
+    <!-- === CUENTO DESTACADO DEL MES === -->
+    <div class="cuento-destacado">
+      <span class="cuento-destacado-badge">🌙 CUENTO DEL MES</span>
+      <h3>El Viaje del Vinilo</h3>
+      <div class="cuento-extracto">
+        Aquel vinilo guardaba más que música. Entre sus surcos vivían las risas de un verano que nunca volvería, el olor a naftalina del living de la abuela, y esa voz que prometía un mañana que el tiempo se encargó de borrar...
+      </div>
+      <div class="cuento-autor">— Narrado por FlashBack Radio</div>
+    </div>
+
+    <!-- === ESTADÍSTICAS DE LA BIBLIOTECA === -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <span class="stat-number" data-target="2">0</span>
+        <span class="stat-label">CUENTOS</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="30">0</span>
+        <span class="stat-label">MINUTOS</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" data-target="2">0</span>
+        <span class="stat-label">EMOCIONES</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">∞</span>
+        <span class="stat-label">RECUERDOS</span>
+      </div>
+    </div>
+
+    <!-- === CUENTOS CON MÚSICA (videos) === -->
+    <h2 class="section-title">🎬 Cuentos Narrados</h2>
+    <div class="video-grid">
+      <!-- Video 1 -->
+      <div class="video-card">
+        <iframe width="100%" height="200" 
+                src="https://www.youtube.com/embed/TU_VIDEO_ID" 
+                frameborder="0" allowfullscreen>
+        </iframe>
+        <h3>El Viaje del Vinilo</h3>
+        <p>Una historia sobre recuerdos, música y el tiempo que no vuelve. Un viaje al pasado a través de los surcos de un viejo disco.</p>
+        <span class="duration">⏱️ 15:00 min</span>
+      </div>
+      
+      <!-- Video 2 -->
+      <div class="video-card">
+        <iframe width="100%" height="200" 
+                src="https://www.youtube.com/embed/OTRO_VIDEO_ID" 
+                frameborder="0" allowfullscreen>
+        </iframe>
+        <h3>Noches de Blues</h3>
+        <p>Narración con fondo de guitarra eléctrica y atmósfera nocturna. El humo de un bar, una copa vacía y una canción que no termina.</p>
+        <span class="duration">⏱️ 18:00 min</span>
+      </div>
+    </div>
+
+    <!-- === PRÓXIMAMENTE EN LA BIBLIOTECA === -->
+    <h2 class="section-title">📜 Próximamente</h2>
+    <div class="proximos-grid">
+      <div class="proximo-card">
+        <span class="proximo-icon">🚂</span>
+        <h4>El Último Tren</h4>
+        <p>Una estación abandonada, un boleto sin fecha y la promesa de reencontrarse.</p>
+        <span class="proximo-badge">🎸 Rock de los 70s</span>
+      </div>
+      
+      <div class="proximo-card">
+        <span class="proximo-icon">📻</span>
+        <h4>La Voz del Dial</h4>
+        <p>Un locutor que solo existía en las noches de tormenta y en los corazones de los que lo escuchaban.</p>
+        <span class="proximo-badge">🎷 Jazz & Soul</span>
+      </div>
+      
+      <div class="proximo-card">
+        <span class="proximo-icon">💫</span>
+        <h4>Verano del 84</h4>
+        <p>La historia de un cassette grabado a mano que cruzó fronteras y cambió dos vidas para siempre.</p>
+        <span class="proximo-badge">🎵 Pop de los 80s</span>
+      </div>
+    </div>
+
+    <!-- === NOTA FINAL === -->
+    <p class="note">
+      📖 ¿Tenés una historia que merece ser contada con música?<br>
+      <a href="index.html#contacto-section">Escribime</a> y la hacemos resonar en la Biblioteca Sonora.
+    </p>
+
+    <a href="explorar.html" class="back-link">← Volver al Archivo</a>
+  </main>
+
+  <!-- === FOOTER === -->
+  <footer style="text-align:center;margin:40px 20px;padding:20px;font-family:'Orbitron',sans-serif;font-size:0.9em;color:#4a6fa5;text-shadow:-1px -1px 0 #ffd700,1px -1px 0 #ffd700,-1px 1px 0 #ffd700,1px 1px 0 #ffd700;border-top:1px solid #2a3a5f;">
+    FlashBack Radio es un proyecto personal sin fines de lucro<br>
+    La música transmitida pertenece a sus respectivos autores<br>
+    - Capilla del Monte, Córdoba © 2025 - Todos los derechos reservados.<br>
+    <a href="privacidad.html" style="color:#00ffff;text-decoration:underline;">🔒 Privacidad</a> | 
+    ¿Te gustó esta web? <a href="https://wa.me/543548584454?text=Hola%20Ra%C3%BAl,%20vi%20tu%20web%20de%20FlashBack%20Radio%20y%20me%20gustar%C3%ADa%20consultar%20por%20una%20p%C3%A1gina%20similar%20para%20mi%20proyecto.%20%C2%BFPod%C3%A9s%20pasarme%20informaci%C3%B3n?" style="color:#25D366;text-decoration:underline;" target="_blank" rel="noopener">💬 Consultá por tu web personalizada</a>
+  </footer>
+
+  <!-- === SCRIPTS === -->
+  <script>
+    // Ocultar bienvenida mística después de 1.8s
+    window.addEventListener('load', function() {
+      const intro = document.getElementById('sala-intro');
+      if (intro) {
+        setTimeout(function() { intro.classList.add('oculto'); }, 900);
+        setTimeout(function() { intro.remove(); }, 1800);
+      }
+    });
+
+    // Menú hamburguesa
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    navToggle?.addEventListener('click', () => navMenu.classList.toggle('active'));
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => navMenu.classList.remove('active'));
+    });
+    
+    // Efecto scroll en menú
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('main-nav');
+      if (window.scrollY > 50) {
+        nav.style.background = 'rgba(10, 8, 26, 0.98)';
+        nav.style.boxShadow = '0 4px 20px rgba(255, 204, 0, 0.5)';
+      } else {
+        nav.style.background = 'rgba(10, 8, 26, 0.95)';
+        nav.style.boxShadow = '0 2px 15px rgba(255, 204, 0, 0.3)';
+      }
+    });
+
+    // === BANNER "AHORA SUENA" ===
+    const playlistBanner = document.getElementById('playlist-banner');
+    const playlistLabel = playlistBanner.querySelector('.label');
+    
+    async function actualizarBanner() {
+      try {
+        const res = await fetch('https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio');
+        if (!res.ok) return;
+        const data = await res.json();
+        const rawName = data.now_playing?.playlist?.name || '';
+        if (rawName) {
+          const cleanName = rawName.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+          playlistLabel.textContent = `🔴 AHORA: ${cleanName}`;
+          playlistBanner.style.display = 'flex';
+        }
+      } catch (err) { /* Silencioso */ }
+    }
+    actualizarBanner();
+    setInterval(actualizarBanner, 30000);
+
+    // === ANIMACIÓN CONTADORA DE ESTADÍSTICAS ===
+    function animarEstadisticas() {
+      const numeros = document.querySelectorAll('.stat-number[data-target]');
+      numeros.forEach(num => {
+        const target = parseInt(num.getAttribute('data-target'));
+        const duration = 1500;
+        const steps = 30;
+        const increment = target / steps;
+        let current = 0;
+        const timer = setInterval(() => {
+          current += increment;
+          if (current >= target) {
+            num.textContent = target;
+            clearInterval(timer);
+          } else {
+            num.textContent = Math.floor(current);
+          }
+        }, duration / steps);
+      });
+    }
+
+    // Iniciar la animación cuando el usuario vea las estadísticas
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animarEstadisticas();
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    const statsGrid = document.querySelector('.stats-grid');
+    if (statsGrid) observer.observe(statsGrid);
+  </script>
+
+  <!-- === ANALYTICS Y PWA === -->
+  <script data-goatcounter="https://flashbackradio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(() => console.log('Service Worker registrado'))
+          .catch(err => console.log('Error SW:', err));
+      });
+    }
+  </script>
+</body>
+</html>

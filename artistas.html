@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salón de los Grandes – FlashBack Radio</title>
+  
+  <!-- === FAVICON Y PWA === -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="manifest" href="/manifest.json">
+  
+  <!-- === SEO COMPLETO === -->
+  <meta name="description" content="Salón de los Grandes de FlashBack Radio: biografías, curiosidades y especiales de 2 horas de los artistas que marcaron la historia de la música.">
+  <meta name="keywords" content="artistas retro, biografías musicales, The Beatles, Rolling Stones, The Hollies, Alan Parsons, Cerati, FlashBack Radio">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://flashbackradio2025.github.io/artistas.html">
+  
+  <!-- === OPEN GRAPH === -->
+  <meta property="og:title" content="Salón de los Grandes – FlashBack Radio">
+  <meta property="og:description" content="Biografías, curiosidades y especiales de 2 horas de los artistas que marcaron la historia.">
+  <meta property="og:image" content="img/logo.png">
+  <meta property="og:url" content="https://flashbackradio2025.github.io/artistas.html">
+  <meta property="og:type" content="website">
+  
+  <!-- === TWITTER CARDS === -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Salón de los Grandes – FlashBack Radio">
+  <meta name="twitter:description" content="Los artistas que marcaron la historia de la música, con biografías y especiales.">
+  <meta name="twitter:image" content="https://flashbackradio2025.github.io/img/logo.png">
+  
+  <!-- === JSON-LD === -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Salón de los Grandes",
+    "description": "Biografías, curiosidades y especiales de 2 horas de los artistas que marcaron la historia de la música.",
+    "url": "https://flashbackradio2025.github.io/artistas.html",
+    "isPartOf": {
+      "@type": "RadioStation",
+      "name": "FlashBack Radio – El Eco del Tiempo",
+      "url": "https://flashbackradio2025.github.io"
+    }
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
+  
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      margin: 0; padding: 0;
+      font-family: 'Special Elite', cursive;
+      background: #0f1c28;
+      color: #fff;
+      padding-top: 70px;
+      min-height: 100vh;
+    }
+
+    /* === FONDO DE VINILO === */
+    .vinyl-background {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+      z-index: -1; pointer-events: none; overflow: hidden;
+    }
+    .vinyl-background video { width: 100%; height: 100%; object-fit: cover; filter: brightness(1.8) contrast(1.0); }
+
+    /* =========================================================
+       BIENVENIDA DE SALA: luz DORADA (pasaje de la fama)
+       que se expande al entrar
+       ========================================================= */
+    #sala-intro {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: #030507;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      pointer-events: none;
+      transition: opacity 0.6s ease 0.9s;
+    }
+    #sala-intro.oculto {
+      opacity: 0;
+    }
+    .sala-luz {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #ffffff 0%, #ffd700 40%, transparent 70%);
+      filter: blur(6px);
+      animation: expandirLuz 1.5s ease-out forwards;
+    }
+    .sala-titulo {
+      position: relative;
+      z-index: 2;
+      font-family: 'Orbitron', sans-serif;
+      color: #ffd700;
+      font-size: 1.8rem;
+      letter-spacing: 6px;
+      text-shadow: 0 0 20px #ffd700, 0 0 40px #ffd700;
+      opacity: 0;
+      animation: aparecerTitulo 1.5s ease-out forwards;
+      text-align: center;
+      padding: 0 20px;
+    }
+    @keyframes expandirLuz {
+      0% { width: 60px; height: 60px; opacity: 0; }
+      30% { opacity: 1; }
+      100% { width: 200vmax; height: 200vmax; opacity: 0; }
+    }
+    @keyframes aparecerTitulo {
+      0% { opacity: 0; transform: translateY(10px); }
+      40% { opacity: 1; transform: translateY(0); }
+      80% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+
+    /* === MENÚ FIJO === */
+    .main-nav {
+      position: fixed; top: 0; left: 0; width: 100%;
+      background: rgba(10, 8, 26, 0.95);
+      border-bottom: 2px solid #ffd700;
+      padding: 10px 0; z-index: 1000;
+      box-shadow: 0 2px 15px rgba(255, 215, 0, 0.3);
+      font-family: 'Orbitron', sans-serif;
+    }
+    .nav-container {
+      max-width: 900px; margin: 0 auto;
+      display: flex; justify-content: space-between; align-items: center; padding: 0 20px;
+    }
+    .nav-logo {
+      color: #ffcc66; font-size: 1.1em; font-weight: bold; text-decoration: none;
+      text-shadow: 0 0 8px rgba(255, 204, 102, 0.6);
+    }
+    .nav-menu { display: flex; gap: 15px; list-style: none; margin: 0; padding: 0; }
+    .nav-menu a {
+      color: #00ffff; text-decoration: none; font-size: 0.9em; padding: 6px 10px;
+      border-radius: 6px; transition: all 0.2s; text-shadow: 0 0 5px rgba(0, 255, 255, 0.4);
+    }
+    .nav-menu a:hover {
+      background: rgba(255, 215, 0, 0.2); color: #fff; box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+    }
+    .nav-toggle {
+      display: none; background: transparent; border: 1px solid #ffd700;
+      padding: 8px; border-radius: 6px; cursor: pointer;
+    }
+    .hamburger { display: block; width: 20px; height: 2px; background: #ffd700; position: relative; }
+    .hamburger::before, .hamburger::after {
+      content: ''; position: absolute; width: 20px; height: 2px; background: #ffd700; left: 0;
+    }
+    .hamburger::before { top: -6px; } .hamburger::after { top: 6px; }
+    
+    @media (max-width: 768px) {
+      .nav-toggle { display: block; }
+      .nav-menu {
+        position: absolute; top: 100%; left: 0; right: 0;
+        background: rgba(10, 8, 26, 0.98); flex-direction: column;
+        padding: 15px; gap: 10px; display: none; border-bottom: 2px solid #ffd700;
+      }
+      .nav-menu.active { display: flex; }
+      .nav-menu a { text-align: center; padding: 10px; font-size: 1em; }
+    }
+
+    /* === CONTENEDOR PRINCIPAL === */
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: rgba(10, 8, 26, 0.92);
+      border: 2px solid #ffd700;
+      border-radius: 16px;
+      padding: 40px 30px;
+      box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+    }
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #ffd700;
+      text-align: center;
+      text-shadow: 0 0 12px rgba(255, 215, 0, 0.8);
+      margin-bottom: 10px;
+      font-size: 1.8em;
+      animation: respirarTitulo 4s ease-in-out infinite;
+    }
+    @keyframes respirarTitulo {
+      0%, 100% { text-shadow: 0 0 12px rgba(255, 215, 0, 0.8); }
+      50% { text-shadow: 0 0 20px rgba(255, 215, 0, 1), 0 0 35px rgba(255, 215, 0, 0.5); }
+    }
+    .subtitle {
+      text-align: center;
+      color: #ccc;
+      margin-bottom: 30px;
+      font-style: italic;
+      font-size: 1.1em;
+    }
+
+    /* === REPRODUCTOR MINI === */
+    .player-mini {
+      text-align: center;
+      margin: 0 auto 35px;
+      max-width: 320px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 15px;
+      border-radius: 12px;
+      border: 1px solid #00f3ff;
+      box-shadow: 0 0 15px rgba(0, 243, 255, 0.4);
+    }
+    .player-mini iframe {
+      width: 100%;
+      height: 90px;
+      border: none;
+      border-radius: 8px;
+      background: transparent;
+    }
+    .player-mini p {
+      color: #ffd700;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9em;
+      margin-top: 8px;
+      text-shadow: 0 0 6px rgba(255, 215, 0, 0.6);
+    }
+
+    /* === BANNER "AHORA SUENA" === */
+    #playlist-banner {
+      background: linear-gradient(135deg, #0a0a1a, #2a1a00);
+      border: 2px solid #ffd700;
+      border-radius: 12px;
+      padding: 12px 20px;
+      margin: 0 auto 30px;
+      max-width: 500px;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1em;
+      color: #ffd700;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+      animation: neonPulse 2.5s infinite alternate;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    @keyframes neonPulse {
+      0% { box-shadow: 0 0 15px rgba(255, 215, 0, 0.3); }
+      100% { box-shadow: 0 0 30px rgba(255, 215, 0, 0.7), 0 0 10px rgba(0, 243, 255, 0.3); }
+    }
+    #playlist-banner .icon { font-size: 1.4em; }
+
+    /* === GALERÍA DE ARTISTAS (con identidad dorada) === */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+    .artist-card {
+      background: rgba(50, 40, 0, 0.4);
+      border: 1px solid #ffd700;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      position: relative;
+    }
+    /* Estrella dorada de "pasaje de la fama" al hover */
+    .artist-card::before {
+      content: '⭐';
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 1.5em;
+      opacity: 0;
+      transform: scale(0.5) rotate(-180deg);
+      transition: all 0.4s ease;
+      z-index: 2;
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+    }
+    .artist-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 0 30px rgba(255, 215, 0, 0.7), 0 0 15px rgba(255, 215, 0, 0.4) inset;
+      border-color: #ffd700;
+    }
+    .artist-card:hover::before {
+      opacity: 1;
+      transform: scale(1) rotate(0deg);
+    }
+    .artist-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s;
+    }
+    .artist-card:hover img {
+      transform: scale(1.08);
+    }
+    .artist-info {
+      padding: 15px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.3);
+    }
+    .artist-info h3 {
+      color: #ffd700;
+      margin: 0 0 8px;
+      text-shadow: 0 0 5px rgba(255, 215, 0, 0.6);
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.1em;
+      transition: text-shadow 0.3s;
+    }
+    .artist-card:hover .artist-info h3 {
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.9), 0 0 20px rgba(255, 215, 0, 0.5);
+    }
+    .artist-info p {
+      color: #ccc;
+      font-size: 0.85em;
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    /* === BOTÓN VOLVER === */
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      color: #ffd700;
+      text-decoration: none;
+      font-size: 1em;
+      font-family: 'Orbitron', sans-serif;
+      padding: 10px 20px;
+      border: 1px solid #ffd700;
+      border-radius: 8px;
+      transition: all 0.2s;
+      max-width: 220px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .back-link:hover {
+      color: #000;
+      background: #ffd700;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+      transform: scale(1.03);
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 600px) {
+      .gallery { grid-template-columns: repeat(2, 1fr); }
+      .container { padding: 30px 20px; margin: 20px auto; }
+      h1 { font-size: 1.5em; }
+      .subtitle { font-size: 1em; }
+      .player-mini { padding: 12px; }
+      #playlist-banner { font-size: 0.95em; padding: 10px 15px; }
+      .sala-titulo { font-size: 1.3rem; letter-spacing: 3px; }
+    }
+    @media (max-width: 400px) {
+      .gallery { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- === BIENVENIDA MÍSTICA DE SALA (luz dorada, dura 1.5s) === -->
+  <div id="sala-intro">
+    <div class="sala-luz"></div>
+    <div class="sala-titulo">SALÓN DE LOS GRANDES</div>
+  </div>
+
+  <!-- === MENÚ FIJO === -->
+  <nav id="main-nav" class="main-nav">
+    <div class="nav-container">
+      <a href="index.html#player-section" class="nav-logo">📻 FlashBack Radio</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Menú"><span class="hamburger"></span></button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="index.html#player-section">En Vivo</a></li>
+        <li><a href="index.html#schedule-section">Programación</a></li>
+        <li><a href="explorar.html">Explorar</a></li>
+        <li><a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener">Apoyanos</a></li>
+        <li><a href="index.html#contacto-section">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- === FONDO DE VINILO === -->
+  <div class="vinyl-background">
+    <video autoplay muted loop playsinline><source src="video/vinilo-loop.mp4" type="video/mp4"></video>
+  </div>
+
+  <main class="container">
+    <h1>🎤 Salón de los Grandes</h1>
+    <p class="subtitle">Biografías, curiosidades y especiales de 2 horas</p>
+
+    <!-- === REPRODUCTOR MINI === -->
+    <div class="player-mini">
+      <iframe src="player.html" allow="autoplay; encrypted-media" title="Reproductor FlashBack Radio"></iframe>
+      <p>🎧 Escuchá la radio mientras recorrés el Salón</p>
+    </div>
+
+    <!-- === BANNER "AHORA SUENA" === -->
+    <div id="playlist-banner" style="display:none;">
+      <span class="icon">🎙️</span>
+      <span class="label">Cargando...</span>
+    </div>
+
+    <!-- === GALERÍA DE ARTISTAS === -->
+    <div class="gallery">
+      <!-- The Hollies -->
+      <a href="hollies.html" class="artist-card">
+        <img src="img/artistas/hollies.jpg" alt="The Hollies">
+        <div class="artist-info">
+          <h3>The Hollies</h3>
+          <p>Armonías británicas • 1962</p>
+        </div>
+      </a>
+
+      <!-- Rolling Stones -->
+      <a href="rolling-stones.html" class="artist-card">
+        <img src="img/artistas/rolling-stones.jpg" alt="The Rolling Stones">
+        <div class="artist-info">
+          <h3>The Rolling Stones</h3>
+          <p>Rock & Roll eterno • 1962</p>
+        </div>
+      </a>
+
+      <!-- The Beatles -->
+      <a href="beatles.html" class="artist-card">
+        <img src="img/artistas/beatles.jpg" alt="The Beatles">
+        <div class="artist-info">
+          <h3>The Beatles</h3>
+          <p>La banda que cambió todo • 1960</p>
+        </div>
+      </a>
+
+      <!-- Alan Parsons Project -->
+      <a href="alan-parsons.html" class="artist-card">
+        <img src="img/artistas/alan-parsons.jpg" alt="Alan Parsons Project">
+        <div class="artist-info">
+          <h3>Alan Parsons Project</h3>
+          <p>Rock progresivo • 1975</p>
+        </div>
+      </a>
+
+      <!-- Gustavo Cerati -->
+      <a href="gustavo-cerati.html" class="artist-card">
+        <img src="img/artistas/cerati.jpg" alt="Gustavo Cerati">
+        <div class="artist-info">
+          <h3>Gustavo Cerati</h3>
+          <p>Rock en español 🇦🇷 • 1982</p>
+        </div>
+      </a>
+    </div>
+
+    <a href="explorar.html" class="back-link">← Volver al Archivo</a>
+  </main>
+
+  <!-- === FOOTER === -->
+  <footer style="text-align:center;margin:40px 20px;padding:20px;font-family:'Orbitron',sans-serif;font-size:0.9em;color:#4a6fa5;text-shadow:-1px -1px 0 #ffd700,1px -1px 0 #ffd700,-1px 1px 0 #ffd700,1px 1px 0 #ffd700;border-top:1px solid #2a3a5f;">
+    FlashBack Radio es un proyecto personal sin fines de lucro<br>
+    La música transmitida pertenece a sus respectivos autores<br>
+    - Capilla del Monte, Córdoba © 2025 - Todos los derechos reservados.<br>
+    <a href="privacidad.html" style="color:#00ffff;text-decoration:underline;">🔒 Privacidad</a> | 
+    ¿Te gustó esta web? <a href="https://wa.me/543548584454?text=Hola%20Ra%C3%BAl,%20vi%20tu%20web%20de%20FlashBack%20Radio%20y%20me%20gustar%C3%ADa%20consultar%20por%20una%20p%C3%A1gina%20similar%20para%20mi%20proyecto.%20%C2%BFPod%C3%A9s%20pasarme%20informaci%C3%B3n?" style="color:#25D366;text-decoration:underline;" target="_blank" rel="noopener">💬 Consultá por tu web personalizada</a>
+  </footer>
+
+  <!-- === SCRIPTS === -->
+  <script>
+    // Ocultar bienvenida mística después de 1.8s
+    window.addEventListener('load', function() {
+      const intro = document.getElementById('sala-intro');
+      if (intro) {
+        setTimeout(function() { intro.classList.add('oculto'); }, 900);
+        setTimeout(function() { intro.remove(); }, 1800);
+      }
+    });
+
+    // Menú hamburguesa
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    navToggle?.addEventListener('click', () => navMenu.classList.toggle('active'));
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => navMenu.classList.remove('active'));
+    });
+    
+    // Efecto scroll en menú
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('main-nav');
+      if (window.scrollY > 50) {
+        nav.style.background = 'rgba(10, 8, 26, 0.98)';
+        nav.style.boxShadow = '0 4px 20px rgba(255, 215, 0, 0.5)';
+      } else {
+        nav.style.background = 'rgba(10, 8, 26, 0.95)';
+        nav.style.boxShadow = '0 2px 15px rgba(255, 215, 0, 0.3)';
+      }
+    });
+
+    // === BANNER "AHORA SUENA" ===
+    const playlistBanner = document.getElementById('playlist-banner');
+    const playlistLabel = playlistBanner.querySelector('.label');
+    
+    async function actualizarBanner() {
+      try {
+        const res = await fetch('https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio');
+        if (!res.ok) return;
+        const data = await res.json();
+        const rawName = data.now_playing?.playlist?.name || '';
+        if (rawName) {
+          const cleanName = rawName.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+          playlistLabel.textContent = `🔴 AHORA: ${cleanName}`;
+          playlistBanner.style.display = 'flex';
+        }
+      } catch (err) { /* Silencioso */ }
+    }
+    actualizarBanner();
+    setInterval(actualizarBanner, 30000);
+  </script>
+
+  <!-- === ANALYTICS Y PWA === -->
+  <script data-goatcounter="https://flashbackradio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(() => console.log('Service Worker registrado'))
+          .catch(err => console.log('Error SW:', err));
+      });
+    }
+  </script>
+</body>
+</html>
