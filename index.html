@@ -290,6 +290,7 @@
     body.mode-programacion .retro-gifs,
     body.mode-programacion .sobre-radio,
     body.mode-programacion .especial-banner,
+	body.mode-programacion #proximo-especial,
     body.mode-programacion #playlist-banner,
     body.mode-programacion .metadata-widget,
     body.mode-programacion .seccion-apoyo,
@@ -499,6 +500,120 @@
       #album-art { width: 110px !important; height: 110px !important; }
     }
     #album-art:hover { transform: scale(1.05); }
+	
+	/* ==========================================================
+   FLASHBACK ORO — PRÓXIMO ESPECIAL
+   ========================================================== */
+
+#proximo-especial {
+  display: none;
+  max-width: 960px;
+  margin: 35px auto;
+  padding: 22px;
+  border: 1px solid rgba(255, 204, 0, 0.65);
+  border-radius: 22px;
+
+  background:
+    radial-gradient(circle at top, rgba(255, 204, 0, 0.10), transparent 55%),
+    linear-gradient(145deg, rgba(10, 10, 18, 0.96), rgba(23, 18, 12, 0.96));
+
+  box-shadow:
+    0 0 20px rgba(255, 204, 0, 0.18),
+    0 0 45px rgba(0, 0, 0, 0.55);
+
+  overflow: hidden;
+}
+
+#proximo-especial.visible {
+  display: block;
+  animation: especialEntrada 0.9s ease both;
+}
+
+.especial-etiqueta {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #ffd700;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.55);
+}
+
+.especial-contenido {
+  display: grid;
+  grid-template-columns: minmax(280px, 1.25fr) minmax(220px, 0.75fr);
+  gap: 28px;
+  align-items: center;
+}
+
+.especial-imagen {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 215, 0, 0.65);
+  box-shadow:
+    0 0 18px rgba(255, 204, 0, 0.25),
+    0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.especial-info {
+  text-align: center;
+}
+
+.especial-info h2 {
+  margin: 0 0 12px;
+  font-family: 'Orbitron', sans-serif;
+  color: #ffd700;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  text-shadow: 0 0 12px rgba(255, 215, 0, 0.45);
+}
+
+.especial-info p {
+  margin: 0 auto 18px;
+  max-width: 430px;
+  color: #f4e7c5;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.especial-horario {
+  display: inline-block;
+  padding: 10px 18px;
+  border: 1px solid rgba(0, 243, 255, 0.65);
+  border-radius: 999px;
+  color: #00f3ff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.95rem;
+  text-shadow: 0 0 8px rgba(0, 243, 255, 0.65);
+  box-shadow: 0 0 14px rgba(0, 243, 255, 0.15);
+}
+
+@keyframes especialEntrada {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 720px) {
+  #proximo-especial {
+    margin: 25px 12px;
+    padding: 15px;
+  }
+
+  .especial-contenido {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .especial-info p {
+    font-size: 1rem;
+  }
+}
   </style>
     <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://flashbackradio2025.github.io/">
@@ -620,7 +735,41 @@
     </div>
       <div id="meta-content"><p class="meta-loading">⏳ Cargando datos de AzuraCast...</p></div>
     </section>
+<!-- ==========================================================
+     FLASHBACK ORO — PRÓXIMO ESPECIAL
+     Los datos se cargan desde proximo_especial.json
+     ========================================================== -->
 
+<section id="proximo-especial" aria-label="Próximo especial de FlashBack Radio">
+
+  <div class="especial-etiqueta">
+    ✦ FLASHBACK ORO · ESPECIAL DE LA SEMANA ✦
+  </div>
+
+  <div class="especial-contenido">
+
+    <div>
+      <img
+        id="especial-imagen"
+        class="especial-imagen"
+        src="img/logo.png"
+        alt="Próximo especial de FlashBack Radio"
+      >
+    </div>
+
+    <div class="especial-info">
+
+      <h2 id="especial-titulo"></h2>
+
+      <p id="especial-descripcion"></p>
+
+      <div id="especial-horario" class="especial-horario"></div>
+
+    </div>
+
+  </div>
+
+</section>
     <section class="schedule-iframe-wrapper" id="schedule-section">
       <h3>🎙️ Cartelera Musical</h3>
       <iframe src="https://flashbackradio.duckdns.org/public/flashbackradio/schedule" loading="lazy" title="Programación FlashBack Radio"></iframe>
