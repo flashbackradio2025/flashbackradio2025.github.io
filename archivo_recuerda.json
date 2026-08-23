@@ -1,0 +1,799 @@
+{
+  "schema_version": 1,
+  "nombre": "El Archivo Recuerda",
+  "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
+  "ultima_actualizacion": "2026-08-23",
+  "fichas": [
+    {
+      "artista": "Night",
+      "titulo": "Hot Summer Nights",
+      "aliases_artista": [
+        "Night"
+      ],
+      "aliases_titulo": [
+        "Hot Summer Nights"
+      ],
+      "anio": 1979,
+      "texto": "Publicada en 1979, con Stevie Lange en la voz. La canción llevó a Night al gran público y llegó al Top 20 estadounidense.",
+      "cierre": "Una de esas canciones que el tiempo no consiguió borrar.",
+      "slug": "night-hot-summer-nights",
+      "imagen": "img/archivo/night-hot-summer-nights.jpg"
+    },
+    {
+      "artista": "Company B",
+      "titulo": "Fascinated",
+      "aliases_artista": [
+        "Company B"
+      ],
+      "aliases_titulo": [
+        "Fascinated"
+      ],
+      "anio": 1987,
+      "texto": "Uno de los grandes clásicos del freestyle de Miami. En 1987 fue Nº1 en la lista Dance de Billboard y también entró al Top 40 estadounidense.",
+      "cierre": "Quizás recuerdes la canción. FlashBack también quiere recordar a quienes la hicieron.",
+      "slug": "company-b-fascinated",
+      "imagen": "img/archivo/company-b-fascinated.jpg"
+    },
+    {
+      "artista": "Chris Rea",
+      "titulo": "On the Beach",
+      "aliases_artista": [
+        "Chris Rea"
+      ],
+      "aliases_titulo": [
+        "On the Beach"
+      ],
+      "anio": 1986,
+      "texto": "Chris Rea publicó esta canción en 1986 y volvió a grabarla en 1988. La nueva versión llevó el tema todavía más alto en las listas británicas.",
+      "cierre": "Hay canciones que parecen guardar un verano entero dentro de unos pocos minutos.",
+      "slug": "chris-rea-on-the-beach"
+    },
+    {
+      "artista": "Patrick Hernandez",
+      "titulo": "Born To Be Alive",
+      "aliases_artista": [
+        "Patrick Hernandez"
+      ],
+      "aliases_titulo": [
+        "Born To Be Alive",
+        "Born to Be Alive"
+      ],
+      "anio": 1979,
+      "texto": "Este tema convirtió al francés Patrick Hernandez en una figura mundial de la era disco a fines de los años 70.",
+      "cierre": "Una canción puede durar minutos y, sin embargo, definir toda una época.",
+      "slug": "patrick-hernandez-born-to-be-alive"
+    },
+    {
+      "artista": "F. R. David",
+      "titulo": "Words (1982)",
+      "aliases_artista": [
+        "F. R. David",
+        "F.R. David"
+      ],
+      "aliases_titulo": [
+        "Words",
+        "Words (1982)"
+      ],
+      "anio": 1982,
+      "texto": "Words fue uno de los grandes éxitos europeos de 1982 y llegó al Nº1 en numerosos países, convirtiendo a F. R. David en una voz inseparable de aquella década.",
+      "cierre": "A veces basta una palabra para abrir toda una memoria.",
+      "slug": "fr-david-words"
+    },
+    {
+      "artista": "The Buggles",
+      "titulo": "Video Killed The Radio Star",
+      "aliases_artista": [
+        "The Buggles",
+        "Buggles"
+      ],
+      "aliases_titulo": [
+        "Video Killed The Radio Star",
+        "Video Killed The Radio Star (Official Music Video)"
+      ],
+      "anio": 1979,
+      "texto": "Publicada en 1979, esta canción quedó unida para siempre a la historia de la televisión musical: su video fue el primero emitido por MTV en 1981.",
+      "cierre": "La televisión no mató a la radio. La radio aprendió a seguir recordando.",
+      "slug": "the-buggles-video-killed-the-radio-star"
+    },
+    {
+      "artista": "Limahl",
+      "titulo": "Never Ending Story",
+      "aliases_artista": [
+        "Limahl"
+      ],
+      "aliases_titulo": [
+        "Never Ending Story",
+        "The NeverEnding Story",
+        "The Never Ending Story"
+      ],
+      "anio": 1984,
+      "texto": "Tema principal de la película The NeverEnding Story. Fue compuesto por Giorgio Moroder con letra de Keith Forsey y se convirtió en uno de los grandes recuerdos musicales de 1984.",
+      "cierre": "Algunas historias terminan. Otras siguen sonando.",
+      "slug": "limahl-never-ending-story"
+    },
+    {
+      "artista": "Baltimora",
+      "titulo": "Tarzan Boy",
+      "aliases_artista": [
+        "Baltimora"
+      ],
+      "aliases_titulo": [
+        "Tarzan Boy"
+      ],
+      "anio": 1985,
+      "texto": "Tarzan Boy irrumpió en 1985 con su inconfundible llamada selvática y llevó a Baltimora al Top 3 británico y al Top 20 estadounidense.",
+      "cierre": "Hay estribillos que uno reconoce antes de recordar siquiera el nombre del grupo.",
+      "slug": "baltimora-tarzan-boy"
+    },
+    {
+      "artista": "Al Corley",
+      "titulo": "Square Rooms",
+      "aliases_artista": [
+        "Al Corley"
+      ],
+      "aliases_titulo": [
+        "Square Rooms",
+        "Square Rooms (1984)"
+      ],
+      "anio": 1984,
+      "texto": "Tras su etapa como actor, Al Corley se volcó a la música y encontró en Square Rooms uno de los temas synth-pop más recordados de mediados de los 80.",
+      "cierre": "Una canción puede abrir una habitación y llenarla de otra época.",
+      "slug": "al-corley-square-rooms"
+    },
+    {
+      "artista": "Rocky Burnette",
+      "titulo": "Tired Of Toein The Line",
+      "aliases_artista": [
+        "Rocky Burnette"
+      ],
+      "aliases_titulo": [
+        "Tired Of Toein The Line",
+        "Tired of Toein' the Line"
+      ],
+      "anio": 1980,
+      "texto": "Hijo del pionero del rockabilly Johnny Burnette, Rocky consiguió con esta canción su gran éxito internacional: llegó al Top 10 estadounidense y al Nº1 en Argentina y Australia.",
+      "cierre": "El apellido venía con historia; esta canción escribió la suya propia.",
+      "slug": "rocky-burnette-tired-of-toein-the-line"
+    },
+    {
+      "artista": "Robbie Dupree",
+      "titulo": "Steal Away",
+      "aliases_artista": [
+        "Robbie Dupree"
+      ],
+      "aliases_titulo": [
+        "Steal Away"
+      ],
+      "anio": 1980,
+      "texto": "Steal Away fue el gran impulso de Robbie Dupree en 1980 y llegó al Nº6 del Billboard Hot 100, quedando como una pieza emblemática del soft rock y el yacht rock.",
+      "cierre": "Suave, elegante y reconocible desde los primeros segundos.",
+      "slug": "robbie-dupree-steal-away"
+    },
+    {
+      "artista": "The Rubettes",
+      "titulo": "Sugar Baby Love",
+      "aliases_artista": [
+        "The Rubettes",
+        "Rubettes"
+      ],
+      "aliases_titulo": [
+        "Sugar Baby Love"
+      ],
+      "anio": 1974,
+      "texto": "El debut de The Rubettes fue también su mayor éxito: Sugar Baby Love permaneció cuatro semanas en el Nº1 británico en 1974.",
+      "cierre": "Un falsete, unos pocos acordes y un recuerdo que sobrevivió medio siglo.",
+      "slug": "the-rubettes-sugar-baby-love"
+    },
+    {
+      "artista": "M",
+      "titulo": "Pop Muzik",
+      "aliases_artista": [
+        "M"
+      ],
+      "aliases_titulo": [
+        "Pop Muzik",
+        "Pop Music"
+      ],
+      "anio": 1979,
+      "texto": "El proyecto de Robin Scott convirtió Pop Muzik en uno de los experimentos pop-electrónicos más reconocibles de 1979.",
+      "cierre": "Antes de que el synth-pop tuviera nombre, algunas canciones ya estaban mostrando el camino.",
+      "slug": "m-pop-muzik"
+    },
+    {
+      "artista": "Secret Service",
+      "titulo": "Oh Susie",
+      "aliases_artista": [
+        "Secret Service"
+      ],
+      "aliases_titulo": [
+        "Oh Susie"
+      ],
+      "anio": 1979,
+      "texto": "El grupo sueco Secret Service debutó internacionalmente con Oh Susie a fines de los 70, llevando su pop electrónico mucho más allá de Escandinavia.",
+      "cierre": "No todos los clásicos llegaron desde Inglaterra o Estados Unidos.",
+      "slug": "secret-service-oh-susie"
+    },
+    {
+      "artista": "John Paul Young",
+      "titulo": "Love Is In The Air",
+      "aliases_artista": [
+        "John Paul Young"
+      ],
+      "aliases_titulo": [
+        "Love Is In The Air",
+        "Love Is In The Air (1978)"
+      ],
+      "anio": 1978,
+      "texto": "Escrita por Harry Vanda y George Young, Love Is in the Air se convirtió en 1978 en un éxito internacional y en la canción más reconocida de John Paul Young.",
+      "cierre": "Hay títulos que no necesitan explicación: apenas empiezan, el recuerdo aparece.",
+      "slug": "john-paul-young-love-is-in-the-air"
+    },
+    {
+      "artista": "Kim Carnes",
+      "titulo": "Bette Davis Eyes",
+      "aliases_artista": [
+        "Kim Carnes"
+      ],
+      "aliases_titulo": [
+        "Bette Davis Eyes",
+        "Bette Davis Eye"
+      ],
+      "anio": 1981,
+      "texto": "La voz rasposa de Kim Carnes convirtió Bette Davis Eyes en uno de los sonidos definitivos de 1981 y en un enorme éxito internacional.",
+      "cierre": "Una voz puede ser tan inolvidable como la propia melodía.",
+      "slug": "kim-carnes-bette-davis-eyes"
+    },
+    {
+      "artista": "Gilbert O'Sullivan",
+      "titulo": "Alone Again (Naturally)",
+      "aliases_artista": [
+        "Gilbert Osullivan",
+        "Gilbert O'Sullivan"
+      ],
+      "aliases_titulo": [
+        "Alone Again",
+        "Alone Again (Naturally)"
+      ],
+      "anio": 1972,
+      "texto": "Alone Again (Naturally) llevó a Gilbert O'Sullivan al Nº1 estadounidense en 1972 y quedó como una de las baladas más reconocibles de aquella década.",
+      "cierre": "Una melodía amable puede guardar detrás una historia mucho más profunda.",
+      "slug": "gilbert-osullivan-alone-again"
+    },
+    {
+      "artista": "Sniff 'n' the Tears",
+      "titulo": "Driver's Seat",
+      "aliases_artista": [
+        "Sniff N The Tears",
+        "Sniff 'n' the Tears"
+      ],
+      "aliases_titulo": [
+        "Drivers Seat",
+        "Driver's Seat"
+      ],
+      "anio": 1978,
+      "texto": "Driver's Seat apareció a fines de los 70 y se convirtió en la canción más recordada de Sniff 'n' the Tears, atravesando décadas de programación radial.",
+      "cierre": "Hay canciones que siempre parecen hechas para escucharse con la ruta por delante.",
+      "slug": "sniff-n-the-tears-drivers-seat"
+    },
+    {
+      "artista": "Sister Sledge",
+      "titulo": "We Are Family",
+      "aliases_artista": [
+        "Sister Sledge"
+      ],
+      "aliases_titulo": [
+        "We Are Family"
+      ],
+      "anio": 1979,
+      "texto": "Producida por Nile Rodgers y Bernard Edwards de Chic, We Are Family convirtió a Sister Sledge en un emblema mundial de la era disco.",
+      "cierre": "Una pista de baile también puede convertirse en un himno de unión.",
+      "slug": "sister-sledge-we-are-family"
+    },
+    {
+      "artista": "Journey",
+      "titulo": "Open Arms",
+      "aliases_artista": [
+        "Journey"
+      ],
+      "aliases_titulo": [
+        "Open Arms"
+      ],
+      "anio": 1981,
+      "texto": "Open Arms mostró el costado más melódico de Journey y se convirtió en una de las grandes power ballads de comienzos de los 80.",
+      "cierre": "Cuando una banda de rock baja el volumen, a veces el recuerdo se escucha todavía más fuerte.",
+      "slug": "journey-open-arms"
+    },
+    {
+      "artista": "Chicago",
+      "titulo": "Hard To Say I'm Sorry",
+      "aliases_artista": [
+        "Chicago"
+      ],
+      "aliases_titulo": [
+        "Hard To Say Im Sorry",
+        "Hard to Say I'm Sorry"
+      ],
+      "anio": 1982,
+      "texto": "Escrita por Peter Cetera y David Foster, esta balada devolvió a Chicago a lo más alto de las listas y alcanzó el Nº1 estadounidense en 1982.",
+      "cierre": "Una banda puede cambiar de sonido sin perder su capacidad de emocionar.",
+      "slug": "chicago-hard-to-say-im-sorry",
+      "imagen": "img/archivo/chicago-hard-to-say-im-sorry.jpg"
+    },
+    {
+      "artista": "Eurythmics",
+      "titulo": "Love Is A Stranger",
+      "aliases_artista": [
+        "Eurythmics"
+      ],
+      "aliases_titulo": [
+        "Love Is A Stranger",
+        "Love Is a Stranger"
+      ],
+      "anio": 1982,
+      "texto": "Love Is a Stranger fue una de las canciones que anticipó la identidad electrónica y visual con la que Annie Lennox y Dave Stewart marcarían los años 80.",
+      "cierre": "Antes de los grandes himnos también hubo canciones que anunciaban lo que estaba por venir.",
+      "slug": "eurythmics-love-is-a-stranger"
+    },
+    {
+      "artista": "Bee Gees",
+      "titulo": "I've Gotta Get A Message To You",
+      "aliases_artista": [
+        "Bee Gees",
+        "The Bee Gees"
+      ],
+      "aliases_titulo": [
+        "I've Gotta Get A Message To You"
+      ],
+      "anio": 1968,
+      "texto": "Mucho antes de convertirse en símbolos de la era disco, Bee Gees ya dominaban la balada pop. Esta canción de 1968 es una muestra de aquella primera gran etapa.",
+      "cierre": "Recordar a un artista también es recordar que tuvo más de una vida musical.",
+      "slug": "bee-gees-ive-gotta-get-a-message-to-you"
+    },
+    {
+      "artista": "INXS",
+      "titulo": "Need You Tonight",
+      "aliases_artista": [
+        "Inxs",
+        "INXS"
+      ],
+      "aliases_titulo": [
+        "Need You Tonight"
+      ],
+      "anio": 1987,
+      "texto": "Con su riff minimalista y la voz de Michael Hutchence, Need You Tonight llevó a INXS al Nº1 estadounidense y convirtió Kick en un fenómeno mundial.",
+      "cierre": "A veces menos instrumentos significan mucha más presencia.",
+      "slug": "inxs-need-you-tonight"
+    },
+    {
+      "artista": "Yazoo",
+      "titulo": "Only You",
+      "aliases_artista": [
+        "Yazoo",
+        "Yaz"
+      ],
+      "aliases_titulo": [
+        "Only You"
+      ],
+      "anio": 1982,
+      "texto": "Vince Clarke compuso Only You después de dejar Depeche Mode. Con la voz de Alison Moyet, Yazoo convirtió la sencillez electrónica en una balada inolvidable.",
+      "cierre": "Una máquina puede producir sonidos; una canción necesita además humanidad.",
+      "slug": "yazoo-only-you"
+    },
+    {
+      "artista": "Falco",
+      "titulo": "Rock Me Amadeus",
+      "aliases_artista": [
+        "Falco"
+      ],
+      "aliases_titulo": [
+        "Rock Me Amadeus"
+      ],
+      "anio": 1985,
+      "texto": "Falco mezcló pop, rap y la figura de Mozart en una canción que terminó conquistando las listas internacionales durante 1985 y 1986.",
+      "cierre": "Viena, Mozart y los 80: una combinación improbable que funcionó.",
+      "slug": "falco-rock-me-amadeus"
+    },
+    {
+      "artista": "Fine Young Cannibals",
+      "titulo": "She Drives Me Crazy",
+      "aliases_artista": [
+        "Fine Young Cannibals"
+      ],
+      "aliases_titulo": [
+        "She Drives Me Crazy"
+      ],
+      "anio": 1988,
+      "texto": "La voz aguda de Roland Gift y una batería inmediatamente reconocible hicieron de She Drives Me Crazy uno de los mayores éxitos internacionales de Fine Young Cannibals.",
+      "cierre": "Hay canciones que necesitan apenas un segundo para decirnos en qué década estamos.",
+      "slug": "fine-young-cannibals-she-drives-me-crazy"
+    },
+    {
+      "artista": "Modern Talking",
+      "titulo": "You Can Win If You Want",
+      "aliases_artista": [
+        "Modern Talking"
+      ],
+      "aliases_titulo": [
+        "You Can Win If You Want"
+      ],
+      "anio": 1985,
+      "texto": "Modern Talking consolidó en 1985 su fórmula de melodías inmediatas, bases electrónicas y falsetes con este segundo gran éxito europeo.",
+      "cierre": "El euro-pop de los 80 también construyó su propio idioma.",
+      "slug": "modern-talking-you-can-win-if-you-want"
+    },
+    {
+      "artista": "The Righteous Brothers",
+      "titulo": "Unchained Melody",
+      "aliases_artista": [
+        "The Righteous Brothers",
+        "Righteous Brothers"
+      ],
+      "aliases_titulo": [
+        "Unchained Melody",
+        "Unchained Melody (1965)"
+      ],
+      "anio": 1965,
+      "texto": "La interpretación de Bobby Hatfield convirtió en 1965 a Unchained Melody en una grabación definitiva. Décadas después volvió a conquistar audiencias gracias al cine.",
+      "cierre": "Algunas voces parecen haber sido grabadas para sobrevivir al tiempo.",
+      "slug": "righteous-brothers-unchained-melody"
+    },
+    {
+      "artista": "Dr. Hook",
+      "titulo": "Sexy Eyes",
+      "aliases_artista": [
+        "Dr. Hook",
+        "Dr Hook"
+      ],
+      "aliases_titulo": [
+        "Sexy Eyes"
+      ],
+      "anio": 1980,
+      "texto": "Dr. Hook atravesó los 70 y llegó a los 80 mezclando pop, country y soft rock. Sexy Eyes fue uno de sus últimos grandes éxitos internacionales.",
+      "cierre": "No toda banda encaja en una sola etiqueta; algunas simplemente encuentran canciones.",
+      "slug": "dr-hook-sexy-eyes"
+    },
+    {
+      "artista": "Mike Oldfield",
+      "titulo": "Hibernaculum",
+      "aliases_artista": [
+        "Mike Oldfield"
+      ],
+      "aliases_titulo": [
+        "Hibernaculum"
+      ],
+      "anio": 1994,
+      "texto": "Hibernaculum pertenece a The Songs of Distant Earth, obra con la que Mike Oldfield volvió a unir tecnología, atmósferas y exploración musical en los años 90.",
+      "cierre": "Hay música que no busca un estribillo: busca construir un paisaje.",
+      "slug": "mike-oldfield-hibernaculum"
+    },
+    {
+      "artista": "Pretenders",
+      "titulo": "Brass in Pocket",
+      "aliases_artista": [
+        "Pretenders",
+        "The Pretenders"
+      ],
+      "aliases_titulo": [
+        "Brass in Pocket"
+      ],
+      "anio": 1979,
+      "texto": "Brass in Pocket llevó a Pretenders y a la voz de Chrissie Hynde al Nº1 británico al comenzar 1980.",
+      "cierre": "Actitud, guitarra y una voz imposible de confundir.",
+      "slug": "pretenders-brass-in-pocket"
+    },
+    {
+      "artista": "Olivia Newton-John & ELO",
+      "titulo": "Xanadu",
+      "aliases_artista": [
+        "Olivia Newton John Con Elo",
+        "Olivia Newton-John & ELO",
+        "Olivia Newton-John and Electric Light Orchestra"
+      ],
+      "aliases_titulo": [
+        "Xanadu"
+      ],
+      "anio": 1980,
+      "texto": "La unión de Olivia Newton-John con Electric Light Orchestra convirtió Xanadu en uno de los grandes recuerdos musicales del cine de 1980.",
+      "cierre": "A veces una película se desvanece un poco; su canción sigue brillando.",
+      "slug": "olivia-newton-john-elo-xanadu"
+    },
+    {
+      "artista": "Kenny Loggins",
+      "titulo": "Footloose",
+      "aliases_artista": [
+        "Kenny Loggins"
+      ],
+      "aliases_titulo": [
+        "Footloose"
+      ],
+      "anio": 1984,
+      "texto": "Footloose unió para siempre a Kenny Loggins con el cine de los 80 y llegó al Nº1 estadounidense en 1984.",
+      "cierre": "Hay canciones que empiezan y el cuerpo recuerda antes que la cabeza.",
+      "slug": "kenny-loggins-footloose"
+    },
+    {
+      "artista": "Marillion",
+      "titulo": "Kayleigh",
+      "aliases_artista": [
+        "Marillion"
+      ],
+      "aliases_titulo": [
+        "Kayleigh"
+      ],
+      "anio": 1985,
+      "texto": "Kayleigh acercó el rock progresivo de Marillion al gran público y se convirtió en el sencillo más conocido de la etapa de Fish.",
+      "cierre": "Una canción puede abrir una puerta entre el progresivo y la memoria popular.",
+      "slug": "marillion-kayleigh"
+    },
+    {
+      "artista": "Belinda Carlisle",
+      "titulo": "Circle In The Sand",
+      "aliases_artista": [
+        "Belinda Carlisle"
+      ],
+      "aliases_titulo": [
+        "Circle In The Sand",
+        "Circle in the Sand"
+      ],
+      "anio": 1988,
+      "texto": "Después de The Go-Go's, Belinda Carlisle construyó una fuerte carrera solista. Circle in the Sand pertenece a esa etapa de pop elegante de fines de los 80.",
+      "cierre": "Cambiar de etapa no significa dejar atrás la propia voz.",
+      "slug": "belinda-carlisle-circle-in-the-sand"
+    },
+    {
+      "artista": "The Romantics",
+      "titulo": "What I Like About You",
+      "aliases_artista": [
+        "The Romantics",
+        "Romantics"
+      ],
+      "aliases_titulo": [
+        "What I Like About You"
+      ],
+      "anio": 1979,
+      "texto": "Aunque no fue originalmente un enorme éxito de listas en Estados Unidos, What I Like About You creció con los años hasta convertirse en una de las canciones más reconocibles de The Romantics.",
+      "cierre": "No todas las canciones se vuelven clásicas el día en que nacen.",
+      "slug": "the-romantics-what-i-like-about-you"
+    },
+    {
+      "artista": "The Human League",
+      "titulo": "Don't You Want Me",
+      "aliases_artista": [
+        "The Human League",
+        "Human League"
+      ],
+      "aliases_titulo": [
+        "Dont You Want Me",
+        "Don't You Want Me",
+        "Don´t You Want Me"
+      ],
+      "anio": 1981,
+      "texto": "Don't You Want Me convirtió a The Human League en una referencia mundial del synth-pop y alcanzó el Nº1 tanto en Reino Unido como en Estados Unidos.",
+      "cierre": "Sintetizadores, drama y una melodía que todavía pertenece a la radio.",
+      "slug": "human-league-dont-you-want-me"
+    },
+    {
+      "artista": "The Bangles",
+      "titulo": "Walk Like an Egyptian",
+      "aliases_artista": [
+        "The Bangles",
+        "Bangles"
+      ],
+      "aliases_titulo": [
+        "Walk Like an Egyptian"
+      ],
+      "anio": 1986,
+      "texto": "Con su ritmo peculiar y un video imposible de separar de la canción, Walk Like an Egyptian llevó a The Bangles al Nº1 estadounidense.",
+      "cierre": "Los 80 también se recuerdan con gestos, imágenes y coreografías.",
+      "slug": "the-bangles-walk-like-an-egyptian"
+    },
+    {
+      "artista": "Nu Shooz",
+      "titulo": "I Can't Wait",
+      "aliases_artista": [
+        "Nu Shooz"
+      ],
+      "aliases_titulo": [
+        "I Cant Wait",
+        "I Can't Wait"
+      ],
+      "anio": 1986,
+      "texto": "El dúo estadounidense Nu Shooz encontró con I Can't Wait su gran éxito internacional, mezclando funk, pop y electrónica en plena mitad de los 80.",
+      "cierre": "Una canción puede convertir un nombre extraño en un recuerdo inmediato.",
+      "slug": "nu-shooz-i-cant-wait"
+    },
+    {
+      "artista": "Johnny Hates Jazz",
+      "titulo": "Shattered Dreams",
+      "aliases_artista": [
+        "Johnny Hates Jazz"
+      ],
+      "aliases_titulo": [
+        "Shattered Dreams"
+      ],
+      "anio": 1987,
+      "texto": "Shattered Dreams presentó internacionalmente a Johnny Hates Jazz y llevó su pop sofisticado a los primeros puestos de las listas a ambos lados del Atlántico.",
+      "cierre": "Un nombre curioso, una canción enorme y una década resumida en pocos minutos.",
+      "slug": "johnny-hates-jazz-shattered-dreams"
+    },
+    {
+      "artista": "Harry Nilsson",
+      "titulo": "Without You",
+      "aliases_artista": [
+        "Harry Nilsson",
+        "Nilsson"
+      ],
+      "aliases_titulo": [
+        "Without You",
+        "Without You (1972)"
+      ],
+      "anio": 1971,
+      "texto": "La canción fue escrita originalmente por Badfinger, pero la interpretación de Harry Nilsson la convirtió en un éxito mundial y en una de las baladas definitivas de comienzos de los 70.",
+      "cierre": "Una gran versión puede darle a una canción una segunda vida.",
+      "slug": "harry-nilsson-without-you"
+    },
+    {
+      "artista": "Kansas",
+      "titulo": "Dust In The Wind",
+      "aliases_artista": [
+        "Kansas"
+      ],
+      "aliases_titulo": [
+        "Dust In The Wind",
+        "Dust in the Wind"
+      ],
+      "anio": 1977,
+      "texto": "Kansas dejó momentáneamente a un lado su potencia progresiva para grabar esta reflexión acústica, que terminó siendo una de las canciones más conocidas de toda su carrera.",
+      "cierre": "A veces una guitarra acústica puede pesar más que toda una pared de amplificadores.",
+      "slug": "kansas-dust-in-the-wind"
+    },
+    {
+      "artista": "Chic",
+      "titulo": "Le Freak",
+      "aliases_artista": [
+        "Chic"
+      ],
+      "aliases_titulo": [
+        "Le Freak"
+      ],
+      "anio": 1978,
+      "texto": "Nile Rodgers y Bernard Edwards convirtieron Le Freak en uno de los grandes himnos de la música disco y en uno de los mayores éxitos de Chic.",
+      "cierre": "Detrás de una pista de baile también puede haber arquitectura musical.",
+      "slug": "chic-le-freak"
+    },
+    {
+      "artista": "Fleetwood Mac",
+      "titulo": "Little Lies",
+      "aliases_artista": [
+        "Fleetwood Mac"
+      ],
+      "aliases_titulo": [
+        "Little Lies"
+      ],
+      "anio": 1987,
+      "texto": "Little Lies pertenece a Tango in the Night y tiene a Christine McVie en el centro de una de las melodías más pulidas de Fleetwood Mac en los años 80.",
+      "cierre": "Una banda con décadas de historia todavía podía sonar completamente contemporánea.",
+      "slug": "fleetwood-mac-little-lies"
+    },
+    {
+      "artista": "Sting",
+      "titulo": "Fields Of Gold",
+      "aliases_artista": [
+        "Sting"
+      ],
+      "aliases_titulo": [
+        "Fields Of Gold",
+        "Fields of Gold"
+      ],
+      "anio": 1993,
+      "texto": "Fields of Gold apareció en 1993 dentro del álbum Ten Summoner's Tales y mostró el costado más íntimo y contemplativo de Sting.",
+      "cierre": "Hay canciones que no necesitan volumen para dejar una imagen para siempre.",
+      "slug": "sting-fields-of-gold"
+    },
+    {
+      "artista": "Louis Armstrong",
+      "titulo": "What a Wonderful World",
+      "aliases_artista": [
+        "Louis Armstrong"
+      ],
+      "aliases_titulo": [
+        "What a Wonderful World"
+      ],
+      "anio": 1967,
+      "texto": "Louis Armstrong grabó What a Wonderful World en 1967. Al principio tuvo poca repercusión en Estados Unidos, pero alcanzó el Nº1 británico y con los años se convirtió en una canción universal.",
+      "cierre": "Algunas canciones necesitan tiempo para encontrar a todo el mundo que las estaba esperando.",
+      "slug": "louis-armstrong-what-a-wonderful-world",
+      "imagen": "img/archivo/louis-armstrong-what-a-wonderful-world.jpg"
+    },
+    {
+      "artista": "Billy Joel",
+      "titulo": "Just The Way You Are",
+      "aliases_artista": [
+        "Billy Joel"
+      ],
+      "aliases_titulo": [
+        "Just The Way You Are",
+        "Just the Way You Are"
+      ],
+      "anio": 1977,
+      "texto": "Incluida en The Stranger, Just the Way You Are consolidó a Billy Joel como uno de los grandes compositores e intérpretes de la canción pop estadounidense.",
+      "cierre": "Una melodía sencilla puede decir muchísimo cuando encuentra la voz correcta.",
+      "slug": "billy-joel-just-the-way-you-are"
+    },
+    {
+      "artista": "Billy Ocean",
+      "titulo": "Caribbean Queen",
+      "aliases_artista": [
+        "Billy Ocean"
+      ],
+      "aliases_titulo": [
+        "Caribbean Queen",
+        "Caribbean Queen (no More Love On The Run)",
+        "Caribbean Queen (No More Love on the Run)"
+      ],
+      "anio": 1984,
+      "texto": "Caribbean Queen convirtió a Billy Ocean en una figura internacional y alcanzó el Nº1 estadounidense en 1984.",
+      "cierre": "El Caribe imaginado por los 80 tenía sintetizadores, ritmo y una voz inconfundible.",
+      "slug": "billy-ocean-caribbean-queen"
+    },
+    {
+      "artista": "ABC",
+      "titulo": "The Look of Love",
+      "aliases_artista": [
+        "ABC"
+      ],
+      "aliases_titulo": [
+        "The Look of Love"
+      ],
+      "anio": 1982,
+      "texto": "Con producción de Trevor Horn, The Look of Love convirtió el pop sofisticado de ABC en uno de los sonidos más elegantes de 1982.",
+      "cierre": "Los 80 también sabían vestirse de gala.",
+      "slug": "abc-the-look-of-love"
+    },
+    {
+      "artista": "George McCrae",
+      "titulo": "Rock Your Baby",
+      "aliases_artista": [
+        "George Mccrae",
+        "George McCrae"
+      ],
+      "aliases_titulo": [
+        "Rock Your Baby",
+        "Rock Your Baby (1975)"
+      ],
+      "anio": 1974,
+      "texto": "Rock Your Baby fue uno de los primeros grandes éxitos mundiales de la música disco y llevó a George McCrae al Nº1 estadounidense y británico.",
+      "cierre": "Antes de que la disco dominara las pistas, esta canción ya estaba encendiendo las luces.",
+      "slug": "george-mccrae-rock-your-baby"
+    },
+    {
+      "artista": "Kurtis Blow",
+      "titulo": "The Breaks",
+      "aliases_artista": [
+        "Kurtis Blow"
+      ],
+      "aliases_titulo": [
+        "The Breaks",
+        "The Breaks (1980)"
+      ],
+      "anio": 1980,
+      "texto": "The Breaks ayudó a llevar el hip hop desde las fiestas y los barrios hacia el mercado masivo a comienzos de los años 80.",
+      "cierre": "Antes de que el rap dominara el mundo, hubo canciones que tuvieron que abrir la puerta.",
+      "slug": "kurtis-blow-the-breaks"
+    },
+    {
+      "artista": "Alphaville",
+      "titulo": "Forever Young",
+      "aliases_artista": [
+        "Alphaville"
+      ],
+      "aliases_titulo": [
+        "Forever Young"
+      ],
+      "anio": 1984,
+      "texto": "Forever Young nació en plena era synth-pop y terminó trascendiendo a Alphaville para convertirse en una canción asociada a generaciones enteras.",
+      "cierre": "Quizás por eso algunas canciones nunca envejecen.",
+      "slug": "alphaville-forever-young"
+    }
+  ]
+}
