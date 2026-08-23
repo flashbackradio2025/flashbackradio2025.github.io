@@ -1203,34 +1203,30 @@ async function cargarProximoEspecial() {
       const artista = radio.now_playing?.song?.artist || '';
       const cancion = radio.now_playing?.song?.text || '';
 
-      const textoActual = `${artista} ${cancion}`.toUpperCase();
+      // Buscamos el especial usando TODO lo que informa AzuraCast:
+      // nombre de playlist + artista + título. Así funciona tanto si la
+      // playlist es ESPECIALES_DOMINGO como si es ESPECIAL_PLATEROS, etc.
+      const textoActual = `${playlist} ${artista} ${cancion}`.toUpperCase();
+      let especialActual = null;
 
-      // Si ESPECIALES_DOMINGO está realmente al aire,
-      // buscamos cuál de los especiales es.
-      if (playlist === 'ESPECIALES_DOMINGO') {
-        let especialActual = null;
-
-        for (const datos of Object.values(especiales)) {
-          if (datos.palabras.some(p => textoActual.includes(p))) {
-            especialActual = datos;
-            break;
-          }
+      for (const datos of Object.values(especiales)) {
+        if (datos.palabras.some(p => textoActual.includes(p))) {
+          especialActual = datos;
+          break;
         }
+      }
 
-        if (especialActual) {
-          mostrar(
-            {
-              ...especialActual,
-              horario: '🔴 En vivo · FlashBack Radio'
-            },
-            '🔴 FLASHBACK ORO · AHORA EN EL AIRE'
-          );
+      if (especialActual) {
+        mostrar(
+          {
+            ...especialActual,
+            horario: '🔴 En vivo · FlashBack Radio'
+          },
+          '🔴 FLASHBACK ORO · AHORA EN EL AIRE'
+        );
 
-          // MUY IMPORTANTE:
-          // si encontramos un especial en vivo,
-          // terminamos acá y NO usamos proximo_especial.json.
-          return;
-        }
+        // Si encontramos un especial en vivo, no mostramos el próximo.
+        return;
       }
     }
 
