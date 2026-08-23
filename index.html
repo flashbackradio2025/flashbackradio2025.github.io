@@ -1699,8 +1699,80 @@ footer {
   #archivo-recuerda-imagen {
     max-width: 150px;
   }
+  /* === CORRECCIÓN PLAYER EN CELULAR === */
+@media (max-width: 480px) {
+
+  #player-section .radio-card {
+    aspect-ratio: auto !important;
+    min-height: 330px;
+  }
+
+  #player-section .radio-card-bg {
+    object-fit: cover;
+  }
+
+  .radio-card-content {
+    width: 76%;
+    height: 100%;
+    padding: 32px 4px 22px;
+    grid-template-columns: 28% 1fr;
+    grid-template-rows: auto auto auto 90px auto;
+    column-gap: 4%;
+  }
+
+  #player-section .player-iframe {
+    width: 96%;
+    height: 85px;
+    margin: 8px auto 4px;
+    align-self: center;
+  }
+
+  #player-section .radio-tagline {
+    transform: none;
+    margin-top: 4px !important;
+  }
 }
 
+
+
+/* === CORRECCIÓN RESPONSIVE PLAYER EN CELULAR === */
+@media (max-width: 480px) {
+  #player-section .radio-card {
+    aspect-ratio: auto !important;
+    min-height: 330px;
+  }
+
+  #player-section .radio-card-bg {
+    object-fit: cover;
+  }
+
+  .radio-card-content {
+    width: 76%;
+    height: 100%;
+    padding: 32px 4px 22px;
+    grid-template-columns: 28% 1fr;
+    grid-template-rows: auto auto auto 90px auto;
+    column-gap: 4%;
+  }
+
+  #player-section .radio-card .radio-main-logo {
+    max-width: 78px;
+  }
+
+  #player-section .player-iframe {
+    width: 96%;
+    height: 85px;
+    margin: 8px auto 4px;
+    align-self: center;
+    display: block;
+  }
+
+  #player-section .radio-tagline {
+    transform: none !important;
+    margin-top: 4px !important;
+    white-space: normal;
+  }
+}
 </style>
     <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://flashbackradio2025.github.io/">
