@@ -1778,90 +1778,127 @@ footer {
 
 
 /* === CORRECCIÓN RESPONSIVE INFORMACIÓN EN VIVO EN CELULAR ===
-   Evita que el contenido se corte y mantiene visible el fondo completo. */
+   Mantiene TODO dentro del marco original y recupera el scroll interno. */
 @media (max-width: 480px) {
 
+  /* El panel conserva la misma proporción del video de fondo. */
   .metadata-widget {
     width: 100%;
     max-width: 100% !important;
-    aspect-ratio: auto !important;
-    min-height: 430px !important;
-    overflow: hidden;
+    aspect-ratio: 3 / 2 !important;
+    min-height: 0 !important;
+    position: relative;
+    overflow: hidden !important;
     background: #030714 !important;
   }
 
+  /* El video se ve completo, sin recortes. */
   .metadata-video-bg {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
     object-fit: contain !important;
     object-position: center;
   }
 
+  /* La información vuelve a quedar encerrada en la ventana central
+     dibujada por el propio video. */
   .metadata-content {
-    position: relative !important;
-    left: auto !important;
-    right: auto !important;
-    top: auto !important;
-    bottom: auto !important;
+    position: absolute !important;
+    left: 25.5% !important;
+    right: 24.5% !important;
+    top: 4.5% !important;
+    bottom: 5.5% !important;
 
-    width: 54%;
-    min-height: 390px;
-    margin: 18px auto;
-    padding: 8px 6px 10px;
+    width: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 4px 5px 6px !important;
 
     display: flex;
     flex-direction: column;
-    overflow: visible;
+    overflow: hidden !important;
   }
 
   .metadata-content h3 {
-    font-size: clamp(.72rem, 3.2vw, .92rem) !important;
-    margin: 0 0 5px !important;
+    flex: 0 0 auto;
+    font-size: clamp(.64rem, 2.9vw, .82rem) !important;
+    line-height: 1.15;
+    margin: 0 0 3px !important;
+  }
+
+  .metadata-cover {
+    flex: 0 0 auto;
+    margin: 0 0 4px !important;
   }
 
   .metadata-widget #album-art {
-    width: clamp(58px, 16vw, 78px) !important;
-    height: clamp(58px, 16vw, 78px) !important;
+    width: clamp(46px, 13vw, 62px) !important;
+    height: clamp(46px, 13vw, 62px) !important;
   }
 
+  /* ÉSTE es el marco móvil: la información se desplaza aquí
+     sin salir nunca del marco gráfico. */
   .metadata-widget #meta-content {
-    overflow-y: auto;
-    overflow-x: hidden;
-    min-height: 0;
     flex: 1 1 auto;
-    padding: 0 3px 3px;
+    min-height: 0 !important;
+    max-height: 100%;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    padding: 0 5px 3px 2px !important;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(66,232,255,.72) rgba(4,9,20,.28);
+  }
+
+  .metadata-widget #meta-content::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .metadata-widget #meta-content::-webkit-scrollbar-track {
+    background: rgba(4,9,20,.28);
+    border-radius: 10px;
+  }
+
+  .metadata-widget #meta-content::-webkit-scrollbar-thumb {
+    background: rgba(66,232,255,.72);
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(66,232,255,.25);
   }
 
   .metadata-widget .meta-row {
-    gap: 5px;
-    padding: 3px 0;
-    font-size: clamp(.50rem, 2.25vw, .66rem);
+    gap: 4px !important;
+    padding: 2px 0 !important;
+    font-size: clamp(.44rem, 1.95vw, .58rem) !important;
+    line-height: 1.2;
   }
 
   .metadata-widget .meta-label {
-    flex: 0 0 34%;
-    max-width: 34%;
-    white-space: normal;
+    flex: 0 0 33% !important;
+    max-width: 33% !important;
+    white-space: normal !important;
   }
 
   .metadata-widget .meta-value {
     flex: 1 1 auto;
-    max-width: none;
+    max-width: none !important;
     text-align: right;
     overflow-wrap: anywhere;
   }
 
   .metadata-widget .history-list {
-    margin-top: 4px;
+    max-height: none !important;
+    margin: 3px 0 0 !important;
   }
 
   .metadata-widget .history-list li {
-    font-size: clamp(.46rem, 2.05vw, .60rem);
-    line-height: 1.25;
-    padding: 2px 0;
+    font-size: clamp(.41rem, 1.82vw, .54rem) !important;
+    line-height: 1.2;
+    padding: 2px 0 !important;
   }
 }
-
 </style>
     <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://flashbackradio2025.github.io/">
