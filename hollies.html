@@ -691,17 +691,35 @@
       const cajaArtista = document.getElementById('efemerides-artista');
       const cajaHoy = document.getElementById('efemerides-hoy');
 
+      // Convierte la redacción diaria en una cronología histórica del artista.
+      // Ejemplo:
+      // "💿 Un día como hoy (1975): ..."  →  "💿 1975: ..."
+      function textoParaHistoria(texto) {
+        return texto
+          .replace(/Un día como hoy\s*\((\d{4})\):\s*/i, '$1: ')
+          .trim();
+      }
+
+      // Para la efeméride realmente correspondiente a HOY evitamos repetir:
+      // "Tal día como hoy: Un día como hoy..."
+      function textoParaHoy(texto) {
+        return texto
+          .replace(/Un día como hoy\s*/i, '')
+          .trim();
+      }
+
       if (delArtista.length && cajaArtista) {
         cajaArtista.innerHTML =
           '<p style="color:#ffd700;margin-bottom:8px;">🎤 The Hollies en la historia:</p>' +
           '<ul class="songs-list">' +
-          delArtista.map(e => '<li>' + e.texto + '</li>').join('') +
+          delArtista.map(e => '<li>' + textoParaHistoria(e.texto) + '</li>').join('') +
           '</ul>';
       }
+
       if (deHoy && cajaHoy) {
         cajaHoy.innerHTML =
           '<p style="color:#ccc;line-height:1.6;">📅 <strong style="color:#00f3ff;">Tal día como hoy:</strong> ' +
-          deHoy.texto + '</p>';
+          textoParaHoy(deHoy.texto) + '</p>';
       }
     }
     cargarEfemerides();
