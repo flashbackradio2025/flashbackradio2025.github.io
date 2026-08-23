@@ -1699,80 +1699,83 @@ footer {
   #archivo-recuerda-imagen {
     max-width: 150px;
   }
-  /* === CORRECCIÓN PLAYER EN CELULAR === */
-@media (max-width: 480px) {
-
-  #player-section .radio-card {
-    aspect-ratio: auto !important;
-    min-height: 330px;
-  }
-
-  #player-section .radio-card-bg {
-    object-fit: cover;
-  }
-
-  .radio-card-content {
-    width: 76%;
-    height: 100%;
-    padding: 32px 4px 22px;
-    grid-template-columns: 28% 1fr;
-    grid-template-rows: auto auto auto 90px auto;
-    column-gap: 4%;
-  }
-
-  #player-section .player-iframe {
-    width: 96%;
-    height: 85px;
-    margin: 8px auto 4px;
-    align-self: center;
-  }
-
-  #player-section .radio-tagline {
-    transform: none;
-    margin-top: 4px !important;
-  }
 }
 
-
-
-/* === CORRECCIÓN RESPONSIVE PLAYER EN CELULAR === */
+/* === CORRECCIÓN RESPONSIVE PLAYER EN CELULAR ===
+   Mantiene visible TODO el video/marco original.
+   El iframe flota dentro del panel sin agrandar ni recortar el fondo. */
 @media (max-width: 480px) {
+
   #player-section .radio-card {
-    aspect-ratio: auto !important;
-    min-height: 330px;
+    width: 100%;
+    max-width: 100% !important;
+    aspect-ratio: 744 / 392 !important;
+    min-height: 0 !important;
+    overflow: hidden;
   }
 
   #player-section .radio-card-bg {
-    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+    object-position: center;
   }
 
   .radio-card-content {
-    width: 76%;
+    width: 72%;
     height: 100%;
-    padding: 32px 4px 22px;
-    grid-template-columns: 28% 1fr;
-    grid-template-rows: auto auto auto 90px auto;
+    margin: 0 auto;
+    padding: 5% 1% 3%;
+    grid-template-columns: 27% 1fr;
+    grid-template-rows: auto auto auto 1fr;
     column-gap: 4%;
+    position: relative;
   }
 
   #player-section .radio-card .radio-main-logo {
-    max-width: 78px;
+    max-width: 62px;
+  }
+
+  #player-section .radio-card h3 {
+    font-size: clamp(.72rem, 3.7vw, .96rem);
+    margin-top: -4px;
+  }
+
+  #player-section .radio-card .subtitle:not(.radio-tagline) {
+    font-size: clamp(.40rem, 2vw, .56rem);
+    line-height: 1.15;
+    margin-top: 3px;
+  }
+
+  #player-section .live-indicator {
+    font-size: .52rem;
+    padding: 2px 7px;
+    margin-top: 4px;
+  }
+
+  #player-section .live-dot {
+    width: 6px;
+    height: 6px;
   }
 
   #player-section .player-iframe {
-    width: 96%;
-    height: 85px;
-    margin: 8px auto 4px;
-    align-self: center;
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    transform: translateX(-50%) !important;
+    width: 92%;
+    height: 58px;
+    margin: 0;
+    border: 0;
     display: block;
+    z-index: 5;
   }
 
   #player-section .radio-tagline {
-    transform: none !important;
-    margin-top: 4px !important;
-    white-space: normal;
+    display: none !important;
   }
 }
+
 </style>
     <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://flashbackradio2025.github.io/">
