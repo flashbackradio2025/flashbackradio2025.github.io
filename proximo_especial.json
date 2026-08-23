@@ -1,9 +1,9 @@
 {
-  "media_id": 5,
-  "titulo": "Gustavo Cerati · Soda Stereo",
-  "descripcion": "Un recorrido por la obra de Gustavo Cerati y el legado de Soda Stereo.",
-  "imagen": "img/artistas/especiales/especial-gustavo-cerati.png",
+  "media_id": 24,
+  "titulo": "The Rolling Stones",
+  "descripcion": "Rock, historia y canciones esenciales de una banda que atravesó generaciones.",
+  "imagen": "img/artistas/especiales/especial-rolling-stones.png",
   "dia": "Domingo",
   "hora": "17:00",
-  "proximo_preparado_nombre": "Tributo A Gustavo Cerati - Soda Stereo"
+  "proximo_preparado_nombre": "Especial Rolling Stones - Especial Rolling Stones"
 }
