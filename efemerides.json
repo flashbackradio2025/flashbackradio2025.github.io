@@ -4,24 +4,68 @@
     "texto": "🎆 Año Nuevo y Día Mundial de la Paz 🕊️✨: Un nuevo comienzo para soñar, crear y construir un mundo mejor."
   },
   {
+    "fecha": "01-10",
+    "texto": "🎸 Un día como hoy (1969): Led Zeppelin publica en el Reino Unido su álbum debut, iniciando una de las carreras fundamentales del rock."
+  },
+  {
     "fecha": "01-15",
     "texto": "✊ Un día como hoy (1929): Nace Martin Luther King Jr., líder del movimiento por los derechos civiles y la no violencia."
+  },
+  {
+    "fecha": "01-17",
+    "texto": "🚢 Un día como hoy (1969): The Beatles publican 'Yellow Submarine'."
+  },
+  {
+    "fecha": "01-30",
+    "texto": "🏙️ Un día como hoy (1969): The Beatles ofrecen su célebre concierto en la azotea de Apple Corps en Londres."
+  },
+  {
+    "fecha": "02-01",
+    "texto": "💿 Un día como hoy (1975): The Hollies lanzan 'Another Night', el álbum que confirma el regreso de Allan Clarke a la voz."
   },
   {
     "fecha": "02-04",
     "texto": "🌐 Un día como hoy (2004): Mark Zuckerberg lanza Facebook desde su habitación de Harvard, cambiando las redes sociales."
   },
   {
+    "fecha": "02-04",
+    "texto": "💫 Un día como hoy (1977): Fleetwood Mac publica 'Rumours', uno de los discos más exitosos de la historia del pop-rock."
+  },
+  {
+    "fecha": "02-09",
+    "texto": "📺 Un día como hoy (1964): The Beatles actúan por primera vez en The Ed Sullivan Show ante una audiencia televisiva multitudinaria en Estados Unidos."
+  },
+  {
+    "fecha": "02-10",
+    "texto": "🎸 Un día como hoy (1978): Van Halen publica su álbum debut, uno de los discos de guitarra más influyentes de su época."
+  },
+  {
     "fecha": "02-11",
     "texto": "👩‍🔬 Un día como hoy (2016): Se detectan por primera vez las ondas gravitacionales predichas por Einstein, confirmando una teoría de 100 años."
+  },
+  {
+    "fecha": "02-13",
+    "texto": "🖤 Un día como hoy (1970): Black Sabbath publica en el Reino Unido su álbum debut, piedra fundacional del heavy metal."
   },
   {
     "fecha": "02-14",
     "texto": "💝 Día de San Valentín: Celebrando el amor y la amistad que nos une."
   },
   {
+    "fecha": "02-19",
+    "texto": "🌉 Un día como hoy (1972): Paul Simon publica su primer álbum solista tras Simon & Garfunkel."
+  },
+  {
     "fecha": "02-21",
     "texto": "🗣️ Día Internacional de la Lengua Materna: La UNESCO promueve la diversidad lingüística y cultural."
+  },
+  {
+    "fecha": "03-01",
+    "texto": "🌈 Un día como hoy (1973): Pink Floyd publica en Estados Unidos 'The Dark Side of the Moon', uno de los álbumes más influyentes de la historia del rock."
+  },
+  {
+    "fecha": "03-05",
+    "texto": "🎸 Un día como hoy (1971): Led Zeppelin interpreta por primera vez en público 'Stairway to Heaven' en Belfast."
   },
   {
     "fecha": "03-07",
@@ -36,6 +80,14 @@
     "texto": "🥧 Día de Pi (π): Celebrando la constante matemática que describe la relación entre circunferencia y diámetro."
   },
   {
+    "fecha": "03-15",
+    "texto": "🏆 Un día como hoy (2010): The Hollies son incorporados al Salón de la Fama del Rock and Roll, entre las leyendas de la música."
+  },
+  {
+    "fecha": "03-19",
+    "texto": "🪕 Un día como hoy (1962): Bob Dylan publica su álbum debut."
+  },
+  {
     "fecha": "03-20",
     "texto": "⚛️ Un día como hoy (1916): Einstein publica oficialmente la Teoría de la Relatividad General, cambiando nuestra comprensión del universo."
   },
@@ -45,39 +97,87 @@
   },
   {
     "fecha": "03-22",
-    "texto": "Un día como hoy (1993): Gustavo Cerati presenta 'Amor Amarillo', iniciando su carrera solista."
+    "texto": "🎸 Un día como hoy (1963): The Beatles publican 'Please Please Me', su primer álbum de estudio."
   },
   {
-    "fecha": "04-01",
-    "texto": "🌍 Un día como hoy (1946): La UNESCO entra en funciones para promover la paz a través de la educación, ciencia y cultura."
+    "fecha": "04-04",
+    "texto": "⚡ Un día como hoy (2006): Gustavo Cerati publica 'Ahí Vamos', marcado por un regreso a un sonido de guitarras más directo."
   },
   {
-    "fecha": "04-05",
-    "texto": "🎵 Un día como hoy (1970): The Beatles graban 'Let It Be', su último álbum de estudio."
+    "fecha": "04-04",
+    "texto": "🎤 Un día como hoy (1964): The Beatles ocupan simultáneamente los cinco primeros puestos del Billboard Hot 100."
+  },
+  {
+    "fecha": "04-06",
+    "texto": "🎤 Un día como hoy (1974): ABBA gana Eurovisión con 'Waterloo', impulsando su carrera internacional."
   },
   {
     "fecha": "04-12",
     "texto": "🚀 Un día como hoy (1961): Yuri Gagarin se convierte en el primer ser humano en viajar al espacio, inaugurando la era espacial."
   },
   {
+    "fecha": "04-17",
+    "texto": "🎶 Un día como hoy (1970): Paul McCartney publica su primer álbum solista, 'McCartney'."
+  },
+  {
+    "fecha": "04-17",
+    "texto": "🎸 Un día como hoy (1972): The Hollies lanzan el simple 'Long Cool Woman (In a Black Dress)', que vende más de 2 millones de copias."
+  },
+  {
+    "fecha": "04-21",
+    "texto": "🌆 Un día como hoy (1958): 'Twilight Time' de The Platters alcanza el Nº 1 en Estados Unidos."
+  },
+  {
     "fecha": "04-22",
     "texto": "🌱 Día Internacional de la Madre Tierra: Concientizando sobre la protección del planeta que habitamos."
+  },
+  {
+    "fecha": "04-23",
+    "texto": "👄 Un día como hoy (1971): The Rolling Stones publican 'Sticky Fingers', primer álbum editado por su propio sello Rolling Stones Records."
   },
   {
     "fecha": "04-25",
     "texto": "🧬 Un día como hoy (1953): Watson y Crick descubren la estructura de doble hélice del ADN, revelando el secreto de la vida."
   },
   {
-    "fecha": "05-07",
-    "texto": "🎸 Un día como hoy (1970): Paul McCartney anuncia la separación de The Beatles, marcando el fin de una era musical."
+    "fecha": "05-08",
+    "texto": "🎹 Un día como hoy (1970): The Beatles publican 'Let It Be', su último álbum editado durante la existencia del grupo."
   },
   {
     "fecha": "05-08",
     "texto": "🩸 Día Mundial de la Cruz Roja: Reconociendo a los voluntarios que salvan vidas sin distinción de bandera, religión o ideología."
   },
   {
+    "fecha": "05-12",
+    "texto": "🔥 Un día como hoy (1972): The Rolling Stones publican el álbum doble 'Exile on Main St.'."
+  },
+  {
+    "fecha": "05-13",
+    "texto": "🎹 Un día como hoy (1977): Supertramp publica 'Even in the Quietest Moments...', álbum que incluye 'Give a Little Bit'."
+  },
+  {
+    "fecha": "05-14",
+    "texto": "👁️ Un día como hoy (1982): The Alan Parsons Project publica 'Eye in the Sky', uno de los discos más reconocidos de su carrera."
+  },
+  {
     "fecha": "05-14",
     "texto": "💉 Un día como hoy (1796): Edward Jenner realiza la primera vacuna de la historia contra la viruela, salvando millones de vidas."
+  },
+  {
+    "fecha": "05-17",
+    "texto": "🎵 Un día como hoy (1971): Paul y Linda McCartney publican 'Ram'."
+  },
+  {
+    "fecha": "05-23",
+    "texto": "🎸 Un día como hoy (1969): The Who publica 'Tommy', una de las óperas rock más influyentes."
+  },
+  {
+    "fecha": "06-01",
+    "texto": "🌈 Un día como hoy (1967): The Beatles publican 'Sgt. Pepper’s Lonely Hearts Club Band'."
+  },
+  {
+    "fecha": "06-01",
+    "texto": "🌙 Un día como hoy (1979): Night publica 'Hot Summer Nights', con la poderosa voz de Stevie Lange y producción de Richard Perry."
   },
   {
     "fecha": "06-01",
@@ -86,6 +186,54 @@
   {
     "fecha": "06-05",
     "texto": "🌳 Día Mundial del Medio Ambiente: Establecido por la ONU en 1972 para proteger nuestro planeta."
+  },
+  {
+    "fecha": "06-16",
+    "texto": "🎵 Un día como hoy (1972): David Bowie publica 'The Rise and Fall of Ziggy Stardust and the Spiders from Mars'."
+  },
+  {
+    "fecha": "06-17",
+    "texto": "🚌 Un día como hoy (1966): The Hollies lanzan 'Bus Stop', uno de los clásicos más queridos de la British Invasion."
+  },
+  {
+    "fecha": "06-23",
+    "texto": "🔥 Un día como hoy (1979): 'Hot Summer Nights' de Night entra en el Billboard Hot 100, iniciando su recorrido hasta el Top 20."
+  },
+  {
+    "fecha": "06-24",
+    "texto": "🥇 Un día como hoy (1965): 'I'm Alive' de The Hollies llega al Nº 1 del ranking británico, su primer gran éxito."
+  },
+  {
+    "fecha": "06-25",
+    "texto": "🎙️ Un día como hoy (1969): The Hollies graban 'He Ain't Heavy, He's My Brother' en los estudios EMI (Abbey Road), hoy un himno de solidaridad."
+  },
+  {
+    "fecha": "06-25",
+    "texto": "📖 Un día como hoy (1976): The Alan Parsons Project publica en el Reino Unido 'Tales of Mystery and Imagination', inspirado en Edgar Allan Poe."
+  },
+  {
+    "fecha": "06-25",
+    "texto": "📡 Un día como hoy (1967): The Beatles interpretan 'All You Need Is Love' en la transmisión mundial Our World."
+  },
+  {
+    "fecha": "06-28",
+    "texto": "🌊 Un día como hoy (1999): Gustavo Cerati publica 'Bocanada', una obra central de su carrera solista."
+  },
+  {
+    "fecha": "07-03",
+    "texto": "🎙️ Un día como hoy (1955): The Platters publican la exitosa versión de 'Only You (And You Alone)', una de sus grabaciones más emblemáticas."
+  },
+  {
+    "fecha": "07-04",
+    "texto": "🎶 Un día como hoy (1966): The Lovin’ Spoonful publica 'Summer in the City', uno de los grandes clásicos del verano sesentero."
+  },
+  {
+    "fecha": "07-08",
+    "texto": "🤖 Un día como hoy (1977): The Alan Parsons Project publica 'I Robot', inspirado en las ideas de Isaac Asimov sobre robots e inteligencia artificial."
+  },
+  {
+    "fecha": "07-10",
+    "texto": "🎬 Un día como hoy (1964): The Beatles publican 'A Hard Day's Night', álbum ligado a su primera película."
   },
   {
     "fecha": "07-13",
@@ -100,8 +248,64 @@
     "texto": "🌕 Un día como hoy (1969): Neil Armstrong y Buzz Aldrin alunizan en el Mar de la Tranquilidad. La humanidad pisa la Luna por primera vez."
   },
   {
+    "fecha": "07-25",
+    "texto": "🎸 Un día como hoy (1965): Bob Dylan actúa con guitarra eléctrica en el Newport Folk Festival, un momento decisivo del folk rock."
+  },
+  {
+    "fecha": "08-01",
+    "texto": "📺 Un día como hoy (1981): MTV comienza sus emisiones en Estados Unidos con 'Video Killed the Radio Star' de The Buggles."
+  },
+  {
+    "fecha": "08-05",
+    "texto": "🌀 Un día como hoy (1966): The Beatles publican 'Revolver', ampliando de forma decisiva los límites del pop y el estudio de grabación."
+  },
+  {
+    "fecha": "08-06",
+    "texto": "🎵 Un día como hoy (1965): The Beatles publican 'Help!', uno de los discos clave de su transición artística."
+  },
+  {
+    "fecha": "08-08",
+    "texto": "📸 Un día como hoy (1969): The Beatles realizan la célebre sesión fotográfica de la portada de 'Abbey Road'."
+  },
+  {
+    "fecha": "08-15",
+    "texto": "☮️ Un día como hoy (1969): comienza el festival de Woodstock, tres jornadas emblemáticas de música y contracultura."
+  },
+  {
     "fecha": "08-15",
     "texto": "🎸 Un día como hoy (1969): Woodstock reúne a medio millón de personas en un festival histórico de paz, amor y música."
+  },
+  {
+    "fecha": "08-24",
+    "texto": "💋 Un día como hoy (1981): The Rolling Stones publican 'Tattoo You', que incluye 'Start Me Up'."
+  },
+  {
+    "fecha": "08-25",
+    "texto": "🎸 Un día como hoy (1975): Bruce Springsteen publica 'Born to Run', álbum decisivo en su carrera."
+  },
+  {
+    "fecha": "08-29",
+    "texto": "🎤 Un día como hoy (1966): The Beatles ofrecen en Candlestick Park, San Francisco, su último concierto de gira ante público de pago."
+  },
+  {
+    "fecha": "09-01",
+    "texto": "🌌 Un día como hoy (2009): Gustavo Cerati publica 'Fuerza Natural', su último álbum de estudio."
+  },
+  {
+    "fecha": "09-01",
+    "texto": "📻 Un día como hoy (1979): 'Hot Summer Nights' de Night alcanza el puesto Nº 18 del Billboard Hot 100."
+  },
+  {
+    "fecha": "09-12",
+    "texto": "🎶 Un día como hoy (1975): Pink Floyd publica en el Reino Unido 'Wish You Were Here'."
+  },
+  {
+    "fecha": "09-15",
+    "texto": "🌃 Un día como hoy (1988): Soda Stereo publica 'Doble Vida', producido por Carlos Alomar y grabado en Nueva York."
+  },
+  {
+    "fecha": "09-18",
+    "texto": "🎸 Un día como hoy (1970): Black Sabbath publica 'Paranoid', álbum fundamental del heavy metal."
   },
   {
     "fecha": "09-21",
@@ -109,11 +313,19 @@
   },
   {
     "fecha": "09-26",
-    "texto": "🎸 Un día como hoy (1969): The Rolling Stones lanzan 'Let It Bleed', uno de sus álbumes más icónicos."
+    "texto": "🚶 Un día como hoy (1969): The Beatles publican 'Abbey Road', el último álbum que grabaron juntos."
   },
   {
     "fecha": "10-05",
-    "texto": "🎹 Un día como hoy (1988): Soda Stereo lanza 'Doble Vida', consolidándose como la banda de rock en español más importante."
+    "texto": "🎹 Un día como hoy (1973): Elton John publica 'Goodbye Yellow Brick Road', uno de sus álbumes más celebrados."
+  },
+  {
+    "fecha": "10-10",
+    "texto": "🎸 Un día como hoy (1969): King Crimson publica 'In the Court of the Crimson King', obra fundamental del rock progresivo."
+  },
+  {
+    "fecha": "10-11",
+    "texto": "🚁 Un día como hoy (1976): ABBA publica 'Arrival', álbum que contiene varios de sus mayores éxitos."
   },
   {
     "fecha": "10-22",
@@ -124,8 +336,28 @@
     "texto": "Un día como hoy (1969): Se envía el primer mensaje de ARPANET, el germen de Internet que conectaría al mundo."
   },
   {
+    "fecha": "10-31",
+    "texto": "🎶 Un día como hoy (1975): Queen publica 'Bohemian Rhapsody' como sencillo en el Reino Unido."
+  },
+  {
+    "fecha": "11-01",
+    "texto": "💛 Un día como hoy (1993): Gustavo Cerati publica 'Amor Amarillo', su primer álbum solista."
+  },
+  {
+    "fecha": "11-03",
+    "texto": "🎭 Un día como hoy (1955): The Platters publican 'The Great Pretender', uno de los grandes clásicos vocales de los años 50."
+  },
+  {
     "fecha": "11-04",
     "texto": "📚 Un día como hoy (1946): La UNESCO comienza oficialmente sus operaciones para fomentar la cultura de paz entre las naciones."
+  },
+  {
+    "fecha": "11-07",
+    "texto": "🎴 Un día como hoy (1980): The Alan Parsons Project publica 'The Turn of a Friendly Card', álbum conceptual alrededor del azar y el juego."
+  },
+  {
+    "fecha": "11-08",
+    "texto": "🎸 Un día como hoy (1971): Led Zeppelin publica su cuarto álbum, que incluye 'Stairway to Heaven'."
   },
   {
     "fecha": "11-09",
@@ -136,43 +368,71 @@
     "texto": "🎵 Un día como hoy (1984): Madonna estrena 'Like a Virgin', marcando un hito en la música pop."
   },
   {
+    "fecha": "11-15",
+    "texto": "🌬️ Un día como hoy (1973): The Hollies graban 'The Air That I Breathe', una de las baladas más bellas de los años 70."
+  },
+  {
+    "fecha": "11-15",
+    "texto": "🕺 Un día como hoy (1977): Se publica la banda sonora de 'Saturday Night Fever', decisiva para la expansión mundial de la música disco y estrechamente asociada a Bee Gees."
+  },
+  {
     "fecha": "11-16",
     "texto": "🌍 Un día como hoy (1945): Se funda la UNESCO con el objetivo de construir la paz a través de la educación y la cultura."
+  },
+  {
+    "fecha": "11-21",
+    "texto": "👑 Un día como hoy (1975): Queen publica 'A Night at the Opera', álbum que incluye 'Bohemian Rhapsody'."
+  },
+  {
+    "fecha": "11-22",
+    "texto": "⚪ Un día como hoy (1968): The Beatles publican el álbum doble 'The Beatles', conocido como el Álbum Blanco."
+  },
+  {
+    "fecha": "11-22",
+    "texto": "🎶 Un día como hoy (1963): The Beatles publican 'With The Beatles', en plena explosión de la Beatlemanía."
+  },
+  {
+    "fecha": "11-26",
+    "texto": "🎸 Un día como hoy (1976): The Band ofrece 'The Last Waltz' en San Francisco, concierto convertido después en una película emblemática."
+  },
+  {
+    "fecha": "11-27",
+    "texto": "🎨 Un día como hoy (1967): The Beatles publican 'Magical Mystery Tour'."
+  },
+  {
+    "fecha": "11-30",
+    "texto": "🎸 Un día como hoy (1979): Pink Floyd publica en el Reino Unido 'The Wall'."
+  },
+  {
+    "fecha": "12-03",
+    "texto": "🌿 Un día como hoy (1965): The Beatles publican 'Rubber Soul', un punto de inflexión en su evolución musical."
+  },
+  {
+    "fecha": "12-04",
+    "texto": "💿 Un día como hoy (1964): The Beatles publican 'Beatles for Sale'."
+  },
+  {
+    "fecha": "12-05",
+    "texto": "🎸 Un día como hoy (1969): The Rolling Stones publican 'Let It Bleed'."
+  },
+  {
+    "fecha": "12-08",
+    "texto": "🏨 Un día como hoy (1976): Eagles publican 'Hotel California', uno de los álbumes emblemáticos del rock de los años 70."
   },
   {
     "fecha": "12-10",
     "texto": "✊ Un día como hoy (1948): La ONU proclama la Declaración Universal de los Derechos Humanos, estableciendo derechos fundamentales para todos."
   },
   {
+    "fecha": "12-17",
+    "texto": "🎸 Un día como hoy (1971): David Bowie publica el álbum 'Hunky Dory'."
+  },
+  {
     "fecha": "12-25",
     "texto": "🎄 ¡FELIZ NAVIDAD! 🎅 Un día para celebrar el amor, la familia y la esperanza. Que la paz y la alegría llenen tu hogar. 💜"
   },
   {
-    "fecha": "02-01",
-    "texto": "💿 Un día como hoy (1975): The Hollies lanzan 'Another Night', el álbum que confirma el regreso de Allan Clarke a la voz."
-  },
-  {
-    "fecha": "03-15",
-    "texto": "🏆 Un día como hoy (2010): The Hollies son incorporados al Salón de la Fama del Rock and Roll, entre las leyendas de la música."
-  },
-  {
-    "fecha": "04-17",
-    "texto": "🎸 Un día como hoy (1972): The Hollies lanzan el simple 'Long Cool Woman (In a Black Dress)', que vende más de 2 millones de copias."
-  },
-  {
-    "fecha": "06-17",
-    "texto": "🚌 Un día como hoy (1966): The Hollies lanzan 'Bus Stop', uno de los clásicos más queridos de la British Invasion."
-  },
-  {
-    "fecha": "06-24",
-    "texto": "🥇 Un día como hoy (1965): 'I'm Alive' de The Hollies llega al Nº 1 del ranking británico, su primer gran éxito."
-  },
-  {
-    "fecha": "06-25",
-    "texto": "🎙️ Un día como hoy (1969): The Hollies graban 'He Ain't Heavy, He's My Brother' en los estudios EMI (Abbey Road), hoy un himno de solidaridad."
-  },
-  {
-    "fecha": "11-15",
-    "texto": "🌬️ Un día como hoy (1973): The Hollies graban 'The Air That I Breathe', una de las baladas más bellas de los años 70."
+    "fecha": "12-26",
+    "texto": "🎬 Un día como hoy (1967): The Beatles estrenan en televisión británica la película 'Magical Mystery Tour'."
   }
 ]
