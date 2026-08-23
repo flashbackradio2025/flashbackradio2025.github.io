@@ -1776,6 +1776,92 @@ footer {
   }
 }
 
+
+/* === CORRECCIÓN RESPONSIVE INFORMACIÓN EN VIVO EN CELULAR ===
+   Evita que el contenido se corte y mantiene visible el fondo completo. */
+@media (max-width: 480px) {
+
+  .metadata-widget {
+    width: 100%;
+    max-width: 100% !important;
+    aspect-ratio: auto !important;
+    min-height: 430px !important;
+    overflow: hidden;
+    background: #030714 !important;
+  }
+
+  .metadata-video-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain !important;
+    object-position: center;
+  }
+
+  .metadata-content {
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+
+    width: 54%;
+    min-height: 390px;
+    margin: 18px auto;
+    padding: 8px 6px 10px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+  }
+
+  .metadata-content h3 {
+    font-size: clamp(.72rem, 3.2vw, .92rem) !important;
+    margin: 0 0 5px !important;
+  }
+
+  .metadata-widget #album-art {
+    width: clamp(58px, 16vw, 78px) !important;
+    height: clamp(58px, 16vw, 78px) !important;
+  }
+
+  .metadata-widget #meta-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-height: 0;
+    flex: 1 1 auto;
+    padding: 0 3px 3px;
+  }
+
+  .metadata-widget .meta-row {
+    gap: 5px;
+    padding: 3px 0;
+    font-size: clamp(.50rem, 2.25vw, .66rem);
+  }
+
+  .metadata-widget .meta-label {
+    flex: 0 0 34%;
+    max-width: 34%;
+    white-space: normal;
+  }
+
+  .metadata-widget .meta-value {
+    flex: 1 1 auto;
+    max-width: none;
+    text-align: right;
+    overflow-wrap: anywhere;
+  }
+
+  .metadata-widget .history-list {
+    margin-top: 4px;
+  }
+
+  .metadata-widget .history-list li {
+    font-size: clamp(.46rem, 2.05vw, .60rem);
+    line-height: 1.25;
+    padding: 2px 0;
+  }
+}
+
 </style>
     <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://flashbackradio2025.github.io/">
