@@ -613,6 +613,153 @@ animation:brilloArchivo 3.5s ease-in-out 1.5s infinite;
 0%,100%{text-shadow:0 0 5px rgba(255,215,0,.25), 0 0 10px rgba(255,215,0,.10);}
 50%{text-shadow:0 0 10px rgba(255,215,0,.8), 0 0 25px rgba(255,215,0,.55), 0 0 40px rgba(255,215,0,.25);}
 }
+
+/*==================================================
+FICHA DINÁMICA — EL ARCHIVO RECUERDA
+Se muestra sólo cuando explorar.html recibe ?ficha=...
+==================================================*/
+#ficha-archivo{
+  display:none;
+  margin:34px auto 42px;
+  padding:28px;
+  border:1px solid rgba(255,204,0,.48);
+  border-radius:20px;
+  background:
+    radial-gradient(circle at top left,rgba(255,204,0,.08),transparent 32%),
+    linear-gradient(145deg,rgba(7,15,26,.96),rgba(12,25,38,.92));
+  box-shadow:
+    0 18px 45px rgba(0,0,0,.45),
+    0 0 24px rgba(255,204,0,.10),
+    0 0 30px rgba(0,243,255,.08);
+  overflow:hidden;
+  scroll-margin-top:95px;
+}
+#ficha-archivo.visible{display:block;animation:fichaArchivoEntrada .7s ease both;}
+@keyframes fichaArchivoEntrada{
+  from{opacity:0;transform:translateY(18px);}
+  to{opacity:1;transform:translateY(0);}
+}
+.ficha-archivo-etiqueta{
+  font-family:'Orbitron',sans-serif;
+  color:#ffd76a;
+  text-align:center;
+  letter-spacing:2px;
+  font-size:.82rem;
+  margin-bottom:22px;
+  text-shadow:0 0 12px rgba(255,215,0,.28);
+}
+.ficha-archivo-grid{
+  display:grid;
+  grid-template-columns:minmax(180px,260px) 1fr;
+  gap:30px;
+  align-items:start;
+}
+.ficha-archivo-portada img{
+  width:100%;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  display:block;
+  border-radius:16px;
+  border:1px solid rgba(255,215,0,.48);
+  box-shadow:0 12px 30px rgba(0,0,0,.48),0 0 20px rgba(255,204,0,.12);
+  background:#050a10;
+}
+.ficha-archivo-info{text-align:left;min-width:0;}
+.ficha-archivo-info h2{
+  font-family:'Orbitron',sans-serif;
+  color:#f5f8ff;
+  margin:0 0 6px;
+  font-size:clamp(1.5rem,3vw,2.25rem);
+  text-shadow:0 0 16px rgba(0,243,255,.16);
+}
+.ficha-archivo-cancion{
+  color:#ffd76a;
+  font-family:'Orbitron',sans-serif;
+  font-size:clamp(1.05rem,2.2vw,1.4rem);
+  margin-bottom:8px;
+}
+.ficha-archivo-anio{
+  color:#8feeff;
+  font-family:'Orbitron',sans-serif;
+  font-size:.86rem;
+  margin-bottom:20px;
+}
+.ficha-archivo-texto{
+  color:#e8edf4;
+  line-height:1.75;
+  font-size:1.06rem;
+  margin-bottom:18px;
+}
+.ficha-archivo-cierre{
+  color:#f2d58e;
+  line-height:1.65;
+  font-style:italic;
+  border-left:3px solid rgba(255,204,0,.62);
+  padding-left:15px;
+  margin:0 0 22px;
+}
+.ficha-archivo-estado{
+  color:#9aa9b8;
+  font-size:.92rem;
+  line-height:1.55;
+  margin-top:18px;
+}
+.ficha-archivo-acciones{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:24px;
+}
+.ficha-archivo-btn{
+  display:inline-block;
+  padding:10px 16px;
+  border:1px solid rgba(0,243,255,.52);
+  border-radius:999px;
+  color:#dffaff;
+  text-decoration:none;
+  font-family:'Orbitron',sans-serif;
+  font-size:.78rem;
+  background:rgba(0,243,255,.06);
+  transition:.25s ease;
+}
+.ficha-archivo-btn:hover{
+  color:#fff;
+  border-color:#00f3ff;
+  box-shadow:0 0 18px rgba(0,243,255,.18);
+  transform:translateY(-1px);
+}
+#ficha-archivo-error{
+  display:none;
+  color:#ffb4b4;
+  text-align:center;
+  line-height:1.6;
+}
+@media(max-width:700px){
+  #ficha-archivo{padding:20px 16px;}
+  .ficha-archivo-grid{grid-template-columns:1fr;gap:20px;}
+  .ficha-archivo-portada img{max-width:220px;margin:0 auto;}
+  .ficha-archivo-info{text-align:center;}
+  .ficha-archivo-cierre{text-align:left;}
+  .ficha-archivo-acciones{justify-content:center;}
+}
+
+
+/* FICHA AMPLIADA — CONTENIDO HISTÓRICO OPCIONAL */
+.ficha-archivo-ampliada{display:none;grid-column:1/-1;margin-top:8px}
+.ficha-archivo-ampliada.visible{display:block}
+.ficha-seccion{margin-top:22px;padding:22px;border:1px solid rgba(0,243,255,.16);border-radius:15px;background:rgba(2,9,16,.34)}
+.ficha-seccion h3{font-family:'Orbitron',sans-serif;color:#ffd76a;font-size:1rem;margin:0 0 14px;text-shadow:0 0 10px rgba(255,215,0,.18)}
+.ficha-seccion p{color:#e4ebf2;line-height:1.75;margin:0}
+.ficha-datos{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+.ficha-dato{padding:12px 14px;border-left:2px solid rgba(0,243,255,.48);background:rgba(0,243,255,.035)}
+.ficha-dato strong{display:block;color:#8feeff;font-family:'Orbitron',sans-serif;font-size:.72rem;margin-bottom:5px}
+.ficha-lista{margin:0;padding-left:20px;color:#e4ebf2;line-height:1.75}
+.ficha-lista li+li{margin-top:5px}
+.ficha-recuerdo-personal{border-color:rgba(255,204,102,.34);background:radial-gradient(circle at top left,rgba(255,204,102,.08),transparent 45%),rgba(12,8,4,.30)}
+.ficha-recuerdo-personal p{color:#f3e8d0}
+.ficha-recordatorio{border-color:rgba(255,215,0,.32)}
+@media(max-width:700px){.ficha-seccion{padding:18px 15px;text-align:left}}
+
 </style>
 </head>
 <body>
@@ -697,6 +844,52 @@ No hay listas impersonales.
 Sólo música elegida con el corazón.
 </p>
 </section>
+
+<!-- ===========================================================
+FICHA DINÁMICA — EL ARCHIVO RECUERDA
+Sólo aparece al llegar desde el botón "CONOCÉ MÁS".
+=========================================================== -->
+<section id="ficha-archivo" aria-live="polite">
+  <div class="ficha-archivo-etiqueta">🎵 EL ARCHIVO RECUERDA · FICHA DEL ARCHIVO</div>
+
+  <div id="ficha-archivo-contenido" class="ficha-archivo-grid">
+    <div class="ficha-archivo-portada">
+      <img id="ficha-archivo-imagen" src="img/logo.png" alt="Carátula">
+    </div>
+
+    <div class="ficha-archivo-info">
+      <h2 id="ficha-archivo-artista"></h2>
+      <div id="ficha-archivo-cancion" class="ficha-archivo-cancion"></div>
+      <div id="ficha-archivo-anio" class="ficha-archivo-anio"></div>
+      <p id="ficha-archivo-texto" class="ficha-archivo-texto"></p>
+      <p id="ficha-archivo-cierre" class="ficha-archivo-cierre"></p>
+
+      <p class="ficha-archivo-estado">
+        Esta ficha forma parte de un archivo en crecimiento. Con el tiempo podrá incorporar
+        más contexto, ediciones, curiosidades e historia del artista y de la grabación.
+      </p>
+
+      <div class="ficha-archivo-acciones">
+        <a class="ficha-archivo-btn" href="index.html">← VOLVER A LA RADIO</a>
+      </div>
+    </div>
+    <div id="ficha-archivo-ampliada" class="ficha-archivo-ampliada">
+      <section id="sec-datos" class="ficha-seccion"><h3>💿 DATOS DEL DISCO</h3><div id="ficha-datos" class="ficha-datos"></div></section>
+      <section id="sec-historia" class="ficha-seccion"><h3>📖 LA HISTORIA</h3><p id="ficha-historia"></p></section>
+      <section id="sec-night" class="ficha-seccion"><h3>👥 ¿QUIÉNES ERAN NIGHT?</h3><p id="ficha-quienes"></p></section>
+      <section id="sec-musicos" class="ficha-seccion"><h3>🎚️ DETRÁS DE LA GRABACIÓN</h3><ul id="ficha-musicos" class="ficha-lista"></ul></section>
+      <section id="sec-ranking" class="ficha-seccion"><h3>📊 EN LAS LISTAS</h3><ul id="ficha-ranking" class="ficha-lista"></ul></section>
+      <section id="sec-sabias" class="ficha-seccion"><h3>💡 ¿SABÍAS QUE...?</h3><ul id="ficha-sabias" class="ficha-lista"></ul></section>
+      <section id="sec-recordar" class="ficha-seccion ficha-recordatorio"><h3>📻 ¿POR QUÉ LO RECUERDA FLASHBACK?</h3><p id="ficha-recordar"></p></section>
+      <section id="sec-recuerdo-personal" class="ficha-seccion ficha-recuerdo-personal"><h3>❤️ EL RECUERDO DETRÁS DEL ARCHIVO</h3><p id="ficha-recuerdo-personal"></p></section>
+    </div>
+  </div>
+
+  <p id="ficha-archivo-error">
+    No encontramos esta ficha en el Archivo Recuerda.
+  </p>
+</section>
+
 <div class="grid">
 <a href="mezclas.html" class="card sala-mezclas">
 <span class="card-icon"> 🎛️ </span>
@@ -744,6 +937,131 @@ La música pertenece a sus respectivos autores.
 <br><br>
 Capilla del Monte · Córdoba · Argentina
 </footer>
+
+<script>
+/* ==========================================================
+   FICHA DINÁMICA DE EL ARCHIVO RECUERDA
+   Ejemplo: explorar.html?ficha=night-hot-summer-nights
+   ========================================================== */
+(function(){
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get('ficha');
+
+  if (!slug) return;
+
+  const section = document.getElementById('ficha-archivo');
+  const contenido = document.getElementById('ficha-archivo-contenido');
+  const errorEl = document.getElementById('ficha-archivo-error');
+  const imagenEl = document.getElementById('ficha-archivo-imagen');
+  const artistaEl = document.getElementById('ficha-archivo-artista');
+  const cancionEl = document.getElementById('ficha-archivo-cancion');
+  const anioEl = document.getElementById('ficha-archivo-anio');
+  const textoEl = document.getElementById('ficha-archivo-texto');
+  const cierreEl = document.getElementById('ficha-archivo-cierre');
+  const ampliadaEl = document.getElementById('ficha-archivo-ampliada');
+  const datosEl = document.getElementById('ficha-datos');
+  const historiaEl = document.getElementById('ficha-historia');
+  const quienesEl = document.getElementById('ficha-quienes');
+  const musicosEl = document.getElementById('ficha-musicos');
+  const rankingEl = document.getElementById('ficha-ranking');
+  const sabiasEl = document.getElementById('ficha-sabias');
+  const recordarEl = document.getElementById('ficha-recordar');
+  const recuerdoPersonalEl = document.getElementById('ficha-recuerdo-personal');
+
+  function normalizar(valor){
+    return String(valor || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g,'')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g,' ')
+      .trim();
+  }
+
+  async function cargarFicha(){
+    const url =
+      window.location.protocol === 'file:'
+        ? 'https://flashbackradio2025.github.io/archivo_recuerda.json?ts=' + Date.now()
+        : 'archivo_recuerda.json?ts=' + Date.now();
+
+    try{
+      const r = await fetch(url,{cache:'no-store'});
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+
+      const data = await r.json();
+      const fichas = Array.isArray(data) ? data : (data.fichas || []);
+      const ficha = fichas.find(f => normalizar(f.slug) === normalizar(slug));
+
+      section.classList.add('visible');
+
+      if(!ficha){
+        contenido.style.display = 'none';
+        errorEl.style.display = 'block';
+        return;
+      }
+
+      imagenEl.src = ficha.imagen || 'img/logo.png';
+      imagenEl.alt = `Carátula de ${ficha.artista || 'FlashBack Radio'} — ${ficha.titulo || ''}`;
+      imagenEl.onerror = () => { imagenEl.src = 'img/logo.png'; };
+
+      artistaEl.textContent = ficha.artista || '';
+      cancionEl.textContent = ficha.titulo || '';
+      anioEl.textContent = ficha.anio ? `Año · ${ficha.anio}` : '';
+      textoEl.textContent = ficha.texto || '';
+      cierreEl.textContent = ficha.cierre ? `“${ficha.cierre}”` : '';
+
+      const datos = [
+        ['Álbum', ficha.album], ['Sello', ficha.sello], ['Single', ficha.single],
+        ['Catálogo', ficha.catalogo], ['Duración', ficha.duracion],
+        ['Compositor', ficha.compositor], ['Productor', ficha.productor],
+        ['Voz principal', ficha.voz_principal]
+      ].filter(([,valor]) => valor);
+
+      datosEl.innerHTML = datos.map(([nombre,valor]) =>
+        `<div class="ficha-dato"><strong>${nombre}</strong>${valor}</div>`).join('');
+      document.getElementById('sec-datos').style.display = datos.length ? '' : 'none';
+
+      historiaEl.textContent = ficha.historia || '';
+      document.getElementById('sec-historia').style.display = ficha.historia ? '' : 'none';
+      quienesEl.textContent = ficha.quienes_er_an || '';
+      document.getElementById('sec-night').style.display = ficha.quienes_er_an ? '' : 'none';
+
+      const llenarLista = (idSeccion, elemento, items) => {
+        const lista = Array.isArray(items) ? items : [];
+        elemento.innerHTML = lista.map(item => `<li>${item}</li>`).join('');
+        document.getElementById(idSeccion).style.display = lista.length ? '' : 'none';
+      };
+      llenarLista('sec-musicos', musicosEl, ficha.musicos);
+      llenarLista('sec-ranking', rankingEl, ficha.ranking);
+      llenarLista('sec-sabias', sabiasEl, ficha.sabias_que);
+
+      recordarEl.textContent = ficha.por_que_recordarlo || '';
+      document.getElementById('sec-recordar').style.display = ficha.por_que_recordarlo ? '' : 'none';
+      recuerdoPersonalEl.textContent = ficha.recuerdo_personal || '';
+      document.getElementById('sec-recuerdo-personal').style.display = ficha.recuerdo_personal ? '' : 'none';
+
+      const hayContenidoAmpliado = datos.length || ficha.historia || ficha.quienes_er_an ||
+        (Array.isArray(ficha.musicos) && ficha.musicos.length) ||
+        (Array.isArray(ficha.ranking) && ficha.ranking.length) ||
+        (Array.isArray(ficha.sabias_que) && ficha.sabias_que.length) ||
+        ficha.por_que_recordarlo || ficha.recuerdo_personal;
+      ampliadaEl.classList.toggle('visible', Boolean(hayContenidoAmpliado));
+
+      setTimeout(() => {
+        section.scrollIntoView({behavior:'smooth',block:'start'});
+      }, 150);
+
+    }catch(error){
+      console.error('Error cargando ficha del Archivo Recuerda:',error);
+      section.classList.add('visible');
+      contenido.style.display = 'none';
+      errorEl.style.display = 'block';
+    }
+  }
+
+  cargarFicha();
+})();
+</script>
+
 <script>
 const frases=[
 "Cada canción guarda un recuerdo que alguien creyó perdido.",
@@ -780,6 +1098,14 @@ cargarTop5();
 window.addEventListener("load", function(){
 const intro = document.getElementById("intro-screen");
 const sonidoPuerta = document.getElementById("doorSound");
+
+const entradaFicha = new URLSearchParams(window.location.search).has('ficha');
+if(entradaFicha){
+  document.body.classList.add("puerto-abierto");
+  if(intro) intro.remove();
+  return;
+}
+
 setTimeout(function(){
 if(sonidoPuerta){
 sonidoPuerta.currentTime = 0;
