@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-08-23",
+  "ultima_actualizacion": "2026-08-24",
   "fichas": [
     {
       "artista": "Night",
@@ -63,7 +63,34 @@
       "texto": "Uno de los grandes clásicos del freestyle de Miami. En 1987 fue Nº1 en la lista Dance de Billboard y también entró al Top 40 estadounidense.",
       "cierre": "Quizás recuerdes la canción. FlashBack también quiere recordar a quienes la hicieron.",
       "slug": "company-b-fascinated",
-      "imagen": "img/archivo/company-b-fascinated.jpg"
+      "imagen": "img/archivo/company-b-fascinated.jpg",
+      "album": "Company B",
+      "sello": "Atlantic Records",
+      "single": "Fascinated",
+      "duracion": "3:50 (single)",
+      "compositor": "Ish Ledesma",
+      "productor": "Ish Ledesma",
+      "voz_principal": "Company B",
+      "historia": "Fascinated nació en la escena freestyle de Miami. El single comenzó a circular en 1986 y generó suficiente repercusión en clubes y radios locales como para ser tomado y relanzado por Atlantic Records. En 1987 cruzó del circuito dance al pop: llegó al Nº1 de la lista Dance Club Songs de Billboard y alcanzó el Nº21 del Billboard Hot 100.",
+      "quienes_er_an": "Company B fue un trío femenino de freestyle y dance-pop armado en Miami por el productor Ish Ledesma. La formación vinculada al álbum debut incluía a Lori Ledesma, Lezlee Livrano y Susan Johnson. Su imagen de pelucas blancas y estética muy marcada acompañó un sonido que quedó asociado a la explosión del freestyle de fines de los años 80.",
+      "musicos": [
+        "Ish Ledesma — compositor y productor",
+        "Lori Ledesma — integrante de Company B",
+        "Lezlee Livrano — integrante de Company B",
+        "Susan Johnson — integrante de Company B"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Dance Club Songs: Nº1",
+        "Estados Unidos — Billboard Hot 100: Nº21",
+        "Reino Unido — Official Singles Chart: Nº89"
+      ],
+      "sabias_que": [
+        "Fascinated fue uno de los primeros éxitos freestyle en cruzar al Top 40 del Billboard Hot 100.",
+        "La canción permaneció cuatro semanas en el Nº1 de la lista dance estadounidense.",
+        "Ish Ledesma venía de trabajar con Foxy y Oxo antes de formar Company B.",
+        "El álbum debut Company B fue publicado en 1987 por Atlantic Records."
+      ],
+      "por_que_recordarlo": "Fascinated conserva intacta la energía del freestyle de Miami: sintetizadores, ritmo de club y una identidad que todavía remite de inmediato a los años 80. Company B quizá no quedó en la memoria masiva con la misma fuerza que la canción, y justamente por eso merece un lugar en El Archivo Recuerda."
     },
     {
       "artista": "Chris Rea",
