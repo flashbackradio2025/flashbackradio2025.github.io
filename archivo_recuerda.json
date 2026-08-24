@@ -48,7 +48,8 @@
         "Night publicó dos álbumes: Night (1979) y Long Distance (1980)."
       ],
       "por_que_recordarlo": "Hay canciones que sobrevivieron al paso del tiempo mejor que el nombre de quienes las interpretaron. Hot Summer Nights es una de ellas. Recordar la canción también significa recuperar a Night, a Stevie Lange y a los músicos que estuvieron detrás de aquella grabación. Porque una canción puede durar unos minutos; su historia, mucho más.",
-      "recuerdo_personal": "Recuerdo esta canción desde que era chico. No sabría explicar exactamente qué tuvo, pero la primera vez que escuché Hot Summer Nights me encantó y quedó conmigo. Muchos años después sigo volviendo a ella. Quizás ésa sea una de las razones por las que existe El Archivo Recuerda: hay canciones que no sabemos explicar por qué permanecieron, pero permanecieron."
+      "recuerdo_personal": "Recuerdo esta canción desde que era chico. No sabría explicar exactamente qué tuvo, pero la primera vez que escuché Hot Summer Nights me encantó y quedó conmigo. Muchos años después sigo volviendo a ella. Quizás ésa sea una de las razones por las que existe El Archivo Recuerda: hay canciones que no sabemos explicar por qué permanecieron, pero permanecieron.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Company B",
@@ -90,7 +91,8 @@
         "Ish Ledesma venía de trabajar con Foxy y Oxo antes de formar Company B.",
         "El álbum debut Company B fue publicado en 1987 por Atlantic Records."
       ],
-      "por_que_recordarlo": "Fascinated conserva intacta la energía del freestyle de Miami: sintetizadores, ritmo de club y una identidad que todavía remite de inmediato a los años 80. Company B quizá no quedó en la memoria masiva con la misma fuerza que la canción, y justamente por eso merece un lugar en El Archivo Recuerda."
+      "por_que_recordarlo": "Fascinated conserva intacta la energía del freestyle de Miami: sintetizadores, ritmo de club y una identidad que todavía remite de inmediato a los años 80. Company B quizá no quedó en la memoria masiva con la misma fuerza que la canción, y justamente por eso merece un lugar en El Archivo Recuerda.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Chris Rea",
@@ -406,7 +408,8 @@
         "La canción fue utilizada como tema de cierre de la película Summer Lovers, estrenada en 1982.",
         "Fue nominada al Grammy a Mejor Interpretación Pop de un Dúo o Grupo con Voz."
       ],
-      "por_que_recordarlo": "Porque representa uno de esos momentos en que una banda histórica consiguió reinventarse sin borrar todo lo que había sido antes. Hard to Say I'm Sorry convirtió una melodía íntima en un éxito mundial y abrió una nueva etapa para Chicago. Décadas después, bastan sus primeros acordes para reconocerla."
+      "por_que_recordarlo": "Porque representa uno de esos momentos en que una banda histórica consiguió reinventarse sin borrar todo lo que había sido antes. Hard to Say I'm Sorry convirtió una melodía íntima en un éxito mundial y abrió una nueva etapa para Chicago. Décadas después, bastan sus primeros acordes para reconocerla.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Eurythmics",
@@ -822,7 +825,8 @@
         "La versión de Armstrong fue incorporada al GRAMMY Hall of Fame en 1999.",
         "La canción fue escrita por Bob Thiele —acreditado originalmente como George Douglas— y George David Weiss."
       ],
-      "por_que_recordarlo": "Porque pocas canciones consiguen decir tanto utilizando tan poco. What a Wonderful World no necesita una gran producción ni una interpretación grandilocuente: alcanza con la voz de Armstrong observando árboles, cielos, personas y pequeños gestos cotidianos. Su historia también resume algo que El Archivo Recuerda quiere rescatar: una grabación que casi fue ignorada en su propio país terminó atravesando generaciones y convirtiéndose en patrimonio emocional de millones de personas."
+      "por_que_recordarlo": "Porque pocas canciones consiguen decir tanto utilizando tan poco. What a Wonderful World no necesita una gran producción ni una interpretación grandilocuente: alcanza con la voz de Armstrong observando árboles, cielos, personas y pequeños gestos cotidianos. Su historia también resume algo que El Archivo Recuerda quiere rescatar: una grabación que casi fue ignorada en su propio país terminó atravesando generaciones y convirtiéndose en patrimonio emocional de millones de personas.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "Billy Joel",

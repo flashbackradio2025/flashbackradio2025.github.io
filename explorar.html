@@ -1242,7 +1242,20 @@ Capilla del Monte · Córdoba · Argentina
 
       historiaEl.textContent = ficha.historia || '';
       document.getElementById('sec-historia').style.display = ficha.historia ? '' : 'none';
-      if (quienesTituloEl) quienesTituloEl.textContent = ficha.artista ? `👥 ¿QUIÉNES ERAN ${String(ficha.artista).toUpperCase()}?` : '👥 ¿QUIÉNES ERAN?';
+      if (quienesTituloEl) {
+        const nombreArtista = ficha.artista ? String(ficha.artista).toUpperCase() : '';
+        const tipoArtista = String(ficha.tipo_artista || '').toLowerCase();
+
+        if (tipoArtista === 'solista') {
+          quienesTituloEl.textContent = nombreArtista
+            ? `👤 ¿QUIÉN ERA ${nombreArtista}?`
+            : '👤 ¿QUIÉN ERA?';
+        } else {
+          quienesTituloEl.textContent = nombreArtista
+            ? `👥 ¿QUIÉNES ERAN ${nombreArtista}?`
+            : '👥 ¿QUIÉNES ERAN?';
+        }
+      }
       quienesEl.textContent = ficha.quienes_er_an || '';
       document.getElementById('sec-night').style.display = ficha.quienes_er_an ? '' : 'none';
 
