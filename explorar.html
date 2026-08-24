@@ -979,6 +979,185 @@ Se muestra sólo cuando explorar.html recibe ?ficha=...
   }
 }
 
+
+/* ==========================================================
+   EL ARCHIVO RECUERDA — PRUEBA VISUAL v2
+   Tipografía editorial + identidad lumínica por box.
+   No modifica JSON, estructura ni lógica.
+   ========================================================== */
+
+/* El relato gana una tipografía más editorial y menos mecánica */
+.ficha-archivo-texto,
+.ficha-archivo-cierre,
+.ficha-seccion p,
+.ficha-lista {
+  font-family: Georgia, 'Times New Roman', serif;
+  letter-spacing: .12px;
+}
+
+.ficha-seccion p,
+.ficha-lista {
+  font-size: 1.03rem;
+  line-height: 1.82;
+}
+
+/* Base común: fondo oscuro, el color vive en el borde y el resplandor */
+#ficha-archivo-ampliada .ficha-seccion {
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* 💿 Datos del disco — cian técnico */
+#sec-datos {
+  border-color: rgba(75,226,255,.42);
+  background:
+    radial-gradient(circle at 8% 0%, rgba(75,226,255,.105), transparent 34%),
+    linear-gradient(145deg, rgba(4,18,27,.78), rgba(4,9,18,.88));
+  box-shadow:
+    inset 0 0 26px rgba(75,226,255,.035),
+    0 0 20px rgba(75,226,255,.09),
+    0 13px 28px rgba(0,0,0,.28);
+}
+#sec-datos h3 {
+  color: #8cecff;
+  text-shadow: 0 0 12px rgba(75,226,255,.30);
+}
+
+/* 📖 Historia — azul profundo */
+#sec-historia {
+  border-color: rgba(92,139,255,.40);
+  background:
+    radial-gradient(circle at 90% 0%, rgba(92,139,255,.105), transparent 38%),
+    linear-gradient(145deg, rgba(7,12,31,.82), rgba(4,9,18,.90));
+  box-shadow:
+    inset 0 0 28px rgba(92,139,255,.035),
+    0 0 21px rgba(92,139,255,.085),
+    0 13px 28px rgba(0,0,0,.28);
+}
+#sec-historia h3 {
+  color: #a9c3ff;
+  text-shadow: 0 0 12px rgba(92,139,255,.28);
+}
+
+/* 👤 / 👥 Artista — violeta */
+#sec-night {
+  border-color: rgba(190,125,255,.38);
+  background:
+    radial-gradient(circle at 10% 0%, rgba(190,125,255,.10), transparent 37%),
+    linear-gradient(145deg, rgba(20,10,30,.72), rgba(5,9,18,.90));
+  box-shadow:
+    inset 0 0 27px rgba(190,125,255,.03),
+    0 0 20px rgba(190,125,255,.08),
+    0 13px 28px rgba(0,0,0,.28);
+}
+#sec-night h3 {
+  color: #d8b4ff;
+  text-shadow: 0 0 12px rgba(190,125,255,.27);
+}
+
+/* 🎚️ Grabación — turquesa */
+#sec-musicos {
+  border-color: rgba(75,224,191,.38);
+  background:
+    radial-gradient(circle at 90% 0%, rgba(75,224,191,.09), transparent 37%),
+    linear-gradient(145deg, rgba(4,23,22,.72), rgba(4,9,18,.90));
+  box-shadow:
+    inset 0 0 27px rgba(75,224,191,.03),
+    0 0 20px rgba(75,224,191,.075),
+    0 13px 28px rgba(0,0,0,.28);
+}
+#sec-musicos h3 {
+  color: #9bf0d9;
+  text-shadow: 0 0 12px rgba(75,224,191,.25);
+}
+
+/* 📊 Listas — dorado */
+#sec-ranking {
+  border-color: rgba(244,201,107,.44);
+  background:
+    radial-gradient(circle at 8% 0%, rgba(244,201,107,.10), transparent 36%),
+    linear-gradient(145deg, rgba(25,18,6,.67), rgba(5,9,17,.90));
+  box-shadow:
+    inset 0 0 27px rgba(244,201,107,.03),
+    0 0 21px rgba(244,201,107,.09),
+    0 13px 28px rgba(0,0,0,.28);
+}
+#sec-ranking h3 {
+  color: #ffd978;
+  text-shadow: 0 0 13px rgba(244,201,107,.30);
+}
+
+/* 💡 Curiosidades — ámbar */
+#sec-sabias {
+  border-color: rgba(255,163,74,.40);
+  background:
+    radial-gradient(circle at 90% 0%, rgba(255,163,74,.095), transparent 38%),
+    linear-gradient(145deg, rgba(28,14,5,.66), rgba(5,9,17,.90));
+  box-shadow:
+    inset 0 0 27px rgba(255,163,74,.03),
+    0 0 20px rgba(255,163,74,.08),
+    0 13px 28px rgba(0,0,0,.28);
+}
+#sec-sabias h3 {
+  color: #ffbd75;
+  text-shadow: 0 0 12px rgba(255,163,74,.28);
+}
+
+/* 📻 Mirada FlashBack — dorado cálido, más protagonista */
+#sec-recordar {
+  border-color: rgba(255,213,104,.52);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(255,213,104,.13), transparent 39%),
+    radial-gradient(circle at 90% 100%, rgba(66,232,255,.045), transparent 36%),
+    linear-gradient(145deg, rgba(27,20,8,.76), rgba(7,10,16,.92));
+  box-shadow:
+    inset 0 0 31px rgba(255,213,104,.04),
+    0 0 25px rgba(255,213,104,.11),
+    0 14px 31px rgba(0,0,0,.31);
+}
+#sec-recordar h3 {
+  color: #ffe29a;
+  text-shadow: 0 0 14px rgba(255,213,104,.34);
+}
+
+/* ❤️ Recuerdo personal — sepia / memoria */
+#sec-recuerdo-personal {
+  border-color: rgba(224,157,106,.46);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(224,157,106,.14), transparent 42%),
+    linear-gradient(145deg, rgba(30,16,9,.73), rgba(9,9,13,.91));
+  box-shadow:
+    inset 0 0 30px rgba(224,157,106,.04),
+    0 0 24px rgba(224,157,106,.095),
+    0 14px 31px rgba(0,0,0,.31);
+}
+#sec-recuerdo-personal h3 {
+  color: #efc29f;
+  text-shadow: 0 0 13px rgba(224,157,106,.30);
+}
+#sec-recuerdo-personal p {
+  color: #f3e4d4;
+  font-style: italic;
+}
+
+/* Hover: conserva el tono propio de cada box sin volverlo estridente */
+#ficha-archivo-ampliada .ficha-seccion:hover {
+  filter: brightness(1.06);
+}
+
+/* En celular evitamos texto demasiado grande y efectos innecesarios */
+@media (max-width:700px) {
+  .ficha-seccion p,
+  .ficha-lista {
+    font-size: .98rem;
+    line-height: 1.75;
+  }
+
+  #ficha-archivo-ampliada .ficha-seccion:hover {
+    filter: none;
+  }
+}
+
 </style>
 </head>
 <body>
