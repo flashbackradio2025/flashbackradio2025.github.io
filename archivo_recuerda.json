@@ -191,9 +191,36 @@
         "Tarzan Boy"
       ],
       "anio": 1985,
-      "texto": "Tarzan Boy irrumpió en 1985 con su inconfundible llamada selvática y llevó a Baltimora al Top 3 británico y al Top 20 estadounidense.",
-      "cierre": "Hay estribillos que uno reconoce antes de recordar siquiera el nombre del grupo.",
-      "slug": "baltimora-tarzan-boy"
+      "texto": "Tarzan Boy convirtió su llamada selvática en uno de los sonidos más reconocibles de 1985 y llevó a Baltimora al Nº3 británico.",
+      "cierre": "Hay canciones que uno reconoce antes de recordar siquiera quién las cantaba.",
+      "slug": "baltimora-tarzan-boy",
+      "imagen": "img/archivo/baltimora-tarzan-boy.jpg",
+      "album": "Living in the Background",
+      "sello": "EMI · Columbia",
+      "single": "Tarzan Boy",
+      "duracion": "3:48 aprox.",
+      "compositor": "Maurizio Bassi · Naimy Hackett",
+      "productor": "Maurizio Bassi",
+      "voz_principal": "Jimmy McShane",
+      "historia": "Baltimora fue un proyecto italiano construido alrededor del productor y músico Maurizio Bassi y de la imagen escénica de Jimmy McShane. Tarzan Boy apareció en 1985 y su llamada inspirada en Tarzán se convirtió inmediatamente en su firma sonora. La canción fue un enorme éxito europeo y alcanzó el Nº3 del Official Singles Chart británico, permaneciendo trece semanas en el Top 100.",
+      "quienes_er_an": "Baltimora funcionó más como un proyecto de estudio italiano que como una banda tradicional. Jimmy McShane, nacido en Irlanda del Norte y radicado en Italia, se convirtió en la figura visible del proyecto, mientras Maurizio Bassi ocupaba un papel central en composición, arreglos y producción.",
+      "musicos": [
+        "Jimmy McShane — imagen y voz asociada al proyecto",
+        "Maurizio Bassi — compositor, músico y productor",
+        "Naimy Hackett — coautora"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº3",
+        "Reino Unido — 13 semanas en el Top 100"
+      ],
+      "sabias_que": [
+        "La característica llamada del estribillo imita el famoso grito asociado a Tarzán.",
+        "Baltimora fue esencialmente un proyecto de estudio italiano.",
+        "Jimmy McShane era originario de Irlanda del Norte y desarrolló su carrera en Italia.",
+        "Tarzan Boy quedó como el gran éxito internacional del proyecto."
+      ],
+      "por_que_recordarlo": "Porque pocas canciones condensan tan bien una época en un solo sonido. Basta escuchar la llamada inicial para que aparezcan inmediatamente los años 80, sus sintetizadores y su estética. El nombre Baltimora puede escapar de la memoria de muchos oyentes; el sonido de Tarzan Boy, en cambio, sigue siendo instantáneo. Precisamente ahí está la razón de recordarlo.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Al Corley",
@@ -206,9 +233,41 @@
         "Square Rooms (1984)"
       ],
       "anio": 1984,
-      "texto": "Tras su etapa como actor, Al Corley se volcó a la música y encontró en Square Rooms uno de los temas synth-pop más recordados de mediados de los 80.",
-      "cierre": "Una canción puede abrir una habitación y llenarla de otra época.",
-      "slug": "al-corley-square-rooms"
+      "texto": "Después de dejar Dynasty, Al Corley cambió la actuación por el synth-pop y encontró en Square Rooms un éxito europeo producido por Harold Faltermeyer.",
+      "cierre": "De la televisión al sintetizador: los 80 también estaban hechos de reinvenciones.",
+      "slug": "al-corley-square-rooms",
+      "imagen": "img/archivo/al-corley-square-rooms.jpg",
+      "album": "Square Rooms",
+      "sello": "Mercury",
+      "single": "Square Rooms",
+      "duracion": "3:40 aprox.",
+      "compositor": "Al Corley · Harold Faltermeyer · Peter John Woods",
+      "productor": "Harold Faltermeyer",
+      "voz_principal": "Al Corley",
+      "historia": "Al Corley era conocido por interpretar a Steven Carrington en Dynasty cuando decidió abandonar la serie y concentrarse en la música. Square Rooms fue el primer sencillo de su álbum debut y encontró una recepción especialmente fuerte en Europa continental. Harold Faltermeyer, figura central de la electrónica y las bandas sonoras de los años 80, produjo la canción y participó en su composición. El resultado combinó synth-pop, una melodía melancólica y una estética plenamente asociada a mediados de aquella década.",
+      "quienes_er_an": "Al Corley es un actor y músico estadounidense que alcanzó notoriedad internacional primero desde la televisión. Su paso hacia la música fue una reinvención poco habitual: lejos de apoyarse solamente en su fama como actor, trabajó con músicos y productores de primer nivel para construir una identidad synth-pop propia.",
+      "musicos": [
+        "Al Corley — voz y composición",
+        "Harold Faltermeyer — teclados, composición y producción",
+        "Peter John Woods — composición",
+        "Rick Marotta — batería",
+        "Günther Gebauer — bajo",
+        "Mats Björklund — guitarra",
+        "Tom Scott — saxofón"
+      ],
+      "ranking": [
+        "Suiza — Nº6",
+        "Éxito destacado en varios mercados de Europa continental"
+      ],
+      "sabias_que": [
+        "Corley dejó Dynasty después de dos temporadas para dedicarse a otros proyectos, entre ellos la música.",
+        "Harold Faltermeyer produjo y coescribió Square Rooms.",
+        "Rick Marotta participó en batería.",
+        "Tom Scott tocó saxofón en la grabación.",
+        "La canción tuvo más impacto en Europa que en Estados Unidos."
+      ],
+      "por_que_recordarlo": "Porque Square Rooms resume una clase de historia muy ochentosa: un actor popular abandona una serie de enorme éxito, se rodea de músicos extraordinarios y termina dejando una canción synth-pop que sobrevive más que buena parte de aquella fama televisiva. El Archivo Recuerda también sirve para recuperar esas conexiones inesperadas entre mundos que parecían separados.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "Rocky Burnette",
@@ -990,6 +1049,684 @@
       "texto": "Forever Young nació en plena era synth-pop y terminó trascendiendo a Alphaville para convertirse en una canción asociada a generaciones enteras.",
       "cierre": "Quizás por eso algunas canciones nunca envejecen.",
       "slug": "alphaville-forever-young"
+    },
+    {
+      "artista": "Alannah Myles",
+      "titulo": "Black Velvet",
+      "aliases_artista": [
+        "Alannah Myles"
+      ],
+      "aliases_titulo": [
+        "Black Velvet"
+      ],
+      "anio": 1989,
+      "texto": "Black Velvet convirtió a Alannah Myles en una figura internacional con una canción inspirada en Elvis Presley y nacida de un viaje a Memphis realizado por su coautor Christopher Ward.",
+      "cierre": "Un viaje, una libreta de apuntes y el recuerdo de Elvis terminaron dando forma a uno de los grandes clásicos de fines de los 80.",
+      "slug": "alannah-myles-black-velvet",
+      "imagen": "img/archivo/alannah-myles-black-velvet.jpg",
+      "album": "Alannah Myles",
+      "sello": "Atlantic Records",
+      "single": "Black Velvet",
+      "duracion": "4:47 aprox.",
+      "compositor": "Christopher Ward · David Tyson",
+      "productor": "David Tyson",
+      "voz_principal": "Alannah Myles",
+      "historia": "Christopher Ward encontró la semilla de Black Velvet mientras trabajaba para MuchMusic. En 1987 viajó a Memphis en un autobús Greyhound junto a decenas de admiradores de Elvis Presley para cubrir el décimo aniversario de su muerte. Durante el recorrido fue tomando notas sobre aquella peregrinación y parte de esas imágenes terminó en la letra que escribió junto a David Tyson. La canción fue pensada para la voz de Alannah Myles y apareció en su álbum debut. Publicada primero en Canadá en 1989 y después impulsada internacionalmente, llegó al Nº1 del Billboard Hot 100 estadounidense en 1990. El éxito culminó con el Grammy a Mejor Interpretación Vocal Rock Femenina.",
+      "quienes_er_an": "Alannah Myles es una cantante canadiense que había pasado años trabajando en la escena musical antes de publicar su primer álbum. Su voz grave, potente y con matices de blues encontró en Black Velvet una canción hecha prácticamente a medida. David Tyson produjo el álbum y Christopher Ward —entonces pareja de Myles— aportó junto a Tyson la composición que transformaría su carrera.",
+      "musicos": [
+        "Alannah Myles — voz principal",
+        "David Tyson — compositor y productor",
+        "Christopher Ward — compositor",
+        "Kurt Schefter — guitarra",
+        "David Wipper — guitarra",
+        "Steve Webster — bajo",
+        "Jorn Andersen — batería",
+        "Lou Pomanti — teclados"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Canadá — Top Singles: Nº10",
+        "Reino Unido — Official Singles Chart: Nº2"
+      ],
+      "sabias_que": [
+        "La letra nació de las notas que Christopher Ward tomó durante un viaje a Memphis con admiradores de Elvis Presley.",
+        "El título alude a la iconografía de Elvis y a las populares pinturas sobre terciopelo negro.",
+        "La expresión sobre una 'nueva religión' de la canción se refiere al impacto cultural del rock and roll.",
+        "Alannah Myles ganó por Black Velvet el Grammy a Mejor Interpretación Vocal Rock Femenina.",
+        "Atlantic también impulsó una versión country de la canción interpretada por Robin Lee."
+      ],
+      "por_que_recordarlo": "Porque detrás de su clima oscuro y sensual hay una verdadera crónica de memoria musical. Black Velvet no nombra directamente a Elvis, pero lo reconstruye mediante imágenes, lugares y sensaciones recogidas durante una peregrinación a Memphis. Alannah Myles convirtió esas referencias en algo propio: una interpretación que atravesó formatos de radio, llegó al Nº1 estadounidense y terminó asociando para siempre su voz con aquella atmósfera. A veces un homenaje funciona mejor cuando no intenta copiar al homenajeado, sino recuperar lo que dejó en quienes lo escucharon.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Alphaville",
+      "titulo": "Big In Japan",
+      "aliases_artista": [
+        "Alphaville"
+      ],
+      "aliases_titulo": [
+        "Big In Japan",
+        "Big in Japan"
+      ],
+      "anio": 1984,
+      "texto": "Detrás del brillante synth-pop de Big in Japan se esconde una historia mucho más oscura: Marian Gold escribió sobre dos personas atrapadas en la escena de drogas del Berlín Occidental.",
+      "cierre": "A veces la canción más luminosa de la pista de baile puede esconder una historia que ocurre en la parte más oscura de la ciudad.",
+      "slug": "alphaville-big-in-japan",
+      "imagen": "img/archivo/alphaville-big-in-japan.jpg",
+      "album": "Forever Young",
+      "sello": "WEA",
+      "single": "Big in Japan",
+      "duracion": "3:52 aprox.",
+      "compositor": "Marian Gold · Bernhard Lloyd · Frank Mertens",
+      "productor": "Orlando (Wolfgang Loos)",
+      "voz_principal": "Marian Gold",
+      "historia": "Big in Japan fue el sencillo debut de Alphaville y apareció en enero de 1984. La base electrónica nació mientras el grupo experimentaba con un Roland System-100M en su estudio casero. Marian Gold desarrolló buena parte de la letra mientras iba a una cita con el dentista, pero el trasfondo provenía de algo mucho menos cotidiano: personas que había conocido en la dura escena de drogas del Berlín Occidental de fines de los años 70, especialmente alrededor de la estación Zoo. El título no habla realmente de Japón. Gold tomó la expresión del nombre de la banda británica Big in Japan y la utilizó como metáfora de alguien que fracasa en su realidad pero imagina que en otro lugar es importante. La canción llegó al Nº1 en Alemania y al Nº8 británico.",
+      "quienes_er_an": "Alphaville nació en Alemania a comienzos de los años 80 alrededor de Marian Gold, Bernhard Lloyd y Frank Mertens. El grupo trabajaba con sintetizadores y secuenciadores en un momento en que esas herramientas estaban redefiniendo el pop europeo. Big in Japan fue su presentación internacional y poco después Forever Young terminaría de establecer la identidad de la banda.",
+      "musicos": [
+        "Marian Gold — voz y composición",
+        "Bernhard Lloyd — teclados, programación y composición",
+        "Frank Mertens — teclados y composición",
+        "Wolfgang Loos (Orlando) — producción",
+        "Wednesday — voces de apoyo"
+      ],
+      "ranking": [
+        "Alemania — Nº1",
+        "Reino Unido — Official Singles Chart: Nº8",
+        "Estados Unidos — Billboard Hot 100: Nº66"
+      ],
+      "sabias_que": [
+        "Marian Gold desarrolló buena parte de la letra mientras caminaba hacia una cita con el dentista.",
+        "La canción está relacionada con la escena de drogas del Berlín Occidental y no con una historia ambientada en Japón.",
+        "La expresión Big in Japan fue inspirada por el nombre de una banda británica de fines de los años 70.",
+        "El característico bajo electrónico fue creado utilizando un Roland System-100M.",
+        "Alphaville tuvo que competir en las listas alemanas con Relax de Frankie Goes to Hollywood antes de alcanzar el Nº1."
+      ],
+      "por_que_recordarlo": "Porque Big in Japan demuestra hasta qué punto una producción puede engañar dulcemente al oído. Su ritmo, sus sintetizadores y un estribillo enorme parecen diseñados para celebrar, pero debajo existe una historia de escapismo, adicción y personas imaginando otra vida posible. Ese contraste es parte de su fuerza. Cuatro décadas después sigue funcionando como canción pop aun para quien desconoce su significado, mientras que conocer el trasfondo cambia por completo la manera de escucharla.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "America",
+      "titulo": "You Can Do Magic",
+      "aliases_artista": [
+        "America"
+      ],
+      "aliases_titulo": [
+        "You Can Do Magic"
+      ],
+      "anio": 1982,
+      "texto": "Cuando America necesitaba recuperar presencia en las listas, Russ Ballard escribió y produjo You Can Do Magic. La canción devolvió al grupo al Top 10 estadounidense.",
+      "cierre": "A veces el regreso de una banda comienza cuando una canción llega desde afuera y parece haber estado esperándola.",
+      "slug": "america-you-can-do-magic",
+      "imagen": "img/archivo/america-you-can-do-magic.jpg",
+      "album": "View from the Ground",
+      "sello": "Capitol Records",
+      "single": "You Can Do Magic",
+      "duracion": "3:49 aprox.",
+      "compositor": "Russ Ballard",
+      "productor": "Russ Ballard",
+      "voz_principal": "Gerry Beckley · Dewey Bunnell",
+      "historia": "A comienzos de los años 80 America llevaba varios años sin entrar al Top 40 estadounidense. Russ Ballard, compositor y productor británico, escribió You Can Do Magic y produjo la grabación para View from the Ground. Ballard construyó prácticamente toda la base instrumental, con Willie Leacox en batería, mientras Gerry Beckley y Dewey Bunnell aportaron las voces. El resultado devolvió a America al centro de la radio: en 1982 alcanzó el Nº8 del Billboard Hot 100 y permaneció cinco semanas en esa posición. El éxito fue tan importante que Ballard volvió a trabajar con el grupo como productor de su siguiente álbum, Your Move.",
+      "quienes_er_an": "America había comenzado como el trío de Gerry Beckley, Dewey Bunnell y Dan Peek, tres jóvenes estadounidenses que se conocieron en Inglaterra. Tras la salida de Peek en 1977, Beckley y Bunnell continuaron como dúo. Para 1982 ya tenían detrás clásicos como A Horse with No Name, Ventura Highway y Sister Golden Hair, pero necesitaban un nuevo impulso comercial. You Can Do Magic terminó conectando aquella historia setentista con la radio de los años 80.",
+      "musicos": [
+        "Gerry Beckley — voz",
+        "Dewey Bunnell — voz",
+        "Russ Ballard — composición, producción e instrumentación principal",
+        "Willie Leacox — batería"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº8",
+        "Reino Unido — Official Singles Chart: Nº59"
+      ],
+      "sabias_que": [
+        "Russ Ballard escribió la canción y produjo la grabación.",
+        "Ballard tocó la instrumentación principal, con Willie Leacox en batería y America concentrado especialmente en las voces.",
+        "Fue el regreso de America al Top 40 estadounidense después de varios años.",
+        "Permaneció cinco semanas en el Nº8 del Billboard Hot 100.",
+        "Su éxito llevó a America a trabajar nuevamente con Russ Ballard en el álbum Your Move."
+      ],
+      "por_que_recordarlo": "Porque You Can Do Magic cuenta una historia de regreso sin necesidad de sonar nostálgica. America no intentó reproducir exactamente el folk rock de sus primeros años: aceptó una canción externa, una producción más contemporánea y encontró una puerta hacia la nueva década. El resultado conservó las voces reconocibles de Beckley y Bunnell mientras cambiaba el paisaje alrededor de ellas. En radio, esa mezcla consiguió algo difícil: hacer que una banda con una década de historia volviera a sonar presente.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "A-Ha",
+      "titulo": "Take On Me",
+      "aliases_artista": [
+        "A-Ha",
+        "a-ha",
+        "A-ha"
+      ],
+      "aliases_titulo": [
+        "Take On Me",
+        "Take on Me"
+      ],
+      "anio": 1985,
+      "texto": "Take on Me necesitó más de un intento antes de conquistar al mundo. Una nueva grabación y un videoclip que mezcló acción real con animación a lápiz transformaron la canción en un fenómeno.",
+      "cierre": "A veces un fracaso no es el final de una canción: simplemente todavía no encontró su forma definitiva.",
+      "slug": "a-ha-take-on-me",
+      "imagen": "img/archivo/a-ha-take-on-me.jpg",
+      "album": "Hunting High and Low",
+      "sello": "Warner Bros. Records",
+      "single": "Take on Me",
+      "duracion": "3:48 aprox.",
+      "compositor": "Magne Furuholmen · Morten Harket · Pål Waaktaar",
+      "productor": "Alan Tarney",
+      "voz_principal": "Morten Harket",
+      "historia": "La historia de Take on Me es también la historia de una canción que se negó a desaparecer. El material provenía de ideas musicales anteriores desarrolladas por Pål Waaktaar y Magne Furuholmen antes de que a-ha alcanzara el éxito. Una primera versión del sencillo publicada en 1984 no consiguió el impacto esperado. Warner permitió un nuevo intento: Alan Tarney produjo una nueva grabación y el director Steve Barron realizó un videoclip que combinaba imagen real con dibujos animados mediante rotoscopia, con Michael Patterson y Candace Reckinger al frente del trabajo de animación. La combinación fue decisiva. En 1985 Take on Me llegó al Nº1 del Billboard Hot 100 y convirtió al trío noruego en un fenómeno internacional.",
+      "quienes_er_an": "a-ha se formó alrededor de tres músicos noruegos: Morten Harket, Pål Waaktaar y Magne Furuholmen. Se trasladaron a Londres buscando una oportunidad internacional y atravesaron rechazos y una primera edición fallida de Take on Me antes de lograr el éxito. La voz de Harket, los teclados de Furuholmen y la composición e instrumentación de Waaktaar construyeron una identidad que iba mucho más allá del videoclip que inicialmente los hizo famosos.",
+      "musicos": [
+        "Morten Harket — voz principal",
+        "Pål Waaktaar — guitarra, composición",
+        "Magne Furuholmen — teclados, composición",
+        "Alan Tarney — productor de la versión de éxito"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Official Singles Chart: Nº2",
+        "Noruega — Nº1"
+      ],
+      "sabias_que": [
+        "Antes del éxito internacional existió una primera versión del sencillo que no consiguió despegar.",
+        "El videoclip dirigido por Steve Barron combinó acción real y animación mediante rotoscopia.",
+        "Michael Patterson y Candace Reckinger participaron de manera decisiva en la animación del video.",
+        "El proceso de rotoscopia implicó dibujar sobre imágenes filmadas para conservar movimientos realistas.",
+        "El video ganó múltiples premios en los MTV Video Music Awards de 1986 y se convirtió en una de las piezas más reconocibles de la era MTV."
+      ],
+      "por_que_recordarlo": "Porque Take on Me es una de las mejores historias sobre insistir cuando una canción todavía no encontró su momento. El tema existía, fue grabado, publicado y no funcionó como esperaban. En lugar de abandonarlo, volvieron a grabarlo y construyeron alrededor de él una obra visual que parecía abrir literalmente una puerta entre dos mundos. El videoclip ayudó a conquistar al público, pero la canción sobrevivió mucho después de que aquella novedad técnica dejara de ser nueva. Esa es quizá la prueba definitiva: detrás de los dibujos había una melodía capaz de sostenerse sola.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Al Stewart",
+      "titulo": "Time Passages",
+      "aliases_artista": [
+        "Al Stewart"
+      ],
+      "aliases_titulo": [
+        "Time Passages"
+      ],
+      "anio": 1978,
+      "texto": "Después de Year of the Cat, Al Stewart volvió a trabajar con Alan Parsons y convirtió Time Passages en otro de sus grandes éxitos, esta vez con una reflexión directa sobre el paso del tiempo.",
+      "cierre": "Hay canciones que hablan del tiempo y otras que, sin proponérselo, terminan atravesándolo.",
+      "slug": "al-stewart-time-passages",
+      "imagen": "img/archivo/al-stewart-time-passages.jpg",
+      "album": "Time Passages",
+      "sello": "Arista Records (EE.UU.) · RCA (Reino Unido)",
+      "single": "Time Passages",
+      "duracion": "6:39 aprox. (álbum)",
+      "compositor": "Al Stewart · Peter White",
+      "productor": "Alan Parsons",
+      "voz_principal": "Al Stewart",
+      "historia": "Time Passages apareció en 1978 como canción principal del álbum que siguió al enorme impacto de Year of the Cat. Al Stewart volvió a trabajar con Alan Parsons en producción, pero esta vez la composición fue compartida con el guitarrista Peter White, quien se convertiría en uno de sus colaboradores habituales. Grabado en Davlen Studios, Los Ángeles, el álbum mantuvo el refinamiento sonoro de su antecesor mientras llevaba la escritura de Stewart hacia una reflexión más personal sobre memoria, estaciones y tiempo. La versión editada del sencillo llegó al Nº7 del Billboard Hot 100 y dominó durante diez semanas la lista Adult Contemporary.",
+      "quienes_er_an": "Para 1978 Al Stewart ya había dejado de ser únicamente un cantautor de culto británico. Year of the Cat lo había llevado a una audiencia internacional y Time Passages debía continuar ese impulso. Alan Parsons seguía aportando precisión a la producción, mientras Peter White comenzaba una colaboración musical con Stewart que se extendería durante años.",
+      "musicos": [
+        "Al Stewart — voz y guitarra",
+        "Peter White — guitarra y coautor",
+        "Alan Parsons — productor",
+        "Músicos de sesión — grabación realizada en Davlen Studios, Los Ángeles"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº7",
+        "Estados Unidos — Billboard Adult Contemporary: Nº1 durante 10 semanas"
+      ],
+      "sabias_que": [
+        "Time Passages fue el álbum inmediatamente posterior a Year of the Cat.",
+        "La canción fue coescrita por Al Stewart y Peter White.",
+        "Alan Parsons volvió a producir el álbum.",
+        "La versión del álbum es considerablemente más larga que la edición preparada para el sencillo.",
+        "El tema permaneció diez semanas en el Nº1 de la lista Adult Contemporary de Billboard."
+      ],
+      "por_que_recordarlo": "Porque pocas canciones encajan tan naturalmente con la idea misma de un archivo. Time Passages habla del tiempo mientras su propia existencia demuestra cómo una grabación puede convertirse en una cápsula temporal. Después de Year of the Cat, Stewart podía haber intentado repetir exactamente la fórmula; en cambio encontró otra manera de unir melodía, narración y una producción minuciosa. Décadas después, escucharla produce justamente aquello de lo que habla: el presente se abre por unos minutos y deja pasar recuerdos de otro tiempo.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "America",
+      "titulo": "A Horse With No Name",
+      "aliases_artista": [
+        "America"
+      ],
+      "aliases_titulo": [
+        "A Horse With No Name",
+        "A Horse with No Name",
+        "Horse With No Name",
+        "Horse with No Name"
+      ],
+      "anio": 1971,
+      "texto": "Escrita por Dewey Bunnell en Inglaterra, A Horse with No Name imaginó un desierto norteamericano desde lejos y terminó convirtiéndose en el primer gran éxito internacional de America.",
+      "cierre": "A veces basta una imagen sencilla —un hombre, un caballo y un desierto— para construir un paisaje que dura medio siglo.",
+      "slug": "america-a-horse-with-no-name",
+      "imagen": "img/archivo/america-a-horse-with-no-name.jpg",
+      "album": "America",
+      "sello": "Warner Bros. Records",
+      "single": "A Horse with No Name",
+      "duracion": "4:10 aprox.",
+      "compositor": "Dewey Bunnell",
+      "productor": "Ian Samwell",
+      "voz_principal": "Dewey Bunnell",
+      "historia": "Dewey Bunnell escribió A Horse with No Name mientras America estaba en Inglaterra. Las imágenes del desierto provenían en buena medida de recuerdos de paisajes estadounidenses que había conocido durante su infancia como hijo de un militar. La canción se incorporó después a una reedición del álbum debut de America y se convirtió en el sencillo que cambió la historia del grupo. Alcanzó el Nº1 en Estados Unidos y Canadá y el Nº3 en el Reino Unido. Su sonido acústico y la voz de Bunnell provocaron además comparaciones inmediatas con Neil Young, una semejanza que acompañaría durante años la historia del tema.",
+      "quienes_er_an": "America estaba formado originalmente por Dewey Bunnell, Gerry Beckley y Dan Peek, tres hijos de militares estadounidenses que se conocieron estudiando en Londres. Aunque su nombre evocaba deliberadamente el país de origen de sus familias, el grupo comenzó su carrera en Inglaterra. La combinación de guitarras acústicas y armonías vocales convirtió rápidamente al trío en una de las formaciones características del folk rock de comienzos de los años 70.",
+      "musicos": [
+        "Dewey Bunnell — voz principal y guitarra acústica",
+        "Gerry Beckley — guitarra acústica de 12 cuerdas y coros",
+        "Dan Peek — bajo y coros",
+        "Ray Cooper — percusión",
+        "Kim Haworth — batería",
+        "Ian Samwell — productor"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Canadá — RPM Top Singles: Nº1",
+        "Reino Unido — Official Singles Chart: Nº3",
+        "Australia — Nº2"
+      ],
+      "sabias_que": [
+        "Dewey Bunnell escribió la canción mientras vivía en Inglaterra, aunque la letra describe un paisaje desértico norteamericano.",
+        "La grabación fue añadida al álbum America después de su éxito inicial como sencillo.",
+        "La voz y el estilo acústico hicieron que mucha gente creyera inicialmente que se trataba de Neil Young.",
+        "El sencillo llegó al Nº1 estadounidense y reemplazó en esa posición a Heart of Gold de Neil Young.",
+        "La formación original de America se había conocido en Londres, no en Estados Unidos."
+      ],
+      "por_que_recordarlo": "Porque A Horse with No Name demuestra cómo una canción puede fabricar un lugar en la imaginación del oyente. Fue escrita lejos del desierto que describe, por un joven que reconstruía paisajes desde la memoria, y terminó convirtiéndose en una de las imágenes sonoras más persistentes de los años 70. Su estructura es sencilla, casi hipnótica, pero precisamente esa economía deja espacio para que cada oyente complete el viaje. El caballo nunca necesitó nombre: la canción ya había creado todo un mundo alrededor de él.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Animotion",
+      "titulo": "Obsession",
+      "aliases_artista": [
+        "Animotion"
+      ],
+      "aliases_titulo": [
+        "Obsession"
+      ],
+      "anio": 1984,
+      "texto": "Antes de convertirse en el gran éxito de Animotion, Obsession ya había sido grabada por sus propios compositores, Holly Knight y Michael Des Barres. La versión del grupo la llevó al Nº6 estadounidense.",
+      "cierre": "Una canción puede tener una primera vida y, de pronto, encontrar a los intérpretes que la convierten en recuerdo colectivo.",
+      "slug": "animotion-obsession",
+      "imagen": "img/archivo/animotion-obsession.jpg",
+      "album": "Animotion",
+      "sello": "Mercury Records",
+      "single": "Obsession",
+      "duracion": "3:58 aprox.",
+      "compositor": "Holly Knight · Michael Des Barres",
+      "productor": "John Ryan",
+      "voz_principal": "Astrid Plane · Bill Wadhams",
+      "historia": "Obsession no fue escrita originalmente para Animotion. Holly Knight y Michael Des Barres compusieron y grabaron una primera versión para la banda sonora de la película A Night in Heaven, publicada en 1983. Poco después, Animotion —un nuevo grupo de Los Ángeles— recibió la canción y la convirtió en el centro de su álbum debut. Con las voces de Astrid Plane y Bill Wadhams dialogando sobre una base de sintetizadores y ritmo electrónico, la nueva versión encontró el equilibrio perfecto entre new wave y pop de radio. En 1985 alcanzó el Nº6 del Billboard Hot 100 y se transformó en el éxito que identificó internacionalmente al grupo.",
+      "quienes_er_an": "Animotion se formó en Los Ángeles en 1983. La alineación que alcanzó el éxito con Obsession incluía a Astrid Plane y Bill Wadhams como voces principales, junto a Charles Ottavio, Don Kirkpatrick, Frenchy O'Brien y Greg Smith. El grupo apareció en plena explosión de la estética new wave y del videoclip, y Obsession reunió todos esos elementos en una grabación inmediatamente reconocible.",
+      "musicos": [
+        "Astrid Plane — voz principal",
+        "Bill Wadhams — voz principal",
+        "Charles Ottavio — bajo",
+        "Don Kirkpatrick — guitarra",
+        "Frenchy O'Brien — batería",
+        "Greg Smith — teclados",
+        "Holly Knight — compositora",
+        "Michael Des Barres — compositor",
+        "John Ryan — productor"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº6",
+        "Australia — Kent Music Report: Nº12",
+        "Sudáfrica — Nº9",
+        "Estados Unidos — Billboard 12-inch Singles Sales: Nº3"
+      ],
+      "sabias_que": [
+        "Holly Knight y Michael Des Barres grabaron la canción antes que Animotion.",
+        "La primera versión apareció vinculada a la película A Night in Heaven.",
+        "La versión de Animotion convirtió la canción en un éxito internacional en 1985.",
+        "El diálogo vocal entre Astrid Plane y Bill Wadhams es una de las características centrales de la grabación.",
+        "Además del Nº6 del Hot 100, alcanzó el Nº3 en la lista estadounidense de ventas de sencillos de 12 pulgadas."
+      ],
+      "por_que_recordarlo": "Porque Obsession es un ejemplo perfecto de una canción que necesitó una segunda vida para encontrar su lugar. La composición ya existía y hasta había sido grabada, pero Animotion le dio una identidad visual y sonora que encajó exactamente con mediados de los años 80. Las voces enfrentadas, los sintetizadores y ese ritmo insistente hicieron que el título pareciera describir también el efecto de la propia canción: una vez que entra, cuesta sacarla de la cabeza.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "A-Ha",
+      "titulo": "The Sun Always Shines on T.V.",
+      "aliases_artista": [
+        "A-Ha",
+        "A‐Ha",
+        "a-ha"
+      ],
+      "aliases_titulo": [
+        "The Sun Always Shines on T.V.",
+        "The Sun Always Shines On T.V."
+      ],
+      "anio": 1985,
+      "texto": "Después de Take on Me, a-ha confirmó que no era un éxito aislado: The Sun Always Shines on T.V. llevó al trío noruego al Nº1 británico a comienzos de 1986.",
+      "cierre": "Después de atravesar la pantalla, a-ha demostró que también podía quedarse en la radio.",
+      "slug": "a-ha-the-sun-always-shines-on-tv",
+      "imagen": "img/archivo/a-ha-the-sun-always-shines-on-tv.jpg",
+      "album": "Hunting High and Low",
+      "sello": "Warner Bros. Records",
+      "single": "The Sun Always Shines on T.V.",
+      "duracion": "5:08 aprox.",
+      "compositor": "Pål Waaktaar",
+      "productor": "Alan Tarney",
+      "voz_principal": "Morten Harket",
+      "historia": "The Sun Always Shines on T.V. apareció en el álbum debut Hunting High and Low y fue lanzada como sencillo después del enorme impacto de Take on Me. Lejos de vivir únicamente de aquel fenómeno, a-ha consiguió con esta canción un éxito todavía mayor en el Reino Unido: llegó al Nº1 y permaneció doce semanas en el Top 100. Su producción amplió el costado dramático y atmosférico del grupo, con sintetizadores densos, percusión poderosa y la voz de Morten Harket llevada a uno de sus registros más intensos.",
+      "quienes_er_an": "a-ha estaba formado por Morten Harket, Pål Waaktaar y Magne Furuholmen. El éxito de Take on Me los había convertido en una sensación internacional, pero The Sun Always Shines on T.V. fue importante porque confirmó que detrás del videoclip existía una banda con identidad musical propia.",
+      "musicos": [
+        "Morten Harket — voz principal",
+        "Pål Waaktaar — composición y guitarra",
+        "Magne Furuholmen — teclados",
+        "Alan Tarney — productor"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº1",
+        "Reino Unido — 12 semanas en el Top 100"
+      ],
+      "sabias_que": [
+        "Fue el sencillo que siguió internacionalmente al gran éxito de Take on Me.",
+        "Alcanzó el Nº1 británico, superando allí el pico de Take on Me.",
+        "Su videoclip continúa visualmente la historia presentada en Take on Me.",
+        "La canción muestra el costado más dramático y expansivo de Hunting High and Low."
+      ],
+      "por_que_recordarlo": "Porque fue la prueba de que a-ha podía sobrevivir al impacto gigantesco de Take on Me. Cuando una banda debuta con un fenómeno mundial, el segundo gran sencillo puede definir si habrá una carrera o sólo un recuerdo aislado. The Sun Always Shines on T.V. respondió con una canción más oscura, intensa y ambiciosa que confirmó que el trío noruego tenía mucho más para decir.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Ace Of Base",
+      "titulo": "All That She Wants",
+      "aliases_artista": [
+        "Ace Of Base",
+        "Ace of Base"
+      ],
+      "aliases_titulo": [
+        "All That She Wants",
+        "All that she wants"
+      ],
+      "anio": 1992,
+      "texto": "All That She Wants convirtió a Ace of Base en un fenómeno internacional y llevó su mezcla de pop, reggae y electrónica al Nº1 en numerosos países.",
+      "cierre": "Un ritmo sencillo, una melodía inmediata y una canción que abrió la puerta de los 90.",
+      "slug": "ace-of-base-all-that-she-wants",
+      "imagen": "img/archivo/ace-of-base-all-that-she-wants.jpg",
+      "album": "Happy Nation / The Sign",
+      "sello": "Mega Records · Arista",
+      "single": "All That She Wants",
+      "duracion": "3:32 aprox.",
+      "compositor": "Jonas Berggren · Ulf Ekberg",
+      "productor": "Denniz PoP · Jonas Berggren · Ulf Ekberg",
+      "voz_principal": "Linn Berggren",
+      "historia": "La canción comenzó como una demo llamada Mr. Ace. Jonas Berggren y Ulf Ekberg llevaron el material al productor Denniz PoP, quien inicialmente no quedó convencido. La historia cambió cuando el cassette quedó atascado en el reproductor de su auto y terminó escuchándolo repetidas veces. El ritmo definitivo tomó inspiración de Another Mother, de Kayo. Publicada en 1992, la nueva versión conquistó numerosos mercados europeos y luego llegó a Norteamérica, donde alcanzó el Nº2 del Billboard Hot 100.",
+      "quienes_er_an": "Ace of Base era un grupo sueco formado por Jonas Berggren, Linn Berggren, Jenny Berggren y Ulf Ekberg. Su combinación de melodías pop muy directas con ritmos de reggae y producción electrónica terminó convirtiéndolos en uno de los nombres internacionales más importantes del pop escandinavo de los años 90.",
+      "musicos": [
+        "Linn Berggren — voz principal",
+        "Jenny Berggren — voces",
+        "Jonas Berggren — composición y producción",
+        "Ulf Ekberg — composición y producción",
+        "Denniz PoP — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº2",
+        "Reino Unido — Nº1",
+        "Nº1 en numerosos países europeos"
+      ],
+      "sabias_que": [
+        "La canción tuvo una primera versión titulada Mr. Ace.",
+        "Denniz PoP inicialmente no quedó convencido con la demo.",
+        "El cassette con la canción quedó atascado en el reproductor de su auto, obligándolo a escucharla repetidamente.",
+        "El patrón rítmico tomó inspiración de Another Mother, de Kayo.",
+        "Fue uno de los sencillos que abrió el camino internacional para Ace of Base."
+      ],
+      "por_que_recordarlo": "Porque All That She Wants parece simple hasta que uno observa la cantidad de decisiones que hicieron posible esa sencillez. Una demo descartable, un cassette atascado, un productor que terminó escuchando una y otra vez y un ritmo inspirado por otra canción se combinaron para crear uno de los sonidos más reconocibles de comienzos de los 90. A veces la historia de un éxito depende tanto del azar como de la melodía.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Albert Hammond",
+      "titulo": "It Never Rains In Southern California",
+      "aliases_artista": [
+        "Albert Hammond"
+      ],
+      "aliases_titulo": [
+        "It Never Rains In Southern California",
+        "It Never Rains In Southern California (1973)",
+        "It Never Rains in Southern California"
+      ],
+      "anio": 1972,
+      "texto": "Albert Hammond convirtió el mito soleado de California en una historia sobre fracaso, hambre y sueños rotos. La canción llegó al Nº5 del Billboard Hot 100.",
+      "cierre": "Detrás del sol de California también podía esconderse una historia de derrota.",
+      "slug": "albert-hammond-it-never-rains-in-southern-california",
+      "imagen": "img/archivo/albert-hammond-it-never-rains-in-southern-california.jpg",
+      "album": "It Never Rains in Southern California",
+      "sello": "Mums Records",
+      "single": "It Never Rains in Southern California",
+      "duracion": "3:50 aprox.",
+      "compositor": "Albert Hammond · Mike Hazlewood",
+      "productor": "Albert Hammond · Don Altfeld",
+      "voz_principal": "Albert Hammond",
+      "historia": "Escrita por Albert Hammond junto a Mike Hazlewood, la canción utiliza la imagen idealizada de California para contar exactamente lo contrario: la experiencia de alguien que llega buscando éxito y termina sin trabajo, sin dinero y avergonzado de volver a casa. Publicada en 1972, se convirtió en el primer gran éxito solista de Hammond y alcanzó el Nº5 del Billboard Hot 100.",
+      "quienes_er_an": "Albert Hammond es un compositor e intérprete nacido en Londres y criado en Gibraltar. Antes de consolidarse como solista ya había trabajado como autor y músico. Con el tiempo escribiría o coescribiría canciones interpretadas por numerosos artistas, desarrollando una carrera paralela tan importante como la de cantante.",
+      "musicos": [
+        "Albert Hammond — voz y composición",
+        "Mike Hazlewood — coautor",
+        "Músicos de sesión de Los Ángeles — acompañamiento de la grabación"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº5"
+      ],
+      "sabias_que": [
+        "La letra cuenta la historia de un aspirante a artista que fracasa en California.",
+        "La canción juega deliberadamente con el mito del clima perfecto del sur de California.",
+        "Fue uno de los primeros grandes éxitos solistas de Hammond.",
+        "Hammond desarrollaría después una extensa carrera como compositor para otros artistas."
+      ],
+      "por_que_recordarlo": "Porque detrás de una melodía amable hay una historia muy poco amable. La canción toma uno de los grandes sueños del siglo XX —llegar a California y triunfar— y lo da vuelta para mostrar la otra cara: hambre, fracaso y vergüenza. Ese contraste entre sonido luminoso y letra amarga es parte de lo que la hizo permanecer.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Asia",
+      "titulo": "Heat Of The Moment",
+      "aliases_artista": [
+        "Asia"
+      ],
+      "aliases_titulo": [
+        "Heat Of The Moment",
+        "Heat of the Moment"
+      ],
+      "anio": 1982,
+      "texto": "Heat of the Moment presentó al supergrupo Asia en 1982 y llevó a músicos provenientes del rock progresivo directamente al Top 5 estadounidense.",
+      "cierre": "Cuatro músicos con enormes historias anteriores encontraron una canción capaz de empezar una historia nueva.",
+      "slug": "asia-heat-of-the-moment",
+      "imagen": "img/archivo/asia-heat-of-the-moment.jpg",
+      "album": "Asia",
+      "sello": "Geffen Records",
+      "single": "Heat of the Moment",
+      "duracion": "3:50 aprox.",
+      "compositor": "John Wetton · Geoff Downes",
+      "productor": "Mike Stone",
+      "voz_principal": "John Wetton",
+      "historia": "Asia reunió a músicos conocidos por bandas fundamentales del rock progresivo: John Wetton, Geoff Downes, Steve Howe y Carl Palmer. Heat of the Moment, escrita por Wetton y Downes, fue su primer sencillo y mostró una estrategia distinta a las largas composiciones de sus grupos anteriores: estructura compacta, gran estribillo y producción de radio. El resultado llegó al Nº4 del Billboard Hot 100 y al Nº1 de Mainstream Rock.",
+      "quienes_er_an": "Asia fue uno de los grandes supergrupos de comienzos de los años 80. John Wetton había pasado por King Crimson y UK; Steve Howe venía de Yes; Carl Palmer de Emerson, Lake & Palmer; y Geoff Downes había integrado The Buggles y Yes. La banda consiguió convertir toda esa experiencia progresiva en canciones mucho más directas.",
+      "musicos": [
+        "John Wetton — voz y bajo",
+        "Geoff Downes — teclados",
+        "Steve Howe — guitarra y koto",
+        "Carl Palmer — batería y percusión",
+        "Mike Stone — productor e ingeniero"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº4",
+        "Estados Unidos — Billboard Mainstream Rock: Nº1"
+      ],
+      "sabias_que": [
+        "Fue el primer sencillo de Asia.",
+        "Los cuatro integrantes ya eran conocidos por otras bandas importantes.",
+        "La canción fue escrita por John Wetton y Geoff Downes.",
+        "El álbum debut Asia llegó al Nº1 del Billboard 200.",
+        "Su estructura compacta contrastaba con buena parte del pasado progresivo de sus integrantes."
+      ],
+      "por_que_recordarlo": "Porque Heat of the Moment es la fotografía de cuatro músicos virtuosos tomando una decisión inesperada: dejar de demostrar cuánto podían tocar y concentrarse en cuánto podían decir en menos de cuatro minutos. Esa síntesis convirtió un supergrupo de veteranos del progresivo en una de las presencias más fuertes de la radio de 1982.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Desireless",
+      "titulo": "Voyage Voyage",
+      "aliases_artista": [
+        "Desireless"
+      ],
+      "aliases_titulo": [
+        "Voyage Voyage",
+        "Voyage, voyage"
+      ],
+      "anio": 1986,
+      "texto": "Voyage Voyage convirtió a Desireless en una figura internacional y logró algo inusual para una canción en francés: atravesar fronteras sin cambiar de idioma.",
+      "cierre": "Una canción sobre viajar terminó haciendo exactamente eso: recorrer el mundo.",
+      "slug": "desireless-voyage-voyage",
+      "imagen": "img/archivo/desireless-voyage-voyage.jpg",
+      "album": "François",
+      "sello": "CBS",
+      "single": "Voyage, voyage",
+      "duracion": "4:22 aprox.",
+      "compositor": "Jean-Michel Rivat · Dominique Dubois",
+      "productor": "Jean-Michel Rivat",
+      "voz_principal": "Desireless",
+      "historia": "Voyage Voyage apareció en 1986 y convirtió a la cantante francesa Desireless en una figura reconocible mucho más allá del mercado francófono. Construida sobre una base electrónica sencilla y una letra que enumera lugares, fronteras y paisajes, la canción consiguió circular internacionalmente sin necesidad de una adaptación al inglés. En el Reino Unido llegó al Nº53, pero en numerosos países europeos su impacto fue mucho mayor.",
+      "quienes_er_an": "Desireless es el nombre artístico de Claudie Fritsch-Mentrop. Su imagen de cabello alto y oscuro, casi escultórico, quedó unida visualmente a Voyage Voyage. Aunque continuó grabando música, aquella canción terminó siendo su gran identificación internacional.",
+      "musicos": [
+        "Desireless — voz principal",
+        "Jean-Michel Rivat — composición y producción",
+        "Dominique Dubois — composición"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº53",
+        "Gran éxito en numerosos mercados de Europa continental"
+      ],
+      "sabias_que": [
+        "La canción consiguió éxito internacional manteniendo la letra en francés.",
+        "El nombre artístico Desireless pertenece a Claudie Fritsch-Mentrop.",
+        "Su imagen visual fue casi tan reconocible como la canción.",
+        "El propio título terminó describiendo perfectamente la trayectoria internacional del tema."
+      ],
+      "por_que_recordarlo": "Porque Voyage Voyage hizo algo que la industria suele considerar difícil: viajar sin traducirse. Su estribillo, su ritmo y la voz de Desireless fueron suficientes para atravesar idiomas y fronteras. Hay canciones que cuentan una historia; ésta casi parece cumplirla. Habla de viajar y lleva décadas haciéndolo.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Dire Straits",
+      "titulo": "Sultans Of Swing",
+      "aliases_artista": [
+        "Dire Straits"
+      ],
+      "aliases_titulo": [
+        "Sultans Of Swing",
+        "Sultans of Swing"
+      ],
+      "anio": 1978,
+      "texto": "Sultans of Swing nació de la observación de una pequeña banda tocando para casi nadie y terminó presentando al mundo el sonido inconfundible de Mark Knopfler y Dire Straits.",
+      "cierre": "Una canción sobre músicos anónimos terminó convirtiendo en famosos a quienes la grabaron.",
+      "slug": "dire-straits-sultans-of-swing",
+      "imagen": "img/archivo/dire-straits-sultans-of-swing.jpg",
+      "album": "Dire Straits",
+      "sello": "Vertigo · Warner Bros.",
+      "single": "Sultans of Swing",
+      "duracion": "5:48 aprox.",
+      "compositor": "Mark Knopfler",
+      "productor": "Muff Winwood",
+      "voz_principal": "Mark Knopfler",
+      "historia": "Mark Knopfler escribió Sultans of Swing después de entrar en un pub y observar a un pequeño grupo tocando jazz para una audiencia mínima. El contraste entre el modesto escenario y el grandilocuente nombre con el que se presentaban le dio la idea central. Una demo de la canción fue difundida por Charlie Gillett en BBC Radio London y ayudó a abrirle las puertas a Dire Straits. La banda grabó su álbum debut en Basing Street Studios en febrero de 1978 bajo la producción de Muff Winwood. El sencillo terminaría alcanzando el Nº8 británico.",
+      "quienes_er_an": "Dire Straits estaba formado entonces por Mark Knopfler, David Knopfler, John Illsley y Pick Withers. En plena época punk y disco, su sonido resultaba extrañamente austero: guitarras limpias, pocos efectos y el estilo de dedos de Mark Knopfler en lugar de una pared de distorsión.",
+      "musicos": [
+        "Mark Knopfler — voz, guitarra líder y rítmica",
+        "David Knopfler — guitarra rítmica",
+        "John Illsley — bajo",
+        "Pick Withers — batería",
+        "Muff Winwood — productor",
+        "Rhett Davies — ingeniero"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº8"
+      ],
+      "sabias_que": [
+        "Una demo temprana fue difundida por Charlie Gillett en BBC Radio London antes del éxito del grupo.",
+        "El álbum debut fue grabado en Basing Street Studios, Londres, en febrero de 1978.",
+        "La versión del álbum es una grabación diferente de la primera versión del sencillo.",
+        "Mark Knopfler toca gran parte de la guitarra con los dedos en lugar de usar púa.",
+        "La letra se inspiró en músicos reales tocando para una audiencia pequeña."
+      ],
+      "por_que_recordarlo": "Porque Sultans of Swing cuenta dos historias al mismo tiempo. Dentro de la letra están esos músicos que siguen tocando aunque casi nadie los escuche. Fuera de ella está Dire Straits, otra banda que todavía no era famosa y que estaba a punto de cambiar de destino gracias precisamente a esa canción. Hay algo hermoso en que una historia sobre músicos anónimos haya terminado presentando al mundo a uno de los guitarristas más reconocibles de su generación.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Donna Summer",
+      "titulo": "I Feel Love",
+      "aliases_artista": [
+        "Donna Summer"
+      ],
+      "aliases_titulo": [
+        "I Feel Love"
+      ],
+      "anio": 1977,
+      "texto": "Con Donna Summer en la voz y Giorgio Moroder construyendo una base casi completamente electrónica, I Feel Love cambió el sonido de la música de baile en 1977.",
+      "cierre": "Antes de que el futuro tuviera nombre, esta canción ya estaba sonando dentro de él.",
+      "slug": "donna-summer-i-feel-love",
+      "imagen": "img/archivo/donna-summer-i-feel-love.jpg",
+      "album": "I Remember Yesterday",
+      "sello": "Casablanca · GTO",
+      "single": "I Feel Love",
+      "duracion": "5:53 aprox.",
+      "compositor": "Donna Summer · Giorgio Moroder · Pete Bellotte",
+      "productor": "Giorgio Moroder · Pete Bellotte",
+      "voz_principal": "Donna Summer",
+      "historia": "I Feel Love cerraba originalmente el álbum conceptual I Remember Yesterday. Mientras el resto del disco recorría estilos inspirados en distintas épocas, la última canción debía representar el futuro. Giorgio Moroder construyó para ello una base electrónica repetitiva y pulsante sobre la que Donna Summer grabó una voz etérea. El resultado fue radical para 1977: llegó al Nº1 británico durante cuatro semanas y se convirtió en una referencia fundamental para la música electrónica, el disco y posteriormente el techno y el house.",
+      "quienes_er_an": "Donna Summer ya era una figura importante de la música disco, pero su colaboración con Giorgio Moroder y Pete Bellotte fue mucho más allá de las fórmulas habituales del género. Juntos desarrollaron una serie de grabaciones que introdujeron nuevas maneras de utilizar sintetizadores, secuenciadores y producción de estudio en la música popular.",
+      "musicos": [
+        "Donna Summer — voz y coautora",
+        "Giorgio Moroder — composición, sintetizadores y producción",
+        "Pete Bellotte — composición y producción",
+        "Keith Forsey — batería"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº1 durante 4 semanas"
+      ],
+      "sabias_que": [
+        "Dentro del concepto de I Remember Yesterday, la canción representaba 'el futuro'.",
+        "Gran parte de su acompañamiento fue construido electrónicamente.",
+        "Su pulso repetitivo tuvo una enorme influencia en generaciones posteriores de música de baile.",
+        "Llegó al Nº1 británico durante cuatro semanas.",
+        "La combinación entre la voz humana de Summer y la precisión electrónica de Moroder fue central para su impacto."
+      ],
+      "por_que_recordarlo": "Porque I Feel Love no sólo fue un éxito: cambió la idea de cómo podía sonar una canción de baile. Su ritmo no imita una banda tocando; parece una máquina que encontró su propio pulso. Sobre esa estructura fría, Donna Summer coloca una voz cálida y casi flotante. Esa tensión entre humanidad y electrónica abrió una puerta que innumerables artistas atravesarían después. Escucharla hoy sigue siendo escuchar el momento en que una parte del futuro comenzó.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Mr. Mister",
+      "titulo": "Broken Wings",
+      "aliases_artista": [
+        "Mr. Mister"
+      ],
+      "aliases_titulo": [
+        "Broken Wings"
+      ],
+      "anio": 1985,
+      "texto": "Broken Wings llevó a Mr. Mister al Nº1 estadounidense en 1985 y convirtió una referencia literaria en una de las grandes baladas electrónicas de la década.",
+      "cierre": "Un título tomado de la literatura terminó encontrando alas propias en la radio.",
+      "slug": "mr-mister-broken-wings",
+      "imagen": "img/archivo/mr-mister-broken-wings.jpg",
+      "album": "Welcome to the Real World",
+      "sello": "RCA",
+      "single": "Broken Wings",
+      "duracion": "4:43 (radio) · 5:42 (álbum)",
+      "compositor": "Richard Page · Steve George · John Lang",
+      "productor": "Mr. Mister · Paul De Villiers",
+      "voz_principal": "Richard Page",
+      "historia": "Broken Wings fue el primer sencillo de Welcome to the Real World, segundo álbum de Mr. Mister. Escrita por Richard Page, Steve George y John Lang, tomó su título y parte de su inspiración del libro Broken Wings de Khalil Gibran. La producción combinó sintetizadores, batería procesada y una interpretación vocal contenida que va creciendo a lo largo de la canción. En diciembre de 1985 llegó al Nº1 del Billboard Hot 100 durante dos semanas y abrió el camino para otro Nº1 consecutivo del grupo, Kyrie.",
+      "quienes_er_an": "Mr. Mister fue una banda estadounidense formada alrededor de Richard Page y Steve George, músicos que ya habían trabajado profesionalmente antes del éxito del grupo. Su sonido combinaba pop rock, tecnología de estudio y arreglos sofisticados característicos de mediados de los años 80.",
+      "musicos": [
+        "Richard Page — voz principal y bajo",
+        "Steve George — teclados y voces",
+        "Pat Mastelotto — batería",
+        "Steve Farris — guitarra",
+        "John Lang — coautor",
+        "Paul De Villiers — coproductor"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1 durante 2 semanas"
+      ],
+      "sabias_que": [
+        "El título y parte de la inspiración provienen de The Broken Wings de Khalil Gibran.",
+        "Fue el primero de dos Nº1 consecutivos de Mr. Mister en Estados Unidos.",
+        "La versión de radio es más corta que la del álbum.",
+        "Kyrie siguió a Broken Wings y también llegó al Nº1 estadounidense."
+      ],
+      "por_que_recordarlo": "Porque Broken Wings combina dos mundos que parecían muy distantes: una referencia literaria de comienzos del siglo XX y la producción tecnológica más reconocible de 1985. La canción demuestra que sintetizadores, baterías procesadas y estudios digitales podían servir para algo profundamente emocional. Cuando la voz de Richard Page crece hacia el final, toda esa tecnología deja de sentirse como maquinaria y se convierte simplemente en canción.",
+      "tipo_artista": "grupo"
     }
   ]
 }
