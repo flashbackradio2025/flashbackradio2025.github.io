@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-08-24",
+  "ultima_actualizacion": "2026-08-25",
   "fichas": [
     {
       "artista": "Night",
@@ -728,14 +728,46 @@
         "Human League"
       ],
       "aliases_titulo": [
-        "Dont You Want Me",
         "Don't You Want Me",
-        "Don´t You Want Me"
+        "Don ́t You Want Me",
+        "Dont You Want Me"
       ],
       "anio": 1981,
-      "texto": "Don't You Want Me convirtió a The Human League en una referencia mundial del synth-pop y alcanzó el Nº1 tanto en Reino Unido como en Estados Unidos.",
-      "cierre": "Sintetizadores, drama y una melodía que todavía pertenece a la radio.",
-      "slug": "human-league-dont-you-want-me"
+      "texto": "Philip Oakey no quería que Don't You Want Me fuera sencillo. La discográfica insistió y terminó convirtiéndose en el Nº1 navideño británico de 1981 y en un Nº1 estadounidense.",
+      "cierre": "Una canción que su propio cantante consideraba demasiado débil terminó definiendo para siempre el sonido de una banda.",
+      "slug": "human-league-dont-you-want-me",
+      "imagen": "img/archivo/human-league-dont-you-want-me.jpg",
+      "album": "Dare",
+      "sello": "Virgin Records",
+      "single": "Don't You Want Me",
+      "duracion": "3:56 aprox.",
+      "compositor": "Jo Callis · Philip Oakey · Philip Adrian Wright",
+      "productor": "Martin Rushent · The Human League",
+      "voz_principal": "Philip Oakey · Susan Ann Sulley",
+      "historia": "Don't You Want Me nació durante las sesiones de Dare y fue inspirada en parte por una fotonovela de revista. Philip Oakey desarrolló la historia como un diálogo entre dos personajes: un hombre que atribuye el éxito de una mujer a su intervención y una mujer que rechaza esa versión. Susan Ann Sulley terminó cantando la respuesta femenina. Lo extraordinario es que Oakey no quería que la canción fuera publicada como cuarto sencillo del álbum: consideraba que no era lo suficientemente buena y que extraer otro sencillo podía ser injusto para quienes ya habían comprado Dare. Virgin insistió. Publicada a fines de noviembre de 1981, llegó rápidamente al Nº1 británico, permaneció allí cinco semanas y fue el Christmas Nº1 de ese año. En 1982 también alcanzó el Nº1 del Billboard Hot 100 estadounidense.",
+      "quienes_er_an": "The Human League había nacido en Sheffield como una banda electrónica experimental. Después de una ruptura interna en 1980, Philip Oakey reconstruyó el grupo incorporando, entre otros, a Susan Ann Sulley y Joanne Catherall. Con Dare, la banda consiguió transformar su interés por sintetizadores en pop masivo sin abandonar su identidad electrónica.",
+      "musicos": [
+        "Philip Oakey — voz y composición",
+        "Susan Ann Sulley — voz",
+        "Joanne Catherall — voz",
+        "Jo Callis — composición, sintetizadores y guitarra",
+        "Philip Adrian Wright — composición y sintetizadores",
+        "Ian Burden — sintetizadores y bajo",
+        "Martin Rushent — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº1 durante 5 semanas",
+        "Estados Unidos — Billboard Hot 100: Nº1 durante 3 semanas"
+      ],
+      "sabias_que": [
+        "Philip Oakey no quería que la canción fuera el cuarto sencillo de Dare.",
+        "La historia fue inspirada en parte por una fotonovela de revista.",
+        "La estructura funciona como un diálogo con dos versiones incompatibles de una misma relación.",
+        "Fue el Nº1 navideño británico de 1981.",
+        "Después llevó a The Human League también al Nº1 estadounidense en 1982."
+      ],
+      "por_que_recordarlo": "Porque detrás de uno de los grandes himnos del synth-pop existe una ironía perfecta: el propio Philip Oakey dudaba de la canción. Don't You Want Me terminó demostrando que el público a veces escucha algo distinto de lo que escucha quien lo creó. Además, su historia no es una simple canción romántica: es una discusión entre dos personas que recuerdan la misma relación de maneras completamente diferentes. Esa tensión narrativa le dio profundidad a un sencillo construido para sonar enorme.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "The Bangles",
@@ -1337,44 +1369,43 @@
         "Obsession"
       ],
       "anio": 1984,
-      "texto": "Antes de convertirse en el gran éxito de Animotion, Obsession ya había sido grabada por sus propios compositores, Holly Knight y Michael Des Barres. La versión del grupo la llevó al Nº6 estadounidense.",
-      "cierre": "Una canción puede tener una primera vida y, de pronto, encontrar a los intérpretes que la convierten en recuerdo colectivo.",
+      "texto": "Antes de convertirse en el gran éxito de Animotion, Obsession ya había sido grabada por sus autores Holly Knight y Michael Des Barres para una película. La banda tomó esa canción ajena y la convirtió en su identidad.",
+      "cierre": "Una canción que ya había tenido una primera vida encontró en Animotion la forma con la que el mundo terminaría recordándola.",
       "slug": "animotion-obsession",
       "imagen": "img/archivo/animotion-obsession.jpg",
       "album": "Animotion",
       "sello": "Mercury Records",
       "single": "Obsession",
-      "duracion": "3:58 aprox.",
+      "duracion": "3:58 aprox. (edición) · 5:34 aprox. (álbum)",
       "compositor": "Holly Knight · Michael Des Barres",
       "productor": "John Ryan",
       "voz_principal": "Astrid Plane · Bill Wadhams",
-      "historia": "Obsession no fue escrita originalmente para Animotion. Holly Knight y Michael Des Barres compusieron y grabaron una primera versión para la banda sonora de la película A Night in Heaven, publicada en 1983. Poco después, Animotion —un nuevo grupo de Los Ángeles— recibió la canción y la convirtió en el centro de su álbum debut. Con las voces de Astrid Plane y Bill Wadhams dialogando sobre una base de sintetizadores y ritmo electrónico, la nueva versión encontró el equilibrio perfecto entre new wave y pop de radio. En 1985 alcanzó el Nº6 del Billboard Hot 100 y se transformó en el éxito que identificó internacionalmente al grupo.",
-      "quienes_er_an": "Animotion se formó en Los Ángeles en 1983. La alineación que alcanzó el éxito con Obsession incluía a Astrid Plane y Bill Wadhams como voces principales, junto a Charles Ottavio, Don Kirkpatrick, Frenchy O'Brien y Greg Smith. El grupo apareció en plena explosión de la estética new wave y del videoclip, y Obsession reunió todos esos elementos en una grabación inmediatamente reconocible.",
+      "historia": "Obsession nació antes que Animotion. Holly Knight y Michael Des Barres escribieron y grabaron una primera versión como dúo para la banda sonora de la película A Night in Heaven, de 1983. Esa grabación no se convirtió en un gran éxito. Mientras Animotion terminaba su álbum debut, el productor John Ryan llevó la canción al grupo. Astrid Plane recordó que enseguida percibieron que tenía potencial de hit. Para Bill Wadhams, principal compositor interno de la banda, la elección fue más ambivalente: le preocupaba que el primer gran sencillo del grupo fuera precisamente una canción que ellos no habían escrito. La apuesta funcionó. Publicada como sencillo, la versión de Animotion llegó al Nº6 del Billboard Hot 100 y al Nº5 británico, y su videoclip recibió amplia difusión en MTV.",
+      "quienes_er_an": "Animotion se formó en Los Ángeles a comienzos de los años 80. Su identidad se construyó alrededor de dos voces principales —Astrid Plane y Bill Wadhams— y una estética muy ligada al new wave y al video musical. La formación del debut incluía también a Charles Ottavio, Don Kirkpatrick, Frenchy O'Brien y músicos de teclado asociados al proyecto.",
       "musicos": [
         "Astrid Plane — voz principal",
-        "Bill Wadhams — voz principal",
+        "Bill Wadhams — voz principal y guitarra",
         "Charles Ottavio — bajo",
         "Don Kirkpatrick — guitarra",
         "Frenchy O'Brien — batería",
-        "Greg Smith — teclados",
+        "Greg Smith — teclados de sesión",
         "Holly Knight — compositora",
         "Michael Des Barres — compositor",
         "John Ryan — productor"
       ],
       "ranking": [
         "Estados Unidos — Billboard Hot 100: Nº6",
-        "Australia — Kent Music Report: Nº12",
-        "Sudáfrica — Nº9",
-        "Estados Unidos — Billboard 12-inch Singles Sales: Nº3"
+        "Reino Unido — Nº5",
+        "Sudáfrica — Nº9"
       ],
       "sabias_que": [
-        "Holly Knight y Michael Des Barres grabaron la canción antes que Animotion.",
-        "La primera versión apareció vinculada a la película A Night in Heaven.",
-        "La versión de Animotion convirtió la canción en un éxito internacional en 1985.",
-        "El diálogo vocal entre Astrid Plane y Bill Wadhams es una de las características centrales de la grabación.",
-        "Además del Nº6 del Hot 100, alcanzó el Nº3 en la lista estadounidense de ventas de sencillos de 12 pulgadas."
+        "Holly Knight y Michael Des Barres habían grabado la canción antes que Animotion.",
+        "La versión original apareció vinculada a la película A Night in Heaven.",
+        "Animotion ya había grabado gran parte de su álbum cuando el productor John Ryan llevó Obsession al grupo.",
+        "Bill Wadhams estaba preocupado porque el primer gran sencillo de la banda no fuera una composición propia.",
+        "El videoclip fue una parte importante del impacto internacional de la versión de Animotion."
       ],
-      "por_que_recordarlo": "Porque Obsession es un ejemplo perfecto de una canción que necesitó una segunda vida para encontrar su lugar. La composición ya existía y hasta había sido grabada, pero Animotion le dio una identidad visual y sonora que encajó exactamente con mediados de los años 80. Las voces enfrentadas, los sintetizadores y ese ritmo insistente hicieron que el título pareciera describir también el efecto de la propia canción: una vez que entra, cuesta sacarla de la cabeza.",
+      "por_que_recordarlo": "Porque Obsession demuestra que una canción puede necesitar cambiar de intérprete para encontrar su forma definitiva. La composición ya existía, ya había sido grabada y ya había aparecido en una película, pero todavía no había encontrado al público masivo. Animotion le dio dos voces enfrentadas, estética visual y una producción que encajaba exactamente con 1984. La paradoja es hermosa: aquello que inicialmente incomodó al compositor principal de la banda terminó siendo la canción que fijó para siempre el nombre Animotion en la memoria popular.",
       "tipo_artista": "grupo"
     },
     {
@@ -1726,6 +1757,385 @@
         "Kyrie siguió a Broken Wings y también llegó al Nº1 estadounidense."
       ],
       "por_que_recordarlo": "Porque Broken Wings combina dos mundos que parecían muy distantes: una referencia literaria de comienzos del siglo XX y la producción tecnológica más reconocible de 1985. La canción demuestra que sintetizadores, baterías procesadas y estudios digitales podían servir para algo profundamente emocional. Cuando la voz de Richard Page crece hacia el final, toda esa tecnología deja de sentirse como maquinaria y se convierte simplemente en canción.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Michael Zager Band",
+      "titulo": "Let's All Chant",
+      "aliases_artista": [
+        "The Michael Zager Band",
+        "Michael Zager Band"
+      ],
+      "aliases_titulo": [
+        "Let's All Chant",
+        "Lets All Chant"
+      ],
+      "anio": 1977,
+      "texto": "Nació de algo que Michael Zager consideró casi demasiado simple: un canto que Jerry Love escuchaba repetirse espontáneamente en los clubes de Nueva York. Esa idea terminó convertida en uno de los himnos disco de 1978.",
+      "cierre": "A veces el sonido que parece más elemental es justamente el que una pista de baile estaba esperando.",
+      "slug": "michael-zager-band-lets-all-chant",
+      "imagen": "img/archivo/michael-zager-band-lets-all-chant.jpg",
+      "album": "Let's All Chant",
+      "sello": "Private Stock Records",
+      "single": "Let's All Chant",
+      "duracion": "3:07 aprox. (7\") · 7:01 aprox. (álbum/12\")",
+      "compositor": "Michael Zager · Alvin Fields",
+      "productor": "Michael Zager",
+      "voz_principal": "Alvin Fields y voces de sesión",
+      "historia": "La semilla de Let's All Chant apareció en los clubes neoyorquinos de fines de los años 70. Jerry Love, ejecutivo y productor asociado a Michael Zager, observó que el público repetía espontáneamente pequeños cantos para participar de la música. Le propuso a Zager construir una canción alrededor de esa idea. Zager, con formación clásica, pensó inicialmente que el recurso era demasiado simple y hasta algo embarazoso, pero terminó escribiendo el tema junto a Alvin Fields. Para darle otra dimensión incorporó una sección de inspiración clásica en medio de la estructura disco. La grabación se realizó en Secret Sound Studios, Manhattan. Lanzado a fines de 1977, el sencillo se convirtió en un éxito internacional durante 1978: llegó al Nº1 del chart disco estadounidense y al Nº8 británico.",
+      "quienes_er_an": "The Michael Zager Band fue un proyecto dirigido por Michael Zager, compositor, arreglador, tecladista, productor y director musical estadounidense. Más que una banda cerrada de formación fija, funcionaba alrededor de Zager con destacados músicos y cantantes de sesión. Alvin Fields fue uno de sus colaboradores fundamentales en composición y voz.",
+      "musicos": [
+        "Michael Zager — compositor, productor, arreglador y director",
+        "Alvin Fields — coautor y voz",
+        "Allan Schwartzberg — batería",
+        "Francisco Centeno — bajo",
+        "Rob Mounsey — teclados",
+        "Jeff Mironov — guitarra",
+        "Rubens Bassini — percusión",
+        "Jerry Love — productor ejecutivo"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº8",
+        "Estados Unidos — Billboard Hot 100: Nº36",
+        "Estados Unidos — chart disco: Nº1"
+      ],
+      "sabias_que": [
+        "La idea nació después de que Jerry Love observara al público de clubes de Nueva York repetir cantos espontáneos sobre la música.",
+        "Michael Zager contó que inicialmente le parecía una idea demasiado simple y hasta embarazosa.",
+        "La sección de sabor clásico fue incorporada deliberadamente para elevar musicalmente la estructura disco.",
+        "La grabación se realizó en Secret Sound Studios, Manhattan.",
+        "Entre los músicos participaron sesionistas de enorme trayectoria como Allan Schwartzberg, Rob Mounsey y Rubens Bassini."
+      ],
+      "por_que_recordarlo": "Porque Let's All Chant resume uno de los principios esenciales de la música de baile: la pista también participa. Una observación casi trivial —personas cantando encima de los discos— terminó convertida en una composición capaz de reunir repetición, orquesta, voces y una sección clásica inesperada. Lo que Zager temía que fuera demasiado sencillo terminó siendo precisamente su fuerza: un gesto colectivo transformado en canción.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Mike Oldfield",
+      "titulo": "Moonlight Shadow",
+      "aliases_artista": [
+        "Mike Oldfield",
+        "Mike Oldfield (maggie Reilly)",
+        "Mike Oldfield (Maggie Reilly)",
+        "Mike Oldfield feat. Maggie Reilly"
+      ],
+      "aliases_titulo": [
+        "Moonlight Shadow"
+      ],
+      "anio": 1983,
+      "texto": "Mike Oldfield pasó meses buscando la forma definitiva de esta canción. Cuando llamó a Maggie Reilly, la voz suave que le pidió terminó dando vida a uno de sus mayores éxitos.",
+      "cierre": "Una melodía trabajada durante meses encontró su identidad definitiva en una voz que casi susurra desde la sombra.",
+      "slug": "mike-oldfield-moonlight-shadow",
+      "imagen": "img/archivo/mike-oldfield-moonlight-shadow.jpg",
+      "album": "Crises",
+      "sello": "Virgin Records",
+      "single": "Moonlight Shadow",
+      "duracion": "3:38 aprox.",
+      "compositor": "Mike Oldfield",
+      "productor": "Mike Oldfield · Simon Phillips",
+      "voz_principal": "Maggie Reilly",
+      "historia": "Moonlight Shadow surgió después de un largo proceso. Mike Oldfield ya tenía una base musical poderosa pero pasó meses buscando qué hacer con ella. Una versión temprana fue trabajada con Hazel O'Connor bajo otro título, pero no prosperó. Oldfield contó después que terminó escribiendo la letra durante una noche, acompañado por un diccionario de rimas, y que llamó a Maggie Reilly para grabar al día siguiente. Al principio Reilly cantó con más fuerza de la que él imaginaba; Oldfield le pidió una interpretación casi de canción de cuna, muy cercana y suave. La voz fue construida con numerosos pequeños retoques hasta alcanzar el carácter íntimo de la grabación final. La canción fue incluida en Crises, de 1983, y alcanzó el Nº4 británico además de ser Nº1 en varios países europeos. Durante años circuló la idea de que hablaba específicamente del asesinato de John Lennon; Oldfield explicó que no fue escrita deliberadamente con ese propósito, aunque admitió que la experiencia podría haber quedado en su subconsciente.",
+      "quienes_er_an": "Mike Oldfield ya era una figura singular del rock británico gracias a obras extensas como Tubular Bells. A comienzos de los años 80 comenzó a combinar esa identidad instrumental con canciones de formato más breve. Maggie Reilly, cantante escocesa que colaboraba con Oldfield desde 1980, fue una pieza decisiva en esa etapa y su voz quedó especialmente asociada a Moonlight Shadow.",
+      "musicos": [
+        "Mike Oldfield — guitarras y Fairlight CMI",
+        "Maggie Reilly — voz principal",
+        "Phil Spalding — bajo",
+        "Simon Phillips — batería y coproductor",
+        "Nigel Luby — ingeniería"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº4",
+        "Nº1 en varios países europeos, entre ellos Austria, Italia, Noruega y Suiza"
+      ],
+      "sabias_que": [
+        "Antes de la versión definitiva existió una tentativa con Hazel O'Connor.",
+        "Oldfield contó que utilizó un diccionario de rimas durante la escritura de la letra.",
+        "Le pidió a Maggie Reilly que cantara muy suavemente, casi como una canción de cuna.",
+        "La voz se trabajó con numerosos pequeños punch-ins para lograr la cercanía buscada.",
+        "La teoría sobre John Lennon no fue el propósito consciente declarado por Oldfield; él habló más bien de una posible influencia subconsciente."
+      ],
+      "por_que_recordarlo": "Porque Moonlight Shadow muestra otra cara de Mike Oldfield: la capacidad de condensar en menos de cuatro minutos la atención al detalle que había aplicado a obras mucho más extensas. La instrumentación es limpia, la melodía parece sencilla y la voz de Maggie Reilly entra sin imponerse, pero detrás hubo meses de búsqueda. Ese contraste entre facilidad aparente y trabajo minucioso es parte de su encanto. La canción suena como si siempre hubiera existido así, cuando en realidad tuvo que encontrar lentamente su forma.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "DeBarge",
+      "titulo": "Who's Holding Donna Now",
+      "aliases_artista": [
+        "DeBarge",
+        "Debarge"
+      ],
+      "aliases_titulo": [
+        "Who's Holding Donna Now",
+        "Whos Holding Donna Now",
+        "Who's Holding Donna Now?"
+      ],
+      "anio": 1985,
+      "texto": "Después del éxito bailable de Rhythm of the Night, DeBarge volvió a la balada con una producción de Jay Graydon y un equipo de músicos de sesión extraordinario.",
+      "cierre": "Una pregunta repetida con la voz de El DeBarge terminó convirtiéndose en una de las grandes baladas de 1985.",
+      "slug": "debarge-whos-holding-donna-now",
+      "imagen": "img/archivo/debarge-whos-holding-donna-now.jpg",
+      "album": "Rhythm of the Night",
+      "sello": "Gordy / Motown",
+      "single": "Who's Holding Donna Now",
+      "duracion": "4:06 aprox. (single)",
+      "compositor": "David Foster · Jay Graydon · Randy Goodrum",
+      "productor": "Jay Graydon",
+      "voz_principal": "El DeBarge",
+      "historia": "Who's Holding Donna Now fue el segundo sencillo del álbum Rhythm of the Night. Después de que el tema principal del disco llevara al grupo hacia un sonido más bailable, esta canción regresó al territorio de las baladas que siempre había sido natural para DeBarge. La composición reunió a David Foster, Jay Graydon y Randy Goodrum; Graydon produjo la grabación y convocó a una sección de músicos y vocalistas de sesión de primer nivel. El DeBarge quedó en el centro con una interpretación contenida y vulnerable. En 1985 la canción llegó al Nº6 del Billboard Hot 100, al Nº2 del ranking R&B y al Nº1 del Adult Contemporary estadounidense.",
+      "quienes_er_an": "DeBarge fue un grupo familiar estadounidense asociado a Motown, formado alrededor de varios hermanos de la familia DeBarge. Su sonido mezcló soul, pop y R&B con un énfasis especial en armonías vocales. El DeBarge se convirtió progresivamente en la voz más identificable del grupo y después desarrollaría una carrera solista.",
+      "musicos": [
+        "El DeBarge — voz principal",
+        "David Foster — composición, arreglo, piano eléctrico y sintetizadores",
+        "Jay Graydon — composición, producción y sintetizadores",
+        "Randy Goodrum — composición",
+        "Abraham Laboriel — bajo",
+        "Carlos Vega — batería",
+        "Steve Porcaro — sintetizadores",
+        "Richard Page y Steve George — coros"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº6",
+        "Estados Unidos — Billboard R&B: Nº2",
+        "Estados Unidos — Billboard Adult Contemporary: Nº1",
+        "Reino Unido — Official Singles Chart: Nº83"
+      ],
+      "sabias_que": [
+        "La canción fue escrita por David Foster, Jay Graydon y Randy Goodrum.",
+        "Richard Page y Steve George, vinculados a Mr. Mister, participaron en los coros.",
+        "La sección instrumental incluyó a Abraham Laboriel, Carlos Vega y Steve Porcaro.",
+        "Fue el segundo Top 10 estadounidense consecutivo de DeBarge después de Rhythm of the Night.",
+        "Llegó al Nº1 del ranking Adult Contemporary de Billboard."
+      ],
+      "por_que_recordarlo": "Porque es una demostración de cómo una balada puede sostenerse casi enteramente sobre una pregunta. El arreglo evita exagerar el drama y deja que la voz de El DeBarge exprese la incertidumbre. Detrás, algunos de los mejores músicos de sesión de Los Ángeles construyen una producción muy precisa sin quitar protagonismo a la emoción. La canción recuerda una época en la que una gran balada pop podía reunir composición, interpretación y oficio de estudio en el mismo lugar.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Tony Esposito",
+      "titulo": "Kalimba de Luna",
+      "aliases_artista": [
+        "Tony Esposito"
+      ],
+      "aliases_titulo": [
+        "Kalimba de Luna",
+        "Kalimba De Luna"
+      ],
+      "anio": 1984,
+      "texto": "Tony Esposito llevó su experiencia como percusionista a una canción que mezcló pop europeo, percusión y ecos africanos. La voz principal, sin embargo, fue de Gianluigi Di Franco.",
+      "cierre": "Una percusión reconocible y una voz inesperada hicieron que Europa entera terminara siguiendo la misma luna.",
+      "slug": "tony-esposito-kalimba-de-luna",
+      "imagen": "img/archivo/tony-esposito-kalimba-de-luna.jpg",
+      "album": "Il grande esploratore",
+      "sello": "Bubble Record",
+      "single": "Kalimba de Luna",
+      "duracion": "3:50 aprox. (7\")",
+      "compositor": "Tony Esposito · Gianluigi Di Franco · Remo Licastro · Joe Amoruso · Mauro Malavasi",
+      "productor": "Mauro Malavasi · Willy David",
+      "voz_principal": "Gianluigi Di Franco",
+      "historia": "Kalimba de Luna apareció en 1984 dentro de Il grande esploratore y convirtió el trabajo percusivo de Tony Esposito en un éxito europeo. Esposito era conocido sobre todo como percusionista, y la canción se construyó alrededor de un pulso muy marcado y de timbres que evocaban instrumentos africanos. Un detalle que a menudo se pierde es que la voz principal pertenece a Gianluigi Di Franco, también coautor del tema. Mauro Malavasi tuvo un papel central en composición, arreglos y producción. La canción ganó la sección de artistas consagrados del festival italiano Un disco per l'estate 1984, llegó al Nº5 en Italia y al Nº6 en Suiza, y ese mismo año fue versionada por varios artistas, entre ellos Boney M.",
+      "quienes_er_an": "Tony Esposito es un percusionista y compositor italiano que desarrolló una carrera marcada por la mezcla entre músicas mediterráneas, africanas, jazz, pop y experimentación rítmica. Antes de su éxito como solista había colaborado con numerosos músicos italianos. Kalimba de Luna fue la canción que llevó esa identidad percusiva a una audiencia europea masiva.",
+      "musicos": [
+        "Tony Esposito — percusión, programación, teclados y arreglos",
+        "Gianluigi Di Franco — voz principal y coautor",
+        "Mauro Malavasi — teclados, metales, programación, arreglos y producción",
+        "Joe Amoruso — coautor",
+        "Remo Licastro — coautor y arreglos"
+      ],
+      "ranking": [
+        "Italia — Nº5",
+        "Suiza — Nº6",
+        "Austria — Nº12"
+      ],
+      "sabias_que": [
+        "Tony Esposito no es la voz principal de la grabación: canta Gianluigi Di Franco.",
+        "El tema ganó la sección de artistas consagrados de Un disco per l'estate 1984.",
+        "Mauro Malavasi participó tanto en la composición como en arreglos y producción.",
+        "Boney M. grabó una versión del tema en 1984.",
+        "La percusión es el verdadero centro de identidad de la grabación."
+      ],
+      "por_que_recordarlo": "Porque Kalimba de Luna es uno de esos temas que suelen reconocerse antes de recordar quién lo grabó. Su identidad no depende de un gran riff de guitarra ni de un estribillo convencional: depende del pulso, de los timbres y de una voz que parece viajar encima de la percusión. En una década dominada por sintetizadores, Esposito consiguió que el ritmo siguiera teniendo algo físico y orgánico. Esa mezcla es la razón por la que todavía suena distinta.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Steve Winwood",
+      "titulo": "Higher Love",
+      "aliases_artista": [
+        "Steve Winwood"
+      ],
+      "aliases_titulo": [
+        "Higher Love"
+      ],
+      "anio": 1986,
+      "texto": "Veinte años después de sus primeros éxitos con Spencer Davis Group, Steve Winwood consiguió su primer Nº1 estadounidense como solista con Higher Love.",
+      "cierre": "Un veterano de los años 60 encontró en 1986 un sonido completamente contemporáneo sin perder su voz.",
+      "slug": "steve-winwood-higher-love",
+      "imagen": "img/archivo/steve-winwood-higher-love.jpg",
+      "album": "Back in the High Life",
+      "sello": "Island Records",
+      "single": "Higher Love",
+      "duracion": "4:14 aprox. (single)",
+      "compositor": "Steve Winwood · Will Jennings",
+      "productor": "Russ Titelman · Steve Winwood",
+      "voz_principal": "Steve Winwood",
+      "historia": "Higher Love abrió el álbum Back in the High Life y marcó uno de los momentos más importantes de la carrera solista de Steve Winwood. Escrita junto a Will Jennings y producida con Russ Titelman, la grabación tomó la voz soul de Winwood y la rodeó de una producción plenamente ochentosa: batería poderosa, sintetizadores, percusión y arreglos de gran escala. Chaka Khan aportó coros y apareció también en el videoclip. En agosto de 1986 la canción llegó al Nº1 del Billboard Hot 100 y alcanzó el Nº13 británico. En los Grammy de 1987 ganó Grabación del Año y Mejor Interpretación Vocal Pop Masculina.",
+      "quienes_er_an": "Steve Winwood llevaba décadas de historia antes de Higher Love. Había sido la voz juvenil de Spencer Davis Group, integró Traffic y Blind Faith y después desarrolló una carrera solista. Su rasgo más particular siempre fue la combinación de voz soul con una enorme capacidad como multiinstrumentista. Higher Love lo presentó a una nueva generación sin borrar esa trayectoria anterior.",
+      "musicos": [
+        "Steve Winwood — voz, teclados y producción",
+        "Chaka Khan — coros",
+        "John Robinson — batería",
+        "Philippe Saisse — bajo sintetizado",
+        "Eddie Martinez — guitarra",
+        "Carole Steele — percusión",
+        "Russ Titelman — productor"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Official Singles Chart: Nº13",
+        "Canadá — Nº1"
+      ],
+      "sabias_que": [
+        "Higher Love fue el primer Nº1 de Steve Winwood en el Billboard Hot 100 como solista.",
+        "Chaka Khan participó en los coros y en el videoclip.",
+        "Ganó el Grammy 1987 a Grabación del Año.",
+        "Winwood ganó también el Grammy a Mejor Interpretación Vocal Pop Masculina por la canción.",
+        "La composición fue realizada junto a Will Jennings."
+      ],
+      "por_que_recordarlo": "Porque Higher Love no fue un simple regreso: fue una actualización completa de Steve Winwood para otra época. El mismo músico que había cantado Gimme Some Lovin' en los 60 apareció dos décadas después sobre una producción cargada de tecnología sin perder su identidad. La canción demuestra que modernizar un sonido no necesariamente significa borrar su origen. En el centro siguen estando esa voz y ese sentido del soul; alrededor, 1986 en toda su dimensión.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Peter Schilling",
+      "titulo": "Terra Titanic",
+      "aliases_artista": [
+        "Peter Schilling"
+      ],
+      "aliases_titulo": [
+        "Terra Titanic",
+        "Terra Titanic (english Version)",
+        "Terra Titanic (English Version)"
+      ],
+      "anio": 1984,
+      "texto": "Después de Major Tom, Peter Schilling volvió a unir pop electrónico y una imagen de desastre tecnológico con Terra Titanic, primer sencillo de su segundo álbum.",
+      "cierre": "Un transatlántico hundido se convirtió en metáfora electrónica para una década fascinada por tecnología, riesgo y futuro.",
+      "slug": "peter-schilling-terra-titanic",
+      "imagen": "img/archivo/peter-schilling-terra-titanic.jpg",
+      "album": "120 Grad",
+      "sello": "WEA",
+      "single": "Terra Titanic",
+      "duracion": "5:03 aprox. (álbum)",
+      "compositor": "Peter Schilling · Ulf Krüger",
+      "productor": "Peter Schilling y equipo de producción del álbum",
+      "voz_principal": "Peter Schilling",
+      "historia": "Terra Titanic fue el primer sencillo de 120 Grad, segundo álbum en alemán de Peter Schilling, publicado en 1984. Después del impacto internacional de Major Tom (völlig losgelöst), Schilling continuó trabajando con imágenes ligadas a ciencia, tecnología y grandes sistemas fuera de control. El Titanic aparece aquí como símbolo inmediato de una catástrofe anunciada: una estructura enorme que avanza mientras las señales de peligro no bastan para evitar el choque. Musicalmente mantiene la síntesis de new wave y electrónica que identificó su primera etapa. El sencillo alcanzó el Nº26 en Alemania y quedó como una de sus canciones más recordadas en Europa continental.",
+      "quienes_er_an": "Peter Schilling es un cantante, compositor y productor alemán cuya obra de los años 80 se caracterizó por temas vinculados a ciencia, espacio, tecnología y la relación humana con esos sistemas. Su gran éxito Major Tom lo conectó con la tradición de la ciencia ficción pop; Terra Titanic trasladó esa mirada desde el espacio hacia una catástrofe histórica convertida en metáfora.",
+      "musicos": [
+        "Peter Schilling — voz y composición",
+        "Ulf Krüger — coautor",
+        "Músicos y programadores del álbum 120 Grad"
+      ],
+      "ranking": [
+        "Alemania — Nº26"
+      ],
+      "sabias_que": [
+        "Fue el primer sencillo del segundo álbum de Schilling, 120 Grad.",
+        "El álbum tuvo posteriormente una versión internacional en inglés titulada Things to Come.",
+        "Schilling volvió a utilizar una gran imagen tecnológica como centro narrativo después de Major Tom.",
+        "La canción fue presentada en televisión alemana durante 1984 y quedó especialmente asociada al synth-pop alemán de esa etapa."
+      ],
+      "por_que_recordarlo": "Porque Terra Titanic demuestra que el synth-pop podía usar una historia conocida por todos y hacerla sonar contemporánea. Schilling no intenta reconstruir musicalmente 1912: toma la imagen del barco condenado y la coloca dentro del lenguaje electrónico de 1984. Así el Titanic deja de ser solamente un hecho histórico y se convierte en símbolo de sistemas enormes que siguen avanzando incluso cuando el peligro ya está a la vista.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Bruce Channel",
+      "titulo": "Hey! Baby",
+      "aliases_artista": [
+        "Bruce Channel"
+      ],
+      "aliases_titulo": [
+        "Hey! Baby",
+        "Hey Baby"
+      ],
+      "anio": 1961,
+      "texto": "Un riff de armónica de Delbert McClinton y una canción escrita por Bruce Channel junto a Margaret Cobb llevaron Hey! Baby al Nº1 estadounidense durante tres semanas.",
+      "cierre": "Antes de convertirse en canto de estadios y fiestas, fue un sencillo texano sostenido por una armónica imposible de olvidar.",
+      "slug": "bruce-channel-hey-baby",
+      "imagen": "img/archivo/bruce-channel-hey-baby.jpg",
+      "album": "Hey! Baby",
+      "sello": "LeCam · Smash Records",
+      "single": "Hey! Baby",
+      "duracion": "2:21 aprox.",
+      "compositor": "Bruce Channel · Margaret Cobb",
+      "productor": "Bruce Channel · Major Bill Smith",
+      "voz_principal": "Bruce Channel",
+      "historia": "Bruce Channel escribió Hey! Baby junto a Margaret Cobb y la grabó en 1961 en Fort Worth, Texas. El sencillo apareció primero en el pequeño sello LeCam y, después de comenzar a llamar la atención, Smash Records lo distribuyó a escala nacional. La característica definitiva de la grabación fue la armónica de Delbert McClinton, cuyo riff dialoga con la voz durante toda la canción. En marzo de 1962 Hey! Baby llegó al Nº1 del Billboard Hot 100 y permaneció allí tres semanas; en el Reino Unido alcanzó el Nº2. Channel y McClinton realizaron después una gira británica en la que coincidieron con unos jóvenes Beatles.",
+      "quienes_er_an": "Bruce Channel es un cantante y compositor estadounidense asociado al pop y rhythm and blues de comienzos de los años 60. Su carrera quedó fuertemente identificada con Hey! Baby, aunque continuó trabajando como compositor. Delbert McClinton, armonicista de la grabación, desarrollaría después una extensa carrera propia como cantante y músico.",
+      "musicos": [
+        "Bruce Channel — voz y coautor",
+        "Delbert McClinton — armónica",
+        "Ray Torres — batería",
+        "Margaret Cobb — coautora",
+        "Major Bill Smith — coproductor"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1 durante 3 semanas",
+        "Reino Unido — Official Singles Chart: Nº2"
+      ],
+      "sabias_que": [
+        "La grabación apareció primero en un sello local de Fort Worth antes de obtener distribución nacional.",
+        "El riff de armónica de Delbert McClinton es uno de los rasgos más reconocibles del tema.",
+        "Channel y McClinton compartieron shows con The Beatles durante una gira británica en 1962.",
+        "La relación entre la armónica de McClinton y el joven John Lennon forma parte de la historia oral de aquellas presentaciones, aunque Channel recordó con humor las exageraciones posteriores.",
+        "La canción ha sobrevivido durante décadas como canto colectivo en fiestas y eventos deportivos."
+      ],
+      "por_que_recordarlo": "Porque Hey! Baby pertenece a esa categoría de canciones que dejaron de necesitar presentación. Dos sílabas, una respuesta colectiva y una armónica bastan para que generaciones enteras sepan qué viene después. Pero antes de transformarse en patrimonio de estadios, películas y fiestas, fue una grabación pequeña hecha en Texas que consiguió cruzar el Atlántico y llegar al Nº1. Esa distancia entre origen modesto y permanencia cultural es su verdadera historia.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "The Art Company",
+      "titulo": "Susanna",
+      "aliases_artista": [
+        "The Art Company",
+        "Art Company",
+        "VOF de Kunst",
+        "V.O.F. de Kunst"
+      ],
+      "aliases_titulo": [
+        "Susanna",
+        "Suzanne"
+      ],
+      "anio": 1983,
+      "texto": "Susanna comenzó como Suzanne en neerlandés, grabada por VOF de Kunst. La versión inglesa apareció bajo el nombre The Art Company y convirtió una canción holandesa en un éxito internacional.",
+      "cierre": "Una misma banda, dos nombres y dos idiomas: una canción local terminó viajando mucho más lejos de lo esperado.",
+      "slug": "art-company-susanna",
+      "imagen": "img/archivo/art-company-susanna.jpg",
+      "album": "Get It Out of Your Head / Maandagmorgen 6:30 (según edición)",
+      "sello": "CBS / Epic",
+      "single": "Susanna",
+      "duracion": "4:41 aprox.",
+      "compositor": "Caroline Bogman · Ferdi Lancee · adaptación inglesa asociada a Mark Foggo",
+      "productor": "Pierre Geoffroy Chateau",
+      "voz_principal": "Nol Havens",
+      "historia": "La canción nació en los Países Bajos como Suzanne, interpretada en neerlandés por VOF de Kunst. El éxito local abrió la posibilidad de llevarla a otros mercados y el mismo grupo utilizó el nombre The Art Company para su actividad en inglés. Así apareció Susanna, adaptación que conservó el tono ligero y el pulso reggae-pop de la original. La estrategia funcionó: la canción llegó al Nº1 en los Países Bajos y la versión internacional alcanzó el Nº12 británico en 1984, permaneciendo once semanas en el Top 100. También tuvo una difusión extraordinaria en numerosos países de Europa y América Latina.",
+      "quienes_er_an": "VOF de Kunst es una banda neerlandesa formada en Tilburg. Para su repertorio en inglés utilizó el nombre The Art Company, algo que explica por qué muchas personas conocen Susanna sin relacionarla inmediatamente con el grupo neerlandés original. Nol Havens fue su voz principal más reconocible y Ferdi Lancee una figura central en composición e instrumentación.",
+      "musicos": [
+        "Nol Havens — voz principal",
+        "Ferdi Lancee — composición e instrumentación",
+        "Caroline Bogman — coautora",
+        "Integrantes de VOF de Kunst / The Art Company — interpretación",
+        "Pierre Geoffroy Chateau — producción"
+      ],
+      "ranking": [
+        "Países Bajos — Nº1 con la canción original Suzanne",
+        "Reino Unido — Official Singles Chart: Nº12",
+        "Austria — Nº2",
+        "Suiza — Nº6"
+      ],
+      "sabias_que": [
+        "La canción fue grabada originalmente en neerlandés con el título Suzanne.",
+        "VOF de Kunst utilizó el nombre The Art Company para su actividad en inglés.",
+        "La versión inglesa se tituló Susanna.",
+        "Llegó al Nº12 británico y permaneció once semanas en el Top 100.",
+        "El mismo tema tuvo una circulación especialmente amplia en Europa y América Latina."
+      ],
+      "por_que_recordarlo": "Porque Susanna guarda una pequeña historia de traducción cultural. No fue una banda extranjera versionando un éxito holandés: fue el mismo grupo cambiando de nombre y de idioma para viajar. Esa transformación explica por qué distintas generaciones recuerdan VOF de Kunst, The Art Company, Suzanne o Susanna como si fueran historias separadas. En realidad son distintas puertas hacia la misma canción.",
       "tipo_artista": "grupo"
     }
   ]
