@@ -8661,6 +8661,417 @@
       ],
       "por_que_recordarlo": "Porque recordar una época también significa conservar sus rincones menos documentados sin rellenar los huecos históricos con datos inventados.",
       "tipo_artista": "grupo"
+    },
+    {
+      "artista": "DJ In The Night",
+      "titulo": "You’re O.K.",
+      "aliases_artista": [
+        "DJ In The Night",
+        "DJ in the Night"
+      ],
+      "aliases_titulo": [
+        "You’re O.K.",
+        "You're O.K.",
+        "You´re O.K",
+        "Youre OK"
+      ],
+      "anio": 2013,
+      "texto": "Raúl conoció esta versión escuchándola en la radio y durante mucho tiempo creyó que era la grabación original. Años después descubrió que la canción había sido popularizada por Ottawan, pero siguió prefiriendo esta interpretación.",
+      "cierre": "Una versión buscada durante años y recuperada gracias a la memoria de la radio.",
+      "slug": "dj-in-the-night-youre-ok",
+      "imagen": "img/archivo/dj-in-the-night-youre-ok.jpg",
+      "album": "Lo Mejor de 1980",
+      "sello": "Edición digital / recopilación",
+      "single": "You’re O.K.",
+      "compositor": "Daniel Vangarde · Jean Kluger",
+      "productor": "No identificado en la edición consultada",
+      "voz_principal": "Intérpretes no identificados — versión acreditada a DJ In The Night",
+      "historia": "La composición original de You’re O.K. pertenece a Daniel Vangarde y Jean Kluger y fue popularizada por Ottawan en 1980. La grabación conservada por FlashBack Radio es una regrabación posterior acreditada a DJ In The Night, con una duración aproximada de 3:14 y publicada digitalmente dentro de la recopilación Lo Mejor de 1980. No se dispone de créditos fiables para identificar a los cantantes o músicos reales de esta versión. Raúl la conoció escuchándola en la radio, la buscó durante mucho tiempo y, aunque después encontró la original de Ottawan, continúa prefiriendo este cover.",
+      "quienes_er_an": "DJ In The Night aparece como nombre de intérprete en recopilaciones digitales de regrabaciones y covers. La información pública disponible no permite identificar con seguridad a los músicos o vocalistas que participaron en esta versión.",
+      "musicos": [
+        "Intérpretes no identificados",
+        "Daniel Vangarde — composición original",
+        "Jean Kluger — composición original"
+      ],
+      "ranking": [
+        "No se encontró un desempeño propio verificable en listas para esta regrabación"
+      ],
+      "sabias_que": [
+        "La canción original fue popularizada por Ottawan en 1980.",
+        "El archivo conservado por FlashBack Radio dura aproximadamente 3:14.",
+        "La carátula utilizada indica honestamente que se trata de una Cover Version.",
+        "La versión original de Ottawan queda pendiente para una futura incorporación independiente."
+      ],
+      "por_que_recordarlo": "Porque El Archivo Recuerda no sólo conserva éxitos oficiales: también esas versiones concretas que una persona escuchó en la radio, buscó durante años y terminó sintiendo como propias.",
+      "tipo_artista": "proyecto"
+    },
+    {
+      "artista": "Don Henley",
+      "titulo": "Dirty Laundry",
+      "aliases_artista": [
+        "Don Henley"
+      ],
+      "aliases_titulo": [
+        "Dirty Laundry"
+      ],
+      "anio": 1982,
+      "texto": "Dirty Laundry convirtió la crítica de Don Henley al sensacionalismo televisivo en uno de sus primeros grandes éxitos solistas.",
+      "cierre": "Noticias, espectáculo y una guitarra que acusa junto con la letra.",
+      "slug": "don-henley-dirty-laundry",
+      "imagen": "img/archivo/don-henley-dirty-laundry.jpg",
+      "album": "I Can't Stand Still",
+      "sello": "Asylum",
+      "single": "Dirty Laundry",
+      "compositor": "Don Henley · Danny Kortchmar",
+      "productor": "Don Henley · Danny Kortchmar · Greg Ladanyi",
+      "voz_principal": "Don Henley",
+      "historia": "Dirty Laundry fue publicada en 1982 dentro del álbum debut solista de Don Henley, I Can't Stand Still. Escrita junto a Danny Kortchmar, critica la transformación de las noticias en espectáculo y el interés de los medios por la tragedia. La grabación reunió a músicos destacados, entre ellos Jeff Porcaro, Steve Lukather y Joe Walsh.",
+      "quienes_er_an": "Don Henley había sido baterista, cantante y compositor de Eagles. Tras la primera separación del grupo inició una carrera solista que mantuvo su capacidad narrativa pero incorporó una producción más propia de los años ochenta.",
+      "musicos": [
+        "Don Henley — voz y producción",
+        "Danny Kortchmar — guitarra, composición y producción",
+        "Jeff Porcaro — batería",
+        "Steve Lukather — guitarra solista",
+        "Joe Walsh — guitarra solista",
+        "Timothy B. Schmit — coros",
+        "Greg Ladanyi — producción e ingeniería"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº3"
+      ],
+      "sabias_que": [
+        "La canción satiriza expresiones y actitudes típicas del periodismo sensacionalista.",
+        "Steve Lukather y Joe Walsh participaron con guitarras solistas.",
+        "Fue uno de los primeros grandes éxitos de Henley fuera de Eagles."
+      ],
+      "por_que_recordarlo": "Porque su crítica al negocio de las noticias no perdió vigencia y porque Henley logró convertir una denuncia amarga en un gran tema de rock radial.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Don Henley",
+      "titulo": "The Boys of Summer",
+      "aliases_artista": [
+        "Don Henley"
+      ],
+      "aliases_titulo": [
+        "The Boys of Summer"
+      ],
+      "anio": 1984,
+      "texto": "The Boys of Summer observa el final de una relación como quien contempla una playa vacía después de la temporada.",
+      "cierre": "Nostalgia, verano terminado y uno de los grandes clásicos de los ochenta.",
+      "slug": "don-henley-the-boys-of-summer",
+      "imagen": "img/archivo/don-henley-the-boys-of-summer.jpg",
+      "album": "Building the Perfect Beast",
+      "sello": "Geffen",
+      "single": "The Boys of Summer",
+      "compositor": "Don Henley · Mike Campbell",
+      "productor": "Don Henley · Danny Kortchmar · Greg Ladanyi · Mike Campbell",
+      "voz_principal": "Don Henley",
+      "historia": "The Boys of Summer fue publicada en 1984 como primer sencillo de Building the Perfect Beast. Mike Campbell desarrolló la base instrumental y Don Henley escribió la letra. La canción llegó al Nº5 estadounidense y al Nº12 británico. Su videoclip, dirigido por Jean-Baptiste Mondino, obtuvo importantes reconocimientos en MTV.",
+      "quienes_er_an": "En su segundo álbum solista, Henley amplió su sonido con sintetizadores y texturas contemporáneas sin abandonar la observación melancólica que había caracterizado varias de sus composiciones con Eagles.",
+      "musicos": [
+        "Don Henley — voz y letra",
+        "Mike Campbell — composición, guitarras y producción",
+        "Danny Kortchmar — producción",
+        "Greg Ladanyi — producción e ingeniería"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº5",
+        "Reino Unido — Official Singles Chart: Nº12"
+      ],
+      "sabias_que": [
+        "Mike Campbell, guitarrista de Tom Petty and the Heartbreakers, creó la base musical.",
+        "El video fue filmado principalmente en blanco y negro.",
+        "La canción recibió el Grammy a Mejor Interpretación Vocal Rock Masculina."
+      ],
+      "por_que_recordarlo": "Porque convirtió la nostalgia adulta en una canción universal: no habla sólo de un amor perdido, sino del instante en que comprendemos que una época completa terminó.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Donna Lewis",
+      "titulo": "I Love You Always Forever",
+      "aliases_artista": [
+        "Donna Lewis"
+      ],
+      "aliases_titulo": [
+        "I Love You Always Forever"
+      ],
+      "anio": 1996,
+      "texto": "Donna Lewis transformó una frase inspirada por la novela Love for Lydia en uno de los mayores éxitos románticos de los noventa.",
+      "cierre": "Una voz etérea y una promesa repetida hasta volverse inolvidable.",
+      "slug": "donna-lewis-i-love-you-always-forever",
+      "imagen": "img/archivo/donna-lewis-i-love-you-always-forever.jpg",
+      "album": "Now in a Minute",
+      "sello": "Atlantic",
+      "single": "I Love You Always Forever",
+      "compositor": "Donna Lewis",
+      "productor": "Donna Lewis · Kevin Killen",
+      "voz_principal": "Donna Lewis",
+      "historia": "I Love You Always Forever fue escrita e interpretada por la cantante galesa Donna Lewis y publicada en 1996 dentro de su debut Now in a Minute. La letra tomó inspiración de la novela Love for Lydia, de H. E. Bates. Alcanzó el Nº2 del Billboard Hot 100 y permaneció allí durante nueve semanas.",
+      "quienes_er_an": "Donna Lewis es una cantante, compositora y multiinstrumentista galesa. Su debut combinó pop, electrónica suave y una voz delicada que se volvió inmediatamente reconocible.",
+      "musicos": [
+        "Donna Lewis — voz, composición, teclados y producción",
+        "Kevin Killen — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº2",
+        "Reino Unido — Top 10"
+      ],
+      "sabias_que": [
+        "La letra se inspiró en una frase de la novela Love for Lydia.",
+        "Permaneció nueve semanas en el Nº2 estadounidense.",
+        "Fue el gran éxito internacional de su álbum debut."
+      ],
+      "por_que_recordarlo": "Porque pocas canciones de los noventa combinan de manera tan inmediata una declaración romántica, una producción delicada y una voz imposible de confundir.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Donna Summer",
+      "titulo": "Hot Stuff",
+      "aliases_artista": [
+        "Donna Summer"
+      ],
+      "aliases_titulo": [
+        "Hot Stuff"
+      ],
+      "anio": 1979,
+      "texto": "Hot Stuff llevó a Donna Summer hacia un sonido más rockero sin abandonar la pista de baile.",
+      "cierre": "Disco, guitarra eléctrica y la Reina de la Disco ampliando sus fronteras.",
+      "slug": "donna-summer-hot-stuff",
+      "imagen": "img/archivo/donna-summer-hot-stuff.jpg",
+      "album": "Bad Girls",
+      "sello": "Casablanca",
+      "single": "Hot Stuff",
+      "compositor": "Pete Bellotte · Harold Faltermeyer · Keith Forsey",
+      "productor": "Giorgio Moroder · Pete Bellotte",
+      "voz_principal": "Donna Summer",
+      "historia": "Hot Stuff fue publicada en 1979 como sencillo de Bad Girls. Escrita por Pete Bellotte, Harold Faltermeyer y Keith Forsey y producida por Giorgio Moroder y Bellotte, incorporó una fuerte guitarra de rock interpretada por Jeff 'Skunk' Baxter. Alcanzó el Nº1 estadounidense y se convirtió en uno de los mayores éxitos de Donna Summer.",
+      "quienes_er_an": "Donna Summer fue una de las figuras centrales de la música disco, pero su carrera abarcó también soul, pop, rock y música electrónica. Bad Girls mostró esa amplitud con especial claridad.",
+      "musicos": [
+        "Donna Summer — voz",
+        "Jeff 'Skunk' Baxter — guitarra solista",
+        "Harold Faltermeyer — teclados y composición",
+        "Keith Forsey — batería y composición",
+        "Pete Bellotte — composición y producción",
+        "Giorgio Moroder — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Top 20"
+      ],
+      "sabias_que": [
+        "Jeff Baxter, exintegrante de Steely Dan y The Doobie Brothers, tocó la guitarra solista.",
+        "Ganó el Grammy a Mejor Interpretación Vocal Rock Femenina.",
+        "Fue uno de los primeros grandes cruces entre disco y rock en la carrera de Summer."
+      ],
+      "por_que_recordarlo": "Porque demuestra que Donna Summer no estaba limitada a una fórmula: podía conservar el pulso disco y, al mismo tiempo, entrar con autoridad en el terreno del rock.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Donna Summer",
+      "titulo": "The Wanderer",
+      "aliases_artista": [
+        "Donna Summer"
+      ],
+      "aliases_titulo": [
+        "The Wanderer"
+      ],
+      "anio": 1980,
+      "texto": "The Wanderer inauguró la etapa de Donna Summer en Geffen y la alejó deliberadamente del sonido disco que había dominado su carrera anterior.",
+      "cierre": "Donna Summer dejando atrás una era sin perder su identidad.",
+      "slug": "donna-summer-the-wanderer",
+      "imagen": "img/archivo/donna-summer-the-wanderer.jpg",
+      "album": "The Wanderer",
+      "sello": "Geffen",
+      "single": "The Wanderer",
+      "compositor": "Giorgio Moroder · Pete Bellotte",
+      "productor": "Giorgio Moroder · Pete Bellotte",
+      "voz_principal": "Donna Summer",
+      "historia": "The Wanderer fue publicada en 1980 como primer sencillo del álbum homónimo y como una de las primeras grabaciones de Donna Summer para Geffen Records. Escrita y producida por Giorgio Moroder y Pete Bellotte, mantuvo elementos electrónicos pero se orientó hacia new wave, rock y pop.",
+      "quienes_er_an": "Después de dominar la era disco junto a Moroder y Bellotte, Donna Summer comenzó la nueva década intentando ampliar su lenguaje musical y escapar de una etiqueta demasiado estrecha.",
+      "musicos": [
+        "Donna Summer — voz",
+        "Giorgio Moroder — composición y producción",
+        "Pete Bellotte — composición y producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº3"
+      ],
+      "sabias_que": [
+        "Fue uno de los primeros lanzamientos importantes de Geffen Records.",
+        "El álbum se apartó conscientemente del disco clásico.",
+        "Summer continuó trabajando con Moroder y Bellotte durante esta transición."
+      ],
+      "por_que_recordarlo": "Porque marca un cambio de época: la artista más asociada a la música disco entrando en los ochenta y buscando un territorio nuevo.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Dr. Hook",
+      "titulo": "Sharing the Night Together",
+      "aliases_artista": [
+        "Dr. Hook",
+        "Dr Hook"
+      ],
+      "aliases_titulo": [
+        "Sharing the Night Together"
+      ],
+      "anio": 1978,
+      "texto": "Sharing the Night Together llevó el costado romántico de Dr. Hook a uno de sus momentos más cálidos y reconocibles.",
+      "cierre": "Una invitación sencilla convertida en clásico del soft rock.",
+      "slug": "dr-hook-sharing-the-night-together",
+      "imagen": "img/archivo/dr-hook-sharing-the-night-together.jpg",
+      "album": "Pleasure and Pain",
+      "sello": "Capitol",
+      "single": "Sharing the Night Together",
+      "compositor": "Ava Aldridge · Eddie Struzick",
+      "productor": "Ron Haffkine",
+      "voz_principal": "Dennis Locorriere",
+      "historia": "Sharing the Night Together fue escrita por Ava Aldridge y Eddie Struzick y grabada por Dr. Hook para Pleasure and Pain. Publicada en 1978, alcanzó el Nº6 del Billboard Hot 100 y reforzó la transición del grupo hacia un soft rock romántico y pulido.",
+      "quienes_er_an": "Dr. Hook había comenzado con un repertorio humorístico, country-rock y canciones de Shel Silverstein. A finales de los setenta desarrolló una etapa más melódica que produjo varios de sus mayores éxitos comerciales.",
+      "musicos": [
+        "Dennis Locorriere — voz principal",
+        "Ray Sawyer — voz",
+        "Ron Haffkine — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº6"
+      ],
+      "sabias_que": [
+        "La canción había sido grabada previamente por Arthur Alexander.",
+        "Ava Aldridge y Eddie Struzick son sus compositores.",
+        "Forma parte del período más romántico y comercial de Dr. Hook."
+      ],
+      "por_que_recordarlo": "Porque representa perfectamente el soft rock nocturno de finales de los setenta: cercano, melódico y construido alrededor de una voz que parece conversar con quien escucha.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Dr. Hook",
+      "titulo": "When You're in Love with a Beautiful Woman",
+      "aliases_artista": [
+        "Dr. Hook",
+        "Dr Hook"
+      ],
+      "aliases_titulo": [
+        "When You're in Love with a Beautiful Woman",
+        "When Youre in Love with a Beautiful Woman"
+      ],
+      "anio": 1978,
+      "texto": "Dr. Hook convirtió los celos y la inseguridad en una canción tan ligera que terminó dominando las listas británicas.",
+      "cierre": "Una melodía amable contando una situación nada tranquila.",
+      "slug": "dr-hook-when-youre-in-love-with-a-beautiful-woman",
+      "imagen": "img/archivo/dr-hook-when-youre-in-love-with-a-beautiful-woman.jpg",
+      "album": "Pleasure and Pain",
+      "sello": "Capitol",
+      "single": "When You're in Love with a Beautiful Woman",
+      "compositor": "Even Stevens",
+      "productor": "Ron Haffkine",
+      "voz_principal": "Dennis Locorriere",
+      "historia": "When You're in Love with a Beautiful Woman fue escrita por Even Stevens y grabada por Dr. Hook para Pleasure and Pain. Publicada inicialmente en 1978 y convertida en gran éxito internacional durante 1979, alcanzó el Nº1 británico durante tres semanas y el Nº6 estadounidense.",
+      "quienes_er_an": "La formación de Dr. Hook combinaba personalidades visuales muy reconocibles con la voz principal de Dennis Locorriere y la producción de Ron Haffkine.",
+      "musicos": [
+        "Dennis Locorriere — voz principal",
+        "Ray Sawyer — voz",
+        "Even Stevens — composición",
+        "Ron Haffkine — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1 durante 3 semanas",
+        "Estados Unidos — Billboard Hot 100: Nº6"
+      ],
+      "sabias_que": [
+        "Fue el único Nº1 británico de Dr. Hook.",
+        "Even Stevens escribió la canción.",
+        "La letra contrasta con una producción deliberadamente suave y accesible."
+      ],
+      "por_que_recordarlo": "Porque transforma una emoción incómoda —la desconfianza— en uno de los estribillos más amables y memorables del grupo.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Dschinghis Khan",
+      "titulo": "Dschinghis Khan",
+      "aliases_artista": [
+        "Dschinghis Khan",
+        "Genghis Khan"
+      ],
+      "aliases_titulo": [
+        "Dschinghis Khan",
+        "Genghis Khan"
+      ],
+      "anio": 1979,
+      "texto": "Dschinghis Khan nació para Eurovisión y convirtió a un conquistador medieval en una extravagante pieza de eurodisco.",
+      "cierre": "Historia, coreografía y eurodisco sin ninguna intención de pasar desapercibidos.",
+      "slug": "dschinghis-khan-dschinghis-khan",
+      "imagen": "img/archivo/dschinghis-khan-dschinghis-khan.jpg",
+      "album": "Dschinghis Khan",
+      "sello": "Jupiter",
+      "single": "Dschinghis Khan",
+      "compositor": "Ralph Siegel · Bernd Meinunger",
+      "productor": "Ralph Siegel",
+      "voz_principal": "Dschinghis Khan",
+      "historia": "Dschinghis Khan fue la canción con la que el grupo alemán homónimo representó a Alemania Occidental en el Festival de Eurovisión de 1979. Compuesta por Ralph Siegel con letra de Bernd Meinunger, terminó en cuarto lugar y se convirtió en un gran éxito en varios países europeos.",
+      "quienes_er_an": "Dschinghis Khan fue creado por el productor y compositor Ralph Siegel para Eurovisión. El grupo combinó voces, vestuario teatral y coreografías basadas libremente en personajes históricos.",
+      "musicos": [
+        "Steve Bender — voz",
+        "Wolfgang Heichel — voz",
+        "Henriette Strobel — voz",
+        "Edina Pop — voz",
+        "Leslie Mandoki — voz",
+        "Louis Hendrik Potgieter — danza e interpretación escénica",
+        "Ralph Siegel — composición y producción",
+        "Bernd Meinunger — letra"
+      ],
+      "ranking": [
+        "Eurovisión 1979 — 4.º lugar",
+        "Alemania Occidental — Nº1"
+      ],
+      "sabias_que": [
+        "Fue creada específicamente para Eurovisión.",
+        "Leslie Mandoki desarrollaría después una extensa carrera como músico y productor.",
+        "El nombre del grupo y la canción corresponde a la forma alemana de Gengis Kan."
+      ],
+      "por_que_recordarlo": "Porque representa el eurodisco como espectáculo total: canción, vestuario, relato histórico y coreografía formando una sola imagen inolvidable.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Duran Duran",
+      "titulo": "Come Undone",
+      "aliases_artista": [
+        "Duran Duran"
+      ],
+      "aliases_titulo": [
+        "Come Undone"
+      ],
+      "anio": 1993,
+      "texto": "Come Undone mostró a Duran Duran en una etapa adulta, atmosférica y distante del brillo juvenil con el que había conquistado los ochenta.",
+      "cierre": "Duran Duran desarmándose con elegancia en los noventa.",
+      "slug": "duran-duran-come-undone",
+      "imagen": "img/archivo/duran-duran-come-undone.jpg",
+      "album": "Duran Duran (The Wedding Album)",
+      "sello": "Parlophone / Capitol",
+      "single": "Come Undone",
+      "compositor": "Simon Le Bon · Nick Rhodes · John Taylor · Warren Cuccurullo",
+      "productor": "Duran Duran",
+      "voz_principal": "Simon Le Bon",
+      "historia": "Come Undone fue publicada en 1993 como segundo sencillo de Duran Duran, conocido como The Wedding Album. La canción surgió durante el trabajo de Nick Rhodes y Warren Cuccurullo y fue completada con la letra y voz de Simon Le Bon. Alcanzó el Nº13 británico y el Nº7 estadounidense.",
+      "quienes_er_an": "Tras varios cambios de formación y una etapa comercial irregular, Duran Duran consiguió en 1993 una importante renovación internacional con Ordinary World y Come Undone.",
+      "musicos": [
+        "Simon Le Bon — voz y composición",
+        "Nick Rhodes — teclados y composición",
+        "John Taylor — bajo y composición",
+        "Warren Cuccurullo — guitarra y composición",
+        "Tessa Niles — coros"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº7",
+        "Reino Unido — Official Singles Chart: Nº13"
+      ],
+      "sabias_que": [
+        "Fue uno de los dos grandes éxitos internacionales del Wedding Album.",
+        "Tessa Niles aportó las voces femeninas.",
+        "La canción mostró un sonido más atmosférico y adulto que los clásicos iniciales del grupo."
+      ],
+      "por_que_recordarlo": "Porque confirmó que Duran Duran podía sobrevivir a su propia imagen ochentosa y encontrar una voz convincente dentro de los años noventa.",
+      "tipo_artista": "grupo"
     }
   ]
 }
