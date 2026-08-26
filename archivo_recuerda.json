@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-08-25",
+  "ultima_actualizacion": "2026-08-26",
   "fichas": [
     {
       "artista": "Night",
@@ -4921,6 +4921,557 @@
         "El tema forma parte de City Limit."
       ],
       "por_que_recordarlo": "Porque permite escuchar a Billy Ocean antes del estrellato mundial. Las semillas de su mezcla de soul, pop y pista ya estaban ahí, varios años antes de que Caribbean Queen lo convirtiera en un nombre global.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Billy Ocean",
+      "titulo": "When the Going Gets Tough, the Tough Get Going",
+      "aliases_artista": [
+        "Billy Ocean"
+      ],
+      "aliases_titulo": [
+        "When the Going Gets Tough, the Tough Get Going",
+        "When the Going Gets Tough, the Tough Get Going (extended version)",
+        "When The Going Gets Tough, The Tough Get Going"
+      ],
+      "anio": 1986,
+      "texto": "When the Going Gets Tough, the Tough Get Going llevó a Billy Ocean al Nº1 británico durante cuatro semanas en 1986 y quedó unida para siempre a la película The Jewel of the Nile.",
+      "cierre": "Una canción construida para avanzar: ritmo, estribillo y una frase que terminó siendo mucho más grande que la película.",
+      "slug": "billy-ocean-when-the-going-gets-tough-the-tough-get-going",
+      "imagen": "img/archivo/billy-ocean-when-the-going-gets-tough-the-tough-get-going.jpg",
+      "album": "Love Zone / The Jewel of the Nile soundtrack",
+      "sello": "Jive",
+      "single": "When the Going Gets Tough, the Tough Get Going",
+      "duracion": "4:04 aprox. (versión presente en FlashBack Radio)",
+      "compositor": "Wayne Brathwaite · Barry Eastmond · Mutt Lange · Billy Ocean",
+      "productor": "Barry Eastmond · Wayne Brathwaite",
+      "voz_principal": "Billy Ocean",
+      "historia": "Publicada a comienzos de 1986, When the Going Gets Tough, the Tough Get Going fue escrita para la película The Jewel of the Nile y terminó superando ampliamente el contexto cinematográfico. En el Reino Unido alcanzó el Nº1 durante cuatro semanas y permaneció dieciséis semanas en el Top 100. La canción apareció también en Love Zone, el álbum que consolidó definitivamente a Billy Ocean como una de las grandes voces del pop-soul de los 80.",
+      "quienes_er_an": "Billy Ocean, nacido Leslie Sebastian Charles en Trinidad y criado en Gran Bretaña, había desarrollado su carrera desde los años 70. A mediados de los 80 encadenó Caribbean Queen, Suddenly, Loverboy y When the Going Gets Tough, convirtiéndose en una figura internacional.",
+      "musicos": [
+        "Billy Ocean — voz",
+        "Barry Eastmond — composición, teclados y producción",
+        "Wayne Brathwaite — composición y producción",
+        "Robert John 'Mutt' Lange — composición"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº1 durante 4 semanas",
+        "Reino Unido — 16 semanas en el Top 100"
+      ],
+      "sabias_que": [
+        "La canción fue creada para The Jewel of the Nile.",
+        "Michael Douglas, Kathleen Turner y Danny DeVito aparecen en el videoclip junto a Billy Ocean.",
+        "En Reino Unido permaneció cuatro semanas consecutivas en el Nº1.",
+        "La versión que actualmente figura en AzuraCast está identificada como extended version."
+      ],
+      "por_que_recordarlo": "Porque pertenece a ese momento en que cine, videoclip y radio funcionaban como una sola máquina cultural. La película pudo quedar asociada a su época; el estribillo, en cambio, siguió caminando solo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Black",
+      "titulo": "Wonderful Life",
+      "aliases_artista": [
+        "Black",
+        "Colin Vearncombe"
+      ],
+      "aliases_titulo": [
+        "Wonderful Life",
+        "Wonderful Life 1987",
+        "Wonderful Life (1987)"
+      ],
+      "anio": 1987,
+      "texto": "Colin Vearncombe convirtió la ironía amarga de Wonderful Life en una de las canciones más elegantes de 1987. La reedición de A&M llegó al Nº8 británico.",
+      "cierre": "A veces una canción llamada Wonderful Life nace justamente cuando la vida no parece maravillosa.",
+      "slug": "black-wonderful-life",
+      "imagen": "img/archivo/black-wonderful-life.jpg",
+      "album": "Wonderful Life",
+      "sello": "A&M",
+      "single": "Wonderful Life",
+      "duracion": "4:01 aprox. (versión presente en FlashBack Radio)",
+      "compositor": "Colin Vearncombe",
+      "productor": "Dave 'Dix' Dickie",
+      "voz_principal": "Colin Vearncombe",
+      "historia": "Wonderful Life fue escrita por Colin Vearncombe, que utilizaba el nombre artístico Black, después de atravesar una etapa personal especialmente difícil. La primera edición independiente de 1986 tuvo una recepción modesta; tras firmar con A&M, la canción fue relanzada en 1987 y alcanzó el Nº8 del Official Singles Chart. El álbum homónimo llegó al Nº3 británico.",
+      "quienes_er_an": "Black fue esencialmente el proyecto artístico del cantante y compositor británico Colin Vearncombe. Su voz contenida y su escritura melancólica encontraron en Wonderful Life un éxito internacional que terminó identificándolo para siempre.",
+      "musicos": [
+        "Colin Vearncombe — voz y composición",
+        "Dave 'Dix' Dickie — teclados, programación y producción",
+        "Roy Corkill — bajo fretless",
+        "Jimmy Hughes — batería",
+        "Martin Green — saxofón"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº8 en la reedición de 1987",
+        "Álbum Wonderful Life — Reino Unido: Nº3"
+      ],
+      "sabias_que": [
+        "La primera edición de 1986 llegó solamente al Nº42 británico.",
+        "La reedición de 1987 fue la que convirtió la canción en un gran éxito.",
+        "El videoclip en blanco y negro fue filmado en la costa de Merseyside.",
+        "El tono luminoso del título contrasta con el período difícil en el que Vearncombe escribió la canción."
+      ],
+      "por_que_recordarlo": "Porque Wonderful Life demuestra que una canción puede decir una cosa en el título y otra completamente distinta en su interior. Esa tensión entre belleza y melancolía es justamente lo que la hizo inolvidable.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Blondie",
+      "titulo": "Heart of Glass",
+      "aliases_artista": [
+        "Blondie"
+      ],
+      "aliases_titulo": [
+        "Heart of Glass",
+        "Heart Of Glass"
+      ],
+      "anio": 1979,
+      "texto": "Heart of Glass llevó a Blondie al Nº1 británico durante cuatro semanas y convirtió una vieja idea del grupo en uno de los encuentros definitivos entre new wave y disco.",
+      "cierre": "CBGB encontró una bola de espejos y nada volvió a sonar exactamente igual.",
+      "slug": "blondie-heart-of-glass",
+      "imagen": "img/archivo/blondie-heart-of-glass.jpg",
+      "album": "Parallel Lines",
+      "sello": "Chrysalis",
+      "single": "Heart of Glass",
+      "duracion": "4:39 aprox. (versión presente en FlashBack Radio)",
+      "compositor": "Debbie Harry · Chris Stein",
+      "productor": "Mike Chapman",
+      "voz_principal": "Debbie Harry",
+      "historia": "Debbie Harry y Chris Stein habían trabajado durante años sobre una canción llamada Once I Had a Love. Durante las sesiones de Parallel Lines, el productor Mike Chapman ayudó a transformarla en Heart of Glass y a llevarla hacia una estética disco inspirada en la música que escuchaba Debbie Harry. Publicada como sencillo en 1979, llegó al Nº1 tanto en Reino Unido como en Estados Unidos.",
+      "quienes_er_an": "Blondie surgió de la escena punk y new wave de Nueva York alrededor de Debbie Harry y Chris Stein. Parallel Lines, producido por Mike Chapman, convirtió al grupo en una fuerza pop internacional sin borrar su origen en clubes como CBGB.",
+      "musicos": [
+        "Debbie Harry — voz",
+        "Chris Stein — guitarra",
+        "Jimmy Destri — teclados",
+        "Nigel Harrison — bajo",
+        "Frank Infante — guitarra",
+        "Clem Burke — batería",
+        "Mike Chapman — productor"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº1 durante 4 semanas",
+        "Estados Unidos — Billboard Hot 100: Nº1"
+      ],
+      "sabias_que": [
+        "La canción existió durante años con el título Once I Had a Love.",
+        "Antes de la versión definitiva el grupo había probado enfoques diferentes, incluido reggae.",
+        "Mike Chapman propuso llevarla hacia un sonido inspirado en Donna Summer.",
+        "Heart of Glass fue el primero de seis Nº1 británicos de Blondie."
+      ],
+      "por_que_recordarlo": "Porque Heart of Glass borró una frontera que parecía importante: una banda surgida del punk podía abrazar el disco sin dejar de sonar como ella misma. El resultado no fue una concesión sino una reinvención.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Blondie",
+      "titulo": "Rapture",
+      "aliases_artista": [
+        "Blondie"
+      ],
+      "aliases_titulo": [
+        "Rapture"
+      ],
+      "anio": 1981,
+      "texto": "Rapture mezcló new wave, disco y rap y llevó a Blondie al Nº1 estadounidense. En Reino Unido alcanzó el Nº5.",
+      "cierre": "Una guitarra, una pista de baile y un rap inesperado entrando juntos en la radio masiva.",
+      "slug": "blondie-rapture",
+      "imagen": "img/archivo/blondie-rapture.jpg",
+      "album": "Autoamerican",
+      "sello": "Chrysalis",
+      "single": "Rapture",
+      "duracion": "7:11 aprox. (versión presente en FlashBack Radio)",
+      "compositor": "Debbie Harry · Chris Stein",
+      "productor": "Mike Chapman",
+      "voz_principal": "Debbie Harry",
+      "historia": "Rapture fue grabada para Autoamerican y publicada como sencillo en 1981. Debbie Harry y Chris Stein construyeron una canción que cambia de territorio a mitad de camino y desemboca en un extenso pasaje de rap. La combinación fue extraordinariamente novedosa para una banda pop-rock ya consagrada. En Estados Unidos alcanzó el Nº1 y en Reino Unido llegó al Nº5.",
+      "quienes_er_an": "Blondie llevaba varios años demostrando que no pertenecía a un único género. Autoamerican llevó esa inquietud todavía más lejos, mezclando pop, reggae, jazz, disco y rap.",
+      "musicos": [
+        "Debbie Harry — voz y composición",
+        "Chris Stein — guitarra y composición",
+        "Clem Burke — batería",
+        "Nigel Harrison — bajo",
+        "Jimmy Destri — teclados",
+        "Frank Infante — guitarra",
+        "Mike Chapman — productor"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº5",
+        "Estados Unidos — Billboard Hot 100: Nº1"
+      ],
+      "sabias_que": [
+        "La canción fue escrita por Debbie Harry y Chris Stein.",
+        "El pasaje de rap convirtió a Rapture en una grabación decisiva para la llegada del rap al público pop masivo estadounidense.",
+        "La letra menciona a Fab Five Freddy.",
+        "Rapture pertenece a Autoamerican, uno de los álbumes más eclécticos de Blondie."
+      ],
+      "por_que_recordarlo": "Porque Rapture suena a una banda que no pedía permiso para cruzar géneros. En 1981 puso rap dentro de un Nº1 pop estadounidense y dejó una fotografía extraordinaria de dos mundos musicales empezando a encontrarse.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Bob McGilpin",
+      "titulo": "Superstar",
+      "aliases_artista": [
+        "Bob McGilpin",
+        "Bob Mcgilpin"
+      ],
+      "aliases_titulo": [
+        "Superstar"
+      ],
+      "anio": 1978,
+      "texto": "Superstar fue la carta de presentación de Bob McGilpin en Butterfly Records en 1978, en plena expansión de la música disco estadounidense.",
+      "cierre": "Detrás de algunos discos olvidados hay carreras enteras esperando volver a ser escuchadas.",
+      "slug": "bob-mcgilpin-superstar",
+      "imagen": "img/archivo/bob-mcgilpin-superstar.jpg",
+      "album": "Superstar",
+      "sello": "Butterfly Records",
+      "single": "Superstar",
+      "duracion": "6:45 aprox. (versión presente en FlashBack Radio)",
+      "compositor": "Bob McGilpin · John Hoke",
+      "productor": "Norman B. Ratner",
+      "voz_principal": "Bob McGilpin",
+      "historia": "Superstar apareció en 1978 como sencillo y como tema central del álbum debut de Bob McGilpin para Butterfly Records. La compañía lanzó una campaña promocional intensa alrededor del artista, incluyendo paquetes especiales y una gira promocional por distintas ciudades estadounidenses. La producción estuvo a cargo de Norman B. Ratner, figura decisiva en el desarrollo inicial del proyecto.",
+      "quienes_er_an": "Bob McGilpin fue un cantante y compositor estadounidense asociado al circuito disco de fines de los 70. Su carrera discográfica en Butterfly Records fue breve pero dejó material que hoy permite reconstruir una zona menos recordada de aquella escena.",
+      "musicos": [
+        "Bob McGilpin — voz y composición",
+        "John Hoke — composición",
+        "Norman B. Ratner — producción"
+      ],
+      "ranking": [
+        "Tema documentado en publicaciones de la industria disco de 1978; se evita adjudicar una posición concreta sin una fuente primaria de chart suficientemente clara."
+      ],
+      "sabias_que": [
+        "Butterfly Records promocionó Superstar con una campaña especialmente ambiciosa.",
+        "El álbum y el sencillo aparecieron en 1978.",
+        "Norman B. Ratner produjo el proyecto.",
+        "La prensa de la época señalaba que el título Superstar fue elegido precisamente para que el público recordara el nombre de McGilpin."
+      ],
+      "por_que_recordarlo": "Porque El Archivo Recuerda no existe sólo para los gigantes. Superstar devuelve al presente a un artista que formó parte real de la maquinaria disco de 1978 y que hoy sobrevive principalmente en colecciones, catálogos y memoria de quienes todavía conservan aquellos discos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Boney M.",
+      "titulo": "Brown Girl in the Ring",
+      "aliases_artista": [
+        "Boney M.",
+        "Boney M"
+      ],
+      "aliases_titulo": [
+        "Brown Girl in the Ring",
+        "Brown Girl In The Ring",
+        "Brown Girl In The Ring (1978)"
+      ],
+      "anio": 1978,
+      "texto": "Brown Girl in the Ring acompañó a Rivers of Babylon en uno de los sencillos británicos más enormes de 1978: el disco permaneció cinco semanas en el Nº1.",
+      "cierre": "Una canción tradicional caribeña terminó viajando por millones de tocadiscos.",
+      "slug": "boney-m-brown-girl-in-the-ring",
+      "imagen": "img/archivo/boney-m-brown-girl-in-the-ring.jpg",
+      "album": "Nightflight to Venus",
+      "sello": "Hansa · Atlantic",
+      "single": "Rivers of Babylon / Brown Girl in the Ring",
+      "duracion": "4:01 aprox. (versión presente en FlashBack Radio)",
+      "compositor": "Tradicional caribeña · adaptación/arreglo de la versión de Boney M.",
+      "productor": "Frank Farian",
+      "voz_principal": "Liz Mitchell · Marcia Barrett",
+      "historia": "Brown Girl in the Ring procede de una canción infantil tradicional del Caribe. Boney M. la grabó para Nightflight to Venus y en Reino Unido quedó unida a Rivers of Babylon en un sencillo que alcanzó el Nº1 durante cinco semanas y permaneció cuarenta semanas en el Top 100.",
+      "quienes_er_an": "Boney M. fue un proyecto creado por el productor alemán Frank Farian y presentado alrededor de Liz Mitchell, Marcia Barrett, Maizie Williams y Bobby Farrell. Su mezcla de disco europeo, voces caribeñas e imagen televisiva produjo algunos de los mayores éxitos de fines de los 70.",
+      "musicos": [
+        "Liz Mitchell — voz",
+        "Marcia Barrett — voz",
+        "Maizie Williams — integrante escénica",
+        "Bobby Farrell — integrante escénico",
+        "Frank Farian — producción y voces de estudio"
+      ],
+      "ranking": [
+        "Reino Unido — Rivers of Babylon / Brown Girl in the Ring: Nº1 durante 5 semanas",
+        "Reino Unido — 40 semanas en el Top 100"
+      ],
+      "sabias_que": [
+        "La canción tiene origen tradicional caribeño.",
+        "En Reino Unido compartió sencillo con Rivers of Babylon.",
+        "El sencillo fue uno de los mayores fenómenos comerciales británicos de 1978.",
+        "Nightflight to Venus también llegó al Nº1 de la lista británica de álbumes."
+      ],
+      "por_que_recordarlo": "Porque detrás de un gigantesco éxito disco hay una canción que existía mucho antes que las luces de la pista. Brown Girl in the Ring conecta tradición oral caribeña con la cultura pop global de 1978.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Boney M.",
+      "titulo": "Daddy Cool",
+      "aliases_artista": [
+        "Boney M.",
+        "Boney M"
+      ],
+      "aliases_titulo": [
+        "Daddy Cool",
+        "Daddy Cool (1976)"
+      ],
+      "anio": 1976,
+      "texto": "Daddy Cool fue el gran despegue europeo de Boney M. y alcanzó el Nº6 británico después de que una actuación televisiva ayudara a disparar su popularidad.",
+      "cierre": "Un bajo, una voz grave y cuatro figuras en televisión: así empezó una maquinaria pop gigantesca.",
+      "slug": "boney-m-daddy-cool",
+      "imagen": "img/archivo/boney-m-daddy-cool.jpg",
+      "album": "Take the Heat off Me",
+      "sello": "Hansa · Atlantic",
+      "single": "Daddy Cool",
+      "duracion": "3:26 aprox. (versión presente en FlashBack Radio)",
+      "compositor": "Frank Farian · George Reyam",
+      "productor": "Frank Farian",
+      "voz_principal": "Liz Mitchell · Frank Farian",
+      "historia": "Daddy Cool fue grabada por el proyecto de Frank Farian y se convirtió en el tema que realmente abrió el camino internacional de Boney M. Una aparición en televisión alemana ayudó a transformar un comienzo comercial lento en un éxito europeo. En Reino Unido alcanzó el Nº6 y permaneció doce semanas en el Top 100.",
+      "quienes_er_an": "La formación visual clásica de Boney M. estaba integrada por Liz Mitchell, Marcia Barrett, Maizie Williams y Bobby Farrell. En estudio, Frank Farian tuvo un papel decisivo tanto en producción como en voces.",
+      "musicos": [
+        "Liz Mitchell — voz",
+        "Marcia Barrett — voz",
+        "Maizie Williams — integrante escénica",
+        "Bobby Farrell — integrante escénico",
+        "Frank Farian — composición, producción y voz de estudio"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº6",
+        "Reino Unido — 12 semanas en el Top 100"
+      ],
+      "sabias_que": [
+        "El grupo consiguió su gran impulso después de interpretar Daddy Cool en televisión alemana.",
+        "Boney M. había comenzado como un proyecto de estudio de Frank Farian.",
+        "Daddy Cool fue uno de los primeros grandes éxitos internacionales de la marca Boney M.",
+        "La canción pertenece al álbum Take the Heat off Me."
+      ],
+      "por_que_recordarlo": "Porque Daddy Cool es el instante en que una idea de estudio se convirtió en fenómeno visual y comercial. Todo lo que vendría después —los grandes Nº1, los trajes, las coreografías— empieza a reconocerse aquí.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Boney M.",
+      "titulo": "Gotta Go Home",
+      "aliases_artista": [
+        "Boney M.",
+        "Boney M"
+      ],
+      "aliases_titulo": [
+        "Gotta Go Home"
+      ],
+      "anio": 1979,
+      "texto": "Gotta Go Home apareció en 1979 y décadas después su melodía regresó inesperadamente al centro de la música dance gracias a Barbra Streisand de Duck Sauce.",
+      "cierre": "Una melodía puede irse a casa y volver treinta años después disfrazada de otro éxito.",
+      "slug": "boney-m-gotta-go-home",
+      "imagen": "img/archivo/boney-m-gotta-go-home.jpg",
+      "album": "Oceans of Fantasy",
+      "sello": "Hansa",
+      "single": "El Lute / Gotta Go Home",
+      "duracion": "5:04 aprox. (versión presente en FlashBack Radio)",
+      "compositor": "Frank Farian · Fred Jay · Heinz Huth · Jürgen Huth",
+      "productor": "Frank Farian",
+      "voz_principal": "Liz Mitchell · Marcia Barrett",
+      "historia": "Gotta Go Home fue publicada en 1979 durante la etapa de Oceans of Fantasy. La canción reutilizó elementos de Hallo Bimmelbahn, composición alemana de Heinz y Jürgen Huth. Décadas más tarde, el riff volvería a circular masivamente al ser sampleado en Barbra Streisand de Duck Sauce.",
+      "quienes_er_an": "Boney M. se encontraba en 1979 en la cima de su período imperial. Después del extraordinario 1978, el proyecto de Frank Farian continuó produciendo sencillos y álbumes de enorme circulación internacional.",
+      "musicos": [
+        "Liz Mitchell — voz",
+        "Marcia Barrett — voz",
+        "Frank Farian — producción",
+        "Heinz Huth — composición original relacionada",
+        "Jürgen Huth — composición original relacionada"
+      ],
+      "ranking": [
+        "Éxito europeo de 1979; la ficha prioriza aquí su historia musical y la posterior reutilización del riff."
+      ],
+      "sabias_que": [
+        "La melodía se relaciona con la composición Hallo Bimmelbahn.",
+        "En 2010 Duck Sauce reutilizó el riff en Barbra Streisand.",
+        "El tema aparece asociado al sencillo El Lute / Gotta Go Home.",
+        "Pertenece a la etapa del álbum Oceans of Fantasy."
+      ],
+      "por_que_recordarlo": "Porque permite ver cómo funciona la memoria musical: una idea puede reaparecer décadas después y ser descubierta por una generación que jamás escuchó el disco original. Gotta Go Home tuvo literalmente un viaje de ida y vuelta.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Boney M.",
+      "titulo": "Hooray! Hooray! It's a Holi-Holiday",
+      "aliases_artista": [
+        "Boney M.",
+        "Boney M"
+      ],
+      "aliases_titulo": [
+        "Hooray! Hooray! It's a Holi-Holiday",
+        "Hooray Hooray Its A Holi-holiday (1979)",
+        "Hooray Hooray Its A Holi-Holiday"
+      ],
+      "anio": 1979,
+      "texto": "Hooray! Hooray! It's a Holi-Holiday fue uno de los sencillos más luminosos de Boney M. en 1979, construido sobre una melodía de raíz tradicional.",
+      "cierre": "Pocas canciones anuncian vacaciones con tanta falta de sutileza y tanta eficacia.",
+      "slug": "boney-m-hooray-hooray-its-a-holi-holiday",
+      "imagen": "img/archivo/boney-m-hooray-hooray-its-a-holi-holiday.jpg",
+      "album": "Single / posteriormente en compilaciones",
+      "sello": "Hansa · Atlantic",
+      "single": "Hooray! Hooray! It's a Holi-Holiday",
+      "duracion": "3:49 aprox. (versión presente en FlashBack Radio)",
+      "compositor": "Frank Farian · Fred Jay · adaptación de melodía tradicional",
+      "productor": "Frank Farian",
+      "voz_principal": "Liz Mitchell · Marcia Barrett",
+      "historia": "Publicada en 1979, Hooray! Hooray! It's a Holi-Holiday explotó el costado más festivo de Boney M. La composición adapta una melodía tradicional europea y la convierte en un tema disco-pop inmediatamente reconocible. Fue un éxito importante en numerosos mercados europeos.",
+      "quienes_er_an": "Boney M. combinaba en esta etapa la producción de Frank Farian con las voces de Liz Mitchell y Marcia Barrett y la presencia escénica de Maizie Williams y Bobby Farrell.",
+      "musicos": [
+        "Liz Mitchell — voz",
+        "Marcia Barrett — voz",
+        "Maizie Williams — integrante escénica",
+        "Bobby Farrell — integrante escénico",
+        "Frank Farian — composición, adaptación y producción",
+        "Fred Jay — composición/adaptación"
+      ],
+      "ranking": [
+        "Top 10 en varios mercados europeos; se evita fijar aquí una posición británica no verificada en esta ficha."
+      ],
+      "sabias_que": [
+        "La canción adapta una melodía tradicional europea.",
+        "AzuraCast conserva actualmente el año 1979 dentro del título; el alias permite que El Archivo la reconozca.",
+        "Fue publicada originalmente como sencillo, no como una de las pistas centrales de un álbum de estudio nuevo.",
+        "El título y el arreglo fueron pensados deliberadamente como una celebración festiva."
+      ],
+      "por_que_recordarlo": "Porque es casi imposible escucharla sin entender inmediatamente qué busca: fiesta, vacaciones y ligereza. Ese tipo de canciones también son memoria; no necesitan profundidad para quedar pegadas a una época.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Boney M.",
+      "titulo": "Ma Baker",
+      "aliases_artista": [
+        "Boney M.",
+        "Boney M"
+      ],
+      "aliases_titulo": [
+        "Ma Baker",
+        "Ma Baker (1979)",
+        "Ma Baker (1977)"
+      ],
+      "anio": 1977,
+      "texto": "Ma Baker transformó la historia criminal estadounidense en teatro disco y llevó a Boney M. hasta el Nº2 británico en 1977.",
+      "cierre": "Historia de gangsters, narración dramática y una pista de baile: Boney M. podía mezclarlo todo.",
+      "slug": "boney-m-ma-baker",
+      "imagen": "img/archivo/boney-m-ma-baker.jpg",
+      "album": "Love for Sale",
+      "sello": "Hansa · Atlantic",
+      "single": "Ma Baker",
+      "duracion": "4:37 aprox. (versión presente en FlashBack Radio)",
+      "compositor": "Frank Farian · Fred Jay · George Reyam",
+      "productor": "Frank Farian",
+      "voz_principal": "Liz Mitchell · Marcia Barrett · Frank Farian",
+      "historia": "Ma Baker apareció en 1977 dentro de Love for Sale. La letra toma como punto de partida la figura de Ma Barker, asociada en la cultura popular a una familia criminal estadounidense, y la convierte en una pequeña película disco con narración, diálogos y estribillo. En Reino Unido alcanzó el Nº2 y permaneció trece semanas en el Top 100.",
+      "quienes_er_an": "Boney M. estaba ya consolidándose como uno de los proyectos de disco-pop más exitosos de Europa. Frank Farian controlaba la producción de estudio mientras la formación visual convertía cada sencillo en un espectáculo televisivo.",
+      "musicos": [
+        "Liz Mitchell — voz",
+        "Marcia Barrett — voz",
+        "Frank Farian — composición, producción y voz de estudio",
+        "Fred Jay — composición",
+        "George Reyam — composición"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº2",
+        "Reino Unido — 13 semanas en el Top 100"
+      ],
+      "sabias_que": [
+        "La figura histórica se llamaba Ma Barker, aunque la canción utiliza Ma Baker.",
+        "La grabación combina narración hablada con estructura disco.",
+        "Fue uno de los grandes sencillos europeos del grupo antes del monumental año 1978.",
+        "Pertenece al álbum Love for Sale."
+      ],
+      "por_que_recordarlo": "Porque Ma Baker demuestra hasta qué punto Boney M. entendía el pop como espectáculo. No es solamente una canción para bailar: es una pequeña escena de cine criminal convertida en disco.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Blondie",
+      "titulo": "One Way or Another",
+      "aliases_artista": [
+        "Blondie"
+      ],
+      "aliases_titulo": [
+        "One Way or Another",
+        "One Way Or Another"
+      ],
+      "anio": 1978,
+      "texto": "One Way or Another nació de una experiencia personal inquietante de Debbie Harry y terminó convertida en una de las canciones más reconocibles de Parallel Lines.",
+      "cierre": "Una historia incómoda transformada en guitarra, ironía y actitud.",
+      "slug": "blondie-one-way-or-another",
+      "imagen": "img/archivo/blondie-one-way-or-another.jpg",
+      "album": "Parallel Lines",
+      "sello": "Chrysalis",
+      "single": "One Way or Another",
+      "duracion": "3:27 aprox.",
+      "compositor": "Debbie Harry · Nigel Harrison",
+      "productor": "Mike Chapman",
+      "voz_principal": "Debbie Harry",
+      "historia": "One Way or Another fue escrita por Debbie Harry y Nigel Harrison para Parallel Lines. Harry explicó que la letra nació a partir de una experiencia de acoso que había vivido años antes; la canción transformó aquella situación en una interpretación desafiante, juguetona y agresiva. En Estados Unidos fue publicada como sencillo en 1979 y se convirtió con el tiempo en uno de los temas más identificables de Blondie.",
+      "quienes_er_an": "Blondie atravesaba con Parallel Lines el momento en que dejó de ser solamente una banda de la escena neoyorquina para convertirse en fenómeno internacional. Mike Chapman llevó al grupo hacia una producción más precisa sin quitarle personalidad.",
+      "musicos": [
+        "Debbie Harry — voz y composición",
+        "Nigel Harrison — bajo y composición",
+        "Chris Stein — guitarra",
+        "Frank Infante — guitarra",
+        "Jimmy Destri — teclados",
+        "Clem Burke — batería",
+        "Mike Chapman — productor"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Top 30",
+        "Reino Unido — no fue un sencillo original importante del ciclo de 1978-79; ingresó al Official Singles Chart décadas después."
+      ],
+      "sabias_que": [
+        "La canción fue escrita por Debbie Harry y Nigel Harrison.",
+        "La letra se inspiró en una experiencia real de acoso vivida por Harry.",
+        "Forma parte de Parallel Lines junto a Heart of Glass.",
+        "No fue uno de los grandes sencillos originales de Blondie en Reino Unido, aunque terminó siendo una de sus canciones más conocidas."
+      ],
+      "por_que_recordarlo": "Porque detrás de su tono divertido hay una historia bastante más oscura. Debbie Harry convirtió una experiencia desagradable en control narrativo: la persona perseguida pasa a ser quien canta, decide el ritmo y domina la escena.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Whitney Houston",
+      "titulo": "I Will Always Love You",
+      "aliases_artista": [
+        "Whitney Houston"
+      ],
+      "aliases_titulo": [
+        "I Will Always Love You"
+      ],
+      "anio": 1992,
+      "texto": "Whitney Houston convirtió la canción escrita por Dolly Parton en 1973 en el gran himno de The Bodyguard y estableció entonces un récord de catorce semanas en el Nº1 estadounidense.",
+      "cierre": "Dolly escribió la despedida. Elvis casi la grabó. Whitney terminó llevándola a todo el planeta.",
+      "slug": "whitney-houston-i-will-always-love-you",
+      "imagen": "img/archivo/whitney-houston-i-will-always-love-you.jpg",
+      "album": "The Bodyguard: Original Soundtrack Album",
+      "sello": "Arista",
+      "single": "I Will Always Love You",
+      "duracion": "4:31 aprox.",
+      "compositor": "Dolly Parton",
+      "productor": "David Foster",
+      "voz_principal": "Whitney Houston",
+      "historia": "Dolly Parton escribió I Will Always Love You en 1973 como una despedida profesional de su mentor y compañero Porter Wagoner y la convirtió en un Nº1 country en 1974. Elvis Presley quiso grabarla, pero su entorno exigía que Dolly cediera la mitad de los derechos editoriales; ella se negó y Elvis nunca hizo la versión. Casi veinte años después, Kevin Costner sugirió la canción para The Bodyguard. Whitney Houston la grabó con David Foster, conservando el comienzo a cappella que Costner defendía. La versión llegó al Nº1 estadounidense durante catorce semanas, un récord en ese momento, y se convirtió en la grabación emblemática de Houston.",
+      "quienes_er_an": "Whitney Houston era ya una de las mayores estrellas vocales del mundo cuando protagonizó The Bodyguard junto a Kevin Costner. La película y su banda sonora ampliaron todavía más su alcance y transformaron I Will Always Love You en una de las baladas más famosas de la historia del pop.",
+      "musicos": [
+        "Whitney Houston — voz",
+        "David Foster — producción y arreglos",
+        "Dolly Parton — composición",
+        "Kevin Costner — impulsor de la elección de la canción y del comienzo a cappella"
+      ],
+      "ranking": [
+        "Estados Unidos — Nº1 durante 14 semanas, récord en ese momento",
+        "Uno de los sencillos más vendidos asociados a una banda sonora"
+      ],
+      "sabias_que": [
+        "Dolly Parton registró la composición y letra en 1973.",
+        "La canción nació como despedida profesional de Porter Wagoner.",
+        "Elvis Presley quiso grabarla, pero Dolly se negó a ceder la mitad de los publishing rights que exigía su mánager.",
+        "Kevin Costner propuso utilizar la canción en The Bodyguard.",
+        "Costner defendió también que la versión comenzara a cappella.",
+        "Dolly Parton avisó a David Foster sobre una tercera estrofa que no aparecía en la versión de Linda Ronstadt que Whitney había usado como referencia.",
+        "La grabación de Whitney fue incorporada al National Recording Registry de Estados Unidos."
+      ],
+      "por_que_recordarlo": "Porque pocas canciones tienen una biografía tan extraordinaria. Primero fue una despedida íntima de Dolly Parton; después pudo haber sido una canción de Elvis; más tarde Linda Ronstadt ayudó indirectamente a que llegara a Whitney; y finalmente una película convirtió aquella composición country en un fenómeno global. La decisión de Dolly de conservar sus derechos hizo además que pudiera beneficiarse plenamente cuando la canción alcanzó una dimensión que nadie podía prever en 1973.",
       "recuerdo_personal": "",
       "tipo_artista": "solista"
     }
