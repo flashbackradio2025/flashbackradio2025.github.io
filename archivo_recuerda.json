@@ -178,7 +178,33 @@
       "anio": 1982,
       "texto": "Words fue uno de los grandes éxitos europeos de 1982 y llegó al Nº1 en numerosos países, convirtiendo a F. R. David en una voz inseparable de aquella década.",
       "cierre": "A veces basta una palabra para abrir toda una memoria.",
-      "slug": "fr-david-words"
+      "slug": "fr-david-words",
+      "imagen": "img/archivo/fr-david-words.jpg",
+      "album": "Words",
+      "sello": "Carrere",
+      "single": "Words",
+      "compositor": "Robert Fitoussi · Louis Sandy Yaguda · Martin Joe Kupersmith",
+      "productor": "Frédéric Leibovitz",
+      "voz_principal": "F. R. David",
+      "historia": "Words fue publicada en 1982 como sencillo del álbum debut homónimo de F. R. David. La canción se convirtió en un fenómeno europeo: llegó al Nº1 en numerosos países y alcanzó el Nº2 británico a comienzos de 1983. Su sonido de sintetizadores y su melodía directa la convirtieron en una de las piezas inmediatamente reconocibles del pop europeo de comienzos de los 80.",
+      "quienes_er_an": "F. R. David es el nombre artístico del cantante francés Robert Fitoussi. Antes de Words ya había desarrollado una carrera como músico y cantante, pero este sencillo lo convirtió en una figura internacional.",
+      "musicos": [
+        "F. R. David (Robert Fitoussi) — voz y composición",
+        "Frédéric Leibovitz — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº2",
+        "Nº1 en varios países europeos, entre ellos Alemania Occidental, Suiza, Italia, Suecia, Austria, Irlanda, Bélgica y Noruega",
+        "Estados Unidos — Billboard Hot 100: Nº62"
+      ],
+      "sabias_que": [
+        "F. R. David es Robert Fitoussi.",
+        "Words fue el sencillo central de su álbum debut homónimo.",
+        "La canción fue Nº1 en numerosos mercados europeos.",
+        "En Estados Unidos tuvo un impacto mucho menor que en Europa."
+      ],
+      "por_que_recordarlo": "Porque Words representa perfectamente una clase de éxito muy europea de comienzos de los 80: sintetizadores sencillos, melodía enorme y una voz que quedó unida para siempre a una sola canción.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "The Buggles",
@@ -557,7 +583,31 @@
       "anio": 1982,
       "texto": "Love Is a Stranger fue una de las canciones que anticipó la identidad electrónica y visual con la que Annie Lennox y Dave Stewart marcarían los años 80.",
       "cierre": "Antes de los grandes himnos también hubo canciones que anunciaban lo que estaba por venir.",
-      "slug": "eurythmics-love-is-a-stranger"
+      "slug": "eurythmics-love-is-a-stranger",
+      "imagen": "img/archivo/eurythmics-love-is-a-stranger.jpg",
+      "album": "Sweet Dreams (Are Made of This)",
+      "sello": "RCA",
+      "single": "Love Is a Stranger",
+      "compositor": "Annie Lennox · Dave Stewart",
+      "productor": "Dave Stewart · Adam Williams",
+      "voz_principal": "Annie Lennox",
+      "historia": "Love Is a Stranger fue publicada originalmente en 1982 y relanzada en 1983 después del éxito de Sweet Dreams (Are Made of This). En esa segunda oportunidad llegó al Top 10 británico. Su combinación de sintetizadores, tensión emocional y la presencia vocal de Annie Lennox ayudó a definir la identidad temprana de Eurythmics.",
+      "quienes_er_an": "Eurythmics fue el dúo británico formado por Annie Lennox y Dave Stewart después de The Tourists. A comienzos de los 80 construyeron una estética que unía electrónica, pop, experimentación visual y una voz inmediatamente reconocible.",
+      "musicos": [
+        "Annie Lennox — voz, teclados y composición",
+        "Dave Stewart — instrumentos, composición y producción",
+        "Adam Williams — coproducción"
+      ],
+      "ranking": [
+        "Reino Unido — Top 10 tras su reedición de 1983"
+      ],
+      "sabias_que": [
+        "El sencillo tuvo una primera edición en 1982 antes de alcanzar mayor repercusión al ser relanzado.",
+        "La canción pertenece a Sweet Dreams (Are Made of This).",
+        "El videoclip reforzó la imagen cambiante y deliberadamente ambigua que Annie Lennox utilizó durante aquella etapa."
+      ],
+      "por_que_recordarlo": "Porque antes de que Sweet Dreams se convirtiera en un emblema mundial, Eurythmics ya estaba encontrando aquí su lenguaje: frío por fuera, profundamente emocional por dentro.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Bee Gees",
@@ -572,7 +622,33 @@
       "anio": 1968,
       "texto": "Mucho antes de convertirse en símbolos de la era disco, Bee Gees ya dominaban la balada pop. Esta canción de 1968 es una muestra de aquella primera gran etapa.",
       "cierre": "Recordar a un artista también es recordar que tuvo más de una vida musical.",
-      "slug": "bee-gees-ive-gotta-get-a-message-to-you"
+      "slug": "bee-gees-ive-gotta-get-a-message-to-you",
+      "imagen": "img/archivo/bee-gees-ive-gotta-get-a-message-to-you.jpg",
+      "album": "Idea",
+      "sello": "Polydor / Atco",
+      "single": "I've Gotta Get a Message to You",
+      "compositor": "Barry Gibb · Robin Gibb · Maurice Gibb",
+      "productor": "Robert Stigwood · Bee Gees",
+      "voz_principal": "Robin Gibb · Barry Gibb",
+      "historia": "I've Gotta Get a Message to You fue publicada en 1968 y construida como una pequeña historia dramática: un hombre condenado a muerte intenta hacer llegar un último mensaje a su esposa. El sencillo se convirtió en el primer Nº1 de Bee Gees en el Reino Unido y permaneció quince semanas en el Top 100 británico.",
+      "quienes_er_an": "Bee Gees, formados por los hermanos Barry, Robin y Maurice Gibb, ya habían desarrollado una identidad propia mucho antes de la etapa disco que los haría mundialmente famosos en la segunda mitad de los 70.",
+      "musicos": [
+        "Barry Gibb — voz, guitarra y composición",
+        "Robin Gibb — voz y composición",
+        "Maurice Gibb — voz, bajo, teclados y composición"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº1",
+        "Reino Unido — 15 semanas en el Top 100"
+      ],
+      "sabias_que": [
+        "Fue el primer Nº1 británico de Bee Gees.",
+        "La letra está narrada desde el punto de vista de un condenado que quiere enviar un último mensaje.",
+        "Pertenece al período previo a la imagen disco con la que muchas personas identifican al grupo.",
+        "La canción forma parte del álbum Idea."
+      ],
+      "por_que_recordarlo": "Porque recuerda que Bee Gees fue mucho más que Saturday Night Fever. Una década antes ya construían canciones narrativas, melódicas y dramáticas capaces de llegar al Nº1.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "INXS",
@@ -616,7 +692,32 @@
       "anio": 1985,
       "texto": "Falco mezcló pop, rap y la figura de Mozart en una canción que terminó conquistando las listas internacionales durante 1985 y 1986.",
       "cierre": "Viena, Mozart y los 80: una combinación improbable que funcionó.",
-      "slug": "falco-rock-me-amadeus"
+      "slug": "falco-rock-me-amadeus",
+      "imagen": "img/archivo/falco-rock-me-amadeus.jpg",
+      "album": "Falco 3",
+      "sello": "A&M / GiG",
+      "single": "Rock Me Amadeus",
+      "compositor": "Falco · Rob Bolland · Ferdi Bolland",
+      "productor": "Bolland & Bolland",
+      "voz_principal": "Falco",
+      "historia": "Rock Me Amadeus fue publicada en 1985 dentro de Falco 3. Falco y los hermanos Rob y Ferdi Bolland transformaron la figura de Mozart en una pieza de pop, rap y Neue Deutsche Welle. En marzo de 1986 llegó al Nº1 del Billboard Hot 100 y permanece como la única canción en alemán que alcanzó esa posición.",
+      "quienes_er_an": "Falco, nombre artístico del austríaco Johann Hölzel, desarrolló una mezcla singular de pop europeo, rock, electrónica y una forma de fraseo cercana al rap. Rock Me Amadeus lo convirtió en una figura verdaderamente global.",
+      "musicos": [
+        "Falco — voz y composición",
+        "Rob Bolland — composición y producción",
+        "Ferdi Bolland — composición y producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Nº1"
+      ],
+      "sabias_que": [
+        "Sigue siendo la única canción en alemán que llegó al Nº1 del Billboard Hot 100.",
+        "La canción se inspiró en Wolfgang Amadeus Mozart pero lo presentó deliberadamente como una estrella pop de su tiempo.",
+        "Fue el único Nº1 de Falco tanto en Estados Unidos como en Reino Unido."
+      ],
+      "por_que_recordarlo": "Porque logró algo que parecía improbable: llevar una canción en alemán sobre Mozart a la cima de Estados Unidos. Es una de esas anomalías maravillosas que sólo el pop puede producir.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "Fine Young Cannibals",
@@ -675,7 +776,33 @@
       "anio": 1980,
       "texto": "Dr. Hook atravesó los 70 y llegó a los 80 mezclando pop, country y soft rock. Sexy Eyes fue uno de sus últimos grandes éxitos internacionales.",
       "cierre": "No toda banda encaja en una sola etiqueta; algunas simplemente encuentran canciones.",
-      "slug": "dr-hook-sexy-eyes"
+      "slug": "dr-hook-sexy-eyes",
+      "imagen": "img/archivo/dr-hook-sexy-eyes.jpg",
+      "album": "Sometimes You Win",
+      "sello": "Capitol",
+      "single": "Sexy Eyes",
+      "compositor": "Chris Waters · Keith Stegall · Bob Mather",
+      "productor": "Ron Haffkine",
+      "voz_principal": "Dennis Locorriere",
+      "historia": "Sexy Eyes fue publicada a comienzos de 1980 como sencillo de Sometimes You Win. El tema llevó el sonido de Dr. Hook hacia una mezcla muy efectiva de soft rock y disco. Alcanzó el Nº5 del Billboard Hot 100 y el Nº4 británico, convirtiéndose en uno de los mayores éxitos del grupo.",
+      "quienes_er_an": "Dr. Hook fue una banda estadounidense que atravesó varias etapas, desde canciones humorísticas y country-rock hasta un sonido mucho más pulido y romántico a fines de los 70 y comienzos de los 80.",
+      "musicos": [
+        "Dennis Locorriere — voz principal",
+        "Ray Sawyer — voz e integrante característico",
+        "Ron Haffkine — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº5",
+        "Reino Unido — Official Singles Chart: Nº4",
+        "Nueva Zelanda: Nº1"
+      ],
+      "sabias_que": [
+        "Sexy Eyes empató con Sylvia's Mother como la mejor posición de Dr. Hook en el Hot 100.",
+        "Fue certificado Oro en Estados Unidos.",
+        "Fue uno de los últimos grandes éxitos británicos del grupo."
+      ],
+      "por_que_recordarlo": "Porque muestra cómo una banda asociada inicialmente a otro tipo de repertorio supo adaptarse al cambio de década sin perder identidad. Sexy Eyes tiene exactamente ese puente entre soft rock y pista de baile.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Mike Oldfield",
@@ -944,7 +1071,35 @@
       "anio": 1978,
       "texto": "Nile Rodgers y Bernard Edwards convirtieron Le Freak en uno de los grandes himnos de la música disco y en uno de los mayores éxitos de Chic.",
       "cierre": "Detrás de una pista de baile también puede haber arquitectura musical.",
-      "slug": "chic-le-freak"
+      "slug": "chic-le-freak",
+      "imagen": "img/archivo/chic-le-freak.jpg",
+      "album": "C'est Chic",
+      "sello": "Atlantic",
+      "single": "Le Freak",
+      "compositor": "Bernard Edwards · Nile Rodgers",
+      "productor": "Bernard Edwards · Nile Rodgers",
+      "voz_principal": "Norma Jean Wright / voces de Chic",
+      "historia": "Le Freak fue escrita y producida por Nile Rodgers y Bernard Edwards y publicada en 1978 como primer sencillo de C'est Chic. La canción nació después de que Rodgers y Edwards no pudieran entrar a Studio 54 pese a haber sido invitados. Aquella frustración terminó transformándose en uno de los himnos definitivos de la era disco y en el primer Nº1 de Chic en el Billboard Hot 100.",
+      "quienes_er_an": "Chic fue construido alrededor de la sociedad creativa entre el guitarrista Nile Rodgers y el bajista Bernard Edwards. Su combinación de precisión rítmica, elegancia y producción de estudio dejó una influencia enorme sobre disco, funk, pop y posteriormente hip-hop.",
+      "musicos": [
+        "Nile Rodgers — guitarra, composición y producción",
+        "Bernard Edwards — bajo, composición y producción",
+        "Tony Thompson — batería",
+        "Voces femeninas de Chic"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Estados Unidos — R&B: Nº1",
+        "Estados Unidos — disco: Nº1 durante 7 semanas"
+      ],
+      "sabias_que": [
+        "La idea surgió después de que Rodgers y Edwards fueran rechazados en la puerta de Studio 54.",
+        "El enojo inicial de aquella noche terminó transformándose en el estribillo definitivo.",
+        "Fue el primer Nº1 de Chic en el Hot 100.",
+        "La sección rítmica Rodgers–Edwards–Thompson se volvió una referencia fundamental de la música bailable."
+      ],
+      "por_que_recordarlo": "Porque una puerta cerrada produjo una de las canciones más abiertas y celebratorias de la era disco. Chic convirtió una frustración personal en una pista de baile universal.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Fleetwood Mac",
@@ -1093,7 +1248,36 @@
       "anio": 1977,
       "texto": "Incluida en The Stranger, Just the Way You Are consolidó a Billy Joel como uno de los grandes compositores e intérpretes de la canción pop estadounidense.",
       "cierre": "Una melodía sencilla puede decir muchísimo cuando encuentra la voz correcta.",
-      "slug": "billy-joel-just-the-way-you-are"
+      "slug": "billy-joel-just-the-way-you-are",
+      "imagen": "img/archivo/billy-joel-just-the-way-you-are.jpg",
+      "album": "The Stranger",
+      "sello": "Columbia / CBS",
+      "single": "Just the Way You Are",
+      "compositor": "Billy Joel",
+      "productor": "Phil Ramone",
+      "voz_principal": "Billy Joel",
+      "historia": "Just the Way You Are apareció en The Stranger en 1977 y se convirtió en uno de los temas que cambiaron definitivamente la carrera de Billy Joel. Producida por Phil Ramone, la grabación incluye el característico saxofón de Phil Woods. La canción obtuvo los Grammy a Grabación del Año y Canción del Año y alcanzó el Nº19 británico.",
+      "quienes_er_an": "Billy Joel es un cantante, compositor y pianista estadounidense. The Stranger, producido por Phil Ramone, fue el álbum que lo llevó a una nueva escala comercial e incluyó varias de sus canciones más duraderas.",
+      "musicos": [
+        "Billy Joel — voz y piano",
+        "Phil Woods — saxofón alto",
+        "Hugh McCracken — guitarra",
+        "Doug Stegmeyer — bajo",
+        "Liberty DeVitto — batería",
+        "Phil Ramone — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº19",
+        "Grammy — Grabación del Año",
+        "Grammy — Canción del Año"
+      ],
+      "sabias_que": [
+        "El solo de saxofón fue interpretado por el jazzista Phil Woods.",
+        "La canción ganó dos de los Grammy principales.",
+        "Forma parte de The Stranger, el álbum que consolidó internacionalmente a Billy Joel."
+      ],
+      "por_que_recordarlo": "Porque detrás de su aparente sencillez hay una grabación extraordinariamente cuidada. Piano, voz y saxofón construyeron una declaración afectiva que sobrevivió largamente a su contexto original.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "Billy Ocean",
@@ -1109,7 +1293,31 @@
       "anio": 1984,
       "texto": "Caribbean Queen convirtió a Billy Ocean en una figura internacional y alcanzó el Nº1 estadounidense en 1984.",
       "cierre": "El Caribe imaginado por los 80 tenía sintetizadores, ritmo y una voz inconfundible.",
-      "slug": "billy-ocean-caribbean-queen"
+      "slug": "billy-ocean-caribbean-queen",
+      "imagen": "img/archivo/billy-ocean-caribbean-queen.jpg",
+      "album": "Suddenly",
+      "sello": "Jive",
+      "single": "Caribbean Queen (No More Love on the Run)",
+      "compositor": "Billy Ocean · Keith Diamond",
+      "productor": "Keith Diamond",
+      "voz_principal": "Billy Ocean",
+      "historia": "Caribbean Queen (No More Love on the Run) apareció en 1984 y marcó el gran salto internacional de Billy Ocean. Escrita junto a Keith Diamond, llegó al Nº1 del Billboard Hot 100 y también encabezó la lista R&B estadounidense. Su éxito abrió la etapa más fuerte de la carrera internacional del cantante.",
+      "quienes_er_an": "Billy Ocean, nacido Leslie Sebastian Charles en Trinidad y criado en Gran Bretaña, llevaba años grabando antes de alcanzar su gran explosión internacional a mediados de los 80.",
+      "musicos": [
+        "Billy Ocean — voz y composición",
+        "Keith Diamond — composición y producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Estados Unidos — Hot Black Singles/R&B: Nº1"
+      ],
+      "sabias_que": [
+        "La canción circuló con variaciones regionales del título antes de consolidarse como Caribbean Queen.",
+        "Fue el gran punto de inflexión internacional de Billy Ocean.",
+        "Forma parte del álbum Suddenly."
+      ],
+      "por_que_recordarlo": "Porque es el momento exacto en que una carrera de años encontró una canción capaz de abrir todas las puertas a la vez. Después de Caribbean Queen, Billy Ocean entró definitivamente en la primera línea del pop de los 80.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "ABC",
@@ -1208,7 +1416,36 @@
       "anio": 1984,
       "texto": "Forever Young nació en plena era synth-pop y terminó trascendiendo a Alphaville para convertirse en una canción asociada a generaciones enteras.",
       "cierre": "Quizás por eso algunas canciones nunca envejecen.",
-      "slug": "alphaville-forever-young"
+      "slug": "alphaville-forever-young",
+      "imagen": "img/archivo/alphaville-forever-young.jpg",
+      "album": "Forever Young",
+      "sello": "WEA / Atlantic",
+      "single": "Forever Young",
+      "compositor": "Marian Gold · Bernhard Lloyd · Frank Mertens",
+      "productor": "Colin Pearson · Wolfgang Loos · Andreas Budde",
+      "voz_principal": "Marian Gold",
+      "historia": "Publicada en 1984 dentro del álbum debut homónimo de Alphaville, Forever Young terminó convirtiéndose en la canción más perdurable del grupo. La idea inicial era más rítmica, pero durante la producción se decidió reducir el arreglo y convertirla en una balada synth-pop mucho más desnuda. Sus autores fueron Marian Gold, Bernhard Lloyd y Frank Mertens. Aunque su recorrido inicial en Estados Unidos fue modesto, la canción creció con los años hasta transformarse en un himno generacional.",
+      "quienes_er_an": "Alphaville es una banda alemana de synth-pop formada alrededor de Marian Gold, Bernhard Lloyd y Frank Mertens. Su debut de 1984 reunió Forever Young, Big in Japan y Sounds Like a Melody.",
+      "musicos": [
+        "Marian Gold — voz",
+        "Bernhard Lloyd — teclados",
+        "Frank Mertens — teclados",
+        "Wolfgang Loos — teclados y producción",
+        "Curt Cress — batería",
+        "Ken Taylor — bajo"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº93 en 1985; reedición de 1988: Nº65",
+        "Estados Unidos — Dance/Disco Club Play: Nº32"
+      ],
+      "sabias_que": [
+        "La canción fue concebida inicialmente con un enfoque más bailable.",
+        "El productor Andreas Budde impulsó un arreglo mucho más despojado.",
+        "El álbum Forever Young fue el debut de Alphaville.",
+        "Con los años la canción alcanzó una popularidad muy superior a la de su desempeño inicial en las listas estadounidenses."
+      ],
+      "por_que_recordarlo": "Porque pocas canciones expresan tan bien una contradicción universal: querer detener el tiempo mientras sabemos que sigue avanzando. Su permanencia cultural terminó siendo mucho mayor que sus números iniciales.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Alannah Myles",
