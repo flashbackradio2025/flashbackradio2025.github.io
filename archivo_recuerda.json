@@ -1367,7 +1367,35 @@
       "anio": 1980,
       "texto": "La unión de Olivia Newton-John con Electric Light Orchestra convirtió Xanadu en uno de los grandes recuerdos musicales del cine de 1980.",
       "cierre": "A veces una película se desvanece un poco; su canción sigue brillando.",
-      "slug": "olivia-newton-john-elo-xanadu"
+      "slug": "olivia-newton-john-elo-xanadu",
+      "imagen": "img/archivo/olivia-newton-john-elo-xanadu.jpg",
+      "album": "Xanadu (Original Motion Picture Soundtrack)",
+      "sello": "Jet / MCA",
+      "single": "Xanadu",
+      "compositor": "Jeff Lynne",
+      "productor": "Jeff Lynne",
+      "voz_principal": "Olivia Newton-John · Electric Light Orchestra",
+      "historia": "Xanadu fue escrita y producida por Jeff Lynne para la película homónima de 1980. Olivia Newton-John canta la voz principal acompañada por Electric Light Orchestra. Aunque la película tuvo una recepción desigual, su banda sonora produjo varios éxitos. Xanadu llegó al Nº1 británico y al Nº8 del Billboard Hot 100 estadounidense.",
+      "quienes_er_an": "Olivia Newton-John fue una cantante y actriz británico-australiana de enorme éxito internacional. Electric Light Orchestra, liderada por Jeff Lynne, combinó rock y pop con arreglos orquestales y una producción de estudio muy característica.",
+      "musicos": [
+        "Olivia Newton-John — voz principal",
+        "Jeff Lynne — composición, producción y ELO",
+        "Bev Bevan — batería",
+        "Richard Tandy — teclados",
+        "Kelly Groucutt — bajo y voces"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1",
+        "Estados Unidos — Billboard Hot 100: Nº8",
+        "Banda sonora Xanadu — Reino Unido: Nº2"
+      ],
+      "sabias_que": [
+        "Fue el único Nº1 británico de Electric Light Orchestra.",
+        "La canción cierra la banda sonora de la película.",
+        "Jeff Lynne escribió y produjo las canciones interpretadas por ELO en el proyecto."
+      ],
+      "por_que_recordarlo": "Porque la música terminó trascendiendo a la propia película. Xanadu quedó como una cápsula luminosa de 1980 donde se cruzan Olivia Newton-John, ELO, cine y pop.",
+      "tipo_artista": "colaboracion"
     },
     {
       "artista": "Kenny Loggins",
@@ -1381,7 +1409,35 @@
       "anio": 1984,
       "texto": "Footloose unió para siempre a Kenny Loggins con el cine de los 80 y llegó al Nº1 estadounidense en 1984.",
       "cierre": "Hay canciones que empiezan y el cuerpo recuerda antes que la cabeza.",
-      "slug": "kenny-loggins-footloose"
+      "slug": "kenny-loggins-footloose",
+      "imagen": "img/archivo/kenny-loggins-footloose.jpg",
+      "album": "Footloose: Original Motion Picture Soundtrack",
+      "sello": "Columbia / CBS",
+      "single": "Footloose",
+      "compositor": "Kenny Loggins · Dean Pitchford",
+      "productor": "Kenny Loggins · Lee DeCarlo",
+      "voz_principal": "Kenny Loggins",
+      "historia": "Footloose fue creada para la película homónima de 1984. Kenny Loggins y Dean Pitchford escribieron la canción, que se convirtió en uno de los grandes éxitos cinematográficos de la década. Llegó al Nº1 del Billboard Hot 100 y al Nº6 británico.",
+      "quienes_er_an": "Kenny Loggins es un cantante y compositor estadounidense que durante los años 80 quedó especialmente asociado a grandes bandas sonoras cinematográficas, entre ellas Footloose y Top Gun.",
+      "musicos": [
+        "Kenny Loggins — voz, composición y producción",
+        "Nathan East — bajo",
+        "Tris Imboden — batería",
+        "Buzz Feiten — guitarra",
+        "Neil Larsen — teclados",
+        "Michael Boddicker — percusión"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Official Singles Chart: Nº6"
+      ],
+      "sabias_que": [
+        "Fue escrita específicamente para Footloose.",
+        "Dean Pitchford, coguionista de la película, coescribió la canción.",
+        "La grabación fue nominada al Óscar a Mejor Canción Original."
+      ],
+      "por_que_recordarlo": "Porque pocas canciones están tan pegadas a una película y, al mismo tiempo, funcionan perfectamente fuera de ella. Apenas empieza, 1984 vuelve a ponerse en movimiento.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "Marillion",
@@ -1395,7 +1451,35 @@
       "anio": 1985,
       "texto": "Kayleigh acercó el rock progresivo de Marillion al gran público y se convirtió en el sencillo más conocido de la etapa de Fish.",
       "cierre": "Una canción puede abrir una puerta entre el progresivo y la memoria popular.",
-      "slug": "marillion-kayleigh"
+      "slug": "marillion-kayleigh",
+      "imagen": "img/archivo/marillion-kayleigh.jpg",
+      "album": "Misplaced Childhood",
+      "sello": "EMI",
+      "single": "Kayleigh",
+      "compositor": "Fish · Mark Kelly · Ian Mosley · Steve Rothery · Pete Trewavas",
+      "productor": "Chris Kimsey",
+      "voz_principal": "Fish",
+      "historia": "Kayleigh fue publicada en 1985 como adelanto de Misplaced Childhood. La música fue acreditada a los integrantes de Marillion y la letra a Fish. La canción alcanzó el Nº2 británico y permaneció catorce semanas en el Top 100, convirtiéndose en el mayor éxito de singles del grupo.",
+      "quienes_er_an": "Marillion fue una de las bandas centrales del rock progresivo británico de los años 80. En esta etapa estaba integrada por Fish, Steve Rothery, Mark Kelly, Pete Trewavas e Ian Mosley.",
+      "musicos": [
+        "Fish — voz y letra",
+        "Steve Rothery — guitarra",
+        "Mark Kelly — teclados",
+        "Pete Trewavas — bajo",
+        "Ian Mosley — batería",
+        "Chris Kimsey — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº2",
+        "Reino Unido — 14 semanas en el Top 100"
+      ],
+      "sabias_que": [
+        "Fish explicó que el nombre Kayleigh combinaba nombres de mujeres de relaciones anteriores.",
+        "Misplaced Childhood llegó al Nº1 de álbumes británico.",
+        "Kayleigh fue el mayor éxito de Marillion en el UK Singles Chart."
+      ],
+      "por_que_recordarlo": "Porque llevó el rock progresivo de Marillion al corazón mismo del pop británico sin borrar su identidad. Una canción compleja consiguió sonar íntima y masiva a la vez.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Belinda Carlisle",
@@ -1453,7 +1537,34 @@
       "anio": 1979,
       "texto": "Aunque no fue originalmente un enorme éxito de listas en Estados Unidos, What I Like About You creció con los años hasta convertirse en una de las canciones más reconocibles de The Romantics.",
       "cierre": "No todas las canciones se vuelven clásicas el día en que nacen.",
-      "slug": "the-romantics-what-i-like-about-you"
+      "slug": "the-romantics-what-i-like-about-you",
+      "imagen": "img/archivo/the-romantics-what-i-like-about-you.jpg",
+      "album": "The Romantics",
+      "sello": "Nemperor / Epic",
+      "single": "What I Like About You",
+      "compositor": "Wally Palmar · Mike Skill · Jimmy Marinos",
+      "productor": "Pete Solley",
+      "voz_principal": "Jimmy Marinos",
+      "historia": "What I Like About You fue grabada en 1979 y publicada como sencillo del debut de The Romantics. Jimmy Marinos, baterista del grupo, canta la voz principal. Aunque sólo llegó al Nº49 del Billboard Hot 100, su exposición posterior en radio y televisión la convirtió en una de las canciones más reconocibles del power pop estadounidense.",
+      "quienes_er_an": "The Romantics es una banda estadounidense formada en Detroit. Su primer álbum reunió power pop, new wave y rock directo, con una imagen visual muy marcada.",
+      "musicos": [
+        "Jimmy Marinos — batería y voz principal",
+        "Wally Palmar — guitarra, armónica y voces",
+        "Mike Skill — guitarra",
+        "Rich Cole — bajo",
+        "Pete Solley — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº49",
+        "Australia — Nº2"
+      ],
+      "sabias_que": [
+        "La voz principal no es de Wally Palmar sino del baterista Jimmy Marinos.",
+        "La canción fue grabada en Coconuts Recording Studio de Miami Beach.",
+        "Su popularidad posterior terminó siendo mucho mayor que su posición original en Estados Unidos."
+      ],
+      "por_que_recordarlo": "Porque es el ejemplo perfecto de una canción cuyo lugar en la cultura terminó superando ampliamente su puesto original en las listas.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "The Human League",
@@ -1517,7 +1628,35 @@
       "anio": 1986,
       "texto": "Con su ritmo peculiar y un video imposible de separar de la canción, Walk Like an Egyptian llevó a The Bangles al Nº1 estadounidense.",
       "cierre": "Los 80 también se recuerdan con gestos, imágenes y coreografías.",
-      "slug": "the-bangles-walk-like-an-egyptian"
+      "slug": "the-bangles-walk-like-an-egyptian",
+      "imagen": "img/archivo/the-bangles-walk-like-an-egyptian.jpg",
+      "album": "Different Light",
+      "sello": "Columbia",
+      "single": "Walk Like an Egyptian",
+      "compositor": "Liam Sternberg",
+      "productor": "David Kahne",
+      "voz_principal": "Susanna Hoffs · Vicki Peterson · Michael Steele",
+      "historia": "Walk Like an Egyptian fue publicada en 1986 como tercer sencillo de Different Light. Escrita por Liam Sternberg y producida por David Kahne, se convirtió en el primer Nº1 estadounidense de The Bangles y fue señalada por Billboard como la canción Nº1 del año 1987 en Estados Unidos. En Reino Unido llegó al Nº3.",
+      "quienes_er_an": "The Bangles fue una banda estadounidense integrada en esta etapa por Susanna Hoffs, Vicki Peterson, Debbi Peterson y Michael Steele. Su mezcla de guitarras, armonías y pop sesentista renovado encontró una audiencia enorme en los 80.",
+      "musicos": [
+        "Susanna Hoffs — voz y guitarra",
+        "Vicki Peterson — voz y guitarra",
+        "Michael Steele — voz y bajo",
+        "Debbi Peterson — batería y voces",
+        "David Kahne — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Nº3",
+        "Billboard — canción Nº1 del año 1987 en EE.UU."
+      ],
+      "sabias_que": [
+        "Tres integrantes se reparten versos principales.",
+        "Fue el primer Nº1 estadounidense de The Bangles.",
+        "Liam Sternberg escribió la canción después de observar movimientos que le recordaron figuras egipcias."
+      ],
+      "por_que_recordarlo": "Porque convirtió una imagen absurda y pegadiza en fenómeno mundial. Es imposible separar su ritmo, sus gestos y el recuerdo visual de los años 80.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Nu Shooz",
@@ -1532,7 +1671,32 @@
       "anio": 1986,
       "texto": "El dúo estadounidense Nu Shooz encontró con I Can't Wait su gran éxito internacional, mezclando funk, pop y electrónica en plena mitad de los 80.",
       "cierre": "Una canción puede convertir un nombre extraño en un recuerdo inmediato.",
-      "slug": "nu-shooz-i-cant-wait"
+      "slug": "nu-shooz-i-cant-wait",
+      "imagen": "img/archivo/nu-shooz-i-cant-wait.jpg",
+      "album": "Poolside",
+      "sello": "Atlantic",
+      "single": "I Can't Wait",
+      "compositor": "John Smith",
+      "productor": "John Smith · Rick Waritz",
+      "voz_principal": "Valerie Day",
+      "historia": "I Can't Wait fue grabada originalmente por Nu Shooz a mediados de los 80 y alcanzó proyección internacional después de una remezcla que llamó la atención de Atlantic Records. En 1986 llegó al Nº3 del Billboard Hot 100 y también entró al Top 10 británico, convirtiéndose en el gran éxito del dúo.",
+      "quienes_er_an": "Nu Shooz es un dúo estadounidense de Portland formado por Valerie Day y John Smith. Su sonido mezcló pop, funk, electrónica y dance.",
+      "musicos": [
+        "Valerie Day — voz",
+        "John Smith — composición e instrumentos",
+        "Rick Waritz — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº3",
+        "Reino Unido — Top 10"
+      ],
+      "sabias_que": [
+        "La canción había tenido una vida regional antes de convertirse en éxito internacional.",
+        "Una remezcla ayudó decisivamente a relanzarla.",
+        "Nu Shooz fue nominado al Grammy como Mejor Artista Nuevo."
+      ],
+      "por_que_recordarlo": "Porque resume el momento en que el funk electrónico y el pop de mediados de los 80 encontraron una fórmula ligera, elegante y tremendamente contagiosa.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Johnny Hates Jazz",
@@ -1546,7 +1710,33 @@
       "anio": 1987,
       "texto": "Shattered Dreams presentó internacionalmente a Johnny Hates Jazz y llevó su pop sofisticado a los primeros puestos de las listas a ambos lados del Atlántico.",
       "cierre": "Un nombre curioso, una canción enorme y una década resumida en pocos minutos.",
-      "slug": "johnny-hates-jazz-shattered-dreams"
+      "slug": "johnny-hates-jazz-shattered-dreams",
+      "imagen": "img/archivo/johnny-hates-jazz-shattered-dreams.jpg",
+      "album": "Turn Back the Clock",
+      "sello": "Virgin",
+      "single": "Shattered Dreams",
+      "compositor": "Clark Datchler",
+      "productor": "Calvin Hayes · Mike Nocito",
+      "voz_principal": "Clark Datchler",
+      "historia": "Shattered Dreams fue escrita por Clark Datchler en un pequeño estudio instalado en la casa de sus padres. Publicada en 1987, llegó al Nº5 británico y al Nº2 del Billboard Hot 100 estadounidense. Para Estados Unidos se filmó un videoclip alternativo en blanco y negro dirigido por David Fincher.",
+      "quienes_er_an": "Johnny Hates Jazz fue un grupo británico formado por Clark Datchler, Mike Nocito y Calvin Hayes. Su sonido elegante quedó asociado al sophisti-pop de finales de los 80.",
+      "musicos": [
+        "Clark Datchler — voz, composición y teclados",
+        "Mike Nocito — bajo y producción",
+        "Calvin Hayes — teclados y producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº5",
+        "Estados Unidos — Billboard Hot 100: Nº2",
+        "Estados Unidos — Adult Contemporary: Nº1"
+      ],
+      "sabias_que": [
+        "Clark Datchler escribió la canción en el estudio casero de sus padres.",
+        "El videoclip estadounidense fue dirigido por David Fincher.",
+        "Fue el sencillo que abrió el álbum Turn Back the Clock."
+      ],
+      "por_que_recordarlo": "Porque bajo una producción impecablemente elegante hay una canción de ruptura y desencanto. Esa combinación define muy bien el sophisti-pop de su época.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Harry Nilsson",
@@ -1562,7 +1752,33 @@
       "anio": 1971,
       "texto": "La canción fue escrita originalmente por Badfinger, pero la interpretación de Harry Nilsson la convirtió en un éxito mundial y en una de las baladas definitivas de comienzos de los 70.",
       "cierre": "Una gran versión puede darle a una canción una segunda vida.",
-      "slug": "harry-nilsson-without-you"
+      "slug": "harry-nilsson-without-you",
+      "imagen": "img/archivo/harry-nilsson-without-you.jpg",
+      "album": "Nilsson Schmilsson",
+      "sello": "RCA Victor",
+      "single": "Without You",
+      "compositor": "Pete Ham · Tom Evans",
+      "productor": "Richard Perry",
+      "voz_principal": "Harry Nilsson",
+      "historia": "Without You fue escrita por Pete Ham y Tom Evans de Badfinger y grabada originalmente por ese grupo. Harry Nilsson la reinterpretó para Nilsson Schmilsson y la publicó como sencillo en 1971. Su versión llegó al Nº1 tanto en Estados Unidos como en Reino Unido y convirtió la canción en un estándar internacional.",
+      "quienes_er_an": "Harry Nilsson fue un cantante y compositor estadounidense admirado por músicos como The Beatles. Aunque era un compositor notable, uno de sus mayores éxitos como intérprete fue precisamente una canción escrita por otros.",
+      "musicos": [
+        "Harry Nilsson — voz",
+        "Richard Perry — producción",
+        "Pete Ham — coautor",
+        "Tom Evans — coautor"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Nº1"
+      ],
+      "sabias_que": [
+        "La canción fue escrita por dos integrantes de Badfinger.",
+        "Nilsson inicialmente creyó que estaba escuchando una canción de The Beatles cuando conoció el tema.",
+        "Décadas después Mariah Carey volvería a llevar Without You a las listas mundiales."
+      ],
+      "por_que_recordarlo": "Porque una interpretación puede transformar completamente el destino de una composición. Nilsson tomó una gran canción escondida en un álbum y la convirtió en un clásico mundial.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "Kansas",
@@ -1577,7 +1793,35 @@
       "anio": 1977,
       "texto": "Kansas dejó momentáneamente a un lado su potencia progresiva para grabar esta reflexión acústica, que terminó siendo una de las canciones más conocidas de toda su carrera.",
       "cierre": "A veces una guitarra acústica puede pesar más que toda una pared de amplificadores.",
-      "slug": "kansas-dust-in-the-wind"
+      "slug": "kansas-dust-in-the-wind",
+      "imagen": "img/archivo/kansas-dust-in-the-wind.jpg",
+      "album": "Point of Know Return",
+      "sello": "Kirshner / Epic",
+      "single": "Dust In The Wind",
+      "compositor": "Kerry Livgren",
+      "productor": "Jeff Glixman",
+      "voz_principal": "Steve Walsh",
+      "historia": "Dust in the Wind nació de un ejercicio acústico que Kerry Livgren practicaba con la guitarra. Su esposa le sugirió desarrollar aquella progresión y terminó convirtiéndose en una canción completa. Publicada en 1977 dentro de Point of Know Return, alcanzó el Nº6 del Billboard Hot 100, la mejor posición de Kansas en esa lista.",
+      "quienes_er_an": "Kansas es una banda estadounidense de rock progresivo y arena rock. En su formación clásica combinó guitarras, teclados y violín con estructuras más ambiciosas que las habituales del rock radial.",
+      "musicos": [
+        "Steve Walsh — voz",
+        "Kerry Livgren — guitarra acústica y composición",
+        "Rich Williams — guitarra acústica",
+        "Robby Steinhardt — violín y viola",
+        "Dave Hope — bajo",
+        "Phil Ehart — batería",
+        "Jeff Glixman — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº6"
+      ],
+      "sabias_que": [
+        "La canción surgió de un ejercicio de fingerpicking de Kerry Livgren.",
+        "Fue uno de los pocos grandes éxitos acústicos de una banda conocida por arreglos eléctricos y progresivos.",
+        "Se convirtió en el single de Kansas con mejor posición en el Hot 100."
+      ],
+      "por_que_recordarlo": "Porque demuestra que una idea mínima puede superar a una producción gigantesca. Dos guitarras acústicas, una voz y un violín terminaron creando la canción más universal de Kansas.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Chic",
@@ -1633,7 +1877,35 @@
       "anio": 1987,
       "texto": "Little Lies pertenece a Tango in the Night y tiene a Christine McVie en el centro de una de las melodías más pulidas de Fleetwood Mac en los años 80.",
       "cierre": "Una banda con décadas de historia todavía podía sonar completamente contemporánea.",
-      "slug": "fleetwood-mac-little-lies"
+      "slug": "fleetwood-mac-little-lies",
+      "imagen": "img/archivo/fleetwood-mac-little-lies.jpg",
+      "album": "Tango in the Night",
+      "sello": "Warner Bros.",
+      "single": "Little Lies",
+      "compositor": "Christine McVie · Eddy Quintela",
+      "productor": "Lindsey Buckingham · Richard Dashut · Fleetwood Mac",
+      "voz_principal": "Christine McVie",
+      "historia": "Little Lies fue publicada en 1987 como uno de los sencillos centrales de Tango in the Night. Christine McVie la escribió junto a Eddy Quintela. Con la voz principal de McVie y las armonías de Lindsey Buckingham y Stevie Nicks, llegó al Top 10 tanto en Reino Unido como en Estados Unidos.",
+      "quienes_er_an": "Fleetwood Mac atravesó numerosas formaciones desde su origen británico en los 60. En la etapa de Tango in the Night reunía a Mick Fleetwood, John McVie, Christine McVie, Lindsey Buckingham y Stevie Nicks.",
+      "musicos": [
+        "Christine McVie — voz, teclados y composición",
+        "Lindsey Buckingham — guitarra, voces y producción",
+        "Stevie Nicks — voces",
+        "John McVie — bajo",
+        "Mick Fleetwood — batería",
+        "Eddy Quintela — composición"
+      ],
+      "ranking": [
+        "Reino Unido — Top 10",
+        "Estados Unidos — Billboard Hot 100: Nº4"
+      ],
+      "sabias_que": [
+        "Christine McVie escribió la canción junto a Eddy Quintela, quien entonces era su esposo.",
+        "Tango in the Night fue uno de los álbumes más exitosos de Fleetwood Mac.",
+        "Las armonías vocales son una parte esencial del arreglo."
+      ],
+      "por_que_recordarlo": "Porque condensa la sofisticación de Fleetwood Mac en los 80: una melodía aparentemente sencilla sostenida por capas de voces y una producción extraordinariamente pulida.",
+      "tipo_artista": "grupo"
     },
     {
       "artista": "Sting",
@@ -1648,7 +1920,34 @@
       "anio": 1993,
       "texto": "Fields of Gold apareció en 1993 dentro del álbum Ten Summoner's Tales y mostró el costado más íntimo y contemplativo de Sting.",
       "cierre": "Hay canciones que no necesitan volumen para dejar una imagen para siempre.",
-      "slug": "sting-fields-of-gold"
+      "slug": "sting-fields-of-gold",
+      "imagen": "img/archivo/sting-fields-of-gold.jpg",
+      "album": "Ten Summoner's Tales",
+      "sello": "A&M",
+      "single": "Fields Of Gold",
+      "compositor": "Sting",
+      "productor": "Hugh Padgham · Sting",
+      "voz_principal": "Sting",
+      "historia": "Fields of Gold apareció en Ten Summoner's Tales en 1993. Sting escribió la canción inspirado por los campos de cebada cercanos a su casa de campo inglesa y construyó una de sus baladas más perdurables. Fue producida junto a Hugh Padgham.",
+      "quienes_er_an": "Sting, nacido Gordon Sumner, fue cantante y bajista de The Police antes de desarrollar una extensa carrera solista que mezcló pop, rock, jazz y músicas de distintas tradiciones.",
+      "musicos": [
+        "Sting — voz, bajo y composición",
+        "Dominic Miller — guitarra",
+        "Vinnie Colaiuta — batería",
+        "David Sancious — teclados",
+        "Hugh Padgham — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Top 20",
+        "Estados Unidos — Adult Contemporary: Top 10"
+      ],
+      "sabias_que": [
+        "La imagen central surgió de los campos de cebada cercanos a la casa de Sting.",
+        "Eva Cassidy grabó posteriormente una versión muy celebrada.",
+        "La canción pertenece a Ten Summoner's Tales, uno de los álbumes esenciales de su etapa solista."
+      ],
+      "por_que_recordarlo": "Porque convierte un paisaje real en memoria emocional. Es una de esas canciones donde Sting deja que la melodía y las imágenes hagan casi todo el trabajo.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "Louis Armstrong",
@@ -1907,7 +2206,34 @@
       "anio": 1974,
       "texto": "Rock Your Baby fue uno de los primeros grandes éxitos mundiales de la música disco y llevó a George McCrae al Nº1 estadounidense y británico.",
       "cierre": "Antes de que la disco dominara las pistas, esta canción ya estaba encendiendo las luces.",
-      "slug": "george-mccrae-rock-your-baby"
+      "slug": "george-mccrae-rock-your-baby",
+      "imagen": "img/archivo/george-mccrae-rock-your-baby.jpg",
+      "album": "Rock Your Baby",
+      "sello": "TK / Jay Boy",
+      "single": "Rock Your Baby",
+      "compositor": "Harry Wayne Casey · Richard Finch",
+      "productor": "Harry Wayne Casey · Richard Finch",
+      "voz_principal": "George McCrae",
+      "historia": "Rock Your Baby fue escrita y producida por Harry Wayne Casey y Richard Finch, núcleo creativo de KC and the Sunshine Band. La pista instrumental se grabó inicialmente como demo y George McCrae añadió después su falsete. Publicada en 1974, llegó al Nº1 durante dos semanas en Estados Unidos y tres semanas en Reino Unido, convirtiéndose en una grabación fundamental en el nacimiento comercial de la música disco.",
+      "quienes_er_an": "George McCrae es un cantante estadounidense cuya voz aguda quedó asociada para siempre a Rock Your Baby. El tema nació dentro del entorno creativo de TK Records en Miami.",
+      "musicos": [
+        "George McCrae — voz",
+        "Harry Wayne Casey — teclados, composición y producción",
+        "Richard Finch — bajo, batería, composición y producción",
+        "Jerome Smith — guitarra"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1 durante 2 semanas",
+        "Reino Unido — Nº1 durante 3 semanas",
+        "Estados Unidos — R&B: Nº1"
+      ],
+      "sabias_que": [
+        "La base instrumental se grabó en aproximadamente 45 minutos como demo.",
+        "Fue una de las primeras grandes canciones pop en utilizar una caja de ritmos.",
+        "George McCrae no era inicialmente el destinatario previsto para la pista."
+      ],
+      "por_que_recordarlo": "Porque está en el punto exacto donde soul, tecnología y pista de baile empezaron a transformarse en lo que pronto llamaríamos disco.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "Kurtis Blow",
@@ -1922,7 +2248,34 @@
       "anio": 1980,
       "texto": "The Breaks ayudó a llevar el hip hop desde las fiestas y los barrios hacia el mercado masivo a comienzos de los años 80.",
       "cierre": "Antes de que el rap dominara el mundo, hubo canciones que tuvieron que abrir la puerta.",
-      "slug": "kurtis-blow-the-breaks"
+      "slug": "kurtis-blow-the-breaks",
+      "imagen": "img/archivo/kurtis-blow-the-breaks.jpg",
+      "album": "Kurtis Blow",
+      "sello": "Mercury",
+      "single": "The Breaks",
+      "compositor": "Kurtis Blow · Robert Ford Jr. · James B. Moore · Russell Simmons · Larry Smith",
+      "productor": "Robert Ford Jr. · J.B. Moore",
+      "voz_principal": "Kurtis Blow",
+      "historia": "The Breaks fue publicada en 1980 y se convirtió en una de las primeras grabaciones de rap en alcanzar difusión comercial masiva. Kurtis Blow había sido el primer rapero contratado por un gran sello discográfico, Mercury. El sencillo obtuvo certificación de oro en Estados Unidos y ayudó a demostrar que el hip-hop podía funcionar también como música grabada de alcance nacional.",
+      "quienes_er_an": "Kurtis Blow, nacido Kurtis Walker, es uno de los pioneros del hip-hop grabado. Su carrera ayudó a abrir las puertas de la industria discográfica a una generación completa de artistas de rap.",
+      "musicos": [
+        "Kurtis Blow — voz y composición",
+        "Robert Ford Jr. — composición y producción",
+        "J.B. Moore — composición y producción",
+        "Larry Smith — composición",
+        "Russell Simmons — composición y gestión temprana"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Top 100",
+        "Estados Unidos — R&B: Top 10"
+      ],
+      "sabias_que": [
+        "Fue uno de los primeros singles de rap certificados Oro por la RIAA.",
+        "Kurtis Blow fue el primer rapero firmado por una gran compañía discográfica.",
+        "La canción juega repetidamente con distintos significados de la palabra break."
+      ],
+      "por_que_recordarlo": "Porque The Breaks pertenece al momento en que el hip-hop empezó a demostrar que no era sólo una cultura de fiestas y barrios: también podía entrar a la industria discográfica y cambiarla desde adentro.",
+      "tipo_artista": "solista"
     },
     {
       "artista": "Alphaville",
