@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-08-26",
+  "ultima_actualizacion": "2026-08-27",
   "fichas": [
     {
       "artista": "Night",
@@ -9071,6 +9071,421 @@
         "La canción mostró un sonido más atmosférico y adulto que los clásicos iniciales del grupo."
       ],
       "por_que_recordarlo": "Porque confirmó que Duran Duran podía sobrevivir a su propia imagen ochentosa y encontrar una voz convincente dentro de los años noventa.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Eagles",
+      "titulo": "Hotel California",
+      "aliases_artista": [
+        "Eagles",
+        "The Eagles"
+      ],
+      "aliases_titulo": [
+        "Hotel California"
+      ],
+      "anio": 1976,
+      "texto": "Hotel California convirtió una imagen de lujo, exceso y desorientación en una de las canciones más emblemáticas del rock estadounidense.",
+      "cierre": "Un hotel imaginario, una historia abierta a interpretaciones y dos guitarras que quedaron en la memoria.",
+      "slug": "eagles-hotel-california",
+      "imagen": "img/archivo/eagles-hotel-california.jpg",
+      "album": "Hotel California",
+      "sello": "Asylum",
+      "single": "Hotel California",
+      "compositor": "Don Felder · Don Henley · Glenn Frey",
+      "productor": "Bill Szymczyk",
+      "voz_principal": "Don Henley",
+      "historia": "La música nació a partir de una progresión de Don Felder; Don Henley y Glenn Frey desarrollaron la letra. Publicada como sencillo en 1977 desde el álbum Hotel California de 1976, la grabación cierra con el célebre diálogo de guitarras entre Don Felder y Joe Walsh.",
+      "quienes_er_an": "Eagles había evolucionado desde el country rock de comienzos de los setenta hacia un sonido de rock más amplio y elaborado. Hotel California fue el primer álbum del grupo con Joe Walsh y el último con Randy Meisner.",
+      "musicos": [
+        "Don Henley — voz principal, batería y percusión",
+        "Don Felder — guitarras y composición",
+        "Joe Walsh — guitarra eléctrica",
+        "Glenn Frey — guitarra de 12 cuerdas, voces y composición",
+        "Randy Meisner — bajo y voces",
+        "Bill Szymczyk — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1"
+      ],
+      "sabias_que": [
+        "Don Felder creó la base musical inicial.",
+        "El solo final alterna y luego armoniza las guitarras de Felder y Joe Walsh.",
+        "El álbum fue el primero de Eagles con Joe Walsh."
+      ],
+      "por_que_recordarlo": "Porque reúne narración, atmósfera y ejecución instrumental en una grabación que terminó trascendiendo ampliamente su época.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Eagles",
+      "titulo": "New Kid in Town",
+      "aliases_artista": [
+        "Eagles",
+        "The Eagles"
+      ],
+      "aliases_titulo": [
+        "New Kid in Town"
+      ],
+      "anio": 1976,
+      "texto": "New Kid in Town disfrazó una reflexión sobre lo rápido que cambia la fama dentro de una elegante canción de amor.",
+      "cierre": "Hoy todos te miran; mañana puede llegar alguien nuevo.",
+      "slug": "eagles-new-kid-in-town",
+      "imagen": "img/archivo/eagles-new-kid-in-town.jpg",
+      "album": "Hotel California",
+      "sello": "Asylum",
+      "single": "New Kid in Town",
+      "compositor": "Don Henley · Glenn Frey · J. D. Souther",
+      "productor": "Bill Szymczyk",
+      "voz_principal": "Glenn Frey",
+      "historia": "Fue el primer sencillo de Hotel California. J. D. Souther había desarrollado el estribillo y terminó la canción junto con Glenn Frey y Don Henley. Bajo la apariencia de una relación sentimental, sus autores también la relacionaron con la naturaleza cambiante de la fama y del negocio musical.",
+      "quienes_er_an": "Durante Hotel California, Eagles estaba integrado por Glenn Frey, Don Henley, Don Felder, Joe Walsh y Randy Meisner.",
+      "musicos": [
+        "Glenn Frey — voz principal y guitarra acústica",
+        "Don Henley — batería, percusión y armonías",
+        "Don Felder — guitarras eléctricas",
+        "Joe Walsh — piano eléctrico y órgano",
+        "Randy Meisner — bajo, guitarrón y voces",
+        "Bill Szymczyk — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Nº20"
+      ],
+      "sabias_que": [
+        "Randy Meisner tocó guitarrón mexicano.",
+        "Ganó el Grammy al mejor arreglo vocal para dos o más voces.",
+        "La versión single se desvanece antes que la del álbum."
+      ],
+      "por_que_recordarlo": "Porque detrás de una melodía cálida dejó una observación incómodamente lúcida sobre lo efímero del éxito.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Eagles",
+      "titulo": "Take It Easy",
+      "aliases_artista": [
+        "Eagles",
+        "The Eagles"
+      ],
+      "aliases_titulo": [
+        "Take It Easy"
+      ],
+      "anio": 1972,
+      "texto": "Take It Easy fue la presentación discográfica de Eagles y estableció desde el comienzo su mezcla de country, rock y armonías vocales.",
+      "cierre": "Una esquina en Winslow, Arizona, terminó formando parte de la geografía del rock.",
+      "slug": "eagles-take-it-easy",
+      "imagen": "img/archivo/eagles-take-it-easy.jpg",
+      "album": "Eagles",
+      "sello": "Asylum",
+      "single": "Take It Easy",
+      "compositor": "Jackson Browne · Glenn Frey",
+      "productor": "Glyn Johns",
+      "voz_principal": "Glenn Frey",
+      "historia": "Jackson Browne comenzó la canción y tuvo dificultades para terminar uno de sus versos. Glenn Frey, entonces vecino suyo, aportó parte de la letra y ambos quedaron acreditados. Eagles la publicó en mayo de 1972 como su primer sencillo.",
+      "quienes_er_an": "La formación inicial de Eagles reunió a Glenn Frey, Don Henley, Bernie Leadon y Randy Meisner, músicos vinculados a la escena country-rock del sur de California.",
+      "musicos": [
+        "Glenn Frey — voz principal, guitarra y composición",
+        "Bernie Leadon — guitarra y banjo",
+        "Don Henley — batería y voces",
+        "Randy Meisner — bajo y voces",
+        "Jackson Browne — composición",
+        "Glyn Johns — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº12"
+      ],
+      "sabias_que": [
+        "Fue el primer sencillo de Eagles.",
+        "Jackson Browne había comenzado a escribirla antes de que Frey colaborara para completarla.",
+        "La referencia a Winslow, Arizona, terminó convirtiéndose en parte de la cultura popular de la ciudad."
+      ],
+      "por_que_recordarlo": "Porque pocas bandas se presentaron al mundo con una canción que definiera tan rápidamente su personalidad.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Eddy Grant",
+      "titulo": "Living on the Frontline",
+      "aliases_artista": [
+        "Eddy Grant"
+      ],
+      "aliases_titulo": [
+        "Living on the Frontline",
+        "Living on the Front Line"
+      ],
+      "anio": 1979,
+      "texto": "Living on the Frontline convirtió la denuncia contra la opresión y la violencia en una mezcla bailable de reggae, funk y electrónica.",
+      "cierre": "Bailar sin dejar de mirar lo que ocurre en la primera línea.",
+      "slug": "eddy-grant-living-on-the-frontline",
+      "imagen": "img/archivo/eddy-grant-living-on-the-frontline.jpg",
+      "album": "Walking on Sunshine",
+      "sello": "Ice / Ensign",
+      "single": "Living on the Frontline",
+      "compositor": "Eddy Grant",
+      "productor": "Eddy Grant",
+      "voz_principal": "Eddy Grant",
+      "historia": "Grabada para Walking on Sunshine, Living on the Frontline fue escrita, arreglada e interpretada por Eddy Grant. Su crecimiento en clubes británicos ayudó a impulsar una distribución más amplia y el sencillo alcanzó el Nº11 del Reino Unido en 1979.",
+      "quienes_er_an": "Eddy Grant, nacido en Guyana y criado en Gran Bretaña, había sido fundador de The Equals. Como solista desarrolló una mezcla muy personal de reggae, pop, funk, electrónica y ritmos caribeños.",
+      "musicos": [
+        "Eddy Grant — voz, composición, arreglos, instrumentos e ingeniería"
+      ],
+      "ranking": [
+        "Reino Unido — Singles Chart: Nº11"
+      ],
+      "sabias_que": [
+        "El tema ganó impulso gracias a DJs de clubes británicos.",
+        "Grant compuso y arregló todas las canciones de Walking on Sunshine.",
+        "Su letra aborda de forma directa la opresión y el conflicto."
+      ],
+      "por_que_recordarlo": "Porque muestra cómo Grant podía hacer música físicamente bailable sin separar el ritmo de la conciencia social.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Electric Light Orchestra",
+      "titulo": "Last Train to London",
+      "aliases_artista": [
+        "Electric Light Orchestra",
+        "ELO"
+      ],
+      "aliases_titulo": [
+        "Last Train to London"
+      ],
+      "anio": 1979,
+      "texto": "Last Train to London llevó la sofisticación orquestal de ELO directamente a la pista de baile.",
+      "cierre": "Cuerdas, sintetizadores y el último tren convertido en disco elegante.",
+      "slug": "electric-light-orchestra-last-train-to-london",
+      "imagen": "img/archivo/electric-light-orchestra-last-train-to-london.jpg",
+      "album": "Discovery",
+      "sello": "Jet",
+      "single": "Last Train to London",
+      "compositor": "Jeff Lynne",
+      "productor": "Jeff Lynne",
+      "voz_principal": "Jeff Lynne",
+      "historia": "Incluida en Discovery, fue grabada en Musicland Studios de Múnich y publicada en 1979 como doble cara A con Confusion en el Reino Unido. Su bajo y pulso disco reflejan el giro bailable que atravesó buena parte del álbum.",
+      "quienes_er_an": "Electric Light Orchestra, liderada por Jeff Lynne, había construido durante los setenta una identidad que fusionaba rock, pop, arreglos de cuerdas y tecnología de estudio.",
+      "musicos": [
+        "Jeff Lynne — voz, composición y producción",
+        "Bev Bevan — batería",
+        "Richard Tandy — teclados",
+        "Kelly Groucutt — bajo y voces",
+        "Mik Kaminski — violín",
+        "Hugh McDowell — violonchelo",
+        "Melvyn Gale — violonchelo"
+      ],
+      "ranking": [
+        "Reino Unido — Nº8",
+        "Estados Unidos — Billboard Hot 100: Nº39"
+      ],
+      "sabias_que": [
+        "En Reino Unido apareció como doble cara A junto a Confusion.",
+        "Jeff Lynne relacionó el título con los frecuentes viajes en tren entre Birmingham y Londres.",
+        "La grabación utiliza, entre otros teclados, Yamaha CS-80, Clavinet y Fender Rhodes."
+      ],
+      "por_que_recordarlo": "Porque demuestra que ELO podía abrazar la música disco sin perder su inconfundible arquitectura sonora.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Erasure",
+      "titulo": "Oh L'amour",
+      "aliases_artista": [
+        "Erasure"
+      ],
+      "aliases_titulo": [
+        "Oh L'amour",
+        "Oh L’Amour",
+        "Oh l'amour",
+        "Oh, L'amour"
+      ],
+      "anio": 1986,
+      "texto": "Oh L'amour nació como uno de los primeros sencillos de Erasure y con los años terminó convirtiéndose en un clásico mucho mayor que su posición británica original.",
+      "cierre": "Desamor cantado sobre sintetizadores que invitan exactamente a lo contrario de quedarse quieto.",
+      "slug": "erasure-oh-lamour",
+      "imagen": "img/archivo/erasure-oh-lamour.jpg",
+      "album": "Wonderland",
+      "sello": "Mute",
+      "single": "Oh L'amour",
+      "compositor": "Vince Clarke · Andy Bell",
+      "productor": "Flood",
+      "voz_principal": "Andy Bell",
+      "historia": "Publicada en abril de 1986 como tercer sencillo de Erasure y perteneciente a Wonderland, fue escrita por Vince Clarke y Andy Bell y producida por Flood. Aunque inicialmente sólo alcanzó el Nº85 británico, encontró una recepción mucho mayor en otros mercados y se consolidó como pieza fundamental del repertorio del dúo.",
+      "quienes_er_an": "Erasure reunió al compositor y programador Vince Clarke —ex Depeche Mode y Yazoo— con el cantante Andy Bell. Juntos desarrollaron uno de los catálogos más duraderos del synth-pop británico.",
+      "musicos": [
+        "Andy Bell — voz y composición",
+        "Vince Clarke — teclados y composición",
+        "Flood — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº85",
+        "Alemania Occidental — Nº16",
+        "Francia — Nº14"
+      ],
+      "sabias_que": [
+        "Fue el tercer sencillo de Erasure.",
+        "Su desempeño británico original fue modesto pese a convertirse después en un clásico.",
+        "Tuvo especial repercusión en distintos mercados europeos y sudamericanos."
+      ],
+      "por_que_recordarlo": "Porque recuerda que el lugar histórico de una canción no siempre coincide con la posición que obtuvo cuando fue estrenada.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Eruption",
+      "titulo": "One Way Ticket",
+      "aliases_artista": [
+        "Eruption"
+      ],
+      "aliases_titulo": [
+        "One Way Ticket",
+        "One Way Ticket to the Blues"
+      ],
+      "anio": 1979,
+      "texto": "Eruption tomó una canción asociada originalmente a Neil Sedaka y la transformó en un éxito disco europeo.",
+      "cierre": "Un billete de ida de los años cincuenta terminó viajando directo a las pistas de 1979.",
+      "slug": "eruption-one-way-ticket",
+      "imagen": "img/archivo/eruption-one-way-ticket.jpg",
+      "album": "Leave a Light",
+      "sello": "Hansa",
+      "single": "One Way Ticket",
+      "compositor": "Jack Keller · Hank Hunter",
+      "productor": "Frank Farian",
+      "voz_principal": "Precious Wilson",
+      "historia": "One Way Ticket fue escrita por Jack Keller y Hank Hunter y había sido interpretada por Neil Sedaka años antes. Eruption grabó una versión disco para su segundo álbum, Leave a Light, que se convirtió en uno de los mayores éxitos del grupo en Europa durante 1979.",
+      "quienes_er_an": "Eruption fue un grupo británico de disco y soul que alcanzó repercusión internacional bajo la órbita de producción de Frank Farian. Precious Wilson fue su vocalista más reconocible durante el período de sus grandes éxitos.",
+      "musicos": [
+        "Precious Wilson — voz principal",
+        "Eruption — interpretación y arreglos",
+        "Stefan Klinkhammer — arreglos",
+        "Frank Farian — producción",
+        "Jack Keller — composición",
+        "Hank Hunter — composición"
+      ],
+      "ranking": [
+        "Austria — Nº1",
+        "Suiza — Nº1",
+        "Europa — Top 10 en numerosos mercados"
+      ],
+      "sabias_que": [
+        "No es una composición original de Eruption.",
+        "Neil Sedaka había grabado la canción previamente.",
+        "La versión de Eruption la reconvirtió al lenguaje disco de finales de los setenta."
+      ],
+      "por_que_recordarlo": "Porque es un gran ejemplo de cómo una canción puede renacer completamente cuando otra época cambia su ritmo, su producción y su contexto.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Eurythmics",
+      "titulo": "Here Comes the Rain Again",
+      "aliases_artista": [
+        "Eurythmics"
+      ],
+      "aliases_titulo": [
+        "Here Comes the Rain Again"
+      ],
+      "anio": 1983,
+      "texto": "Here Comes the Rain Again mezcló sintetizadores, guitarra y arreglos de cuerdas para convertir la melancolía en uno de los paisajes sonoros más reconocibles de Eurythmics.",
+      "cierre": "La lluvia cae como memoria y el synth-pop adquiere dimensión cinematográfica.",
+      "slug": "eurythmics-here-comes-the-rain-again",
+      "imagen": "img/archivo/eurythmics-here-comes-the-rain-again.jpg",
+      "album": "Touch",
+      "sello": "RCA",
+      "single": "Here Comes the Rain Again",
+      "compositor": "Annie Lennox · David A. Stewart",
+      "productor": "David A. Stewart",
+      "voz_principal": "Annie Lennox",
+      "historia": "Escrita por Annie Lennox y David A. Stewart, abre el álbum Touch de 1983. Publicada como sencillo en 1984, alcanzó el Nº8 británico y el Nº4 estadounidense. Su producción une electrónica con cuerdas y una guitarra de acordes abiertos.",
+      "quienes_er_an": "Eurythmics era el dúo formado por Annie Lennox y Dave Stewart. Tras el impacto de Sweet Dreams (Are Made of This), Touch amplió considerablemente su paleta instrumental y emocional.",
+      "musicos": [
+        "Annie Lennox — voz y composición",
+        "David A. Stewart — composición, instrumentos y producción",
+        "Arreglos de cuerdas — interpretación orquestal en la grabación"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº4",
+        "Reino Unido — Nº8"
+      ],
+      "sabias_que": [
+        "Existen distintas duraciones de álbum, single, video y promo.",
+        "La canción abre el álbum Touch.",
+        "Fue el segundo Top 10 de Eurythmics en Estados Unidos."
+      ],
+      "por_que_recordarlo": "Porque consigue que instrumentos acústicos y electrónicos parezcan formar parte del mismo clima emocional.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Eurythmics",
+      "titulo": "Miracle of Love",
+      "aliases_artista": [
+        "Eurythmics"
+      ],
+      "aliases_titulo": [
+        "Miracle of Love",
+        "The Miracle of Love"
+      ],
+      "anio": 1986,
+      "texto": "Miracle of Love mostró el costado más contemplativo de Eurythmics en medio de la etapa rockera de Revenge.",
+      "cierre": "Una balada que busca una salida luminosa frente al dolor.",
+      "slug": "eurythmics-miracle-of-love",
+      "imagen": "img/archivo/eurythmics-miracle-of-love.jpg",
+      "album": "Revenge",
+      "sello": "RCA",
+      "single": "The Miracle of Love",
+      "compositor": "Annie Lennox · David A. Stewart",
+      "productor": "David A. Stewart",
+      "voz_principal": "Annie Lennox",
+      "historia": "Grabada para Revenge y publicada como tercer sencillo del álbum en el Reino Unido en noviembre de 1986, fue escrita por Lennox y Stewart y producida por Stewart. El videoclip, dirigido por el propio Stewart, contrapone imágenes íntimas con material histórico de violencia y guerra.",
+      "quienes_er_an": "En Revenge, Eurythmics se había desplazado desde el synth-pop inicial hacia una formación y un sonido más cercanos al rock de banda, sin abandonar la escritura de Lennox y Stewart.",
+      "musicos": [
+        "Annie Lennox — voz y composición",
+        "David A. Stewart — guitarra, composición y producción"
+      ],
+      "ranking": [
+        "Europa — éxito en diversos mercados; no fue lanzada como sencillo en Estados Unidos"
+      ],
+      "sabias_que": [
+        "El título oficial del sencillo suele aparecer como The Miracle of Love.",
+        "Dave Stewart dirigió el videoclip.",
+        "No tuvo lanzamiento como sencillo en Estados Unidos."
+      ],
+      "por_que_recordarlo": "Porque entre los grandes temas rítmicos del dúo conserva un espacio de pausa, esperanza y vulnerabilidad.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Eurythmics",
+      "titulo": "There Must Be an Angel (Playing with My Heart)",
+      "aliases_artista": [
+        "Eurythmics"
+      ],
+      "aliases_titulo": [
+        "There Must Be an Angel (Playing with My Heart)",
+        "There Must Be An Angel (Playing With My Heart)",
+        "There Must Be an Angel"
+      ],
+      "anio": 1985,
+      "texto": "Eurythmics sumó gospel, pop y la armónica de Stevie Wonder para crear el único Nº1 británico de su carrera.",
+      "cierre": "Annie Lennox canta al cielo y Stevie Wonder responde con una armónica.",
+      "slug": "eurythmics-there-must-be-an-angel-playing-with-my-heart",
+      "imagen": "img/archivo/eurythmics-there-must-be-an-angel-playing-with-my-heart.jpg",
+      "album": "Be Yourself Tonight",
+      "sello": "RCA",
+      "single": "There Must Be an Angel (Playing with My Heart)",
+      "compositor": "Annie Lennox · David A. Stewart",
+      "productor": "David A. Stewart",
+      "voz_principal": "Annie Lennox",
+      "historia": "Publicada en junio de 1985 como segundo sencillo de Be Yourself Tonight, fue escrita por Annie Lennox y Dave Stewart y producida por Stewart. La grabación incluye una participación especialmente recordada de Stevie Wonder en armónica y alcanzó el Nº1 del Reino Unido.",
+      "quienes_er_an": "Con Be Yourself Tonight, Eurythmics amplió su electrónica mediante músicos invitados y elementos de soul, rock y gospel, manteniendo como núcleo creativo a Lennox y Stewart.",
+      "musicos": [
+        "Annie Lennox — voz y composición",
+        "David A. Stewart — composición y producción",
+        "Stevie Wonder — armónica invitada"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1",
+        "Irlanda — Nº1",
+        "Noruega — Nº1",
+        "Estados Unidos — Billboard Hot 100: Nº22"
+      ],
+      "sabias_que": [
+        "Es el único sencillo de Eurythmics que alcanzó el Nº1 británico.",
+        "Stevie Wonder improvisó el célebre solo de armónica.",
+        "La canción también encabezó las listas de Irlanda y Noruega."
+      ],
+      "por_que_recordarlo": "Porque una colaboración extraordinaria quedó integrada de forma natural dentro de una de las canciones más jubilosas del dúo.",
       "tipo_artista": "grupo"
     }
   ]
