@@ -10444,6 +10444,388 @@
       ],
       "por_que_recordarlo": "Porque combina la escala sonora de Genesis con una historia familiar especialmente oscura.",
       "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Giorgio Moroder",
+      "titulo": "Chase",
+      "aliases_artista": [
+        "Giorgio Moroder"
+      ],
+      "aliases_titulo": [
+        "Chase",
+        "Chase (1978)"
+      ],
+      "anio": 1978,
+      "texto": "Tema instrumental compuesto y producido por Giorgio Moroder para la banda sonora de Midnight Express. Su pulso secuenciado convirtió la persecución en música electrónica y ayudó a llevar el sonido de los sintetizadores al gran público.",
+      "cierre": "Porque pocas piezas instrumentales resumen tan bien la tensión, el movimiento y el futuro electrónico de fines de los setenta.",
+      "slug": "giorgio-moroder-chase",
+      "imagen": "img/archivo/giorgio-moroder-chase.jpg",
+      "album": "Midnight Express: Music from the Original Motion Picture Soundtrack",
+      "sello": "Casablanca",
+      "single": "Chase",
+      "compositor": "Giorgio Moroder",
+      "productor": "Giorgio Moroder",
+      "voz_principal": "Instrumental",
+      "historia": "Moroder compuso la música de Midnight Express (1978), cuya banda sonora obtuvo el Oscar a la mejor música original. Chase abrió el álbum con una extensa secuencia electrónica y luego circuló como sencillo, convirtiéndose en una de sus piezas instrumentales más reconocibles.",
+      "quienes_er_an": "Giorgio Moroder es un compositor, productor y pionero de la música electrónica y disco, decisivo en la incorporación de secuenciadores y sintetizadores a la música popular.",
+      "musicos": [
+        "Giorgio Moroder — composición, producción y electrónica"
+      ],
+      "ranking": [
+        "Reino Unido — Nº48"
+      ],
+      "sabias_que": [
+        "La versión de la banda sonora dura más de ocho minutos.",
+        "La banda sonora de Midnight Express ganó el Oscar a la mejor música original."
+      ],
+      "por_que_recordarlo": "Porque su secuencia hipnótica anticipó buena parte del lenguaje electrónico que dominaría las décadas siguientes.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Giorgio Moroder",
+      "titulo": "First Hand Experience in Second Hand Love",
+      "aliases_artista": [
+        "Giorgio Moroder"
+      ],
+      "aliases_titulo": [
+        "First Hand Experience in Second Hand Love",
+        "First Hand Experience In Second Hand Love"
+      ],
+      "anio": 1977,
+      "texto": "Una pieza de From Here to Eternity en la que Moroder y Pete Bellotte combinan canción pop, voz y una base electrónica continua, en pleno laboratorio sonoro de 1977.",
+      "cierre": "Porque muestra a Moroder antes de que el futuro electrónico dejara de parecer futuro.",
+      "slug": "giorgio-moroder-first-hand-experience-in-second-hand-love",
+      "imagen": "img/archivo/giorgio-moroder-first-hand-experience-in-second-hand-love.jpg",
+      "album": "From Here to Eternity",
+      "sello": "Oasis / Casablanca",
+      "single": "First Hand Experience in Second Hand Love",
+      "compositor": "Giorgio Moroder · Pete Bellotte",
+      "productor": "Giorgio Moroder · Pete Bellotte",
+      "voz_principal": "Giorgio Moroder",
+      "historia": "Publicada en 1977 dentro de From Here to Eternity, pertenece al período en que Moroder y Pete Bellotte desarrollaban un lenguaje basado en sintetizadores, secuencias repetitivas y producción de estudio que resultaría fundamental para la electrónica de baile.",
+      "quienes_er_an": "Giorgio Moroder es un compositor y productor italiano cuya obra de los años setenta ayudó a definir la disco electrónica y a abrir camino al synth-pop y a numerosos estilos posteriores.",
+      "musicos": [
+        "Giorgio Moroder — voz, composición y producción",
+        "Pete Bellotte — composición y producción"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Forma parte de From Here to Eternity, álbum publicado en 1977.",
+        "El título juega con la idea de adquirir experiencia directa en un amor de segunda mano."
+      ],
+      "por_que_recordarlo": "Porque conserva el sonido de una época en la que el estudio y los sintetizadores empezaban a convertirse en instrumentos creativos por derecho propio.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Glass Tiger",
+      "titulo": "Someday",
+      "aliases_artista": [
+        "Glass Tiger"
+      ],
+      "aliases_titulo": [
+        "Someday"
+      ],
+      "anio": 1986,
+      "texto": "Tercer sencillo del debut The Thin Red Line. Alan Frew, Al Connelly y Jim Vallance firmaron una canción de pop rock melódico que llevó a Glass Tiger al Top 10 estadounidense.",
+      "cierre": "Porque condensa ese pop canadiense de los ochenta donde melodía, guitarras y producción brillante convivían sin estorbarse.",
+      "slug": "glass-tiger-someday",
+      "imagen": "img/archivo/glass-tiger-someday.jpg",
+      "album": "The Thin Red Line",
+      "sello": "Capitol / Manhattan",
+      "single": "Someday",
+      "compositor": "Alan Frew · Al Connelly · Jim Vallance",
+      "productor": "Jim Vallance",
+      "voz_principal": "Alan Frew",
+      "historia": "Lanzada en 1986 como tercer sencillo de The Thin Red Line, fue escrita por Alan Frew, Al Connelly y el productor Jim Vallance. El tema extendió el éxito internacional del debut de Glass Tiger.",
+      "quienes_er_an": "Glass Tiger es una banda canadiense de pop rock surgida en Ontario y asociada al gran auge del pop melódico canadiense de mediados de los años ochenta.",
+      "musicos": [
+        "Alan Frew — voz principal",
+        "Al Connelly — guitarra y composición",
+        "Jim Vallance — composición y producción"
+      ],
+      "ranking": [
+        "Estados Unidos Billboard Hot 100 — Nº7",
+        "Canadá RPM — Nº14",
+        "Canadá Adult Contemporary — Nº4"
+      ],
+      "sabias_que": [
+        "Fue el tercer sencillo de The Thin Red Line.",
+        "Jim Vallance participó en la composición y producción."
+      ],
+      "por_que_recordarlo": "Porque fue uno de los temas que confirmó que Glass Tiger podía trascender Canadá y competir en las radios internacionales.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Glenn Frey",
+      "titulo": "The Heat Is On",
+      "aliases_artista": [
+        "Glenn Frey"
+      ],
+      "aliases_titulo": [
+        "The Heat Is On"
+      ],
+      "anio": 1984,
+      "texto": "Grabada para Beverly Hills Cop, unió la voz de Glenn Frey con una composición de Harold Faltermeyer y Keith Forsey. El resultado fue uno de los grandes cruces entre cine, rock y pop de los ochenta.",
+      "cierre": "Porque basta su arranque para que aparezcan de golpe el cine, las calles y la energía de 1984.",
+      "slug": "glenn-frey-the-heat-is-on",
+      "imagen": "img/archivo/glenn-frey-the-heat-is-on.jpg",
+      "album": "Beverly Hills Cop: Original Motion Picture Soundtrack",
+      "sello": "MCA",
+      "single": "The Heat Is On",
+      "compositor": "Harold Faltermeyer · Keith Forsey",
+      "productor": "Harold Faltermeyer · Keith Forsey",
+      "voz_principal": "Glenn Frey",
+      "historia": "Frey recibió la propuesta después de una proyección temprana de Beverly Hills Cop. La canción, escrita y producida por Harold Faltermeyer y Keith Forsey, se convirtió en uno de los temas emblemáticos de la película y en uno de los mayores éxitos de su carrera solista.",
+      "quienes_er_an": "Glenn Frey fue cantante, compositor, guitarrista y miembro fundador de Eagles. En los años ochenta desarrolló además una exitosa carrera solista muy ligada al sonido de cine y televisión de la época.",
+      "musicos": [
+        "Glenn Frey — voz, coros y guitarra solista",
+        "Rick Vito — guitarra",
+        "Harold Faltermeyer — teclados y bajo",
+        "Keith Forsey — batería y coros"
+      ],
+      "ranking": [
+        "Estados Unidos Billboard Hot 100 — Nº2"
+      ],
+      "sabias_que": [
+        "Fue creada específicamente para Beverly Hills Cop.",
+        "Harold Faltermeyer, coautor del tema, también creó el instrumental Axel F para la misma película."
+      ],
+      "por_que_recordarlo": "Porque representa como pocas canciones la alianza entre Hollywood y el pop-rock de los años ochenta.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Glenn Frey",
+      "titulo": "You Belong to the City",
+      "aliases_artista": [
+        "Glenn Frey"
+      ],
+      "aliases_titulo": [
+        "You Belong to the City",
+        "You Belong To The City"
+      ],
+      "anio": 1985,
+      "texto": "Escrita por Glenn Frey y Jack Tempchin para Miami Vice, convirtió saxofón, sintetizadores y atmósfera nocturna en una postal sonora de la ciudad de mediados de los ochenta.",
+      "cierre": "Porque no sólo acompaña una ciudad: parece caminar por ella de noche.",
+      "slug": "glenn-frey-you-belong-to-the-city",
+      "imagen": "img/archivo/glenn-frey-you-belong-to-the-city.jpg",
+      "album": "Miami Vice: Music from the Television Series",
+      "sello": "MCA",
+      "single": "You Belong to the City",
+      "compositor": "Glenn Frey · Jack Tempchin",
+      "productor": "Glenn Frey",
+      "voz_principal": "Glenn Frey",
+      "historia": "Fue escrita específicamente para Miami Vice y apareció en el episodio The Prodigal Son. Frey construyó casi toda la instrumentación, acompañado por Bill Bergman en saxofón y Michael Huey en batería.",
+      "quienes_er_an": "Glenn Frey fue miembro fundador de Eagles y, durante los ochenta, consolidó una carrera solista en la que varias canciones quedaron estrechamente asociadas al cine y la televisión.",
+      "musicos": [
+        "Glenn Frey — voz e instrumentos",
+        "Bill Bergman — saxofón",
+        "Michael Huey — batería"
+      ],
+      "ranking": [
+        "Estados Unidos Billboard Hot 100 — Nº2",
+        "Estados Unidos Top Rock Tracks — Nº1"
+      ],
+      "sabias_que": [
+        "Fue escrita para el episodio The Prodigal Son de Miami Vice.",
+        "El saxofón fue interpretado por Bill Bergman."
+      ],
+      "por_que_recordarlo": "Porque convirtió la estética urbana de Miami Vice en una canción que puede reconocerse aun fuera de la serie.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Gloria Gaynor",
+      "titulo": "Never Can Say Goodbye",
+      "aliases_artista": [
+        "Gloria Gaynor"
+      ],
+      "aliases_titulo": [
+        "Never Can Say Goodbye"
+      ],
+      "anio": 1974,
+      "texto": "Gloria Gaynor tomó una composición de Clifton Davis ya conocida por The Jackson 5 y la transformó en una de las grabaciones decisivas del nacimiento de la música disco.",
+      "cierre": "Porque demuestra cómo una canción conocida puede renacer por completo cuando cambia el pulso.",
+      "slug": "gloria-gaynor-never-can-say-goodbye",
+      "imagen": "img/archivo/gloria-gaynor-never-can-say-goodbye.jpg",
+      "album": "Never Can Say Goodbye",
+      "sello": "MGM",
+      "single": "Never Can Say Goodbye",
+      "compositor": "Clifton Davis",
+      "productor": "Meco Monardo · Tony Bongiovi · Jay Ellis",
+      "voz_principal": "Gloria Gaynor",
+      "historia": "Grabada en 1974 y publicada en el debut homónimo de Gaynor, convirtió la canción escrita por Clifton Davis en una pieza disco. En el álbum aparece dentro de una larga suite bailable enlazada, una idea muy influyente en la cultura de discoteca.",
+      "quienes_er_an": "Gloria Gaynor es una cantante estadounidense fundamental en la historia de la música disco, cuya carrera quedó asociada a varias de las grabaciones más perdurables del género.",
+      "musicos": [
+        "Gloria Gaynor — voz principal",
+        "Harold Wheeler — arreglos",
+        "Meco Monardo — producción",
+        "Tony Bongiovi — producción",
+        "Jay Ellis — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº2"
+      ],
+      "sabias_que": [
+        "La canción había sido grabada previamente por The Jackson 5.",
+        "En el álbum de Gaynor forma parte de una suite disco continua junto con Honey Bee y Reach Out, I’ll Be There."
+      ],
+      "por_que_recordarlo": "Porque ayudó a convertir una canción soul en lenguaje de pista de baile y a definir el sonido disco que estaba naciendo.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Greg Kihn Band",
+      "titulo": "Jeopardy",
+      "aliases_artista": [
+        "Greg Kihn Band",
+        "The Greg Kihn Band"
+      ],
+      "aliases_titulo": [
+        "Jeopardy"
+      ],
+      "anio": 1983,
+      "texto": "El gran éxito de Kihnspiracy: Greg Kihn y Steve Wright escribieron una canción de tensión romántica con pulso new wave que llegó al Nº2 del Billboard Hot 100.",
+      "cierre": "Porque convirtió una relación al borde del quiebre en uno de los estribillos más reconocibles de 1983.",
+      "slug": "greg-kihn-band-jeopardy",
+      "imagen": "img/archivo/greg-kihn-band-jeopardy.jpg",
+      "album": "Kihnspiracy",
+      "sello": "Beserkley",
+      "single": "Jeopardy",
+      "compositor": "Greg Kihn · Steve Wright",
+      "productor": "Matthew King Kaufman",
+      "voz_principal": "Greg Kihn",
+      "historia": "Publicada en 1983 dentro de Kihnspiracy, fue escrita por Greg Kihn y Steve Wright y producida por Matthew King Kaufman. Se transformó en el mayor éxito pop del grupo y también tuvo una fuerte presencia en las pistas de baile.",
+      "quienes_er_an": "Greg Kihn Band fue una banda estadounidense liderada por el cantante y compositor Greg Kihn, vinculada al sello Beserkley y a una mezcla de rock, pop y new wave.",
+      "musicos": [
+        "Greg Kihn — voz y composición",
+        "Steve Wright — bajo y composición",
+        "Matthew King Kaufman — producción"
+      ],
+      "ranking": [
+        "Estados Unidos Billboard Hot 100 — Nº2",
+        "Estados Unidos Billboard Hot Club Dance Play — Nº1",
+        "Reino Unido — Nº63"
+      ],
+      "sabias_que": [
+        "Fue el único sencillo del grupo que llegó al Top 10 del Billboard Hot 100.",
+        "Su título inspiró la parodia I Lost on Jeopardy de Weird Al Yankovic."
+      ],
+      "por_que_recordarlo": "Porque es el momento en que el rock de Greg Kihn encontró una fórmula pop y bailable de alcance masivo.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Heart",
+      "titulo": "All I Wanna Do Is Make Love to You",
+      "aliases_artista": [
+        "Heart"
+      ],
+      "aliases_titulo": [
+        "All I Wanna Do Is Make Love to You",
+        "All I Wanna Do Is Make Love To You"
+      ],
+      "anio": 1990,
+      "texto": "Escrita por Robert John “Mutt” Lange y producida por Richie Zito, fue uno de los grandes sencillos de Brigade y se convirtió en uno de los mayores éxitos de Heart.",
+      "cierre": "Porque detrás de su enorme estribillo hay una historia mucho más extraña y cinematográfica de lo que sugiere una primera escucha.",
+      "slug": "heart-all-i-wanna-do-is-make-love-to-you",
+      "imagen": "img/archivo/heart-all-i-wanna-do-is-make-love-to-you.jpg",
+      "album": "Brigade",
+      "sello": "Capitol",
+      "single": "All I Wanna Do Is Make Love to You",
+      "compositor": "Robert John “Mutt” Lange",
+      "productor": "Richie Zito",
+      "voz_principal": "Ann Wilson",
+      "historia": "Lanzada en 1990 como sencillo de Brigade, fue escrita por Mutt Lange y producida por Richie Zito. Su relato y su producción de gran escala la llevaron al Nº2 estadounidense y a posiciones destacadas en numerosos países.",
+      "quienes_er_an": "Heart es una banda estadounidense encabezada históricamente por las hermanas Ann y Nancy Wilson, capaz de atravesar hard rock, folk rock y el sonido de grandes baladas de los años ochenta y noventa.",
+      "musicos": [
+        "Ann Wilson — voz principal",
+        "Nancy Wilson — voz y guitarra",
+        "Kim Bullard — teclados",
+        "Richie Zito — producción"
+      ],
+      "ranking": [
+        "Estados Unidos Billboard Hot 100 — Nº2",
+        "Reino Unido — Nº8",
+        "Canadá — Nº1",
+        "Australia — Nº1"
+      ],
+      "sabias_que": [
+        "La canción fue escrita por Mutt Lange.",
+        "La versión de Heart recibió una nominación al Grammy a mejor interpretación pop vocal de dúo o grupo."
+      ],
+      "por_que_recordarlo": "Porque representa el Heart de gran producción sin perder la potencia narrativa de una canción que cuenta una historia completa.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Hoobastank",
+      "titulo": "The Reason",
+      "aliases_artista": [
+        "Hoobastank"
+      ],
+      "aliases_titulo": [
+        "The Reason"
+      ],
+      "anio": 2003,
+      "texto": "La canción que llevó a Hoobastank desde el rock alternativo a una audiencia mundial. Con producción de Howard Benson, transformó una confesión de arrepentimiento en uno de los grandes himnos radiales de comienzos de los 2000.",
+      "cierre": "Porque a veces una banda encuentra su canción más universal cuando baja el volumen y deja hablar a la vulnerabilidad.",
+      "slug": "hoobastank-the-reason",
+      "imagen": "img/archivo/hoobastank-the-reason.jpg",
+      "album": "The Reason",
+      "sello": "Island",
+      "single": "The Reason",
+      "compositor": "Douglas Robb · Daniel Estrin · Markku Lappalainen · Chris Hesse",
+      "productor": "Howard Benson",
+      "voz_principal": "Douglas Robb",
+      "historia": "Incluida en el álbum The Reason, publicado en 2003, la canción se convirtió durante 2004 en el mayor éxito internacional de Hoobastank. Alcanzó el Nº2 del Billboard Hot 100 y encabezó varias listas estadounidenses de rock y pop radial.",
+      "quienes_er_an": "Hoobastank es una banda estadounidense de rock formada en California, surgida en la escena alternativa de fines de los noventa y conocida mundialmente a partir del éxito de The Reason.",
+      "musicos": [
+        "Douglas Robb — voz",
+        "Daniel Estrin — guitarra",
+        "Markku Lappalainen — bajo",
+        "Chris Hesse — batería",
+        "Howard Benson — producción",
+        "Deborah Lurie — arreglos de cuerdas"
+      ],
+      "ranking": [
+        "Estados Unidos Billboard Hot 100 — Nº2",
+        "Reino Unido — Nº12",
+        "Reino Unido Rock & Metal Singles — Nº1"
+      ],
+      "sabias_que": [
+        "Fue el sencillo de mayor éxito de Hoobastank en el Billboard Hot 100.",
+        "La grabación incluye arreglos de cuerdas de Deborah Lurie."
+      ],
+      "por_que_recordarlo": "Porque marcó el momento en que el rock alternativo de la banda encontró una balada capaz de cruzar formatos y generaciones.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Grant Miller",
+      "titulo": "Wings of Love",
+      "slug": "grant-miller-wings-of-love",
+      "imagen": "img/archivo/grant-miller-wings-of-love.jpg",
+      "anio": "1985",
+      "texto": "Italo disco de pulso romántico y nocturno, una de las grabaciones asociadas al sonido europeo que Grant Miller desarrolló durante los años ochenta.",
+      "cierre": "Una postal del Italo disco: melodía, sintetizadores y romanticismo de pista.",
+      "album": "Wings of Love",
+      "tipo_artista": "solista",
+      "historia": "Wings of Love pertenece a la etapa ochentera de Grant Miller, cantante estadounidense ligado a la escena Italo disco europea. Su combinación de base electrónica, melodía pop y estribillo sentimental resume una estética que encontró especial circulación en discotecas y recopilaciones del género.",
+      "quienes": "Grant Miller es un cantante estadounidense vinculado principalmente al Italo disco y al eurodisco de los años ochenta. Desarrolló buena parte de su carrera en Europa y quedó asociado a producciones de fuerte identidad electrónica.",
+      "recordar": "Para FlashBack, Wings of Love recupera ese costado del repertorio ochentero donde el sintetizador y la pista de baile también podían sostener una canción abiertamente romántica."
+    },
+    {
+      "artista": "Heart",
+      "titulo": "These Dreams",
+      "slug": "heart-these-dreams",
+      "imagen": "img/archivo/heart-these-dreams.jpg",
+      "anio": "1985",
+      "texto": "Una de las grandes baladas de Heart: atmósfera de ensueño, producción ochentera y la voz de Nancy Wilson en primer plano.",
+      "cierre": "Cuando Heart bajó la intensidad de las guitarras, encontró uno de sus mayores éxitos.",
+      "album": "Heart",
+      "sello": "Capitol Records",
+      "compositor": "Bernie Taupin · Martin Page",
+      "productor": "Ron Nevison",
+      "voz_principal": "Nancy Wilson",
+      "tipo_artista": "grupo",
+      "historia": "These Dreams apareció en el álbum Heart de 1985 y fue editada como sencillo en 1986. Escrita por Bernie Taupin y Martin Page y producida por Ron Nevison, se convirtió en el primer número uno de Heart en el Billboard Hot 100. También es singular dentro del repertorio del grupo porque Nancy Wilson asumió la voz principal.",
+      "quienes": "Heart es una banda estadounidense de rock encabezada históricamente por las hermanas Ann y Nancy Wilson. Surgida en los años setenta, atravesó con éxito distintas etapas del rock y en los ochenta incorporó una producción más pulida y orientada al gran público.",
+      "recordar": "These Dreams muestra otra cara de Heart: menos frontal que sus temas de rock duro, pero con una identidad melódica que terminó llevándolas a lo más alto de las listas."
     }
   ]
 }
