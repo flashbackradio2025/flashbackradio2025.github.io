@@ -10826,6 +10826,451 @@
       "historia": "These Dreams apareció en el álbum Heart de 1985 y fue editada como sencillo en 1986. Escrita por Bernie Taupin y Martin Page y producida por Ron Nevison, se convirtió en el primer número uno de Heart en el Billboard Hot 100. También es singular dentro del repertorio del grupo porque Nancy Wilson asumió la voz principal.",
       "quienes": "Heart es una banda estadounidense de rock encabezada históricamente por las hermanas Ann y Nancy Wilson. Surgida en los años setenta, atravesó con éxito distintas etapas del rock y en los ochenta incorporó una producción más pulida y orientada al gran público.",
       "recordar": "These Dreams muestra otra cara de Heart: menos frontal que sus temas de rock duro, pero con una identidad melódica que terminó llevándolas a lo más alto de las listas."
+    },
+    {
+      "artista": "Icehouse",
+      "titulo": "Crazy",
+      "aliases_artista": [
+        "Icehouse"
+      ],
+      "aliases_titulo": [
+        "Crazy"
+      ],
+      "anio": 1987,
+      "texto": "Crazy pertenece a Man of Colours, el álbum que llevó a Icehouse a uno de los puntos más altos de su etapa internacional.",
+      "cierre": "Pop australiano de los 80 con melodía amplia, producción pulida y la identidad vocal de Iva Davies.",
+      "slug": "icehouse-crazy",
+      "imagen": "img/archivo/icehouse-crazy.jpg",
+      "album": "Man of Colours",
+      "sello": "Regular Records / Chrysalis",
+      "single": "Crazy",
+      "compositor": "Iva Davies · Robert Kretschmer · Andy Qunta",
+      "productor": "David Lord",
+      "voz_principal": "Iva Davies",
+      "historia": "Editada en 1987 dentro de Man of Colours, Crazy fue uno de los sencillos que acompañaron la gran expansión internacional de Icehouse. La canción combina guitarras, sintetizadores y una construcción pop característica del grupo en su etapa más exitosa.",
+      "quienes_er_an": "Icehouse es una banda australiana liderada por Iva Davies. Nacida a fines de los años 70, desarrolló durante los 80 una mezcla reconocible de rock, new wave y pop electrónico.",
+      "musicos": [
+        "Iva Davies — voz, guitarra y teclados",
+        "Robert Kretschmer — guitarra",
+        "Andy Qunta — teclados"
+      ],
+      "ranking": [
+        "Éxito internacional durante la etapa de Man of Colours"
+      ],
+      "sabias_que": [
+        "Man of Colours se convirtió en el álbum de mayor impacto comercial de Icehouse."
+      ],
+      "por_que_recordarlo": "Porque representa el momento en que Icehouse consiguió combinar su raíz new wave con un sonido pop de alcance internacional.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Icehouse",
+      "titulo": "Electric Blue",
+      "aliases_artista": [
+        "Icehouse"
+      ],
+      "aliases_titulo": [
+        "Electric Blue"
+      ],
+      "anio": 1987,
+      "texto": "Electric Blue convirtió la elegancia electrónica de Icehouse en uno de sus temas más reconocibles internacionalmente.",
+      "cierre": "Un estribillo luminoso y una producción inequívocamente ochentera.",
+      "slug": "icehouse-electric-blue",
+      "imagen": "img/archivo/icehouse-electric-blue.jpg",
+      "album": "Man of Colours",
+      "sello": "Regular Records / Chrysalis",
+      "single": "Electric Blue",
+      "compositor": "Iva Davies · John Oates",
+      "productor": "David Lord",
+      "voz_principal": "Iva Davies",
+      "historia": "Electric Blue apareció en Man of Colours en 1987. Fue escrita por Iva Davies junto a John Oates, de Hall & Oates, y se transformó en uno de los mayores éxitos internacionales de Icehouse.",
+      "quienes_er_an": "Icehouse es una banda australiana encabezada por el cantante, compositor y multiinstrumentista Iva Davies.",
+      "musicos": [
+        "Iva Davies — voz, guitarra y teclados",
+        "Robert Kretschmer — guitarra",
+        "Andy Qunta — teclados"
+      ],
+      "ranking": [
+        "Australia — gran éxito nacional",
+        "Estados Unidos — Top 10 del Billboard Hot 100"
+      ],
+      "sabias_que": [
+        "John Oates participó como coautor de la canción."
+      ],
+      "por_que_recordarlo": "Porque Electric Blue es una de las canciones que mejor resume el pop australiano internacional de fines de los 80.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Icehouse",
+      "titulo": "No Promises",
+      "aliases_artista": [
+        "Icehouse"
+      ],
+      "aliases_titulo": [
+        "No Promises"
+      ],
+      "anio": 1985,
+      "texto": "No Promises muestra el costado atmosférico y sofisticado de Icehouse, con sintetizadores y una interpretación contenida de Iva Davies.",
+      "cierre": "Una canción nocturna que conserva intacta la elegancia del synth-pop de mediados de los 80.",
+      "slug": "icehouse-no-promises",
+      "imagen": "img/archivo/icehouse-no-promises.jpg",
+      "album": "Measure for Measure",
+      "sello": "Regular Records / Chrysalis",
+      "single": "No Promises",
+      "compositor": "Iva Davies · Robert Kretschmer",
+      "productor": "Rhett Davies · David Lord",
+      "voz_principal": "Iva Davies",
+      "historia": "No Promises fue lanzada en la etapa de Measure for Measure y ayudó a reforzar la presencia internacional de Icehouse antes del enorme éxito de Man of Colours. Su arreglo privilegia textura, espacio y clima por encima de la contundencia rock.",
+      "quienes_er_an": "Icehouse es una banda australiana liderada por Iva Davies, figura central de su composición y sonido.",
+      "musicos": [
+        "Iva Davies — voz, guitarra y teclados",
+        "Robert Kretschmer — guitarra"
+      ],
+      "ranking": [
+        "Tema de difusión internacional de la etapa Measure for Measure"
+      ],
+      "sabias_que": [
+        "La canción pertenece al período inmediatamente anterior al álbum Man of Colours."
+      ],
+      "por_que_recordarlo": "Porque revela el costado más atmosférico de Icehouse y funciona como puente hacia su etapa de mayor popularidad.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Imagination",
+      "titulo": "Just an Illusion",
+      "aliases_artista": [
+        "Imagination"
+      ],
+      "aliases_titulo": [
+        "Just an Illusion",
+        "Just An Illusion"
+      ],
+      "anio": 1982,
+      "texto": "Just an Illusion mezcló funk, post-disco y elegancia electrónica hasta convertirse en la canción emblemática de Imagination.",
+      "cierre": "Una línea de bajo, sintetizadores y misterio: una combinación que todavía identifica inmediatamente a 1982.",
+      "slug": "imagination-just-an-illusion",
+      "imagen": "img/archivo/imagination-just-an-illusion.jpg",
+      "album": "In the Heat of the Night",
+      "sello": "R&B Records",
+      "single": "Just an Illusion",
+      "compositor": "Steve Jolley · Tony Swain · Ashley Ingram · Leee John",
+      "productor": "Steve Jolley · Tony Swain",
+      "voz_principal": "Leee John",
+      "historia": "Publicada en 1982, Just an Illusion fue escrita por Steve Jolley, Tony Swain, Ashley Ingram y Leee John. Alcanzó el Nº2 británico y se convirtió en el gran clásico internacional del trío.",
+      "quienes_er_an": "Imagination fue un trío británico de soul, funk y post-disco integrado alrededor de Leee John, Ashley Ingram y Errol Kennedy.",
+      "musicos": [
+        "Leee John — voz",
+        "Ashley Ingram — bajo y voz",
+        "Errol Kennedy — batería"
+      ],
+      "ranking": [
+        "Reino Unido — Nº2",
+        "Estados Unidos — presencia en listas R&B y dance"
+      ],
+      "sabias_que": [
+        "Jolley y Swain, autores y productores, fueron una dupla fundamental del pop británico de comienzos de los 80."
+      ],
+      "por_que_recordarlo": "Porque convirtió el post-disco británico en una pieza elegante, futurista y reconocible desde los primeros segundos.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "INXS",
+      "titulo": "Never Tear Us Apart",
+      "aliases_artista": [
+        "INXS",
+        "Inxs"
+      ],
+      "aliases_titulo": [
+        "Never Tear Us Apart"
+      ],
+      "anio": 1987,
+      "texto": "Never Tear Us Apart llevó a INXS hacia una balada dramática sostenida por cuerdas, saxofón y la voz de Michael Hutchence.",
+      "cierre": "Una balada que no abandona la tensión ni la personalidad de INXS.",
+      "slug": "inxs-never-tear-us-apart",
+      "imagen": "img/archivo/inxs-never-tear-us-apart.jpg",
+      "album": "Kick",
+      "sello": "Atlantic / WEA",
+      "single": "Never Tear Us Apart",
+      "compositor": "Andrew Farriss · Michael Hutchence",
+      "productor": "Chris Thomas",
+      "voz_principal": "Michael Hutchence",
+      "historia": "Incluida en Kick, Never Tear Us Apart fue escrita por Andrew Farriss y Michael Hutchence. Su arreglo lento y cinematográfico ofreció un contraste con el funk-rock de otros sencillos del álbum y terminó convirtiéndose en una de las canciones más perdurables de INXS.",
+      "quienes_er_an": "INXS fue una banda australiana formada por Michael Hutchence, los hermanos Farriss, Kirk Pengilly y Garry Gary Beers.",
+      "musicos": [
+        "Michael Hutchence — voz",
+        "Andrew Farriss — teclados y composición",
+        "Tim Farriss — guitarra",
+        "Kirk Pengilly — saxofón y guitarra",
+        "Garry Gary Beers — bajo",
+        "Jon Farriss — batería"
+      ],
+      "ranking": [
+        "Éxito internacional de Kick"
+      ],
+      "sabias_que": [
+        "El saxofón de Kirk Pengilly es uno de los elementos más reconocibles del arreglo."
+      ],
+      "por_que_recordarlo": "Porque mostró que INXS podía bajar el tempo sin perder intensidad, sensualidad ni identidad.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Isaac Hayes",
+      "titulo": "Don't Let Go",
+      "aliases_artista": [
+        "Isaac Hayes"
+      ],
+      "aliases_titulo": [
+        "Don't Let Go",
+        "Dont Let Go"
+      ],
+      "anio": 1979,
+      "texto": "Isaac Hayes llevó Don't Let Go al terreno disco sin abandonar el peso de su voz y su raíz soul.",
+      "cierre": "Soul y disco unidos por una de las voces más profundas de la música popular estadounidense.",
+      "slug": "isaac-hayes-dont-let-go",
+      "imagen": "img/archivo/isaac-hayes-dont-let-go.jpg",
+      "album": "Don't Let Go",
+      "sello": "Polydor",
+      "single": "Don't Let Go",
+      "compositor": "Jesse Stone",
+      "productor": "Isaac Hayes",
+      "voz_principal": "Isaac Hayes",
+      "historia": "En 1979 Isaac Hayes grabó Don't Let Go como pieza central del álbum del mismo nombre. La canción era una composición anterior de Jesse Stone, pero Hayes la transformó mediante una producción disco-soul propia de su etapa en Polydor.",
+      "quienes_er_an": "Isaac Hayes fue cantante, compositor, arreglador y productor estadounidense, figura esencial del soul de Memphis y ganador del Oscar por Theme from Shaft.",
+      "musicos": [
+        "Isaac Hayes — voz, arreglos y producción"
+      ],
+      "ranking": [
+        "El álbum Don't Let Go alcanzó el Billboard 200 y las listas R&B"
+      ],
+      "sabias_que": [
+        "La canción no fue compuesta originalmente por Hayes: pertenece al compositor Jesse Stone."
+      ],
+      "por_que_recordarlo": "Porque permite escuchar cómo una figura fundacional del soul absorbió la pulsación disco sin perder su personalidad.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Ivan",
+      "titulo": "Fotonovela",
+      "aliases_artista": [
+        "Ivan",
+        "Iván"
+      ],
+      "aliases_titulo": [
+        "Fotonovela"
+      ],
+      "anio": 1984,
+      "texto": "Fotonovela convirtió al español Iván en una presencia internacional gracias a una mezcla inmediata de synth-pop, melodía y estética europea.",
+      "cierre": "Una fotografía sonora de 1984 que atravesó fronteras e idiomas.",
+      "slug": "ivan-fotonovela",
+      "imagen": "img/archivo/ivan-fotonovela.jpg",
+      "album": "Baila",
+      "sello": "CBS",
+      "single": "Fotonovela",
+      "compositor": "Luis Gómez-Escolar · Pedro Vidal",
+      "productor": "Pedro Vidal",
+      "voz_principal": "Iván",
+      "historia": "Lanzada en España en 1984, Fotonovela fue escrita por Luis Gómez-Escolar y Pedro Vidal y producida por Vidal. La canción logró difusión en distintos mercados europeos y quedó como el tema internacionalmente más recordado de Iván.",
+      "quienes_er_an": "Iván es el nombre artístico del cantante español Juan Carlos Ramos Vaquero, una de las voces del pop español que logró circulación europea durante los años 80.",
+      "musicos": [
+        "Iván — voz y arreglos",
+        "Claudio D'Onofrio — programación y arreglos",
+        "Roberto Colombo — programación"
+      ],
+      "ranking": [
+        "Francia — Top 10",
+        "Suiza — Top 10",
+        "Alemania Occidental — Top 10"
+      ],
+      "sabias_que": [
+        "Existieron versiones denominadas Capítulo I y Capítulo II, esta última en formato maxi."
+      ],
+      "por_que_recordarlo": "Porque Fotonovela llevó un tema en español al corazón del synth-pop europeo de mediados de los 80.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "James Blunt",
+      "titulo": "You're Beautiful",
+      "aliases_artista": [
+        "James Blunt"
+      ],
+      "aliases_titulo": [
+        "You're Beautiful",
+        "Youre Beautiful"
+      ],
+      "anio": 2004,
+      "texto": "You're Beautiful transformó una escena fugaz en una balada global y convirtió a James Blunt en una figura internacional.",
+      "cierre": "Una canción sencilla en apariencia que terminó recorriendo prácticamente todo el mundo.",
+      "slug": "james-blunt-youre-beautiful",
+      "imagen": "img/archivo/james-blunt-youre-beautiful.jpg",
+      "album": "Back to Bedlam",
+      "sello": "Atlantic / Custard",
+      "single": "You're Beautiful",
+      "compositor": "James Blunt · Sacha Skarbek · Amanda Ghost",
+      "productor": "Tom Rothrock",
+      "voz_principal": "James Blunt",
+      "historia": "Incluida en Back to Bedlam y editada como sencillo en 2005, You're Beautiful fue escrita por James Blunt, Sacha Skarbek y Amanda Ghost y producida por Tom Rothrock. Alcanzó el Nº1 tanto en el Reino Unido como en Estados Unidos.",
+      "quienes_er_an": "James Blunt es un cantante y compositor británico cuya carrera internacional despegó con su álbum debut Back to Bedlam.",
+      "musicos": [
+        "James Blunt — voz y guitarra acústica",
+        "Sasha Kristov — bajo",
+        "Mike Tarantino — guitarra eléctrica",
+        "John Nau — piano",
+        "Charlie Paxson — batería",
+        "Eric Gorfain / The Section Quartet — cuerdas"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1",
+        "Estados Unidos — Billboard Hot 100: Nº1"
+      ],
+      "sabias_que": [
+        "La canción recibió un Ivor Novello por su enorme difusión."
+      ],
+      "por_que_recordarlo": "Porque fue una de las baladas que definieron la radio pop de mediados de los años 2000.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Jimmy Bo Horne",
+      "titulo": "Dance Across the Floor",
+      "aliases_artista": [
+        "Jimmy Bo Horne",
+        "Jimmy \"Bo\" Horne"
+      ],
+      "aliases_titulo": [
+        "Dance Across the Floor",
+        "Dance Across The Floor"
+      ],
+      "anio": 1978,
+      "texto": "Dance Across the Floor puso la voz de Jimmy Bo Horne sobre el sonido de Miami que Harry Wayne Casey y Richard Finch habían convertido en una fábrica de ritmo.",
+      "cierre": "Disco de Miami directo a la pista: ritmo, metales y una invitación imposible de confundir.",
+      "slug": "jimmy-bo-horne-dance-across-the-floor",
+      "imagen": "img/archivo/jimmy-bo-horne-dance-across-the-floor.jpg",
+      "album": "Dance Across the Floor",
+      "sello": "Sunshine Sound / T.K. Records",
+      "single": "Dance Across the Floor",
+      "compositor": "Harry Wayne Casey · Richard Finch",
+      "productor": "Harry Wayne Casey · Richard Finch",
+      "voz_principal": "Jimmy Bo Horne",
+      "historia": "Publicada en 1978, Dance Across the Floor fue escrita y producida por Harry Wayne Casey y Richard Finch, responsables centrales del sonido de KC and the Sunshine Band. Se convirtió en el mayor éxito R&B de Jimmy Bo Horne y en uno de los clásicos del disco de Miami.",
+      "quienes_er_an": "Jimmy Bo Horne es un cantante estadounidense asociado a la escena funk y disco de Miami y al entorno de T.K. Records.",
+      "musicos": [
+        "Jimmy Bo Horne — voz",
+        "Harry Wayne Casey y Richard Finch — composición y producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Top 10 R&B"
+      ],
+      "sabias_que": [
+        "Fue el único sencillo de Horne que llegó al Top 10 de la lista R&B estadounidense."
+      ],
+      "por_que_recordarlo": "Porque concentra el sonido bailable de Miami de fines de los 70 en una grabación que sigue funcionando como clásico de pista.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Jimmy Bo Horne",
+      "titulo": "Is It In",
+      "aliases_artista": [
+        "Jimmy Bo Horne",
+        "Jimmy \"Bo\" Horne"
+      ],
+      "aliases_titulo": [
+        "Is It In"
+      ],
+      "anio": 1980,
+      "texto": "Is It In prolongó la etapa de club de Jimmy Bo Horne al comienzo de los 80 con una producción orientada de lleno a la pista.",
+      "cierre": "El disco cambiaba de década, pero Miami todavía tenía combustible para la pista.",
+      "slug": "jimmy-bo-horne-is-it-in",
+      "imagen": "img/archivo/jimmy-bo-horne-is-it-in.jpg",
+      "album": "",
+      "sello": "Sunshine Sound / T.K. Records",
+      "single": "Is It In",
+      "compositor": "",
+      "productor": "",
+      "voz_principal": "Jimmy Bo Horne",
+      "historia": "Is It In apareció en 1980 como sencillo de Jimmy Bo Horne durante la etapa final de su presencia habitual en las listas R&B. El tema mantuvo su vínculo con el circuito disco y posteriormente continuó circulando en reediciones, mezclas y cultura popular.",
+      "quienes_er_an": "Jimmy Bo Horne es un cantante estadounidense vinculado a la escena disco y funk de Miami.",
+      "musicos": [
+        "Jimmy Bo Horne — voz"
+      ],
+      "ranking": [
+        "Estados Unidos — entrada en listas R&B en 1980"
+      ],
+      "sabias_que": [
+        "Fue el último sencillo de Horne que logró entrar en las listas R&B estadounidenses.",
+        "Décadas después apareció en la selección musical de Grand Theft Auto: Vice City Stories."
+      ],
+      "por_que_recordarlo": "Porque documenta la transición del disco de fines de los 70 hacia el sonido de club de comienzos de los 80.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Jennifer Rush",
+      "titulo": "The Power of Love",
+      "aliases_artista": [
+        "Jennifer Rush"
+      ],
+      "aliases_titulo": [
+        "The Power of Love",
+        "The Power Of Love"
+      ],
+      "anio": 1984,
+      "texto": "Antes de sus famosas versiones posteriores, The Power of Love fue la gran balada con la que Jennifer Rush conquistó Europa.",
+      "cierre": "Una interpretación original que convirtió una balada de enorme registro vocal en estándar internacional.",
+      "slug": "jennifer-rush-the-power-of-love",
+      "imagen": "img/archivo/jennifer-rush-the-power-of-love.jpg",
+      "album": "Jennifer Rush",
+      "sello": "CBS",
+      "single": "The Power of Love",
+      "compositor": "Jennifer Rush · Gunther Mende · Candy de Rouge · Mary Susan Applegate",
+      "productor": "Gunther Mende · Candy de Rouge",
+      "voz_principal": "Jennifer Rush",
+      "historia": "Jennifer Rush grabó The Power of Love en Alemania y la publicó en 1984. Escrita por Rush junto a Gunther Mende, Candy de Rouge y Mary Susan Applegate, alcanzó el Nº1 británico en 1985 y se convirtió en uno de los sencillos más vendidos de aquel año.",
+      "quienes_er_an": "Jennifer Rush es una cantante estadounidense que desarrolló buena parte del comienzo de su carrera en Europa y alcanzó fama mundial durante los años 80.",
+      "musicos": [
+        "Jennifer Rush — voz",
+        "Harry Baierl — teclados y programación"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1",
+        "Gran éxito europeo en 1985"
+      ],
+      "sabias_que": [
+        "La versión de Jennifer Rush es la grabación original del tema que posteriormente versionaron, entre otros, Laura Branigan y Céline Dion."
+      ],
+      "por_que_recordarlo": "Porque detrás de las versiones posteriores existe una interpretación original poderosa que fue primero un fenómeno europeo.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Jim Diamond",
+      "titulo": "I Should Have Known Better",
+      "aliases_artista": [
+        "Jim Diamond"
+      ],
+      "aliases_titulo": [
+        "I Should Have Known Better"
+      ],
+      "anio": 1984,
+      "texto": "I Should Have Known Better convirtió la voz de Jim Diamond en uno de los sonidos más reconocibles de las baladas británicas de 1984.",
+      "cierre": "Una balada de arrepentimiento que llegó hasta el Nº1 británico.",
+      "slug": "jim-diamond-i-should-have-known-better",
+      "imagen": "img/archivo/jim-diamond-i-should-have-known-better.jpg",
+      "album": "Double Crossed",
+      "sello": "A&M",
+      "single": "I Should Have Known Better",
+      "compositor": "Jim Diamond · Graham Lyle",
+      "productor": "Jim Diamond · Pip Williams",
+      "voz_principal": "Jim Diamond",
+      "historia": "Publicada en octubre de 1984 y posteriormente incluida en Double Crossed, I Should Have Known Better fue escrita por Jim Diamond y Graham Lyle y producida por Diamond junto a Pip Williams. Alcanzó el Nº1 de la lista británica en diciembre de 1984.",
+      "quienes_er_an": "Jim Diamond fue un cantante y compositor escocés que antes de su carrera solista había formado parte de Ph.D., grupo recordado por I Won't Let You Down.",
+      "musicos": [
+        "Jim Diamond — voz"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1 en diciembre de 1984"
+      ],
+      "sabias_que": [
+        "Cuando su canción estaba en lo alto de las listas, Diamond pidió públicamente al público que comprara el sencillo benéfico Do They Know It's Christmas? de Band Aid."
+      ],
+      "por_que_recordarlo": "Porque une una gran interpretación vocal con una curiosa muestra de generosidad en plena competencia por el Nº1 navideño.",
+      "tipo_artista": "solista"
     }
   ]
 }
