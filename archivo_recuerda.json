@@ -9971,6 +9971,479 @@
       ],
       "por_que_recordarlo": "Porque FlashBack Radio no está limitada a una década ni a un país: una canción que quedó en la memoria merece entrar al Archivo aunque venga de otra geografía y otro momento.",
       "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Gazebo",
+      "titulo": "I Like Chopin",
+      "aliases_artista": [
+        "Gazebo"
+      ],
+      "aliases_titulo": [
+        "I Like Chopin"
+      ],
+      "anio": 1983,
+      "texto": "Publicada en 1983, la música fue compuesta por Pierluigi Giombini y la letra por Gazebo.",
+      "cierre": "Porque resume la vertiente romántica y sofisticada del italo disco.",
+      "slug": "gazebo-i-like-chopin",
+      "imagen": "img/archivo/gazebo-i-like-chopin.jpg",
+      "album": "Gazebo",
+      "sello": "Baby Records",
+      "single": "I Like Chopin",
+      "compositor": "Pierluigi Giombini · Gazebo (Paul Mazzolini)",
+      "productor": "Pierluigi Giombini",
+      "voz_principal": "Gazebo",
+      "historia": "Publicada en 1983, la música fue compuesta por Pierluigi Giombini y la letra por Gazebo. Se convirtió en el gran éxito internacional de Gazebo y en un clásico del italo disco.",
+      "quienes_er_an": "Gazebo es el nombre artístico de Paul Mazzolini, cantante y compositor asociado al italo disco italiano.",
+      "musicos": [
+        "Gazebo — voz y letra",
+        "Pierluigi Giombini — música, teclados y producción"
+      ],
+      "ranking": [
+        "Gran éxito europeo en 1983"
+      ],
+      "sabias_que": [
+        "El título alude a Chopin, pero no utiliza una composición del pianista polaco."
+      ],
+      "por_que_recordarlo": "Porque resume la vertiente romántica y sofisticada del italo disco.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Genesis",
+      "titulo": "Home By The Sea",
+      "aliases_artista": [
+        "Genesis"
+      ],
+      "aliases_titulo": [
+        "Home By The Sea"
+      ],
+      "anio": 1983,
+      "texto": "Incluida en Genesis de 1983, fue escrita colectivamente por Tony Banks, Phil Collins y Mike Rutherford.",
+      "cierre": "Porque conserva el costado narrativo y progresivo del Genesis de los ochenta.",
+      "slug": "genesis-home-by-the-sea",
+      "imagen": "img/archivo/genesis-home-by-the-sea.jpg",
+      "album": "Genesis",
+      "sello": "Charisma / Atlantic",
+      "single": "Home by the Sea",
+      "compositor": "Tony Banks · Phil Collins · Mike Rutherford",
+      "productor": "Genesis · Hugh Padgham",
+      "voz_principal": "Phil Collins",
+      "historia": "Incluida en Genesis de 1983, fue escrita colectivamente por Tony Banks, Phil Collins y Mike Rutherford. En el álbum enlaza con Second Home by the Sea y desarrolla una historia de intrusión y fantasmas.",
+      "quienes_er_an": "Genesis era entonces el trío Tony Banks, Phil Collins y Mike Rutherford.",
+      "musicos": [
+        "Phil Collins — voz, batería y percusión",
+        "Tony Banks — teclados",
+        "Mike Rutherford — guitarra y bajo"
+      ],
+      "ranking": [
+        "Tema destacado del álbum Genesis"
+      ],
+      "sabias_que": [
+        "En el álbum continúa directamente con Second Home by the Sea."
+      ],
+      "por_que_recordarlo": "Porque conserva el costado narrativo y progresivo del Genesis de los ochenta.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Genesis",
+      "titulo": "I Can't Dance",
+      "aliases_artista": [
+        "Genesis"
+      ],
+      "aliases_titulo": [
+        "I Can't Dance"
+      ],
+      "anio": 1991,
+      "texto": "Grabada para We Can't Dance, nació de una improvisación del trío y fue publicada como sencillo en 1991-92.",
+      "cierre": "Porque combina humor, un riff mínimo y una identidad inmediatamente reconocible.",
+      "slug": "genesis-i-cant-dance",
+      "imagen": "img/archivo/genesis-i-cant-dance.jpg",
+      "album": "We Can't Dance",
+      "sello": "Virgin / Atlantic",
+      "single": "I Can't Dance",
+      "compositor": "Tony Banks · Phil Collins · Mike Rutherford",
+      "productor": "Genesis · Nick Davis",
+      "voz_principal": "Phil Collins",
+      "historia": "Grabada para We Can't Dance, nació de una improvisación del trío y fue publicada como sencillo en 1991-92. Su tono irónico también quedó reflejado en el videoclip.",
+      "quienes_er_an": "Genesis seguía formado por Tony Banks, Phil Collins y Mike Rutherford.",
+      "musicos": [
+        "Phil Collins — voz y batería",
+        "Tony Banks — teclados",
+        "Mike Rutherford — guitarra y bajo",
+        "Nick Davis — producción e ingeniería"
+      ],
+      "ranking": [
+        "Reino Unido — Nº7",
+        "Estados Unidos — Nº7"
+      ],
+      "sabias_que": [
+        "La canción surgió durante una improvisación de estudio."
+      ],
+      "por_que_recordarlo": "Porque combina humor, un riff mínimo y una identidad inmediatamente reconocible.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Genesis",
+      "titulo": "In Too Deep",
+      "aliases_artista": [
+        "Genesis"
+      ],
+      "aliases_titulo": [
+        "In Too Deep"
+      ],
+      "anio": 1986,
+      "texto": "Incluida en Invisible Touch, fue escrita por Banks, Collins y Rutherford y mostró el costado de balada del grupo en su etapa de mayor expansión comercial.",
+      "cierre": "Porque representa el costado íntimo del Genesis más masivo.",
+      "slug": "genesis-in-too-deep",
+      "imagen": "img/archivo/genesis-in-too-deep.jpg",
+      "album": "Invisible Touch",
+      "sello": "Virgin / Atlantic",
+      "single": "In Too Deep",
+      "compositor": "Tony Banks · Phil Collins · Mike Rutherford",
+      "productor": "Genesis · Hugh Padgham",
+      "voz_principal": "Phil Collins",
+      "historia": "Incluida en Invisible Touch, fue escrita por Banks, Collins y Rutherford y mostró el costado de balada del grupo en su etapa de mayor expansión comercial.",
+      "quienes_er_an": "Genesis era el trío Banks-Collins-Rutherford.",
+      "musicos": [
+        "Phil Collins — voz y batería",
+        "Tony Banks — teclados",
+        "Mike Rutherford — guitarra y bajo",
+        "Hugh Padgham — coproducción"
+      ],
+      "ranking": [
+        "Estados Unidos — Top 10",
+        "Estados Unidos — Adult Contemporary: Nº1"
+      ],
+      "sabias_que": [
+        "Pertenece al álbum Invisible Touch."
+      ],
+      "por_que_recordarlo": "Porque representa el costado íntimo del Genesis más masivo.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Genesis",
+      "titulo": "Jesus He Knows Me",
+      "aliases_artista": [
+        "Genesis"
+      ],
+      "aliases_titulo": [
+        "Jesus He Knows Me"
+      ],
+      "anio": 1991,
+      "texto": "Grabada para We Can't Dance, fue escrita por Banks, Collins y Rutherford.",
+      "cierre": "Porque detrás de un estribillo accesible guarda una crítica social muy clara.",
+      "slug": "genesis-jesus-he-knows-me",
+      "imagen": "img/archivo/genesis-jesus-he-knows-me.jpg",
+      "album": "We Can't Dance",
+      "sello": "Virgin / Atlantic",
+      "single": "Jesus He Knows Me",
+      "compositor": "Tony Banks · Phil Collins · Mike Rutherford",
+      "productor": "Genesis · Nick Davis",
+      "voz_principal": "Phil Collins",
+      "historia": "Grabada para We Can't Dance, fue escrita por Banks, Collins y Rutherford. La letra y el videoclip satirizan a los telepredicadores y la religión convertida en negocio.",
+      "quienes_er_an": "Genesis estaba integrado por Tony Banks, Phil Collins y Mike Rutherford.",
+      "musicos": [
+        "Phil Collins — voz y batería",
+        "Tony Banks — teclados",
+        "Mike Rutherford — guitarra y bajo",
+        "Nick Davis — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº20",
+        "Estados Unidos — Nº23"
+      ],
+      "sabias_que": [
+        "El videoclip adopta deliberadamente la estética de los televangelistas."
+      ],
+      "por_que_recordarlo": "Porque detrás de un estribillo accesible guarda una crítica social muy clara.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Genesis",
+      "titulo": "Mama (Long Version)",
+      "aliases_artista": [
+        "Genesis"
+      ],
+      "aliases_titulo": [
+        "Mama (Long Version)"
+      ],
+      "anio": 1983,
+      "texto": "Grabada para Genesis en 1983, nació de una base electrónica y fue desarrollada colectivamente.",
+      "cierre": "Porque es uno de los ejemplos más oscuros y atmosféricos del Genesis de los ochenta.",
+      "slug": "genesis-mama-long-version",
+      "imagen": "img/archivo/genesis-mama-long-version.jpg",
+      "album": "Genesis",
+      "sello": "Charisma / Atlantic",
+      "single": "Mama",
+      "compositor": "Tony Banks · Phil Collins · Mike Rutherford",
+      "productor": "Genesis · Hugh Padgham",
+      "voz_principal": "Phil Collins",
+      "historia": "Grabada para Genesis en 1983, nació de una base electrónica y fue desarrollada colectivamente. FlashBack Radio conserva la versión larga de esta grabación oscura e hipnótica.",
+      "quienes_er_an": "Genesis estaba formado por Tony Banks, Phil Collins y Mike Rutherford.",
+      "musicos": [
+        "Phil Collins — voz, batería y percusión",
+        "Tony Banks — teclados",
+        "Mike Rutherford — guitarra y bajo",
+        "Hugh Padgham — coproducción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº4"
+      ],
+      "sabias_que": [
+        "FlashBack Radio conserva la versión larga."
+      ],
+      "por_que_recordarlo": "Porque es uno de los ejemplos más oscuros y atmosféricos del Genesis de los ochenta.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Gerry Rafferty",
+      "titulo": "Right Down the Line",
+      "aliases_artista": [
+        "Gerry Rafferty"
+      ],
+      "aliases_titulo": [
+        "Right Down the Line"
+      ],
+      "anio": 1978,
+      "texto": "Incluida en City to City y publicada como sencillo en 1978, fue escrita íntegramente por Gerry Rafferty y producida junto a Hugh Murphy.",
+      "cierre": "Porque es una de las declaraciones de afecto más duraderas del soft rock.",
+      "slug": "gerry-rafferty-right-down-the-line",
+      "imagen": "img/archivo/gerry-rafferty-right-down-the-line.jpg",
+      "album": "City to City",
+      "sello": "United Artists",
+      "single": "Right Down the Line",
+      "compositor": "Gerry Rafferty",
+      "productor": "Gerry Rafferty · Hugh Murphy",
+      "voz_principal": "Gerry Rafferty",
+      "historia": "Incluida en City to City y publicada como sencillo en 1978, fue escrita íntegramente por Gerry Rafferty y producida junto a Hugh Murphy. Llegó al Nº12 del Billboard Hot 100 y al Nº1 de Adult Contemporary.",
+      "quienes_er_an": "Gerry Rafferty fue un cantante y compositor escocés que antes había formado parte de Stealers Wheel.",
+      "musicos": [
+        "Gerry Rafferty — voz y guitarra rítmica",
+        "Hugh Burns — guitarra",
+        "Tommy Eyre — piano y órgano",
+        "Gary Taylor — bajo",
+        "BJ Cole — steel guitar",
+        "Henry Spinetti — batería",
+        "Glen Le Fleur — percusión"
+      ],
+      "ranking": [
+        "Estados Unidos — Hot 100: Nº12",
+        "Estados Unidos — Adult Contemporary: Nº1"
+      ],
+      "sabias_que": [
+        "Fue el sencillo que siguió a Baker Street."
+      ],
+      "por_que_recordarlo": "Porque es una de las declaraciones de afecto más duraderas del soft rock.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Gino Soccio",
+      "titulo": "Try It Out",
+      "aliases_artista": [
+        "Gino Soccio"
+      ],
+      "aliases_titulo": [
+        "Try It Out"
+      ],
+      "anio": 1981,
+      "texto": "Publicada en 1981 dentro de Closer, fue una de las grabaciones más exitosas de Soccio en clubes y alcanzó el Nº1 de la lista dance estadounidense.",
+      "cierre": "Porque captura la transición de la disco hacia la electrónica.",
+      "slug": "gino-soccio-try-it-out",
+      "imagen": "img/archivo/gino-soccio-try-it-out.jpg",
+      "album": "Closer",
+      "sello": "Atlantic / RFC",
+      "single": "Try It Out",
+      "compositor": "Gino Soccio",
+      "productor": "Gino Soccio",
+      "voz_principal": "Producción vocal de Gino Soccio",
+      "historia": "Publicada en 1981 dentro de Closer, fue una de las grabaciones más exitosas de Soccio en clubes y alcanzó el Nº1 de la lista dance estadounidense.",
+      "quienes_er_an": "Gino Soccio es un productor, compositor y multiinstrumentista canadiense clave en la transición de la disco hacia formas electrónicas.",
+      "musicos": [
+        "Gino Soccio — composición, producción e instrumentos"
+      ],
+      "ranking": [
+        "Estados Unidos — Dance: Nº1"
+      ],
+      "sabias_que": [
+        "Pertenece al álbum Closer."
+      ],
+      "por_que_recordarlo": "Porque captura la transición de la disco hacia la electrónica.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Gino Soccio",
+      "titulo": "It's Alright",
+      "aliases_artista": [
+        "Gino Soccio"
+      ],
+      "aliases_titulo": [
+        "It's Alright"
+      ],
+      "anio": 1982,
+      "texto": "Publicada en 1982 dentro de Face to Face, la versión de álbum dura aproximadamente 7:37 y alcanzó el Nº2 de la lista dance estadounidense.",
+      "cierre": "Porque conserva el formato extendido y de club característico de Soccio.",
+      "slug": "gino-soccio-its-alright",
+      "imagen": "img/archivo/gino-soccio-its-alright.jpg",
+      "album": "Face to Face",
+      "sello": "Atlantic",
+      "single": "It's Alright",
+      "compositor": "Gino Soccio",
+      "productor": "Gino Soccio",
+      "voz_principal": "Producción vocal de Gino Soccio",
+      "historia": "Publicada en 1982 dentro de Face to Face, la versión de álbum dura aproximadamente 7:37 y alcanzó el Nº2 de la lista dance estadounidense.",
+      "quienes_er_an": "Gino Soccio es un músico y productor canadiense asociado a la disco electrónica.",
+      "musicos": [
+        "Gino Soccio — composición, producción e instrumentos"
+      ],
+      "ranking": [
+        "Estados Unidos — Dance: Nº2"
+      ],
+      "sabias_que": [
+        "En AzuraCast figuraba erróneamente como Gino Coccio y Raúl corrigió el metadato a Gino Soccio."
+      ],
+      "por_que_recordarlo": "Porque conserva el formato extendido y de club característico de Soccio.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Gino Soccio",
+      "titulo": "Dancer",
+      "aliases_artista": [
+        "Gino Soccio"
+      ],
+      "aliases_titulo": [
+        "Dancer"
+      ],
+      "anio": 1979,
+      "texto": "Incluida en Outline, apareció en 1979 y alcanzó el Nº1 de la lista dance estadounidense, consolidando internacionalmente a Soccio.",
+      "cierre": "Porque es esencial para entender la disco electrónica de 1979.",
+      "slug": "gino-soccio-dancer",
+      "imagen": "img/archivo/gino-soccio-dancer.jpg",
+      "album": "Outline",
+      "sello": "Warner / RFC",
+      "single": "Dancer",
+      "compositor": "Gino Soccio",
+      "productor": "Gino Soccio",
+      "voz_principal": "Producción vocal de Gino Soccio",
+      "historia": "Incluida en Outline, apareció en 1979 y alcanzó el Nº1 de la lista dance estadounidense, consolidando internacionalmente a Soccio.",
+      "quienes_er_an": "Gino Soccio es un músico y productor canadiense que unió disco y sintetizadores.",
+      "musicos": [
+        "Gino Soccio — composición, producción e instrumentos"
+      ],
+      "ranking": [
+        "Estados Unidos — Dance: Nº1"
+      ],
+      "sabias_que": [
+        "La versión extensa ronda los ocho minutos y medio."
+      ],
+      "por_que_recordarlo": "Porque es esencial para entender la disco electrónica de 1979.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Gino Soccio",
+      "titulo": "Hold Tight",
+      "aliases_artista": [
+        "Gino Soccio"
+      ],
+      "aliases_titulo": [
+        "Hold Tight"
+      ],
+      "anio": 1981,
+      "texto": "Incluida en Closer de 1981, forma parte de la etapa en que Soccio refinó su fórmula electrónica después del impacto de Outline.",
+      "cierre": "Porque completa la imagen de Soccio más allá de un único éxito.",
+      "slug": "gino-soccio-hold-tight",
+      "imagen": "img/archivo/gino-soccio-hold-tight.jpg",
+      "album": "Closer",
+      "sello": "Atlantic / RFC",
+      "single": "Hold Tight",
+      "compositor": "Gino Soccio",
+      "productor": "Gino Soccio",
+      "voz_principal": "Producción vocal de Gino Soccio",
+      "historia": "Incluida en Closer de 1981, forma parte de la etapa en que Soccio refinó su fórmula electrónica después del impacto de Outline.",
+      "quienes_er_an": "Gino Soccio desarrolló gran parte de sus grabaciones como compositor, arreglador, productor y multiinstrumentista.",
+      "musicos": [
+        "Gino Soccio — composición, producción e instrumentos"
+      ],
+      "ranking": [
+        "Tema de club del álbum Closer"
+      ],
+      "sabias_que": [
+        "Comparte álbum con Try It Out."
+      ],
+      "por_que_recordarlo": "Porque completa la imagen de Soccio más allá de un único éxito.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Phil Collins",
+      "titulo": "In the Air Tonight",
+      "aliases_artista": [
+        "Phil Collins"
+      ],
+      "aliases_titulo": [
+        "In the Air Tonight"
+      ],
+      "anio": 1981,
+      "texto": "Publicada en 1981 como sencillo de Face Value, fue escrita por Phil Collins y producida junto a Hugh Padgham.",
+      "cierre": "Porque su construcción de tensión desemboca en uno de los momentos de batería más reconocibles del pop.",
+      "slug": "phil-collins-in-the-air-tonight",
+      "imagen": "img/archivo/phil-collins-in-the-air-tonight.jpg",
+      "album": "Face Value",
+      "sello": "Virgin / Atlantic",
+      "single": "In the Air Tonight",
+      "compositor": "Phil Collins",
+      "productor": "Phil Collins · Hugh Padgham",
+      "voz_principal": "Phil Collins",
+      "historia": "Publicada en 1981 como sencillo de Face Value, fue escrita por Phil Collins y producida junto a Hugh Padgham. Quedó asociada al sonido de batería con gated reverb y se convirtió en una pieza central de su carrera solista.",
+      "quienes_er_an": "Phil Collins era cantante y baterista de Genesis, pero Face Value estableció una identidad solista propia.",
+      "musicos": [
+        "Phil Collins — voz, batería, composición y producción",
+        "Hugh Padgham — producción e ingeniería"
+      ],
+      "ranking": [
+        "Reino Unido — Nº2"
+      ],
+      "sabias_que": [
+        "No es una canción de Genesis: pertenece a la carrera solista de Phil Collins."
+      ],
+      "por_que_recordarlo": "Porque su construcción de tensión desemboca en uno de los momentos de batería más reconocibles del pop.",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Genesis",
+      "titulo": "No Son of Mine",
+      "aliases_artista": [
+        "Genesis"
+      ],
+      "aliases_titulo": [
+        "No Son of Mine"
+      ],
+      "anio": 1991,
+      "texto": "Publicada en octubre de 1991 como primer sencillo de We Can't Dance, fue escrita por Tony Banks, Phil Collins y Mike Rutherford y producida por Genesis y Nick Davis.",
+      "cierre": "Porque combina la escala sonora de Genesis con una historia familiar especialmente oscura.",
+      "slug": "genesis-no-son-of-mine",
+      "imagen": "img/archivo/genesis-no-son-of-mine.jpg",
+      "album": "We Can't Dance",
+      "sello": "Virgin / Atlantic",
+      "single": "No Son of Mine",
+      "compositor": "Tony Banks · Phil Collins · Mike Rutherford",
+      "productor": "Genesis · Nick Davis",
+      "voz_principal": "Phil Collins",
+      "historia": "Publicada en octubre de 1991 como primer sencillo de We Can't Dance, fue escrita por Tony Banks, Phil Collins y Mike Rutherford y producida por Genesis y Nick Davis. Alcanzó el Nº6 británico.",
+      "quienes_er_an": "Genesis estaba integrado por Tony Banks, Phil Collins y Mike Rutherford.",
+      "musicos": [
+        "Phil Collins — voz, batería y percusión",
+        "Tony Banks — teclados",
+        "Mike Rutherford — guitarra y bajo",
+        "Nick Davis — producción e ingeniería"
+      ],
+      "ranking": [
+        "Reino Unido — Nº6",
+        "Canadá — Nº1"
+      ],
+      "sabias_que": [
+        "El sonido inicial fue apodado 'elephantus' por la banda.",
+        "Existen una versión de álbum y una edición más corta para radio."
+      ],
+      "por_que_recordarlo": "Porque combina la escala sonora de Genesis con una historia familiar especialmente oscura.",
+      "tipo_artista": "grupo"
     }
   ]
 }
