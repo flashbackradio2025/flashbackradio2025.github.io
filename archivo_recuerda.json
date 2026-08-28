@@ -12248,6 +12248,514 @@
       "por_que_recordarlo": "Porque representa la transición del disco clásico hacia un sonido más electrónico y extendido pensado para las pistas de comienzos de los 80.",
       "recuerdo_personal": "",
       "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Kiss",
+      "titulo": "I Was Made For Lovin' You",
+      "aliases_artista": [
+        "KISS",
+        "Kiss"
+      ],
+      "aliases_titulo": [
+        "I Was Made for Lovin' You",
+        "I Was Made For Loving You"
+      ],
+      "anio": 1979,
+      "texto": "I Was Made For Lovin' You llevó a Kiss hacia el pulso disco sin abandonar su identidad rockera, creando uno de los cruces más reconocibles de 1979.",
+      "cierre": "Rock, maquillaje y pista de baile: Kiss también supo convertir la noche disco en territorio propio.",
+      "slug": "kiss-i-was-made-for-lovin-you",
+      "imagen": "img/archivo/kiss-i-was-made-for-lovin-you.jpg",
+      "album": "Dynasty",
+      "sello": "Casablanca",
+      "single": "I Was Made For Lovin' You",
+      "catalogo": "",
+      "duracion": "4:30",
+      "compositor": "Paul Stanley, Vini Poncia, Desmond Child",
+      "productor": "Vini Poncia",
+      "voz_principal": "Paul Stanley",
+      "historia": "Publicada en 1979 como primer sencillo de Dynasty, nació durante la incursión de Paul Stanley en el ambiente de las discotecas neoyorquinas. Su mezcla de hard rock y disco la convirtió en uno de los mayores éxitos internacionales de Kiss.",
+      "quienes_er_an": "Kiss es una banda estadounidense de rock formada en Nueva York, célebre tanto por sus canciones como por su maquillaje, vestuario y espectáculos escénicos.",
+      "musicos": [
+        "Paul Stanley — voz principal y guitarra",
+        "Gene Simmons — bajo",
+        "Ace Frehley — guitarra",
+        "Anton Fig — batería",
+        "Vini Poncia — teclados y coros"
+      ],
+      "ranking": [
+        "Billboard Hot 100 — #11"
+      ],
+      "sabias_que": [
+        "Anton Fig tocó la batería en la grabación.",
+        "Desmond Child participó en la composición junto a Paul Stanley y Vini Poncia."
+      ],
+      "por_que_recordarlo": "Porque mostró hasta qué punto el sonido disco había atravesado la cultura popular de fines de los 70 y produjo uno de los clásicos definitivos de Kiss.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Kool & The Gang",
+      "titulo": "Fresh",
+      "aliases_artista": [
+        "Kool & the Gang",
+        "Kool and the Gang"
+      ],
+      "aliases_titulo": [
+        "Fresh"
+      ],
+      "anio": 1984,
+      "texto": "Fresh condensó el sonido elegante y bailable de Kool & The Gang en los años 80, combinando funk, R&B y pop con una producción impecable.",
+      "cierre": "Una palabra, un ritmo y un estribillo bastaron para hacerla eterna.",
+      "slug": "kool-and-the-gang-fresh",
+      "imagen": "img/archivo/kool-and-the-gang-fresh.jpg",
+      "album": "Emergency",
+      "sello": "De-Lite / Mercury",
+      "single": "Fresh",
+      "catalogo": "",
+      "duracion": "4:27",
+      "compositor": "Kool & The Gang, James Bonnefond, Sandy Linzer",
+      "productor": "Kool & The Gang, Jim Bonnefond",
+      "voz_principal": "James J.T. Taylor",
+      "historia": "Publicada a fines de 1984 como sencillo de Emergency, Fresh llegó al Top 10 estadounidense y encabezó las listas de R&B y Dance.",
+      "quienes_er_an": "Kool & The Gang es una banda estadounidense nacida en Nueva Jersey que atravesó jazz, funk, soul, disco y pop, convirtiéndose en una de las formaciones bailables más duraderas.",
+      "musicos": [
+        "James J.T. Taylor — voz principal"
+      ],
+      "ranking": [
+        "Billboard Hot 100 — #9",
+        "Billboard R&B — #1",
+        "Billboard Dance — #1",
+        "UK Singles Chart — #11"
+      ],
+      "sabias_que": [
+        "Fresh fue el segundo sencillo del álbum Emergency.",
+        "Alcanzó simultáneamente el número uno de las listas estadounidenses de R&B y Dance."
+      ],
+      "por_que_recordarlo": "Porque representa la etapa ochentosa más pulida de Kool & The Gang sin perder la raíz funk que definió al grupo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Kool & The Gang",
+      "titulo": "Get Down On It",
+      "aliases_artista": [
+        "Kool & the Gang",
+        "Kool and the Gang"
+      ],
+      "aliases_titulo": [
+        "Get Down on It"
+      ],
+      "anio": 1981,
+      "texto": "Get Down On It convirtió una pregunta sencilla —¿cómo vas a hacerlo si no te levantás a bailar?— en uno de los grooves esenciales de Kool & The Gang.",
+      "cierre": "El funk no se explica demasiado: cuando aparece este bajo, el cuerpo entiende primero.",
+      "slug": "kool-and-the-gang-get-down-on-it",
+      "imagen": "img/archivo/kool-and-the-gang-get-down-on-it.jpg",
+      "album": "Something Special",
+      "sello": "De-Lite",
+      "single": "Get Down On It",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Kool & The Gang",
+      "productor": "Eumir Deodato, Kool & The Gang",
+      "voz_principal": "James J.T. Taylor",
+      "historia": "Incluida en Something Special y publicada como sencillo en 1981, se transformó en uno de los grandes éxitos internacionales del grupo.",
+      "quienes_er_an": "Kool & The Gang desarrolló desde Nueva Jersey una larga carrera que pasó del jazz y funk instrumental al disco, R&B y pop internacional.",
+      "musicos": [
+        "James J.T. Taylor — voz principal"
+      ],
+      "ranking": [
+        "Billboard Hot 100 — #10",
+        "Billboard R&B — #4",
+        "UK Singles Chart — #3"
+      ],
+      "sabias_que": [
+        "La canción pertenece al álbum Something Special.",
+        "Se convirtió en uno de los mayores éxitos británicos del grupo."
+      ],
+      "por_que_recordarlo": "Porque su línea de bajo, respuesta coral y ritmo siguen siendo una invitación inmediata a la pista.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Kool & The Gang",
+      "titulo": "Ladies Night",
+      "aliases_artista": [
+        "Kool & the Gang",
+        "Kool and the Gang"
+      ],
+      "aliases_titulo": [
+        "Ladies' Night",
+        "Ladies Night"
+      ],
+      "anio": 1979,
+      "texto": "Ladies Night marcó el gran salto de Kool & The Gang hacia una fórmula que unía funk, disco y pop con enorme alcance comercial.",
+      "cierre": "Una noche de 1979 que todavía sigue abierta cada vez que vuelve a sonar.",
+      "slug": "kool-and-the-gang-ladies-night",
+      "imagen": "img/archivo/kool-and-the-gang-ladies-night.jpg",
+      "album": "Ladies' Night",
+      "sello": "De-Lite",
+      "single": "Ladies' Night",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Kool & The Gang",
+      "productor": "Eumir Deodato",
+      "voz_principal": "James J.T. Taylor",
+      "historia": "Publicada en 1979, fue la canción principal del álbum Ladies' Night. La llegada del cantante James J.T. Taylor y la producción de Eumir Deodato ayudaron a definir una nueva etapa para el grupo.",
+      "quienes_er_an": "Kool & The Gang es una de las grandes formaciones estadounidenses de funk y R&B, activa desde los años 60 y protagonista del auge disco y pop posterior.",
+      "musicos": [
+        "James J.T. Taylor — voz principal"
+      ],
+      "ranking": [
+        "Billboard Hot 100 — #8",
+        "Billboard R&B — #1"
+      ],
+      "sabias_que": [
+        "Ladies' Night fue el primer álbum de Kool & The Gang producido por Eumir Deodato.",
+        "El álbum se convirtió en el primer gran éxito de platino del grupo."
+      ],
+      "por_que_recordarlo": "Porque abrió la etapa de mayor éxito internacional de Kool & The Gang y estableció el sonido que dominaría buena parte de sus años 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Kraftwerk",
+      "titulo": "Europe Endless",
+      "aliases_artista": [
+        "Kraftwerk"
+      ],
+      "aliases_titulo": [
+        "Europe Endless",
+        "Europa Endlos"
+      ],
+      "anio": 1977,
+      "texto": "Europe Endless abre Trans-Europe Express como un viaje electrónico hipnótico por una Europa idealizada, moderna y conectada.",
+      "cierre": "Antes de que la electrónica dominara el pop, Kraftwerk ya estaba dibujando sus rutas.",
+      "slug": "kraftwerk-europe-endless",
+      "imagen": "img/archivo/kraftwerk-europe-endless.jpg",
+      "album": "Trans-Europe Express",
+      "sello": "Kling Klang / Capitol",
+      "single": "",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Ralf Hütter, Florian Schneider",
+      "productor": "Ralf Hütter, Florian Schneider",
+      "voz_principal": "Ralf Hütter",
+      "historia": "Publicada en 1977 como apertura de Trans-Europe Express, forma parte del álbum con el que Kraftwerk consolidó una estética electrónica que influiría profundamente en el synth-pop, hip hop y techno.",
+      "quienes_er_an": "Kraftwerk es un grupo alemán pionero de la música electrónica, formado en Düsseldorf y liderado durante su etapa clásica por Ralf Hütter y Florian Schneider.",
+      "musicos": [
+        "Ralf Hütter — voz y electrónica",
+        "Florian Schneider — electrónica"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Europe Endless abre el álbum Trans-Europe Express.",
+        "El álbum apareció tanto en versiones en alemán como en inglés."
+      ],
+      "por_que_recordarlo": "Porque ayuda a escuchar el momento en que la electrónica dejó de ser experimento para convertirse en un nuevo lenguaje popular.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Kraftwerk",
+      "titulo": "The Model",
+      "aliases_artista": [
+        "Kraftwerk"
+      ],
+      "aliases_titulo": [
+        "The Model",
+        "Das Model",
+        "The Model (Das Model)"
+      ],
+      "anio": 1978,
+      "texto": "The Model convirtió la fría precisión electrónica de Kraftwerk en una canción pop minimalista, irónica y extraordinariamente influyente.",
+      "cierre": "Una melodía casi mecánica que terminó teniendo una vida profundamente humana en la memoria del pop.",
+      "slug": "kraftwerk-the-model",
+      "imagen": "img/archivo/kraftwerk-the-model.jpg",
+      "album": "The Man-Machine",
+      "sello": "Kling Klang / Capitol",
+      "single": "The Model",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Ralf Hütter, Karl Bartos; letra: Emil Schult",
+      "productor": "Ralf Hütter, Florian Schneider",
+      "voz_principal": "Ralf Hütter",
+      "historia": "Apareció originalmente en The Man-Machine en 1978. Años después fue reeditada junto a Computer Love y terminó alcanzando el número uno británico en 1982.",
+      "quienes_er_an": "Kraftwerk fue una de las agrupaciones fundamentales para el desarrollo de la música electrónica moderna, el synth-pop y numerosos géneros posteriores.",
+      "musicos": [
+        "Ralf Hütter — voz y electrónica",
+        "Florian Schneider — electrónica",
+        "Karl Bartos — percusión electrónica",
+        "Wolfgang Flür — percusión electrónica"
+      ],
+      "ranking": [
+        "UK Singles Chart — #1 (1982)"
+      ],
+      "sabias_que": [
+        "La canción se publicó originalmente en 1978.",
+        "Su éxito masivo británico llegó varios años después de su aparición inicial."
+      ],
+      "por_que_recordarlo": "Porque demuestra cómo una composición electrónica minimalista podía anticipar el sonido del pop que dominaría la década siguiente.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Kyla La Grange",
+      "titulo": "Cut Your Teeth",
+      "aliases_artista": [
+        "Kyla La Grange"
+      ],
+      "aliases_titulo": [
+        "Cut Your Teeth"
+      ],
+      "anio": 2014,
+      "texto": "Cut Your Teeth combina la voz íntima de Kyla La Grange con una producción electrónica oscura y contenida que la llevó a nuevas audiencias.",
+      "cierre": "Una canción que susurra más de lo que grita y justamente por eso permanece.",
+      "slug": "kyla-la-grange-cut-your-teeth",
+      "imagen": "img/archivo/kyla-la-grange-cut-your-teeth.jpg",
+      "album": "Cut Your Teeth",
+      "sello": "",
+      "single": "Cut Your Teeth",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Kyla La Grange",
+      "productor": "Jakob Jerlström, Ludvig Söderberg",
+      "voz_principal": "Kyla La Grange",
+      "historia": "Publicada en 2014 y convertida en canción titular del segundo álbum de Kyla La Grange, marcó un giro desde sus raíces indie hacia una producción más electrónica.",
+      "quienes_er_an": "Kyla La Grange es una cantante y compositora británica que comenzó dentro del indie y posteriormente incorporó una presencia electrónica más marcada.",
+      "musicos": [
+        "Kyla La Grange — voz"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Cut Your Teeth dio título al segundo álbum de Kyla La Grange.",
+        "La canción también ganó nueva circulación mediante remezclas electrónicas."
+      ],
+      "por_que_recordarlo": "Porque muestra cómo el lenguaje electrónico siguió transformándose y encontrando nuevas formas de intimidad décadas después de sus pioneros.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "La Flavour",
+      "titulo": "Mandolay",
+      "aliases_artista": [
+        "La Flavour",
+        "LaFlavour"
+      ],
+      "aliases_titulo": [
+        "Mandolay"
+      ],
+      "anio": 1980,
+      "texto": "Mandolay es una explosión de disco-funk de 1980, recordada por su energía percusiva y su orientación directa a la pista.",
+      "cierre": "Una de esas canciones que quizá no todos nombran, pero que el cuerpo reconoce cuando empieza el ritmo.",
+      "slug": "la-flavour-mandolay",
+      "imagen": "img/archivo/la-flavour-mandolay.jpg",
+      "album": "La Flavour",
+      "sello": "Sweet City",
+      "single": "Mandolay",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "",
+      "productor": "",
+      "voz_principal": "",
+      "historia": "Publicada en 1980 por La Flavour, Mandolay se convirtió en el tema más recordado del grupo y en una pieza habitual de la cultura disco y dance de aquel período.",
+      "quienes_er_an": "La Flavour fue una formación estadounidense de funk y disco activa en el cambio entre los años 70 y 80.",
+      "musicos": [],
+      "ranking": [],
+      "sabias_que": [
+        "Mandolay apareció en el álbum homónimo La Flavour.",
+        "La canción tuvo circulación en formatos orientados a discotecas."
+      ],
+      "por_que_recordarlo": "Porque conserva el pulso de una etapa en la que el disco evolucionaba hacia nuevas formas de funk y dance.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Laura Branigan",
+      "titulo": "Self Control",
+      "aliases_artista": [
+        "Laura Branigan"
+      ],
+      "aliases_titulo": [
+        "Self Control"
+      ],
+      "anio": 1984,
+      "texto": "Self Control convirtió la noche, el deseo y el sintetizador en uno de los grandes himnos internacionales de Laura Branigan.",
+      "cierre": "La ciudad duerme; la canción no. Self Control sigue perteneciendo a la noche.",
+      "slug": "laura-branigan-self-control",
+      "imagen": "img/archivo/laura-branigan-self-control.jpg",
+      "album": "Self Control",
+      "sello": "Atlantic",
+      "single": "Self Control",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Giancarlo Bigazzi, Steve Piccolo, Raf",
+      "productor": "Jack White, Robbie Buchanan",
+      "voz_principal": "Laura Branigan",
+      "historia": "Laura Branigan grabó en 1984 su versión del tema italiano de Raf. Su interpretación se convirtió en un enorme éxito internacional y dio título a su tercer álbum.",
+      "quienes_er_an": "Laura Branigan fue una cantante estadounidense de poderosa voz, protagonista del pop de los años 80 con canciones que combinaron melodía dramática y producción electrónica.",
+      "musicos": [
+        "Laura Branigan — voz principal"
+      ],
+      "ranking": [
+        "Billboard Hot 100 — #4"
+      ],
+      "sabias_que": [
+        "Self Control fue originalmente grabada por el cantante italiano Raf.",
+        "La versión de Branigan se convirtió en uno de sus mayores éxitos internacionales."
+      ],
+      "por_que_recordarlo": "Porque su atmósfera nocturna, su interpretación vocal y sus sintetizadores resumen una parte esencial del pop de 1984.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Lime",
+      "titulo": "Guilty",
+      "aliases_artista": [
+        "Lime"
+      ],
+      "aliases_titulo": [
+        "Guilty"
+      ],
+      "anio": 1983,
+      "texto": "Guilty mantiene la fórmula de Lime: sintetizadores brillantes, voces contrastantes y un pulso Hi-NRG diseñado para no abandonar la pista.",
+      "cierre": "Montreal también tuvo su propia máquina de baile, y Lime fue una de sus piezas esenciales.",
+      "slug": "lime-guilty",
+      "imagen": "img/archivo/lime-guilty.jpg",
+      "album": "Lime 3",
+      "sello": "Prism",
+      "single": "Guilty",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Denis LePage",
+      "productor": "Denis LePage",
+      "voz_principal": "",
+      "historia": "Guilty pertenece a Lime 3, publicado en 1983, durante la etapa de mayor reconocimiento internacional del dúo canadiense.",
+      "quienes_er_an": "Lime fue un proyecto canadiense de disco electrónico y Hi-NRG creado por Denis y Denyse LePage, especialmente influyente en las pistas de baile de comienzos de los años 80.",
+      "musicos": [
+        "Denis LePage — voz, composición y producción",
+        "Denyse LePage — voz"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Guilty forma parte del álbum Lime 3.",
+        "Lime surgió de la activa escena disco de Montreal."
+      ],
+      "por_que_recordarlo": "Porque el sonido de Lime es uno de los puentes más claros entre la música disco de los 70 y el Hi-NRG electrónico de los 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "La Bouche",
+      "titulo": "Be My Lover",
+      "aliases_artista": [
+        "La Bouche"
+      ],
+      "aliases_titulo": [
+        "Be My Lover"
+      ],
+      "anio": 1995,
+      "texto": "Be My Lover llevó el eurodance de La Bouche a escala mundial con una combinación explosiva de voz soul, rap y ritmo electrónico.",
+      "cierre": "Los 90 también tuvieron su llamada irresistible a la pista: la-la-la-dee-da-da-da.",
+      "slug": "la-bouche-be-my-lover",
+      "imagen": "img/archivo/la-bouche-be-my-lover.jpg",
+      "album": "Sweet Dreams",
+      "sello": "MCI / RCA",
+      "single": "Be My Lover",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Melanie Thornton, Uli Brenner, Gerd Amir Saraf, Lane McCray",
+      "productor": "Frank Farian, Uli Brenner, Gerd Amir Saraf",
+      "voz_principal": "Melanie Thornton, Lane McCray",
+      "historia": "Publicada internacionalmente en 1995, Be My Lover se convirtió en uno de los grandes éxitos del eurodance de mediados de los 90 y llevó a La Bouche a las listas de numerosos países.",
+      "quienes_er_an": "La Bouche fue un dúo eurodance formado por la cantante estadounidense Melanie Thornton y el rapero Lane McCray, desarrollado en Alemania bajo la producción vinculada a Frank Farian.",
+      "musicos": [
+        "Melanie Thornton — voz",
+        "Lane McCray — rap y voz"
+      ],
+      "ranking": [
+        "Billboard Hot 100 — #6"
+      ],
+      "sabias_que": [
+        "La canción fue uno de los grandes éxitos internacionales del eurodance de 1995.",
+        "Melanie Thornton participó en la composición además de interpretarla."
+      ],
+      "por_que_recordarlo": "Porque resume con enorme eficacia la fórmula eurodance que dominó clubes, radios y gimnasios durante los años 90.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Lee Marrow",
+      "titulo": "Sayonara (Don't Stop...)",
+      "aliases_artista": [
+        "Lee Marrow"
+      ],
+      "aliases_titulo": [
+        "Sayonara (Don't Stop...)",
+        "Sayonara Don't Stop",
+        "Sayonara"
+      ],
+      "anio": 1989,
+      "texto": "Sayonara (Don't Stop...) lleva el italo-dance de Lee Marrow al cambio de década con programación electrónica, energía de club y un estribillo inmediato.",
+      "cierre": "Un adiós que, paradójicamente, pide que la música no se detenga.",
+      "slug": "lee-marrow-sayonara-dont-stop",
+      "imagen": "img/archivo/lee-marrow-sayonara-dont-stop.jpg",
+      "album": "",
+      "sello": "",
+      "single": "Sayonara (Don't Stop...)",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "",
+      "productor": "Francesco Bontempi",
+      "voz_principal": "",
+      "historia": "Publicada a fines de los años 80, Sayonara (Don't Stop...) pertenece al proyecto Lee Marrow de Francesco Bontempi, una figura activa de la música dance italiana.",
+      "quienes_er_an": "Lee Marrow fue uno de los proyectos del productor italiano Francesco Bontempi, posteriormente conocido también por su trabajo dentro de la escena eurodance.",
+      "musicos": [],
+      "ranking": [],
+      "sabias_que": [
+        "Lee Marrow fue un proyecto encabezado por Francesco Bontempi.",
+        "Su sonido enlaza el italo-disco de los 80 con el dance europeo que crecería durante los 90."
+      ],
+      "por_que_recordarlo": "Porque representa ese momento de transición en el que el italo-disco comenzaba a transformarse en nuevas variantes de dance europeo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Lime",
+      "titulo": "Come And Get Your Love",
+      "aliases_artista": [
+        "Lime"
+      ],
+      "aliases_titulo": [
+        "Come and Get Your Love",
+        "Come And Get Your Love"
+      ],
+      "anio": 1982,
+      "texto": "Come And Get Your Love muestra a Lime en plena expansión de su sonido disco electrónico: sintetizadores, voces agudas y una base pensada para clubes.",
+      "cierre": "Una invitación directa desde la pista de Montreal: vení y buscá tu amor.",
+      "slug": "lime-come-and-get-your-love",
+      "imagen": "img/archivo/lime-come-and-get-your-love.jpg",
+      "album": "Lime II",
+      "sello": "Prism",
+      "single": "Come And Get Your Love",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Denis LePage",
+      "productor": "Denis LePage",
+      "voz_principal": "Denis LePage, Denyse LePage",
+      "historia": "Publicada durante la etapa de Lime II en 1982, pertenece al período clásico del dúo canadiense y a su consolidación dentro de las pistas norteamericanas.",
+      "quienes_er_an": "Lime fue el proyecto de Denis y Denyse LePage, matrimonio canadiense asociado a la escena disco de Montreal y al nacimiento del Hi-NRG.",
+      "musicos": [
+        "Denis LePage — voz, composición y producción",
+        "Denyse LePage — voz"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "La canción pertenece a la etapa del álbum Lime II.",
+        "El sonido de Lime fue especialmente importante en clubes de Canadá y Estados Unidos."
+      ],
+      "por_que_recordarlo": "Porque captura la energía electrónica que convirtió a Lime en una referencia del disco canadiense de comienzos de los 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
     }
   ]
 }
