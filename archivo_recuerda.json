@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-08-27",
+  "ultima_actualizacion": "2026-08-28",
   "fichas": [
     {
       "artista": "Night",
@@ -11815,6 +11815,439 @@
       "por_que_recordarlo": "Porque completa la mirada sobre Jude Cole mostrando la etapa previa a sus sencillos más conocidos de comienzos de los 90.",
       "recuerdo_personal": "",
       "tipo_artista": "solista"
+    },
+    {
+      "artista": "Kano",
+      "titulo": "She's A Star",
+      "aliases_artista": [
+        "Kano"
+      ],
+      "aliases_titulo": [
+        "She's a Star"
+      ],
+      "anio": 1981,
+      "texto": "She's A Star muestra la vertiente italo-disco y funk electrónica de Kano en el comienzo de los años 80.",
+      "cierre": "Kano convirtió ritmo, sintetizadores y pista de baile en una firma inconfundible.",
+      "slug": "kano-shes-a-star",
+      "imagen": "img/archivo/kano-shes-a-star.jpg",
+      "album": "New York Cake",
+      "sello": "",
+      "single": "She's A Star",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "",
+      "productor": "",
+      "voz_principal": "",
+      "historia": "Publicada en 1981 y asociada al álbum New York Cake, pertenece a la etapa clásica de Kano, formación italiana vinculada al desarrollo del italo-disco y la electrónica bailable.",
+      "quienes_er_an": "Kano fue un proyecto italiano de disco, funk y música electrónica surgido a fines de los años 70 y activo en la primera ola del italo-disco.",
+      "musicos": [],
+      "ranking": [],
+      "sabias_que": [
+        "She's A Star fue publicada como sencillo en 1981.",
+        "Forma parte de New York Cake."
+      ],
+      "por_que_recordarlo": "Porque conserva el sonido de transición entre el disco-funk de fines de los 70 y la electrónica bailable europea de los 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Karen Silver",
+      "titulo": "Set Me Free",
+      "aliases_artista": [
+        "Karen Silver"
+      ],
+      "aliases_titulo": [
+        "Set Me Free"
+      ],
+      "anio": 1979,
+      "texto": "Set Me Free es una pieza disco de Karen Silver escrita por Gino Soccio, con el pulso elegante de la escena canadiense de fines de los 70.",
+      "cierre": "Una joya disco que mantiene intacta la energía de la pista.",
+      "slug": "karen-silver-set-me-free",
+      "imagen": "img/archivo/karen-silver-set-me-free.jpg",
+      "album": "Hold On I'm Comin'",
+      "sello": "",
+      "single": "Set Me Free",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Gino Soccio",
+      "productor": "",
+      "voz_principal": "Karen Silver",
+      "historia": "La canción apareció en 1979 dentro del álbum Hold On I'm Comin'. Su autor es Gino Soccio, figura importante de la música disco canadiense.",
+      "quienes_er_an": "Karen Silver es una cantante canadiense asociada a la escena disco de finales de los años 70 y comienzos de los 80.",
+      "musicos": [],
+      "ranking": [],
+      "sabias_que": [
+        "Gino Soccio figura como compositor de Set Me Free.",
+        "La canción pertenece al álbum Hold On I'm Comin'."
+      ],
+      "por_que_recordarlo": "Porque representa ese disco canadiense refinado que enlazó la década del 70 con el sonido electrónico de los 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "KC and the Sunshine Band",
+      "titulo": "Give It Up",
+      "aliases_artista": [
+        "KC & The Sunshine Band",
+        "KC and The Sunshine Band"
+      ],
+      "aliases_titulo": [
+        "Give It Up"
+      ],
+      "anio": 1982,
+      "texto": "Give It Up devolvió a KC and the Sunshine Band al centro de la pista en los primeros años 80, adaptando su fórmula disco-funk a una nueva década.",
+      "cierre": "Cuando parecía que la era disco había terminado, KC volvió a hacer bailar al mundo.",
+      "slug": "kc-and-the-sunshine-band-give-it-up",
+      "imagen": "img/archivo/kc-and-the-sunshine-band-give-it-up.jpg",
+      "album": "All in a Night's Work",
+      "sello": "Epic",
+      "single": "Give It Up",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Harry Wayne Casey, Debra Carter",
+      "productor": "Harry Wayne Casey, Richard Finch",
+      "voz_principal": "Harry Wayne Casey",
+      "historia": "Grabada en la etapa de All in a Night's Work, Give It Up se convirtió en el gran regreso comercial del grupo durante los primeros años 80.",
+      "quienes_er_an": "KC and the Sunshine Band es una formación estadounidense de disco y funk liderada por Harry Wayne Casey, una de las bandas fundamentales de la música bailable de los años 70.",
+      "musicos": [
+        "Harry Wayne Casey — voz y teclados"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "En varios mercados el sencillo fue acreditado simplemente a KC.",
+        "El tema funcionó como un importante regreso del grupo tras el retroceso comercial de la música disco."
+      ],
+      "por_que_recordarlo": "Porque demostró que el sonido de KC podía atravesar el cambio de década sin perder su capacidad de llenar pistas.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "KC and the Sunshine Band",
+      "titulo": "I'm Your Boogie Man",
+      "aliases_artista": [
+        "KC & The Sunshine Band",
+        "KC and The Sunshine Band"
+      ],
+      "aliases_titulo": [
+        "I'm Your Boogie Man"
+      ],
+      "anio": 1976,
+      "texto": "I'm Your Boogie Man es uno de los emblemas absolutos del sonido disco-funk de KC and the Sunshine Band.",
+      "cierre": "Bajo, metales y groove: una fórmula que sigue funcionando décadas después.",
+      "slug": "kc-and-the-sunshine-band-im-your-boogie-man",
+      "imagen": "img/archivo/kc-and-the-sunshine-band-im-your-boogie-man.jpg",
+      "album": "Part 3",
+      "sello": "TK",
+      "single": "I'm Your Boogie Man",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Harry Wayne Casey, Richard Finch",
+      "productor": "Harry Wayne Casey, Richard Finch",
+      "voz_principal": "Harry Wayne Casey",
+      "historia": "Incluida en Part 3, álbum publicado en 1976, se transformó en uno de los grandes éxitos de KC and the Sunshine Band y alcanzó el número uno en Estados Unidos.",
+      "quienes_er_an": "KC and the Sunshine Band combinó funk, soul, ritmos latinos y disco desde Miami, construyendo uno de los sonidos más reconocibles de los años 70.",
+      "musicos": [
+        "Harry Wayne Casey — voz y teclados",
+        "Richard Finch — bajo, batería y percusión"
+      ],
+      "ranking": [
+        "Billboard Hot 100 — #1"
+      ],
+      "sabias_que": [
+        "Part 3 reunió varios de los mayores éxitos del grupo.",
+        "I'm Your Boogie Man llegó al número uno del Billboard Hot 100."
+      ],
+      "por_que_recordarlo": "Porque es una síntesis perfecta del groove de Miami que convirtió a KC and the Sunshine Band en referencia mundial.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "KC and the Sunshine Band",
+      "titulo": "(Shake, Shake, Shake) Shake Your Booty",
+      "aliases_artista": [
+        "KC & The Sunshine Band",
+        "KC and The Sunshine Band"
+      ],
+      "aliases_titulo": [
+        "Shake, Shake, Shake",
+        "Shake Your Booty",
+        "(Shake, Shake, Shake) Shake Your Booty"
+      ],
+      "anio": 1976,
+      "texto": "(Shake, Shake, Shake) Shake Your Booty convirtió una invitación directa a bailar en uno de los himnos universales de la era disco.",
+      "cierre": "Pocas canciones explican la pista de baile de los 70 con tanta claridad.",
+      "slug": "kc-and-the-sunshine-band-shake-shake-shake",
+      "imagen": "img/archivo/kc-and-the-sunshine-band-shake-shake-shake.jpg",
+      "album": "Part 3",
+      "sello": "TK Records",
+      "single": "(Shake, Shake, Shake) Shake Your Booty",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Harry Wayne Casey, Richard Finch",
+      "productor": "Harry Wayne Casey, Richard Finch",
+      "voz_principal": "Harry Wayne Casey",
+      "historia": "Publicada en 1976 e incluida en Part 3, fue uno de los mayores éxitos de la banda y alcanzó el número uno del Billboard Hot 100.",
+      "quienes_er_an": "KC and the Sunshine Band fue una de las agrupaciones decisivas del disco-funk estadounidense, surgida en Florida y liderada por Harry Wayne Casey.",
+      "musicos": [
+        "Harry Wayne Casey — voz y teclados",
+        "Richard Finch — bajo, batería y percusión",
+        "Jerome Smith — guitarra"
+      ],
+      "ranking": [
+        "Billboard Hot 100 — #1"
+      ],
+      "sabias_que": [
+        "El tema pertenece al álbum Part 3.",
+        "Fue el tercer número uno del grupo en el Billboard Hot 100."
+      ],
+      "por_que_recordarlo": "Porque su estribillo y su ritmo condensan como pocos el espíritu festivo de la era disco.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "KC and the Sunshine Band",
+      "titulo": "That's The Way (I Like It)",
+      "aliases_artista": [
+        "KC & The Sunshine Band",
+        "KC and The Sunshine Band"
+      ],
+      "aliases_titulo": [
+        "That's the Way (I Like It)",
+        "Thats The Way I Like It"
+      ],
+      "anio": 1975,
+      "texto": "That's The Way (I Like It) es una de las piezas fundamentales del disco-funk de los años 70 y una marca registrada de KC and the Sunshine Band.",
+      "cierre": "Un simple uh-huh bastó para quedar grabado en la memoria de varias generaciones.",
+      "slug": "kc-and-the-sunshine-band-thats-the-way-i-like-it",
+      "imagen": "img/archivo/kc-and-the-sunshine-band-thats-the-way-i-like-it.jpg",
+      "album": "KC and the Sunshine Band",
+      "sello": "TK",
+      "single": "That's The Way (I Like It)",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Harry Wayne Casey, Richard Finch",
+      "productor": "Harry Wayne Casey, Richard Finch",
+      "voz_principal": "Harry Wayne Casey",
+      "historia": "Lanzada en 1975 desde el álbum homónimo del grupo, se convirtió en su segundo número uno del Billboard Hot 100 y llegó dos veces a la cima durante su recorrido en la lista.",
+      "quienes_er_an": "KC and the Sunshine Band llevó el llamado Miami sound a las pistas internacionales mezclando funk, soul, metales, percusión y música disco.",
+      "musicos": [
+        "Harry Wayne Casey — voz y teclados",
+        "Richard Finch — bajo y percusión",
+        "Jerome Smith — guitarra"
+      ],
+      "ranking": [
+        "Billboard Hot 100 — #1",
+        "UK Singles Chart — #4"
+      ],
+      "sabias_que": [
+        "Fue el segundo número uno del grupo en Estados Unidos.",
+        "Durante 1975 regresó al número uno del Hot 100 después de haber cedido temporalmente la cima."
+      ],
+      "por_que_recordarlo": "Porque es uno de los discos esenciales para comprender el auge mundial de la música disco a mediados de los 70.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Keane",
+      "titulo": "Everybody's Changing",
+      "aliases_artista": [
+        "Keane"
+      ],
+      "aliases_titulo": [
+        "Everybody's Changing",
+        "Everybodys Changing"
+      ],
+      "anio": 2003,
+      "texto": "Everybody's Changing convirtió la melancolía de Keane en una canción generacional, sostenida por piano, voz y una enorme sensibilidad melódica.",
+      "cierre": "Cambiar también puede sonar así: luminoso por fuera, profundamente nostálgico por dentro.",
+      "slug": "keane-everybodys-changing",
+      "imagen": "img/archivo/keane-everybodys-changing.jpg",
+      "album": "Hopes and Fears",
+      "sello": "Fierce Panda / Island",
+      "single": "Everybody's Changing",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Tim Rice-Oxley, Tom Chaplin, Richard Hughes",
+      "productor": "Keane, Andy Green",
+      "voz_principal": "Tom Chaplin",
+      "historia": "Tuvo una primera edición en 2003 y fue relanzada en 2004 tras el impulso de Somewhere Only We Know. Integró el álbum debut Hopes and Fears y alcanzó el número 4 en el Reino Unido.",
+      "quienes_er_an": "Keane es una banda inglesa de rock alternativo y pop caracterizada en su primera etapa por construir gran parte de su sonido alrededor del piano en lugar de la guitarra.",
+      "musicos": [
+        "Tom Chaplin — voz",
+        "Tim Rice-Oxley — teclados",
+        "Richard Hughes — batería"
+      ],
+      "ranking": [
+        "UK Singles Chart — #4"
+      ],
+      "sabias_que": [
+        "La canción tuvo una primera edición en Fierce Panda en 2003.",
+        "Fue incluida en Hopes and Fears, el exitoso debut de Keane."
+      ],
+      "por_que_recordarlo": "Porque fue una de las canciones que definieron el sonido melódico británico de comienzos del siglo XXI.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Keane",
+      "titulo": "Somewhere Only We Know",
+      "aliases_artista": [
+        "Keane"
+      ],
+      "aliases_titulo": [
+        "Somewhere Only We Know"
+      ],
+      "anio": 2004,
+      "texto": "Somewhere Only We Know convirtió un paisaje íntimo y nostálgico en el gran himno de presentación de Keane.",
+      "cierre": "Hay lugares que no figuran en ningún mapa y, sin embargo, nunca dejamos de volver a ellos.",
+      "slug": "keane-somewhere-only-we-know",
+      "imagen": "img/archivo/keane-somewhere-only-we-know.jpg",
+      "album": "Hopes and Fears",
+      "sello": "Island",
+      "single": "Somewhere Only We Know",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Tim Rice-Oxley, Tom Chaplin, Richard Hughes",
+      "productor": "",
+      "voz_principal": "Tom Chaplin",
+      "historia": "Publicada como sencillo en 2004, abrió el álbum Hopes and Fears y alcanzó el número 3 en el Reino Unido, convirtiéndose en una de las canciones más reconocidas de Keane.",
+      "quienes_er_an": "Keane es una banda británica surgida en East Sussex cuya combinación de piano, melodías expansivas y la voz de Tom Chaplin marcó su identidad inicial.",
+      "musicos": [
+        "Tom Chaplin — voz",
+        "Tim Rice-Oxley — piano y teclados",
+        "Richard Hughes — batería"
+      ],
+      "ranking": [
+        "UK Singles Chart — #3"
+      ],
+      "sabias_que": [
+        "Tim Rice-Oxley desarrolló la canción originalmente alrededor de 2001.",
+        "Es la pista que abre Hopes and Fears."
+      ],
+      "por_que_recordarlo": "Porque transformó la nostalgia por un lugar compartido en una canción capaz de conectar con públicos de distintas generaciones.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Kenny Loggins",
+      "titulo": "Meet Me Half Way",
+      "aliases_artista": [
+        "Kenny Loggins"
+      ],
+      "aliases_titulo": [
+        "Meet Me Half Way",
+        "Meet Me Halfway"
+      ],
+      "anio": 1987,
+      "texto": "Meet Me Half Way une la voz de Kenny Loggins con el dramatismo cinematográfico de Giorgio Moroder en una de las baladas emblemáticas de Over the Top.",
+      "cierre": "Una canción hecha para ese momento en que dos caminos necesitan encontrarse a mitad de camino.",
+      "slug": "kenny-loggins-meet-me-half-way",
+      "imagen": "img/archivo/kenny-loggins-meet-me-half-way.jpg",
+      "album": "Over the Top: Original Motion Picture Soundtrack",
+      "sello": "Columbia",
+      "single": "Meet Me Half Way",
+      "catalogo": "",
+      "duracion": "3:39",
+      "compositor": "Giorgio Moroder, Tom Whitlock",
+      "productor": "Giorgio Moroder",
+      "voz_principal": "Kenny Loggins",
+      "historia": "Escrita por Giorgio Moroder y Tom Whitlock para la película Over the Top, fue publicada en 1987 y se convirtió en otro de los recordados temas cinematográficos interpretados por Kenny Loggins.",
+      "quienes_er_an": "Kenny Loggins es un cantante y compositor estadounidense cuya carrera quedó especialmente asociada durante los años 80 a grandes canciones de bandas sonoras cinematográficas.",
+      "musicos": [
+        "Kenny Loggins — voz",
+        "Giorgio Moroder — sintetizadores",
+        "Greg Phillinganes — piano",
+        "Robbie Buchanan — piano"
+      ],
+      "ranking": [
+        "Billboard Hot 100 — #11",
+        "Adult Contemporary — #2"
+      ],
+      "sabias_que": [
+        "Fue compuesta especialmente para Over the Top.",
+        "Giorgio Moroder fue compositor y productor del tema."
+      ],
+      "por_que_recordarlo": "Porque pertenece a la época en que una gran película y una gran canción podían quedar inseparablemente unidas en la memoria.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Kid Creole & The Coconuts",
+      "titulo": "Que Pasa / Me No Pop I",
+      "aliases_artista": [
+        "Kid Creole and the Coconuts",
+        "Kid Creole & The Coconuts",
+        "Coati Mundi"
+      ],
+      "aliases_titulo": [
+        "Que Pasa / Me No Pop I",
+        "Que Passa / Me No Pop I",
+        "Me No Pop I"
+      ],
+      "anio": 1981,
+      "texto": "Que Pasa / Me No Pop I mezcla disco, funk, ritmos latinos y humor teatral en el universo exuberante de Kid Creole, con Coati Mundi en primer plano.",
+      "cierre": "Una rareza irresistible: Nueva York, Caribe, funk y teatro dentro de la misma pista.",
+      "slug": "kid-creole-and-the-coconuts-que-pasa-me-no-pop-i",
+      "imagen": "img/archivo/kid-creole-and-the-coconuts-que-pasa-me-no-pop-i.jpg",
+      "album": "Fresh Fruit in Foreign Places (ediciones ampliadas)",
+      "sello": "ZE / Island",
+      "single": "Que Pasa / Me No Pop I",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Andy Hernandez",
+      "productor": "August Darnell, Andy Hernandez",
+      "voz_principal": "Coati Mundi",
+      "historia": "Grabada durante las sesiones vinculadas a Fresh Fruit in Foreign Places, la pieza fue protagonizada por Coati Mundi. El sencillo llegó al Top 40 británico en 1981 y luego quedó integrado al universo discográfico de Kid Creole & The Coconuts.",
+      "quienes_er_an": "Kid Creole & The Coconuts fue el proyecto liderado por August Darnell, conocido por fusionar disco, funk, salsa, ritmos caribeños y una fuerte puesta teatral. Coati Mundi, alias Andy Hernandez, fue uno de sus colaboradores esenciales.",
+      "musicos": [
+        "Coati Mundi (Andy Hernandez) — voz y percusión",
+        "August Darnell — producción"
+      ],
+      "ranking": [
+        "UK Singles Chart — #32"
+      ],
+      "sabias_que": [
+        "El tema fue escrito por Andy Hernandez, Coati Mundi.",
+        "ZE Records lo incluyó posteriormente como bonus en reediciones de Fresh Fruit in Foreign Places."
+      ],
+      "por_que_recordarlo": "Porque captura el costado más excéntrico, latino y experimental de la escena neoyorquina de comienzos de los 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Kat Mandu",
+      "titulo": "I Wanna Dance",
+      "aliases_artista": [
+        "Kat Mandu",
+        "Katmandu"
+      ],
+      "aliases_titulo": [
+        "I Wanna Dance"
+      ],
+      "anio": 1981,
+      "texto": "I Wanna Dance es disco electrónico directo a la pista: una pieza de Kat Mandu que resume el cruce entre groove, sintetizadores y cultura de club de comienzos de los 80.",
+      "cierre": "El título no deja dudas: cuando suena Kat Mandu, la consigna es bailar.",
+      "slug": "kat-mandu-i-wanna-dance",
+      "imagen": "img/archivo/kat-mandu-i-wanna-dance.jpg",
+      "album": "I Wanna Dance",
+      "sello": "Brass / Barclay",
+      "single": "I Wanna Dance",
+      "catalogo": "",
+      "duracion": "",
+      "compositor": "Michel Bibeau, Fitz Walton",
+      "productor": "",
+      "voz_principal": "",
+      "historia": "I Wanna Dance circuló como sencillo en 1981 en diferentes ediciones internacionales, entre ellas Brass en Estados Unidos y Barclay en Francia. Se publicaron versiones de radio y de baile, además de mezclas extendidas.",
+      "quienes_er_an": "Kat Mandu fue un proyecto de música disco asociado a la escena de Montreal y recordado especialmente por sus producciones orientadas a clubes entre fines de los 70 y comienzos de los 80.",
+      "musicos": [],
+      "ranking": [],
+      "sabias_que": [
+        "El sencillo tuvo ediciones de 7 y 12 pulgadas.",
+        "La edición francesa de Barclay de 1981 incluyó Radio Version y Dance Version."
+      ],
+      "por_que_recordarlo": "Porque representa la transición del disco clásico hacia un sonido más electrónico y extendido pensado para las pistas de comienzos de los 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
     }
   ]
 }
