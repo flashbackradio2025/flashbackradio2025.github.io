@@ -2791,12 +2791,20 @@ async function cargarEspecialActual() {
     const cancion = String(radio.now_playing?.song?.text || '');
     const textoActual = `${artista} ${cancion}`.toUpperCase();
 
-    // La tarjeta "AHORA" sólo se activa dentro de una playlist de especial.
+    // La tarjeta "AHORA" reconoce tanto playlists de especiales como
+    // los programas fijos Beatles/Plateros. Si el tema fue encolado manualmente
+    // y AzuraCast no informa playlist, también puede reconocerlo por metadatos.
     const esPlaylistEspecial =
       playlist.includes('ESPECIAL') ||
-      playlist === 'ESPECIALES_DOMINGO';
+      playlist === 'ESPECIALES_DOMINGO' ||
+      playlist === 'PROGRAMA_BEATLES' ||
+      playlist === 'PROGRAMA_PLATEROS';
 
-    if (!esPlaylistEspecial) {
+    const textoPareceEspecial = Object.values(especiales).some(datos =>
+      datos.palabras.some(p => textoActual.includes(p))
+    );
+
+    if (!esPlaylistEspecial && !textoPareceEspecial) {
       window.flashbackEspecialActual = null;
       window.flashbackEspecialActualTitulo = null;
       tarjeta.classList.remove('visible');
@@ -2805,10 +2813,21 @@ async function cargarEspecialActual() {
 
     let especialActual = null;
 
-    for (const datos of Object.values(especiales)) {
-      if (datos.palabras.some(p => textoActual.includes(p))) {
-        especialActual = datos;
-        break;
+    // Prioridad al nombre real de la playlist cuando AzuraCast lo informa.
+    if (playlist === 'PROGRAMA_BEATLES') {
+      especialActual = especiales.beatles;
+    } else if (playlist === 'PROGRAMA_PLATEROS') {
+      especialActual = especiales.plateros;
+    }
+
+    // Respaldo por metadatos: necesario, por ejemplo, si el programa fue
+    // puesto manualmente en cola y llega sin nombre de playlist.
+    if (!especialActual) {
+      for (const datos of Object.values(especiales)) {
+        if (datos.palabras.some(p => textoActual.includes(p))) {
+          especialActual = datos;
+          break;
+        }
       }
     }
 
