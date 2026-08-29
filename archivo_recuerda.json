@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-08-28",
+  "ultima_actualizacion": "2026-08-29",
   "fichas": [
     {
       "artista": "Night",
@@ -3051,10 +3051,7 @@
       "artista": "Mike Oldfield",
       "titulo": "Moonlight Shadow",
       "aliases_artista": [
-        "Mike Oldfield",
-        "Mike Oldfield (maggie Reilly)",
-        "Mike Oldfield (Maggie Reilly)",
-        "Mike Oldfield feat. Maggie Reilly"
+        "Mike Oldfield"
       ],
       "aliases_titulo": [
         "Moonlight Shadow"
@@ -13924,14 +13921,18 @@
       "artista": "Mike Oldfield feat. Maggie Reilly",
       "titulo": "Moonlight Shadow (Remix)",
       "aliases_artista": [
-        "Mike Oldfield feat. Maggie Reilly"
+        "Mike Oldfield feat. Maggie Reilly",
+        "Mike Oldfield (Maggie Reilly)",
+        "Mike Oldfield (maggie Reilly)",
+        "Mike Oldfield & Maggie Reilly",
+        "Mike Oldfield"
       ],
       "aliases_titulo": [
         "Moonlight Shadow (Remix)",
         "Moonlight Shadow Remix"
       ],
       "anio": 1983,
-      "texto": "Esta versión remixada conserva la composición y la voz de Maggie Reilly de Moonlight Shadow, pero presenta una mezcla diferenciada de la versión original y forma parte de la biblioteca de FlashBack Radio como archivo independiente..",
+      "texto": "Versión remixada de Moonlight Shadow conservada por FlashBack Radio como archivo independiente, con Maggie Reilly en la voz principal.",
       "cierre": "Porque El Archivo Recuerda también documenta versiones concretas que forman parte de la memoria de la radio.",
       "slug": "mike-oldfield-moonlight-shadow-remix",
       "imagen": "img/archivo/mike-oldfield-moonlight-shadow-remix.jpg",
@@ -13954,7 +13955,7 @@
       ],
       "por_que_recordarlo": "Porque El Archivo Recuerda también documenta versiones concretas que forman parte de la memoria de la radio.",
       "recuerdo_personal": "",
-      "tipo_artista": "grupo"
+      "tipo_artista": "solista"
     },
     {
       "artista": "Miquel Brown",
@@ -15875,35 +15876,50 @@
       "artista": "Paul Parker & Linda Imperial",
       "titulo": "Die Hard Lover",
       "aliases_artista": [
-        "Paul Parker & Linda Imperial"
+        "Paul Parker & Linda Imperial",
+        "Paul Parker and Linda Imperial",
+        "Paul Parker Linda Imperial",
+        "Patrick Cowley & Linda Imperial",
+        "Patrick Cowley feat. Linda Imperial",
+        "Linda Imperial / Patrick Cowley",
+        "Linda Imperial & Patrick Cowley"
       ],
       "aliases_titulo": [
         "Die Hard Lover"
       ],
-      "anio": 1980,
-      "texto": "Die Hard Lover circuló en distintas interpretaciones dentro del universo disco y Hi-NRG asociado a San Francisco.",
-      "cierre": "Porque permite comparar cómo una misma composición circuló entre protagonistas de la escena Hi-NRG.",
+      "anio": 1986,
+      "texto": "Die Hard Lover pertenece al núcleo del Hi-NRG de San Francisco asociado a Patrick Cowley. La edición oficial de Megatone de 1986 acredita a Linda Imperial junto a Cowley; FlashBack conserva una remezcla que circula bajo el crédito Paul Parker & Linda Imperial.",
+      "cierre": "Una grabación que conecta varias figuras esenciales del Hi-NRG de San Francisco y muestra cómo una misma pista siguió viviendo a través de nuevas mezclas y créditos.",
       "slug": "paul-parker-linda-imperial-die-hard-lover",
       "imagen": "img/archivo/paul-parker-linda-imperial-die-hard-lover.jpg",
-      "album": "",
-      "sello": "",
+      "album": "Die Hard Lover",
+      "sello": "Megatone Records",
       "single": "Die Hard Lover",
-      "catalogo": "",
-      "duracion": "",
+      "catalogo": "MT-139",
+      "duracion": "4:59 (edición vocal oficial de Megatone, 1986)",
       "compositor": "Patrick Cowley · Frank Loverde · Don Miley",
       "productor": "",
-      "voz_principal": "Paul Parker & Linda Imperial",
-      "historia": "Die Hard Lover circuló en distintas interpretaciones dentro del universo disco y Hi-NRG asociado a San Francisco. La versión de Paul Parker y Linda Imperial conecta dos voces estrechamente relacionadas con esa escena electrónica y de club.",
-      "quienes_er_an": "Paul Parker y Linda Imperial fueron intérpretes vinculados a la escena dance de San Francisco; Parker es especialmente recordado por su colaboración con Patrick Cowley.",
-      "musicos": [],
+      "voz_principal": "Linda Imperial",
+      "historia": "Die Hard Lover nació dentro de la escena Hi-NRG de San Francisco vinculada a Patrick Cowley. Cowley había trabajado la composición con Frank Loverde y Don Miley, y una versión temprana quedó asociada a Loverde en 1982. Después de la muerte de Cowley, Megatone Records publicó en 1986 una edición acreditada a Linda Imperial / Patrick Cowley (MT-139), con una versión vocal de 4:59 y otra instrumental de 4:50. La copia conservada por FlashBack Radio circula bajo el crédito Paul Parker & Linda Imperial, una atribución propia de una remezcla o reedición posterior; por eso la ficha mantiene ese nombre como identificador operativo, pero conserva también los créditos históricos de la edición oficial para no perder la procedencia de la grabación.",
+      "quienes_er_an": "Patrick Cowley fue uno de los arquitectos del sonido Hi-NRG de San Francisco y trabajó con artistas como Sylvester, Paul Parker y Frank Loverde. Linda Imperial estuvo vinculada a ese mismo circuito y grabó material asociado al catálogo de Megatone. Paul Parker, amigo y colaborador cercano de Cowley, quedó ligado a la misma escena a través de canciones como Right on Target y Tech-No-Logical World.",
+      "musicos": [
+        "Linda Imperial — voz en la edición oficial de Megatone",
+        "Patrick Cowley — composición y núcleo musical de la grabación original",
+        "Frank Loverde — coautor y primer intérprete asociado a la canción",
+        "Don Miley — coautor",
+        "Paul Parker — artista de la escena Cowley/Megatone; su nombre aparece en la remezcla conservada por FlashBack Radio"
+      ],
       "ranking": [],
       "sabias_que": [
-        "La composición está asociada a Patrick Cowley, Frank Loverde y Don Miley.",
-        "Existe también una conocida edición acreditada a Loverde & Patrick Cowley, por lo que conviene conservar ambas fichas como versiones diferentes."
+        "Megatone Records publicó Die Hard Lover en 1986 con número de catálogo MT-139.",
+        "La edición de Megatone acredita a Linda Imperial / Patrick Cowley y contiene una versión vocal de 4:59 y una instrumental de 4:50.",
+        "La composición también estuvo asociada a Frank Loverde desde 1982.",
+        "Paul Parker fue amigo y colaborador cercano de Patrick Cowley y formó parte de la misma escena Hi-NRG de San Francisco.",
+        "FlashBack conserva una remezcla identificada como Paul Parker & Linda Imperial, por eso ese crédito se mantiene como alias operativo para que la cartilla aparezca con el metadata del MP3."
       ],
-      "por_que_recordarlo": "Porque permite comparar cómo una misma composición circuló entre protagonistas de la escena Hi-NRG.",
+      "por_que_recordarlo": "Porque Die Hard Lover funciona como un pequeño mapa del Hi-NRG de San Francisco: Cowley, Loverde, Linda Imperial y Paul Parker aparecen conectados alrededor de una canción que siguió circulando en distintas mezclas y créditos. Documentar esas diferencias permite que El Archivo Recuerda no muestre solamente una carátula, sino también la historia real que existe detrás de la versión que suena.",
       "recuerdo_personal": "",
-      "tipo_artista": "solista"
+      "tipo_artista": "duo"
     },
     {
       "artista": "Paul Sharada",
