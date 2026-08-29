@@ -291,6 +291,7 @@
     body.mode-programacion .sobre-radio,
     body.mode-programacion .especial-banner,
     body.mode-programacion #proximo-especial,
+    body.mode-programacion #especial-actual,
     body.mode-programacion #playlist-banner,
     body.mode-programacion .metadata-widget,
     body.mode-programacion #archivo-recuerda,
@@ -508,7 +509,8 @@
    FLASHBACK ORO — PRÓXIMO ESPECIAL
    ========================================================== */
 
-#proximo-especial {
+#proximo-especial,
+#especial-actual {
   display: none;
   max-width: 960px;
   margin: 35px auto;
@@ -527,13 +529,15 @@
   overflow: hidden;
 }
 
-#proximo-especial.visible {
+#proximo-especial.visible,
+#especial-actual.visible {
   display: block;
   animation: especialEntrada 0.9s ease both;
 }
 
 /* Cuando termina un especial, la tarjeta no desaparece de golpe. */
-#proximo-especial.desvaneciendo {
+#proximo-especial.desvaneciendo,
+#especial-actual.desvaneciendo {
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 1.4s ease, transform 1.4s ease;
@@ -610,7 +614,8 @@
 }
 
 @media (max-width: 720px) {
-  #proximo-especial {
+  #proximo-especial,
+#especial-actual {
     margin: 25px 12px;
     padding: 15px;
   }
@@ -895,6 +900,7 @@ h3 {
 .cafecito-box,
 #playlist-banner,
 #proximo-especial,
+#especial-actual,
 #hero > div[style*="background:rgba(10,8,26,0.95)"] {
   border-radius: var(--fb-radius) !important;
   background:
@@ -1333,7 +1339,8 @@ h3 {
 .history-list li { color: #c9d6e9; border-bottom-color: rgba(244,201,107,.12); padding: 7px 0; }
 
 /* FlashBack Oro: identidad premium reservada */
-#proximo-especial {
+#proximo-especial,
+#especial-actual {
   max-width: 760px;
   border-color: rgba(244,201,107,.68) !important;
   background:
@@ -2110,6 +2117,37 @@ footer {
   </div>
 
 </section>
+
+<!-- ==========================================================
+     FLASHBACK ORO — ESPECIAL ACTUAL
+     Tarjeta independiente: no reemplaza al próximo especial.
+     ========================================================== -->
+<section id="especial-actual" aria-label="Especial actual de FlashBack Radio">
+
+  <div class="especial-etiqueta">
+    🔴 FLASHBACK ORO · AHORA EN EL AIRE
+  </div>
+
+  <div class="especial-contenido">
+
+    <div>
+      <img
+        id="especial-actual-imagen"
+        class="especial-imagen"
+        src="img/logo.png"
+        alt="Especial actual de FlashBack Radio"
+      >
+    </div>
+
+    <div class="especial-info">
+      <h2 id="especial-actual-titulo"></h2>
+      <p id="especial-actual-descripcion"></p>
+      <div id="especial-actual-horario" class="especial-horario"></div>
+    </div>
+
+  </div>
+
+</section>
     <section class="schedule-iframe-wrapper" id="schedule-section">
       <h3>🎙️ Cartelera Musical</h3>
       <iframe src="https://flashbackradio.duckdns.org/public/flashbackradio/schedule" loading="lazy" title="Programación FlashBack Radio"></iframe>
@@ -2364,7 +2402,7 @@ const playlistMap = {
       }
     }
 
-    let html = `<div class="meta-row"><span class="meta-label">🎵 Ahora:</span><span class="meta-value">${artista ? `<strong>${artista}</strong><br>` : ''}${tituloReal}</span></div>
+    let html = `<div class="meta-row"><span class="meta-label">🎵 Ahora:</span><span class="meta-value">${artista ? `<strong>${artista}</strong><br>` : ''}${actual}</span></div>
       <div class="meta-row"><span class="meta-label">⏭️ Próxima:</span><span class="meta-value">${proxima}</span></div>
       <div class="meta-row"><span class="meta-label">📜 Últimas:</span><span class="meta-value"></span></div><ul class="history-list">`;
     
@@ -2614,7 +2652,10 @@ async function cargarEfemerides() {
 }
 cargarEfemerides();
 
-// === FLASHBACK ORO — ESPECIAL ACTUAL / PRÓXIMO ESPECIAL ===
+// === FLASHBACK ORO — TARJETAS SEPARADAS: PRÓXIMO + ACTUAL ===
+
+// Próximo especial: sigue leyendo el proximo_especial.json vigente.
+// Esta tarjeta NO es reemplazada por el especial que esté al aire.
 async function cargarProximoEspecial() {
   const tarjeta = document.getElementById('proximo-especial');
   const imagen = document.getElementById('especial-imagen');
@@ -2625,8 +2666,87 @@ async function cargarProximoEspecial() {
 
   if (!tarjeta || !imagen || !titulo || !descripcion || !horario) return;
 
-  // Datos visuales de los especiales.
+  try {
+    const ahoraArgentina = new Date(
+      new Date().toLocaleString('en-US', {
+        timeZone: 'America/Argentina/Cordoba'
+      })
+    );
+
+    const diaSemana = ahoraArgentina.getDay(); // 0 domingo, 6 sábado
+
+    // Conservamos el comportamiento de fin de semana del aviso principal.
+    if (diaSemana !== 6 && diaSemana !== 0) {
+      tarjeta.classList.remove('visible');
+      return;
+    }
+
+    const proximoEspecialUrl =
+      window.location.protocol === 'file:'
+        ? 'https://flashbackradio2025.github.io/proximo_especial.json?ts=' + Date.now()
+        : 'proximo_especial.json?ts=' + Date.now();
+
+    const res = await fetch(proximoEspecialUrl, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`JSON próximo especial: HTTP ${res.status}`);
+
+    const proximo = await res.json();
+
+    // Si justamente ese mismo especial ya está al aire,
+    // dejamos sólo la tarjeta "AHORA EN EL AIRE" para no duplicarlo.
+    if (
+      window.flashbackEspecialActualTitulo &&
+      String(proximo.titulo || '').trim().toUpperCase() ===
+        String(window.flashbackEspecialActualTitulo).trim().toUpperCase()
+    ) {
+      tarjeta.classList.remove('visible');
+      return;
+    }
+
+    imagen.src = proximo.imagen || 'img/logo.png';
+    imagen.alt = `Próximo especial ${proximo.titulo || 'FlashBack Radio'}`;
+    imagen.onerror = () => { imagen.src = 'img/logo.png'; };
+
+    titulo.textContent = proximo.titulo || 'FlashBack Oro';
+    descripcion.textContent = proximo.descripcion || '';
+    horario.textContent = `${proximo.dia || 'Domingo'} · ${proximo.hora || '17:00'} hs`;
+
+    if (etiqueta) {
+      etiqueta.textContent = '✦ FLASHBACK ORO · PRÓXIMO ESPECIAL ✦';
+    }
+
+    tarjeta.classList.add('visible');
+
+  } catch (error) {
+    console.error('Error cargando próximo especial:', error);
+  }
+}
+
+
+// Especial actual: tarjeta independiente, debajo del próximo especial.
+async function cargarEspecialActual() {
+  const tarjeta = document.getElementById('especial-actual');
+  const imagen = document.getElementById('especial-actual-imagen');
+  const titulo = document.getElementById('especial-actual-titulo');
+  const descripcion = document.getElementById('especial-actual-descripcion');
+  const horario = document.getElementById('especial-actual-horario');
+
+  if (!tarjeta || !imagen || !titulo || !descripcion || !horario) return;
+
   const especiales = {
+    beatles: {
+      palabras: ['BEATLES', 'THE BEATLES', 'FAB FOUR', 'LIVERPOOL'],
+      titulo: 'The Beatles',
+      descripcion: 'Un viaje musical por la banda que marcó y cambió para siempre la historia de la música popular.',
+      imagen: 'img/artistas/especiales/especial-beatles.png'
+    },
+
+    plateros: {
+      palabras: ['PLATEROS', 'LOS PLATEROS', 'PLATEROS Y TU'],
+      titulo: 'Los Plateros',
+      descripcion: 'Un momento del Recuerdo dedicado a Los Plateros y a esas canciones que siguen haciendo vibrar la memoria.',
+      imagen: 'img/artistas/especiales/especial-plateros.png'
+    },
+
     hollies: {
       palabras: ['HOLLIES', 'THE HOLLIES'],
       titulo: 'The Hollies',
@@ -2656,205 +2776,87 @@ async function cargarProximoEspecial() {
     }
   };
 
-  function mostrar(datos, textoEtiqueta) {
-    if (window.flashbackOroOcultarTimer) {
-      clearTimeout(window.flashbackOroOcultarTimer);
-      window.flashbackOroOcultarTimer = null;
-    }
-
-    tarjeta.classList.remove('desvaneciendo');
-
-    imagen.src = datos.imagen || 'img/logo.png';
-    imagen.alt = `Especial ${datos.titulo || 'FlashBack Radio'}`;
-
-    imagen.onerror = () => {
-      imagen.src = 'img/logo.png';
-    };
-
-    titulo.textContent = datos.titulo || 'FlashBack Oro';
-    descripcion.textContent = datos.descripcion || '';
-    horario.textContent = datos.horario || 'Domingo · 17:00 hs';
-
-    if (etiqueta) {
-      etiqueta.textContent = textoEtiqueta;
-    }
-
-    tarjeta.classList.add('visible');
-  }
-
-  function fechaArgentinaClave() {
-    const ahora = new Date(
-      new Date().toLocaleString('en-US', {
-        timeZone: 'America/Argentina/Cordoba'
-      })
-    );
-
-    const y = ahora.getFullYear();
-    const m = String(ahora.getMonth() + 1).padStart(2, '0');
-    const d = String(ahora.getDate()).padStart(2, '0');
-
-    return `${y}-${m}-${d}`;
-  }
-
-  function ocultarConDesvanecimiento() {
-    if (window.flashbackOroOcultarTimer) return;
-
-    // La mantenemos unos segundos después del final real del especial.
-    window.flashbackOroOcultarTimer = setTimeout(() => {
-      tarjeta.classList.add('desvaneciendo');
-
-      setTimeout(() => {
-        tarjeta.classList.remove('visible', 'desvaneciendo');
-        window.flashbackOroOcultarTimer = null;
-      }, 1500);
-    }, 15000);
-  }
-
   try {
-    // 1. Primero preguntamos qué está REALMENTE al aire.
-    const radioRes = await fetch(
+    const res = await fetch(
       'https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio?ts=' + Date.now(),
       { cache: 'no-store' }
     );
 
-    let playlist = '';
-    let textoActual = '';
+    if (!res.ok) throw new Error(`Now Playing: HTTP ${res.status}`);
 
-    if (radioRes.ok) {
-      const radio = await radioRes.json();
+    const radio = await res.json();
 
-      playlist = (radio.now_playing?.playlist || '').toUpperCase();
-      const artista = radio.now_playing?.song?.artist || '';
-      const cancion = radio.now_playing?.song?.text || '';
+    const playlist = String(radio.now_playing?.playlist || '').toUpperCase();
+    const artista = String(radio.now_playing?.song?.artist || '');
+    const cancion = String(radio.now_playing?.song?.text || '');
+    const textoActual = `${artista} ${cancion}`.toUpperCase();
 
-      textoActual = `${artista} ${cancion}`.toUpperCase();
+    // La tarjeta "AHORA" sólo se activa dentro de una playlist de especial.
+    const esPlaylistEspecial =
+      playlist.includes('ESPECIAL') ||
+      playlist === 'ESPECIALES_DOMINGO';
 
-      // 2. Si ESPECIALES_DOMINGO está realmente al aire,
-      // buscamos cuál de los especiales es.
-      if (playlist === 'ESPECIALES_DOMINGO') {
-        let especialActual = null;
+    if (!esPlaylistEspecial) {
+      window.flashbackEspecialActual = null;
+      window.flashbackEspecialActualTitulo = null;
+      tarjeta.classList.remove('visible');
+      return;
+    }
 
-        for (const datos of Object.values(especiales)) {
-          if (datos.palabras.some(p => textoActual.includes(p))) {
-            especialActual = datos;
-            break;
-          }
-        }
+    let especialActual = null;
 
-        // Si ya habíamos reconocido el especial en una actualización anterior,
-        // lo mantenemos durante toda la permanencia en ESPECIALES_DOMINGO,
-        // aunque el metadata puntual cambie.
-        if (especialActual) {
-          window.flashbackOroActual = especialActual;
-        } else if (window.flashbackOroActual) {
-          especialActual = window.flashbackOroActual;
-        }
-
-        if (especialActual) {
-          localStorage.removeItem('flashbackOroFinalizado_' + fechaArgentinaClave());
-
-          mostrar(
-            {
-              ...especialActual,
-              horario: '🔴 En vivo · FlashBack Radio'
-            },
-            '🔴 FLASHBACK ORO · AHORA EN EL AIRE'
-          );
-
-          return;
-        }
+    for (const datos of Object.values(especiales)) {
+      if (datos.palabras.some(p => textoActual.includes(p))) {
+        especialActual = datos;
+        break;
       }
     }
 
-    // 3. Si veníamos de un especial y AzuraCast ya salió de ESPECIALES_DOMINGO,
-    // consideramos que el especial terminó de verdad.
-    if (window.flashbackOroActual && playlist !== 'ESPECIALES_DOMINGO') {
-      localStorage.setItem(
-        'flashbackOroFinalizado_' + fechaArgentinaClave(),
-        '1'
-      );
+    // Una vez reconocido el especial, lo mantenemos mientras siga la playlist especial,
+    // aunque un separador o una locución no tenga el nombre del artista.
+    if (especialActual) {
+      window.flashbackEspecialActual = especialActual;
+    } else if (window.flashbackEspecialActual) {
+      especialActual = window.flashbackEspecialActual;
+    }
 
-      window.flashbackOroActual = null;
-
-      ocultarConDesvanecimiento();
+    if (!especialActual) {
+      window.flashbackEspecialActualTitulo = null;
+      tarjeta.classList.remove('visible');
       return;
     }
 
-    // 4. Si NO hay especial al aire, mostramos "PRÓXIMO ESPECIAL".
-    // El sábado se anuncia siempre.
-    // El domingo se mantiene visible incluso pasada la hora teórica,
-    // hasta que AzuraCast detecte el comienzo real del especial.
-    const ahoraArgentina = new Date(
-      new Date().toLocaleString('en-US', {
-        timeZone: 'America/Argentina/Cordoba'
-      })
-    );
+    window.flashbackEspecialActualTitulo = especialActual.titulo;
 
-    const diaSemana = ahoraArgentina.getDay(); // 0 domingo, 6 sábado
-    const claveHoy = fechaArgentinaClave();
-    const yaFinalizoHoy =
-      localStorage.getItem('flashbackOroFinalizado_' + claveHoy) === '1';
+    imagen.src = especialActual.imagen || 'img/logo.png';
+    imagen.alt = `Especial ${especialActual.titulo}`;
+    imagen.onerror = () => { imagen.src = 'img/logo.png'; };
 
-    const anunciarProximo =
-      diaSemana === 6 ||
-      (diaSemana === 0 && !yaFinalizoHoy);
+    titulo.textContent = especialActual.titulo;
+    descripcion.textContent = especialActual.descripcion;
+    horario.textContent = '🔴 En vivo · FlashBack Radio';
 
-    if (!anunciarProximo) {
-      tarjeta.classList.remove('visible', 'desvaneciendo');
-      return;
-    }
-
-    // En GitHub lee el JSON local del sitio.
-    // Si abrimos index.html directamente desde la PC (file://),
-    // usa la copia publicada para que FlashBack Oro también pueda probarse localmente.
-    const proximoEspecialUrl =
-      window.location.protocol === 'file:'
-        ? 'https://flashbackradio2025.github.io/proximo_especial.json?ts=' + Date.now()
-        : 'proximo_especial.json?ts=' + Date.now();
-
-    const proximoRes = await fetch(
-      proximoEspecialUrl,
-      { cache: 'no-store' }
-    );
-
-    if (!proximoRes.ok) {
-      throw new Error(`JSON próximo especial: HTTP ${proximoRes.status}`);
-    }
-
-    const proximo = await proximoRes.json();
-
-    mostrar(
-      {
-        titulo: proximo.titulo,
-        descripcion: proximo.descripcion,
-        imagen: proximo.imagen,
-        horario: `${proximo.dia || 'Domingo'} · ${proximo.hora || '17:00'} hs`
-      },
-      '✦ FLASHBACK ORO · PRÓXIMO ESPECIAL ✦'
-    );
+    tarjeta.classList.add('visible');
 
   } catch (error) {
-    console.error('Error cargando FlashBack Oro:', error);
-
-    // Si el especial estaba en vivo y falla momentáneamente una consulta,
-    // no hacemos desaparecer la tarjeta por un corte puntual.
-    if (!window.flashbackOroActual) {
-      tarjeta.classList.remove('visible');
-    }
+    console.error('Error cargando especial actual:', error);
   }
 }
 
-	// === 4. INICIALIZACIÓN FINAL ===
+
+// === 4. INICIALIZACIÓN FINAL ===
 	window.addEventListener('DOMContentLoaded', () => {
 	  actualizarVista();
 	  actualizarRadio();
 	  cargarProximoEspecial();
+	  cargarEspecialActual();
 
 	  if (window.radioInterval) clearInterval(window.radioInterval);
 
 	  window.radioInterval = setInterval(() => {
 	    actualizarRadio();
 	    cargarProximoEspecial();
+	    cargarEspecialActual();
 	  }, 30000);
 	});
   </script>
