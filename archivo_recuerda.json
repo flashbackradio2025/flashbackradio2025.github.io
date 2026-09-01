@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-08-29",
+  "ultima_actualizacion": "2026-09-01",
   "fichas": [
     {
       "artista": "Night",
@@ -16949,6 +16949,831 @@
       "por_que_recordarlo": "Porque muestra a Astley saliendo del sonido que lo había hecho famoso y demostrando que detrás del fenómeno pop había un cantante soul con una voz extraordinaria.",
       "recuerdo_personal": "",
       "tipo_artista": "solista"
+    },
+    {
+      "artista": "Rick James",
+      "titulo": "Super Freak",
+      "aliases_artista": [
+        "Rick James"
+      ],
+      "aliases_titulo": [
+        "Super Freak"
+      ],
+      "anio": 1981,
+      "texto": "Un riff de bajo instantáneamente reconocible y la desmesura funk de Rick James convirtieron Super Freak en uno de los temas más perdurables de los 80.",
+      "cierre": "El funk de Rick James quedó grabado para siempre en ese bajo.",
+      "slug": "rick-james-super-freak",
+      "imagen": "img/archivo/rick-james-super-freak.jpg",
+      "album": "Street Songs",
+      "sello": "Gordy / Motown",
+      "single": "Super Freak",
+      "catalogo": "",
+      "duracion": "3:24 aprox. — sencillo",
+      "compositor": "Rick James · Alonzo Miller",
+      "productor": "Rick James",
+      "voz_principal": "Rick James",
+      "historia": "Publicada en 1981 dentro de Street Songs, Super Freak combinó funk, rock y una puesta en escena provocadora. Fue uno de los mayores éxitos de James y años después su línea de bajo volvió a alcanzar difusión mundial al ser utilizada en U Can't Touch This de MC Hammer.",
+      "quienes_er_an": "Rick James fue cantante, bajista, compositor y productor, figura central del funk de Motown a comienzos de los 80.",
+      "musicos": [
+        "Rick James — voz, bajo, teclados y producción",
+        "The Temptations — coros"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº16",
+        "Estados Unidos — R&B: Top 5"
+      ],
+      "sabias_que": [
+        "The Temptations participaron en los coros.",
+        "Su riff fue reutilizado de forma célebre por MC Hammer.",
+        "Pertenece al álbum Street Songs."
+      ],
+      "por_que_recordarlo": "Porque es una de las líneas de bajo más reconocibles de toda la música popular de los años 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Robert Palmer",
+      "titulo": "Bad Case Of Loving You (Doctor, Doctor)",
+      "aliases_artista": [
+        "Robert Palmer"
+      ],
+      "aliases_titulo": [
+        "Bad Case Of Loving You (Doctor, Doctor)"
+      ],
+      "anio": 1979,
+      "texto": "Robert Palmer tomó una canción de Moon Martin y la convirtió en uno de los rockers más directos y reconocibles de su carrera.",
+      "cierre": "Doctor, doctor: el diagnóstico era rock and roll.",
+      "slug": "robert-palmer-bad-case-of-loving-you",
+      "imagen": "img/archivo/robert-palmer-bad-case-of-loving-you.jpg",
+      "album": "Secrets",
+      "sello": "Island",
+      "single": "Bad Case of Loving You (Doctor, Doctor)",
+      "catalogo": "",
+      "duracion": "3:10 aprox.",
+      "compositor": "Moon Martin",
+      "productor": "Robert Palmer",
+      "voz_principal": "Robert Palmer",
+      "historia": "Moon Martin había grabado originalmente la canción, pero la versión de Palmer, incluida en Secrets y publicada en 1979, fue la que la convirtió en un éxito internacional. En Reino Unido alcanzó originalmente el Nº61; una reedición posterior volvió a entrar en listas.",
+      "quienes_er_an": "Robert Palmer fue un cantante británico capaz de moverse con naturalidad entre rock, soul, funk, reggae y pop.",
+      "musicos": [
+        "Robert Palmer — voz"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº14",
+        "Reino Unido — Singles Chart: Nº61 (edición de 1979)"
+      ],
+      "sabias_que": [
+        "La composición es de Moon Martin.",
+        "Palmer recibió una nominación al Grammy por su interpretación.",
+        "La canción fue reeditada años después."
+      ],
+      "por_que_recordarlo": "Porque muestra al Palmer rockero, anterior a los grandes videos de los 80, con una interpretación seca y contundente.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Rod Stewart",
+      "titulo": "Da Ya Think I'm Sexy",
+      "aliases_artista": [
+        "Rod Stewart"
+      ],
+      "aliases_titulo": [
+        "Da Ya Think I'm Sexy"
+      ],
+      "anio": 1978,
+      "texto": "Rod Stewart se metió de lleno en la era disco sin abandonar su voz rasposa y consiguió uno de los mayores éxitos de su carrera.",
+      "cierre": "Rock, disco y una pregunta que en 1978 estaba en todas partes.",
+      "slug": "rod-stewart-da-ya-think-im-sexy",
+      "imagen": "img/archivo/rod-stewart-da-ya-think-im-sexy.jpg",
+      "album": "Blondes Have More Fun",
+      "sello": "Warner Bros.",
+      "single": "Da Ya Think I'm Sexy?",
+      "catalogo": "",
+      "duracion": "5:31 aprox. — álbum",
+      "compositor": "Rod Stewart · Carmine Appice · Duane Hitchings",
+      "productor": "Tom Dowd",
+      "voz_principal": "Rod Stewart",
+      "historia": "Publicada a fines de 1978 como parte de Blondes Have More Fun, la canción abrazó abiertamente el sonido disco. Encabezó el ranking británico y también llegó al Nº1 estadounidense, convirtiéndose en una de las grabaciones emblemáticas de Stewart.",
+      "quienes_er_an": "Rod Stewart es un cantante británico surgido del rock y el rhythm and blues que desarrolló una de las carreras solistas más extensas del pop.",
+      "musicos": [
+        "Rod Stewart — voz",
+        "Carmine Appice — batería",
+        "Duane Hitchings — teclados"
+      ],
+      "ranking": [
+        "Reino Unido — Singles Chart: Nº1",
+        "Estados Unidos — Billboard Hot 100: Nº1"
+      ],
+      "sabias_que": [
+        "Fue uno de los cruces más famosos entre una estrella de rock y la música disco.",
+        "Pertenece a Blondes Have More Fun.",
+        "Su edición británica permaneció trece semanas en el Top 75."
+      ],
+      "por_que_recordarlo": "Porque captura exactamente el instante en que la música disco dejó de ser un género aislado y atravesó todo el pop mundial.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Roxy Music",
+      "titulo": "More Than This",
+      "aliases_artista": [
+        "Roxy Music"
+      ],
+      "aliases_titulo": [
+        "More Than This"
+      ],
+      "anio": 1982,
+      "texto": "Bryan Ferry llevó la elegancia melancólica de Roxy Music a uno de sus puntos más altos en More Than This.",
+      "cierre": "Una despedida envuelta en seda, sintetizadores y madrugada.",
+      "slug": "roxy-music-more-than-this",
+      "imagen": "img/archivo/roxy-music-more-than-this.jpg",
+      "album": "Avalon",
+      "sello": "E.G. / Polydor",
+      "single": "More Than This",
+      "catalogo": "",
+      "duracion": "4:30 aprox.",
+      "compositor": "Bryan Ferry",
+      "productor": "Rhett Davies · Roxy Music",
+      "voz_principal": "Bryan Ferry",
+      "historia": "More Than This abrió Avalon, el último álbum de estudio de Roxy Music, y fue publicada como sencillo en 1982. Alcanzó el Nº6 británico y se convirtió en una de las canciones más duraderas del grupo.",
+      "quienes_er_an": "Roxy Music fue una banda británica liderada por Bryan Ferry que pasó del art rock experimental de los 70 a un pop sofisticado y atmosférico.",
+      "musicos": [
+        "Bryan Ferry — voz y teclados",
+        "Phil Manzanera — guitarra",
+        "Andy Mackay — saxofón"
+      ],
+      "ranking": [
+        "Reino Unido — Singles Chart: Nº6"
+      ],
+      "sabias_que": [
+        "Fue el primer sencillo de Avalon.",
+        "Avalon sería el último álbum de estudio de Roxy Music.",
+        "La canción permaneció ocho semanas en el Top 100 británico."
+      ],
+      "por_que_recordarlo": "Porque representa como pocas canciones ese sonido nocturno, elegante y adulto que Roxy Music perfeccionó al comienzo de los 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Rupert Holmes",
+      "titulo": "Him",
+      "aliases_artista": [
+        "Rupert Holmes"
+      ],
+      "aliases_titulo": [
+        "Him"
+      ],
+      "anio": 1980,
+      "texto": "Después de Escape, Rupert Holmes volvió a convertir una escena cotidiana en una pequeña película de tres minutos.",
+      "cierre": "Un paquete de cigarrillos, una sospecha y una decisión: él o yo.",
+      "slug": "rupert-holmes-him",
+      "imagen": "img/archivo/rupert-holmes-him.jpg",
+      "album": "Partners in Crime",
+      "sello": "Infinity / MCA",
+      "single": "Him",
+      "catalogo": "",
+      "duracion": "3:36 aprox.",
+      "compositor": "Rupert Holmes",
+      "productor": "Rupert Holmes · Jim Boyer",
+      "voz_principal": "Rupert Holmes",
+      "historia": "Publicada a comienzos de 1980 como segundo gran sencillo de Partners in Crime, Him cuenta la sospecha de una infidelidad a partir de una pista mínima. Llegó al Nº6 del Billboard Hot 100 y al Nº31 británico.",
+      "quienes_er_an": "Rupert Holmes es un compositor, cantante, arreglador y autor británico-estadounidense especialmente hábil para construir canciones narrativas.",
+      "musicos": [
+        "Rupert Holmes — voz, composición y arreglos"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº6",
+        "Estados Unidos — Adult Contemporary: Nº4",
+        "Reino Unido — Singles Chart: Nº31"
+      ],
+      "sabias_que": [
+        "La letra comienza con el descubrimiento de un paquete de cigarrillos ajeno.",
+        "Fue el sencillo que siguió al enorme éxito de Escape.",
+        "Holmes también grabó una versión francesa titulada Lui."
+      ],
+      "por_que_recordarlo": "Porque demuestra que el pop también puede funcionar como un cuento breve, con personajes, pista, conflicto y desenlace.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Ryan Paris",
+      "titulo": "Dolce Vita",
+      "aliases_artista": [
+        "Ryan Paris"
+      ],
+      "aliases_titulo": [
+        "Dolce Vita"
+      ],
+      "anio": 1983,
+      "texto": "Dolce Vita convirtió a Ryan Paris en uno de los rostros internacionales del Italo disco y llevó una producción italiana hasta el Top 5 británico.",
+      "cierre": "Roma, sintetizadores y verano europeo condensados en una canción.",
+      "slug": "ryan-paris-dolce-vita",
+      "imagen": "img/archivo/ryan-paris-dolce-vita.jpg",
+      "album": "Ryan Paris",
+      "sello": "Carrere / Discomagic",
+      "single": "Dolce Vita",
+      "catalogo": "",
+      "duracion": "3:55 aprox. — sencillo",
+      "compositor": "Pierluigi Giombini · Paul Mazzolini",
+      "productor": "Pierluigi Giombini",
+      "voz_principal": "Ryan Paris",
+      "historia": "Publicada en 1983, Dolce Vita se convirtió en un éxito europeo y una de las canciones definitorias del Italo disco. En Reino Unido alcanzó el Nº5 y permaneció once semanas dentro del Top 100.",
+      "quienes_er_an": "Ryan Paris es el nombre artístico del cantante italiano Fabio Roscioli, identificado internacionalmente con el auge del Italo disco.",
+      "musicos": [
+        "Ryan Paris — voz",
+        "Pierluigi Giombini — composición, teclados y producción"
+      ],
+      "ranking": [
+        "Reino Unido — Singles Chart: Nº5"
+      ],
+      "sabias_que": [
+        "Fue uno de los grandes éxitos internacionales del Italo disco.",
+        "Su título remite a la expresión italiana popularizada mundialmente por el cine.",
+        "En Reino Unido llegó al Top 5 en septiembre de 1983."
+      ],
+      "por_que_recordarlo": "Porque es una postal sonora perfecta del Italo disco: romántica, electrónica, luminosa y absolutamente ochentosa.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Sade",
+      "titulo": "Smooth Operator",
+      "aliases_artista": [
+        "Sade"
+      ],
+      "aliases_titulo": [
+        "Smooth Operator"
+      ],
+      "anio": 1984,
+      "texto": "La voz de Sade Adu y un arreglo de jazz-pop impecable transformaron la historia de un seductor frío en un clásico de sofisticación ochentosa.",
+      "cierre": "Elegancia perfecta para contar a un personaje que no la merece.",
+      "slug": "sade-smooth-operator",
+      "imagen": "img/archivo/sade-smooth-operator.jpg",
+      "album": "Diamond Life",
+      "sello": "Epic",
+      "single": "Smooth Operator",
+      "catalogo": "",
+      "duracion": "4:58 aprox.",
+      "compositor": "Sade Adu · Ray St. John",
+      "productor": "Robin Millar",
+      "voz_principal": "Sade Adu",
+      "historia": "Incluida en Diamond Life y publicada como sencillo en 1984, Smooth Operator consolidó el éxito internacional de Sade. En Reino Unido llegó al Nº19 y en Estados Unidos alcanzó el Top 5.",
+      "quienes_er_an": "Sade es una banda británica liderada por la cantante y compositora Sade Adu, reconocida por fusionar soul, jazz, pop y una producción extremadamente elegante.",
+      "musicos": [
+        "Sade Adu — voz",
+        "Stuart Matthewman — guitarra y saxofón",
+        "Paul S. Denman — bajo",
+        "Andrew Hale — teclados"
+      ],
+      "ranking": [
+        "Reino Unido — Singles Chart: Nº19",
+        "Estados Unidos — Billboard Hot 100: Nº5"
+      ],
+      "sabias_que": [
+        "Pertenece al álbum debut Diamond Life.",
+        "La canción fue coescrita con Ray St. John.",
+        "Ayudó a establecer internacionalmente el sonido característico de Sade."
+      ],
+      "por_que_recordarlo": "Porque pocas canciones de los 80 lograron sonar tan sofisticadas sin perder capacidad de entrar inmediatamente en la memoria.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Scorpions",
+      "titulo": "Still Loving You",
+      "aliases_artista": [
+        "Scorpions"
+      ],
+      "aliases_titulo": [
+        "Still Loving You"
+      ],
+      "anio": 1984,
+      "texto": "Scorpions convirtió una súplica por recuperar un amor en una de las power ballads definitivas del hard rock europeo.",
+      "cierre": "Seis minutos de guitarra y una última oportunidad.",
+      "slug": "scorpions-still-loving-you",
+      "imagen": "img/archivo/scorpions-still-loving-you.jpg",
+      "album": "Love at First Sting",
+      "sello": "Harvest / Mercury",
+      "single": "Still Loving You",
+      "catalogo": "",
+      "duracion": "6:26 aprox.",
+      "compositor": "Rudolf Schenker · Klaus Meine",
+      "productor": "Dieter Dierks",
+      "voz_principal": "Klaus Meine",
+      "historia": "Grabada para Love at First Sting y publicada como sencillo en 1984, Still Loving You mostró el costado más melódico de Scorpions. Llegó al Nº64 del Billboard Hot 100 y tuvo un impacto especialmente fuerte en Europa.",
+      "quienes_er_an": "Scorpions es una banda alemana de hard rock formada en Hannover, con Rudolf Schenker y Klaus Meine como figuras centrales de su etapa clásica.",
+      "musicos": [
+        "Klaus Meine — voz",
+        "Rudolf Schenker — guitarra",
+        "Matthias Jabs — guitarra",
+        "Francis Buchholz — bajo",
+        "Herman Rarebell — batería"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº64",
+        "Gran éxito en varios mercados europeos"
+      ],
+      "sabias_que": [
+        "Fue el segundo sencillo de Love at First Sting.",
+        "La música es de Rudolf Schenker y la letra de Klaus Meine.",
+        "Se convirtió en una de las baladas más identificables de la banda."
+      ],
+      "por_que_recordarlo": "Porque ayudó a fijar el molde de la power ballad: una banda pesada capaz de bajar la velocidad sin perder intensidad.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Scorpions",
+      "titulo": "Wind of Change",
+      "aliases_artista": [
+        "Scorpions"
+      ],
+      "aliases_titulo": [
+        "Wind of Change"
+      ],
+      "anio": 1991,
+      "texto": "El silbido de Klaus Meine terminó convertido en banda sonora simbólica del fin de la Guerra Fría.",
+      "cierre": "Una canción de rock que quedó ligada para siempre a un cambio de época.",
+      "slug": "scorpions-wind-of-change",
+      "imagen": "img/archivo/scorpions-wind-of-change.jpg",
+      "album": "Crazy World",
+      "sello": "Vertigo / Mercury",
+      "single": "Wind of Change",
+      "catalogo": "",
+      "duracion": "5:10 aprox.",
+      "compositor": "Klaus Meine",
+      "productor": "Keith Olsen · Scorpions",
+      "voz_principal": "Klaus Meine",
+      "historia": "Klaus Meine escribió Wind of Change después de la experiencia de Scorpions en Moscú a fines de los 80. Publicada internacionalmente en 1991, se transformó en un himno asociado a la apertura política europea y al final de la Guerra Fría. Una reedición británica alcanzó el Nº2.",
+      "quienes_er_an": "Scorpions es una banda alemana cuya trayectoria internacional permitió que una canción nacida de la experiencia en la Unión Soviética tuviera una resonancia global excepcional.",
+      "musicos": [
+        "Klaus Meine — voz y composición",
+        "Rudolf Schenker — guitarra",
+        "Matthias Jabs — guitarra",
+        "Francis Buchholz — bajo",
+        "Herman Rarebell — batería"
+      ],
+      "ranking": [
+        "Reino Unido — reedición 1991: Nº2",
+        "Nº1 en numerosos mercados europeos"
+      ],
+      "sabias_que": [
+        "Klaus Meine escribió la canción.",
+        "El silbido inicial se convirtió en una de sus marcas más reconocibles.",
+        "Quedó culturalmente asociada al final de la Guerra Fría."
+      ],
+      "por_que_recordarlo": "Porque pocas canciones populares quedaron tan directamente ligadas a la sensación de estar presenciando un cambio histórico.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Shakin' Stevens",
+      "titulo": "You Drive Me Crazy",
+      "aliases_artista": [
+        "Shakin' Stevens"
+      ],
+      "aliases_titulo": [
+        "You Drive Me Crazy"
+      ],
+      "anio": 1981,
+      "texto": "Shakin' Stevens llevó el espíritu del rock and roll clásico al corazón del pop británico de 1981 y consiguió con este tema uno de sus mayores éxitos.",
+      "cierre": "Los años 50 regresaron a los 80 con zapatos nuevos.",
+      "slug": "shakin-stevens-you-drive-me-crazy",
+      "imagen": "img/archivo/shakin-stevens-you-drive-me-crazy.jpg",
+      "album": "Shaky",
+      "sello": "Epic",
+      "single": "You Drive Me Crazy",
+      "catalogo": "",
+      "duracion": "2:52 aprox.",
+      "compositor": "Ronnie Harwood",
+      "productor": "Stuart Colman",
+      "voz_principal": "Shakin' Stevens",
+      "historia": "Publicada en 1981, You Drive Me Crazy llegó al Nº2 británico y permaneció doce semanas en el Top 100. Fue parte de la extraordinaria sucesión de éxitos que convirtió a Shakin' Stevens en uno de los artistas de sencillos más populares del Reino Unido durante los 80.",
+      "quienes_er_an": "Shakin' Stevens, nombre artístico del galés Michael Barratt, revitalizó el rock and roll y rockabilly clásico para una nueva generación.",
+      "musicos": [
+        "Shakin' Stevens — voz"
+      ],
+      "ranking": [
+        "Reino Unido — Singles Chart: Nº2",
+        "Reino Unido — 12 semanas en Top 100"
+      ],
+      "sabias_que": [
+        "Shakin' Stevens consiguió cuatro Nº1 británicos durante su carrera.",
+        "You Drive Me Crazy permaneció siete semanas en el Top 10.",
+        "Fue uno de sus grandes éxitos de 1981."
+      ],
+      "por_que_recordarlo": "Porque representa una de las paradojas más simpáticas de los 80: una década futurista que también volvió a enamorarse del rock and roll de los 50.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Rita Coolidge",
+      "titulo": "We're All Alone",
+      "aliases_artista": [
+        "Rita Coolidge"
+      ],
+      "aliases_titulo": [
+        "We're All Alone"
+      ],
+      "anio": 1977,
+      "texto": "La interpretación serena de Rita Coolidge convirtió una composición de Boz Scaggs en uno de los grandes clásicos del soft rock de 1977.",
+      "cierre": "Una canción íntima que terminó acompañando a millones.",
+      "slug": "rita-coolidge-were-all-alone",
+      "imagen": "img/archivo/rita-coolidge-were-all-alone.jpg",
+      "album": "Anytime...Anywhere",
+      "sello": "A&M",
+      "single": "We're All Alone",
+      "catalogo": "",
+      "duracion": "3:38 aprox.",
+      "compositor": "Boz Scaggs",
+      "productor": "David Anderle",
+      "voz_principal": "Rita Coolidge",
+      "historia": "Boz Scaggs había incluido originalmente We're All Alone en Silk Degrees, pero la versión de Rita Coolidge fue la que obtuvo gran éxito como sencillo en 1977. Alcanzó el Nº6 británico y se convirtió en una de las grabaciones más asociadas a su carrera.",
+      "quienes_er_an": "Rita Coolidge es una cantante estadounidense vinculada al pop, country, folk y soft rock, con una extensa carrera como solista y colaboradora.",
+      "musicos": [
+        "Rita Coolidge — voz"
+      ],
+      "ranking": [
+        "Reino Unido — Singles Chart: Nº6",
+        "Estados Unidos — Billboard Hot 100: Nº7"
+      ],
+      "sabias_que": [
+        "La canción fue escrita por Boz Scaggs.",
+        "La versión de Coolidge fue uno de sus mayores éxitos internacionales.",
+        "En Reino Unido permaneció trece semanas en el Top 75."
+      ],
+      "por_que_recordarlo": "Porque es una de esas versiones que terminan adquiriendo vida propia hasta convertirse, para buena parte del público, en la interpretación definitiva.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Robin Gibb",
+      "titulo": "Like a Fool",
+      "aliases_artista": [
+        "Robin Gibb"
+      ],
+      "aliases_titulo": [
+        "Like a Fool"
+      ],
+      "anio": 1985,
+      "texto": "En plena pausa de Bee Gees, Robin Gibb volvió al terreno solista con una balada synth-pop marcada por su voz inconfundible.",
+      "cierre": "Robin sin Bee Gees, pero con la misma fragilidad vocal imposible de confundir.",
+      "slug": "robin-gibb-like-a-fool",
+      "imagen": "img/archivo/robin-gibb-like-a-fool.jpg",
+      "album": "Walls Have Eyes",
+      "sello": "Polydor / EMI America",
+      "single": "Like a Fool",
+      "catalogo": "",
+      "duracion": "4:58 aprox.",
+      "compositor": "Robin Gibb · Maurice Gibb · Barry Gibb",
+      "productor": "Maurice Gibb · Tom Dowd",
+      "voz_principal": "Robin Gibb",
+      "historia": "Like a Fool forma parte de Walls Have Eyes, cuarto álbum solista de Robin Gibb, publicado en 1985 durante una pausa entre discos de Bee Gees. Fue uno de los sencillos del álbum, aunque no logró entrar en los rankings principales de Estados Unidos o Reino Unido.",
+      "quienes_er_an": "Robin Gibb fue una de las tres voces y compositores fundamentales de Bee Gees y desarrolló paralelamente una carrera solista en distintas etapas.",
+      "musicos": [
+        "Robin Gibb — voz",
+        "Maurice Gibb — producción",
+        "Barry Gibb — composición"
+      ],
+      "ranking": [
+        "No ingresó en los principales rankings de sencillos de Reino Unido o Estados Unidos"
+      ],
+      "sabias_que": [
+        "Walls Have Eyes fue el cuarto álbum solista de Robin Gibb.",
+        "El disco fue producido por Maurice Gibb y Tom Dowd.",
+        "Barry Gibb coescribió buena parte del álbum."
+      ],
+      "por_que_recordarlo": "Porque permite escuchar a Robin fuera del marco habitual de Bee Gees y recuperar una etapa solista que quedó opacada por la dimensión del grupo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Rockwell",
+      "titulo": "Knife",
+      "aliases_artista": [
+        "Rockwell"
+      ],
+      "aliases_titulo": [
+        "Knife"
+      ],
+      "anio": 1984,
+      "texto": "Después del impacto de Somebody's Watching Me, Rockwell mostró un registro mucho más vulnerable con esta extensa balada de ruptura.",
+      "cierre": "Del miedo a ser observado al dolor de una separación: otra cara de Rockwell.",
+      "slug": "rockwell-knife",
+      "imagen": "img/archivo/rockwell-knife.jpg",
+      "album": "Somebody's Watching Me",
+      "sello": "Motown",
+      "single": "Knife",
+      "catalogo": "",
+      "duracion": "5:07 aprox.",
+      "compositor": "Mitchell Bottler · Norma Helms",
+      "productor": "Rockwell · Curtis Anthony Nolen",
+      "voz_principal": "Rockwell",
+      "historia": "Knife apareció en el álbum Somebody's Watching Me, publicado en 1984. Lejos del tono paranoico del gran sencillo de Rockwell, es una balada de desamor construida alrededor de la imagen de una herida que corta como un cuchillo.",
+      "quienes_er_an": "Rockwell, nacido Kennedy Gordy, es un cantante estadounidense vinculado a la familia Motown y recordado mundialmente por Somebody's Watching Me.",
+      "musicos": [
+        "Rockwell — voz y teclados",
+        "Curtis Anthony Nolen — teclados y producción",
+        "David Cochrane — bajo",
+        "Ricky Lawson — batería"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "La grabación del álbum dura aproximadamente 5:07.",
+        "Fue compuesta por Mitchell Bottler y Norma Helms.",
+        "Pertenece al mismo álbum que Somebody's Watching Me."
+      ],
+      "por_que_recordarlo": "Porque permite descubrir que detrás de un enorme one-hit global había un álbum y una voz capaces de moverse hacia terrenos completamente diferentes.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Roger Daltrey",
+      "titulo": "Without Your Love",
+      "aliases_artista": [
+        "Roger Daltrey"
+      ],
+      "aliases_titulo": [
+        "Without Your Love"
+      ],
+      "anio": 1980,
+      "texto": "Roger Daltrey dejó por un momento la potencia de The Who para interpretar una balada cinematográfica escrita por Billy Nicholls.",
+      "cierre": "Una de las grandes voces del rock mostrando que también podía quebrarse.",
+      "slug": "roger-daltrey-without-your-love",
+      "imagen": "img/archivo/roger-daltrey-without-your-love.jpg",
+      "album": "McVicar",
+      "sello": "Polydor",
+      "single": "Without Your Love",
+      "catalogo": "",
+      "duracion": "3:17 aprox.",
+      "compositor": "Billy Nicholls",
+      "productor": "Jeff Wayne",
+      "voz_principal": "Roger Daltrey",
+      "historia": "Without Your Love fue grabada por Roger Daltrey para la banda sonora de McVicar, película que él mismo protagonizó. Publicada en 1980, alcanzó el Nº55 británico y obtuvo mayor repercusión en Estados Unidos.",
+      "quienes_er_an": "Roger Daltrey es la voz principal de The Who y desarrolló además una carrera solista como cantante y actor.",
+      "musicos": [
+        "Roger Daltrey — voz"
+      ],
+      "ranking": [
+        "Reino Unido — Singles Chart: Nº55",
+        "Estados Unidos — Billboard Hot 100: Nº20"
+      ],
+      "sabias_que": [
+        "La canción pertenece a la banda sonora de McVicar.",
+        "Daltrey protagonizó la película.",
+        "Fue escrita por Billy Nicholls."
+      ],
+      "por_que_recordarlo": "Porque ofrece una faceta distinta de una de las voces más físicas del rock: contenida, melódica y puesta al servicio de una balada.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Ronnie Milsap",
+      "titulo": "Stranger In My House",
+      "aliases_artista": [
+        "Ronnie Milsap"
+      ],
+      "aliases_titulo": [
+        "Stranger In My House"
+      ],
+      "anio": 1983,
+      "texto": "Ronnie Milsap llevó el country hacia un terreno oscuro y casi rockero en una historia de sospecha, celos y un extraño invisible.",
+      "cierre": "Country con sombras, guitarra eléctrica y una sospecha que no se va.",
+      "slug": "ronnie-milsap-stranger-in-my-house",
+      "imagen": "img/archivo/ronnie-milsap-stranger-in-my-house.jpg",
+      "album": "Keyed Up",
+      "sello": "RCA",
+      "single": "Stranger in My House",
+      "catalogo": "",
+      "duracion": "4:11 aprox.",
+      "compositor": "Mike Reid",
+      "productor": "Tom Collins · Ronnie Milsap",
+      "voz_principal": "Ronnie Milsap",
+      "historia": "Publicada en 1983 como primer sencillo de Keyed Up, Stranger in My House fue escrita por Mike Reid. Alcanzó el Nº5 country, Nº8 Adult Contemporary y Nº23 del Billboard Hot 100, uno de los cruces pop más destacados de Milsap.",
+      "quienes_er_an": "Ronnie Milsap es un cantante y pianista estadounidense fundamental en la expansión del country hacia el pop y el adult contemporary.",
+      "musicos": [
+        "Ronnie Milsap — voz y piano",
+        "Bruce Dees — guitarra solista"
+      ],
+      "ranking": [
+        "Estados Unidos — Country: Nº5",
+        "Estados Unidos — Adult Contemporary: Nº8",
+        "Estados Unidos — Billboard Hot 100: Nº23"
+      ],
+      "sabias_que": [
+        "Mike Reid ganó un Grammy como compositor por la canción.",
+        "El solo de guitarra de Bruce Dees fue considerado demasiado rockero por algunas radios country.",
+        "Keyed Up fue producido por Milsap y Tom Collins."
+      ],
+      "por_que_recordarlo": "Porque rompe la idea de que el country crossover debía ser siempre amable: aquí hay tensión, oscuridad y una guitarra casi de rock.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Room 5 feat. Oliver Cheatham",
+      "titulo": "Make Luv",
+      "aliases_artista": [
+        "Room 5 feat. Oliver Cheatham"
+      ],
+      "aliases_titulo": [
+        "Make Luv"
+      ],
+      "anio": 2003,
+      "texto": "Un fragmento del clásico Get Down Saturday Night de Oliver Cheatham regresó dos décadas después convertido en un Nº1 de house británico.",
+      "cierre": "El sábado por la noche de 1983 volvió a la pista en 2003.",
+      "slug": "room-5-feat-oliver-cheatham-make-luv",
+      "imagen": "img/archivo/room-5-feat-oliver-cheatham-make-luv.jpg",
+      "album": "Music & You",
+      "sello": "Positiva",
+      "single": "Make Luv",
+      "catalogo": "",
+      "duracion": "3:32 aprox. — radio edit",
+      "compositor": "Vito Lucente · Oliver Cheatham · Kevin McCord",
+      "productor": "Vito Lucente",
+      "voz_principal": "Oliver Cheatham — sample vocal",
+      "historia": "Make Luv fue creado por el productor belga Vito Lucente bajo el nombre Room 5 utilizando elementos de Get Down Saturday Night de Oliver Cheatham. Publicado en 2003, permaneció cuatro semanas en el Nº1 británico.",
+      "quienes_er_an": "Room 5 fue un proyecto del productor belga Vito Lucente. Oliver Cheatham fue un cantante estadounidense de soul y disco cuya grabación de 1983 proporcionó el corazón vocal del éxito.",
+      "musicos": [
+        "Vito Lucente — producción",
+        "Oliver Cheatham — voz sampleada"
+      ],
+      "ranking": [
+        "Reino Unido — Singles Chart: Nº1 durante 4 semanas",
+        "Reino Unido — 15 semanas en Top 100"
+      ],
+      "sabias_que": [
+        "La base vocal procede de Get Down Saturday Night.",
+        "Fue Nº1 británico durante cuatro semanas.",
+        "Room 5 consiguió otro ingreso británico con Music & You."
+      ],
+      "por_que_recordarlo": "Porque muestra cómo una grabación disco puede renacer veinte años después dentro del house y conquistar a una generación completamente nueva.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Roxette",
+      "titulo": "It Must Have Been Love",
+      "aliases_artista": [
+        "Roxette"
+      ],
+      "aliases_titulo": [
+        "It Must Have Been Love"
+      ],
+      "anio": 1990,
+      "texto": "Una canción navideña sueca perdió las referencias al invierno, entró en Pretty Woman y terminó convertida en una de las baladas más grandes de Roxette.",
+      "cierre": "Lo que pudo haber sido amor terminó siendo historia del pop.",
+      "slug": "roxette-it-must-have-been-love",
+      "imagen": "img/archivo/roxette-it-must-have-been-love.jpg",
+      "album": "Pretty Woman: Original Motion Picture Soundtrack",
+      "sello": "EMI",
+      "single": "It Must Have Been Love",
+      "catalogo": "",
+      "duracion": "4:18 aprox.",
+      "compositor": "Per Gessle",
+      "productor": "Clarence Öfwerman",
+      "voz_principal": "Marie Fredriksson",
+      "historia": "La canción nació en 1987 como It Must Have Been Love (Christmas for the Broken Hearted). Para la película Pretty Woman fue adaptada y reeditada en 1990, alcanzando el Nº1 estadounidense y el Nº3 británico.",
+      "quienes_er_an": "Roxette fue el dúo sueco formado por Per Gessle y Marie Fredriksson, una de las exportaciones pop europeas más exitosas de fines de los 80 y los 90.",
+      "musicos": [
+        "Marie Fredriksson — voz principal",
+        "Per Gessle — composición, guitarra y coros"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Singles Chart: Nº3"
+      ],
+      "sabias_que": [
+        "La primera versión fue grabada como canción navideña.",
+        "La versión internacional quedó asociada a la película Pretty Woman.",
+        "En Reino Unido permaneció catorce semanas en el Top 100."
+      ],
+      "por_que_recordarlo": "Porque es un caso perfecto de segunda vida musical: una canción ya existente encontró la película exacta y se volvió mundial.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Sally Oldfield",
+      "titulo": "Silver Dagger",
+      "aliases_artista": [
+        "Sally Oldfield"
+      ],
+      "aliases_titulo": [
+        "Silver Dagger"
+      ],
+      "anio": 1987,
+      "texto": "Sally Oldfield llevó su sensibilidad folk y atmosférica a una lectura propia de una canción tradicional angloamericana.",
+      "cierre": "Una melodía antigua atravesando los sintetizadores de los 80.",
+      "slug": "sally-oldfield-silver-dagger",
+      "imagen": "img/archivo/sally-oldfield-silver-dagger.jpg",
+      "album": "Femme",
+      "sello": "CBS / Portrait",
+      "single": "Silver Dagger",
+      "catalogo": "",
+      "duracion": "duración según edición",
+      "compositor": "Tradicional — adaptación de Sally Oldfield",
+      "productor": "Sally Oldfield",
+      "voz_principal": "Sally Oldfield",
+      "historia": "Silver Dagger aparece en Femme, álbum de Sally Oldfield publicado en 1987. La pieza procede de la tradición folk y aquí queda integrada al universo etéreo y contemporáneo de la cantante.",
+      "quienes_er_an": "Sally Oldfield es una cantautora británica de folk y pop progresivo, hermana de Mike Oldfield, conocida especialmente por Mirrors y por una obra de fuerte carácter atmosférico.",
+      "musicos": [
+        "Sally Oldfield — voz y arreglos"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Silver Dagger es una canción de raíz tradicional.",
+        "La versión de Oldfield aparece en el álbum Femme de 1987.",
+        "Su repertorio suele combinar folk, pop y texturas ambientales."
+      ],
+      "por_que_recordarlo": "Porque conecta dos épocas: una canción tradicional conservada por generaciones y una producción que la lleva al lenguaje sonoro de fines de los 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Sandra",
+      "titulo": "(I'll Never Be) Maria Magdalena",
+      "aliases_artista": [
+        "Sandra"
+      ],
+      "aliases_titulo": [
+        "(I'll Never Be) Maria Magdalena"
+      ],
+      "anio": 1985,
+      "texto": "Una producción de Michael Cretu, una melodía imposible de olvidar y la voz de Sandra dieron forma a uno de los grandes éxitos del europop de 1985.",
+      "cierre": "Antes de Enigma, Michael Cretu y Sandra ya estaban construyendo un sonido europeo propio.",
+      "slug": "sandra-ill-never-be-maria-magdalena",
+      "imagen": "img/archivo/sandra-ill-never-be-maria-magdalena.jpg",
+      "album": "The Long Play",
+      "sello": "Virgin",
+      "single": "(I'll Never Be) Maria Magdalena",
+      "catalogo": "",
+      "duracion": "3:58 aprox.",
+      "compositor": "Hubert Kemmler · Markus Löhr · Michael Cretu · Richard Palmer-James",
+      "productor": "Michael Cretu",
+      "voz_principal": "Sandra",
+      "historia": "Publicada en 1985 como sencillo del debut internacional The Long Play, Maria Magdalena fue un enorme éxito continental y llegó al Nº1 en numerosos países europeos. En Reino Unido tuvo una repercusión mucho menor, con entradas fuera del Top 75.",
+      "quienes_er_an": "Sandra es una cantante alemana que, junto al productor Michael Cretu, se convirtió en una figura destacada del pop europeo de los 80.",
+      "musicos": [
+        "Sandra — voz",
+        "Michael Cretu — producción y teclados"
+      ],
+      "ranking": [
+        "Nº1 en numerosos mercados europeos",
+        "Reino Unido — mejor posición histórica fuera del Top 75"
+      ],
+      "sabias_que": [
+        "Fue el gran salto internacional de Sandra.",
+        "Michael Cretu, posteriormente creador de Enigma, produjo la grabación.",
+        "The Long Play fue su primer gran álbum internacional."
+      ],
+      "por_que_recordarlo": "Porque representa el europop continental que fue gigantesco fuera del eje angloestadounidense y que hoy define inmediatamente el sonido de 1985.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Scorpions",
+      "titulo": "Send Me An Angel",
+      "aliases_artista": [
+        "Scorpions"
+      ],
+      "aliases_titulo": [
+        "Send Me An Angel"
+      ],
+      "anio": 1991,
+      "texto": "Después de Wind of Change, Scorpions volvió a encontrar una balada capaz de unir guitarras de hard rock con una melodía casi espiritual.",
+      "cierre": "Entre rosas y espinas, la búsqueda de una salida hacia la luz.",
+      "slug": "scorpions-send-me-an-angel",
+      "imagen": "img/archivo/scorpions-send-me-an-angel.jpg",
+      "album": "Crazy World",
+      "sello": "Vertigo / Mercury",
+      "single": "Send Me an Angel",
+      "catalogo": "",
+      "duracion": "4:32 aprox.",
+      "compositor": "Rudolf Schenker · Klaus Meine",
+      "productor": "Keith Olsen · Scorpions",
+      "voz_principal": "Klaus Meine",
+      "historia": "Grabada para Crazy World y publicada como sencillo en 1991, Send Me an Angel se convirtió junto con Wind of Change en una de las baladas emblemáticas del álbum. Alcanzó el Nº27 británico y el Nº44 del Billboard Hot 100.",
+      "quienes_er_an": "Scorpions es una banda alemana de hard rock cuya etapa de fines de los 80 y comienzos de los 90 combinó potencia de estadio con algunas de las power ballads más conocidas del género.",
+      "musicos": [
+        "Klaus Meine — voz",
+        "Rudolf Schenker — guitarra",
+        "Matthias Jabs — guitarra",
+        "Francis Buchholz — bajo",
+        "Herman Rarebell — batería",
+        "Jim Vallance — teclados"
+      ],
+      "ranking": [
+        "Reino Unido — Singles Chart: Nº27",
+        "Estados Unidos — Billboard Hot 100: Nº44",
+        "Estados Unidos — Mainstream Rock: Nº8"
+      ],
+      "sabias_que": [
+        "Fue el cuarto y último sencillo de Crazy World.",
+        "La música es de Rudolf Schenker y la letra de Klaus Meine.",
+        "Jim Vallance participó en teclados."
+      ],
+      "por_que_recordarlo": "Porque completa el costado más introspectivo de Crazy World y demuestra que Scorpions podía convertir una balada en algo tan identificable como sus himnos de guitarra.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
     }
   ]
 }
