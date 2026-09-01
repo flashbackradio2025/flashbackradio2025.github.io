@@ -18705,6 +18705,800 @@
       "por_que_recordarlo": "Porque demuestra la capacidad de Stevie Wonder para absorber la tecnología sonora de los ochenta y convertirla en algo completamente propio.",
       "recuerdo_personal": "",
       "tipo_artista": "solista"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Styloo",
+      "titulo": "Pretty Face",
+      "aliases_artista": [
+        "Styloo",
+        "Stylóo"
+      ],
+      "aliases_titulo": [
+        "Pretty Face",
+        "Pretty Face (1984)"
+      ],
+      "anio": 1983,
+      "texto": "Pretty Face condensó el espíritu del primer Italo-disco: sintetizadores luminosos, melodía inmediata y una producción nacida del entusiasmo de tres amigos fascinados por la electrónica.",
+      "cierre": "Una cara bonita y un pulso electrónico que ayudaron a definir la pista italiana de los primeros ochenta.",
+      "slug": "styloo-pretty-face",
+      "imagen": "img/archivo/styloo-pretty-face.jpg",
+      "album": "Pretty Face",
+      "sello": "Discomagic",
+      "single": "Pretty Face",
+      "duracion": "6:09 aprox. (versión extendida conservada en FlashBack)",
+      "compositor": "Rino Facchinetti · Alberto Signorini",
+      "productor": "Walter Bassani · Marcello Catalano; remezcla/producción posterior: Roberto Turatti · Micky Chieregato",
+      "voz_principal": "Rino “Ryan” Facchinetti / Alberto Signorini (según versión y créditos de época)",
+      "historia": "Styloo fue creado por Rino “Ryan” Facchinetti junto a Alberto Signorini y Tullio Colombo. Pretty Face nació primero como demo y pasó por varias manos antes de llegar a Discomagic, donde Roberto Turatti y Micky Chieregato impulsaron su lanzamiento. Publicada en 1983, la canción llegó a editarse en más de veinte países y se convirtió en el título emblemático del proyecto.",
+      "quienes_er_an": "Styloo fue un proyecto italiano de Italo-disco formado por Rino Facchinetti, Alberto Signorini y Tullio Colombo, unidos por su interés por la electrónica y la producción de baile.",
+      "musicos": [
+        "Rino “Ryan” Facchinetti — fundador, composición y voz",
+        "Alberto Signorini — composición, voz y trabajo de estudio",
+        "Tullio Colombo — integrante del proyecto",
+        "Walter Bassani — arreglos y producción de estudio",
+        "Marcello Catalano — arreglos y producción de estudio"
+      ],
+      "ranking": [
+        "El propio relato histórico del proyecto señala una edición en más de 20 países y unas 400.000 copias vendidas."
+      ],
+      "sabias_que": [
+        "El nombre Styloo fue ideado por Rino Facchinetti.",
+        "Antes de publicarse, la maqueta fue ofrecida a Tony Carrasco, que no participó finalmente.",
+        "Discomagic tomó el proyecto después de que no prosperara una negociación previa con Durium.",
+        "En 1993 apareció Pretty Face ’93 y en 2023 una edición por el 40º aniversario."
+      ],
+      "por_que_recordarlo": "Porque es una pieza de culto del Italo-disco temprano y porque detrás de su aparente sencillez hay una historia muy representativa de la producción independiente italiana de los ochenta.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Dimples D.",
+      "titulo": "Sucker DJ",
+      "aliases_artista": [
+        "Dimples D.",
+        "Dimples D",
+        "Crystal Smith"
+      ],
+      "aliases_titulo": [
+        "Sucker DJ",
+        "Sucker DJ’s (I Will Survive)",
+        "Sucker DJ (A Witch for Love)"
+      ],
+      "anio": 1983,
+      "texto": "Antes de convertirse en éxito europeo y oceánico, Sucker DJ fue una grabación de rap de 1983 que encontró una segunda vida cuando Ben Liebrand la transformó en un irresistible cruce de hip hop y dance.",
+      "cierre": "Un disco que necesitó siete años y un genio de la remezcla para encontrar la pista que lo estaba esperando.",
+      "slug": "dimples-d-sucker-dj",
+      "imagen": "img/archivo/sucker-dj-dimples-d.jpg",
+      "album": "Sucker DJ / posteriormente Dimples & Spice",
+      "sello": "Party Time Records / Warlock",
+      "single": "Sucker DJ",
+      "duracion": "5:33–5:35 aprox. (Genie Mix/versión de FlashBack)",
+      "compositor": "Crystal Smith · Marlon Williams; elementos del tema de I Dream of Jeannie acreditados a Hugo Montenegro · Buddy Kaye",
+      "productor": "Marley Marl (original, 1983) · Ben Liebrand (Genie Mix, 1990)",
+      "voz_principal": "Crystal Smith (Dimples D.)",
+      "historia": "Crystal Smith grabó Sucker DJ bajo el nombre Dimples D. en 1983 con producción de Marley Marl. Aquella primera edición tuvo poca repercusión. En 1990 el DJ neerlandés Ben Liebrand realizó el Genie Mix e incorporó el tema musical de la serie I Dream of Jeannie; la reedición convirtió la canción en un éxito internacional.",
+      "quienes_er_an": "Dimples D. es el nombre artístico de la rapera estadounidense Crystal Smith. Su carrera quedó especialmente asociada a Sucker DJ, uno de esos casos en que una remezcla posterior cambió por completo el destino comercial de una grabación.",
+      "musicos": [
+        "Crystal Smith (Dimples D.) — rap y voz",
+        "Marley Marl — producción original",
+        "Ben Liebrand — remezcla y producción del Genie Mix"
+      ],
+      "ranking": [
+        "Australia — Nº1",
+        "Nueva Zelanda — Nº2",
+        "Países Bajos — Nº8",
+        "Austria — Nº10",
+        "Alemania — Nº16",
+        "Reino Unido — Nº17"
+      ],
+      "sabias_que": [
+        "La grabación original apareció en 1983 y no fue un éxito masivo.",
+        "El Genie Mix de 1990 incorporó el tema de la sitcom I Dream of Jeannie.",
+        "La canción nació en el entorno del hip hop neoyorquino de Marley Marl antes de convertirse en un clásico de pista europeo.",
+        "En el archivo de AzuraCast los metadatos aparecen invertidos como “Sucker Dj — Dimples D”; esta ficha conserva la autoría correcta: Dimples D. — Sucker DJ."
+      ],
+      "por_que_recordarlo": "Porque demuestra cómo una remezcla puede no sólo actualizar una canción sino revelar, años después, el potencial que la grabación original tenía escondido.",
+      "tipo_artista": "solista"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Supertramp",
+      "titulo": "The Logical Song",
+      "aliases_artista": [
+        "Supertramp"
+      ],
+      "aliases_titulo": [
+        "The Logical Song"
+      ],
+      "anio": 1979,
+      "texto": "Roger Hodgson convirtió el paso de la infancia libre al mundo adulto de reglas, etiquetas y expectativas en una de las canciones más reconocibles de Supertramp.",
+      "cierre": "De lo maravilloso a lo “lógico”: una pregunta sobre quiénes somos envuelta en piano eléctrico y saxofón.",
+      "slug": "supertramp-the-logical-song",
+      "imagen": "img/archivo/supertramp-the-logical-song.jpg",
+      "album": "Breakfast in America",
+      "sello": "A&M Records",
+      "single": "The Logical Song",
+      "duracion": "4:08–4:11 aprox.",
+      "compositor": "Roger Hodgson · Rick Davies (crédito editorial del repertorio)",
+      "productor": "Supertramp · Peter Henderson",
+      "voz_principal": "Roger Hodgson",
+      "historia": "Publicado en 1979 como primer sencillo de Breakfast in America, The Logical Song surgió de experiencias autobiográficas de Roger Hodgson, especialmente del contraste entre la imaginación de la niñez y la disciplina de su educación. Su sonido combina Wurlitzer, una base rítmica precisa y el célebre saxofón de John Helliwell.",
+      "quienes_er_an": "Supertramp era entonces la formación clásica integrada por Roger Hodgson, Rick Davies, John Helliwell, Dougie Thomson y Bob Siebenberg, en el momento de mayor expansión internacional del grupo.",
+      "musicos": [
+        "Roger Hodgson — voz, teclados y guitarra",
+        "Rick Davies — teclados",
+        "John Helliwell — instrumentos de viento y saxofón",
+        "Dougie Thomson — bajo",
+        "Bob Siebenberg — batería",
+        "Gary Mielke — programación de sintetizador"
+      ],
+      "ranking": [
+        "Reino Unido — Top 10",
+        "Estados Unidos — Top 10",
+        "Uno de los mayores éxitos internacionales de Supertramp"
+      ],
+      "sabias_que": [
+        "Hodgson explicó que la letra reflejaba su experiencia en internados británicos.",
+        "John Helliwell grabó partes de saxofón en un baño del estudio buscando aislamiento acústico.",
+        "Breakfast in America fue grabado en The Village Recorder de Los Ángeles."
+      ],
+      "por_que_recordarlo": "Porque combina una reflexión existencial poco habitual en el pop masivo con una arquitectura musical que puede reconocerse en apenas unos segundos.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Supertramp",
+      "titulo": "Breakfast in America",
+      "aliases_artista": [
+        "Supertramp"
+      ],
+      "aliases_titulo": [
+        "Breakfast in America",
+        "Breakfast In America"
+      ],
+      "anio": 1979,
+      "texto": "Con ironía británica y una melodía casi de music-hall, Supertramp imaginó una América soñada desde el otro lado del Atlántico.",
+      "cierre": "Dos minutos y medio bastaron para convertir una fantasía sobre América en la postal central de un álbum histórico.",
+      "slug": "supertramp-breakfast-in-america",
+      "imagen": "img/archivo/supertramp-breakfast-in-america.jpg",
+      "album": "Breakfast in America",
+      "sello": "A&M Records",
+      "single": "Breakfast in America",
+      "duracion": "2:37 aprox.",
+      "compositor": "Roger Hodgson · Rick Davies (crédito editorial); canción atribuida por Hodgson a su autoría juvenil",
+      "productor": "Supertramp · Peter Henderson",
+      "voz_principal": "Roger Hodgson",
+      "historia": "La canción que dio nombre al álbum Breakfast in America fue publicada en 1979. Roger Hodgson contó que la había escrito siendo muy joven, imaginando Estados Unidos desde una perspectiva británica. En el LP ocupa la cuarta pista; Gone Hollywood es en realidad la primera, una diferencia importante porque el archivo de AzuraCast tenía ese título en los metadatos aunque el archivo MP3 corresponde a Breakfast in America.",
+      "quienes_er_an": "Supertramp atravesaba en 1979 su etapa de mayor éxito comercial con la formación Hodgson, Davies, Helliwell, Thomson y Siebenberg.",
+      "musicos": [
+        "Roger Hodgson — voz, guitarra y teclados",
+        "Rick Davies — teclados",
+        "John Helliwell — vientos",
+        "Dougie Thomson — bajo",
+        "Bob Siebenberg — batería",
+        "Dick “Slyde” Hyde — trombón/tuba",
+        "Gary Mielke — programación"
+      ],
+      "ranking": [
+        "Reino Unido — Top 10 como sencillo",
+        "El álbum Breakfast in America alcanzó el Nº1 del Billboard 200"
+      ],
+      "sabias_que": [
+        "En AzuraCast figuraba erróneamente como Gone Hollywood; el nombre de archivo y la duración corresponden a Breakfast in America.",
+        "Gone Hollywood abre el álbum, mientras Breakfast in America es la pista 4.",
+        "El álbum fue grabado en Los Ángeles y producido por Supertramp junto a Peter Henderson."
+      ],
+      "por_que_recordarlo": "Porque es una miniatura pop perfecta y, para FlashBack, también porque documenta una corrección concreta de metadatos que evita confundir dos canciones distintas del mismo álbum.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Survivor",
+      "titulo": "Burning Heart",
+      "aliases_artista": [
+        "Survivor"
+      ],
+      "aliases_titulo": [
+        "Burning Heart"
+      ],
+      "anio": 1985,
+      "texto": "Survivor volvió al universo Rocky con una canción construida como combate: tensión, resistencia y una melodía que enfrenta simbólicamente Este y Oeste.",
+      "cierre": "Otro round de Survivor: esta vez el corazón ardía en plena Guerra Fría.",
+      "slug": "survivor-burning-heart",
+      "imagen": "img/archivo/survivor-burning-heart.jpg",
+      "album": "Rocky IV: Original Motion Picture Soundtrack",
+      "sello": "Scotti Bros.",
+      "single": "Burning Heart",
+      "duracion": "3:49–3:51 aprox.",
+      "compositor": "Jim Peterik · Frankie Sullivan",
+      "productor": "Jim Peterik · Frankie Sullivan",
+      "voz_principal": "Jimi Jamison",
+      "historia": "Compuesta para Rocky IV por Jim Peterik y Frankie Sullivan a pedido de Sylvester Stallone, Burning Heart apareció en 1985 y reflejó directamente el clima de Guerra Fría de la película. Fue el mayor éxito de Survivor con Jimi Jamison como cantante principal.",
+      "quienes_er_an": "Survivor había cambiado de vocalista después de la etapa de Eye of the Tiger. Con Jimi Jamison al frente, la banda mantuvo su identidad de rock melódico y encontró una segunda gran etapa comercial.",
+      "musicos": [
+        "Jimi Jamison — voz",
+        "Frankie Sullivan — guitarra",
+        "Jim Peterik — teclados y piano",
+        "Stephan Ellis — bajo",
+        "Marc Droubay — batería"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº2",
+        "Bélgica — Nº1",
+        "Suiza — Nº1",
+        "Top 10 en varios países europeos"
+      ],
+      "sabias_que": [
+        "Sylvester Stallone volvió a recurrir a Survivor después del impacto de Eye of the Tiger.",
+        "La letra contiene referencias explícitas al enfrentamiento Este-Oeste, coherentes con Rocky IV.",
+        "Fue el mayor éxito del grupo con Jimi Jamison en la voz."
+      ],
+      "por_que_recordarlo": "Porque consiguió repetir la asociación entre Survivor y Rocky sin copiar Eye of the Tiger, adaptando el sonido de la banda al clima épico de 1985.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Survivor",
+      "titulo": "Eye of the Tiger",
+      "aliases_artista": [
+        "Survivor"
+      ],
+      "aliases_titulo": [
+        "Eye of the Tiger",
+        "Eye Of The Tiger"
+      ],
+      "anio": 1982,
+      "texto": "Un riff cortante, una marcha implacable y una consigna de supervivencia hicieron de Eye of the Tiger uno de los himnos cinematográficos más reconocibles de todos los tiempos.",
+      "cierre": "Pocas canciones necesitan tan pocas notas para anunciar que empieza el combate.",
+      "slug": "survivor-eye-of-the-tiger",
+      "imagen": "img/archivo/survivor-eye-of-the-tiger.jpg",
+      "album": "Eye of the Tiger / Rocky III soundtrack",
+      "sello": "Scotti Brothers",
+      "single": "Eye of the Tiger",
+      "duracion": "4:04 aprox. (álbum); 3:45 single",
+      "compositor": "Jim Peterik · Frankie Sullivan",
+      "productor": "Jim Peterik · Frankie Sullivan",
+      "voz_principal": "Dave Bickler",
+      "historia": "Sylvester Stallone encargó a Survivor una canción para Rocky III después de no poder utilizar Another One Bites the Dust de Queen. Jim Peterik y Frankie Sullivan construyeron el tema alrededor de un riff insistente y una letra sobre resistencia. Publicada en 1982, permaneció seis semanas en el Nº1 del Billboard Hot 100.",
+      "quienes_er_an": "Survivor era una banda estadounidense de rock melódico liderada creativamente por Jim Peterik y Frankie Sullivan. En esta etapa Dave Bickler era el cantante principal.",
+      "musicos": [
+        "Dave Bickler — voz",
+        "Frankie Sullivan — guitarra principal",
+        "Jim Peterik — guitarra, piano y teclados",
+        "Stephan Ellis — bajo",
+        "Marc Droubay — batería"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1 durante 6 semanas",
+        "Reino Unido — Nº1",
+        "Australia — Nº1",
+        "Irlanda — Nº1"
+      ],
+      "sabias_que": [
+        "Fue escrita expresamente para Rocky III.",
+        "Ganó un Grammy y se convirtió en la canción emblemática de Survivor.",
+        "La base rítmica combina hard rock con un pulso cercano al post-disco."
+      ],
+      "por_que_recordarlo": "Porque trascendió la película para convertirse en una señal musical universal de esfuerzo, entrenamiento y superación.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Survivor",
+      "titulo": "The Search Is Over",
+      "aliases_artista": [
+        "Survivor"
+      ],
+      "aliases_titulo": [
+        "The Search Is Over"
+      ],
+      "anio": 1985,
+      "texto": "Survivor dejó por un momento el ring y construyó una power ballad sobre descubrir que aquello que se buscaba siempre había estado cerca.",
+      "cierre": "Después de tanta búsqueda, la respuesta estaba al lado: Survivor en su costado más emotivo.",
+      "slug": "survivor-the-search-is-over",
+      "imagen": "img/archivo/survivor-the-search-is-over.jpg",
+      "album": "Vital Signs",
+      "sello": "Scotti Bros.",
+      "single": "The Search Is Over",
+      "duracion": "4:10–4:13 aprox.",
+      "compositor": "Jim Peterik · Frankie Sullivan",
+      "productor": "Ron Nevison",
+      "voz_principal": "Jimi Jamison",
+      "historia": "Incluida en Vital Signs, primer álbum de Survivor con Jimi Jamison, The Search Is Over fue editada como sencillo en 1985. La canción llevó al grupo hacia la power ballad sin abandonar su sello melódico y alcanzó el Nº4 del Billboard Hot 100 y el Nº1 de Adult Contemporary.",
+      "quienes_er_an": "Vital Signs marcó la llegada de Jimi Jamison y una renovación de Survivor. Jim Peterik y Frankie Sullivan continuaron como núcleo compositivo mientras Ron Nevison aportó una producción más pulida.",
+      "musicos": [
+        "Jimi Jamison — voz",
+        "Frankie Sullivan — guitarra y coros",
+        "Jim Peterik — teclados, guitarra y coros",
+        "Stephan Ellis — bajo",
+        "Marc Droubay — batería"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº4",
+        "Estados Unidos — Adult Contemporary: Nº1 durante 4 semanas",
+        "Canadá — Top 25"
+      ],
+      "sabias_que": [
+        "Fue el único Nº1 de Survivor en la lista Adult Contemporary de Billboard.",
+        "Vital Signs fue el primer álbum del grupo con Jimi Jamison.",
+        "La canción mostró que Survivor podía funcionar en la radio sin depender de una película o de un riff de combate."
+      ],
+      "por_que_recordarlo": "Porque revela el otro rostro de Survivor: el de una banda capaz de convertir el rock de estadio en una balada íntima y radial.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Suzanne Vega",
+      "titulo": "Luka",
+      "aliases_artista": [
+        "Suzanne Vega"
+      ],
+      "aliases_titulo": [
+        "Luka"
+      ],
+      "anio": 1987,
+      "texto": "Con una melodía luminosa y una narración en primera persona, Suzanne Vega habló de violencia infantil sin grandilocuencia y logró que una historia incómoda entrara en la radio mundial.",
+      "cierre": "Una canción suave para contar algo que no lo es: ahí está la fuerza de Luka.",
+      "slug": "suzanne-vega-luka",
+      "imagen": "img/archivo/suzanne-vega-luka.jpg",
+      "album": "Solitude Standing",
+      "sello": "A&M Records",
+      "single": "Luka",
+      "duracion": "3:48–3:51 aprox.",
+      "compositor": "Suzanne Vega",
+      "productor": "Steve Addabbo · Lenny Kaye",
+      "voz_principal": "Suzanne Vega",
+      "historia": "Publicada en 1987 como sencillo de Solitude Standing, Luka está narrada desde la perspectiva de un niño que intenta minimizar señales de maltrato. El contraste entre una melodía accesible y el contenido de la letra fue decisivo para su impacto. Llegó al Nº3 del Billboard Hot 100, el mayor éxito estadounidense de Vega.",
+      "quienes_er_an": "Suzanne Vega surgió de la escena de cantautores neoyorquina de los años ochenta y combinó sensibilidad folk, observación urbana y una escritura narrativa muy precisa.",
+      "musicos": [
+        "Suzanne Vega — voz y guitarra",
+        "Mark Shulman — guitarra",
+        "Michael Visceglia — bajo",
+        "Stephen Ferrera — batería",
+        "Anton Sanko — sintetizador",
+        "Shawn Colvin — coros"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº3",
+        "Suecia — Nº2",
+        "Top 10 en Austria, Canadá, Nueva Zelanda y Sudáfrica"
+      ],
+      "sabias_que": [
+        "Shawn Colvin participa en los coros.",
+        "La letra adopta la voz del niño en lugar de describir el abuso desde afuera.",
+        "El tono musical deliberadamente accesible contrasta con la gravedad del tema."
+      ],
+      "por_que_recordarlo": "Porque demostró que una canción pop podía abordar un asunto social durísimo sin convertirlo en consigna y llegar igualmente a millones de personas.",
+      "tipo_artista": "solista"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Swing Out Sister",
+      "titulo": "Breakout",
+      "aliases_artista": [
+        "Swing Out Sister"
+      ],
+      "aliases_titulo": [
+        "Breakout",
+        "Breakout (Extended Remix)",
+        "Breakout (extended remix)"
+      ],
+      "anio": 1986,
+      "texto": "Breakout convirtió optimismo, sofisticación pop y arreglos de metales en una de las canciones que mejor representan el costado elegante de los ochenta.",
+      "cierre": "Salir, cambiar, avanzar: una explosión de pop sofisticado con sonrisa incorporada.",
+      "slug": "swing-out-sister-breakout",
+      "imagen": "img/archivo/swing-out-sister-breakout.jpg",
+      "album": "It’s Better to Travel",
+      "sello": "Mercury",
+      "single": "Breakout",
+      "duracion": "3:48 aprox. (single; existen mixes extendidos)",
+      "compositor": "Andy Connell · Corinne Drewery · Martin Jackson",
+      "productor": "Paul Staveley O’Duffy",
+      "voz_principal": "Corinne Drewery",
+      "historia": "Breakout apareció en 1986 y fue el gran salto internacional de Swing Out Sister. La canción nació cuando el grupo todavía era un trío y llegó al Nº4 británico y al Nº6 del Billboard Hot 100. Su combinación de programación, metales y voz soul terminó definiendo la estética del debut It’s Better to Travel.",
+      "quienes_er_an": "Swing Out Sister comenzó como trío con Corinne Drewery, Andy Connell y Martin Jackson. Su música mezcló synth-pop, jazz, soul y arreglos de big band dentro de una producción extremadamente pulida.",
+      "musicos": [
+        "Corinne Drewery — voz",
+        "Andy Connell — teclados",
+        "Martin Jackson — batería y programación",
+        "Richard Niles — arreglos",
+        "Músicos de sesión — metales y sección rítmica"
+      ],
+      "ranking": [
+        "Reino Unido — Nº4",
+        "Estados Unidos — Billboard Hot 100: Nº6",
+        "Estados Unidos — Adult Contemporary: Nº1",
+        "Nominación al Grammy a Mejor Interpretación Pop de Dúo o Grupo"
+      ],
+      "sabias_que": [
+        "Corinne Drewery comenzó a escribir ideas para el primer álbum mientras se recuperaba de un accidente a caballo.",
+        "La canción fue compuesta bajo presión cuando el contrato inicial del grupo estaba en juego.",
+        "En AzuraCast figura como Breakout (extended remix), pero el Archivo mantiene una única ficha de la canción."
+      ],
+      "por_que_recordarlo": "Porque representa como pocas canciones el sophisti-pop: música de baile con arreglos elegantes, gran melodía y una producción que sigue sonando detallista.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Talk Talk",
+      "titulo": "It's My Life",
+      "aliases_artista": [
+        "Talk Talk"
+      ],
+      "aliases_titulo": [
+        "It's My Life",
+        "Its My Life",
+        "It’s My Life"
+      ],
+      "anio": 1984,
+      "texto": "Talk Talk envolvió una declaración de autonomía emocional en sintetizadores, bajo fretless y una de las melodías más memorables del synth-pop británico.",
+      "cierre": "Una frase sencilla, una voz inconfundible y un tema que terminó viviendo muchas vidas.",
+      "slug": "talk-talk-its-my-life",
+      "imagen": "img/archivo/talk-talk-its-my-life.jpg",
+      "album": "It's My Life",
+      "sello": "EMI",
+      "single": "It's My Life",
+      "duracion": "3:51 aprox. (versión de FlashBack)",
+      "compositor": "Mark Hollis · Tim Friese-Greene",
+      "productor": "Tim Friese-Greene",
+      "voz_principal": "Mark Hollis",
+      "historia": "Publicada a comienzos de 1984 como primer sencillo del segundo álbum de Talk Talk, It’s My Life tuvo inicialmente un desempeño moderado en el Reino Unido pero funcionó mejor en Europa y Norteamérica. Fue reeditada varias veces y terminó consolidándose como una de las canciones esenciales del grupo.",
+      "quienes_er_an": "Talk Talk estaba liderado por Mark Hollis, acompañado por Paul Webb y Lee Harris, con Tim Friese-Greene como colaborador creativo y productor decisivo aunque no siempre apareciera como miembro visible.",
+      "musicos": [
+        "Mark Hollis — voz y coros",
+        "Paul Webb — bajo fretless y coros",
+        "Lee Harris — batería",
+        "Tim Friese-Greene — sintetizadores, caja de ritmos, piano y producción",
+        "Robbie McIntosh — guitarra",
+        "Ian Curnow — teclados",
+        "Morris Pert — percusión",
+        "Phil Ramocon — piano"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº31",
+        "Estados Unidos — Dance Club: Nº1",
+        "Italia — Nº7",
+        "Francia — Nº25",
+        "Alemania — Nº33"
+      ],
+      "sabias_que": [
+        "La canción fue reeditada en el Reino Unido en 1985 y nuevamente en 1990.",
+        "Tim Friese-Greene se convirtió en socio creativo esencial de Mark Hollis.",
+        "El videoclip original utilizó abundantes imágenes de naturaleza y animales, alejándose de la típica performance de banda."
+      ],
+      "por_que_recordarlo": "Porque sobrevivió a su éxito inicial, a las reediciones y a las versiones posteriores hasta quedar como una de las grandes declaraciones pop de los ochenta.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Stevie Wonder",
+      "titulo": "Isn't She Lovely",
+      "aliases_artista": [
+        "Stevie Wonder",
+        "Stivie Wonders"
+      ],
+      "aliases_titulo": [
+        "Isn't She Lovely",
+        "Isnt She Lovely"
+      ],
+      "anio": 1976,
+      "texto": "Stevie Wonder celebró el nacimiento de su hija Aisha con una grabación íntima, exuberante y casi doméstica que terminó siendo una de sus canciones más queridas.",
+      "cierre": "Una bienvenida a una hija convertida en celebración universal de la vida.",
+      "slug": "stevie-wonder-isnt-she-lovely",
+      "imagen": "img/archivo/stevie-wonder-isnt-she-lovely.jpg",
+      "album": "Songs in the Key of Life",
+      "sello": "Tamla / Motown",
+      "single": "Promocional / airplay",
+      "duracion": "6:33 aprox. (álbum); 3:20 edición radial",
+      "compositor": "Stevie Wonder",
+      "productor": "Stevie Wonder",
+      "voz_principal": "Stevie Wonder",
+      "historia": "Incluida en Songs in the Key of Life en 1976, Isn’t She Lovely celebra el nacimiento de Aisha Morris. La grabación incorpora el llanto de un bebé al comienzo y, hacia el final, sonidos de Stevie bañando a su hija. Wonder tocó prácticamente todos los instrumentos y se negó inicialmente a recortar la extensa versión del álbum para convertirla en un sencillo comercial convencional.",
+      "quienes_er_an": "Stevie Wonder se encontraba en uno de los períodos creativos más extraordinarios de la música popular. Songs in the Key of Life sintetizó soul, funk, jazz, pop y experimentación de estudio en una obra monumental.",
+      "musicos": [
+        "Stevie Wonder — voz, armónica, percusión, RMI Electra Piano, Fender Rhodes, sintetizador de bajo y batería",
+        "Greg Phillinganes — teclados",
+        "Aisha Morris — sonidos familiares incorporados a la grabación"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Easy Listening/Adult Contemporary: Nº23 por difusión radial",
+        "La canción no fue publicada originalmente como sencillo comercial estándar en EE.UU. o Reino Unido"
+      ],
+      "sabias_que": [
+        "Aisha Morris, la hija celebrada en la canción, se convertiría años después en cantante y trabajaría con su padre.",
+        "La versión de álbum dura más de seis minutos.",
+        "Stevie Wonder toca casi todos los instrumentos de la grabación.",
+        "Su negativa a acortar el tema explica por qué una canción enormemente popular no tuvo el recorrido habitual de un sencillo de 1976."
+      ],
+      "por_que_recordarlo": "Porque pocas grabaciones populares conservan de manera tan directa un momento familiar real y, al mismo tiempo, consiguen transformarlo en una emoción universal.",
+      "tipo_artista": "solista"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Take That",
+      "titulo": "Back for Good",
+      "aliases_artista": [
+        "Take That"
+      ],
+      "aliases_titulo": [
+        "Back for Good",
+        "Back For Good"
+      ],
+      "anio": 1995,
+      "texto": "Gary Barlow escribió una balada de arrepentimiento y segunda oportunidad que llevó a Take That más allá del fenómeno adolescente y los convirtió en un nombre global del pop.",
+      "cierre": "Una despedida que sonaba a regreso: cuatro minutos de pop británico construido para quedarse.",
+      "slug": "take-that-back-for-good",
+      "imagen": "img/archivo/take-that-back-for-good.jpg",
+      "album": "Nobody Else",
+      "sello": "RCA / BMG",
+      "single": "Back for Good",
+      "duracion": "4:02",
+      "compositor": "Gary Barlow",
+      "productor": "Gary Barlow · Chris Porter",
+      "voz_principal": "Gary Barlow",
+      "historia": "Presentada públicamente en los BRIT Awards de 1995, Back for Good generó tanta demanda que su lanzamiento fue adelantado. Entró directamente al Nº1 británico y permaneció allí cuatro semanas. También llegó al Nº7 del Billboard Hot 100, convirtiéndose en el gran éxito estadounidense de Take That.",
+      "quienes_er_an": "En 1995 Take That estaba integrado por Gary Barlow, Robbie Williams, Mark Owen, Howard Donald y Jason Orange. Nobody Else fue el último álbum de estudio de esa etapa antes de la salida de Williams y la posterior separación temporal del grupo.",
+      "musicos": [
+        "Gary Barlow — voz principal, composición y producción",
+        "Robbie Williams — voces",
+        "Mark Owen — voces",
+        "Howard Donald — voces",
+        "Jason Orange — voces",
+        "Chris Porter — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1 durante 4 semanas",
+        "Estados Unidos — Billboard Hot 100: Nº7",
+        "Nº1 en numerosos países",
+        "BRIT Award 1996 — British Single of the Year"
+      ],
+      "sabias_que": [
+        "La reacción a su presentación en los BRIT Awards aceleró el lanzamiento comercial.",
+        "Fue escrita únicamente por Gary Barlow.",
+        "Se convirtió en el sencillo de Take That que consolidó su llegada al mercado estadounidense."
+      ],
+      "por_que_recordarlo": "Porque fue el momento en que una boy band logró una balada capaz de sobrevivir a la moda del momento y convertirse en estándar del pop de los noventa.",
+      "tipo_artista": "grupo"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Suzy Q",
+      "titulo": "Tonight",
+      "aliases_artista": [
+        "Suzy Q",
+        "Suzy-Q"
+      ],
+      "aliases_titulo": [
+        "Tonight",
+        "Tonight (Remix)",
+        "I Need You Tonite / Tonight"
+      ],
+      "anio": 1981,
+      "texto": "Tonight es una de esas piezas donde la memoria de la pista guarda una genealogía escondida: detrás de la versión de Suzy Q está I Need You Tonight de Punkin Machine.",
+      "cierre": "La versión que muchos conocieron primero escondía, en realidad, una historia anterior de la disco canadiense.",
+      "slug": "suzy-q-tonight",
+      "imagen": "img/archivo/suzy-q-tonight.jpg",
+      "album": "Get On Up Do It Again / I Need You Tonite / Tonight",
+      "sello": "J.C. Records / Unidisc",
+      "single": "With Your Love / Tonight",
+      "duracion": "6:30 aprox.",
+      "compositor": "Giovanni D’Orazio · Sergio Panzera · Calogero Cucuzzella (créditos de la reedición Unidisc)",
+      "productor": "Jerry Cucuzzella",
+      "voz_principal": "Michelle Mills (fuentes de discografía retrospectiva)",
+      "historia": "Tonight fue editada en 1981 dentro del universo de producciones de J.C. Records. La relación que recordaba Raúl está documentada: Punkin Machine había publicado I Need You Tonight en Montreal y Suzy Q realizó después una versión titulada Tonight. Reediciones de Unidisc reúnen ambas grabaciones cara a cara desde los masters originales. El sencillo With Your Love / Tonight alcanzó el Nº12 de la lista dance estadounidense.",
+      "quienes_er_an": "Suzy Q no fue una cantante individual sino un proyecto canadiense de estudio creado en Montreal por el productor Jerry Cucuzzella. A lo largo de los años participaron distintas vocalistas, entre ellas Carol Jiani, Michelle Mills y Angie Vileno; por eso el timbre y el estilo cambian sensiblemente entre grabaciones.",
+      "musicos": [
+        "Michelle Mills — voz asociada a la etapa de With Your Love / Tonight",
+        "Jerry Cucuzzella — producción",
+        "Giovanni D’Orazio — composición",
+        "Sergio Panzera — composición",
+        "Calogero Cucuzzella — crédito de composición en reedición Unidisc"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Dance: Nº12 como With Your Love / Tonight"
+      ],
+      "sabias_que": [
+        "Punkin Machine — I Need You Tonight fue publicada en 1981 por J.C. Records en Montreal.",
+        "El Museum of Canadian Music identifica Tonight de Suzy Q como una versión posterior de I Need You Tonight.",
+        "Una reedición de Unidisc reunió I Need You Tonight de Punkin Machine y Tonight de Suzy Q en el mismo lanzamiento.",
+        "Esta conexión confirma el recuerdo transmitido por aquel DJ: la grabación de Punkin Machine precede a la versión de Suzy Q."
+      ],
+      "por_que_recordarlo": "Porque además de ser una gran pieza de pista, permite reconstruir una pequeña genealogía del disco canadiense que durante años circuló de DJ en DJ casi como tradición oral.",
+      "tipo_artista": "proyecto"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Suzy Q",
+      "titulo": "Can't Live Without Your Love",
+      "aliases_artista": [
+        "Suzy Q",
+        "Suzy-Q"
+      ],
+      "aliases_titulo": [
+        "Can't Live Without Your Love",
+        "Cant Live Without Your Love",
+        "Can’t Live Without Your Love"
+      ],
+      "anio": 1986,
+      "texto": "En plena transición del post-disco al Hi-NRG, Suzy Q llevó su identidad de estudio hacia una producción más electrónica, veloz y abiertamente orientada al club.",
+      "cierre": "El nombre seguía siendo Suzy Q, pero la pista ya había entrado de lleno en la era Hi-NRG.",
+      "slug": "suzy-q-cant-live-without-your-love",
+      "imagen": "img/archivo/suzy-q-cant-live-without-your-love.jpg",
+      "album": "Can't Live Without Your Love",
+      "sello": "J.C. Records / Atlantic / Unidisc",
+      "single": "Can't Live Without Your Love",
+      "duracion": "6:56 aprox. (Airwave Mix); existen otras mezclas",
+      "compositor": "Giovanni D’Orazio · Antonio “Tony” Bentivegna",
+      "productor": "Jerry Cucuzzella",
+      "voz_principal": "Angie Vileno",
+      "historia": "Editada en 1986, Can’t Live Without Your Love pertenece a la etapa Hi-NRG de Suzy Q. Fue escrita por Giovanni D’Orazio y Antonio Bentivegna, producida por Jerry Cucuzzella y cantada por Angie Vileno. La canción logró presencia en los rankings dance de Billboard y tuvo varias mezclas de club.",
+      "quienes_er_an": "Suzy Q no fue una cantante individual sino un proyecto canadiense de estudio creado en Montreal por el productor Jerry Cucuzzella. A lo largo de los años participaron distintas vocalistas, entre ellas Carol Jiani, Michelle Mills y Angie Vileno; por eso el timbre y el estilo cambian sensiblemente entre grabaciones.",
+      "musicos": [
+        "Angie Vileno — voz",
+        "Jerry Cucuzzella — producción",
+        "Giovanni D’Orazio — composición",
+        "Antonio “Tony” Bentivegna — composición",
+        "Robert Matichak — ingeniería en ediciones acreditadas"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Dance/Club: Top 20; fuentes discográficas registran Nº19 en Dance Sales y posiciones superiores en Club"
+      ],
+      "sabias_que": [
+        "La voz corresponde a Angie Vileno, distinta de las vocalistas asociadas a las primeras grabaciones del proyecto.",
+        "Existen Airwave Mix, U.K. Techno Mix, instrumental y otras variantes.",
+        "El cambio de cantante ayuda a explicar por qué algunas grabaciones de Suzy Q parecen provenir de artistas diferentes."
+      ],
+      "por_que_recordarlo": "Porque documenta la capacidad de un proyecto de estudio para cambiar de piel con la evolución de la música de baile sin abandonar su identidad de marca.",
+      "tipo_artista": "proyecto"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Suzy Q",
+      "titulo": "Get On Up",
+      "aliases_artista": [
+        "Suzy Q",
+        "Suzy-Q"
+      ],
+      "aliases_titulo": [
+        "Get On Up",
+        "Get on Up"
+      ],
+      "anio": 1981,
+      "texto": "Get On Up pertenece al núcleo original del sonido Suzy Q: disco-funk canadiense construido para el formato de 12 pulgadas y para una pista que pedía duración, repetición y groove.",
+      "cierre": "Antes del Hi-NRG, Suzy Q ya sabía exactamente qué pedirle a una pista: que nadie se quedara sentado.",
+      "slug": "suzy-q-get-on-up",
+      "imagen": "img/archivo/suzy-q-get-on-up.jpg",
+      "album": "Get On Up And Do It Again",
+      "sello": "J.C. Records",
+      "single": "Get On Up",
+      "duracion": "5:45 aprox.",
+      "compositor": "Créditos de edición variables; producción asociada al equipo J.C. Records de Jerry Cucuzzella",
+      "productor": "Jerry Cucuzzella",
+      "voz_principal": "Vocalista del proyecto Suzy Q; las fuentes retrospectivas no son uniformes para esta toma",
+      "historia": "Get On Up circuló en 1981 en J.C. Records y forma parte del primer ciclo de Suzy Q, antes de que el proyecto avanzara hacia el sonido Hi-NRG. Los registros de catálogo de la escena Unidisc/J.C. la sitúan junto a With Your Love, Punkin Machine — I Need You Tonight y Get On Up Do It Again, mostrando la intensa actividad del sello en aquel año.",
+      "quienes_er_an": "Suzy Q no fue una cantante individual sino un proyecto canadiense de estudio creado en Montreal por el productor Jerry Cucuzzella. A lo largo de los años participaron distintas vocalistas, entre ellas Carol Jiani, Michelle Mills y Angie Vileno; por eso el timbre y el estilo cambian sensiblemente entre grabaciones.",
+      "musicos": [
+        "Jerry Cucuzzella — producción y dirección del proyecto",
+        "Equipo de músicos y vocalistas de estudio de J.C. Records — interpretación"
+      ],
+      "ranking": [
+        "Registro de club de 1981; algunas discografías asocian reediciones de Get On Up con posiciones dance posteriores."
+      ],
+      "sabias_que": [
+        "El catálogo J.C. registra Get On Up con una duración cercana a 5:45.",
+        "No debe confundirse con Get On Up and Do It Again: ambas aparecen como títulos diferenciados en discografías y reediciones.",
+        "El proyecto Suzy Q utilizó distintas vocalistas, por lo que no conviene adjudicar una voz sin respaldo específico de la edición."
+      ],
+      "por_que_recordarlo": "Porque ayuda a reconstruir el primer mapa de Suzy Q y muestra que Get On Up y Get On Up and Do It Again no son simplemente dos formas de escribir el mismo título en los catálogos históricos.",
+      "tipo_artista": "proyecto"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Suzy Q",
+      "titulo": "Get On Up and Do It Again",
+      "aliases_artista": [
+        "Suzy Q",
+        "Suzy-Q"
+      ],
+      "aliases_titulo": [
+        "Get On Up and Do It Again",
+        "Get On Up Do It Again",
+        "Get on Up and Do It Again"
+      ],
+      "anio": 1981,
+      "texto": "Get On Up and Do It Again fue la grabación que puso el nombre Suzy Q en el mapa de la disco norteamericana y convirtió un proyecto de estudio de Montreal en un nombre reconocido por los DJs.",
+      "cierre": "Subir, hacerlo otra vez y mantener la pista viva: la consigna que definió el nacimiento de Suzy Q.",
+      "slug": "suzy-q-get-on-up-and-do-it-again",
+      "imagen": "img/archivo/suzy-q-get-on-up-and-do-it-again.jpg",
+      "album": "Get On Up And Do It Again",
+      "sello": "J.C. Records / RFC-Atlantic",
+      "single": "Get On Up and Do It Again",
+      "duracion": "5:54–5:57 aprox.",
+      "compositor": "Jerry Cucuzzella · Giovanni D’Orazio · Sergio Panzera",
+      "productor": "Jerry Cucuzzella",
+      "voz_principal": "Carol Jiani (atribuida por fuentes retrospectivas; existen fuentes secundarias contradictorias)",
+      "historia": "Publicada en 1981, Get On Up and Do It Again fue el gran primer éxito de Suzy Q. Alcanzó el Nº4 de la lista Billboard Dance y entró también en el ranking R&B. Fuentes retrospectivas identifican a Carol Jiani como la voz de la grabación original, aunque otras bases secundarias atribuyen esa toma a Michelle Mills; por eso la ficha conserva explícitamente la discrepancia en lugar de fingir una certeza documental que no existe.",
+      "quienes_er_an": "Suzy Q no fue una cantante individual sino un proyecto canadiense de estudio creado en Montreal por el productor Jerry Cucuzzella. A lo largo de los años participaron distintas vocalistas, entre ellas Carol Jiani, Michelle Mills y Angie Vileno; por eso el timbre y el estilo cambian sensiblemente entre grabaciones.",
+      "musicos": [
+        "Carol Jiani — voz atribuida por varias fuentes retrospectivas",
+        "Jerry Cucuzzella — composición y producción",
+        "Giovanni D’Orazio — composición",
+        "Sergio Panzera — composición"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Dance: Nº4",
+        "Estados Unidos — R&B: alrededor del Nº64/65 según fuente"
+      ],
+      "sabias_que": [
+        "Fue el tema más exitoso de la primera etapa de Suzy Q.",
+        "El 12 pulgadas canadiense incluía una versión vocal y una instrumental.",
+        "Las fuentes modernas discrepan sobre si la voz original fue Carol Jiani o Michelle Mills; la atribución a Jiani aparece repetidamente en reconstrucciones de la historia del proyecto.",
+        "El productor Jerry Cucuzzella era también responsable del sello J.C. Records."
+      ],
+      "por_que_recordarlo": "Porque es la pieza fundacional de Suzy Q y también un buen ejemplo de por qué preservar la historia de la música de club exige comparar fuentes: los créditos de estudio no siempre quedaron documentados con claridad.",
+      "tipo_artista": "proyecto"
+    },
+    {
+      "catalogo": "",
+      "recuerdo_personal": "",
+      "artista": "Suzy Q",
+      "titulo": "Harmony",
+      "aliases_artista": [
+        "Suzy Q",
+        "Suzy-Q"
+      ],
+      "aliases_titulo": [
+        "Harmony",
+        "Harmony (Extended Mix)"
+      ],
+      "anio": 1985,
+      "texto": "Harmony conectó el universo canadiense de Suzy Q con la escuela europea de Giorgio Moroder, llevando al proyecto hacia un Hi-NRG más brillante y sintético.",
+      "cierre": "Montreal encontró a Múnich en la pista: Suzy Q cantando una composición con ADN Moroder.",
+      "slug": "suzy-q-harmony",
+      "imagen": "img/archivo/suzy-q-harmony.jpg",
+      "album": "Computer Music / Get On Up And Do It Again / Harmony",
+      "sello": "J.C. Records / Unidisc",
+      "single": "Harmony",
+      "duracion": "5:44 aprox.; 6:00–6:03 en Extended Mix",
+      "compositor": "Geoff Bastow · Giorgio Moroder · Pete Bellotte",
+      "productor": "Jerry Cucuzzella · John Brenner",
+      "voz_principal": "Vocalista del proyecto Suzy Q; crédito no uniformemente documentado en las fuentes consultadas",
+      "historia": "Suzy Q grabó Harmony en 1985 como versión de una composición asociada a Geoff Bastow y Giorgio Moroder; ediciones posteriores también acreditan a Pete Bellotte. La producción de reediciones del repertorio acredita a Jerry Cucuzzella y John Brenner. La canción encaja plenamente en la transición del proyecto hacia el Hi-NRG y la electrónica de mediados de los ochenta.",
+      "quienes_er_an": "Suzy Q no fue una cantante individual sino un proyecto canadiense de estudio creado en Montreal por el productor Jerry Cucuzzella. A lo largo de los años participaron distintas vocalistas, entre ellas Carol Jiani, Michelle Mills y Angie Vileno; por eso el timbre y el estilo cambian sensiblemente entre grabaciones.",
+      "musicos": [
+        "Jerry Cucuzzella — producción",
+        "John Brenner — producción",
+        "Geoff Bastow — composición",
+        "Giorgio Moroder — composición",
+        "Pete Bellotte — composición acreditada en reediciones"
+      ],
+      "ranking": [
+        "Tema de culto de la etapa Hi-NRG; no se adjudica una posición individual de Billboard sin respaldo consistente."
+      ],
+      "sabias_que": [
+        "Harmony no nació como composición original exclusiva de Suzy Q.",
+        "La autoría conecta directamente el tema con Giorgio Moroder y su colaborador Pete Bellotte.",
+        "Reediciones de Unidisc la agrupan con Computer Music y Get On Up and Do It Again."
+      ],
+      "por_que_recordarlo": "Porque permite escuchar cómo el proyecto Suzy Q absorbió la estética europea que estaba definiendo la nueva música de baile electrónica a mediados de los ochenta.",
+      "tipo_artista": "proyecto"
     }
   ]
 }
