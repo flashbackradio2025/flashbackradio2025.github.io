@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-09-01",
+  "ultima_actualizacion": "2026-09-02",
   "fichas": [
     {
       "artista": "Night",
@@ -20112,6 +20112,601 @@
         "Fue el sencillo de The Cars mejor posicionado en Estados Unidos."
       ],
       "por_que_recordarlo": "Porque demuestra que la identidad de The Cars no dependía de la velocidad: podían reducir el pulso y mantener intacta su mezcla de tecnología, melodía y emoción.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Eagles",
+      "titulo": "Heartache Tonight",
+      "aliases_artista": [
+        "The Eagles",
+        "Eagles"
+      ],
+      "aliases_titulo": [
+        "Heartache Tonight"
+      ],
+      "anio": 1979,
+      "texto": "Heartache Tonight llevó a Eagles hacia un rock más directo y rítmico, sostenido por la voz de Glenn Frey y una composición compartida con Don Henley, Bob Seger y J.D. Souther.",
+      "cierre": "Una noche de corazones rotos convertida en rock de estadio: seca, contagiosa y hecha para entrar con el primer golpe.",
+      "slug": "the-eagles-heartache-tonight",
+      "imagen": "img/archivo/the-eagles-heartache-tonight.jpg",
+      "album": "The Long Run",
+      "sello": "Asylum",
+      "single": "Heartache Tonight",
+      "catalogo": "",
+      "duracion": "4:26 aprox.",
+      "compositor": "Don Henley · Glenn Frey · Bob Seger · J.D. Souther",
+      "productor": "Bill Szymczyk",
+      "voz_principal": "Glenn Frey",
+      "historia": "Publicada en 1979 dentro de The Long Run, fue el primer sencillo del álbum. Alcanzó el Nº1 del Billboard Hot 100 en noviembre de ese año y recibió el Grammy a mejor interpretación rock por un dúo o grupo con voz.",
+      "quienes_er_an": "Eagles fue una de las bandas estadounidenses decisivas de los años setenta, capaz de unir country rock, armonías vocales y una producción cada vez más poderosa.",
+      "musicos": [
+        "Glenn Frey — voz principal y guitarra rítmica",
+        "Don Henley — batería y coros",
+        "Timothy B. Schmit — bajo y coros",
+        "Don Felder — guitarra rítmica",
+        "Joe Walsh — slide guitar"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1"
+      ],
+      "sabias_que": [
+        "Bob Seger participó en la composición y también aportó coros no acreditados en las notas originales.",
+        "La canción pertenece al álbum The Long Run, de 1979.",
+        "Glenn Frey asumió la voz principal."
+      ],
+      "por_que_recordarlo": "Porque muestra el costado más roquero y físico de Eagles sin perder su precisión vocal y compositiva.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Eagles",
+      "titulo": "I Can't Tell You Why",
+      "aliases_artista": [
+        "The Eagles",
+        "Eagles"
+      ],
+      "aliases_titulo": [
+        "I Can't Tell You Why"
+      ],
+      "anio": 1980,
+      "texto": "I Can't Tell You Why mostró una cara más soul de Eagles y presentó a Timothy B. Schmit como voz principal en uno de los momentos más delicados de The Long Run.",
+      "cierre": "Una canción contenida, nocturna y elegante que convirtió la duda sentimental en uno de los grandes lentos de Eagles.",
+      "slug": "the-eagles-i-cant-tell-you-why",
+      "imagen": "img/archivo/the-eagles-i-cant-tell-you-why.jpg",
+      "album": "The Long Run",
+      "sello": "Asylum",
+      "single": "I Can't Tell You Why",
+      "catalogo": "",
+      "duracion": "4:56 aprox.",
+      "compositor": "Timothy B. Schmit · Glenn Frey · Don Henley",
+      "productor": "Bill Szymczyk",
+      "voz_principal": "Timothy B. Schmit",
+      "historia": "Grabada durante las sesiones de The Long Run y publicada como sencillo en 1980, fue la primera canción de Eagles con Timothy B. Schmit como cantante principal. Alcanzó el Nº8 del Billboard Hot 100.",
+      "quienes_er_an": "Eagles combinó compositores y voces diferentes dentro de una identidad común. La llegada de Timothy B. Schmit agregó un registro más suave que aquí quedó en primer plano.",
+      "musicos": [
+        "Timothy B. Schmit — voz principal y bajo",
+        "Don Henley — batería",
+        "Glenn Frey — coros",
+        "Don Felder — guitarra principal",
+        "Joe Walsh — órgano Hammond",
+        "Joe Vitale — sintetizador ARP"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº8",
+        "Estados Unidos — Adult Contemporary: Nº3"
+      ],
+      "sabias_que": [
+        "Fue la primera canción terminada para The Long Run.",
+        "Fue la primera canción de Eagles con Timothy B. Schmit en la voz principal.",
+        "Schmit, Frey y Henley compartieron la autoría."
+      ],
+      "por_que_recordarlo": "Porque demuestra que Eagles podía acercarse al soul y a la balada adulta sin perder su sonido propio.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Eagles",
+      "titulo": "Lyin' Eyes",
+      "aliases_artista": [
+        "The Eagles",
+        "Eagles"
+      ],
+      "aliases_titulo": [
+        "Lyin' Eyes"
+      ],
+      "anio": 1975,
+      "texto": "Lyin' Eyes convirtió una historia de apariencias, deseo y desencanto en una extensa narración country rock guiada por la voz de Glenn Frey.",
+      "cierre": "Detrás de las armonías impecables quedó una pequeña película de seis minutos sobre una vida que ya no puede ocultarse detrás de una sonrisa.",
+      "slug": "the-eagles-lyin-eyes",
+      "imagen": "img/archivo/the-eagles-lyin-eyes.jpg",
+      "album": "One of These Nights",
+      "sello": "Asylum",
+      "single": "Lyin' Eyes",
+      "catalogo": "",
+      "duracion": "6:22 aprox.",
+      "compositor": "Don Henley · Glenn Frey",
+      "productor": "Bill Szymczyk",
+      "voz_principal": "Glenn Frey",
+      "historia": "Publicada en 1975 como segundo sencillo de One of These Nights, alcanzó el Nº2 del Billboard Hot 100 y el Nº8 en la lista country estadounidense. La grabación ganó un Grammy a mejor interpretación pop vocal de dúo o grupo.",
+      "quienes_er_an": "Eagles consolidó durante 1975 una fórmula donde el country rock, las armonías y la narración de personajes podían convivir con el éxito masivo.",
+      "musicos": [
+        "Glenn Frey — voz principal",
+        "Don Henley — batería y voces",
+        "Bernie Leadon — guitarras y voces",
+        "Randy Meisner — bajo y voces",
+        "Don Felder — guitarras",
+        "Jim Ed Norman — piano y arreglos"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº2",
+        "Estados Unidos — Hot Country: Nº8"
+      ],
+      "sabias_que": [
+        "La versión single fue recortada respecto de la versión del álbum.",
+        "Ganó un Grammy por la interpretación vocal del grupo.",
+        "Fue escrita por Don Henley y Glenn Frey."
+      ],
+      "por_que_recordarlo": "Porque es uno de los mejores ejemplos del talento narrativo de Eagles: personajes, ambiente y melodía funcionando como una sola historia.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Mi-Sex",
+      "titulo": "Computer Games",
+      "aliases_artista": [
+        "Mi-Sex",
+        "Mi Sex"
+      ],
+      "aliases_titulo": [
+        "Computer Games"
+      ],
+      "anio": 1979,
+      "texto": "Computer Games llevó sintetizadores, pulsos mecánicos y una voz deliberadamente entrecortada al centro del pop de 1979, anticipando la fascinación y la inquietud por una vida gobernada por pantallas.",
+      "cierre": "Antes de que la computadora entrara en cada casa, Mi-Sex ya había convertido su lenguaje frío y repetitivo en un estribillo imposible de olvidar.",
+      "slug": "mi-sex-computer-games",
+      "imagen": "img/archivo/mi-sex-computer-games.jpg",
+      "album": "Graffiti Crimes",
+      "sello": "CBS",
+      "single": "Computer Games",
+      "catalogo": "",
+      "duracion": "3:54 aprox.",
+      "compositor": "Murray Burns · Steve Gilpin · Kevin Stanton",
+      "productor": "Peter Dawkins",
+      "voz_principal": "Steve Gilpin",
+      "historia": "El grupo neozelandés Mi-Sex publicó Computer Games en 1979. La canción fue incorporada a Graffiti Crimes y llegó al Nº1 en Australia y al Nº5 en Nueva Zelanda.",
+      "quienes_er_an": "Mi-Sex nació en Nueva Zelanda y se estableció en Australia, donde desarrolló una mezcla de rock, new wave y electrónica que encontró su mayor éxito internacional con Computer Games.",
+      "musicos": [
+        "Steve Gilpin — voz principal",
+        "Murray Burns — teclados y composición",
+        "Kevin Stanton — guitarra y composición"
+      ],
+      "ranking": [
+        "Australia — Nº1",
+        "Nueva Zelanda — Nº5"
+      ],
+      "sabias_que": [
+        "El video utilizó imágenes de videojuegos arcade de 1979.",
+        "La canción ganó el premio a mejor single australiano en los TV Week/Countdown Music Awards.",
+        "Peter Dawkins produjo la grabación."
+      ],
+      "por_que_recordarlo": "Porque capturó el imaginario informático cuando todavía parecía futurista y lo convirtió en pop bailable.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Freeman",
+      "titulo": "American Man",
+      "aliases_artista": [
+        "The Freeman"
+      ],
+      "aliases_titulo": [
+        "American Man",
+        "American Man (1983)"
+      ],
+      "anio": 1983,
+      "texto": "American Man llega al Archivo Recuerda como una pieza de pista de comienzos de los ochenta cuya presencia en FlashBack conserva el pulso de la etapa disco y electrónica.",
+      "cierre": "Un registro menos documentado que los grandes hits de la época, pero justamente por eso digno de permanecer dentro del archivo musical de la radio.",
+      "slug": "the-freeman-american-man",
+      "imagen": "img/archivo/the-freeman-american-man.jpg",
+      "album": "Freeman",
+      "sello": "",
+      "single": "American Man",
+      "catalogo": "",
+      "duracion": "5:38 aprox.",
+      "compositor": "",
+      "productor": "",
+      "voz_principal": "",
+      "historia": "El archivo conservado en la biblioteca musical de FlashBack Radio identifica la grabación como The Freeman — American Man (1983), con una duración aproximada de 5:38. Las fuentes públicas consultadas no permiten establecer con suficiente seguridad créditos adicionales, por lo que se preserva únicamente la información comprobada en el archivo de la radio.",
+      "quienes_er_an": "The Freeman figura como artista de esta grabación dentro de la biblioteca de FlashBack Radio. Ante la falta de documentación pública fiable, la ficha evita atribuir integrantes o datos biográficos no comprobados.",
+      "musicos": [],
+      "ranking": [],
+      "sabias_que": [
+        "La copia de FlashBack Radio está identificada como una grabación de 1983.",
+        "El archivo dura aproximadamente 5:38.",
+        "La ficha conserva vacíos los créditos que no pudieron verificarse con fuentes fiables."
+      ],
+      "por_que_recordarlo": "Porque El Archivo Recuerda también debe conservar aquellas piezas que circularon fuera del foco de los grandes catálogos y que forman parte real de la programación de FlashBack.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Greg Kihn Band",
+      "titulo": "The Breakup Song (They Don't Write 'Em)",
+      "aliases_artista": [
+        "Greg Kihn Band",
+        "The Greg Kihn Band"
+      ],
+      "aliases_titulo": [
+        "The Breakup Song (They Don't Write 'Em)",
+        "The Breakup Song"
+      ],
+      "anio": 1981,
+      "texto": "The Breakup Song convirtió una separación sentimental y la nostalgia por las viejas canciones de ruptura en un estribillo de power pop directo y memorable.",
+      "cierre": "Una ruptura dentro de otra ruptura: mientras una relación termina, Greg Kihn lamenta que ya tampoco se escriban canciones como antes.",
+      "slug": "greg-kihn-band-the-breakup-song",
+      "imagen": "img/archivo/greg-kihn-band-the-breakup-song.jpg",
+      "album": "RocKihnRoll",
+      "sello": "Beserkley",
+      "single": "The Breakup Song (They Don't Write 'Em)",
+      "catalogo": "",
+      "duracion": "2:56 aprox.",
+      "compositor": "Greg Kihn · Steve Wright",
+      "productor": "Matthew King Kaufman",
+      "voz_principal": "Greg Kihn",
+      "historia": "Publicada en 1981 como primer sencillo de RocKihnRoll, fue escrita por Greg Kihn y Steve Wright. Alcanzó el Nº15 del Billboard Hot 100 y el Nº5 de Billboard Top Tracks.",
+      "quienes_er_an": "Greg Kihn Band fue una banda estadounidense liderada por el cantante y compositor Greg Kihn, con una identidad que cruzó rock, power pop y new wave.",
+      "musicos": [
+        "Greg Kihn — voz principal",
+        "Steve Wright — bajo y composición"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº15",
+        "Estados Unidos — Billboard Top Tracks: Nº5"
+      ],
+      "sabias_que": [
+        "El título completo incluye la frase They Don't Write 'Em.",
+        "La canción habla simultáneamente de una ruptura y de la nostalgia por las viejas canciones de ruptura.",
+        "Fue el primer sencillo del álbum RocKihnRoll."
+      ],
+      "por_que_recordarlo": "Porque condensa en menos de tres minutos melodía, ironía y nostalgia rockera.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "A Little Thing Like Love",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "A Little Thing Like Love"
+      ],
+      "anio": 1971,
+      "texto": "A Little Thing Like Love mezcla la precisión vocal de The Hollies con una historia de despedida y libertad escrita por Allan Clarke y Tony Macaulay.",
+      "cierre": "Una pequeña cosa llamada amor puede pesar mucho; The Hollies la transformaron en melodía, armonías y una despedida sin estridencias.",
+      "slug": "the-hollies-a-little-thing-like-love",
+      "imagen": "img/archivo/the-hollies-a-little-thing-like-love.jpg",
+      "album": "Distant Light",
+      "sello": "Parlophone",
+      "single": "A Little Thing Like Love",
+      "catalogo": "",
+      "duracion": "3:19 aprox.",
+      "compositor": "Allan Clarke · Tony Macaulay",
+      "productor": "",
+      "voz_principal": "Allan Clarke",
+      "historia": "Incluida en Distant Light, álbum publicado en 1971, fue escrita por Allan Clarke y Tony Macaulay. Las sesiones pertenecen a una etapa clave del grupo, la misma que produjo Long Cool Woman (In a Black Dress).",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop británico de los sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra",
+        "Terry Sylvester — guitarra rítmica",
+        "Bernie Calvert — bajo",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "La canción pertenece al álbum Distant Light.",
+        "Fue escrita por Allan Clarke junto a Tony Macaulay.",
+        "Distant Light fue una de las últimas etapas de Allan Clarke antes de su salida temporal del grupo."
+      ],
+      "por_que_recordarlo": "Porque recupera un Hollies menos obvio que sus grandes singles, pero con la misma arquitectura vocal y melódica.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "Another Night",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "Another Night"
+      ],
+      "anio": 1975,
+      "texto": "Another Night abre el álbum homónimo de The Hollies con un sonido setentista más elaborado, construido por Allan Clarke, Tony Hicks y Terry Sylvester.",
+      "cierre": "Otra noche, otro capítulo: The Hollies seguían buscando nuevas formas sin abandonar el sello de sus voces.",
+      "slug": "the-hollies-another-night",
+      "imagen": "img/archivo/the-hollies-another-night.jpg",
+      "album": "Another Night",
+      "sello": "Polydor / Epic",
+      "single": "Another Night",
+      "catalogo": "",
+      "duracion": "3:57 aprox.",
+      "compositor": "Allan Clarke · Tony Hicks · Terry Sylvester",
+      "productor": "Ron Richards",
+      "voz_principal": "Allan Clarke",
+      "historia": "Grabada en 1974 en Abbey Road y publicada en el álbum Another Night en 1975, la canción fue escrita por Allan Clarke, Tony Hicks y Terry Sylvester. Fue lanzada como sencillo en América y llegó al Nº71 estadounidense.",
+      "quienes_er_an": "En esta etapa The Hollies volvía a contar con Allan Clarke y buscaba actualizar su sonido sin abandonar el trabajo vocal que había definido al grupo.",
+      "musicos": [
+        "Allan Clarke — voz principal",
+        "Tony Hicks — guitarra",
+        "Terry Sylvester — guitarra rítmica",
+        "Bernie Calvert — bajo",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [
+        "Estados Unidos — Nº71"
+      ],
+      "sabias_que": [
+        "Fue la canción que dio título al álbum de 1975.",
+        "Se grabó en Abbey Road durante 1974.",
+        "Sus tres autores fueron Allan Clarke, Tony Hicks y Terry Sylvester."
+      ],
+      "por_que_recordarlo": "Porque documenta a The Hollies en plena transición, todavía reconocibles pero abiertos al lenguaje del rock de mediados de los setenta.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "Blowin' in the Wind",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "Blowin' in the Wind",
+        "Blowing in the Wind"
+      ],
+      "anio": 1969,
+      "texto": "The Hollies llevaron el clásico de Bob Dylan a su propio territorio vocal, envolviendo la canción en armonías y arreglos característicos del pop británico.",
+      "cierre": "Una pregunta universal escrita por Dylan encontró otra vida cuando pasó por las voces de The Hollies.",
+      "slug": "the-hollies-blowin-in-the-wind",
+      "imagen": "img/archivo/the-hollies-blowin-in-the-wind.jpg",
+      "album": "Hollies Sing Dylan",
+      "sello": "Parlophone",
+      "single": "Blowin' in the Wind",
+      "catalogo": "",
+      "duracion": "4:06 aprox.",
+      "compositor": "Bob Dylan",
+      "productor": "Ron Richards",
+      "voz_principal": "Allan Clarke",
+      "historia": "En 1969 The Hollies dedicaron un álbum completo al repertorio de Bob Dylan. Blowin' in the Wind formó parte de Hollies Sing Dylan y también tuvo lanzamiento como sencillo en algunos mercados.",
+      "quienes_er_an": "Hollies Sing Dylan mostró al grupo interpretando un repertorio ajeno bajo su propio lenguaje de armonías, guitarras y arreglos orquestales.",
+      "musicos": [
+        "Allan Clarke — voz y armónica",
+        "Tony Hicks — voz y guitarra principal",
+        "Terry Sylvester — voz y guitarra rítmica",
+        "Bernie Calvert — bajo y teclados",
+        "Bobby Elliott — batería",
+        "Mike Vickers — arreglo de cuerdas en Blowin' in the Wind"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Es una composición de Bob Dylan.",
+        "Forma parte del álbum Hollies Sing Dylan de 1969.",
+        "El álbum fue publicado en Estados Unidos con el título Words and Music by Bob Dylan."
+      ],
+      "por_que_recordarlo": "Porque permite escuchar cómo una canción emblemática puede conservar su mensaje y, al mismo tiempo, adquirir la firma vocal de otro grupo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "Don't Let Me Down",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "Don't Let Me Down"
+      ],
+      "anio": 1974,
+      "texto": "Don't Let Me Down es una composición de Allan Clarke que no tiene relación con la canción homónima de The Beatles: aquí The Hollies construyen una balada propia de crecimiento progresivo y grandes armonías.",
+      "cierre": "El título puede engañar; la canción no. Es Hollies puro, creciendo desde la intimidad hasta una culminación vocal.",
+      "slug": "the-hollies-dont-let-me-down",
+      "imagen": "img/archivo/the-hollies-dont-let-me-down.jpg",
+      "album": "Hollies",
+      "sello": "Polydor / Epic",
+      "single": "Don't Let Me Down",
+      "catalogo": "",
+      "duracion": "4:21 aprox.",
+      "compositor": "Allan Clarke",
+      "productor": "Ron Richards · The Hollies",
+      "voz_principal": "Allan Clarke",
+      "historia": "Incluida en Hollies, álbum de 1974 que marcó el regreso de Allan Clarke al grupo, fue escrita por el propio Clarke. La grabación contó con arreglos orquestales de Chris Gunning y fue editada como sencillo en Norteamérica.",
+      "quienes_er_an": "El regreso de Allan Clarke abrió una nueva etapa para The Hollies. El álbum Hollies también contenía The Air That I Breathe, pero conservó varias composiciones propias menos difundidas como esta.",
+      "musicos": [
+        "Allan Clarke — voz principal",
+        "Tony Hicks — guitarra y coros",
+        "Terry Sylvester — guitarra rítmica y coros",
+        "Bernie Calvert — bajo y teclados",
+        "Bobby Elliott — batería",
+        "Chris Gunning — arreglos orquestales"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "No es una versión de la canción de The Beatles.",
+        "Fue escrita por Allan Clarke.",
+        "El álbum fue producido por Ron Richards junto a The Hollies y tuvo a Alan Parsons como ingeniero."
+      ],
+      "por_que_recordarlo": "Porque rescata una gran canción escondida detrás de un título mucho más famoso asociado a otro grupo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Flirts",
+      "titulo": "Calling All Boys",
+      "aliases_artista": [
+        "The Flirts",
+        "Flirts"
+      ],
+      "aliases_titulo": [
+        "Calling All Boys"
+      ],
+      "anio": 1982,
+      "texto": "Calling All Boys reúne sintetizadores, ritmo Hi-NRG y la estética provocadora que Bobby Orlando construyó alrededor de The Flirts a comienzos de los ochenta.",
+      "cierre": "Una llamada abierta a la pista de baile: electrónica simple, insistente y hecha para no quedarse quieto.",
+      "slug": "the-flirts-calling-all-boys",
+      "imagen": "img/archivo/the-flirts-calling-all-boys.jpg",
+      "album": "10¢ a Dance",
+      "sello": "O Records",
+      "single": "Calling All Boys",
+      "catalogo": "",
+      "duracion": "4:34 aprox.",
+      "compositor": "Bobby Orlando",
+      "productor": "Bobby Orlando",
+      "voz_principal": "The Flirts",
+      "historia": "Calling All Boys apareció en la primera etapa de The Flirts y quedó asociada al álbum 10¢ a Dance. Fue escrita y producida por Bobby Orlando, figura central del sonido Hi-NRG neoyorquino.",
+      "quienes_er_an": "The Flirts fue un proyecto vocal femenino creado por el productor Bobby Orlando. Su formación podía cambiar, mientras la identidad musical permanecía centrada en sintetizadores, cajas de ritmo y energía de club.",
+      "musicos": [
+        "The Flirts — voces",
+        "Bobby Orlando — composición y producción"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Bobby Orlando escribió y produjo la canción.",
+        "Pertenece a la etapa de 10¢ a Dance.",
+        "The Flirts funcionó como un proyecto de formación vocal cambiante alrededor de una identidad de producción estable."
+      ],
+      "por_que_recordarlo": "Porque representa de forma directa el puente entre disco, synth-pop y Hi-NRG que alimentó las pistas de baile de los primeros ochenta.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Flirts",
+      "titulo": "Helpless (You Took My Love)",
+      "aliases_artista": [
+        "The Flirts",
+        "Flirts"
+      ],
+      "aliases_titulo": [
+        "Helpless",
+        "Helpless (You Took My Love)"
+      ],
+      "anio": 1984,
+      "texto": "Helpless (You Took My Love) lleva el drama sentimental al formato de club: una voz vulnerable sostenida por la maquinaria electrónica característica de The Flirts.",
+      "cierre": "Desamor para bailar: el corazón queda indefenso, pero la pista sigue encendida.",
+      "slug": "the-flirts-helpless",
+      "imagen": "img/archivo/the-flirts-helpless.jpg",
+      "album": "Made in America",
+      "sello": "O Records",
+      "single": "Helpless (You Took My Love)",
+      "catalogo": "",
+      "duracion": "7:44 aprox.",
+      "compositor": "Robert Phillip Orlando",
+      "productor": "Bobby Orlando",
+      "voz_principal": "The Flirts",
+      "historia": "Publicada en 1984 y asociada al álbum Made in America, Helpless (You Took My Love) fue escrita por Robert Phillip Orlando, conocido como Bobby Orlando. Sus versiones extendidas reforzaron su circulación en clubes.",
+      "quienes_er_an": "The Flirts fue uno de los vehículos más reconocibles del productor neoyorquino Bobby Orlando para desarrollar un sonido electrónico de club basado en melodías pop y ritmos Hi-NRG.",
+      "musicos": [
+        "The Flirts — voces",
+        "Bobby Orlando — composición y producción"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "El título completo es Helpless (You Took My Love).",
+        "La versión extendida ronda los ocho minutos.",
+        "Pertenece al álbum Made in America."
+      ],
+      "por_que_recordarlo": "Porque convierte una letra de abandono en energía de pista, una fórmula esencial del dance de los ochenta.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Flirts",
+      "titulo": "Passion",
+      "aliases_artista": [
+        "The Flirts",
+        "Flirts"
+      ],
+      "aliases_titulo": [
+        "Passion"
+      ],
+      "anio": 1982,
+      "texto": "Passion fue una de las piezas que definieron a The Flirts: sintetizadores insistentes, voces femeninas y la producción de Bobby Orlando en pleno nacimiento del Hi-NRG.",
+      "cierre": "Una palabra, un pulso y una pista entera: Passion resume la economía irresistible del dance de comienzos de los ochenta.",
+      "slug": "the-flirts-passion",
+      "imagen": "img/archivo/the-flirts-passion.jpg",
+      "album": "10¢ a Dance",
+      "sello": "O Records",
+      "single": "Passion",
+      "catalogo": "",
+      "duracion": "3:37 aprox.",
+      "compositor": "Bobby Orlando",
+      "productor": "Bobby Orlando",
+      "voz_principal": "The Flirts",
+      "historia": "Publicada en 1982, Passion fue escrita y producida por Bobby Orlando e incluida en 10¢ a Dance. Se convirtió en una de las grabaciones más identificadas con The Flirts y con el sonido electrónico de club de esa etapa.",
+      "quienes_er_an": "The Flirts fue un trío vocal femenino concebido por Bobby Orlando, productor clave del dance neoyorquino de comienzos de los ochenta.",
+      "musicos": [
+        "The Flirts — voces",
+        "Bobby Orlando — composición y producción"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Fue escrita y producida por Bobby Orlando.",
+        "Apareció en 10¢ a Dance.",
+        "Su sonido quedó asociado al desarrollo temprano del Hi-NRG."
+      ],
+      "por_que_recordarlo": "Porque es una cápsula casi perfecta del sonido de club de 1982: directa, sintética y diseñada alrededor del ritmo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Gap Band",
+      "titulo": "Oops Upside Your Head",
+      "aliases_artista": [
+        "The Gap Band",
+        "Gap Band"
+      ],
+      "aliases_titulo": [
+        "Oops Upside Your Head",
+        "Oops Up Side Your Head",
+        "I Don't Believe You Want to Get Up and Dance (Oops!)"
+      ],
+      "anio": 1979,
+      "texto": "Oops Upside Your Head convirtió una base funk extensa, voces colectivas y un estribillo participativo en uno de los grandes rituales de pista de The Gap Band.",
+      "cierre": "Más que una canción, terminó siendo una consigna colectiva: cuando aparece el groove, todo el salón sabe qué viene después.",
+      "slug": "the-gap-band-oops-upside-your-head",
+      "imagen": "img/archivo/the-gap-band-oops-upside-your-head.jpg",
+      "album": "The Gap Band II",
+      "sello": "Mercury",
+      "single": "Oops Up Side Your Head",
+      "catalogo": "",
+      "duracion": "8:39 aprox. (12\")",
+      "compositor": "Ronnie Wilson · Rudy Taylor · Robert Wilson · Lonnie Simmons · Charlie Wilson",
+      "productor": "Lonnie Simmons",
+      "voz_principal": "Charlie Wilson / The Gap Band",
+      "historia": "Grabada y publicada originalmente en 1979 con el título I Don't Believe You Want to Get Up and Dance (Oops!), fue conocida internacionalmente como Oops Up Side Your Head u Oops Upside Your Head. Pertenece a The Gap Band II y alcanzó el Nº6 en el Reino Unido en 1980.",
+      "quienes_er_an": "The Gap Band fue un grupo estadounidense de funk liderado por los hermanos Charlie, Ronnie y Robert Wilson. Su mezcla de funk, R&B y electrónica dejó una fuerte marca en la música bailable de fines de los setenta y los ochenta.",
+      "musicos": [
+        "Charlie Wilson — voz",
+        "Ronnie Wilson — voz e instrumentos",
+        "Robert Wilson — bajo y voz",
+        "Lonnie Simmons — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Official Singles Chart: Nº6",
+        "Estados Unidos — R&B: Top 10"
+      ],
+      "sabias_que": [
+        "El título original era I Don't Believe You Want to Get Up and Dance (Oops!).",
+        "Existen versiones de 7 pulgadas y una extensa versión de 12 pulgadas.",
+        "La canción fue rebautizada en distintos mercados como Oops Up Side Your Head u Oops Upside Your Head."
+      ],
+      "por_que_recordarlo": "Porque pocas grabaciones representan tan bien la dimensión comunitaria del funk: bajo, repetición, llamada y respuesta y una pista convertida en celebración.",
       "recuerdo_personal": "",
       "tipo_artista": "grupo"
     }
