@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-09-02",
+  "ultima_actualizacion": "2026-09-03",
   "fichas": [
     {
       "artista": "Night",
@@ -20707,6 +20707,445 @@
         "La canción fue rebautizada en distintos mercados como Oops Up Side Your Head u Oops Upside Your Head."
       ],
       "por_que_recordarlo": "Porque pocas grabaciones representan tan bien la dimensión comunitaria del funk: bajo, repetición, llamada y respuesta y una pista convertida en celebración.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "He Ain't Heavy, He's My Brother",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "He Ain't Heavy, He's My Brother"
+      ],
+      "anio": 1969,
+      "texto": "He Ain't Heavy, He's My Brother forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-he-aint-heavy-hes-my-brother",
+      "imagen": "img/archivo/the-hollies-he-aint-heavy-hes-my-brother.jpg",
+      "album": "Hollies Sing Hollies / sencillo",
+      "sello": "Parlophone / Epic",
+      "single": "He Ain't Heavy, He's My Brother",
+      "catalogo": "",
+      "duracion": "4:20 aprox.",
+      "compositor": "Bobby Scott · Bob Russell",
+      "productor": "Ron Richards",
+      "voz_principal": "Allan Clarke",
+      "historia": "Publicada en 1969, He Ain't Heavy, He's My Brother pertenece a la etapa de transición posterior a Graham Nash. La grabación refleja la combinación de melodía, armonías y evolución estilística que caracterizó a The Hollies.",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [
+        "Reino Unido Nº3 (1969); Nº1 en reedición de 1988; Billboard Hot 100 Nº7"
+      ],
+      "sabias_que": [
+        "Elton John tocó el piano en la grabación."
+      ],
+      "por_que_recordarlo": "Porque He Ain't Heavy, He's My Brother ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "I'm Alive",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "I'm Alive"
+      ],
+      "anio": 1965,
+      "texto": "I'm Alive forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-im-alive",
+      "imagen": "img/archivo/the-hollies-im-alive.jpg",
+      "album": "sencillo",
+      "sello": "Parlophone / Epic",
+      "single": "I'm Alive",
+      "catalogo": "",
+      "duracion": "2:25 aprox.",
+      "compositor": "Clint Ballard Jr.",
+      "productor": "Ron Richards",
+      "voz_principal": "Allan Clarke",
+      "historia": "Publicada en 1965, I'm Alive pertenece a la primera etapa del grupo. La grabación refleja la combinación de melodía, armonías y evolución estilística que caracterizó a The Hollies.",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [
+        "Reino Unido Nº1"
+      ],
+      "sabias_que": [
+        "Fue el primer Nº1 británico de The Hollies."
+      ],
+      "por_que_recordarlo": "Porque I'm Alive ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "I'm Down",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "I'm Down"
+      ],
+      "anio": 1975,
+      "texto": "I'm Down forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-im-down",
+      "imagen": "img/archivo/the-hollies-im-down.jpg",
+      "album": "Another Night",
+      "sello": "Polydor / Epic",
+      "single": "I'm Down",
+      "catalogo": "",
+      "duracion": "4:14 aprox.",
+      "compositor": "Allan Clarke · Tony Hicks · Terry Sylvester",
+      "productor": "Ron Richards",
+      "voz_principal": "Allan Clarke",
+      "historia": "I'm Down fue grabada durante las sesiones de Another Night en Abbey Road en 1974 y publicada con el álbum en 1975.",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Grabada en Abbey Road durante 1974; no es la canción homónima de The Beatles."
+      ],
+      "por_que_recordarlo": "Porque I'm Down ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "Just One Look",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "Just One Look"
+      ],
+      "anio": 1964,
+      "texto": "Just One Look forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-just-one-look",
+      "imagen": "img/archivo/the-hollies-just-one-look.jpg",
+      "album": "Stay with The Hollies / sencillo",
+      "sello": "Parlophone / Epic",
+      "single": "Just One Look",
+      "catalogo": "",
+      "duracion": "2:30 aprox.",
+      "compositor": "Doris Troy · Gregory Carroll",
+      "productor": "Ron Richards",
+      "voz_principal": "Allan Clarke",
+      "historia": "Publicada en 1964, Just One Look pertenece a la primera etapa del grupo. La grabación refleja la combinación de melodía, armonías y evolución estilística que caracterizó a The Hollies.",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [
+        "Reino Unido Nº2"
+      ],
+      "sabias_que": [
+        "La canción había sido grabada originalmente por Doris Troy."
+      ],
+      "por_que_recordarlo": "Porque Just One Look ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "Lonely Hobo Lullaby",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "Lonely Hobo Lullaby"
+      ],
+      "anio": 1975,
+      "texto": "Lonely Hobo Lullaby forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-lonely-hobo-lullaby",
+      "imagen": "img/archivo/the-hollies-lonely-hobo-lullaby.jpg",
+      "album": "Another Night",
+      "sello": "Polydor / Epic",
+      "single": "Lonely Hobo Lullaby",
+      "catalogo": "",
+      "duracion": "4:18 aprox.",
+      "compositor": "Allan Clarke · Terry Sylvester",
+      "productor": "Ron Richards",
+      "voz_principal": "Allan Clarke",
+      "historia": "Lonely Hobo Lullaby fue grabada durante las sesiones de Another Night en Abbey Road en 1974 y publicada con el álbum en 1975.",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [
+        "Nueva Zelanda Nº22"
+      ],
+      "sabias_que": [
+        "Fue una de las primeras canciones grabadas para Another Night, en 1974."
+      ],
+      "por_que_recordarlo": "Porque Lonely Hobo Lullaby ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "Long Cool Woman (In a Black Dress)",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "Long Cool Woman (In a Black Dress)"
+      ],
+      "anio": 1972,
+      "texto": "Long Cool Woman (In a Black Dress) forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-long-cool-woman-in-a-black-dress",
+      "imagen": "img/archivo/the-hollies-long-cool-woman-in-a-black-dress.jpg",
+      "album": "Distant Light",
+      "sello": "Polydor / Epic",
+      "single": "Long Cool Woman (In a Black Dress)",
+      "catalogo": "",
+      "duracion": "3:17 aprox.",
+      "compositor": "Allan Clarke · Roger Cook · Roger Greenaway",
+      "productor": "The Hollies",
+      "voz_principal": "Allan Clarke",
+      "historia": "Publicada en 1972, Long Cool Woman (In a Black Dress) pertenece a la etapa de transición posterior a Graham Nash. La grabación refleja la combinación de melodía, armonías y evolución estilística que caracterizó a The Hollies.",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [
+        "Billboard Hot 100 Nº2"
+      ],
+      "sabias_que": [
+        "Su sonido de rock de raíces es inusualmente crudo dentro del catálogo del grupo."
+      ],
+      "por_que_recordarlo": "Porque Long Cool Woman (In a Black Dress) ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "Sandy (4th of July, Asbury Park)",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "Sandy",
+        "4th of July, Asbury Park (Sandy)",
+        "4th of July Asbury Park (Sandy)"
+      ],
+      "anio": 1975,
+      "texto": "Sandy (4th of July, Asbury Park) forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-sandy",
+      "imagen": "img/archivo/the-hollies-sandy.jpg",
+      "album": "Another Night",
+      "sello": "Polydor / Epic",
+      "single": "Sandy (4th of July, Asbury Park)",
+      "catalogo": "",
+      "duracion": "4:11 aprox.",
+      "compositor": "Bruce Springsteen",
+      "productor": "Ron Richards",
+      "voz_principal": "Allan Clarke",
+      "historia": "Grabada en Abbey Road en 1974 e incluida en Another Night en 1975, es una versión de la composición de Bruce Springsteen 4th of July, Asbury Park (Sandy).",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [
+        "Países Bajos Nº8; Nueva Zelanda Nº12; Alemania Nº22"
+      ],
+      "sabias_que": [
+        "Fue la única composición ajena al grupo en el álbum Another Night."
+      ],
+      "por_que_recordarlo": "Porque Sandy (4th of July, Asbury Park) ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "Sorry Suzanne",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "Sorry Suzanne"
+      ],
+      "anio": 1969,
+      "texto": "Sorry Suzanne forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-sorry-suzanne",
+      "imagen": "img/archivo/the-hollies-sorry-suzanne.jpg",
+      "album": "sencillo",
+      "sello": "Parlophone / Epic",
+      "single": "Sorry Suzanne",
+      "catalogo": "",
+      "duracion": "2:59 aprox.",
+      "compositor": "Geoff Stephens · Tony Macaulay",
+      "productor": "Ron Richards",
+      "voz_principal": "Allan Clarke",
+      "historia": "Publicada en 1969, Sorry Suzanne pertenece a la etapa de transición posterior a Graham Nash. La grabación refleja la combinación de melodía, armonías y evolución estilística que caracterizó a The Hollies.",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [
+        "Reino Unido Nº3"
+      ],
+      "sabias_que": [
+        "Fue el primer sencillo del grupo con Terry Sylvester tras la salida de Graham Nash."
+      ],
+      "por_que_recordarlo": "Porque Sorry Suzanne ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "The Air That I Breathe",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "The Air That I Breathe"
+      ],
+      "anio": 1974,
+      "texto": "The Air That I Breathe forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-the-air-that-i-breathe",
+      "imagen": "img/archivo/the-hollies-the-air-that-i-breathe.jpg",
+      "album": "Hollies",
+      "sello": "Polydor / Epic",
+      "single": "The Air That I Breathe",
+      "catalogo": "",
+      "duracion": "4:17 aprox.",
+      "compositor": "Albert Hammond · Mike Hazlewood",
+      "productor": "Ron Richards · The Hollies",
+      "voz_principal": "Allan Clarke",
+      "historia": "Publicada en 1974, The Air That I Breathe pertenece a la etapa madura de los años setenta. La grabación refleja la combinación de melodía, armonías y evolución estilística que caracterizó a The Hollies.",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [
+        "Reino Unido Nº2; Billboard Hot 100 Nº6"
+      ],
+      "sabias_que": [
+        "La composición había sido grabada previamente por su coautor Albert Hammond."
+      ],
+      "por_que_recordarlo": "Porque The Air That I Breathe ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "The Day That Curly Billy Shot Down Crazy Sam McGee",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "The Day That Curly Billy Shot Down Crazy Sam McGee",
+        "The Day That Curly Billy Shot Down Crazy Sam McGhee"
+      ],
+      "anio": 1973,
+      "texto": "The Day That Curly Billy Shot Down Crazy Sam McGee forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-the-day-that-curly-billy",
+      "imagen": "img/archivo/the-hollies-the-day-that-curly-billy.jpg",
+      "album": "sencillo / Hollies",
+      "sello": "Polydor / Epic",
+      "single": "The Day That Curly Billy Shot Down Crazy Sam McGee",
+      "catalogo": "",
+      "duracion": "4:25 aprox.",
+      "compositor": "Allan Clarke · Roger Cook · Roger Greenaway",
+      "productor": "The Hollies",
+      "voz_principal": "Allan Clarke",
+      "historia": "Publicada en 1973, The Day That Curly Billy Shot Down Crazy Sam McGee pertenece a la etapa de transición posterior a Graham Nash. La grabación refleja la combinación de melodía, armonías y evolución estilística que caracterizó a The Hollies.",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [
+        "Reino Unido Top 30"
+      ],
+      "sabias_que": [
+        "Comparte equipo autoral con Long Cool Woman."
+      ],
+      "por_que_recordarlo": "Porque The Day That Curly Billy Shot Down Crazy Sam McGee ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "Look What We've Got",
+      "aliases_artista": [
+        "The Hollies",
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "Look What We've Got"
+      ],
+      "anio": 1971,
+      "texto": "Look What We've Got forma parte del amplio recorrido de The Hollies y muestra una faceta característica de su evolución musical.",
+      "cierre": "Una pieza más del recorrido de The Hollies que merece conservarse dentro de la memoria musical de FlashBack.",
+      "slug": "the-hollies-look-what-weve-got",
+      "imagen": "img/archivo/the-hollies-look-what-weve-got.jpg",
+      "album": "Distant Light",
+      "sello": "Parlophone / Epic",
+      "single": "Look What We've Got",
+      "catalogo": "",
+      "duracion": "4:07 aprox.",
+      "compositor": "Tony Hicks · Kenny Lynch",
+      "productor": "The Hollies",
+      "voz_principal": "Allan Clarke",
+      "historia": "Publicada en 1971 dentro de Distant Light, fue compuesta por Tony Hicks y Kenny Lynch. Comparte álbum con Long Cool Woman (In a Black Dress), mostrando el costado más melódico del mismo período.",
+      "quienes_er_an": "The Hollies, formados en Manchester, construyeron una de las identidades vocales más reconocibles del pop y rock británico, combinando armonías a varias voces, guitarras melódicas y una notable capacidad para evolucionar a través de los años sesenta y setenta.",
+      "musicos": [
+        "Allan Clarke — voz",
+        "Tony Hicks — guitarra y voces",
+        "Bobby Elliott — batería"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Fue escrita por Tony Hicks y Kenny Lynch e incluida en Distant Light."
+      ],
+      "por_que_recordarlo": "Porque Look What We've Got ayuda a reconstruir la evolución artística de The Hollies más allá de una simple lista de grandes éxitos.",
       "recuerdo_personal": "",
       "tipo_artista": "grupo"
     }
