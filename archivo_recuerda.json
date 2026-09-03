@@ -21939,6 +21939,454 @@
       "por_que_recordarlo": "Porque concentra en pocos minutos el sonido clásico de los Heartbreakers: firme, melódico y sin adornos innecesarios.",
       "recuerdo_personal": "",
       "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Toto",
+      "titulo": "Africa",
+      "aliases_artista": [
+        "Toto"
+      ],
+      "aliases_titulo": [
+        "Africa"
+      ],
+      "anio": 1982,
+      "texto": "Un paisaje sonoro de teclados, percusión y armonías vocales que terminó convirtiéndose en una de las canciones más reconocibles de los años ochenta.",
+      "cierre": "Una canción que parece avanzar hacia un lugar lejano y, al mismo tiempo, profundamente familiar.",
+      "slug": "toto-africa",
+      "imagen": "img/archivo/toto-africa.jpg",
+      "album": "Toto IV",
+      "sello": "Columbia",
+      "single": "Africa",
+      "catalogo": "",
+      "duracion": "aprox. 4:55 (álbum) / 4:21 (single)",
+      "compositor": "David Paich · Jeff Porcaro",
+      "productor": "Toto",
+      "voz_principal": "David Paich · Bobby Kimball",
+      "historia": "Grabada para Toto IV y publicada como sencillo en 1982, fue escrita por David Paich y Jeff Porcaro. Su combinación de sintetizadores, percusión y un estribillo de gran amplitud la convirtió en el mayor éxito internacional del grupo.",
+      "quienes_er_an": "Toto fue una banda estadounidense formada por músicos de sesión de enorme experiencia, reconocida por combinar rock, pop, funk, jazz y una producción de estudio extremadamente cuidada.",
+      "musicos": [
+        "David Paich — voz, piano y sintetizadores",
+        "Bobby Kimball — voz y coros",
+        "Steve Lukather — guitarras y coros",
+        "Steve Porcaro — sintetizadores",
+        "David Hungate — bajo",
+        "Jeff Porcaro — batería y percusión"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1"
+      ],
+      "sabias_que": [
+        "La canción fue compuesta por David Paich y Jeff Porcaro.",
+        "La grabación combina voces principales de David Paich y Bobby Kimball."
+      ],
+      "por_que_recordarlo": "Porque es una síntesis perfecta del sonido expansivo, detallista y melódico de Toto.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Toto",
+      "titulo": "Hold the Line",
+      "aliases_artista": [
+        "Toto"
+      ],
+      "aliases_titulo": [
+        "Hold the Line"
+      ],
+      "anio": 1978,
+      "texto": "El piano marcial de David Paich, las guitarras de Steve Lukather y la voz de Bobby Kimball anunciaron con fuerza la llegada de Toto.",
+      "cierre": "Antes de Africa y Rosanna, Toto ya había trazado una línea imposible de ignorar.",
+      "slug": "toto-hold-the-line",
+      "imagen": "img/archivo/toto-hold-the-line.jpg",
+      "album": "Toto",
+      "sello": "Columbia",
+      "single": "Hold the Line",
+      "catalogo": "",
+      "duracion": "aprox. 3:56",
+      "compositor": "David Paich",
+      "productor": "Toto",
+      "voz_principal": "Bobby Kimball",
+      "historia": "Fue el primer gran éxito de Toto y uno de los sencillos principales de su álbum debut de 1978. David Paich construyó la canción alrededor de su característico patrón de piano.",
+      "quienes_er_an": "Toto reunió a músicos de sesión de Los Ángeles que ya habían participado en numerosas grabaciones antes de formar su propia banda.",
+      "musicos": [
+        "Bobby Kimball — voz principal",
+        "David Paich — piano y teclados",
+        "Steve Lukather — guitarra",
+        "Steve Porcaro — teclados",
+        "David Hungate — bajo",
+        "Jeff Porcaro — batería"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº5"
+      ],
+      "sabias_que": [
+        "El riff principal nació en el piano de David Paich."
+      ],
+      "por_que_recordarlo": "Porque presentó al mundo el equilibrio de Toto entre potencia rockera y precisión de estudio.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Toto",
+      "titulo": "Rosanna",
+      "aliases_artista": [
+        "Toto"
+      ],
+      "aliases_titulo": [
+        "Rosanna"
+      ],
+      "anio": 1982,
+      "texto": "Una producción monumental sostenida por voces alternadas, metales y el célebre ritmo de batería de Jeff Porcaro.",
+      "cierre": "Una canción donde cada detalle parece ocupar exactamente el lugar que debía.",
+      "slug": "toto-rosanna",
+      "imagen": "img/archivo/toto-rosanna.jpg",
+      "album": "Toto IV",
+      "sello": "Columbia",
+      "single": "Rosanna",
+      "catalogo": "",
+      "duracion": "aprox. 5:31 (álbum) / 3:59 (single)",
+      "compositor": "David Paich",
+      "productor": "Toto",
+      "voz_principal": "Steve Lukather · Bobby Kimball",
+      "historia": "Escrita por David Paich y publicada en 1982 como primer sencillo de Toto IV, se convirtió en una de las grabaciones emblemáticas del grupo. Ganó el Grammy a Grabación del Año.",
+      "quienes_er_an": "Toto fue una banda estadounidense célebre por la calidad técnica de sus integrantes y por una producción que cruzaba rock, pop, soul y jazz.",
+      "musicos": [
+        "Steve Lukather — voz, guitarras y coros",
+        "Bobby Kimball — voz y coros",
+        "David Paich — teclados y coros",
+        "Steve Porcaro — teclados",
+        "David Hungate — bajo",
+        "Jeff Porcaro — batería",
+        "Lenny Castro — percusión",
+        "Tom Scott — saxofón"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº2"
+      ],
+      "sabias_que": [
+        "El patrón de batería de Jeff Porcaro es conocido como el Rosanna Shuffle.",
+        "La canción ganó el Grammy a Grabación del Año."
+      ],
+      "por_que_recordarlo": "Porque reúne composición, interpretación y producción en uno de los grandes registros del rock de estudio.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Travis",
+      "titulo": "Why Does It Always Rain on Me?",
+      "aliases_artista": [
+        "Travis"
+      ],
+      "aliases_titulo": [
+        "Why Does It Always Rain on Me?",
+        "Why Does It Always Rain On Me"
+      ],
+      "anio": 1999,
+      "texto": "Melancolía británica, guitarras abiertas y una pregunta sencilla que terminó transformándose en un himno colectivo.",
+      "cierre": "A veces alcanza una pregunta repetida para que miles de personas se reconozcan en ella.",
+      "slug": "travis-why-does-it-always-rain-on-me",
+      "imagen": "img/archivo/travis-why-does-it-always-rain-on-me.jpg",
+      "album": "The Man Who",
+      "sello": "Independiente",
+      "single": "Why Does It Always Rain on Me?",
+      "catalogo": "",
+      "duracion": "aprox. 4:24",
+      "compositor": "Fran Healy",
+      "productor": "Mike Hedges",
+      "voz_principal": "Fran Healy",
+      "historia": "Escrita por Fran Healy e incluida en The Man Who, fue publicada como sencillo en 1999. Su éxito ayudó a convertir a Travis en uno de los grupos británicos más importantes del cambio de década.",
+      "quienes_er_an": "Travis fue una banda escocesa de rock alternativo y pop melódico liderada por el cantante y compositor Fran Healy.",
+      "musicos": [
+        "Fran Healy — voz y guitarra",
+        "Andy Dunlop — guitarra",
+        "Dougie Payne — bajo",
+        "Neil Primrose — batería"
+      ],
+      "ranking": [
+        "Reino Unido — Top 10"
+      ],
+      "sabias_que": [
+        "La canción fue escrita por Fran Healy y producida por Mike Hedges."
+      ],
+      "por_que_recordarlo": "Porque convirtió una melancolía íntima en uno de los coros británicos más reconocibles de finales de los noventa.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "U2",
+      "titulo": "I Still Haven't Found What I'm Looking For",
+      "aliases_artista": [
+        "U2"
+      ],
+      "aliases_titulo": [
+        "I Still Haven't Found What I'm Looking For",
+        "I Still Havent Found What Im Looking For"
+      ],
+      "anio": 1987,
+      "texto": "Rock de amplitud espiritual, inspirado por el gospel y sostenido por una de las interpretaciones más abiertas de Bono.",
+      "cierre": "La búsqueda continúa incluso después de haber alcanzado la cima.",
+      "slug": "u2-i-still-havent-found-what-im-looking-for",
+      "imagen": "img/archivo/u2-i-still-havent-found-what-im-looking-for.jpg",
+      "album": "The Joshua Tree",
+      "sello": "Island",
+      "single": "I Still Haven't Found What I'm Looking For",
+      "catalogo": "",
+      "duracion": "aprox. 4:37",
+      "compositor": "U2 · letra de Bono",
+      "productor": "Daniel Lanois · Brian Eno",
+      "voz_principal": "Bono",
+      "historia": "Publicada en 1987 como segundo sencillo de The Joshua Tree, nació a partir de una base rítmica de Larry Mullen Jr. y fue desarrollada con una fuerte influencia del gospel estadounidense.",
+      "quienes_er_an": "U2 fue una banda irlandesa formada por Bono, The Edge, Adam Clayton y Larry Mullen Jr., reconocida por unir rock, experimentación y letras de alcance espiritual y social.",
+      "musicos": [
+        "Bono — voz",
+        "The Edge — guitarras y coros",
+        "Adam Clayton — bajo",
+        "Larry Mullen Jr. — batería",
+        "Brian Eno — coros y producción",
+        "Daniel Lanois — guitarra, coros y producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Nº6"
+      ],
+      "sabias_que": [
+        "Los coros de Brian Eno y Daniel Lanois reforzaron el carácter gospel de la grabación."
+      ],
+      "por_que_recordarlo": "Porque expresa la búsqueda espiritual sin ofrecer una respuesta fácil ni definitiva.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Uriah Heep",
+      "titulo": "Lady in Black",
+      "aliases_artista": [
+        "Uriah Heep"
+      ],
+      "aliases_titulo": [
+        "Lady in Black"
+      ],
+      "anio": 1971,
+      "texto": "Una narración oscura y casi ceremonial sostenida por acordes acústicos, percusión creciente y la voz de Ken Hensley.",
+      "cierre": "Una figura en la oscuridad y una canción que nunca necesitó excesos para volverse inmensa.",
+      "slug": "uriah-heep-lady-in-black",
+      "imagen": "img/archivo/uriah-heep-lady-in-black.jpg",
+      "album": "Salisbury",
+      "sello": "Vertigo / Bronze",
+      "single": "Lady in Black",
+      "catalogo": "",
+      "duracion": "aprox. 4:44",
+      "compositor": "Ken Hensley",
+      "productor": "Gerry Bron",
+      "voz_principal": "Ken Hensley",
+      "historia": "Incluida en Salisbury y publicada como sencillo en 1971, fue escrita y cantada por Ken Hensley. Su estructura repetitiva y su atmósfera de balada folk la diferenciaron del costado más pesado de Uriah Heep.",
+      "quienes_er_an": "Uriah Heep fue una banda británica de hard rock y rock progresivo surgida a fines de los años sesenta.",
+      "musicos": [
+        "Ken Hensley — voz y guitarra acústica",
+        "Mick Box — guitarra",
+        "Paul Newton — bajo",
+        "Keith Baker — batería"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Ken Hensley asumió la voz principal de la canción en lugar de David Byron."
+      ],
+      "por_que_recordarlo": "Porque muestra el costado más narrativo, folk y espiritual de Uriah Heep.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Valerie Dore",
+      "titulo": "The Night",
+      "aliases_artista": [
+        "Valerie Dore"
+      ],
+      "aliases_titulo": [
+        "The Night",
+        "The Night (Vocal)"
+      ],
+      "anio": 1984,
+      "texto": "Sintetizadores elegantes, una voz distante y una melodía nocturna que quedó asociada para siempre al Italo disco.",
+      "cierre": "La noche convertida en pista de baile, misterio y recuerdo.",
+      "slug": "valerie-dore-the-night",
+      "imagen": "img/archivo/valerie-dore-the-night.jpg",
+      "album": "The Legend",
+      "sello": "Merak Music",
+      "single": "The Night",
+      "catalogo": "",
+      "duracion": "aprox. 4:00 (7\") / 5:46 (12\")",
+      "compositor": "Giuseppe Nicolosi · Barbara Addoms",
+      "productor": "Lino Nicolosi · Roberto Gasparini",
+      "voz_principal": "Dora Carofiglio",
+      "historia": "Lanzada en 1984 como sencillo debut del proyecto Valerie Dore, fue interpretada vocalmente por Dora Carofiglio y presentada públicamente bajo la imagen de Monica Stucchi.",
+      "quienes_er_an": "Valerie Dore fue un proyecto italiano de Italo disco construido alrededor de compositores, productores, cantantes de estudio y una identidad escénica propia.",
+      "musicos": [
+        "Dora Carofiglio — voz principal"
+      ],
+      "ranking": [
+        "Italia — Top 30"
+      ],
+      "sabias_que": [
+        "Valerie Dore funcionó inicialmente como un proyecto de estudio.",
+        "La voz de The Night pertenece a Dora Carofiglio."
+      ],
+      "por_que_recordarlo": "Porque es una de las grabaciones que mejor define el costado romántico y misterioso del Italo disco.",
+      "recuerdo_personal": "",
+      "tipo_artista": "proyecto"
+    },
+    {
+      "artista": "Vaughan Mason",
+      "titulo": "Jammin' Big Guitar",
+      "aliases_artista": [
+        "Vaughan Mason"
+      ],
+      "aliases_titulo": [
+        "Jammin' Big Guitar",
+        "Jammin Big Guitar",
+        "Big Guitar"
+      ],
+      "anio": 1981,
+      "texto": "Funk instrumental y guitarra protagonista en una pieza larga, rítmica y pensada para la pista.",
+      "cierre": "Una guitarra grande, sí, pero sobre todo un groove que no deja de avanzar.",
+      "slug": "vaughan-mason-jammin-big-guitar",
+      "imagen": "img/archivo/vaughan-mason-jammin-big-guitar.jpg",
+      "album": "Jammin' Big Guitar",
+      "sello": "Salsoul Records",
+      "single": "Jammin' Big Guitar",
+      "catalogo": "",
+      "duracion": "aprox. 6:53",
+      "compositor": "Vaughan Mason",
+      "productor": "Vaughan Mason",
+      "voz_principal": "Instrumental / intervenciones vocales",
+      "historia": "Publicada a comienzos de los años ochenta, pertenece a la etapa posterior al éxito de Bounce, Rock, Skate, Roll. La ficha adopta el título completo Jammin' Big Guitar para diferenciarla de Rocking Big Guitar.",
+      "quienes_er_an": "Vaughan Mason fue un músico, productor y figura del funk y la música de pista estadounidense, especialmente recordado por su trabajo con Vaughan Mason & Crew.",
+      "musicos": [
+        "Vaughan Mason — producción e interpretación"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Jammin' Big Guitar y Rocking Big Guitar son temas diferentes.",
+        "El archivo de audio puede aparecer reducido a Big Guitar, pero aquí se conserva el título completo."
+      ],
+      "por_que_recordarlo": "Porque representa la continuidad del sonido funk y roller-disco de Vaughan Mason más allá de su mayor éxito.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Vaya Con Dios",
+      "titulo": "Heading for a Fall",
+      "aliases_artista": [
+        "Vaya Con Dios"
+      ],
+      "aliases_titulo": [
+        "Heading for a Fall"
+      ],
+      "anio": 1992,
+      "texto": "La voz grave de Dani Klein conduce una canción elegante, contenida y atravesada por la sensación de un final inevitable.",
+      "cierre": "Cuando la caída todavía no llegó, pero la canción ya puede verla venir.",
+      "slug": "vaya-con-dios-heading-for-a-fall",
+      "imagen": "img/archivo/vaya-con-dios-heading-for-a-fall.jpg",
+      "album": "Time Flies",
+      "sello": "Ariola / BMG",
+      "single": "Heading for a Fall",
+      "catalogo": "",
+      "duracion": "aprox. 3:42",
+      "compositor": "Dani Klein · Jean-Michel Gielen",
+      "productor": "Dani Klein",
+      "voz_principal": "Dani Klein",
+      "historia": "Publicada en 1992 dentro del álbum Time Flies, mostró una etapa más madura y sobria del proyecto, ya centrado en la voz y dirección artística de Dani Klein.",
+      "quienes_er_an": "Vaya Con Dios fue un proyecto belga liderado por Dani Klein que mezcló pop, blues, jazz, soul y raíces europeas.",
+      "musicos": [
+        "Dani Klein — voz principal",
+        "Jean-Michel Gielen — guitarra"
+      ],
+      "ranking": [],
+      "sabias_que": [],
+      "por_que_recordarlo": "Porque captura la elegancia melancólica que convirtió a Vaya Con Dios en una propuesta singular dentro del pop europeo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "proyecto"
+    },
+    {
+      "artista": "Vaya Con Dios",
+      "titulo": "What's a Woman?",
+      "aliases_artista": [
+        "Vaya Con Dios"
+      ],
+      "aliases_titulo": [
+        "What's a Woman?",
+        "What's a Woman",
+        "Whats a Woman"
+      ],
+      "anio": 1990,
+      "texto": "Una balada de soul y blues europeo sostenida por la interpretación inconfundible de Dani Klein.",
+      "cierre": "Una pregunta amarga convertida en una canción de enorme elegancia.",
+      "slug": "vaya-con-dios-whats-a-woman",
+      "imagen": "img/archivo/vaya-con-dios-whats-a-woman.jpg",
+      "album": "Night Owls",
+      "sello": "Ariola / BMG",
+      "single": "What's a Woman?",
+      "catalogo": "",
+      "duracion": "aprox. 3:56",
+      "compositor": "Dani Klein · Dirk Schoufs · Willy Lambregt",
+      "productor": "Dani Klein · Dirk Schoufs",
+      "voz_principal": "Dani Klein",
+      "historia": "Publicada en 1990 dentro de Night Owls, se convirtió en uno de los mayores éxitos internacionales de Vaya Con Dios.",
+      "quienes_er_an": "Vaya Con Dios fue un grupo y proyecto belga liderado por Dani Klein, reconocido por su mezcla de soul, blues, jazz y pop europeo.",
+      "musicos": [
+        "Dani Klein — voz principal",
+        "Dirk Schoufs — contrabajo",
+        "Willy Lambregt — guitarra"
+      ],
+      "ranking": [
+        "Países Bajos — Nº1",
+        "Bélgica — gran éxito"
+      ],
+      "sabias_que": [
+        "La canción pertenece al álbum Night Owls."
+      ],
+      "por_que_recordarlo": "Porque la voz de Dani Klein y su arreglo sobrio la volvieron una de las baladas europeas más recordadas de 1990.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Trans-X",
+      "titulo": "Living on Video",
+      "aliases_artista": [
+        "Trans-X",
+        "Trans X"
+      ],
+      "aliases_titulo": [
+        "Living on Video",
+        "Vivre sur vidéo"
+      ],
+      "anio": 1983,
+      "texto": "Secuencias electrónicas, estética futurista y una melodía inmediata convirtieron a este tema en un clásico del synth-pop canadiense.",
+      "cierre": "Una visión digital del futuro creada cuando ese futuro todavía parecía lejano.",
+      "slug": "trans-x-living-on-video",
+      "imagen": "img/archivo/trans-x-living-on-video.jpg",
+      "album": "Living on Video",
+      "sello": "Polydor / Unidisc",
+      "single": "Living on Video",
+      "catalogo": "",
+      "duracion": "aprox. 4:18 (single) / 5:55 (12\")",
+      "compositor": "Pascal Languirand",
+      "productor": "Pascal Languirand",
+      "voz_principal": "Pascal Languirand · Laurie Ann Gill",
+      "historia": "Compuesta por Pascal Languirand y publicada originalmente en 1983, alcanzó una difusión internacional aún mayor con su reedición de 1985.",
+      "quienes_er_an": "Trans-X fue un proyecto canadiense de synth-pop y música electrónica creado por Pascal Languirand.",
+      "musicos": [
+        "Pascal Languirand — voz, sintetizadores y programación",
+        "Laurie Ann Gill — voz"
+      ],
+      "ranking": [
+        "Reino Unido — Top 10",
+        "Canadá — Top 40"
+      ],
+      "sabias_que": [
+        "La canción tuvo una primera edición en 1983 y una reedición internacional en 1985.",
+        "También existe una versión francesa titulada Vivre sur vidéo."
+      ],
+      "por_que_recordarlo": "Porque anticipó la fascinación por la vida digital con una estética plenamente ochentosa.",
+      "recuerdo_personal": "",
+      "tipo_artista": "proyecto"
     }
   ]
 }
