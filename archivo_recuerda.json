@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-09-03",
+  "ultima_actualizacion": "2026-09-04",
   "fichas": [
     {
       "artista": "Night",
@@ -22387,6 +22387,870 @@
       "por_que_recordarlo": "Porque anticipó la fascinación por la vida digital con una estética plenamente ochentosa.",
       "recuerdo_personal": "",
       "tipo_artista": "proyecto"
+    },
+    {
+      "artista": "Veronica Unlimited",
+      "titulo": "What A Lousy Party",
+      "aliases_artista": [
+        "Veronica Unlimited"
+      ],
+      "aliases_titulo": [
+        "What A Lousy Party",
+        "What Lousy Party"
+      ],
+      "anio": 1980,
+      "texto": "Con humor, coros festivos y una producción disco europea, Veronica Unlimited convirtió una fiesta decepcionante en un estribillo imposible de olvidar.",
+      "cierre": "Una mala fiesta puede terminar siendo un gran recuerdo cuando encuentra el ritmo adecuado.",
+      "slug": "veronica-unlimited-what-a-lousy-party",
+      "imagen": "img/archivo/veronica-unlimited-what-a-lousy-party.jpg",
+      "album": "What A Lousy Party",
+      "sello": "Philips",
+      "single": "What A Lousy Party",
+      "catalogo": "",
+      "duracion": "3:18 aprox.",
+      "compositor": "Tomas Minor · Torgny Söderberg",
+      "productor": "Jacques Zwart",
+      "voz_principal": "Veronica Unlimited",
+      "historia": "Publicada en 1980, la canción prolongó la trayectoria internacional de Veronica Unlimited dentro del europop y la música disco. Su título suele aparecer sin el artículo “A” en archivos digitales, pero la edición original se publicó como What A Lousy Party.",
+      "quienes_er_an": "Veronica Unlimited fue un proyecto vocal neerlandés de música disco impulsado por el productor Jacques Zwart. Alcanzó difusión europea a fines de los años setenta con una imagen coral y repertorio bailable.",
+      "musicos": [
+        "Voces de Veronica Unlimited — interpretación",
+        "Jacques Zwart — producción",
+        "Tomas Minor y Torgny Söderberg — composición"
+      ],
+      "ranking": [
+        "Edición europea en 1980",
+        "Publicada en distintos territorios por Philips"
+      ],
+      "sabias_que": [
+        "El título original incluye la palabra A.",
+        "También circula digitalmente como What Lousy Party.",
+        "El sencillo tuvo como cara B Love Me, Baby en algunas ediciones."
+      ],
+      "por_que_recordarlo": "Porque representa esa zona del disco europeo donde el humor, la teatralidad y el estribillo colectivo eran tan importantes como la pista de baile.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Viola Wills",
+      "titulo": "Gonna Get Along Without You Now",
+      "aliases_artista": [
+        "Viola Wills"
+      ],
+      "aliases_titulo": [
+        "Gonna Get Along Without You Now"
+      ],
+      "anio": 1979,
+      "texto": "Viola Wills tomó una canción de los años cincuenta y la reconstruyó como un himno disco de independencia sentimental.",
+      "cierre": "La despedida dejó de sonar triste cuando encontró una línea de bajo y una pista de baile.",
+      "slug": "viola-wills-gonna-get-along-without-you-now",
+      "imagen": "img/archivo/viola-wills-gonna-get-along-without-you-now.jpg",
+      "album": "If You Could Read My Mind",
+      "sello": "Hansa / Ariola / Charly",
+      "single": "Gonna Get Along Without You Now",
+      "catalogo": "",
+      "duracion": "3:17 aprox.",
+      "compositor": "Milton Kellem",
+      "productor": "Jerry McCabe",
+      "voz_principal": "Viola Wills",
+      "historia": "La composición existía desde 1951, pero la versión de Viola Wills de 1979 cambió por completo su identidad mediante sintetizadores, pulso disco y una interpretación vocal segura. Alcanzó el Nº8 británico y se convirtió en su grabación más recordada.",
+      "quienes_er_an": "Viola Wills fue una cantante estadounidense de soul, pop y disco. Antes de su carrera solista trabajó como vocalista de apoyo y más tarde encontró un público especialmente fuerte en Europa.",
+      "musicos": [
+        "Viola Wills — voz",
+        "Jerry McCabe — producción y arreglos",
+        "Milton Kellem — composición"
+      ],
+      "ranking": [
+        "Reino Unido — Nº8",
+        "Nueva Zelanda — Nº3",
+        "Países Bajos — Top 10"
+      ],
+      "sabias_que": [
+        "La canción fue grabada originalmente décadas antes de la versión disco.",
+        "La interpretación de Wills regresó a las pistas en remezclas posteriores.",
+        "Fue uno de sus mayores éxitos europeos."
+      ],
+      "por_que_recordarlo": "Porque convirtió una antigua canción de ruptura en una declaración de autonomía que todavía funciona tanto emocionalmente como en la pista de baile.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Visage",
+      "titulo": "Fade to Grey",
+      "aliases_artista": [
+        "Visage"
+      ],
+      "aliases_titulo": [
+        "Fade to Grey"
+      ],
+      "anio": 1980,
+      "texto": "Fría, elegante y melancólica, Fade to Grey condensó la estética New Romantic en pocos minutos de sintetizadores, imagen y misterio.",
+      "cierre": "Antes de que los años ochenta tuvieran una estética definida, esta canción ya parecía recordarlos.",
+      "slug": "visage-fade-to-grey",
+      "imagen": "img/archivo/visage-fade-to-grey.jpg",
+      "album": "Visage",
+      "sello": "Polydor",
+      "single": "Fade to Grey",
+      "catalogo": "",
+      "duracion": "3:50 aprox. versión single",
+      "compositor": "Billy Currie · Chris Payne · Midge Ure",
+      "productor": "Midge Ure · Visage",
+      "voz_principal": "Steve Strange · Brigitte Arens",
+      "historia": "Publicada a fines de 1980, fue construida a partir de una idea instrumental de Billy Currie y Chris Payne, con letra añadida por Midge Ure. La voz principal de Steve Strange y el pasaje hablado en francés reforzaron su identidad visual y continental.",
+      "quienes_er_an": "Visage fue un proyecto británico ligado al club Blitz y al movimiento New Romantic. Reunió músicos procedentes de Ultravox, Magazine y otras formaciones alrededor de la figura de Steve Strange.",
+      "musicos": [
+        "Steve Strange — voz",
+        "Billy Currie — sintetizadores",
+        "Midge Ure — guitarra, sintetizadores y producción",
+        "Chris Payne — composición",
+        "Rusty Egan — batería electrónica",
+        "Brigitte Arens — voz hablada en francés"
+      ],
+      "ranking": [
+        "Reino Unido — Nº8",
+        "Alemania Occidental — Nº1",
+        "Suiza — Nº1"
+      ],
+      "sabias_que": [
+        "El texto alterna inglés y francés.",
+        "Su video fue dirigido por Godley & Creme.",
+        "Se convirtió en el éxito más reconocido de Visage."
+      ],
+      "por_que_recordarlo": "Porque une música, moda y video en una sola pieza y permite escuchar el momento exacto en que el New Romantic dejó de ser una escena de club y se volvió cultura popular.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Wax",
+      "titulo": "Right Between the Eyes",
+      "aliases_artista": [
+        "Wax"
+      ],
+      "aliases_titulo": [
+        "Right Between the Eyes"
+      ],
+      "anio": 1986,
+      "texto": "Andrew Gold y Graham Gouldman combinaron melodía, ironía y producción ochentosa en una canción que golpea de frente desde el primer estribillo.",
+      "cierre": "Hay canciones que no necesitan rodeos: entran exactamente entre los ojos.",
+      "slug": "wax-right-between-the-eyes",
+      "imagen": "img/archivo/wax-right-between-the-eyes.jpg",
+      "album": "Magnetic Heaven",
+      "sello": "RCA",
+      "single": "Right Between the Eyes",
+      "catalogo": "",
+      "duracion": "4:08 aprox.",
+      "compositor": "Andrew Gold · Graham Gouldman",
+      "productor": "Phil Thornalley · Andrew Gold · Graham Gouldman",
+      "voz_principal": "Andrew Gold",
+      "historia": "Editada en 1986 dentro de Magnetic Heaven, fue uno de los primeros sencillos del dúo Wax. Su mezcla de pop elaborado, guitarras, teclados y armonías anticipó el éxito mayor que el grupo conseguiría después con Bridge to Your Heart.",
+      "quienes_er_an": "Wax fue el dúo formado por el músico estadounidense Andrew Gold y el británico Graham Gouldman, integrante de 10cc. La asociación reunió dos tradiciones de composición pop muy refinadas.",
+      "musicos": [
+        "Andrew Gold — voz, guitarra y teclados",
+        "Graham Gouldman — bajo, guitarra y coros",
+        "Phil Thornalley — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº60",
+        "Difusión europea durante 1986"
+      ],
+      "sabias_que": [
+        "Fue incluida en el álbum debut Magnetic Heaven.",
+        "Andrew Gold había tenido una carrera solista exitosa antes de Wax.",
+        "Graham Gouldman fue compositor de numerosos clásicos del pop británico."
+      ],
+      "por_que_recordarlo": "Porque muestra cómo dos compositores veteranos pudieron adaptarse al sonido de los ochenta sin perder su identidad melódica.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Will Smith",
+      "titulo": "Gettin' Jiggy wit It",
+      "aliases_artista": [
+        "Will Smith"
+      ],
+      "aliases_titulo": [
+        "Gettin' Jiggy wit It"
+      ],
+      "anio": 1997,
+      "texto": "Will Smith convirtió una expresión callejera en uno de los estribillos más reconocibles del pop-rap de finales de los noventa.",
+      "cierre": "Durante unas semanas, todo el planeta quiso ponerse jiggy.",
+      "slug": "will-smith-gettin-jiggy-wit-it",
+      "imagen": "img/archivo/will-smith-gettin-jiggy-wit-it.jpg",
+      "album": "Big Willie Style",
+      "sello": "Columbia",
+      "single": "Gettin’ Jiggy wit It",
+      "catalogo": "",
+      "duracion": "3:49 aprox.",
+      "compositor": "Will Smith · Samuel Barnes · Bernard Edwards · Nile Rodgers · Joe Robinson",
+      "productor": "Poke & Tone",
+      "voz_principal": "Will Smith",
+      "historia": "Publicada como sencillo de Big Willie Style, utiliza una base construida alrededor de elementos de He’s the Greatest Dancer de Sister Sledge. En 1998 encabezó el Billboard Hot 100 durante tres semanas y en 1999 ganó el Grammy a mejor interpretación solista de rap.",
+      "quienes_er_an": "Will Smith comenzó como MC de DJ Jazzy Jeff & The Fresh Prince y después trasladó su carisma a la televisión, el cine y una carrera solista orientada al pop-rap.",
+      "musicos": [
+        "Will Smith — voz y composición",
+        "Poke & Tone — producción",
+        "Nile Rodgers y Bernard Edwards — autores de la obra sampleada"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Top 3"
+      ],
+      "sabias_que": [
+        "Ganó un Grammy en 1999.",
+        "La base remite a He’s the Greatest Dancer de Sister Sledge.",
+        "Fue uno de los grandes sencillos de Big Willie Style."
+      ],
+      "por_que_recordarlo": "Porque representa el momento en que el rap familiar y el espectáculo pop de Will Smith se volvieron inseparables.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Will Smith",
+      "titulo": "Men in Black",
+      "aliases_artista": [
+        "Will Smith"
+      ],
+      "aliases_titulo": [
+        "Men in Black"
+      ],
+      "anio": 1997,
+      "texto": "Una línea de bajo tomada del funk, un estribillo inmediato y el universo de la película hicieron de Men in Black una canción inseparable del verano de 1997.",
+      "cierre": "Los agentes borraban recuerdos; la canción hizo exactamente lo contrario.",
+      "slug": "will-smith-men-in-black",
+      "imagen": "img/archivo/will-smith-men-in-black.jpg",
+      "album": "Big Willie Style / Men in Black: The Album",
+      "sello": "Columbia",
+      "single": "Men in Black",
+      "catalogo": "",
+      "duracion": "3:45 aprox.",
+      "compositor": "Will Smith · Patrice Rushen · Freddie Washington · Terri McFaddin",
+      "productor": "Poke & Tone",
+      "voz_principal": "Will Smith · Coko",
+      "historia": "Creada como tema principal de la película protagonizada por Smith, incorpora la base de Forget Me Nots de Patrice Rushen. Llegó al Nº1 británico y consolidó su transición desde el dúo con DJ Jazzy Jeff hacia una carrera solista global.",
+      "quienes_er_an": "Will Smith fue una de las pocas figuras capaces de ocupar simultáneamente los primeros planos del cine, la televisión y la música popular durante los años noventa.",
+      "musicos": [
+        "Will Smith — voz",
+        "Coko — coros",
+        "Poke & Tone — producción",
+        "Patrice Rushen — autora e intérprete de la obra sampleada"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1 durante cuatro semanas",
+        "Europa — múltiples Nº1",
+        "Estados Unidos — gran difusión radial aunque sin sencillo comercial inicial elegible para Hot 100"
+      ],
+      "sabias_que": [
+        "La canción toma su base de Forget Me Nots.",
+        "Fue el tema central de la película Men in Black.",
+        "Encabezó la lista británica durante cuatro semanas."
+      ],
+      "por_que_recordarlo": "Porque pocos temas promocionales lograron fundirse de manera tan completa con una película y, al mismo tiempo, funcionar como éxito independiente.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "William Pitt",
+      "titulo": "City Lights",
+      "aliases_artista": [
+        "William Pitt"
+      ],
+      "aliases_titulo": [
+        "City Lights"
+      ],
+      "anio": 1986,
+      "texto": "City Lights convirtió la noche urbana en una postal de synth-pop elegante, melancólica y profundamente europea.",
+      "cierre": "Las luces de la ciudad también pueden iluminar recuerdos.",
+      "slug": "william-pitt-city-lights",
+      "imagen": "img/archivo/william-pitt-city-lights.jpg",
+      "album": "City Lights",
+      "sello": "Carrere",
+      "single": "City Lights",
+      "catalogo": "",
+      "duracion": "3:45 aprox. versión single",
+      "compositor": "William Pitt",
+      "productor": "Pierre-Alain Dahan · Jean-Pierre Mader",
+      "voz_principal": "William Pitt",
+      "historia": "Publicada a mediados de los ochenta, la canción se convirtió en el gran éxito del cantante estadounidense William Pitt, especialmente en Francia y otros mercados europeos. Su producción combina cajas de ritmos, sintetizadores y una voz contenida.",
+      "quienes_er_an": "William Pitt fue un cantante estadounidense cuya carrera discográfica se desarrolló principalmente en Europa. City Lights quedó como su grabación emblemática.",
+      "musicos": [
+        "William Pitt — voz y composición",
+        "Pierre-Alain Dahan — producción",
+        "Jean-Pierre Mader — producción"
+      ],
+      "ranking": [
+        "Francia — Top 20",
+        "Difusión destacada en Europa continental"
+      ],
+      "sabias_que": [
+        "Su mayor repercusión ocurrió en Europa.",
+        "La canción fue publicada por Carrere.",
+        "Es un ejemplo característico del pop nocturno de mediados de los ochenta."
+      ],
+      "por_que_recordarlo": "Porque rescata una sensibilidad urbana que no dependía de grandes excesos: bastaban una melodía, una caja de ritmos y una ciudad imaginada desde la distancia.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Yaki-Da",
+      "titulo": "I Saw You Dancing",
+      "aliases_artista": [
+        "Yaki-Da"
+      ],
+      "aliases_titulo": [
+        "I Saw You Dancing"
+      ],
+      "anio": 1994,
+      "texto": "El pop escandinavo de los noventa encontró aquí una melodía luminosa, un pulso bailable y una producción emparentada directamente con Ace of Base.",
+      "cierre": "Una escena vista desde lejos terminó bailándose en medio mundo.",
+      "slug": "yaki-da-i-saw-you-dancing",
+      "imagen": "img/archivo/yaki-da-i-saw-you-dancing.jpg",
+      "album": "Pride",
+      "sello": "Mega Records / Metronome",
+      "single": "I Saw You Dancing",
+      "catalogo": "",
+      "duracion": "3:41 aprox. versión radio",
+      "compositor": "Jonas Berggren",
+      "productor": "Jonas Berggren",
+      "voz_principal": "Linda Schönberg · Marie Knutsen",
+      "historia": "Escrita y producida por Jonas “Joker” Berggren de Ace of Base, fue publicada en 1994 como primer gran sencillo de Yaki-Da. Alcanzó posiciones destacadas en Escandinavia y también entró en listas norteamericanas.",
+      "quienes_er_an": "Yaki-Da fue un dúo sueco integrado por Linda Schönberg y Marie Knutsen. Su primer álbum, Pride, estuvo fuertemente vinculado al equipo creativo de Ace of Base.",
+      "musicos": [
+        "Linda Schönberg — voz",
+        "Marie Knutsen — voz",
+        "Jonas Berggren — composición y producción",
+        "John Ballard — grabación y mezcla"
+      ],
+      "ranking": [
+        "Noruega — Nº7",
+        "Islandia — Nº6",
+        "Estados Unidos — Billboard Hot 100: Nº54",
+        "Canadá Dance/Urban — Top 10"
+      ],
+      "sabias_que": [
+        "Jonas Berggren escribió y produjo la canción.",
+        "Fue el mayor éxito internacional del dúo.",
+        "El álbum Pride apareció en 1995 en varios territorios."
+      ],
+      "por_que_recordarlo": "Porque captura con claridad la fórmula escandinava que dominó buena parte del pop internacional de los noventa: melodías simples, producción precisa y una leve melancolía detrás del baile.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Yes",
+      "titulo": "Owner of a Lonely Heart",
+      "aliases_artista": [
+        "Yes"
+      ],
+      "aliases_titulo": [
+        "Owner of a Lonely Heart"
+      ],
+      "anio": 1983,
+      "texto": "Yes abandonó por un momento las largas suites progresivas y creó un sencillo compacto, agresivo y futurista que llegó al Nº1 estadounidense.",
+      "cierre": "La banda que parecía pertenecer a otra década encontró de pronto el sonido del futuro.",
+      "slug": "yes-owner-of-a-lonely-heart",
+      "imagen": "img/archivo/yes-owner-of-a-lonely-heart.jpg",
+      "album": "90125",
+      "sello": "Atco",
+      "single": "Owner of a Lonely Heart",
+      "catalogo": "",
+      "duracion": "4:27 aprox.",
+      "compositor": "Trevor Rabin · Jon Anderson · Chris Squire · Trevor Horn",
+      "productor": "Trevor Horn",
+      "voz_principal": "Jon Anderson",
+      "historia": "La canción nació a partir de una idea de Trevor Rabin y fue transformada durante las sesiones producidas por Trevor Horn mediante samplers, cortes abruptos y una arquitectura pop muy moderna. Se convirtió en el único Nº1 de Yes en el Billboard Hot 100.",
+      "quienes_er_an": "Yes es una banda británica fundamental del rock progresivo. La formación de 90125 reunió a Jon Anderson, Chris Squire, Alan White, Tony Kaye y Trevor Rabin en una etapa de reinvención comercial.",
+      "musicos": [
+        "Jon Anderson — voz",
+        "Trevor Rabin — guitarra, teclados y composición",
+        "Chris Squire — bajo",
+        "Tony Kaye — teclados",
+        "Alan White — batería",
+        "Trevor Horn — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Top 30",
+        "Canadá — Nº1"
+      ],
+      "sabias_que": [
+        "Fue el único Nº1 estadounidense de Yes.",
+        "El proyecto se llamó inicialmente Cinema antes de recuperar el nombre Yes.",
+        "La producción utilizó Fairlight CMI y técnicas de edición muy avanzadas para 1983."
+      ],
+      "por_que_recordarlo": "Porque demuestra que una banda veterana puede reinventarse sin borrar su historia y convertir la tecnología de estudio en parte esencial de la composición.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Young Company",
+      "titulo": "I Like (What You're Doing to Me)",
+      "aliases_artista": [
+        "Young Company"
+      ],
+      "aliases_titulo": [
+        "I Like (What You're Doing to Me)",
+        "I Like What You're Doing to Me"
+      ],
+      "anio": 1980,
+      "texto": "Una línea de bajo persistente, voces sensuales y un groove extendido hicieron de este sencillo una pieza de culto del boogie de 1980.",
+      "cierre": "Cuando el ritmo funciona, repetir una frase puede ser suficiente para construir una noche entera.",
+      "slug": "young-company-i-like-what-youre-doing-to-me",
+      "imagen": "img/archivo/young-company-i-like-what-youre-doing-to-me.jpg",
+      "album": "I Like (What You're Doing to Me)",
+      "sello": "Brunswick",
+      "single": "I Like (What You're Doing to Me)",
+      "catalogo": "",
+      "duracion": "6:00 aprox. versión extendida",
+      "compositor": "Young Company",
+      "productor": "Young Company",
+      "voz_principal": "Young Company",
+      "historia": "Publicado en el cambio de década entre disco y boogie, el tema se apoya en una estructura repetitiva diseñada para la pista. Sus ediciones de doce pulgadas circularon entre DJs y coleccionistas de funk y música dance.",
+      "quienes_er_an": "Young Company fue una formación estadounidense vinculada al funk, disco y boogie de comienzos de los años ochenta. Su discografía fue breve, pero este sencillo mantuvo presencia en compilaciones y selecciones de culto.",
+      "musicos": [
+        "Young Company — voces e instrumentación",
+        "Equipo de Brunswick — edición y distribución"
+      ],
+      "ranking": [
+        "Difusión en clubes y circuitos de importación",
+        "Pieza de culto dentro del boogie estadounidense"
+      ],
+      "sabias_que": [
+        "Circuló especialmente en formato de 12 pulgadas.",
+        "Su título aparece con pequeñas variaciones de puntuación.",
+        "El groove anticipa el sonido boogie de los primeros ochenta."
+      ],
+      "por_que_recordarlo": "Porque permite escuchar la transición entre la exuberancia disco y el pulso más contenido, electrónico y repetitivo del boogie.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Voggue",
+      "titulo": "Dancin' the Night Away",
+      "aliases_artista": [
+        "Voggue"
+      ],
+      "aliases_titulo": [
+        "Dancin' the Night Away"
+      ],
+      "anio": 1981,
+      "texto": "Una producción canadiense de gran formato, voces potentes y una base disco-funk extendida convirtieron a este tema en un clásico de pista.",
+      "cierre": "La noche se termina; el groove tarda bastante más en irse.",
+      "slug": "voggue-dancin-the-night-away",
+      "imagen": "img/archivo/voggue-dancin-the-night-away.jpg",
+      "album": "Dancin' the Night Away",
+      "sello": "Matra",
+      "single": "Dancin’ the Night Away",
+      "catalogo": "",
+      "duracion": "7:20 aprox. versión 12\"",
+      "compositor": "Denis Lepage",
+      "productor": "Denis Lepage",
+      "voz_principal": "Chantal Condor · Angela Songui",
+      "historia": "Publicada en 1981, la canción fue producida por Denis Lepage, figura central del disco canadiense. Su desarrollo largo, la percusión y los arreglos vocales la volvieron especialmente efectiva en clubes.",
+      "quienes_er_an": "Voggue fue un dúo vocal femenino canadiense integrado por Chantal Condor y Angela Songui. Formó parte de la escena disco de Montreal de comienzos de los ochenta.",
+      "musicos": [
+        "Chantal Condor — voz",
+        "Angela Songui — voz",
+        "Denis Lepage — composición, arreglos y producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Dance: Top 10",
+        "Canadá — difusión en clubes"
+      ],
+      "sabias_que": [
+        "Denis Lepage también estuvo vinculado a proyectos como Lime.",
+        "La versión extendida supera los siete minutos.",
+        "Es una pieza muy buscada del disco canadiense."
+      ],
+      "por_que_recordarlo": "Porque representa el alto nivel de producción que alcanzó Montreal como uno de los centros internacionales de la música disco.",
+      "recuerdo_personal": "",
+      "tipo_artista": "dúo"
+    },
+    {
+      "artista": "War",
+      "titulo": "You Got the Power",
+      "aliases_artista": [
+        "War"
+      ],
+      "aliases_titulo": [
+        "You Got the Power"
+      ],
+      "anio": 1982,
+      "texto": "War llevó su mezcla de funk, soul y percusión latina hacia una producción más electrónica sin perder el peso colectivo de la banda.",
+      "cierre": "El poder del título no era una promesa: estaba en el ritmo.",
+      "slug": "war-you-got-the-power",
+      "imagen": "img/archivo/war-you-got-the-power.jpg",
+      "album": "Outlaw",
+      "sello": "RCA",
+      "single": "You Got the Power",
+      "catalogo": "",
+      "duracion": "4:00 aprox. / versión club más extensa",
+      "compositor": "War",
+      "productor": "Jerry Goldstein · War",
+      "voz_principal": "Luther Rabb · War",
+      "historia": "Editada en 1982 dentro del álbum Outlaw, la canción refleja la adaptación de War a la nueva década. Las versiones de club extendieron su vida en discotecas y emisoras especializadas.",
+      "quienes_er_an": "War es una banda estadounidense surgida en California y reconocida por combinar funk, rock, soul, jazz y ritmos latinos en una identidad colectiva.",
+      "musicos": [
+        "Luther Rabb — voz",
+        "Howard Scott — guitarra y voz",
+        "Lonnie Jordan — teclados y voz",
+        "Lee Oskar — armónica",
+        "Harold Brown — batería",
+        "B.B. Dickerson — bajo"
+      ],
+      "ranking": [
+        "Difusión en listas de R&B y dance",
+        "Presencia sostenida en clubes durante 1982"
+      ],
+      "sabias_que": [
+        "Pertenece al álbum Outlaw.",
+        "Circuló en versiones single y club mix.",
+        "Marcó una etapa más electrónica en el sonido de War."
+      ],
+      "por_que_recordarlo": "Porque muestra a una banda clásica del funk dialogando con la tecnología y la estética de los primeros ochenta sin perder su raíz orgánica.",
+      "recuerdo_personal": "",
+      "tipo_artista": "banda"
+    },
+    {
+      "artista": "Waterfront Home",
+      "titulo": "Take a Chance on Me",
+      "aliases_artista": [
+        "Waterfront Home"
+      ],
+      "aliases_titulo": [
+        "Take a Chance on Me"
+      ],
+      "anio": 1983,
+      "texto": "Sintetizadores brillantes, pulso Hi-NRG y dramatismo vocal transformaron el deseo de arriesgarse en una pieza de culto del dance europeo.",
+      "cierre": "Tomar una oportunidad también puede significar entrar a la pista justo antes del estribillo.",
+      "slug": "waterfront-home-take-a-chance-on-me",
+      "imagen": "img/archivo/waterfront-home-take-a-chance-on-me.jpg",
+      "album": "Take a Chance (On Me)",
+      "sello": "Emergency / Unidisc",
+      "single": "Take a Chance (On Me)",
+      "catalogo": "",
+      "duracion": "6:08 aprox. versión 12\"",
+      "compositor": "Bobby Orlando",
+      "productor": "Bobby Orlando",
+      "voz_principal": "Waterfront Home",
+      "historia": "Publicada en 1983 y asociada al productor Bobby Orlando, la canción forma parte del circuito que conectó el Hi-NRG, el synth-pop y las discotecas de Nueva York y Europa.",
+      "quienes_er_an": "Waterfront Home fue un proyecto de estudio de música electrónica y dance activo en los primeros años ochenta. Su identidad quedó ligada a esta grabación y a la producción de Bobby Orlando.",
+      "musicos": [
+        "Waterfront Home — voz",
+        "Bobby Orlando — composición, instrumentación y producción"
+      ],
+      "ranking": [
+        "Difusión en clubes de Estados Unidos y Europa",
+        "Edición destacada en formato 12 pulgadas"
+      ],
+      "sabias_que": [
+        "No es una versión de la canción de ABBA pese a compartir una frase similar.",
+        "Bobby Orlando fue una figura central del Hi-NRG.",
+        "La edición extendida fue la más difundida entre DJs."
+      ],
+      "por_que_recordarlo": "Porque conserva el sonido de una escena construida en estudios pequeños pero con una ambición enorme: sintetizadores, drama y energía continua.",
+      "recuerdo_personal": "",
+      "tipo_artista": "proyecto"
+    },
+    {
+      "artista": "Weeks & Co.",
+      "titulo": "Rock Your World (Joho, Joho)",
+      "aliases_artista": [
+        "Weeks & Co.",
+        "Weeks Co"
+      ],
+      "aliases_titulo": [
+        "Rock Your World (Joho, Joho)"
+      ],
+      "anio": 1981,
+      "texto": "Bajo elástico, percusión precisa y un estribillo colectivo hicieron de Rock Your World una referencia del post-disco y el boogie neoyorquino.",
+      "cierre": "Un “joho” repetido en el momento justo puede sostener una pista completa.",
+      "slug": "weeks-and-co-rock-your-world-joho-joho",
+      "imagen": "img/archivo/weeks-and-co-rock-your-world-joho-joho.jpg",
+      "album": "Weeks & Co.",
+      "sello": "Salsoul",
+      "single": "Rock Your World (Joho, Joho)",
+      "catalogo": "",
+      "duracion": "7:45 aprox. versión 12\"",
+      "compositor": "Richard Weeks · Richie Weeks",
+      "productor": "Richard Weeks",
+      "voz_principal": "Richie Weeks · coros de Weeks & Co.",
+      "historia": "Publicada en 1981 por Salsoul, fue desarrollada por Richard “Richie” Weeks en plena transición del disco hacia el boogie. La versión extendida se volvió una pieza central para DJs y coleccionistas.",
+      "quienes_er_an": "Weeks & Co. fue un proyecto de estudio encabezado por Richie Weeks, músico, compositor y productor asociado a la escena disco y post-disco de Nueva York.",
+      "musicos": [
+        "Richie Weeks — voz, composición y producción",
+        "Músicos de sesión de Salsoul — instrumentación",
+        "Coros de Weeks & Co."
+      ],
+      "ranking": [
+        "Estados Unidos — presencia en listas dance",
+        "Clásico de clubes y del catálogo Salsoul"
+      ],
+      "sabias_que": [
+        "Richie Weeks también trabajó en otros proyectos de culto.",
+        "La canción es conocida por su respuesta coral “Joho, Joho”.",
+        "La versión de doce pulgadas ronda los ocho minutos."
+      ],
+      "por_que_recordarlo": "Porque documenta el momento en que la orquesta disco empezó a comprimirse en grooves más secos, bajos más marcados y arreglos pensados para la mezcla del DJ.",
+      "recuerdo_personal": "",
+      "tipo_artista": "proyecto"
+    },
+    {
+      "artista": "Whitesnake",
+      "titulo": "Is This Love",
+      "aliases_artista": [
+        "Whitesnake"
+      ],
+      "aliases_titulo": [
+        "Is This Love"
+      ],
+      "anio": 1987,
+      "texto": "Whitesnake bajó la intensidad del hard rock y encontró una balada monumental sostenida por guitarras amplias y la voz de David Coverdale.",
+      "cierre": "La pregunta era sencilla; la producción hizo que sonara gigantesca.",
+      "slug": "whitesnake-is-this-love",
+      "imagen": "img/archivo/whitesnake-is-this-love.jpg",
+      "album": "Whitesnake",
+      "sello": "Geffen / EMI",
+      "single": "Is This Love",
+      "catalogo": "",
+      "duracion": "4:44 aprox.",
+      "compositor": "David Coverdale · John Sykes",
+      "productor": "Mike Stone · Keith Olsen",
+      "voz_principal": "David Coverdale",
+      "historia": "Compuesta por David Coverdale y John Sykes, apareció en el álbum Whitesnake de 1987. Fue uno de los mayores éxitos comerciales del grupo y se convirtió en una balada esencial del rock de estadio.",
+      "quienes_er_an": "Whitesnake es una banda británica fundada por David Coverdale después de su paso por Deep Purple. Durante los ochenta evolucionó desde el blues rock hacia un sonido más pulido y masivo.",
+      "musicos": [
+        "David Coverdale — voz",
+        "John Sykes — guitarra y composición",
+        "Neil Murray — bajo",
+        "Aynsley Dunbar — batería",
+        "Mike Stone y Keith Olsen — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº2",
+        "Reino Unido — Top 10"
+      ],
+      "sabias_que": [
+        "Fue escrita originalmente mientras se consideraba ofrecerla a Tina Turner.",
+        "El video tuvo una fuerte rotación en MTV.",
+        "Es uno de los mayores éxitos de Whitesnake."
+      ],
+      "por_que_recordarlo": "Porque muestra cómo una banda pesada podía conservar identidad y, al mismo tiempo, construir una canción romántica de alcance universal.",
+      "recuerdo_personal": "",
+      "tipo_artista": "banda"
+    },
+    {
+      "artista": "Whodini",
+      "titulo": "Magic's Wand",
+      "aliases_artista": [
+        "Whodini"
+      ],
+      "aliases_titulo": [
+        "Magic's Wand"
+      ],
+      "anio": 1982,
+      "texto": "Antes de que el rap dominara las listas, Whodini ya combinaba rimas, cajas de ritmos y sintetizadores con una producción abiertamente futurista.",
+      "cierre": "La varita mágica era, en realidad, una máquina de ritmos y una idea adelantada a su tiempo.",
+      "slug": "whodini-magics-wand",
+      "imagen": "img/archivo/whodini-magics-wand.jpg",
+      "album": "Whodini",
+      "sello": "Jive",
+      "single": "Magic’s Wand",
+      "catalogo": "",
+      "duracion": "5:38 aprox.",
+      "compositor": "Jalil Hutchins · John Fletcher · Thomas Dolby",
+      "productor": "Thomas Dolby",
+      "voz_principal": "Jalil Hutchins · Ecstasy",
+      "historia": "Publicada en 1982, fue una de las primeras grabaciones de rap acompañadas por un video musical. Thomas Dolby participó en la producción, aportando una textura electrónica que distinguió al grupo desde el comienzo.",
+      "quienes_er_an": "Whodini fue un grupo estadounidense de hip-hop formado en Brooklyn por Jalil Hutchins, John “Ecstasy” Fletcher y DJ Grandmaster Dee.",
+      "musicos": [
+        "Jalil Hutchins — voz",
+        "John “Ecstasy” Fletcher — voz",
+        "Thomas Dolby — producción y sintetizadores"
+      ],
+      "ranking": [
+        "Estados Unidos — difusión en listas R&B y clubes",
+        "Reino Unido — presencia temprana del hip-hop en medios"
+      ],
+      "sabias_que": [
+        "Thomas Dolby produjo la canción.",
+        "Fue una de las primeras canciones de rap con videoclip promocional.",
+        "El título alude a la figura del DJ Mr. Magic."
+      ],
+      "por_que_recordarlo": "Porque permite escuchar al hip-hop cuando todavía estaba definiendo cómo sonar en un estudio y cómo presentarse visualmente al mundo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "X-Ray Connection",
+      "titulo": "Get Ready",
+      "aliases_artista": [
+        "X-Ray Connection"
+      ],
+      "aliases_titulo": [
+        "Get Ready"
+      ],
+      "anio": 1984,
+      "texto": "Get Ready combina una base mecánica, melodía inmediata y energía de club en uno de los ejemplos más directos del Italo disco internacional.",
+      "cierre": "El aviso del título era correcto: había que prepararse para bailar.",
+      "slug": "x-ray-connection-get-ready",
+      "imagen": "img/archivo/x-ray-connection-get-ready.jpg",
+      "album": "Get Ready",
+      "sello": "Break Records / ZYX",
+      "single": "Get Ready",
+      "catalogo": "",
+      "duracion": "6:55 aprox. versión 12\"",
+      "compositor": "Roberto Zanetti",
+      "productor": "Roberto Zanetti",
+      "voz_principal": "X-Ray Connection",
+      "historia": "Publicada a mediados de los ochenta, la canción circuló principalmente en formato maxi-single. Su producción se asocia a la escuela italiana de sintetizadores, secuencias repetitivas y voces tratadas para la pista.",
+      "quienes_er_an": "X-Ray Connection fue un proyecto de estudio europeo ligado al Italo disco. Como muchos proyectos del género, su identidad se concentró más en la grabación y la producción que en una formación estable.",
+      "musicos": [
+        "Voz de estudio — interpretación",
+        "Roberto Zanetti — composición y producción",
+        "Músicos de sesión — sintetizadores y programación"
+      ],
+      "ranking": [
+        "Difusión en clubes europeos",
+        "Presencia en compilaciones de Italo disco"
+      ],
+      "sabias_que": [
+        "La versión extendida fue la edición principal para DJs.",
+        "El proyecto es recordado sobre todo por esta canción.",
+        "Su sonido se encuadra en la etapa clásica del Italo disco."
+      ],
+      "por_que_recordarlo": "Porque conserva la esencia funcional y emotiva del Italo disco: una máquina repetitiva que termina produciendo un recuerdo muy humano.",
+      "recuerdo_personal": "",
+      "tipo_artista": "proyecto"
+    },
+    {
+      "artista": "Yarbrough & Peoples",
+      "titulo": "Don't Stop the Music",
+      "aliases_artista": [
+        "Yarbrough & Peoples",
+        "Yardbrough Peoples"
+      ],
+      "aliases_titulo": [
+        "Don't Stop the Music"
+      ],
+      "anio": 1980,
+      "texto": "Una línea de bajo sintetizada, palmas y voces en diálogo hicieron de Don’t Stop the Music uno de los puentes fundamentales entre funk, disco y boogie.",
+      "cierre": "La orden del título sigue vigente: no detener la música.",
+      "slug": "yarbrough-and-peoples-dont-stop-the-music",
+      "imagen": "img/archivo/yarbrough-and-peoples-dont-stop-the-music.jpg",
+      "album": "The Two of Us",
+      "sello": "Mercury / Total Experience",
+      "single": "Don't Stop the Music",
+      "catalogo": "",
+      "duracion": "7:49 aprox. versión álbum/12\"",
+      "compositor": "Jonah Ellis · Lonnie Simmons · Alisa Peoples · Cavin Yarbrough",
+      "productor": "Lonnie Simmons",
+      "voz_principal": "Cavin Yarbrough · Alisa Peoples",
+      "historia": "Publicada en 1980, fue producida por Lonnie Simmons y se convirtió en el gran éxito del dúo. Alcanzó el Nº1 de la lista R&B estadounidense y se consolidó como una referencia del boogie temprano.",
+      "quienes_er_an": "Yarbrough & Peoples fue un dúo estadounidense formado por Cavin Yarbrough y Alisa Peoples. Su sonido se desarrolló dentro del entorno de Total Experience, también asociado a The Gap Band.",
+      "musicos": [
+        "Cavin Yarbrough — voz y teclados",
+        "Alisa Peoples — voz",
+        "Lonnie Simmons — producción",
+        "Jonah Ellis — composición"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard R&B: Nº1",
+        "Estados Unidos — Billboard Hot 100: Top 20",
+        "Reino Unido — Top 10"
+      ],
+      "sabias_que": [
+        "Fue el mayor éxito del dúo.",
+        "La producción de Lonnie Simmons conecta el tema con el universo de The Gap Band.",
+        "La versión extendida supera los siete minutos."
+      ],
+      "por_que_recordarlo": "Porque su bajo sintetizado y su estructura vocal anticiparon gran parte del sonido dance y R&B de los primeros ochenta.",
+      "recuerdo_personal": "",
+      "tipo_artista": "dúo"
+    },
+    {
+      "artista": "Yazoo",
+      "titulo": "Bad Connection",
+      "aliases_artista": [
+        "Yazoo"
+      ],
+      "aliases_titulo": [
+        "Bad Connection"
+      ],
+      "anio": 1982,
+      "texto": "Una llamada que no llega, cables defectuosos y una voz aislada: Yazoo convirtió un problema técnico en una pequeña tragedia electrónica.",
+      "cierre": "A veces la distancia no se mide en kilómetros, sino en una línea que no conecta.",
+      "slug": "yazoo-bad-connection",
+      "imagen": "img/archivo/yazoo-bad-connection.jpg",
+      "album": "Upstairs at Eric’s",
+      "sello": "Mute",
+      "single": "Bad Connection",
+      "catalogo": "",
+      "duracion": "3:20 aprox.",
+      "compositor": "Vince Clarke",
+      "productor": "Eric Radcliffe · Yazoo",
+      "voz_principal": "Alison Moyet",
+      "historia": "Incluida en Upstairs at Eric’s, Bad Connection utiliza la incomunicación telefónica como metáfora emocional. El arreglo minimalista de Vince Clarke deja espacio para que la voz de Alison Moyet lleve toda la tensión narrativa.",
+      "quienes_er_an": "Yazoo fue el dúo británico formado por Vince Clarke y Alison Moyet. Su unión breve produjo dos álbumes fundamentales del synth-pop temprano.",
+      "musicos": [
+        "Alison Moyet — voz",
+        "Vince Clarke — composición y sintetizadores",
+        "Eric Radcliffe — producción e ingeniería"
+      ],
+      "ranking": [
+        "Tema de álbum con amplia difusión posterior",
+        "Presencia constante en recopilaciones de Yazoo"
+      ],
+      "sabias_que": [
+        "El MP3 revisado tenía el título interno Only You, pero el audio corresponde a Bad Connection.",
+        "La letra gira alrededor de una línea telefónica averiada.",
+        "Pertenece al álbum debut Upstairs at Eric’s."
+      ],
+      "por_que_recordarlo": "Porque transforma una situación cotidiana en una imagen universal de incomunicación y demuestra cuánto podía expresar Yazoo con muy pocos elementos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "dúo"
+    },
+    {
+      "artista": "Yazoo",
+      "titulo": "Situation",
+      "aliases_artista": [
+        "Yazoo"
+      ],
+      "aliases_titulo": [
+        "Situation"
+      ],
+      "anio": 1982,
+      "texto": "Una risa sampleada, un bajo sintético urgente y la voz de Alison Moyet convirtieron a Situation en un clásico absoluto de clubes.",
+      "cierre": "La situación cambió muchas veces; el groove nunca perdió vigencia.",
+      "slug": "yazoo-situation",
+      "imagen": "img/archivo/yazoo-situation.jpg",
+      "album": "Upstairs at Eric’s / sencillo independiente en Estados Unidos",
+      "sello": "Mute / Sire",
+      "single": "Situation",
+      "catalogo": "",
+      "duracion": "5:45 aprox. versión 12\"",
+      "compositor": "Vince Clarke · Alison Moyet",
+      "productor": "Eric Radcliffe · Yazoo",
+      "voz_principal": "Alison Moyet",
+      "historia": "Originalmente apareció como cara B de Only You en Reino Unido, pero una remezcla de François Kevorkian impulsó su edición estadounidense y la convirtió en un gran éxito dance. Su risa inicial se volvió uno de los sonidos más reconocibles del synth-pop.",
+      "quienes_er_an": "Yazoo reunió la escritura electrónica de Vince Clarke con la voz soul y blues de Alison Moyet. Esa tensión entre máquina y humanidad definió su identidad.",
+      "musicos": [
+        "Alison Moyet — voz y composición",
+        "Vince Clarke — sintetizadores y composición",
+        "Eric Radcliffe — producción",
+        "François Kevorkian — remezcla estadounidense"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Dance: Nº1",
+        "Reino Unido — publicada inicialmente como cara B"
+      ],
+      "sabias_que": [
+        "Comenzó como cara B de Only You.",
+        "La remezcla de François Kevorkian fue decisiva para su éxito.",
+        "La risa inicial fue sampleada y reutilizada en numerosas grabaciones posteriores."
+      ],
+      "por_que_recordarlo": "Porque resume la capacidad de Yazoo para crear música electrónica austera, física y emocional al mismo tiempo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "dúo"
     }
   ]
 }
