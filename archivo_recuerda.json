@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-09-04",
+  "ultima_actualizacion": "2026-09-05",
   "fichas": [
     {
       "artista": "Night",
@@ -23251,6 +23251,524 @@
       "por_que_recordarlo": "Porque resume la capacidad de Yazoo para crear música electrónica austera, física y emocional al mismo tiempo.",
       "recuerdo_personal": "",
       "tipo_artista": "dúo"
+    },
+    {
+      "artista": "10cc",
+      "titulo": "I'm Not in Love",
+      "aliases_artista": [
+        "10cc",
+        "10 CC",
+        "10 C.C."
+      ],
+      "aliases_titulo": [
+        "I'm Not in Love",
+        "Im Not in Love",
+        "I'm Not In Love"
+      ],
+      "anio": 1975,
+      "texto": "Un colchón de voces casi infinito, un pulso mínimo y una letra que niega el amor mientras lo delata con cada frase hicieron de I'm Not in Love una de las baladas más singulares de los años setenta.",
+      "cierre": "Decía que no estaba enamorado; medio siglo después, la canción sigue demostrando exactamente lo contrario.",
+      "slug": "10cc-im-not-in-love",
+      "imagen": "img/archivo/10cc-im-not-in-love.jpg",
+      "album": "The Original Soundtrack",
+      "sello": "Mercury",
+      "single": "I'm Not in Love",
+      "catalogo": "",
+      "duracion": "6:07 aprox. versión de álbum",
+      "compositor": "Eric Stewart · Graham Gouldman",
+      "productor": "10cc",
+      "voz_principal": "Eric Stewart",
+      "historia": "El tema nació como una composición más convencional, pero el grupo la reconstruyó alrededor de enormes capas de voces grabadas y sostenidas como si fueran un instrumento. El resultado apareció en The Original Soundtrack en 1975 y se convirtió en uno de los grandes éxitos internacionales de 10cc.",
+      "quienes_er_an": "10cc reunía a Eric Stewart, Graham Gouldman, Kevin Godley y Lol Creme, cuatro músicos, compositores y productores británicos cuya identidad combinaba pop, experimentación de estudio, humor e ingeniería sonora.",
+      "musicos": [
+        "Eric Stewart — voz principal, piano eléctrico y composición",
+        "Graham Gouldman — bajo, guitarra, coros y composición",
+        "Kevin Godley — coros y sintetizador Moog",
+        "Lol Creme — piano y coros",
+        "Kathy Redfern — voz susurrada"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1",
+        "Estados Unidos — Billboard Hot 100: Nº2"
+      ],
+      "sabias_que": [
+        "La textura coral se construyó con múltiples capas de voces utilizadas como notas sostenidas.",
+        "La voz femenina susurrada pertenece a Kathy Redfern, secretaria del estudio Strawberry.",
+        "La versión del álbum supera los seis minutos."
+      ],
+      "por_que_recordarlo": "Porque convirtió el estudio de grabación en un instrumento y creó una atmósfera que todavía resulta inmediatamente reconocible.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "38 Special",
+      "titulo": "Second Chance",
+      "aliases_artista": [
+        "38 Special",
+        ".38 Special",
+        "38 Special"
+      ],
+      "aliases_titulo": [
+        "Second Chance"
+      ],
+      "anio": 1988,
+      "texto": "Second Chance mostró el costado más melódico de 38 Special: una balada de rock adulto sobre pedir otra oportunidad cuando una relación parece haber llegado al final.",
+      "cierre": "Una segunda oportunidad terminó siendo el mayor cruce pop de toda la carrera de la banda.",
+      "slug": "38-special-second-chance",
+      "imagen": "img/archivo/38-special-second-chance.jpg",
+      "album": "Rock & Roll Strategy",
+      "sello": "A&M",
+      "single": "Second Chance",
+      "catalogo": "",
+      "duracion": "5:04 aprox. versión de álbum",
+      "compositor": "Max Carl · Jeff Carlisi · Cal Curtis",
+      "productor": "Rodney Mills",
+      "voz_principal": "Max Carl",
+      "historia": "Compuesta por Max Carl, Jeff Carlisi y Cal Curtis, fue incluida en Rock & Roll Strategy. Con Max Carl como voz principal, se apartó parcialmente del southern rock más característico del grupo y alcanzó una audiencia pop y adulta mucho más amplia.",
+      "quienes_er_an": "38 Special nació en Jacksonville, Florida, y construyó su identidad mezclando southern rock con un sonido radial cada vez más melódico durante los años ochenta.",
+      "musicos": [
+        "Max Carl — voz principal y teclados",
+        "Jeff Carlisi — guitarra y composición",
+        "Donnie Van Zant — voz",
+        "Danny Chauncey — guitarra",
+        "Larry Junstrom — bajo",
+        "Jack Grondin — batería",
+        "Rodney Mills — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº6",
+        "Estados Unidos — Adult Contemporary: Nº1",
+        "Estados Unidos — Mainstream Rock: Nº2"
+      ],
+      "sabias_que": [
+        "Fue el sencillo de 38 Special que llegó más alto en el Billboard Hot 100.",
+        "Max Carl asumió la voz principal.",
+        "Existe una versión de álbum de unos cinco minutos y una edición de sencillo de alrededor de 4:33."
+      ],
+      "por_que_recordarlo": "Porque demuestra cómo una banda identificada con el southern rock pudo crear una de las grandes baladas radiales de fines de los ochenta.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Air Supply",
+      "titulo": "All Out of Love",
+      "aliases_artista": [
+        "Air Supply"
+      ],
+      "aliases_titulo": [
+        "All Out of Love"
+      ],
+      "anio": 1980,
+      "texto": "All Out of Love convirtió la desesperación amorosa en una de las baladas más reconocibles de comienzos de los ochenta, sostenida por la voz aguda de Russell Hitchcock y la escritura melódica de Graham Russell.",
+      "cierre": "Cuando ya no queda amor, a veces queda una canción capaz de atravesar décadas.",
+      "slug": "air-supply-all-out-of-love",
+      "imagen": "img/archivo/air-supply-all-out-of-love.jpg",
+      "album": "Lost in Love",
+      "sello": "Arista",
+      "single": "All Out of Love",
+      "catalogo": "",
+      "duracion": "4:04 aprox. versión de álbum",
+      "compositor": "Graham Russell · Clive Davis",
+      "productor": "Robie Porter",
+      "voz_principal": "Russell Hitchcock",
+      "historia": "La canción fue escrita originalmente por Graham Russell y luego trabajada con Clive Davis para su lanzamiento internacional. Formó parte de Lost in Love y en 1980 llevó a Air Supply hasta los primeros puestos de las listas estadounidenses.",
+      "quienes_er_an": "Air Supply es el dúo australiano-británico formado alrededor del cantante Russell Hitchcock y el compositor, cantante y guitarrista Graham Russell. Su especialidad fueron las baladas de armonías limpias y grandes melodías.",
+      "musicos": [
+        "Russell Hitchcock — voz principal",
+        "Graham Russell — guitarra, coros y composición",
+        "David Moyse — guitarra, bajo y coros",
+        "Frank Esler-Smith — teclados",
+        "Ralph Cooper — batería",
+        "Robie Porter — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº2",
+        "Reino Unido — Top 20"
+      ],
+      "sabias_que": [
+        "Clive Davis participó en la escritura de la versión definitiva.",
+        "Fue uno de los temas que consolidaron el éxito internacional de Air Supply.",
+        "La grabación original pertenece al álbum Lost in Love."
+      ],
+      "por_que_recordarlo": "Porque es una de esas baladas donde melodía, interpretación y emoción funcionan sin necesidad de artificios.",
+      "recuerdo_personal": "",
+      "tipo_artista": "dúo"
+    },
+    {
+      "artista": "A-Ha",
+      "titulo": "Stay on These Roads",
+      "aliases_artista": [
+        "A-Ha",
+        "a-ha",
+        "A-ha"
+      ],
+      "aliases_titulo": [
+        "Stay on These Roads",
+        "Stay On These Roads"
+      ],
+      "anio": 1988,
+      "texto": "Stay on These Roads cambió la velocidad del synth-pop por una atmósfera amplia y melancólica, con Morten Harket llevando la melodía desde la fragilidad hasta uno de esos estribillos hechos para ser cantados en multitud.",
+      "cierre": "Hay caminos que uno abandona; éste sigue llevando directamente a 1988.",
+      "slug": "a-ha-stay-on-these-roads",
+      "imagen": "img/archivo/a-ha-stay-on-these-roads.jpg",
+      "album": "Stay on These Roads",
+      "sello": "Warner Bros.",
+      "single": "Stay on These Roads",
+      "catalogo": "",
+      "duracion": "4:45 aprox.",
+      "compositor": "Pål Waaktaar · Magne Furuholmen · Morten Harket",
+      "productor": "Alan Tarney",
+      "voz_principal": "Morten Harket",
+      "historia": "Fue el tema que dio nombre al tercer álbum de a-ha. Los tres integrantes participaron en su composición y Alan Tarney produjo la grabación. Lanzada como sencillo en 1988, alcanzó importantes posiciones europeas y se convirtió en una pieza estable del repertorio en vivo del grupo.",
+      "quienes_er_an": "a-ha estaba formado por Morten Harket, Pål Waaktaar y Magne Furuholmen. Para 1988 ya habían superado la etiqueta de fenómeno asociado solamente a Take on Me y sostenían una carrera internacional con una identidad más madura.",
+      "musicos": [
+        "Morten Harket — voz y composición",
+        "Pål Waaktaar — guitarra y composición",
+        "Magne Furuholmen — teclados y composición",
+        "Alan Tarney — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº5",
+        "Noruega — Nº1",
+        "Francia — Nº3",
+        "Alemania Occidental — Nº7"
+      ],
+      "sabias_que": [
+        "Los tres integrantes figuran como compositores.",
+        "El tema continúa siendo uno de los puntos fuertes de sus conciertos.",
+        "El álbum homónimo fue el tercero de estudio de a-ha."
+      ],
+      "por_que_recordarlo": "Porque captura el lado más solemne y emocional de a-ha sin perder la elegancia electrónica que definió al grupo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Barbra Streisand",
+      "titulo": "Woman in Love",
+      "aliases_artista": [
+        "Barbra Streisand",
+        "Barbara Streisand"
+      ],
+      "aliases_titulo": [
+        "Woman in Love"
+      ],
+      "anio": 1980,
+      "texto": "Barry y Robin Gibb escribieron una melodía enorme y Barbra Streisand la convirtió en una declaración absoluta: Woman in Love es pop adulto de gran producción, pero su centro sigue siendo una voz capaz de sostener cada emoción.",
+      "cierre": "Una gran canción encontró una gran voz, y ninguna de las dos necesitó pedir permiso.",
+      "slug": "barbra-streisand-woman-in-love",
+      "imagen": "img/archivo/barbra-streisand-woman-in-love.jpg",
+      "album": "Guilty",
+      "sello": "Columbia",
+      "single": "Woman in Love",
+      "catalogo": "",
+      "duracion": "3:50 aprox.",
+      "compositor": "Barry Gibb · Robin Gibb",
+      "productor": "Barry Gibb · Albhy Galuten · Karl Richardson",
+      "voz_principal": "Barbra Streisand",
+      "historia": "Grabada para Guilty, la colaboración de Streisand con Barry Gibb, Woman in Love fue escrita por Barry y Robin Gibb y producida dentro del equipo que dio forma al álbum. Publicada en 1980, se transformó en uno de los mayores éxitos internacionales de Streisand.",
+      "quienes_er_an": "Barbra Streisand ya era una figura central de la música, el cine y el teatro estadounidense cuando grabó Guilty. Su encuentro con el universo compositivo de los hermanos Gibb produjo una de las etapas pop más exitosas de su carrera.",
+      "musicos": [
+        "Barbra Streisand — voz principal",
+        "Barry Gibb — composición, guitarra, arreglos y producción",
+        "Robin Gibb — composición",
+        "Richard Tee — piano",
+        "Steve Gadd — batería",
+        "Pete Carr — guitarra",
+        "Albhy Galuten — producción",
+        "Karl Richardson — producción e ingeniería"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Nº1"
+      ],
+      "sabias_que": [
+        "Barry y Robin Gibb escribieron la canción.",
+        "Forma parte del álbum Guilty.",
+        "Barry Gibb también participó activamente en la producción y los arreglos del proyecto."
+      ],
+      "por_que_recordarlo": "Porque reúne dos universos enormes —Streisand y los Gibb— en una balada que terminó perteneciendo a ambos.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Bee Gees",
+      "titulo": "Don't Forget to Remember",
+      "aliases_artista": [
+        "Bee Gees",
+        "The Bee Gees"
+      ],
+      "aliases_titulo": [
+        "Don't Forget to Remember",
+        "Dont Forget to Remember",
+        "Don't Forget To Remember"
+      ],
+      "anio": 1969,
+      "texto": "Con aire country, guitarra acústica y una interpretación contenida de Barry Gibb, Don't Forget to Remember muestra una cara de Bee Gees muy distinta de la que años después dominaría las pistas de baile.",
+      "cierre": "Antes del falsete y las luces de discoteca, también hubo una fotografía en la pared y un amor imposible de olvidar.",
+      "slug": "bee-gees-dont-forget-to-remember",
+      "imagen": "img/archivo/bee-gees-dont-forget-to-remember.jpg",
+      "album": "Cucumber Castle",
+      "sello": "Polydor / Atco",
+      "single": "Don't Forget to Remember",
+      "catalogo": "",
+      "duracion": "3:28 aprox.",
+      "compositor": "Barry Gibb · Maurice Gibb",
+      "productor": "Robert Stigwood · Bee Gees",
+      "voz_principal": "Barry Gibb",
+      "historia": "Barry y Maurice Gibb escribieron esta balada durante el período en que Robin se había apartado temporalmente del grupo. Publicada como sencillo en 1969 y luego incluida en Cucumber Castle, incorporó abiertamente elementos country al sonido de Bee Gees.",
+      "quienes_er_an": "Bee Gees estaba formado por los hermanos Barry, Robin y Maurice Gibb. Mucho antes de su etapa disco ya habían construido una carrera internacional basada en armonías vocales, baladas, pop barroco y una extraordinaria capacidad compositiva.",
+      "musicos": [
+        "Barry Gibb — voz principal, guitarra acústica y composición",
+        "Maurice Gibb — armonías, bajo, piano, guitarra, Mellotron y composición",
+        "Colin Petersen — batería",
+        "Robert Stigwood — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº2",
+        "Irlanda — Nº1"
+      ],
+      "sabias_que": [
+        "Fue escrita por Barry y Maurice Gibb.",
+        "La grabación pertenece al período en que Robin Gibb estaba fuera del grupo.",
+        "Cucumber Castle es el único álbum de Bee Gees sin Robin Gibb."
+      ],
+      "por_que_recordarlo": "Porque recuerda que la historia de Bee Gees fue mucho más amplia que la era disco y que también dominaron la balada con sabor country.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Bee Gees",
+      "titulo": "First of May",
+      "aliases_artista": [
+        "Bee Gees",
+        "The Bee Gees"
+      ],
+      "aliases_titulo": [
+        "First of May",
+        "First Of May"
+      ],
+      "anio": 1969,
+      "texto": "Un piano delicado, la voz de Barry y una orquesta que crece lentamente convierten First of May en una evocación de la infancia, el paso del tiempo y los amores que quedan asociados para siempre a una época.",
+      "cierre": "Los árboles parecen más pequeños cuando crecemos; algunos recuerdos, en cambio, se vuelven enormes.",
+      "slug": "bee-gees-first-of-may",
+      "imagen": "img/archivo/bee-gees-first-of-may.jpg",
+      "album": "Odessa",
+      "sello": "Polydor / Atco",
+      "single": "First of May",
+      "catalogo": "",
+      "duracion": "2:49 aprox.",
+      "compositor": "Barry Gibb · Robin Gibb · Maurice Gibb",
+      "productor": "Robert Stigwood · Bee Gees",
+      "voz_principal": "Barry Gibb",
+      "historia": "Grabada para el ambicioso álbum doble Odessa, fue elegida como sencillo en 1969. Barry contó que el título estaba relacionado con el cumpleaños de su perro Barnaby. La elección de First of May sobre Lamplight como cara principal también quedó ligada a las tensiones que precedieron a la salida temporal de Robin.",
+      "quienes_er_an": "Bee Gees estaba formado por los hermanos Barry, Robin y Maurice Gibb. Mucho antes de su etapa disco ya habían construido una carrera internacional basada en armonías vocales, baladas, pop barroco y una extraordinaria capacidad compositiva.",
+      "musicos": [
+        "Barry Gibb — voz principal",
+        "Maurice Gibb — bajo y piano",
+        "Robin Gibb — composición",
+        "Bill Shepherd — arreglos y dirección orquestal",
+        "Robert Stigwood — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº6",
+        "Países Bajos — Nº1"
+      ],
+      "sabias_que": [
+        "El título surgió del cumpleaños del perro de Barry Gibb, Barnaby.",
+        "Fue el sencillo principal extraído de Odessa.",
+        "Su elección sobre Lamplight estuvo vinculada a una etapa de fuertes tensiones internas."
+      ],
+      "por_que_recordarlo": "Porque convierte una imagen sencilla de infancia y crecimiento en una de las baladas más elegantes de la primera época de Bee Gees.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Bee Gees",
+      "titulo": "How Deep Is Your Love",
+      "aliases_artista": [
+        "Bee Gees",
+        "The Bee Gees"
+      ],
+      "aliases_titulo": [
+        "How Deep Is Your Love",
+        "How Deep is Your Love"
+      ],
+      "anio": 1977,
+      "texto": "Suave, íntima y casi flotante, How Deep Is Your Love demostró que en plena explosión disco Bee Gees todavía podía detener el ritmo y construir una balada perfecta alrededor de armonías vocales imposibles de confundir.",
+      "cierre": "En medio de la fiebre del sábado por la noche también había lugar para preguntar, simplemente, cuán profundo es tu amor.",
+      "slug": "bee-gees-how-deep-is-your-love",
+      "imagen": "img/archivo/bee-gees-how-deep-is-your-love.jpg",
+      "album": "Saturday Night Fever — The Original Movie Sound Track",
+      "sello": "RSO",
+      "single": "How Deep Is Your Love",
+      "catalogo": "",
+      "duracion": "4:05 aprox.",
+      "compositor": "Barry Gibb · Robin Gibb · Maurice Gibb",
+      "productor": "Bee Gees · Albhy Galuten · Karl Richardson",
+      "voz_principal": "Barry Gibb",
+      "historia": "Escrita por los tres hermanos Gibb y grabada en 1977, fue incorporada a la banda sonora de Saturday Night Fever. Alcanzó el Nº1 estadounidense y permaneció durante semanas entre las canciones más populares, convirtiéndose en una de las baladas emblemáticas del grupo.",
+      "quienes_er_an": "Barry, Robin y Maurice Gibb llevaban años reinventándose cuando Saturday Night Fever los convirtió en símbolos globales de la era disco. Sus armonías y composición, sin embargo, seguían siendo el verdadero centro de su sonido.",
+      "musicos": [
+        "Barry Gibb — voz principal, guitarra y composición",
+        "Robin Gibb — armonías y composición",
+        "Maurice Gibb — armonías, bajo/teclados y composición",
+        "Albhy Galuten — producción",
+        "Karl Richardson — producción e ingeniería"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Nº3"
+      ],
+      "sabias_que": [
+        "Fue escrita por Barry, Robin y Maurice Gibb.",
+        "Formó parte de la banda sonora de Saturday Night Fever.",
+        "Su éxito mostró el costado de balada del mismo período que produjo Stayin' Alive y Night Fever."
+      ],
+      "por_que_recordarlo": "Porque es una de las demostraciones más puras del arte vocal y melódico de Bee Gees.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Bee Gees",
+      "titulo": "I Started a Joke",
+      "aliases_artista": [
+        "Bee Gees",
+        "The Bee Gees"
+      ],
+      "aliases_titulo": [
+        "I Started a Joke",
+        "I Started A Joke"
+      ],
+      "anio": 1968,
+      "texto": "Robin Gibb lleva I Started a Joke como una confesión extraña y melancólica: una melodía sencilla que crece hasta convertir la culpa, la incomprensión y la soledad en uno de los momentos más memorables del primer Bee Gees.",
+      "cierre": "Empezó como una broma; terminó siendo una de esas canciones que nadie olvida.",
+      "slug": "bee-gees-i-started-a-joke",
+      "imagen": "img/archivo/bee-gees-i-started-a-joke.jpg",
+      "album": "Idea",
+      "sello": "Polydor / Atco",
+      "single": "I Started a Joke",
+      "catalogo": "",
+      "duracion": "3:08 aprox.",
+      "compositor": "Barry Gibb · Robin Gibb · Maurice Gibb",
+      "productor": "Robert Stigwood · Bee Gees",
+      "voz_principal": "Robin Gibb",
+      "historia": "Compuesta por los tres hermanos y publicada en Idea en 1968, quedó marcada por la interpretación de Robin. Él contó años después una historia humorística sobre cómo la melodía pareció surgir del sonido de los motores durante un vuelo, una anécdota que se volvió parte del mito de la canción.",
+      "quienes_er_an": "Bee Gees estaba formado por los hermanos Barry, Robin y Maurice Gibb. Mucho antes de su etapa disco ya habían construido una carrera internacional basada en armonías vocales, baladas, pop barroco y una extraordinaria capacidad compositiva.",
+      "musicos": [
+        "Robin Gibb — voz principal y composición",
+        "Barry Gibb — composición y armonías",
+        "Maurice Gibb — composición, bajo y teclados",
+        "Vince Melouney — guitarra",
+        "Colin Petersen — batería",
+        "Robert Stigwood — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº6",
+        "Canadá — Nº1"
+      ],
+      "sabias_que": [
+        "Robin Gibb cantó la voz principal.",
+        "La canción forma parte del álbum Idea.",
+        "Robin relató que la inspiración melódica apareció durante un vuelo, al escuchar el zumbido de los motores."
+      ],
+      "por_que_recordarlo": "Porque condensa en pocos minutos la melancolía, las armonías y la sensibilidad narrativa que definieron la primera gran etapa internacional de Bee Gees.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Bee Gees",
+      "titulo": "Massachusetts",
+      "aliases_artista": [
+        "Bee Gees",
+        "The Bee Gees"
+      ],
+      "aliases_titulo": [
+        "Massachusetts",
+        "(The Lights Went Out In) Massachusetts",
+        "Massachussetts"
+      ],
+      "anio": 1967,
+      "texto": "Massachusetts convirtió la nostalgia por un lugar en una melodía universal. Curiosamente, los hermanos Gibb ni siquiera habían estado allí cuando la escribieron: les atraía el sonido del nombre y la idea de alguien que añora regresar a casa.",
+      "cierre": "Ni siquiera hacía falta conocer Massachusetts para sentir ganas de volver.",
+      "slug": "bee-gees-massachusetts",
+      "imagen": "img/archivo/bee-gees-massachusetts.jpg",
+      "album": "Horizontal",
+      "sello": "Polydor / Atco",
+      "single": "Massachusetts",
+      "catalogo": "",
+      "duracion": "2:26 aprox.",
+      "compositor": "Barry Gibb · Robin Gibb · Maurice Gibb",
+      "productor": "Robert Stigwood · Ossie Byrne",
+      "voz_principal": "Robin Gibb",
+      "historia": "Los hermanos escribieron la canción en 1967 mientras estaban en Nueva York y originalmente imaginaron que podría ser interpretada por The Seekers. Finalmente la grabaron ellos mismos. Se convirtió en el primer Nº1 de Bee Gees en el Reino Unido y luego fue incluida en Horizontal.",
+      "quienes_er_an": "Bee Gees estaba formado por los hermanos Barry, Robin y Maurice Gibb. Mucho antes de su etapa disco ya habían construido una carrera internacional basada en armonías vocales, baladas, pop barroco y una extraordinaria capacidad compositiva.",
+      "musicos": [
+        "Robin Gibb — voz principal",
+        "Barry Gibb — guitarra, armonías y composición",
+        "Maurice Gibb — bajo, teclados, armonías y composición",
+        "Vince Melouney — guitarra",
+        "Colin Petersen — batería"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1",
+        "Alemania — Nº1"
+      ],
+      "sabias_que": [
+        "Los hermanos Gibb no habían visitado Massachusetts cuando escribieron la canción.",
+        "Inicialmente pensaron en ofrecerla a The Seekers.",
+        "Fue el primer Nº1 de Bee Gees en el Reino Unido."
+      ],
+      "por_que_recordarlo": "Porque fue una de las canciones que transformó a Bee Gees en un fenómeno internacional antes de que comenzaran sus posteriores reinvenciones.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Bee Gees",
+      "titulo": "Words",
+      "aliases_artista": [
+        "Bee Gees",
+        "The Bee Gees"
+      ],
+      "aliases_titulo": [
+        "Words"
+      ],
+      "anio": 1968,
+      "texto": "Words se apoya en una idea elemental —las palabras pueden acercar o separar— y la convierte en una balada de enorme fuerza gracias a la voz de Barry, el piano y los arreglos orquestales.",
+      "cierre": "Al final, eran sólo palabras; pero en manos de Bee Gees alcanzaron para quedarse durante generaciones.",
+      "slug": "bee-gees-words",
+      "imagen": "img/archivo/bee-gees-words.jpg",
+      "album": "Sencillo independiente / Best of Bee Gees",
+      "sello": "Polydor / Atco",
+      "single": "Words",
+      "catalogo": "",
+      "duracion": "3:13 aprox.",
+      "compositor": "Barry Gibb · Robin Gibb · Maurice Gibb",
+      "productor": "Robert Stigwood · Bee Gees",
+      "voz_principal": "Barry Gibb",
+      "historia": "Grabada en 1967 y publicada como sencillo a comienzos de 1968, Words fue escrita por los tres hermanos Gibb. No perteneció originalmente a un álbum de estudio regular; más tarde quedó incorporada a recopilaciones fundamentales como Best of Bee Gees.",
+      "quienes_er_an": "Bee Gees estaba formado por los hermanos Barry, Robin y Maurice Gibb. Mucho antes de su etapa disco ya habían construido una carrera internacional basada en armonías vocales, baladas, pop barroco y una extraordinaria capacidad compositiva.",
+      "musicos": [
+        "Barry Gibb — voz principal y guitarra",
+        "Robin Gibb — armonías",
+        "Maurice Gibb — bajo, piano y Mellotron",
+        "Vince Melouney — guitarra",
+        "Colin Petersen — batería",
+        "Bill Shepherd — arreglo orquestal"
+      ],
+      "ranking": [
+        "Reino Unido — Nº8",
+        "Canadá — Nº1",
+        "Alemania Occidental — Nº1",
+        "Países Bajos — Nº1"
+      ],
+      "sabias_que": [
+        "Fue publicada originalmente como sencillo independiente.",
+        "Barry Gibb explicó que la canción estuvo asociada a su mánager Robert Stigwood.",
+        "Ha sido versionada por numerosos artistas."
+      ],
+      "por_que_recordarlo": "Porque demuestra cuánto podía conseguir Bee Gees con una melodía clara, una interpretación directa y una frase imposible de olvidar.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
     }
   ]
 }
