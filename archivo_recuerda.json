@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-09-05",
+  "ultima_actualizacion": "2026-09-06",
   "fichas": [
     {
       "artista": "Night",
@@ -23591,7 +23591,9 @@
       ],
       "aliases_titulo": [
         "How Deep Is Your Love",
-        "How Deep is Your Love"
+        "How Deep is Your Love",
+        "Que Profundo Es Tu Amor",
+        "Qué Profundo Es Tu Amor"
       ],
       "anio": 1977,
       "texto": "Suave, íntima y casi flotante, How Deep Is Your Love demostró que en plena explosión disco Bee Gees todavía podía detener el ritmo y construir una balada perfecta alrededor de armonías vocales imposibles de confundir.",
@@ -24193,6 +24195,421 @@
         "Su arreglo combina sintetizadores con una marcada sección de cuerdas."
       ],
       "por_que_recordarlo": "Porque muestra el costado más cinematográfico y romántico de Alphaville en plena edad dorada del synth-pop.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Avalanche",
+      "titulo": "Love Me, Please Love Me",
+      "aliases_artista": [
+        "Avalanche"
+      ],
+      "aliases_titulo": [
+        "Love Me, Please Love Me"
+      ],
+      "anio": 1991,
+      "texto": "Una lectura pop de la canción de Michel Polnareff que conserva su dramatismo francés y lo envuelve en la producción pulida de comienzos de los noventa.",
+      "cierre": "Una súplica nacida en los sesenta volvió a respirar con otra piel.",
+      "slug": "avalanche-love-me-please-love-me",
+      "imagen": "img/archivo/avalanche-love-me-please-love-me.jpg",
+      "album": "Westbound",
+      "sello": "Warner Music Germany",
+      "single": "Love Me, Please Love Me",
+      "catalogo": "",
+      "duracion": "6:02 aprox.",
+      "compositor": "Michel Polnareff · Frank Gérald",
+      "productor": "Vinton Hoover",
+      "voz_principal": "Kjetil Rosnes · Kirsti Johansen",
+      "historia": "La versión de Avalanche fue incluida en Westbound. La composición procede del clásico de Michel Polnareff, con letra de Frank Gérald; la grabación de Avalanche cuenta con producción de Vinton Hoover y arreglos del grupo junto a Jeopard y Werner Becker.",
+      "quienes_er_an": "Avalanche fue un proyecto pop noruego asociado a Kjetil Rosnes y Kirsti Johansen, activo internacionalmente entre fines de los ochenta y comienzos de los noventa.",
+      "musicos": [
+        "Kjetil Rosnes — voz",
+        "Kirsti Johansen — voz",
+        "Jeopard — teclados",
+        "Werner Becker — teclados",
+        "Franz Plasa — guitarra",
+        "Peter Weihe — guitarra",
+        "Nils Tuxen — dobro",
+        "Erlend Krauser — violín"
+      ],
+      "ranking": [],
+      "sabias_que": [
+        "Es una versión de una composición de Michel Polnareff y Frank Gérald.",
+        "La grabación figura en el álbum Westbound.",
+        "La versión disponible ronda los seis minutos."
+      ],
+      "por_que_recordarlo": "Porque conecta la canción francesa clásica con el pop europeo de comienzos de los noventa.",
+      "recuerdo_personal": "",
+      "tipo_artista": "dúo"
+    },
+    {
+      "artista": "Barbra Streisand & Barry Gibb",
+      "titulo": "Guilty",
+      "aliases_artista": [
+        "Barbra Streisand & Barry Gibb",
+        "Barbra Streisand With Barry Gibb",
+        "Barbra Streisand and Barry Gibb"
+      ],
+      "aliases_titulo": [
+        "Guilty"
+      ],
+      "anio": 1980,
+      "texto": "Dos voces inconfundibles se encuentran en una producción de seda: Barbra Streisand y Barry Gibb convierten Guilty en un diálogo romántico de enorme elegancia.",
+      "cierre": "Dos gigantes, una canción y ninguna necesidad de demostrar nada más.",
+      "slug": "barbra-streisand-and-barry-gibb-guilty",
+      "imagen": "img/archivo/barbra-streisand-and-barry-gibb-guilty.jpg",
+      "album": "Guilty",
+      "sello": "Columbia",
+      "single": "Guilty",
+      "catalogo": "",
+      "duracion": "4:24 aprox.",
+      "compositor": "Barry Gibb · Robin Gibb · Maurice Gibb",
+      "productor": "Barry Gibb · Albhy Galuten · Karl Richardson",
+      "voz_principal": "Barbra Streisand · Barry Gibb",
+      "historia": "Grabada en 1980 y publicada como sencillo del álbum Guilty, fue escrita por los tres hermanos Gibb. El dúo alcanzó el Nº3 del Billboard Hot 100 y obtuvo el Grammy a mejor interpretación vocal pop de dúo o grupo.",
+      "quienes_er_an": "Barbra Streisand unió su voz con Barry Gibb en uno de los grandes encuentros del pop adulto de 1980. Barry, Robin y Maurice Gibb aportaron la composición y el equipo Gibb-Galuten-Richardson definió la producción.",
+      "musicos": [
+        "Barbra Streisand — voz",
+        "Barry Gibb — voz, guitarra y producción",
+        "Richard Tee — piano eléctrico",
+        "George Bitzer — piano eléctrico",
+        "Harold Cowart — bajo",
+        "Steve Gadd — batería",
+        "George Terry — guitarra",
+        "Cornell Dupree — guitarra",
+        "Joe Lala — percusión"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº3",
+        "Estados Unidos — Adult Contemporary: Nº5",
+        "Reino Unido — Nº34"
+      ],
+      "sabias_que": [
+        "Fue escrita por Barry, Robin y Maurice Gibb.",
+        "Ganó un Grammy por la interpretación vocal del dúo.",
+        "El álbum Guilty llegó al Nº1 en Estados Unidos."
+      ],
+      "por_que_recordarlo": "Porque documenta uno de los cruces vocales más elegantes y exitosos de 1980.",
+      "recuerdo_personal": "",
+      "tipo_artista": "dúo"
+    },
+    {
+      "artista": "Benjamin Orr",
+      "titulo": "Stay the Night",
+      "aliases_artista": [
+        "Benjamin Orr"
+      ],
+      "aliases_titulo": [
+        "Stay the Night",
+        "Stay The Night"
+      ],
+      "anio": 1986,
+      "texto": "La voz que había dado vida a varios clásicos de The Cars se pone al frente de una balada nocturna de sintetizadores, guitarras y melodía impecable.",
+      "cierre": "Benjamin Orr pidió quedarse una noche y dejó una canción para décadas.",
+      "slug": "benjamin-orr-stay-the-night",
+      "imagen": "img/archivo/benjamin-orr-stay-the-night.jpg",
+      "album": "The Lace",
+      "sello": "Elektra",
+      "single": "Stay the Night",
+      "catalogo": "",
+      "duracion": "4:26 aprox.",
+      "compositor": "Benjamin Orr · Diane Grey Page",
+      "productor": "Benjamin Orr · Larry Klein · Mike Shipley",
+      "voz_principal": "Benjamin Orr",
+      "historia": "Fue el primer sencillo solista de Benjamin Orr, publicado en 1986 desde su único álbum en solitario, The Lace. Alcanzó el Nº24 del Billboard Hot 100 y el Nº2 de Adult Contemporary.",
+      "quienes_er_an": "Benjamin Orr fue bajista, cantante y miembro fundador de The Cars. Además de su trabajo con el grupo, publicó The Lace en 1986, su único álbum solista.",
+      "musicos": [
+        "Benjamin Orr — voz y bajo",
+        "Diane Grey Page — coros",
+        "Elliot Easton — guitarra eléctrica",
+        "Michael Landau — guitarra eléctrica",
+        "Larry Klein — teclados"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº24",
+        "Estados Unidos — Adult Contemporary: Nº2",
+        "Estados Unidos — Album Rock Tracks: Nº6"
+      ],
+      "sabias_que": [
+        "Fue el único Top 40 estadounidense de Orr como solista.",
+        "Elliot Easton, compañero de The Cars, participó en la guitarra.",
+        "Orr coescribió la canción con Diane Grey Page."
+      ],
+      "por_que_recordarlo": "Porque permite escuchar a una de las voces esenciales de The Cars fuera de la banda y en primer plano.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Boney M. & Bobby Farrell with The School Rebels",
+      "titulo": "Happy Song",
+      "aliases_artista": [
+        "Boney M. & Bobby Farrell with The School Rebels",
+        "Boney M. and Bobby Farrell with The School-Rebels",
+        "Boney M Babys Gang",
+        "Boney M. & Baby's Gang",
+        "Boney M."
+      ],
+      "aliases_titulo": [
+        "Happy Song"
+      ],
+      "anio": 1984,
+      "texto": "Breakdance, voces infantiles, rap y eurodisco: Happy Song fue una explosión deliberadamente festiva con la que Boney M. volvió al Top 10 alemán.",
+      "cierre": "Una canción feliz que no escondía el propósito: entrar, bailar y olvidarse del resto.",
+      "slug": "boney-m-and-babys-gang-happy-song",
+      "imagen": "img/archivo/boney-m-and-babys-gang-happy-song.jpg",
+      "album": "Kalimba de Luna – 16 Happy Songs",
+      "sello": "Hansa",
+      "single": "Happy Song",
+      "catalogo": "",
+      "duracion": "4:18 aprox. 7”; 8:12–8:30 aprox. maxi",
+      "compositor": "Ottavio Bacciocchi · Ivana Spagna · I. Abacab",
+      "productor": "Frank Farian",
+      "voz_principal": "Reggie Tsiboe · The School Rebels; rap de Bobby Farrell",
+      "historia": "Frank Farian adaptó en 1984 el éxito italiano de Baby's Gang de 1983. La versión vinculada a Boney M. fue acreditada de distintas maneras según el mercado, con Bobby Farrell y The School Rebels, y llegó al Nº7 en Alemania.",
+      "quienes_er_an": "La grabación pertenece a una etapa singular de Boney M.: Bobby Farrell regresó para aportar rap, mientras Reggie Tsiboe y The School Rebels llevaron las voces principales. Baby's Gang había grabado la versión original un año antes.",
+      "musicos": [
+        "Reggie Tsiboe — voz principal",
+        "The School Rebels — voces",
+        "Bobby Farrell — rap",
+        "Judy Cheeks — coros",
+        "Madeleine Davis — coros",
+        "Patricia Shockley — coros",
+        "Frank Farian — producción"
+      ],
+      "ranking": [
+        "Alemania — Nº7",
+        "Austria — Nº15",
+        "Suiza — Nº21"
+      ],
+      "sabias_que": [
+        "La versión original fue grabada por Baby's Gang en 1983.",
+        "Liz Mitchell y Marcia Barrett no cantan en esta grabación.",
+        "Bobby Farrell aporta el rap y The School Rebels participan en las voces."
+      ],
+      "por_que_recordarlo": "Porque es una rareza dentro de la historia de Boney M. y un retrato perfecto del cruce entre eurodisco y breakdance de 1984.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Bonnie Bianco",
+      "titulo": "Miss You So",
+      "aliases_artista": [
+        "Bonnie Bianco"
+      ],
+      "aliases_titulo": [
+        "Miss You So",
+        "Miss You"
+      ],
+      "anio": 1987,
+      "texto": "Una balada pop europea de melodía amplia y voz vulnerable que convirtió a Bonnie Bianco en una presencia habitual de las listas centroeuropeas de 1987.",
+      "cierre": "En el archivo decía Miss You; la canción completa siempre había dicho un poco más: Miss You So.",
+      "slug": "bonnie-bianco-miss-you",
+      "imagen": "img/archivo/bonnie-bianco-miss-you.jpg",
+      "album": "Just Me",
+      "sello": "Metronome",
+      "single": "Miss You So",
+      "catalogo": "",
+      "duracion": "4:56 aprox. álbum",
+      "compositor": "Candy De Rouge · Gunther Mende · Mary Susan Applegate · M. D. Clinic",
+      "productor": "Candy De Rouge · Gunther Mende",
+      "voz_principal": "Bonnie Bianco",
+      "historia": "Publicada en 1987 dentro del álbum Just Me, Miss You So fue editada como sencillo por Metronome. La canción logró presencia destacada en las listas de Alemania y Suiza. El archivo de FlashBack figuraba abreviado como Miss You, que se conserva como alias.",
+      "quienes_er_an": "Bonnie Bianco es una cantante y actriz estadounidense que desarrolló una parte importante de su carrera musical en Europa durante los años ochenta.",
+      "musicos": [
+        "Bonnie Bianco — voz",
+        "Candy De Rouge — producción y arreglos",
+        "Gunther Mende — producción y arreglos"
+      ],
+      "ranking": [
+        "Alemania — Top 20 en 1987",
+        "Suiza — Nº12"
+      ],
+      "sabias_que": [
+        "El título documentado del sencillo es Miss You So, no simplemente Miss You.",
+        "Fue editado por Metronome en 1987.",
+        "También aparece como apertura del álbum Just Me."
+      ],
+      "por_que_recordarlo": "Porque representa el pop melódico europeo de los ochenta y corrige además una pequeña huella de metadata del archivo.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Bonnie Tyler",
+      "titulo": "It's a Heartache",
+      "aliases_artista": [
+        "Bonnie Tyler"
+      ],
+      "aliases_titulo": [
+        "It's a Heartache",
+        "Its A Heartache",
+        "Its a Heartache"
+      ],
+      "anio": 1977,
+      "texto": "La voz rasgada de Bonnie Tyler encontró aquí su vehículo perfecto: una balada country-pop directa, dolida y universal que abrió definitivamente las puertas del mundo.",
+      "cierre": "El corazón dolía, pero esa voz hacía imposible olvidarlo.",
+      "slug": "bonnie-tyler-its-a-heartache",
+      "imagen": "img/archivo/bonnie-tyler-its-a-heartache.jpg",
+      "album": "Natural Force / It's a Heartache",
+      "sello": "RCA",
+      "single": "It's a Heartache",
+      "catalogo": "",
+      "duracion": "3:30 aprox.",
+      "compositor": "Ronnie Scott · Steve Wolfe",
+      "productor": "David Mackay · Ronnie Scott · Steve Wolfe",
+      "voz_principal": "Bonnie Tyler",
+      "historia": "Grabada en 1977 y convertida en éxito internacional entre 1977 y 1978, fue compuesta por Ronnie Scott y Steve Wolfe. Alcanzó el Nº4 británico y consolidó internacionalmente a Bonnie Tyler.",
+      "quienes_er_an": "Bonnie Tyler es una cantante galesa cuya voz ronca se convirtió en una de las firmas vocales más reconocibles del pop y rock. It's a Heartache fue uno de sus primeros éxitos mundiales.",
+      "musicos": [
+        "Bonnie Tyler — voz",
+        "Ronnie Scott — composición y producción",
+        "Steve Wolfe — composición y producción",
+        "David Mackay — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº4",
+        "Estados Unidos — Billboard Hot 100: Nº3"
+      ],
+      "sabias_que": [
+        "La grabación data de 1977 aunque algunos lanzamientos y álbumes aparecen fechados en 1978.",
+        "Fue uno de los primeros grandes éxitos internacionales de Tyler.",
+        "Su timbre rasgado se volvió una característica central de su identidad artística."
+      ],
+      "por_que_recordarlo": "Porque es una de esas canciones en las que voz, letra y melodía parecen haber sido hechas unas para otras.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Bonnie Tyler",
+      "titulo": "Total Eclipse of the Heart",
+      "aliases_artista": [
+        "Bonnie Tyler"
+      ],
+      "aliases_titulo": [
+        "Total Eclipse of the Heart",
+        "Total Eclipse Of The Heart"
+      ],
+      "anio": 1983,
+      "texto": "Jim Steinman llevó la balada hasta dimensiones casi cinematográficas y Bonnie Tyler respondió con una interpretación que pasa del susurro a la tormenta.",
+      "cierre": "Cuando el corazón se eclipsó, el mundo entero terminó cantándolo.",
+      "slug": "bonnie-tyler-total-eclipse-of-the-heart",
+      "imagen": "img/archivo/bonnie-tyler-total-eclipse-of-the-heart.jpg",
+      "album": "Faster Than the Speed of Night",
+      "sello": "CBS / Columbia",
+      "single": "Total Eclipse of the Heart",
+      "catalogo": "",
+      "duracion": "6:58 aprox. álbum; 4:30 aprox. sencillo",
+      "compositor": "Jim Steinman",
+      "productor": "Jim Steinman",
+      "voz_principal": "Bonnie Tyler",
+      "historia": "Publicada en 1983 como sencillo de Faster Than the Speed of Night, fue escrita y producida por Jim Steinman. Alcanzó el Nº1 tanto en Reino Unido como en Estados Unidos y se convirtió en la canción emblemática de Bonnie Tyler.",
+      "quienes_er_an": "Bonnie Tyler encontró en el compositor y productor Jim Steinman un sonido monumental que llevó su voz a una nueva escala internacional durante 1983.",
+      "musicos": [
+        "Bonnie Tyler — voz",
+        "Jim Steinman — composición y producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº1",
+        "Estados Unidos — Billboard Hot 100: Nº1"
+      ],
+      "sabias_que": [
+        "La versión del álbum es considerablemente más larga que la edición de sencillo.",
+        "Fue escrita y producida por Jim Steinman.",
+        "Regresó varias veces a las listas décadas después de su lanzamiento."
+      ],
+      "por_que_recordarlo": "Porque pocas baladas de los ochenta alcanzaron semejante combinación de dramatismo, potencia vocal y permanencia popular.",
+      "recuerdo_personal": "",
+      "tipo_artista": "solista"
+    },
+    {
+      "artista": "Breathe",
+      "titulo": "Hands to Heaven",
+      "aliases_artista": [
+        "Breathe"
+      ],
+      "aliases_titulo": [
+        "Hands to Heaven",
+        "Hands To Heaven"
+      ],
+      "anio": 1987,
+      "texto": "Una balada contenida, elegante y profundamente ochentera que convirtió la vulnerabilidad de David Glasper en el gran pasaporte internacional de Breathe.",
+      "cierre": "Manos al cielo, pero los pies bien puestos en una melodía que todavía resiste.",
+      "slug": "breathe-hands-to-heaven",
+      "imagen": "img/archivo/breathe-hands-to-heaven.jpg",
+      "album": "All That Jazz",
+      "sello": "Siren / A&M",
+      "single": "Hands to Heaven",
+      "catalogo": "",
+      "duracion": "4:17 aprox.",
+      "compositor": "David Glasper · Marcus Lillington",
+      "productor": "Bob Sargeant",
+      "voz_principal": "David Glasper",
+      "historia": "Publicada en Reino Unido en octubre de 1987 y promovida en Estados Unidos en 1988, fue el gran salto internacional de Breathe. Llegó al Nº2 del Billboard Hot 100 y al Nº4 británico.",
+      "quienes_er_an": "Breathe fue una banda británica de pop formada en los años ochenta. Su núcleo incluía a David Glasper, Marcus Lillington, Ian Spice y Michael Delahunty.",
+      "musicos": [
+        "David Glasper — voz",
+        "Marcus Lillington — guitarra",
+        "Ian Spice — batería",
+        "Michael Delahunty — bajo",
+        "Bob Sargeant — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº2",
+        "Estados Unidos — Adult Contemporary: Nº2",
+        "Reino Unido — Nº4"
+      ],
+      "sabias_que": [
+        "Fue publicada originalmente en 1987 y explotó internacionalmente durante 1988.",
+        "La cara B estadounidense fue Life and Times.",
+        "Bob Sargeant produjo la grabación."
+      ],
+      "por_que_recordarlo": "Porque es uno de los ejemplos más puros de la balada pop británica que conquistó la radio estadounidense a fines de los ochenta.",
+      "recuerdo_personal": "",
+      "tipo_artista": "grupo"
+    },
+    {
+      "artista": "Breathe",
+      "titulo": "How Can I Fall?",
+      "aliases_artista": [
+        "Breathe"
+      ],
+      "aliases_titulo": [
+        "How Can I Fall?",
+        "How Can I Fall",
+        "How Can I Fall (1988)"
+      ],
+      "anio": 1988,
+      "texto": "Después de Hands to Heaven, Breathe volvió a combinar delicadeza vocal, guitarras limpias y producción cristalina en una pregunta sentimental que encontró respuesta en las listas.",
+      "cierre": "¿Cómo caer? Breathe cayó exactamente donde quería: en la memoria.",
+      "slug": "breathe-how-can-i-fall",
+      "imagen": "img/archivo/breathe-how-can-i-fall.jpg",
+      "album": "All That Jazz",
+      "sello": "Siren / Virgin / A&M",
+      "single": "How Can I Fall?",
+      "catalogo": "",
+      "duracion": "4:42 aprox. álbum; 3:59 aprox. sencillo",
+      "compositor": "David Glasper · Marcus Lillington",
+      "productor": "Bob Sargeant",
+      "voz_principal": "David Glasper",
+      "historia": "Extraída de All That Jazz y convertida en gran sencillo internacional durante 1988, alcanzó el Nº3 del Billboard Hot 100 y el Nº1 de Adult Contemporary en Estados Unidos.",
+      "quienes_er_an": "Breathe fue una banda británica de pop sofisticado cuyo mayor período internacional llegó con All That Jazz y las baladas Hands to Heaven y How Can I Fall?.",
+      "musicos": [
+        "David Glasper — voz",
+        "Marcus Lillington — guitarra",
+        "Ian Spice — batería",
+        "Michael Delahunty — bajo",
+        "Bob Sargeant — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº3",
+        "Estados Unidos — Adult Contemporary: Nº1",
+        "Reino Unido — Nº48"
+      ],
+      "sabias_que": [
+        "Existen versiones de álbum, sencillo y remix con duraciones diferentes.",
+        "Fue el siguiente gran éxito estadounidense de Breathe después de Hands to Heaven.",
+        "El archivo de FlashBack incluía el año entre paréntesis; se conserva como alias."
+      ],
+      "por_que_recordarlo": "Porque completa el momento de mayor brillo internacional de Breathe y conserva intacta la elegancia de su sonido.",
       "recuerdo_personal": "",
       "tipo_artista": "grupo"
     }
