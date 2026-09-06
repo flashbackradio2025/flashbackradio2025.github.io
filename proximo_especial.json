@@ -1,9 +1,9 @@
 {
-  "media_id": 1,
-  "titulo": "The Alan Parsons Project",
-  "descripcion": "Un viaje por el sonido, la producción y las canciones de una obra inolvidable.",
-  "imagen": "img/artistas/especiales/especial-alan-parsons.png",
+  "media_id": 4,
+  "titulo": "The Hollies",
+  "descripcion": "Armonías, melodías y clásicos de una de las grandes bandas británicas.",
+  "imagen": "img/artistas/especiales/especial-hollies.png",
   "dia": "Domingo",
   "hora": "17:00",
-  "proximo_preparado_nombre": "Especial Alan Parsons Proyect - Especial Alan Parsons Proyect"
+  "proximo_preparado_nombre": "Especial Los Hollies - Especial Los Hollies"
 }
