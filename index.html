@@ -2418,12 +2418,13 @@ const playlistMap = {
     // 🎵 EL ARCHIVO RECUERDA
     actualizarArchivoRecuerda(artista, tituloReal);
 
-    // === DETECCIÓN DE ESPECIAL POR TÍTULO DE CANCIÓN ===
+    // === DETECCIÓN DE ESPECIAL: SOLO SI AZURACAST INFORMA UNA PLAYLIST DE ESPECIAL ===
     const currentSong = data.now_playing?.song?.text || '';
     const currentArtist = data.now_playing?.song?.artist || '';
     const currentPlaylist = data.now_playing?.playlist || '';
     const fullText = `${currentArtist} ${currentSong}`.toUpperCase();
-    
+    const currentPlaylistUpper = currentPlaylist.toUpperCase();
+
     let detectedSpecial = null;
     const specialKeywords = {
       'ESPECIAL_BEATLES': ['BEATLES', 'FAB FOUR', 'LIVERPOOL'],
@@ -2431,20 +2432,20 @@ const playlistMap = {
       'ESPECIAL_STONES': ['ROLLING STONES', 'STONES', 'JAGGER', 'RICHARDS'],
       'ESPECIAL_PARSONS': ['ALAN PARSONS', 'PARSONS PROJECT'],
       'ESPECIAL_PLATEROS': ['PLATEROS', 'PLATEROS Y TU'],
-      'ESPECIAL_CERATI': ['CERATI', 'SODA STEREO', 'GUSTAVO CERATI'],
-      'MICRO_COME_PRIMA': ['COME_PRIMA', 'COME PRIMA', 'MICRO'], 
-      'ESPECIALES_DOMINGO': []
+      'ESPECIAL_CERATI': ['CERATI', 'SODA STEREO', 'GUSTAVO CERATI']
     };
-    
-    for (const [specialName, keywords] of Object.entries(specialKeywords)) {
-      if (keywords.some(keyword => fullText.includes(keyword))) {
-        detectedSpecial = specialName;
-        break;
+
+    if (currentPlaylistUpper === 'ESPECIALES_DOMINGO') {
+      for (const [specialName, keywords] of Object.entries(specialKeywords)) {
+        if (keywords.some(keyword => fullText.includes(keyword))) {
+          detectedSpecial = specialName;
+          break;
+        }
       }
-    }
-    
-    if (!detectedSpecial && currentPlaylist === 'ESPECIALES_DOMINGO') {
-      detectedSpecial = 'ESPECIALES_DOMINGO';
+
+      if (!detectedSpecial) {
+        detectedSpecial = 'ESPECIALES_DOMINGO';
+      }
     }
 
     // === ACTUALIZAR BANNER ===
@@ -2791,20 +2792,15 @@ async function cargarEspecialActual() {
     const cancion = String(radio.now_playing?.song?.text || '');
     const textoActual = `${artista} ${cancion}`.toUpperCase();
 
-    // La tarjeta "AHORA" reconoce tanto playlists de especiales como
-    // los programas fijos Beatles/Plateros. Si el tema fue encolado manualmente
-    // y AzuraCast no informa playlist, también puede reconocerlo por metadatos.
+    // La tarjeta "AHORA" sólo puede activarse cuando AzuraCast informa
+    // una playlist real de especial o uno de los programas fijos.
     const esPlaylistEspecial =
       playlist.includes('ESPECIAL') ||
       playlist === 'ESPECIALES_DOMINGO' ||
       playlist === 'PROGRAMA_BEATLES' ||
       playlist === 'PROGRAMA_PLATEROS';
 
-    const textoPareceEspecial = Object.values(especiales).some(datos =>
-      datos.palabras.some(p => textoActual.includes(p))
-    );
-
-    if (!esPlaylistEspecial && !textoPareceEspecial) {
+    if (!esPlaylistEspecial) {
       window.flashbackEspecialActual = null;
       window.flashbackEspecialActualTitulo = null;
       tarjeta.classList.remove('visible');
@@ -2820,8 +2816,8 @@ async function cargarEspecialActual() {
       especialActual = especiales.plateros;
     }
 
-    // Respaldo por metadatos: necesario, por ejemplo, si el programa fue
-    // puesto manualmente en cola y llega sin nombre de playlist.
+    // Dentro de una playlist real de especial, los metadatos identifican
+    // cuál de los especiales está sonando.
     if (!especialActual) {
       for (const datos of Object.values(especiales)) {
         if (datos.palabras.some(p => textoActual.includes(p))) {
