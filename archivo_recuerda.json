@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-09-06",
+  "ultima_actualizacion": "2026-09-07",
   "fichas": [
     {
       "artista": "Night",
@@ -229,7 +229,14 @@
         "En Estados Unidos tuvo un impacto mucho menor que en Europa."
       ],
       "por_que_recordarlo": "Porque Words representa perfectamente una clase de éxito muy europea de comienzos de los 80: sintetizadores sencillos, melodía enorme y una voz que quedó unida para siempre a una sola canción.",
-      "tipo_artista": "solista"
+      "tipo_artista": "solista",
+      "gancho": "Una voz aguda, una melodía mínima y un sintetizador bastaron para construir uno de los grandes recuerdos europeos de 1982.",
+      "etiquetas": [
+        "Synth-pop",
+        "Clásicos eternos",
+        "Años 80"
+      ],
+      "dato_distintivo": "Words convirtió a Robert Fitoussi en una figura internacional bajo el nombre F. R. David."
     },
     {
       "artista": "The Buggles",
@@ -1150,7 +1157,14 @@
         "Fine Young Cannibals conseguiría otro Nº1 estadounidense con Good Thing."
       ],
       "por_que_recordarlo": "Porque el sonido de su batería y la voz de Roland Gift hacen que sea identificable en segundos. Es producción ochentosa convertida en firma.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Un golpe de caja imposible de confundir ayudó a convertirla en una de las producciones más reconocibles de 1989.",
+      "etiquetas": [
+        "Años 80",
+        "Producción icónica",
+        "Clásicos eternos"
+      ],
+      "dato_distintivo": "Su sonido de batería procesada se volvió una firma de producción inmediatamente reconocible."
     },
     {
       "artista": "Modern Talking",
@@ -1905,7 +1919,14 @@
         "Las armonías vocales son una parte esencial del arreglo."
       ],
       "por_que_recordarlo": "Porque condensa la sofisticación de Fleetwood Mac en los 80: una melodía aparentemente sencilla sostenida por capas de voces y una producción extraordinariamente pulida.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Una canción sobre pedir una mentira piadosa terminó siendo una de las piezas más pulidas del pop de 1987.",
+      "etiquetas": [
+        "Años 80",
+        "Fleetwood Mac",
+        "Grandes canciones pop"
+      ],
+      "dato_distintivo": "Christine McVie comparte la autoría con Eddy Quintela, quien era su esposo en aquel período."
     },
     {
       "artista": "Sting",
@@ -3415,7 +3436,14 @@
         "Paul Micioni y Pierluigi Giombini fueron figuras importantes de la producción disco italiana de la época."
       ],
       "por_que_recordarlo": "Porque captura el momento en que la música disco europea estaba mutando hacia una estética más electrónica. Su duración, sus secuencias y su producción pertenecen al mundo de las pistas de baile, pero también anticipan el vocabulario que identificaría al Italo disco durante toda la década.",
-      "tipo_artista": "solista"
+      "tipo_artista": "solista",
+      "gancho": "Uno de esos maxis donde la duración y la mezcla eran parte de la experiencia: música pensada para la pista, no sólo para la radio.",
+      "etiquetas": [
+        "Italo disco",
+        "Clásicos de boliche",
+        "Maxi singles"
+      ],
+      "dato_distintivo": "Las versiones extendidas ayudaron a fijarla dentro del circuito Italo disco."
     },
     {
       "artista": "Bob Seger",
@@ -4169,7 +4197,14 @@
         "Es un buen ejemplo de música de pista cuya memoria quedó más en DJs y coleccionistas que en rankings pop."
       ],
       "por_que_recordarlo": "Porque FlashBack no necesita limitarse a los temas que encabezaron listas. Chill Out! representa la memoria del club: discos largos, bajos sintetizados, mezclas para DJs y canciones que podían ser muy conocidas en una pista sin convertirse jamás en éxitos radiales masivos.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Una pieza de club cuya propia rareza documental forma parte de su atractivo dentro del Archivo.",
+      "etiquetas": [
+        "Joyas ocultas",
+        "Clásicos de boliche",
+        "Misterios del Archivo"
+      ],
+      "dato_distintivo": "Su circulación es mucho más reconocible entre coleccionistas de dance que en las historias generales del pop."
     },
     {
       "artista": "I Spies",
@@ -9363,7 +9398,14 @@
         "La versión de Eruption la reconvirtió al lenguaje disco de finales de los setenta."
       ],
       "por_que_recordarlo": "Porque es un gran ejemplo de cómo una canción puede renacer completamente cuando otra época cambia su ritmo, su producción y su contexto.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Una canción nacida lejos de la era disco encontró una segunda vida en las pistas de baile de 1979.",
+      "etiquetas": [
+        "Versiones",
+        "Disco",
+        "Clásicos de boliche"
+      ],
+      "dato_distintivo": "Eruption convirtió en éxito disco una composición de Jack Keller y Hank Hunter popularizada originalmente por Neil Sedaka."
     },
     {
       "artista": "Eurythmics",
@@ -9601,7 +9643,14 @@
         "Su arreglo mira deliberadamente hacia el soul clásico."
       ],
       "por_que_recordarlo": "Porque demuestra que mirar hacia atrás no significa sonar viejo: Fine Young Cannibals convirtió esa memoria musical en un éxito contemporáneo.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Soul de los sesenta filtrado por una banda británica de fines de los ochenta.",
+      "etiquetas": [
+        "Soul pop",
+        "Años 80",
+        "Historias detrás de la canción"
+      ],
+      "dato_distintivo": "Good Thing llevó a Fine Young Cannibals al Nº1 estadounidense."
     },
     {
       "artista": "Fleetwood Mac",
@@ -9642,7 +9691,14 @@
         "Décadas después regresó varias veces a las listas británicas."
       ],
       "por_que_recordarlo": "Porque representa el talento de Christine McVie para hacer que una emoción directa parezca inevitablemente melódica.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Christine McVie escribió una de las declaraciones amorosas más luminosas de Tango in the Night.",
+      "etiquetas": [
+        "Grandes canciones pop",
+        "Años 80",
+        "Fleetwood Mac"
+      ],
+      "dato_distintivo": "La voz de Christine McVie está en el centro de una de las producciones más etéreas del álbum."
     },
     {
       "artista": "Fleetwood Mac",
@@ -9683,7 +9739,14 @@
         "El videoclip fue una de las producciones musicales más ambiciosas de su época."
       ],
       "por_que_recordarlo": "Porque la nostalgia de Gypsy no es decorativa: es una artista famosa intentando recordar quién era antes de que llegara el éxito.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Stevie Nicks convirtió recuerdos de su vida anterior a la fama en una de las canciones más autobiográficas de Fleetwood Mac.",
+      "etiquetas": [
+        "Historias detrás de la canción",
+        "Años 80",
+        "Fleetwood Mac"
+      ],
+      "dato_distintivo": "El título remite a una etapa previa a la fama y a la memoria personal de Stevie Nicks."
     },
     {
       "artista": "F. R. David",
@@ -9706,7 +9769,7 @@
       "compositor": "Robert Fitoussi · Silvano Fossati",
       "productor": "Celso Valli",
       "voz_principal": "F. R. David",
-      "historia": "Publicada en 1986, Sahara Night fue compuesta por Robert Fitoussi —F. R. David— junto a Silvano Fossati y producida por Celso Valli. Circuló en versiones 7 pulgadas, club, nuevo mix y dub; posteriormente fue incluida en el álbum Reflections.",
+      "historia": "Publicada en 1986, Sahara Night fue compuesta por Robert Fitoussi —F. R. David— junto a Silvano Fossati y producida por Celso Valli. Circuló en versiones 7 pulgadas, club, nuevo mix y dub; posteriormente fue incluida en el álbum Reflections, fechado en 1987 en catálogos digitales actuales.",
       "quienes_er_an": "F. R. David es el nombre artístico de Robert Fitoussi, cantante y compositor francés conocido mundialmente por Words, pero con una trayectoria que se extendió mucho más allá de aquel sencillo.",
       "musicos": [
         "F. R. David (Robert Fitoussi) — voz y composición",
@@ -9719,10 +9782,18 @@
       "sabias_que": [
         "Existieron varias mezclas oficiales, incluida una versión club de más de seis minutos.",
         "Fue producida por Celso Valli.",
-        "Apareció posteriormente en Reflections."
+        "Apareció posteriormente en Reflections.",
+        "El single circuló en 1986; el álbum Reflections aparece fechado en 1987 en catálogos digitales actuales."
       ],
       "por_que_recordarlo": "Porque Archivo Recuerda permite ir más allá del único gran éxito asociado a un artista y recuperar canciones que también formaron parte de la radio de los ochenta.",
-      "tipo_artista": "solista"
+      "tipo_artista": "solista",
+      "gancho": "Después de Words, F. R. David siguió explorando un pop europeo de sintetizadores; Sahara Night es una de esas piezas que quedaron a la sombra del gran hit.",
+      "etiquetas": [
+        "Joyas ocultas",
+        "Synth-pop",
+        "Años 80"
+      ],
+      "dato_distintivo": "El single circuló en 1986 y luego quedó integrado al álbum Reflections, fechado en 1987 en ediciones digitales."
     },
     {
       "artista": "France Gall",
@@ -9763,7 +9834,14 @@
         "France Gall recordó que su complejidad rítmica hacía difícil interpretarla."
       ],
       "por_que_recordarlo": "Porque une dos mundos musicales y convierte la admiración de un compositor por Ella Fitzgerald en una celebración universal del talento y la presencia.",
-      "tipo_artista": "solista"
+      "tipo_artista": "solista",
+      "gancho": "Michel Berger escribió un homenaje a Ella Fitzgerald que terminó siendo, al mismo tiempo, una celebración del poder liberador de la música.",
+      "etiquetas": [
+        "Homenajes",
+        "Pop francés",
+        "Años 80"
+      ],
+      "dato_distintivo": "El “Ella” del título remite directamente a Ella Fitzgerald."
     },
     {
       "artista": "Frank Stallone",
@@ -9802,7 +9880,14 @@
         "Existen diferencias entre la versión single y la del soundtrack."
       ],
       "por_que_recordarlo": "Porque algunas canciones quedan unidas para siempre a la energía de una película, incluso cuando sobreviven perfectamente fuera de ella.",
-      "tipo_artista": "solista"
+      "tipo_artista": "solista",
+      "gancho": "El hermano de Sylvester Stallone encontró su propio momento de fama dentro de la banda sonora de Staying Alive.",
+      "etiquetas": [
+        "Canciones de película",
+        "Años 80",
+        "Rock de radio"
+      ],
+      "dato_distintivo": "Frank Stallone coescribió e interpretó uno de los temas más recordados de Staying Alive."
     },
     {
       "artista": "Frankie Smith",
@@ -9842,7 +9927,14 @@
         "Existen versiones 7 pulgadas y 12 pulgadas de diferente duración."
       ],
       "por_que_recordarlo": "Porque captura una calle, un juego y una forma de hablar dentro de un groove que terminó viajando mucho más lejos de lo imaginable.",
-      "tipo_artista": "solista"
+      "tipo_artista": "solista",
+      "gancho": "Antes de que el rap dominara las listas, Frankie Smith llevó jerga callejera, ritmo y juego verbal a la radio.",
+      "etiquetas": [
+        "Proto hip-hop",
+        "Funk",
+        "Años 80"
+      ],
+      "dato_distintivo": "La canción popularizó ampliamente el uso lúdico del “izz” slang en la cultura pop."
     },
     {
       "artista": "Gary Low",
@@ -9883,7 +9975,14 @@
         "Fue uno de sus mayores éxitos internacionales."
       ],
       "por_que_recordarlo": "Porque muestra de manera extraordinaria cómo una melodía latinoamericana pudo cruzar el Atlántico y reaparecer dentro del universo del italo disco.",
-      "tipo_artista": "solista"
+      "tipo_artista": "solista",
+      "gancho": "Una canción latinoamericana terminó convertida en clásico europeo del Italo disco gracias a la versión de Gary Low.",
+      "etiquetas": [
+        "Versiones",
+        "Italo disco",
+        "Clásicos de boliche"
+      ],
+      "dato_distintivo": "La composición de Walter León Aguilar tuvo múltiples vidas internacionales antes y después de Gary Low."
     },
     {
       "artista": "Francesco Napoli",
@@ -9922,7 +10021,14 @@
         "El tema Balla aparece acreditado a Francesco Napolitano y Peter Columbus en ediciones del lanzamiento."
       ],
       "por_que_recordarlo": "Porque condensa en pocos minutos una colección entera de recuerdos musicales italianos y los transforma en una sola experiencia bailable.",
-      "tipo_artista": "solista"
+      "tipo_artista": "solista",
+      "gancho": "Un medley convirtió varias melodías italianas en una sola postal bailable para toda Europa.",
+      "etiquetas": [
+        "Italo pop",
+        "Clásicos de boliche",
+        "Medleys"
+      ],
+      "dato_distintivo": "Su identidad está construida como un popurrí de canciones italianas encadenadas."
     },
     {
       "artista": "Freshlyground",
@@ -9967,7 +10073,14 @@
         "Zolani Mahola fue una de las voces más reconocibles de la música sudafricana contemporánea."
       ],
       "por_que_recordarlo": "Porque FlashBack Radio no está limitada a una década ni a un país: una canción que quedó en la memoria merece entrar al Archivo aunque venga de otra geografía y otro momento.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Una banda sudafricana multicultural convirtió una canción cálida y orgánica en una puerta de entrada a otra geografía musical.",
+      "etiquetas": [
+        "África",
+        "World pop",
+        "Joyas ocultas"
+      ],
+      "dato_distintivo": "Freshlyground reunió músicos de distintos orígenes del África austral en una identidad sonora propia."
     },
     {
       "artista": "Gazebo",
@@ -10002,7 +10115,14 @@
         "El título alude a Chopin, pero no utiliza una composición del pianista polaco."
       ],
       "por_que_recordarlo": "Porque resume la vertiente romántica y sofisticada del italo disco.",
-      "tipo_artista": "solista"
+      "tipo_artista": "solista",
+      "gancho": "No es una obra de Chopin, pero su título y su piano sintético hicieron que millones asociaran romanticismo clásico con Italo disco.",
+      "etiquetas": [
+        "Italo disco",
+        "Clásicos de boliche",
+        "Años 80"
+      ],
+      "dato_distintivo": "A pesar del título, la melodía no utiliza una composición de Frédéric Chopin."
     },
     {
       "artista": "Genesis",
@@ -10114,7 +10234,14 @@
         "Pertenece al álbum Invisible Touch."
       ],
       "por_que_recordarlo": "Porque representa el costado íntimo del Genesis más masivo.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Genesis bajó la intensidad progresiva y encontró una de sus baladas más elegantes y radiales.",
+      "etiquetas": [
+        "Grandes baladas",
+        "Años 80",
+        "Rock de radio"
+      ],
+      "dato_distintivo": "Pertenece a Invisible Touch, la etapa de mayor exposición pop mundial del trío."
     },
     {
       "artista": "Genesis",
@@ -10189,7 +10316,14 @@
         "FlashBack Radio conserva la versión larga."
       ],
       "por_que_recordarlo": "Porque es uno de los ejemplos más oscuros y atmosféricos del Genesis de los ochenta.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Una risa inquietante, una caja de ritmos y una interpretación de Phil Collins que convirtió una canción oscura en un éxito improbable.",
+      "etiquetas": [
+        "Versiones extendidas",
+        "Años 80",
+        "Producción icónica"
+      ],
+      "dato_distintivo": "La risa vocal de Collins es uno de los elementos más reconocibles de la grabación."
     },
     {
       "artista": "Gerry Rafferty",
@@ -10440,7 +10574,14 @@
         "Existen una versión de álbum y una edición más corta para radio."
       ],
       "por_que_recordarlo": "Porque combina la escala sonora de Genesis con una historia familiar especialmente oscura.",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Genesis abrió los noventa con una canción de enorme peso dramático y una historia familiar deliberadamente incómoda.",
+      "etiquetas": [
+        "Años 90",
+        "Historias detrás de la canción",
+        "Rock de radio"
+      ],
+      "dato_distintivo": "Fue el sencillo de presentación de We Can’t Dance."
     },
     {
       "artista": "Giorgio Moroder",
@@ -16685,7 +16826,14 @@
       ],
       "por_que_recordarlo": "Porque demuestra que la intensidad no depende del volumen: dos voces y una guitarra bastaron para convertirla en un clásico mundial.",
       "recuerdo_personal": "",
-      "tipo_artista": "grupo"
+      "tipo_artista": "grupo",
+      "gancho": "Una banda asociada al hard rock consiguió su canción más universal quitando casi todo: quedaron dos voces y una guitarra acústica.",
+      "etiquetas": [
+        "Grandes baladas",
+        "Acústicos",
+        "Años 90"
+      ],
+      "dato_distintivo": "El contraste entre el sonido habitual de Extreme y la desnudez acústica de la canción fue parte esencial de su impacto."
     },
     {
       "artista": "R.E.M.",
@@ -25381,6 +25529,533 @@
       "por_que_recordarlo": "Porque El Archivo Recuerda también conserva las interpretaciones concretas que quedaron asociadas a una época y a una memoria personal.",
       "recuerdo_personal": "Esta fue la versión con la que conocí Wordy Rappinghood. La escuchaba en la radio y también la recuerdo sonando en los bailes del Deportivo Español, en Buenos Aires, aproximadamente en 1981. Mucho después supe que la grabación original pertenecía a Tom Tom Club, pero para mí la canción siempre quedó asociada a esta versión de Dynamite.",
       "tipo_artista": "proyecto"
+    },
+    {
+      "artista": "Elton John",
+      "titulo": "Nikita",
+      "aliases_artista": [
+        "Elton John"
+      ],
+      "aliases_titulo": [
+        "Nikita"
+      ],
+      "anio": 1985,
+      "texto": "Una canción de amor imposible atravesada por una frontera que, en 1985, dividía mucho más que dos territorios.",
+      "cierre": "Porque convierte una historia íntima en una postal pop de la Guerra Fría y reúne, en una sola grabación, a varias figuras esenciales del pop británico de los ochenta.",
+      "slug": "elton-john-nikita",
+      "imagen": "img/archivo/elton-john-nikita.jpg",
+      "album": "Ice on Fire",
+      "sello": "Rocket / Phonogram",
+      "single": "Nikita",
+      "compositor": "Elton John · Bernie Taupin",
+      "productor": "Gus Dudgeon",
+      "voz_principal": "Elton John",
+      "historia": "Nikita nació en el clima de la Guerra Fría: la letra imagina un amor imposible con una persona situada al otro lado de una frontera política. Fue grabada para Ice on Fire, álbum que reunió nuevamente a Elton John con Gus Dudgeon. La producción combina piano, sintetizadores y una sonoridad pop muy propia de mediados de los ochenta.",
+      "quienes_er_an": "Elton John ya era una de las grandes figuras del pop británico. En esta grabación lo acompañaron músicos de sesión y colegas de enorme peso, entre ellos George Michael en coros y Nik Kershaw en guitarra.",
+      "musicos": [
+        "Elton John — voz, piano y sintetizadores",
+        "David Mattacks — batería",
+        "David Paton — bajo",
+        "Nik Kershaw — guitarra eléctrica",
+        "Fred Mandel — sintetizadores",
+        "George Michael — coros",
+        "Davey Johnstone — coros",
+        "Gus Dudgeon — producción"
+      ],
+      "ranking": [
+        "Reino Unido — Nº3",
+        "Australia — Nº3",
+        "Estados Unidos — Billboard Hot 100: Nº7",
+        "Estados Unidos — Adult Contemporary: Nº3"
+      ],
+      "sabias_que": [
+        "George Michael participó en los coros.",
+        "Nik Kershaw tocó guitarra eléctrica.",
+        "Fue el mayor éxito de Ice on Fire.",
+        "El título juega con una figura situada simbólicamente detrás de la frontera de la Guerra Fría."
+      ],
+      "por_que_recordarlo": "Porque convierte una historia íntima en una postal pop de la Guerra Fría y reúne, en una sola grabación, a varias figuras esenciales del pop británico de los ochenta.",
+      "tipo_artista": "solista",
+      "gancho": "Una canción de amor imposible atravesada por una frontera que, en 1985, dividía mucho más que dos territorios.",
+      "etiquetas": [
+        "Historias detrás de la canción",
+        "Grandes baladas",
+        "Años 80"
+      ],
+      "dato_distintivo": "George Michael canta en los coros y Nik Kershaw aporta guitarra eléctrica."
+    },
+    {
+      "artista": "Eric Carmen",
+      "titulo": "All by Myself",
+      "aliases_artista": [
+        "Eric Carmen"
+      ],
+      "aliases_titulo": [
+        "All by Myself"
+      ],
+      "anio": 1975,
+      "texto": "Antes de convertirse en un estándar pop, parte de su ADN musical había nacido muchas décadas antes en la obra de Rachmaninoff.",
+      "cierre": "Porque pocas baladas unen con tanta naturalidad el romanticismo clásico y el pop de radio de los años setenta.",
+      "slug": "eric-carmen-all-by-myself",
+      "imagen": "img/archivo/eric-carmen-all-by-myself.jpg",
+      "album": "Eric Carmen",
+      "sello": "Arista",
+      "single": "All by Myself",
+      "compositor": "Eric Carmen · Sergei Rachmaninoff",
+      "productor": "Jimmy Ienner",
+      "voz_principal": "Eric Carmen",
+      "historia": "Tras dejar Raspberries, Eric Carmen convirtió una melodía inspirada en el segundo movimiento del Concierto para piano Nº2 de Rachmaninoff en una de las grandes baladas de los setenta. La canción apareció en su debut solista y terminó definiendo una nueva etapa de su carrera.",
+      "quienes_er_an": "Eric Carmen fue cantante y compositor de Raspberries antes de iniciar su carrera solista. Su formación clásica y su instinto para el pop se encontraron de manera especialmente visible en All by Myself.",
+      "musicos": [
+        "Eric Carmen — voz, piano y composición",
+        "Jimmy Ienner — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº2",
+        "Canadá — Nº3",
+        "Reino Unido — Top 20"
+      ],
+      "sabias_que": [
+        "La melodía central toma inspiración de Rachmaninoff.",
+        "Carmen creyó inicialmente que la obra estaba en dominio público; posteriormente se regularizaron los créditos.",
+        "Fue uno de los mayores éxitos de su carrera solista."
+      ],
+      "por_que_recordarlo": "Porque pocas baladas unen con tanta naturalidad el romanticismo clásico y el pop de radio de los años setenta.",
+      "tipo_artista": "solista",
+      "gancho": "Antes de convertirse en un estándar pop, parte de su ADN musical había nacido muchas décadas antes en la obra de Rachmaninoff.",
+      "etiquetas": [
+        "Grandes baladas",
+        "Historias detrás de la canción",
+        "Años 70"
+      ],
+      "dato_distintivo": "La conexión con el Concierto para piano Nº2 de Rachmaninoff forma parte esencial de la historia de la canción."
+    },
+    {
+      "artista": "Eric Carmen",
+      "titulo": "Hungry Eyes",
+      "aliases_artista": [
+        "Eric Carmen"
+      ],
+      "aliases_titulo": [
+        "Hungry Eyes"
+      ],
+      "anio": 1987,
+      "texto": "Eric Carmen pensó que aquella pequeña película quizá no la vería nadie. La película era Dirty Dancing.",
+      "cierre": "Porque una canción que parecía un encargo menor terminó devolviendo a Eric Carmen al centro de la radio mundial.",
+      "slug": "eric-carmen-hungry-eyes",
+      "imagen": "img/archivo/eric-carmen-hungry-eyes.jpg",
+      "album": "Dirty Dancing — Original Motion Picture Soundtrack",
+      "sello": "RCA",
+      "single": "Hungry Eyes",
+      "compositor": "Franke Previte · John DeNicola",
+      "productor": "Eric Carmen",
+      "voz_principal": "Eric Carmen",
+      "historia": "Cuando Eric Carmen recibió la propuesta para cantar una canción de una película llamada Dirty Dancing no imaginó que aquel proyecto reactivaría su carrera. Hungry Eyes terminó siendo una de las piezas más reconocibles de la banda sonora y uno de sus mayores éxitos.",
+      "quienes_er_an": "Eric Carmen había conocido el éxito con Raspberries y luego como solista. Hungry Eyes lo devolvió con fuerza a las listas a finales de los ochenta.",
+      "musicos": [
+        "Eric Carmen — voz y producción",
+        "John DeNicola — composición y sintetizadores",
+        "Franke Previte — composición y coros",
+        "Jim DeMain — ingeniería y mezcla"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº4",
+        "Estados Unidos — Adult Contemporary: Nº2"
+      ],
+      "sabias_que": [
+        "Fue escrita por Franke Previte y John DeNicola, también vinculados a (I’ve Had) The Time of My Life.",
+        "Carmen dudó inicialmente de participar en la banda sonora.",
+        "La secuencia de baile ya estaba filmada, por lo que no podía cambiarse libremente el tempo."
+      ],
+      "por_que_recordarlo": "Porque una canción que parecía un encargo menor terminó devolviendo a Eric Carmen al centro de la radio mundial.",
+      "tipo_artista": "solista",
+      "gancho": "Eric Carmen pensó que aquella pequeña película quizá no la vería nadie. La película era Dirty Dancing.",
+      "etiquetas": [
+        "Canciones de película",
+        "Grandes baladas",
+        "Historias detrás de la canción",
+        "Años 80"
+      ],
+      "dato_distintivo": "La grabación se hizo condicionada por una escena de baile que ya había sido filmada."
+    },
+    {
+      "artista": "Eric Carmen",
+      "titulo": "Make Me Lose Control",
+      "aliases_artista": [
+        "Eric Carmen"
+      ],
+      "aliases_titulo": [
+        "Make Me Lose Control"
+      ],
+      "anio": 1988,
+      "texto": "Una canción de 1988 que suena como un recuerdo de escuchar la radio con las ventanillas bajas.",
+      "cierre": "Porque funciona como una cápsula de nostalgia dentro de los propios años ochenta: una canción nueva que ya miraba hacia atrás.",
+      "slug": "eric-carmen-make-me-lose-control",
+      "imagen": "img/archivo/eric-carmen-make-me-lose-control.jpg",
+      "album": "The Best of Eric Carmen",
+      "sello": "Arista",
+      "single": "Make Me Lose Control",
+      "compositor": "Eric Carmen · Dean Pitchford",
+      "productor": "Jimmy Ienner",
+      "voz_principal": "Eric Carmen",
+      "historia": "Tras el regreso provocado por Hungry Eyes, Eric Carmen encadenó otro gran éxito con una canción nueva construida deliberadamente alrededor de la memoria de la radio, los autos y el pop clásico estadounidense.",
+      "quienes_er_an": "Eric Carmen consolidó con este sencillo su regreso comercial de finales de los ochenta. Dean Pitchford, su coautor, ya había trabajado con él en Almost Paradise.",
+      "musicos": [
+        "Eric Carmen — voz y composición",
+        "Dean Pitchford — composición",
+        "Jimmy Ienner — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº3",
+        "Estados Unidos — Adult Contemporary: Nº1",
+        "Australia — Nº8"
+      ],
+      "sabias_que": [
+        "Fue grabada como canción nueva para una recopilación.",
+        "Alcanzó el Nº1 Adult Contemporary durante tres semanas.",
+        "Fue el último Top 40 de Carmen en el Billboard Hot 100."
+      ],
+      "por_que_recordarlo": "Porque funciona como una cápsula de nostalgia dentro de los propios años ochenta: una canción nueva que ya miraba hacia atrás.",
+      "tipo_artista": "solista",
+      "gancho": "Una canción de 1988 que suena como un recuerdo de escuchar la radio con las ventanillas bajas.",
+      "etiquetas": [
+        "Historias detrás de la canción",
+        "Años 80",
+        "Radio y memoria"
+      ],
+      "dato_distintivo": "Fue el último gran Top 40 estadounidense de Eric Carmen."
+    },
+    {
+      "artista": "Fantasy",
+      "titulo": "You’re Too Late",
+      "aliases_artista": [
+        "Fantasy"
+      ],
+      "aliases_titulo": [
+        "You’re Too Late"
+      ],
+      "anio": 1980,
+      "texto": "Una pista de baile neoyorquina situada justo en la bisagra entre dos décadas.",
+      "cierre": "Porque captura exactamente el momento en que la disco dejó de ser sólo una estética de los setenta y comenzó a transformarse en música de club de los ochenta.",
+      "slug": "fantasy-youre-too-late",
+      "imagen": "img/archivo/fantasy-youre-too-late.jpg",
+      "album": "Fantasy",
+      "sello": "Pavillion / CBS",
+      "single": "You’re Too Late",
+      "compositor": "Tony Valor",
+      "productor": "Tony Valor",
+      "voz_principal": "Fantasy",
+      "historia": "Publicada a fines de 1980, You’re Too Late se convirtió en uno de esos discos que explican la transición entre la disco de los setenta y el sonido de club de comienzos de los ochenta. Tony Valor escribió, arregló y produjo el proyecto.",
+      "quienes_er_an": "Fantasy fue un grupo vocal de Nueva York asociado al productor Tony Valor. Su formación y las sesiones reunieron voces y músicos ligados al circuito disco neoyorquino.",
+      "musicos": [
+        "Fantasy — voces",
+        "Tony Valor — composición, arreglos, sintetizadores y producción",
+        "Jolyon Skinner — arreglos, bajo y sintetizadores",
+        "Steve Robbins — arreglos y sintetizadores",
+        "Luci Martin — coros",
+        "Norma Jean Wright — coros"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Dance/Disco: Nº1",
+        "Estados Unidos — R&B: Top 30"
+      ],
+      "sabias_que": [
+        "El single estadounidense apareció en Pavillion con una versión instrumental en la cara B.",
+        "Tony Valor fue compositor y productor.",
+        "Luci Martin y Norma Jean Wright, vinculadas al universo Chic, aparecen entre los créditos del álbum."
+      ],
+      "por_que_recordarlo": "Porque captura exactamente el momento en que la disco dejó de ser sólo una estética de los setenta y comenzó a transformarse en música de club de los ochenta.",
+      "tipo_artista": "grupo",
+      "gancho": "Una pista de baile neoyorquina situada justo en la bisagra entre dos décadas.",
+      "etiquetas": [
+        "Disco",
+        "Clásicos de boliche",
+        "Joyas ocultas",
+        "Años 80"
+      ],
+      "dato_distintivo": "Llegó al Nº1 del circuito Dance/Disco estadounidense."
+    },
+    {
+      "artista": "Firefly",
+      "titulo": "Love Is Coming",
+      "aliases_artista": [
+        "Firefly"
+      ],
+      "aliases_titulo": [
+        "Love Is Coming"
+      ],
+      "anio": 1982,
+      "texto": "Antes de que “Italo disco” fuera una etiqueta universal, discos como éste ya estaban construyendo su sonido.",
+      "cierre": "Porque permite escuchar cómo la disco europea estaba mutando hacia el lenguaje electrónico que dominaría buena parte de los clubes de los ochenta.",
+      "slug": "firefly-love-is-coming",
+      "imagen": "img/archivo/firefly-love-is-coming.jpg",
+      "album": "Firefly 3",
+      "sello": "Mr. Disc / Full Time",
+      "single": "Love Is Coming",
+      "compositor": "Maurizio Sangineto (Sangy)",
+      "productor": "Maurizio Sangineto (Sangy)",
+      "voz_principal": "Firefly",
+      "historia": "Love Is Coming pertenece al período en que Firefly ayudaba a construir el puente entre disco, boogie e Italo disco. La canción apareció en Firefly 3 y circuló también en versiones extendidas para pista.",
+      "quienes_er_an": "Firefly fue un proyecto italiano de música dance asociado a Maurizio Sangineto, Jay Rolandi y Maurice Cavalieri. El grupo quedó especialmente ligado al circuito internacional por Love (Is Gonna Be on Your Side).",
+      "musicos": [
+        "Firefly — interpretación",
+        "Maurizio Sangineto (Sangy) — composición y producción"
+      ],
+      "ranking": [
+        "Circuito europeo de disco/Italo disco — difusión en clubes y ediciones extendidas"
+      ],
+      "sabias_que": [
+        "La canción figura en Firefly 3 de 1982.",
+        "Existe una versión maxi cercana a los cinco minutos.",
+        "Firefly fue uno de los proyectos italianos que anticiparon rasgos del Italo disco."
+      ],
+      "por_que_recordarlo": "Porque permite escuchar cómo la disco europea estaba mutando hacia el lenguaje electrónico que dominaría buena parte de los clubes de los ochenta.",
+      "tipo_artista": "grupo",
+      "gancho": "Antes de que “Italo disco” fuera una etiqueta universal, discos como éste ya estaban construyendo su sonido.",
+      "etiquetas": [
+        "Italo disco",
+        "Clásicos de boliche",
+        "Joyas ocultas",
+        "Años 80"
+      ],
+      "dato_distintivo": "La pista quedó documentada tanto en Firefly 3 como en ediciones maxi posteriores."
+    },
+    {
+      "artista": "Foreigner",
+      "titulo": "I Want to Know What Love Is",
+      "aliases_artista": [
+        "Foreigner"
+      ],
+      "aliases_titulo": [
+        "I Want to Know What Love Is"
+      ],
+      "anio": 1984,
+      "texto": "Una pregunta sencilla terminó convertida en un coro capaz de llenar estadios.",
+      "cierre": "Porque llevó una banda de rock de estadio a un territorio emocional y coral sin perder identidad, creando uno de los himnos definitivos de los ochenta.",
+      "slug": "foreigner-i-want-to-know-what-love-is",
+      "imagen": "img/archivo/foreigner-i-want-to-know-what-love-is.jpg",
+      "album": "Agent Provocateur",
+      "sello": "Atlantic",
+      "single": "I Want to Know What Love Is",
+      "compositor": "Mick Jones",
+      "productor": "Mick Jones · Alex Sadkin",
+      "voz_principal": "Lou Gramm",
+      "historia": "Mick Jones escribió una balada que fue creciendo desde una confesión íntima hasta un final casi gospel. El coro masivo, con participación del New Jersey Mass Choir, convirtió I Want to Know What Love Is en la canción más universal de Foreigner.",
+      "quienes_er_an": "Foreigner era una banda británico-estadounidense liderada creativamente por Mick Jones y con Lou Gramm como voz principal. Para Agent Provocateur incorporó una producción más atmosférica sin abandonar su raíz rock.",
+      "musicos": [
+        "Lou Gramm — voz principal",
+        "Mick Jones — guitarra, teclados, composición y producción",
+        "Alex Sadkin — producción",
+        "New Jersey Mass Choir — coros"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1",
+        "Reino Unido — Nº1"
+      ],
+      "sabias_que": [
+        "El New Jersey Mass Choir participa en el gran cierre coral.",
+        "Fue el primer Nº1 de Foreigner en el Billboard Hot 100.",
+        "Décadas después superó los mil millones de reproducciones en Spotify."
+      ],
+      "por_que_recordarlo": "Porque llevó una banda de rock de estadio a un territorio emocional y coral sin perder identidad, creando uno de los himnos definitivos de los ochenta.",
+      "tipo_artista": "grupo",
+      "gancho": "Una pregunta sencilla terminó convertida en un coro capaz de llenar estadios.",
+      "etiquetas": [
+        "Grandes baladas",
+        "Historias detrás de la canción",
+        "Años 80"
+      ],
+      "dato_distintivo": "La participación del New Jersey Mass Choir es una de las claves de su sonido final."
+    },
+    {
+      "artista": "Foreigner",
+      "titulo": "That Was Yesterday",
+      "aliases_artista": [
+        "Foreigner"
+      ],
+      "aliases_titulo": [
+        "That Was Yesterday"
+      ],
+      "anio": 1985,
+      "texto": "El día después de un Nº1 mundial, Foreigner volvió con una canción sobre aquello que ya quedó atrás.",
+      "cierre": "Porque demuestra que Agent Provocateur no dependía de una sola balada: Foreigner también podía transformar pérdida y memoria en rock de radio con pulso electrónico.",
+      "slug": "foreigner-that-was-yesterday",
+      "imagen": "img/archivo/foreigner-that-was-yesterday.jpg",
+      "album": "Agent Provocateur",
+      "sello": "Atlantic",
+      "single": "That Was Yesterday",
+      "compositor": "Mick Jones · Lou Gramm",
+      "productor": "Mick Jones · Alex Sadkin",
+      "voz_principal": "Lou Gramm",
+      "historia": "Después del impacto gigantesco de I Want to Know What Love Is, Foreigner eligió una canción más rítmica y electrónica como siguiente sencillo de Agent Provocateur. That Was Yesterday mantuvo el dramatismo de la banda pero lo llevó a un pulso más marcado.",
+      "quienes_er_an": "Foreigner combinaba la escritura de Mick Jones con la voz de Lou Gramm. Agent Provocateur mostró a la banda incorporando con mayor claridad texturas de sintetizador propias de mediados de los ochenta.",
+      "musicos": [
+        "Lou Gramm — voz principal",
+        "Mick Jones — composición, guitarra, teclados y producción",
+        "Alex Sadkin — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº12"
+      ],
+      "sabias_que": [
+        "Fue el sencillo que siguió a I Want to Know What Love Is.",
+        "Alcanzó el Top 20 estadounidense.",
+        "Forma parte de Agent Provocateur, uno de los discos centrales de la etapa ochentosa del grupo."
+      ],
+      "por_que_recordarlo": "Porque demuestra que Agent Provocateur no dependía de una sola balada: Foreigner también podía transformar pérdida y memoria en rock de radio con pulso electrónico.",
+      "tipo_artista": "grupo",
+      "gancho": "El día después de un Nº1 mundial, Foreigner volvió con una canción sobre aquello que ya quedó atrás.",
+      "etiquetas": [
+        "Años 80",
+        "Rock de radio",
+        "Historias detrás de la canción"
+      ],
+      "dato_distintivo": "Alcanzó el Nº12 del Billboard Hot 100."
+    },
+    {
+      "artista": "Foreigner",
+      "titulo": "Waiting for a Girl Like You",
+      "aliases_artista": [
+        "Foreigner"
+      ],
+      "aliases_titulo": [
+        "Waiting for a Girl Like You"
+      ],
+      "anio": 1981,
+      "texto": "Diez semanas en el Nº2: una de las esperas más famosas de la historia del Billboard Hot 100.",
+      "cierre": "Porque convirtió la espera en tensión musical y demostró que una canción no necesita alcanzar el Nº1 para convertirse en un clásico absoluto.",
+      "slug": "foreigner-waiting-for-a-girl-like-you",
+      "imagen": "img/archivo/foreigner-waiting-for-a-girl-like-you.jpg",
+      "album": "4",
+      "sello": "Atlantic",
+      "single": "Waiting for a Girl Like You",
+      "compositor": "Mick Jones · Lou Gramm",
+      "productor": "Robert John “Mutt” Lange · Mick Jones",
+      "voz_principal": "Lou Gramm",
+      "historia": "Una balada lenta, sintetizadores envolventes y la voz de Lou Gramm llevaron a Foreigner a un terreno mucho más atmosférico. Waiting for a Girl Like You se convirtió en uno de los casos más famosos de una canción que permaneció semanas en el Nº2 sin alcanzar el Nº1.",
+      "quienes_er_an": "En el álbum 4, Foreigner trabajó con Robert John “Mutt” Lange y refinó un sonido capaz de convivir tanto con el hard rock como con las baladas de gran formato.",
+      "musicos": [
+        "Lou Gramm — voz principal",
+        "Mick Jones — guitarra, teclados, composición y producción",
+        "Robert John “Mutt” Lange — producción",
+        "Thomas Dolby — sintetizadores"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº2"
+      ],
+      "sabias_que": [
+        "Permaneció diez semanas en el Nº2 del Billboard Hot 100.",
+        "Thomas Dolby participó en los sintetizadores del álbum 4.",
+        "Fue uno de los mayores éxitos de Foreigner sin llegar al Nº1."
+      ],
+      "por_que_recordarlo": "Porque convirtió la espera en tensión musical y demostró que una canción no necesita alcanzar el Nº1 para convertirse en un clásico absoluto.",
+      "tipo_artista": "grupo",
+      "gancho": "Diez semanas en el Nº2: una de las esperas más famosas de la historia del Billboard Hot 100.",
+      "etiquetas": [
+        "Grandes baladas",
+        "Años 80",
+        "Historias detrás de la canción"
+      ],
+      "dato_distintivo": "Permaneció diez semanas consecutivas en el Nº2 estadounidense."
+    },
+    {
+      "artista": "George Michael",
+      "titulo": "Careless Whisper",
+      "aliases_artista": [
+        "George Michael"
+      ],
+      "aliases_titulo": [
+        "Careless Whisper"
+      ],
+      "anio": 1984,
+      "texto": "Una melodía de saxofón convirtió una historia de culpa adolescente en un clásico mundial.",
+      "cierre": "Porque bastan unos segundos de saxofón para identificarla: pocas canciones lograron una firma sonora tan inmediata y universal.",
+      "slug": "george-michael-careless-whisper",
+      "imagen": "img/archivo/george-michael-careless-whisper.jpg",
+      "album": "Make It Big / single solista según territorio",
+      "sello": "Epic / Columbia",
+      "single": "Careless Whisper",
+      "compositor": "George Michael · Andrew Ridgeley",
+      "productor": "George Michael",
+      "voz_principal": "George Michael",
+      "historia": "George Michael y Andrew Ridgeley comenzaron a escribir Careless Whisper cuando eran adolescentes. Años después, el saxofón de Steve Gregory y una producción cuidadosamente rehecha por Michael la transformaron en una de las baladas más reconocibles de los ochenta.",
+      "quienes_er_an": "George Michael todavía era parte de Wham! cuando Careless Whisper lo presentó en muchos mercados como artista solista. La canción marcó tempranamente la dimensión autoral y productiva que desarrollaría después.",
+      "musicos": [
+        "George Michael — voz, arreglos y producción",
+        "Andrew Ridgeley — composición y guitarra",
+        "Steve Gregory — saxofón",
+        "Deon Estus — bajo",
+        "Hugh Burns — guitarra",
+        "Trevor Murrell — batería"
+      ],
+      "ranking": [
+        "Nº1 en 25 países",
+        "Reino Unido — Nº1",
+        "Estados Unidos — Billboard Hot 100: Nº1"
+      ],
+      "sabias_que": [
+        "George Michael y Andrew Ridgeley la escribieron cuando Michael tenía 17 años.",
+        "Steve Gregory interpretó el célebre solo de saxofón.",
+        "En 1984 convirtió a Michael en uno de los artistas más jóvenes en ganar un Ivor Novello."
+      ],
+      "por_que_recordarlo": "Porque bastan unos segundos de saxofón para identificarla: pocas canciones lograron una firma sonora tan inmediata y universal.",
+      "tipo_artista": "solista",
+      "gancho": "Una melodía de saxofón convirtió una historia de culpa adolescente en un clásico mundial.",
+      "etiquetas": [
+        "Grandes baladas",
+        "Años 80",
+        "Historias detrás de la canción"
+      ],
+      "dato_distintivo": "Encabezó listas en 25 países y fue escrita cuando George Michael tenía apenas 17 años."
+    },
+    {
+      "artista": "Fleetwood Mac",
+      "titulo": "Dreams",
+      "aliases_artista": [
+        "Fleetwood Mac"
+      ],
+      "aliases_titulo": [
+        "Dreams"
+      ],
+      "anio": 1977,
+      "texto": "Stevie Nicks se apartó unas horas del resto de la banda y regresó con el único Nº1 estadounidense de Fleetwood Mac.",
+      "cierre": "Porque de una situación personal turbulenta nació una canción casi hipnótica cuya aparente sencillez terminó atravesando generaciones.",
+      "slug": "fleetwood-mac-dreams",
+      "imagen": "img/archivo/fleetwood-mac-dreams.jpg",
+      "album": "Rumours",
+      "sello": "Warner Bros.",
+      "single": "Dreams",
+      "compositor": "Stevie Nicks",
+      "productor": "Fleetwood Mac · Ken Caillat · Richard Dashut",
+      "voz_principal": "Stevie Nicks",
+      "historia": "Mientras el resto de Fleetwood Mac trabajaba en otra sala de Record Plant, Stevie Nicks entró al estudio asociado a Sly Stone, se sentó con un pequeño Fender Rhodes y escribió Dreams. La sencillez de aquella idea terminó produciendo el único Nº1 estadounidense de Fleetwood Mac.",
+      "quienes_er_an": "Fleetwood Mac atravesaba durante Rumours una etapa de enormes tensiones personales. Stevie Nicks, Lindsey Buckingham, Christine McVie, John McVie y Mick Fleetwood transformaron esas rupturas en uno de los álbumes más célebres de la historia del rock.",
+      "musicos": [
+        "Stevie Nicks — voz y composición",
+        "Lindsey Buckingham — guitarra y coros",
+        "Christine McVie — teclados y coros",
+        "John McVie — bajo",
+        "Mick Fleetwood — batería",
+        "Ken Caillat — producción e ingeniería",
+        "Richard Dashut — producción"
+      ],
+      "ranking": [
+        "Estados Unidos — Billboard Hot 100: Nº1"
+      ],
+      "sabias_que": [
+        "Es el único sencillo de Fleetwood Mac que llegó al Nº1 del Billboard Hot 100.",
+        "Stevie Nicks contó que la escribió en el estudio de Sly Stone en Record Plant, Sausalito.",
+        "La canción forma parte de Rumours, publicado en 1977."
+      ],
+      "por_que_recordarlo": "Porque de una situación personal turbulenta nació una canción casi hipnótica cuya aparente sencillez terminó atravesando generaciones.",
+      "tipo_artista": "grupo",
+      "gancho": "Stevie Nicks se apartó unas horas del resto de la banda y regresó con el único Nº1 estadounidense de Fleetwood Mac.",
+      "etiquetas": [
+        "Historias detrás de la canción",
+        "Clásicos eternos",
+        "Años 70"
+      ],
+      "dato_distintivo": "Fue el único Nº1 de Fleetwood Mac en el Billboard Hot 100."
     }
   ]
 }
