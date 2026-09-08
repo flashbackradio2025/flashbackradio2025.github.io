@@ -2,7 +2,7 @@
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
   "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-09-07",
+  "ultima_actualizacion": "2026-09-08",
   "fichas": [
     {
       "artista": "Night",
@@ -28023,6 +28023,33 @@
       "por_que_recordarlo": "Porque resume la alianza creativa entre Cowley y Parker y representa uno de los puntos más altos del Hi-NRG temprano.",
       "recuerdo_personal": "",
       "tipo_artista": "colaboracion"
+    },
+    {
+      "artista": "Micro Come Prima",
+      "titulo": "Micro Come Prima",
+      "aliases_artista": [],
+      "aliases_titulo": [],
+      "anio": 1957,
+      "texto": "Una canción italiana que nació en 1955, fue rechazada por Sanremo y encontró su destino en la voz de Tony Dallara en 1957. Desde allí, Come Prima viajó por idiomas, países y estilos: Tony Dallara, Estela Raval con Los Cinco Latinos, Dalida y The Platters dejaron cuatro huellas diferentes sobre una misma melodía.",
+      "cierre": "Una canción. Cuatro voces. Una historia que siguió viajando.",
+      "slug": "micro-come-prima",
+      "imagen": "img/archivo/come-prima.jpg",
+      "album": "Micro editorial · Viajes de una Canción",
+      "sello": "FlashBack Radio",
+      "single": "Come Prima / versiones: Tony Dallara · Estela Raval · Dalida · The Platters",
+      "catalogo": "Micro Come Prima — MICROS_VERSIONES",
+      "duracion": "625 s",
+      "compositor": "Vincenzo Di Paola · Sandro Taccani (música) · Mario Panzeri (letra)",
+      "productor": "Walter Guertler / Music, en el lanzamiento de Tony Dallara",
+      "voz_principal": "Tony Dallara · Estela Raval / Los Cinco Latinos · Dalida · The Platters",
+      "historia": "COME PRIMA: UNA CANCIÓN QUE APRENDIÓ A VIAJAR. La historia comienza antes del éxito. La canción fue escrita por Mario Panzeri sobre música de Vincenzo Di Paola y Sandro Taccani y fue presentada a la selección del Festival de Sanremo de 1955, pero no fue aceptada. Dos años después, Tony Dallara la convirtió en el gran despegue de su carrera. Su 45 rpm apareció a fines de 1957 y la grabación alcanzó el primer puesto de la hit parade italiana durante varias semanas. La interpretación de Dallara también estuvo marcada por su admiración por el sonido de The Platters y, especialmente, por la manera de cantar de Tony Williams. El éxito hizo que Come Prima dejara de ser solamente una canción italiana y comenzara a circular internacionalmente. En 1958 Dalida grabó una versión vinculada al título francés Tu me donnes, mientras que Buck Ram escribió una letra inglesa para la adaptación For the First Time, que fue grabada por The Platters. En Argentina y el ámbito hispano, Estela Raval y Los Cinco Latinos llevaron la canción al castellano como Como Antes; el propio canal oficial de Estela Raval señala que el tema ya formaba parte de su repertorio desde 1958 y que la versión de Los Cinco Latinos fue una de las más difundidas. Por eso este micro no presenta cuatro canciones distintas: presenta cuatro maneras de recordar la misma canción, atravesando italiano, español, francés e inglés y cambiando con cada intérprete el color emocional de la interpretación.",
+      "quienes_er_an": "Tony Dallara (Antonio Lardera), intérprete de la grabación que popularizó Come Prima en Italia; Estela Raval y Los Cinco Latinos, responsables de la conocida adaptación castellana Como Antes; Dalida, con su versión francesa Tu me donnes; y The Platters, con la adaptación inglesa For the First Time.",
+      "musicos": "La documentación consultada confirma los autores de la obra y, para The Platters, identifica a Tony Williams como voz principal de For the First Time (Come Prima). No se incorporan aquí músicos de acompañamiento no verificados.",
+      "ranking": "Tony Dallara: la grabación llegó al puesto Nº1 de la hit parade italiana y permaneció varias semanas en esa posición. Fuentes biográficas sitúan sus ventas alrededor de 300.000 copias, un resultado extraordinario para la época. La versión de Dalida, Tu me donnes, también alcanzó el primer lugar de ventas en Francia y Bélgica según las fuentes biográficas consultadas.",
+      "sabias_que": "• Come Prima fue presentada a Sanremo en 1955 y quedó fuera de la selección. • Tony Dallara trabajaba como repartidor para el sello Music cuando Walter Guertler descubrió su faceta de cantante y decidió contratarlo. • Dallara admiraba a The Platters y tomó como referencia el estilo vocal de Tony Williams. • Buck Ram escribió la letra inglesa For the First Time para la adaptación internacional. • The Platters grabaron For the First Time (Come Prima) en 1958. • Los Cinco Latinos, con Estela Raval, difundieron la canción en castellano como Como Antes.",
+      "por_que_recordarlo": "Porque Come Prima es un ejemplo perfecto de cómo una canción puede sobrevivir a su primera interpretación y adquirir nuevas identidades sin perder su melodía esencial. En pocos años pasó del italiano de Tony Dallara al castellano de Estela Raval y Los Cinco Latinos, al francés de Dalida y al inglés de The Platters. Escuchar estas versiones juntas permite entender que una misma canción también puede contar historias diferentes según la voz, el idioma y la época que la interpreten.",
+      "recuerdo_personal": "",
+      "tipo_artista": "micro editorial"
     }
   ]
 }
