@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
-  "descripcion": "Fichas breves vinculadas a canciones reales de la biblioteca de FlashBack Radio. Se muestran según artista + título del tema en emisión.",
-  "ultima_actualizacion": "2026-09-08",
+  "descripcion": "Fichas editoriales vinculadas a canciones, micros y especiales de FlashBack Radio. Se muestran según artista + título cuando corresponde.",
+  "ultima_actualizacion": "2026-09-13",
   "fichas": [
     {
       "artista": "Night",
@@ -28050,6 +28050,246 @@
       "por_que_recordarlo": "Porque Come Prima es un ejemplo perfecto de cómo una canción puede sobrevivir a su primera interpretación y adquirir nuevas identidades sin perder su melodía esencial. En pocos años pasó del italiano de Tony Dallara al castellano de Estela Raval y Los Cinco Latinos, al francés de Dalida y al inglés de The Platters. Escuchar estas versiones juntas permite entender que una misma canción también puede contar historias diferentes según la voz, el idioma y la época que la interpreten.",
       "recuerdo_personal": "",
       "tipo_artista": "micro editorial"
+    },
+    {
+      "artista": "The Beatles",
+      "titulo": "Especial The Beatles",
+      "aliases_artista": [
+        "Beatles",
+        "The Fab Four"
+      ],
+      "aliases_titulo": [
+        "Especial Beatles",
+        "FlashBack Beatles"
+      ],
+      "anio": 1962,
+      "texto": "Un recorrido por la historia de The Beatles desde Liverpool hasta 1970: cuatro músicos que transformaron el lenguaje de la canción popular, el estudio de grabación y la cultura juvenil. El especial parte de sus primeros años en el circuito de Liverpool, el Cavern Club y el encuentro con Brian Epstein, atraviesa la llegada a Parlophone y George Martin, la explosión internacional de la Beatlemanía y la progresiva transformación artística que llevó de la energía del rock and roll a la experimentación de la segunda mitad de los años sesenta.",
+      "cierre": "Cuatro músicos, una década y una obra que cambió para siempre la música popular.",
+      "slug": "especial-the-beatles",
+      "imagen": "img/artistas/especiales/especial-beatles.png",
+      "album": "Especial editorial · FlashBack Radio",
+      "sello": "FlashBack Radio",
+      "single": "Especial The Beatles · repertorio seleccionado de 1962–1970",
+      "catalogo": "Especiales FlashBack Radio — PROGRAMA_BEATLES",
+      "duracion": "Programa especial",
+      "compositor": "John Lennon · Paul McCartney · George Harrison · Ringo Starr y compositores asociados al repertorio del grupo",
+      "productor": "George Martin / producción discográfica; Brian Epstein / representación durante la etapa decisiva de ascenso",
+      "voz_principal": "John Lennon · Paul McCartney · George Harrison · Ringo Starr",
+      "historia": "THE BEATLES: DE LIVERPOOL AL CAMBIO DE ÉPOCA. La historia moderna de The Beatles comienza mucho antes de sus primeros discos, en el circuito de Liverpool y especialmente en el Cavern Club. La propia cronología oficial del grupo registra que entre 1961 y 1963 tocaron allí unas 292 veces y que en noviembre de 1961 conocieron a Brian Epstein, quien se convertiría en su manager. En 1962 entró en escena George Martin y el grupo llegó a Parlophone; Love Me Do abrió el camino discográfico y la banda pasó rápidamente de ser una formación local a un fenómeno nacional e internacional. La discografía oficial concentra entre 1963 y 1970 una secuencia extraordinaria de álbumes: Please Please Me, With The Beatles, A Hard Day's Night, Beatles For Sale, Help!, Rubber Soul, Revolver, Sgt. Pepper's Lonely Hearts Club Band, The Beatles, Yellow Submarine, Abbey Road y Let It Be. El cambio no fue solamente comercial. Los Beatles ampliaron progresivamente el papel del estudio, incorporaron nuevas formas de composición y producción y dejaron atrás la idea de que un grupo popular debía limitarse a repetir una fórmula. El Salón de la Fama del Rock and Roll resume ese recorrido como una combinación de melodías pop, energía rock e innovación de estudio. La historia oficial llega hasta la separación en 1970, pero la obra siguió expandiéndose mediante reediciones, archivos, mezclas y nuevos contextos de escucha.",
+      "quienes_er_an": "John Lennon, Paul McCartney, George Harrison y Ringo Starr constituyen la formación clásica de The Beatles. En la historia del grupo también son fundamentales Brian Epstein como manager y George Martin como productor y figura decisiva del trabajo de estudio.",
+      "musicos": "La formación clásica fue John Lennon (voz, guitarra), Paul McCartney (voz, bajo), George Harrison (guitarra, voz) y Ringo Starr (batería, voz). Antes de la formación definitiva pasaron por el grupo otros músicos, entre ellos Stuart Sutcliffe y Pete Best.",
+      "ranking": "The Beatles fueron incorporados al Rock & Roll Hall of Fame en 1988. Su impacto comercial fue extraordinario a ambos lados del Atlántico; la discografía oficial documenta una cadena de álbumes que marcaron distintas etapas de la música popular de los años sesenta.",
+      "sabias_que": "• La cronología oficial estima unas 292 actuaciones de The Beatles en el Cavern Club entre 1961 y 1963. • Brian Epstein los vio allí en 1961 y pasó a representarlos. • George Martin fue una pieza clave para llevar su potencial al estudio. • Rubber Soul y Revolver marcaron una aceleración evidente de su evolución artística. • Sgt. Pepper's convirtió el álbum en una experiencia artística aún más ambiciosa. • La obra oficial del grupo continúa siendo reeditada y remezclada para nuevas generaciones.",
+      "por_que_recordarlo": "Porque The Beatles no fueron solamente una banda de éxitos: modificaron la relación entre compositor, intérprete, productor y estudio de grabación. Escucharlos dentro de un especial permite seguir una transformación musical casi año por año y entender por qué una banda nacida en el circuito de Liverpool terminó convirtiéndose en una referencia universal.",
+      "recuerdo_personal": "",
+      "tipo_artista": "especial editorial",
+      "programacion": "Sábado · 11:00 hs",
+      "fuentes": [
+        "https://www.thebeatles.com/red-and-blue-timeline",
+        "https://www.thebeatles.com/albums",
+        "https://rockhall.com/inductees/beatles/"
+      ]
+    },
+    {
+      "artista": "Los Plateros",
+      "titulo": "Especial Los Plateros",
+      "aliases_artista": [
+        "The Platters",
+        "Los Platters"
+      ],
+      "aliases_titulo": [
+        "Especial Plateros",
+        "FlashBack Plateros"
+      ],
+      "anio": 1953,
+      "texto": "Un especial dedicado al gran grupo vocal que convirtió el doo-wop, el rhythm & blues y la balada romántica en un lenguaje internacional. Los Plateros —The Platters— construyeron una identidad reconocible por las armonías, la voz de Tony Williams, la presencia de Zola Taylor y el trabajo de Herb Reed y los demás integrantes originales. Su repertorio atravesó décadas y quedó profundamente unido a la memoria romántica de varias generaciones.",
+      "cierre": "Muchas voces, una identidad y canciones que todavía saben detener el tiempo.",
+      "slug": "especial-los-plateros",
+      "imagen": "img/artistas/especiales/especial-los-plateros.png",
+      "album": "Especial editorial · FlashBack Radio",
+      "sello": "FlashBack Radio",
+      "single": "Especial Los Plateros · repertorio vocal y romántico",
+      "catalogo": "Especiales FlashBack Radio — PROGRAMA_PLATEROS",
+      "duracion": "Programa especial",
+      "compositor": "Buck Ram y compositores del repertorio; arreglos y producción asociados a Mercury Records y al entorno de The Platters",
+      "productor": "Buck Ram / dirección artística y repertorio; Mercury Records / etapa decisiva de grabaciones",
+      "voz_principal": "Tony Williams · Zola Taylor · Herb Reed · Paul Robi · David Lynch",
+      "historia": "LOS PLATEROS: CUANDO EL DOO-WOP SE HIZO UNIVERSAL. Herb Reed fundó The Platters a comienzos de los años cincuenta y el grupo fue tomando la forma que se convertiría en histórica con la incorporación de Tony Williams, David Lynch, Paul Robi y, poco después, Zola Taylor. La web oficial de The Platters señala a Reed como fundador y único cantante presente en las más de 400 grabaciones oficiales atribuidas al grupo a lo largo de su historia. El salto decisivo llegó en 1955 con Only You, seguido por The Great Pretender, My Prayer, Twilight Time, Smoke Gets in Your Eyes y otros clásicos. El grupo logró algo poco habitual para la época: unir la sofisticación de la balada popular con las armonías del doo-wop y el rhythm & blues, y convertirse en un fenómeno internacional. La historia también tiene una parte difícil: en 1959 varios integrantes fueron arrestados en Ohio en un contexto de persecución racial; aunque fueron absueltos, el episodio perjudicó gravemente su mercado estadounidense y favoreció la expansión europea. Tony Williams se alejó poco después para desarrollar su carrera. A pesar de los cambios de integrantes, el nombre y el repertorio sobrevivieron y continuaron viajando por el mundo. El Rock & Roll Hall of Fame incorporó a The Platters en 1990.",
+      "quienes_er_an": "La formación clásica está asociada a Herb Reed, Tony Williams, Zola Taylor, David Lynch y Paul Robi. Buck Ram fue una figura decisiva en la dirección, composición y desarrollo del repertorio del grupo.",
+      "musicos": "Herb Reed fue la voz grave y fundador del grupo; Tony Williams aportó la voz principal más emblemática de la primera etapa; Zola Taylor incorporó la voz femenina al conjunto; Paul Robi y David Lynch completaron la formación vocal clásica.",
+      "ranking": "The Platters fueron incorporados al Rock & Roll Hall of Fame en 1990. La organización oficial destaca su condición de primer grupo vocal negro en alcanzar una superestrellato internacional y su sucesión de grandes éxitos. Su repertorio incluye múltiples canciones que alcanzaron las listas de popularidad en la segunda mitad de los años cincuenta.",
+      "sabias_que": "• Herb Reed fundó el grupo en 1952–53 y eligió el nombre The Platters. • Zola Taylor fue incorporada siendo adolescente y ayudó a romper la imagen exclusivamente masculina de muchos grupos vocales de la época. • Only You fue el gran salto internacional de 1955. • The Great Pretender, My Prayer, Twilight Time y Smoke Gets in Your Eyes consolidaron la fama mundial. • El nombre Los Plateros quedó instalado en el ámbito hispano y argentino como forma habitual de referirse al grupo. • Los cambios de integrantes fueron numerosos, por lo que la formación de los años cincuenta es la referencia histórica central del especial.",
+      "por_que_recordarlo": "Porque Los Plateros forman parte de una memoria musical que en Argentina y en toda América Latina quedó asociada a la radio, los lentos y las canciones románticas. Su importancia no depende solamente de la nostalgia: fueron un puente entre el doo-wop, el rhythm & blues, el pop y la gran balada internacional.",
+      "recuerdo_personal": "",
+      "tipo_artista": "especial editorial",
+      "programacion": "Domingo · 11:00 hs",
+      "fuentes": [
+        "https://theplatters.com/about/",
+        "https://theplattersmusic.com/original_members/",
+        "https://rockhall.com/inductees/platters/"
+      ]
+    },
+    {
+      "artista": "The Hollies",
+      "titulo": "Especial The Hollies",
+      "aliases_artista": [
+        "Hollies"
+      ],
+      "aliases_titulo": [
+        "Especial Hollies",
+        "FlashBack Hollies"
+      ],
+      "anio": 1962,
+      "texto": "Un recorrido por una de las grandes bandas de la Invasión Británica, reconocible por sus armonías vocales, guitarras brillantes y una extraordinaria capacidad para convertir melodías en canciones memorables. Desde la amistad de infancia entre Allan Clarke y Graham Nash hasta la incorporación de Tony Hicks y Bobby Elliott, The Hollies construyeron una identidad propia que sobrevivió a numerosos cambios de integrantes.",
+      "cierre": "Armonías que parecen sencillas hasta que uno intenta hacerlas de nuevo.",
+      "slug": "especial-the-hollies",
+      "imagen": "img/artistas/especiales/especial-hollies.png",
+      "album": "Especial editorial · FlashBack Radio",
+      "sello": "FlashBack Radio",
+      "single": "Especial The Hollies · repertorio seleccionado",
+      "catalogo": "Especiales FlashBack Radio — ESPECIALES_DOMINGO",
+      "duracion": "Programa especial",
+      "compositor": "Allan Clarke · Graham Nash · Tony Hicks y compositores asociados al repertorio de The Hollies",
+      "productor": "Ron Richards / producción de la etapa Parlophone y EMI",
+      "voz_principal": "Allan Clarke · Graham Nash · Tony Hicks",
+      "historia": "THE HOLLIES: LA FUERZA DE LAS ARMONÍAS. Allan Clarke y Graham Nash se conocieron de niños en Salford y comenzaron a cantar juntos antes de que existiera The Hollies. En 1962, junto con otros músicos del circuito de Manchester, dieron forma al grupo que terminaría siendo una de las formaciones más reconocibles de la British Invasion. Tony Hicks se incorporó en 1963 y Bobby Elliott pasó a la batería ese mismo año, formando una alineación clásica de enorme estabilidad. El sonido de The Hollies se apoyó en armonías vocales muy trabajadas, guitarras de doce cuerdas y una combinación de pop, rock, folk y beat que les permitió atravesar distintas modas. Canciones como Bus Stop, Carrie Anne, Sorry Suzanne, He Ain't Heavy, He's My Brother y The Air That I Breathe muestran diferentes etapas de esa capacidad melódica. Graham Nash dejó el grupo en 1968 para desarrollar la trayectoria que lo llevaría a Crosby, Stills, Nash & Young, pero The Hollies continuaron su carrera. El Rock & Roll Hall of Fame los incorporó en 2010 y destacó sus 22 singles que llegaron a las listas, una cifra que los coloca entre las formaciones británicas de mayor éxito comercial de su generación.",
+      "quienes_er_an": "Allan Clarke, Graham Nash, Tony Hicks, Bobby Elliott, Eric Haydock y Bernie Calvert son nombres fundamentales para entender las distintas etapas del grupo. La formación clásica más recordada reúne a Clarke, Nash, Hicks, Haydock y Elliott.",
+      "musicos": "Allan Clarke: voz y armónica. Graham Nash: voz y guitarra. Tony Hicks: guitarra, banjo, mandolina, sitar eléctrico y voz. Bobby Elliott: batería y percusión. Eric Haydock y luego Bernie Calvert: bajo en distintas etapas.",
+      "ranking": "El Rock & Roll Hall of Fame incorporó a The Hollies en 2010. La institución señala 22 singles en las listas de éxitos y los ubica entre las bandas británicas de mayor éxito comercial de la Invasión Británica.",
+      "sabias_que": "• Clarke y Nash se conocían desde la infancia y comenzaron a armonizar sus voces siendo niños. • El nombre The Hollies apareció en 1962, aunque durante años circuló la versión de que era un homenaje directo a Buddy Holly. • Tony Hicks ingresó en 1963 y Bobby Elliott se convirtió en el baterista de la formación clásica. • Graham Nash dejó el grupo en 1968. • The Hollies fueron incorporados al Rock & Roll Hall of Fame en 2010. • Su sonido de armonías sigue siendo una de las marcas más reconocibles de la banda.",
+      "por_que_recordarlo": "Porque The Hollies demuestran que una banda puede construir una identidad enorme sin depender de una sola fórmula. Escucharlos permite reconocer cómo la armonía vocal, el cuidado melódico y la producción de estudio podían convertir una canción aparentemente sencilla en un clásico que sobrevive décadas.",
+      "recuerdo_personal": "",
+      "tipo_artista": "especial editorial",
+      "programacion": "Domingo · 17:00 hs",
+      "fuentes": [
+        "https://www.theholliesofficial.com/",
+        "https://www.theholliesofficial.com/meet-the-band",
+        "https://www.abbeyroad.com/news/the-genius-of-the-hollies-as-told-by-abbey-roads-cameron-colbeck-3105",
+        "https://rockhall.com/inductees/hollies/"
+      ]
+    },
+    {
+      "artista": "The Rolling Stones",
+      "titulo": "Especial The Rolling Stones",
+      "aliases_artista": [
+        "Rolling Stones",
+        "The Stones"
+      ],
+      "aliases_titulo": [
+        "Especial Rolling Stones",
+        "Especial Stones",
+        "FlashBack Rolling Stones"
+      ],
+      "anio": 1962,
+      "texto": "Un viaje por la banda que convirtió el blues y el rhythm & blues estadounidense en una de las identidades más poderosas del rock británico. Desde su debut en el Marquee de Londres en julio de 1962 hasta décadas de discos, giras y transformaciones, The Rolling Stones construyeron una relación particular con el blues, la provocación, el escenario y la cultura popular.",
+      "cierre": "Blues, actitud y rock: una historia que aprendió a sobrevivir a seis décadas.",
+      "slug": "especial-the-rolling-stones",
+      "imagen": "img/artistas/especiales/especial-rolling-stones.png",
+      "album": "Especial editorial · FlashBack Radio",
+      "sello": "FlashBack Radio",
+      "single": "Especial The Rolling Stones · repertorio seleccionado",
+      "catalogo": "Especiales FlashBack Radio — ESPECIALES_DOMINGO",
+      "duracion": "Programa especial",
+      "compositor": "Mick Jagger · Keith Richards y compositores del blues y rhythm & blues que integran el repertorio de la banda",
+      "productor": "Andrew Loog Oldham / primera etapa discográfica; múltiples productores en las distintas décadas",
+      "voz_principal": "Mick Jagger",
+      "historia": "THE ROLLING STONES: DEL BLUES AL ROCK GLOBAL. El debut oficial de The Rolling Stones se produjo el 12 de julio de 1962 en el Marquee Club de Londres. Aquella primera formación incluía a Mick Jagger, Keith Richards, Brian Jones, Ian Stewart, Dick Taylor y Tony Chapman. El grupo nació alrededor de una pasión compartida por el blues y el rhythm & blues estadounidense, una elección que marcó su sonido y también su imagen. En 1963 se consolidó la formación con Bill Wyman y Charlie Watts, y la banda comenzó a desarrollar el perfil que la convertiría en una de las grandes fuerzas de la música popular. A diferencia de la imagen limpia y juvenil que rodeaba a buena parte de la primera Beatlemanía, los Stones fueron construyendo una estética más áspera, provocadora y vinculada al blues. Con el tiempo incorporaron psicodelia, country, soul, disco y otros lenguajes sin perder su núcleo rockero. Satisfaction, Paint It Black, Gimme Shelter, Beast of Burden y Start Me Up son apenas algunos de los hitos que permiten recorrer esa transformación. El Rock & Roll Hall of Fame los incorporó en 1989 y destaca una carrera de más de seis décadas, 31 álbumes de estudio y una influencia que atraviesa generaciones.",
+      "quienes_er_an": "Mick Jagger y Keith Richards constituyen el eje creativo y escénico de la banda. Brian Jones fue una figura fundacional; Ian Stewart quedó como pieza esencial detrás de escena; Charlie Watts y Bill Wyman consolidaron la sección rítmica clásica; Ronnie Wood se incorporó en 1975 y pasó a integrar la formación histórica posterior.",
+      "musicos": "Mick Jagger: voz. Keith Richards: guitarra. Brian Jones: guitarra y múltiples instrumentos en la etapa fundacional. Charlie Watts: batería. Bill Wyman: bajo. Ronnie Wood: guitarra desde 1975. Ian Stewart: piano y colaborador permanente desde los primeros años.",
+      "ranking": "The Rolling Stones fueron incorporados al Rock & Roll Hall of Fame en 1989. La institución destaca 31 álbumes de estudio y una trayectoria que atravesó blues, rock, psicodelia, country, punk y disco.",
+      "sabias_que": "• El primer concierto oficial fue el 12 de julio de 1962 en el Marquee Club. • El nombre se relaciona con Rollin' Stone Blues de Muddy Waters. • Bill Wyman y Charlie Watts se incorporaron a la formación consolidada en 1963. • Andrew Loog Oldham ayudó a construir una imagen deliberadamente opuesta a la de los Beatles. • Start Me Up fue uno de los grandes himnos de Tattoo You. • La banda siguió transformándose sin abandonar el blues como raíz.",
+      "por_que_recordarlo": "Porque The Rolling Stones permiten recorrer la historia del rock sin separar música, actitud e identidad cultural. Su especial no es solamente una sucesión de éxitos: es la historia de una banda que hizo del blues una lengua propia y consiguió mantenerse relevante mientras cambiaban generaciones, tecnologías y modas.",
+      "recuerdo_personal": "",
+      "tipo_artista": "especial editorial",
+      "programacion": "Domingo · 17:00 hs",
+      "fuentes": [
+        "https://rockhall.com/inductees/rolling-stones/",
+        "https://es.rollingstone.com/the-rolling-stones-20-conciertos-indispensables/",
+        "https://blog.oup.com/2012/07/rock-n-roll-rolling-stones-debut-12-july-1962/"
+      ]
+    },
+    {
+      "artista": "The Alan Parsons Project",
+      "titulo": "Especial The Alan Parsons Project",
+      "aliases_artista": [
+        "Alan Parsons Project",
+        "APP"
+      ],
+      "aliases_titulo": [
+        "Especial Alan Parsons",
+        "Especial The Alan Parsons Project",
+        "FlashBack Alan Parsons"
+      ],
+      "anio": 1976,
+      "texto": "Un especial dedicado a una de las experiencias de estudio más particulares de la historia del rock progresivo y el pop sofisticado. The Alan Parsons Project fue concebido alrededor de Alan Parsons y Eric Woolfson, combinando composición, producción, ingeniería de sonido, músicos invitados y voces diferentes para cada canción. El resultado fue una obra de diez álbumes conceptuales entre 1976 y 1987, marcada por una obsesión por el sonido y por la narración musical.",
+      "cierre": "Cuando el estudio deja de ser solamente un lugar de grabación y se convierte en parte de la obra.",
+      "slug": "especial-the-alan-parsons-project",
+      "imagen": "img/artistas/especiales/especial-alan-parsons.png",
+      "album": "Especial editorial · FlashBack Radio",
+      "sello": "FlashBack Radio",
+      "single": "Especial The Alan Parsons Project · repertorio seleccionado",
+      "catalogo": "Especiales FlashBack Radio — ESPECIALES_DOMINGO",
+      "duracion": "Programa especial",
+      "compositor": "Eric Woolfson · Alan Parsons · colaboradores de las distintas obras",
+      "productor": "Alan Parsons · Eric Woolfson",
+      "voz_principal": "Voces invitadas según cada obra y canción; Eric Woolfson participa como cantante principal en varios clásicos",
+      "historia": "THE ALAN PARSONS PROJECT: EL ESTUDIO COMO INSTRUMENTO. Alan Parsons llegó al proyecto con una experiencia excepcional como ingeniero y productor, incluida su participación en trabajos de The Beatles y Pink Floyd. Eric Woolfson, compositor, letrista, músico y manager, había desarrollado una idea inspirada en Edgar Allan Poe y encontró en Parsons al socio técnico y artístico capaz de convertirla en una obra. Así nació The Alan Parsons Project, cuyo primer álbum, Tales of Mystery and Imagination, Edgar Allan Poe, apareció en 1976. El proyecto no funcionó como una banda tradicional: sus discos utilizaron distintos cantantes y músicos según las necesidades de cada canción. La página oficial explica que esa libertad permitía elegir al intérprete más adecuado para cada pieza y que la prioridad era una producción sonora de altísima calidad, con gran parte de las grabaciones realizadas en Abbey Road. Entre 1976 y 1987 publicaron diez álbumes conceptuales. Eye in the Sky, Time, Don't Answer Me, Games People Play, Sirius y otras obras llevaron esa estética de estudio a una audiencia masiva. El proyecto demostró que la tecnología de grabación podía formar parte de la identidad artística y que una obra sofisticada podía convivir con canciones capaces de llegar a la radio.",
+      "quienes_er_an": "Alan Parsons y Eric Woolfson son el núcleo del proyecto. Parsons fue ingeniero, productor y arquitecto del sonido; Woolfson fue el principal compositor y letrista, manager y también cantante en varias piezas. El proyecto contó además con numerosos músicos y vocalistas invitados.",
+      "musicos": "No existe una formación instrumental fija comparable a la de una banda convencional. Participaron músicos y cantantes diferentes según cada álbum y canción. Eric Woolfson tocó teclados en prácticamente todo el catálogo y cantó varias de las canciones más conocidas.",
+      "ranking": "El sitio oficial atribuye al proyecto diez álbumes conceptuales entre 1976 y 1987 y más de 55 millones de álbumes vendidos en todo el mundo. Eye in the Sky, Time y Don't Answer Me figuran entre las canciones del proyecto con enorme presencia radial.",
+      "sabias_que": "• Alan Parsons había trabajado como ingeniero en Abbey Road y en proyectos de The Beatles y Pink Floyd antes de formar APP. • Eric Woolfson desarrolló la idea inspirada en Edgar Allan Poe antes de asociarse con Parsons. • The Alan Parsons Project no fue una banda tradicional de giras durante su etapa clásica. • Cada canción podía tener un cantante distinto. • La producción sonora fue una parte esencial de la identidad del proyecto. • El catálogo abarca diez álbumes conceptuales entre 1976 y 1987.",
+      "por_que_recordarlo": "Porque The Alan Parsons Project demuestra que la ingeniería de sonido también puede ser una forma de composición. Escuchar el especial permite seguir una obra donde la atmósfera, la mezcla, los arreglos, las voces y la tecnología de estudio forman parte del relato tanto como la melodía.",
+      "recuerdo_personal": "",
+      "tipo_artista": "especial editorial",
+      "programacion": "Domingo · 17:00 hs",
+      "fuentes": [
+        "https://www.the-alan-parsons-project.com/about",
+        "https://www.the-alan-parsons-project.com/faq",
+        "https://www.ericwoolfsonmusic.com/biography"
+      ]
+    },
+    {
+      "artista": "Gustavo Cerati · Soda Stereo",
+      "titulo": "Especial Gustavo Cerati · Soda Stereo",
+      "aliases_artista": [
+        "Gustavo Cerati",
+        "Soda Stereo",
+        "Cerati"
+      ],
+      "aliases_titulo": [
+        "Especial Cerati",
+        "Especial Soda Stereo",
+        "FlashBack Cerati",
+        "Tributo A Gustavo Cerati - Soda Stereo"
+      ],
+      "anio": 1982,
+      "texto": "Un recorrido por la historia de Soda Stereo y por el universo creativo de Gustavo Cerati, desde los primeros ensayos del trío formado con Zeta Bosio y Charly Alberti hasta la consagración continental, la separación de 1997, la reunión de 2007 y el legado que continúa después de la muerte de Cerati. El especial une canciones, sonido, imagen, puesta en escena y la expansión del rock en castellano por América Latina.",
+      "cierre": "Una banda que convirtió el rock en castellano en una experiencia continental y dejó canciones que siguen latiendo.",
+      "slug": "especial-gustavo-cerati-soda-stereo",
+      "imagen": "img/artistas/especiales/especial-gustavo-cerati.png",
+      "album": "Especial editorial · FlashBack Radio",
+      "sello": "FlashBack Radio",
+      "single": "Especial Gustavo Cerati · Soda Stereo · repertorio seleccionado",
+      "catalogo": "Especiales FlashBack Radio — ESPECIALES_DOMINGO",
+      "duracion": "Programa especial",
+      "compositor": "Gustavo Cerati · Zeta Bosio · Charly Alberti y colaboradores según cada obra",
+      "productor": "Productores y equipos de estudio según cada álbum; Federico Moura en el debut; Carlos Alomar en Doble vida",
+      "voz_principal": "Gustavo Cerati",
+      "historia": "GUSTAVO CERATI Y SODA STEREO: DEL UNDER A TODO EL CONTINENTE. Soda Stereo nació a comienzos de 1982 con Gustavo Cerati, Zeta Bosio y Charly Alberti. La historia oficial de la banda destaca desde el comienzo una preocupación poco habitual por el sonido, la puesta en escena y la imagen, junto con una búsqueda musical que fue incorporando new wave, pop, funk, electrónica y rock alternativo. En 1983 comenzaron a recorrer el circuito under de Buenos Aires y firmaron con CBS. El álbum debut de 1984 llevó canciones como ¿Por qué no puedo ser del Jet-Set?, Sobredosis de TV y Dietético a las radios y multiplicó sus actuaciones. Nada Personal consolidó el salto nacional y desde 1986 la banda comenzó una expansión latinoamericana cada vez mayor. Signos, Ruido Blanco, Doble vida, Canción Animal y Dynamo muestran una trayectoria que no se quedó quieta. En 1988 trabajaron en Nueva York con Carlos Alomar para Doble vida y en 1989 protagonizaron un concierto multitudinario en la Avenida 9 de Julio. En 1997 anunciaron la separación y cerraron la historia de la formación original con El último concierto en River Plate, donde Cerati pronunció la frase que quedó para siempre asociada a aquella despedida: Gracias totales. En 2007 el trío volvió a reunirse para la gira Me Verás Volver, que reunió a más de un millón de espectadores según la historia oficial. Gustavo Cerati sufrió un accidente cerebrovascular en 2010 y falleció en 2014. Su obra, y la de Soda Stereo, continuaron creciendo en nuevas generaciones y formatos.",
+      "quienes_er_an": "Gustavo Cerati: voz y guitarra. Zeta Bosio: bajo. Charly Alberti: batería. La historia del grupo también incluye productores y colaboradores fundamentales, entre ellos Federico Moura en el debut y Carlos Alomar en Doble vida.",
+      "musicos": "La formación central del especial es el trío Cerati–Bosio–Alberti. A lo largo de la carrera participaron músicos invitados como Fabián Von Quintiero, Richard Coleman y Celsa Mel Gowland, entre otros, y distintos colaboradores de estudio.",
+      "ranking": "Fundación Konex reconoce a Soda Stereo como uno de los grupos más exitosos de Latinoamérica y registra una trayectoria de récords de público y ventas. La historia oficial de la banda señala que la gira Me Verás Volver de 2007 reunió 22 conciertos y más de un millón de espectadores.",
+      "sabias_que": "• Cerati y Zeta Bosio se conocían desde 1979 y compartían estudios en la Universidad del Salvador. • Soda Stereo nació a comienzos de 1982. • El debut discográfico fue producido artísticamente por Federico Moura. • En 1987 los medios comenzaron a hablar de la Sodamanía durante la expansión por Latinoamérica. • Doble vida fue trabajado en Nueva York con Carlos Alomar. • El concierto gratuito de 1989 en la Avenida 9 de Julio reunió una multitud extraordinaria. • La reunión de 2007 llevó a Soda Stereo nuevamente a grandes estadios de América.",
+      "por_que_recordarlo": "Porque Soda Stereo no sólo tuvo grandes canciones: cambió la escala posible del rock en castellano. Su cuidado por el sonido, la imagen y el escenario convirtió a una banda argentina en una referencia continental, mientras que Gustavo Cerati desarrolló una voz artística capaz de atravesar el rock, el pop y la experimentación.",
+      "recuerdo_personal": "",
+      "tipo_artista": "especial editorial",
+      "programacion": "Domingo · 17:00 hs",
+      "fuentes": [
+        "https://sodastereo.com/timeline.php",
+        "https://sodastereo.com/timeline/",
+        "https://www.fundacionkonex.org/b294-soda-stereo",
+        "https://www.argentina.gob.ar/noticias/gracias-totales-gustavo-cerati"
+      ]
     }
   ]
 }
