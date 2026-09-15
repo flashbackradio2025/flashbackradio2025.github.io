@@ -46,6 +46,8 @@
   }
   </script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Special+Elite&display=swap" rel="stylesheet">
   
   <style>
@@ -426,6 +428,36 @@
       .era { flex-direction: column; gap: 6px; }
       .video-destacado iframe { height: 200px; }
     }
+
+    /* === FACHADA DE VIDEO: YouTube sólo se descarga al tocar === */
+    .video-fachada{
+      position:relative; width:100%; height:300px; margin-top:10px;
+      border-radius:10px; border:1px dashed #ffd700;
+      background:
+        radial-gradient(circle at 50% 45%, rgba(255,215,0,.10), transparent 60%),
+        rgba(0,0,0,.55);
+      display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px;
+    }
+    .video-fachada-boton{
+      width:64px; height:64px; border-radius:50%;
+      border:2px solid #ffd700; background:rgba(255,215,0,.12);
+      color:#ffd700; font-size:1.4em; cursor:pointer;
+      box-shadow:0 0 18px rgba(255,215,0,.35);
+      transition:transform .2s, box-shadow .2s;
+    }
+    .video-fachada:hover .video-fachada-boton{
+      transform:scale(1.08);
+      box-shadow:0 0 26px rgba(255,215,0,.55);
+    }
+    .video-fachada-texto{
+      color:#ffcc66; font-family:'Orbitron',sans-serif;
+      font-size:.85em; letter-spacing:1px;
+    }
+    .video-fachada iframe{
+      position:absolute; inset:0; width:100%; height:100%;
+      border:none; border-radius:10px; margin:0;
+    }
+    @media (max-width:600px){ .video-fachada{ height:200px; } }
   </style>
 </head>
 <body>
@@ -453,14 +485,31 @@
 
   <!-- === FONDO DE VINILO === -->
   <div class="vinyl-background">
-    <video autoplay muted loop playsinline><source src="video/vinilo-loop.mp4" type="video/mp4"></video>
+    <video id="bg-video" autoplay muted loop playsinline preload="metadata">
+      <source data-src="video/vinilo-loop.mp4" type="video/mp4">
+    </video>
   </div>
+  <script>
+  (function(){
+    var v = document.getElementById('bg-video');
+    if (!v) return;
+    var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    var lento = c && (c.saveData || /2g/.test(c.effectiveType || ''));
+    if (!lento) {
+      var s = v.querySelector('source');
+      s.src = s.getAttribute('data-src');
+      v.load();
+    } else {
+      v.remove();
+    }
+  })();
+  </script>
 
   <main class="container">
 
     <!-- === HERO: FOTO COMPLETA SIN RECORTES === -->
     <div class="artist-hero">
-      <img src="img/artistas/hollies.jpg" alt="The Hollies - British Invasion">
+      <img src="img/artistas/hollies.jpg" alt="The Hollies - British Invasion" fetchpriority="high" decoding="async">
       <div class="artist-hero-badge">⭐ SALÓN DE LOS GRANDES</div>
     </div>
 
@@ -534,7 +583,7 @@
         <li><strong>Butterfly</strong> (1967) – La joya más delicada de su primera época.</li>
         <li><strong>Distant Light</strong> (1971) – El hogar de "Long Cool Woman".</li>
         <li><strong>Hollies</strong> (1974) – Contiene "The Air That I Breathe".</li>
-		<li><strong>Another Night</strong> (1975) – Décimo quinto álbum; el que mas me gusta.</li>
+        <li><strong>Another Night</strong> (1975) – Décimo quinto álbum; el que mas me gusta.</li>
       </ul>
     </div>
 
@@ -583,12 +632,14 @@
       </div>
     </div>
 
-    <!-- === VIDEO DESTACADO (NUEVO - opcional) === -->
+    <!-- === VIDEO DESTACADO (fachada: YouTube sólo se carga al tocar) === -->
     <div class="section video-destacado">
       <h3>🎬 Para Ver y Escuchar</h3>
       <p>Un clásico de The Hollies en vivo, para cerrar la visita como se debe.</p>
-      <!-- Reemplazá TU_VIDEO_ID por el ID de YouTube que elijas (ej: un vivo de Long Cool Woman) -->
-      <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+      <div id="video-fachada" class="video-fachada" data-video="">
+        <button class="video-fachada-boton" aria-label="Reproducir video">▶</button>
+        <span class="video-fachada-texto">VIDEO EN PREPARACIÓN</span>
+      </div>
     </div>
 
     <!-- === NAVEGACIÓN === -->
@@ -631,7 +682,7 @@
       const nav = document.getElementById('main-nav');
       if (window.scrollY > 50) {
         nav.style.background = 'rgba(10, 8, 26, 0.98)';
-        nav.style.boxShadow = '0 4px 20px rgba(255, 215, 0, 0.5)';
+        nav.style.boxShadow = '0 2px 20px rgba(255, 215, 0, 0.5)';
       } else {
         nav.style.background = 'rgba(10, 8, 26, 0.95)';
         nav.style.boxShadow = '0 2px 15px rgba(255, 215, 0, 0.3)';
@@ -677,8 +728,8 @@
 
       // Limpia espacios sobrantes en claves y textos
       const lista = data.map(o => ({
-        fecha: ((o.fecha || o['fecha '] || '') + '').trim(),
-        texto: ((o.texto || o['texto '] || '') + '').trim()
+        fecha: ((o.fecha || o['fecha ']) + '').trim(),
+        texto: ((o.texto || o['texto ']) + '').trim()
       }));
 
       // Fecha de hoy en formato MM-DD
@@ -735,6 +786,20 @@
           .catch(err => console.log('Error SW:', err));
       });
     }
+  </script>
+  <script>
+  // === FACHADA DE VIDEO: el iframe sólo nace al tocar el botón ===
+  (function(){
+    var fachada = document.getElementById('video-fachada');
+    if (!fachada) return;
+    fachada.addEventListener('click', function(){
+      var id = fachada.getAttribute('data-video');
+      if (!id) return; // todavía sin video cargado: no descarga nada
+      fachada.innerHTML =
+        '<iframe src="https://www.youtube.com/embed/' + id +
+        '?autoplay=1" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>';
+    });
+  })();
   </script>
 </body>
 </html>
