@@ -2361,7 +2361,13 @@ const playlistMap = {
       box.classList.add('visible');
     }
 
-
+    // === TIMEOUT DE RED: si el servidor no responde en 8 s, la consulta se cancela sola ===
+    function fetchConTimeout(url, opciones, ms) {
+      const control = new AbortController();
+      const reloj = setTimeout(() => control.abort(), ms || 8000);
+      return fetch(url, Object.assign({}, opciones, { signal: control.signal }))
+        .finally(() => clearTimeout(reloj));
+    }
     // 2. FUNCIÓN ACTUALIZAR RADIO (VERSIÓN FINAL CON CARÁTULA BLINDADA)
  async function actualizarRadio() {
   const API_URL = 'https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio';
@@ -2372,11 +2378,11 @@ const playlistMap = {
   const albumArt = document.getElementById('album-art');
 
   try {
-    const response = await fetch(API_URL, { 
+    const response = await fetchConTimeout(API_URL, {
       method: 'GET',
       headers: { 'Accept': 'application/json' },
-      mode: 'cors' 
-    });
+      mode: 'cors'
+    }, 8000);
     
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
@@ -2778,9 +2784,10 @@ async function cargarEspecialActual() {
   };
 
   try {
-    const res = await fetch(
+    const res = await fetchConTimeout(
       'https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio?ts=' + Date.now(),
-      { cache: 'no-store' }
+      { cache: 'no-store' },
+      8000
     );
 
     if (!res.ok) throw new Error(`Now Playing: HTTP ${res.status}`);
