@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "nombre": "El Archivo Recuerda",
-  "descripcion": "Fichas editoriales vinculadas a canciones, micros y especiales de FlashBack Radio. Se muestran según artista + título cuando corresponde.",
-  "ultima_actualizacion": "2026-09-13",
+  "descripcion": "Fichas editoriales vinculadas a canciones, micros y especiales de FlashBack Radio. Se muestran según artista + título cuando corresponde. Punto cero: 668 fichas; actualización 16/09/2026 con correcciones de aliases y cinco nuevas fichas investigadas.",
+  "ultima_actualizacion": "2026-09-16",
   "fichas": [
     {
       "artista": "Night",
@@ -1367,9 +1367,9 @@
       "titulo": "Xanadu",
       "aliases_artista": [
         "Olivia Newton John Con Elo",
-        "Olivia Newton-John Con ELO",
         "Olivia Newton-John & ELO",
-        "Olivia Newton-John and Electric Light Orchestra"
+        "Olivia Newton-John and Electric Light Orchestra",
+        "Olivia Newton-John Con ELO"
       ],
       "aliases_titulo": [
         "Xanadu"
@@ -3510,7 +3510,8 @@
       ],
       "aliases_titulo": [
         "A Lover's Holiday",
-        "A Lovers Holiday"
+        "A Lovers Holiday",
+        "A Lover ́s Holiday (1980)"
       ],
       "anio": 1980,
       "texto": "El debut de Change nació entre Italia y Nueva York: base grabada en Bolonia, voces terminadas en Power Station y una producción que ayudó a unir disco europea y R&B estadounidense.",
@@ -4561,7 +4562,8 @@
       "titulo": "Bounce, Rock, Skate, Roll",
       "aliases_artista": [
         "Vaughan Mason & Crew",
-        "Vaughan Mason and Crew"
+        "Vaughan Mason and Crew",
+        "Vaughan Mason Crew"
       ],
       "aliases_titulo": [
         "Bounce, Rock, Skate, Roll",
@@ -5540,7 +5542,8 @@
       ],
       "aliases_titulo": [
         "Stayin' Alive",
-        "Staying Alive"
+        "Staying Alive",
+        "Stayin Alive"
       ],
       "anio": 1977,
       "texto": "Stayin' Alive abrió Saturday Night Fever con la caminata de Tony Manero y se convirtió en una de las canciones más reconocibles de toda la era disco.",
@@ -7186,7 +7189,8 @@
       "titulo": "Don't Be Cruel",
       "aliases_artista": [
         "Chaka Demus & Pliers",
-        "Chaka Demus and Pliers"
+        "Chaka Demus and Pliers",
+        "Chaka Demus Pliers"
       ],
       "aliases_titulo": [
         "Don't Be Cruel",
@@ -7391,7 +7395,8 @@
         "Chilly"
       ],
       "aliases_titulo": [
-        "For Your Love"
+        "For Your Love",
+        "For You Love"
       ],
       "anio": 1978,
       "texto": "Chilly tomó el clásico de Graham Gouldman popularizado por The Yardbirds y lo transformó en una extensa pieza disco europea.",
@@ -8040,12 +8045,14 @@
       "aliases_artista": [
         "Daryl Hall & John Oates",
         "Hall & Oates",
-        "Daryl Hall and John Oates"
+        "Daryl Hall and John Oates",
+        "Daryl Hall John Oates"
       ],
       "aliases_titulo": [
         "I Can't Go for That (No Can Do)",
         "I Cant Go for That",
-        "I Can't Go for That"
+        "I Can't Go for That",
+        "I Cant Go For That (no Can Do)"
       ],
       "anio": 1981,
       "texto": "Una caja de ritmos, un bajo sintetizado y una frase de rechazo fueron suficientes para que Hall & Oates construyeran uno de los grooves más influyentes de su carrera.",
@@ -8084,7 +8091,8 @@
       "aliases_artista": [
         "Daryl Hall & John Oates",
         "Hall & Oates",
-        "Daryl Hall and John Oates"
+        "Daryl Hall and John Oates",
+        "Daryl Hall John Oates"
       ],
       "aliases_titulo": [
         "Kiss on My List"
@@ -8124,7 +8132,8 @@
       "aliases_artista": [
         "Daryl Hall & John Oates",
         "Hall & Oates",
-        "Daryl Hall and John Oates"
+        "Daryl Hall and John Oates",
+        "Daryl Hall John Oates"
       ],
       "aliases_titulo": [
         "Maneater"
@@ -8166,7 +8175,8 @@
       "aliases_artista": [
         "Daryl Hall & John Oates",
         "Hall & Oates",
-        "Daryl Hall and John Oates"
+        "Daryl Hall and John Oates",
+        "Daryl Hall John Oates"
       ],
       "aliases_titulo": [
         "Out of Touch"
@@ -8207,7 +8217,8 @@
       "aliases_artista": [
         "Daryl Hall & John Oates",
         "Hall & Oates",
-        "Daryl Hall and John Oates"
+        "Daryl Hall and John Oates",
+        "Daryl Hall John Oates"
       ],
       "aliases_titulo": [
         "Private Eyes"
@@ -8249,11 +8260,13 @@
       "aliases_artista": [
         "Daryl Hall & John Oates",
         "Hall & Oates",
-        "Daryl Hall and John Oates"
+        "Daryl Hall and John Oates",
+        "Daryl Hall John Oates"
       ],
       "aliases_titulo": [
         "Say It Isn't So",
-        "Say It Isnt So"
+        "Say It Isnt So",
+        "Say Isn ́t So"
       ],
       "anio": 1983,
       "texto": "Say It Isn't So apareció en una recopilación de éxitos pero estaba lejos de ser material de relleno: una canción nueva que llegó directamente al Nº2 estadounidense.",
@@ -8289,10 +8302,10 @@
       "titulo": "You Make My Dreams",
       "aliases_artista": [
         "Daryl Hall & John Oates",
-		"Daryl Hall John Oates",
-        "Hall and Oates",
         "Hall & Oates",
-        "Daryl Hall and John Oates"
+        "Daryl Hall and John Oates",
+        "Daryl Hall John Oates",
+        "Hall and Oates"
       ],
       "aliases_titulo": [
         "You Make My Dreams",
@@ -9275,7 +9288,8 @@
       "aliases_titulo": [
         "Oh L'amour",
         "Oh L’Amour",
-        "Oh, L'amour"
+        "Oh, L'amour",
+        "Oh Lamour"
       ],
       "anio": 1986,
       "texto": "Oh L'amour nació como uno de los primeros sencillos de Erasure y con los años terminó convirtiéndose en un clásico mucho mayor que su posición británica original.",
@@ -9704,7 +9718,8 @@
       "titulo": "Sahara Night",
       "aliases_artista": [
         "F. R. David",
-        "F.R. David"
+        "F.R. David",
+        "Fr David"
       ],
       "aliases_titulo": [
         "Sahara Night"
@@ -9755,7 +9770,8 @@
       "aliases_titulo": [
         "Ella, elle l'a",
         "Ella Elle L'a",
-        "Ella, elle l’a"
+        "Ella, elle l’a",
+        "Ella, Elle La"
       ],
       "anio": 1987,
       "texto": "Michel Berger escribió Ella, elle l'a como homenaje a Ella Fitzgerald y France Gall convirtió ese homenaje en uno de sus grandes éxitos internacionales.",
@@ -9988,7 +10004,8 @@
       ],
       "aliases_titulo": [
         "I'd Like",
-        "I’d Like"
+        "I’d Like",
+        "Id Like"
       ],
       "anio": 2004,
       "texto": "I'd Like mostró la mezcla abierta de Freshlyground: pop, raíces africanas, cuerdas, guitarra y la voz inconfundible de Zolani Mahola.",
@@ -11513,7 +11530,8 @@
       ],
       "aliases_titulo": [
         "You're the Voice",
-        "You’re the Voice"
+        "You’re the Voice",
+        "Youre The Voice"
       ],
       "anio": 1986,
       "texto": "You're The Voice devolvió a John Farnham al primer plano con una interpretación monumental y un estribillo convertido en himno.",
@@ -11551,7 +11569,8 @@
       ],
       "aliases_titulo": [
         "St. Elmo's Fire (Man in Motion)",
-        "St Elmo's Fire (Man In Motion)"
+        "St Elmo's Fire (Man In Motion)",
+        "St. Elmos Fire (man In Motion)"
       ],
       "anio": 1985,
       "texto": "St. Elmo's Fire (Man In Motion) convirtió una historia de superación en uno de los himnos cinematográficos más reconocibles de los 80.",
@@ -11788,7 +11807,8 @@
         "John Denver"
       ],
       "aliases_titulo": [
-        "Don't Close Your Eyes Tonight"
+        "Don't Close Your Eyes Tonight",
+        "Dont Close Your Eyes Tonight"
       ],
       "anio": 1985,
       "texto": "Don't Close Your Eyes Tonight mostró a John Denver en un registro romántico y adulto, alejado por un momento de las imágenes de montañas y caminos que marcaron buena parte de su obra.",
@@ -11940,7 +11960,8 @@
         "Kano"
       ],
       "aliases_titulo": [
-        "She's a Star"
+        "She's a Star",
+        "Shes A Star"
       ],
       "anio": 1981,
       "texto": "She's A Star muestra la vertiente italo-disco y funk electrónica de Kano en el comienzo de los años 80.",
@@ -12057,10 +12078,12 @@
       "titulo": "I'm Your Boogie Man",
       "aliases_artista": [
         "KC & The Sunshine Band",
-        "KC and The Sunshine Band"
+        "KC and The Sunshine Band",
+        "Kc The Sunshine Band"
       ],
       "aliases_titulo": [
-        "I'm Your Boogie Man"
+        "I'm Your Boogie Man",
+        "Im Your Boogie Man (1977)"
       ],
       "anio": 1976,
       "texto": "I'm Your Boogie Man es uno de los emblemas absolutos del sonido disco-funk de KC and the Sunshine Band.",
@@ -12097,7 +12120,8 @@
       "titulo": "(Shake, Shake, Shake) Shake Your Booty",
       "aliases_artista": [
         "KC & The Sunshine Band",
-        "KC and The Sunshine Band"
+        "KC and The Sunshine Band",
+        "Kc The Sunshine Band"
       ],
       "aliases_titulo": [
         "Shake, Shake, Shake",
@@ -12146,11 +12170,13 @@
       "titulo": "That's The Way (I Like It)",
       "aliases_artista": [
         "KC & The Sunshine Band",
-        "KC and The Sunshine Band"
+        "KC and The Sunshine Band",
+        "Kc The Sunshine Band"
       ],
       "aliases_titulo": [
         "That's the Way (I Like It)",
-        "Thats The Way I Like It"
+        "Thats The Way I Like It",
+        "Thats The Way (i Like It)"
       ],
       "anio": 1975,
       "texto": "That's The Way (I Like It) es una de las piezas fundamentales del disco-funk de los años 70 y una marca registrada de KC and the Sunshine Band.",
@@ -12314,12 +12340,14 @@
       "aliases_artista": [
         "Kid Creole and the Coconuts",
         "Kid Creole & The Coconuts",
-        "Coati Mundi"
+        "Coati Mundi",
+        "Kid Creole The Coconuts"
       ],
       "aliases_titulo": [
         "Que Pasa / Me No Pop I",
         "Que Passa / Me No Pop I",
-        "Me No Pop I"
+        "Me No Pop I",
+        "Que Pasa-me No Pop I"
       ],
       "anio": 1981,
       "texto": "Que Pasa / Me No Pop I mezcla disco, funk, ritmos latinos y humor teatral en el universo exuberante de Kid Creole, con Coati Mundi en primer plano.",
@@ -12394,7 +12422,8 @@
       ],
       "aliases_titulo": [
         "I Was Made for Lovin' You",
-        "I Was Made For Loving You"
+        "I Was Made For Loving You",
+        "I Was Made For Lovin You ( Fui Hecho Para Amarte )"
       ],
       "anio": 1979,
       "texto": "I Was Made For Lovin' You llevó a Kiss hacia el pulso disco sin abandonar su identidad rockera, creando uno de los cruces más reconocibles de 1979.",
@@ -12434,7 +12463,8 @@
       "titulo": "Fresh",
       "aliases_artista": [
         "Kool & the Gang",
-        "Kool and the Gang"
+        "Kool and the Gang",
+        "Kool The Gang"
       ],
       "aliases_titulo": [
         "Fresh"
@@ -12476,7 +12506,8 @@
       "titulo": "Get Down On It",
       "aliases_artista": [
         "Kool & the Gang",
-        "Kool and the Gang"
+        "Kool and the Gang",
+        "Kool The Gang"
       ],
       "aliases_titulo": [
         "Get Down on It"
@@ -12524,7 +12555,8 @@
       "titulo": "Ladies Night",
       "aliases_artista": [
         "Kool & the Gang",
-        "Kool and the Gang"
+        "Kool and the Gang",
+        "Kool The Gang"
       ],
       "aliases_titulo": [
         "Ladies' Night",
@@ -13450,11 +13482,13 @@
         "M.C. Sar & The Real McCoy",
         "MC Sar & The Real McCoy",
         "M C Sar & The Real McCoy",
-        "The Real McCoy"
+        "The Real McCoy",
+        "M C Sar The Real Mccoy"
       ],
       "aliases_titulo": [
         "It's On You",
-        "Its On You"
+        "Its On You",
+        "Its On You (1990)"
       ],
       "anio": 1989,
       "texto": "It's On You anticipó el sonido eurodance que explotaría en los años 90: rap, bases electrónicas, voces de club y producción alemana.",
@@ -13620,7 +13654,9 @@
     {
       "artista": "Mike + The Mechanics",
       "titulo": "Over My Shoulder",
-      "aliases_artista": ["Mike + The Mechanics", "Mike And The Mechanics", "Mike & The Mechanics"],
+      "aliases_artista": [
+        "Mike + The Mechanics"
+      ],
       "aliases_titulo": [
         "Over My Shoulder"
       ],
@@ -13660,7 +13696,9 @@
     {
       "artista": "Mike + The Mechanics",
       "titulo": "Silent Running (On Dangerous Ground)",
-      "aliases_artista": ["Mike + The Mechanics", "Mike And The Mechanics", "Mike & The Mechanics"],
+      "aliases_artista": [
+        "Mike + The Mechanics"
+      ],
       "aliases_titulo": [
         "Silent Running (On Dangerous Ground)"
       ],
@@ -13692,7 +13730,9 @@
     {
       "artista": "Mike + The Mechanics",
       "titulo": "The Living Years",
-      "aliases_artista": ["Mike + The Mechanics", "Mike And The Mechanics", "Mike & The Mechanics"],
+      "aliases_artista": [
+        "Mike + The Mechanics"
+      ],
       "aliases_titulo": [
         "The Living Years"
       ],
@@ -13724,7 +13764,10 @@
     {
       "artista": "Mike + The Mechanics",
       "titulo": "Taken In",
-      "aliases_artista": ["Mike + The Mechanics", "Mike And The Mechanics", "Mike & The Mechanics"],
+      "aliases_artista": [
+        "Mike + The Mechanics",
+        "Mike And The Mechanics"
+      ],
       "aliases_titulo": [
         "Taken In"
       ],
@@ -14554,7 +14597,8 @@
         "Modern Talking"
       ],
       "aliases_titulo": [
-        "Geronimo's Cadillac"
+        "Geronimo's Cadillac",
+        "Geronimos Cadillac"
       ],
       "anio": 1986,
       "texto": "Geronimo's Cadillac pertenece al catálogo central de Modern Talking.",
@@ -14591,7 +14635,8 @@
         "Modern Talking"
       ],
       "aliases_titulo": [
-        "You're My Heart, You're My Soul"
+        "You're My Heart, You're My Soul",
+        "Youre My Heart, Youre My Soul"
       ],
       "anio": 1984,
       "texto": "You're My Heart, You're My Soul pertenece al catálogo central de Modern Talking.",
@@ -14744,7 +14789,8 @@
         "Nik Kershaw"
       ],
       "aliases_titulo": [
-        "Wouldn't It Be Good"
+        "Wouldn't It Be Good",
+        "Wouldnt It Be Good"
       ],
       "anio": 1984,
       "texto": "Wouldn't It Be Good fue el sencillo que convirtió a Nik Kershaw en una figura internacional en 1984.",
@@ -14968,7 +15014,8 @@
         "Ottawan"
       ],
       "aliases_titulo": [
-        "Hands Up (Give Me Your Heart)"
+        "Hands Up (Give Me Your Heart)",
+        "Hands Up (1981)"
       ],
       "anio": 1981,
       "texto": "Hands Up (Give Me Your Heart) consolidó el éxito internacional de Ottawan después de D.I.S.C.O.",
@@ -15257,7 +15304,8 @@
         "Paul Carrack"
       ],
       "aliases_titulo": [
-        "Don't Shed a Tear"
+        "Don't Shed a Tear",
+        "Dont Shed A Tear"
       ],
       "anio": 1987,
       "texto": "Don't Shed a Tear fue editada en 1987 dentro de One Good Reason y se convirtió en el mayor éxito solista de Paul Carrack en Estados Unidos.",
@@ -15404,7 +15452,8 @@
         "Paul McCartney"
       ],
       "aliases_titulo": [
-        "Eleanor Rigby / Eleanor's Dream"
+        "Eleanor Rigby / Eleanor's Dream",
+        "Eleanor Rigby - Eleanors Dream"
       ],
       "anio": 1984,
       "texto": "Para Give My Regards to Broad Street, McCartney volvió a interpretar Eleanor Rigby y la enlazó con Eleanor's Dream, una extensión instrumental y orquestal compuesta por Paul.",
@@ -15616,7 +15665,8 @@
         "Patrick Cowley"
       ],
       "aliases_titulo": [
-        "Goin' Home"
+        "Goin' Home",
+        "Goin Home (1982)"
       ],
       "anio": 1982,
       "texto": "Goin' Home cierra Mind Warp, el álbum de 1982 de Patrick Cowley.",
@@ -15650,7 +15700,8 @@
       "aliases_artista": [
         "Loverde & Patrick Cowley",
         "Patrick Cowley & Loverde",
-        "Loverde And Patrick Cowley"
+        "Loverde And Patrick Cowley",
+        "Patrick Cowley Loverde (hi-nrg)"
       ],
       "aliases_titulo": [
         "Die Hard Lover"
@@ -15692,7 +15743,8 @@
         "Patrick Swayze featuring Wendy Fraser"
       ],
       "aliases_titulo": [
-        "She's Like the Wind"
+        "She's Like the Wind",
+        "Shes Like The Wind"
       ],
       "anio": 1987,
       "texto": "She's Like the Wind quedó inseparablemente unida a Dirty Dancing, pero Patrick Swayze la había coescrito con Stacy Widelitz en 1984 para otra película.",
@@ -16033,7 +16085,8 @@
         "Phil Collins"
       ],
       "aliases_titulo": [
-        "You Can't Hurry Love"
+        "You Can't Hurry Love",
+        "You Cant Hurry Love"
       ],
       "anio": 1982,
       "texto": "You Can't Hurry Love fue la recreación de Phil Collins del clásico que The Supremes habían llevado al Nº1 en 1966.",
@@ -16108,7 +16161,6 @@
         "Paul Parker Linda Imperial",
         "Patrick Cowley & Linda Imperial",
         "Patrick Cowley feat. Linda Imperial",
-        "Patrick Cowley Loverde (hi-nrg)",
         "Linda Imperial / Patrick Cowley",
         "Linda Imperial & Patrick Cowley"
       ],
@@ -16192,13 +16244,13 @@
       "artista": "Paul Young",
       "titulo": "Every Time You Go Away",
       "aliases_artista": [
-        "Paul Young",
-		"Everytime You Go Away",
-        "Everytime You Go",
-        "Every Time You Go"
+        "Paul Young"
       ],
       "aliases_titulo": [
-        "Every Time You Go Away"
+        "Every Time You Go Away",
+        "Everytime You Go Away",
+        "Everytime You Go",
+        "Every Time You Go"
       ],
       "anio": 1985,
       "texto": "Every Time You Go Away fue escrita por Daryl Hall y grabada originalmente por Hall & Oates, pero la interpretación de Paul Young de 1985 transformó la canción en un éxito mundial.",
@@ -16232,10 +16284,12 @@
       "artista": "People's Choice",
       "titulo": "Do It Any Way You Wanna",
       "aliases_artista": [
-        "People's Choice"
+        "People's Choice",
+        "Peoples Choice"
       ],
       "aliases_titulo": [
-        "Do It Any Way You Wanna"
+        "Do It Any Way You Wanna",
+        "Do It Anyway You Wanna (1975)"
       ],
       "anio": 1975,
       "texto": "Do It Any Way You Wanna fue grabada por People's Choice en Sigma Sound, Filadelfia, y publicada en 1975 por TSOP.",
@@ -16270,7 +16324,8 @@
       "artista": "Peter Cetera & Amy Grant",
       "titulo": "The Next Time I Fall",
       "aliases_artista": [
-        "Peter Cetera & Amy Grant"
+        "Peter Cetera & Amy Grant",
+        "Peter Cetera, Amy Grant"
       ],
       "aliases_titulo": [
         "The Next Time I Fall"
@@ -16349,7 +16404,8 @@
         "Phil Collins"
       ],
       "aliases_titulo": [
-        "Can't Turn Back the Years"
+        "Can't Turn Back the Years",
+        "Can ́t Turn Back The Years"
       ],
       "anio": 1993,
       "texto": "Can't Turn Back the Years forma parte de Both Sides, el álbum profundamente personal que Phil Collins publicó en 1993.",
@@ -17274,7 +17330,8 @@
         "Rod Stewart"
       ],
       "aliases_titulo": [
-        "Da Ya Think I'm Sexy"
+        "Da Ya Think I'm Sexy",
+        "Da Ya Think Im Sexy"
       ],
       "anio": 1978,
       "texto": "Rod Stewart se metió de lleno en la era disco sin abandonar su voz rasposa y consiguió uno de los mayores éxitos de su carrera.",
@@ -17566,7 +17623,8 @@
       "artista": "Shakin' Stevens",
       "titulo": "You Drive Me Crazy",
       "aliases_artista": [
-        "Shakin' Stevens"
+        "Shakin' Stevens",
+        "Shakin Stevens"
       ],
       "aliases_titulo": [
         "You Drive Me Crazy"
@@ -17606,10 +17664,12 @@
       "artista": "Rita Coolidge",
       "titulo": "We're All Alone",
       "aliases_artista": [
-        "Rita Coolidge"
+        "Rita Coolidge",
+        "Ritacoolidge -Were All Alone"
       ],
       "aliases_titulo": [
-        "We're All Alone"
+        "We're All Alone",
+        "Ritacoolidge -Were All Alone"
       ],
       "anio": 1977,
       "texto": "La interpretación serena de Rita Coolidge convirtió una composición de Boz Scaggs en uno de los grandes clásicos del soft rock de 1977.",
@@ -17931,7 +17991,8 @@
         "Sandra"
       ],
       "aliases_titulo": [
-        "(I'll Never Be) Maria Magdalena"
+        "(I'll Never Be) Maria Magdalena",
+        "(ill Never Be) Maria Magdalena (1985)"
       ],
       "anio": 1985,
       "texto": "Una producción de Michael Cretu, una melodía imposible de olvidar y la voz de Sandra dieron forma a uno de los grandes éxitos del europop de 1985.",
@@ -18193,7 +18254,8 @@
       ],
       "aliases_titulo": [
         "Don't You (Forget About Me)",
-        "Don't You Forget About Me"
+        "Don't You Forget About Me",
+        "Dont You (forget About Me)"
       ],
       "anio": 1985,
       "texto": "Un 'hey, hey, hey' y una película bastaron para convertirla en una de las asociaciones instantáneas más poderosas entre música y cine de los años ochenta.",
@@ -18325,7 +18387,8 @@
       "titulo": "Nothing Compares 2 U",
       "aliases_artista": [
         "Sinéad O'Connor",
-        "Sinead O'Connor"
+        "Sinead O'Connor",
+        "Sinéad Oconnor"
       ],
       "aliases_titulo": [
         "Nothing Compares 2 U"
@@ -20392,7 +20455,9 @@
         "Eagles"
       ],
       "aliases_titulo": [
-        "I Can't Tell You Why"
+        "I Can't Tell You Why",
+        "I Cant Tell You Why",
+        "I Can't Tell You Wwhy"
       ],
       "anio": 1980,
       "texto": "I Can't Tell You Why mostró una cara más soul de Eagles y presentó a Timothy B. Schmit como voz principal en uno de los momentos más delicados de The Long Run.",
@@ -20481,7 +20546,8 @@
       "titulo": "Computer Games",
       "aliases_artista": [
         "Mi-Sex",
-        "Mi Sex"
+        "Mi Sex",
+        "The Essential (mi- Sex)"
       ],
       "aliases_titulo": [
         "Computer Games"
@@ -21685,7 +21751,8 @@
       ],
       "aliases_titulo": [
         "I'll Do My Best (For You Baby)",
-        "I'll Do My Best"
+        "I'll Do My Best",
+        "Ill Do My Best For You Baby (1982)"
       ],
       "anio": 1982,
       "texto": "Disco, funk y soul de comienzos de los ochenta en una grabación que mostró a The Ritchie Family adaptándose más allá de su primera era disco.",
@@ -22802,7 +22869,8 @@
         "Will Smith"
       ],
       "aliases_titulo": [
-        "Gettin' Jiggy wit It"
+        "Gettin' Jiggy wit It",
+        "Gettin Jiggy Wit It"
       ],
       "anio": 1997,
       "texto": "Will Smith convirtió una expresión callejera en uno de los estribillos más reconocibles del pop-rap de finales de los noventa.",
@@ -23022,7 +23090,8 @@
       ],
       "aliases_titulo": [
         "I Like (What You're Doing to Me)",
-        "I Like What You're Doing to Me"
+        "I Like What You're Doing to Me",
+        "I Like (what Youre Doing To Me) (1980)"
       ],
       "anio": 1980,
       "texto": "Una línea de bajo persistente, voces sensuales y un groove extendido hicieron de este sencillo una pieza de culto del boogie de 1980.",
@@ -23278,7 +23347,8 @@
         "Whodini"
       ],
       "aliases_titulo": [
-        "Magic's Wand"
+        "Magic's Wand",
+        "Magics Wand"
       ],
       "anio": 1982,
       "texto": "Antes de que el rap dominara las listas, Whodini ya combinaba rimas, cajas de ritmos y sintetizadores con una producción abiertamente futurista.",
@@ -24039,10 +24109,12 @@
         "Al Hudson & The Partners",
         "Al Hudson And The Partners",
         "Al Hudson & The Soul Partners",
-        "Al Hudson And The Soul Partners"
+        "Al Hudson And The Soul Partners",
+        "Al Hudson The Partners"
       ],
       "aliases_titulo": [
-        "You Can Do It"
+        "You Can Do It",
+        "You Can Do It (1979)"
       ],
       "anio": 1979,
       "texto": "Funk, disco y una invitación imposible de malinterpretar: You Can Do It convirtió el baile en una afirmación de confianza y anticipó el sonido con el que Al Hudson y sus músicos evolucionarían hacia One Way.",
@@ -24258,7 +24330,8 @@
       ],
       "aliases_titulo": [
         "Boogie Woogie Dancin' Shoes",
-        "Boogie Woogie Dancing Shoes"
+        "Boogie Woogie Dancing Shoes",
+        "(Boogie Woogie) Dancin Shoes"
       ],
       "anio": 1978,
       "texto": "Boogie Woogie Dancin' Shoes celebra ese momento semanal en que la ropa, las luces y la música transforman a cualquiera en dueño de la pista.",
@@ -24348,12 +24421,14 @@
       "titulo": "S.O.S. (Love to the Rescue)",
       "aliases_artista": [
         "Dee D. Jackson",
-        "Dee D Jackson"
+        "Dee D Jackson",
+        "Dee D Jackson -S.O.S (Love To The Rescue)"
       ],
       "aliases_titulo": [
         "S.O.S. (Love to the Rescue)",
         "SOS (Love to the Rescue)",
-        "S.O.S. Love to the Rescue"
+        "S.O.S. Love to the Rescue",
+        "Dee D Jackson -S.O.S (Love To The Rescue)"
       ],
       "anio": 1980,
       "texto": "Dee D. Jackson llevó su imaginario futurista al terreno del rescate amoroso: sintetizadores, ritmo disco y una puesta en escena que parecía llegada desde otra galaxia.",
@@ -25863,7 +25938,8 @@
         "Fantasy"
       ],
       "aliases_titulo": [
-        "You’re Too Late"
+        "You’re Too Late",
+        "Youre Too Late"
       ],
       "anio": 1980,
       "texto": "Una pista de baile neoyorquina situada justo en la bisagra entre dos décadas.",
@@ -27094,7 +27170,8 @@
       "aliases_titulo": [
         "Don't Push It Don't Force It",
         "Don't Push It, Don't Force It",
-        "Don't Push It Don't Force It (Let It Happen Naturally)"
+        "Don't Push It Don't Force It (Let It Happen Naturally)",
+        "Dont Push It, Dont Force It (let It Happen Naturally) (1980)"
       ],
       "anio": 1980,
       "texto": "Leon Haywood trasladó su soul al cambio de década con una consigna sencilla: no fuerces el amor, deja que ocurra naturalmente.",
@@ -27275,10 +27352,12 @@
       "aliases_artista": [
         "Moon Ray",
         "Raggio Di Luna",
-        "Raggio di Luna (Moon Ray)"
+        "Raggio di Luna (Moon Ray)",
+        "Moonray"
       ],
       "aliases_titulo": [
-        "Comanchero"
+        "Comanchero",
+        "Comanchero (1984)"
       ],
       "anio": 1984,
       "texto": "Un western imaginario convertido en Italo disco y cantado sobre una de las melodías más reconocibles de 1984.",
@@ -27527,11 +27606,13 @@
       "artista": "Paul Sharada",
       "titulo": "Dancing All the Night",
       "aliases_artista": [
-        "Paul Sharada"
+        "Paul Sharada",
+        "Paul Sharada Dancing All The Night (1985)"
       ],
       "aliases_titulo": [
         "Dancing All the Night",
-        "Dancing All The Night"
+        "Dancing All The Night",
+        "Paul Sharada Dancing All The Night (1985)"
       ],
       "anio": 1984,
       "texto": "Italo disco en estado puro: un nombre de estudio, un maxi largo y una melodía construida para sobrevivir toda la noche.",
@@ -27940,7 +28021,8 @@
       "artista": "Master Genius",
       "titulo": "Let's Break",
       "aliases_artista": [
-        "Master Genius"
+        "Master Genius",
+        "El Pajaro Loco --musica Disco"
       ],
       "aliases_titulo": [
         "Let's Break",
@@ -28288,6 +28370,190 @@
         "https://sodastereo.com/timeline/",
         "https://www.fundacionkonex.org/b294-soda-stereo",
         "https://www.argentina.gob.ar/noticias/gracias-totales-gustavo-cerati"
+      ]
+    },
+    {
+      "artista": "Belinda Carlisle",
+      "titulo": "Heaven Is a Place on Earth",
+      "aliases_artista": [
+        "Belinda Carlisle"
+      ],
+      "aliases_titulo": [
+        "Heaven Is A Place On Earth"
+      ],
+      "anio": 1987,
+      "texto": "Heaven Is a Place on Earth convirtió a Belinda Carlisle en solista de alcance mundial. Fue el primer single de su segundo álbum, Heaven on Earth, publicado en 1987, y unió el pop de gran formato de la época con una producción luminosa y una melodía diseñada para crecer desde la intimidad hacia el estribillo.",
+      "cierre": "Una canción que convirtió una idea romántica y sencilla en uno de los grandes himnos pop de 1987.",
+      "slug": "belinda-carlisle-heaven-is-a-place-on-earth",
+      "imagen": "img/archivo/belinda-carlisle-heaven-is-a-place-on-earth.jpg",
+      "album": "Heaven on Earth",
+      "sello": "MCA",
+      "single": "Heaven Is a Place on Earth / We Can Change",
+      "catalogo": "SINGLES_80S",
+      "duracion": "4:06",
+      "compositor": "Rick Nowels · Ellen Shipley",
+      "productor": "Rick Nowels",
+      "voz_principal": "Belinda Carlisle",
+      "historia": "El tema fue escrito por Rick Nowels y Ellen Shipley y producido por Nowels. El single apareció el 14 de septiembre de 1987 y fue la pieza que abrió la campaña de Heaven on Earth. El álbum fue grabado en distintos estudios de Los Ángeles, entre ellos Ocean Way, American Recording, Music Grinder, Hollywood Sound y Cherokee. La versión Heavenly fue posteriormente remezclada por Shep Pettibone.",
+      "quienes_er_an": "Belinda Carlisle había llegado al éxito internacional con The Go-Go's antes de consolidarse como solista. En esta etapa trabajó estrechamente con Rick Nowels, cuya producción definió buena parte del sonido de su segundo álbum. Ellen Shipley, además de coescribir, participó en los coros.",
+      "musicos": "Rick Nowels · Ellen Shipley · Belinda Carlisle · Michelle Phillips · Diane Warren (coros/participaciones vocales documentadas en la grabación)",
+      "ranking": "Billboard Hot 100: #1 · UK Singles Chart: #1 durante dos semanas · primer y único #1 de Belinda Carlisle en el Billboard Hot 100.",
+      "sabias_que": "El tema tuvo distintas configuraciones de single y maxi, incluida una 'Heavenly version' remezclada por Shep Pettibone. La grabación pertenece al álbum Heaven on Earth, publicado el 5 de octubre de 1987.",
+      "por_que_recordarlo": "Porque resume una forma de producir pop de los 80 que sigue funcionando: melodía inmediata, voz reconocible y una producción que transforma una canción romántica en una experiencia colectiva de radio.",
+      "recuerdo_personal": "",
+      "tipo_artista": "canción",
+      "fuentes": [
+        "https://www.officialcharts.com/songs/belinda-carlisle-heaven-is-a-place-on-earth/",
+        "https://www.grammy.com/news/in-deep-with-belinda-carlisle/",
+        "https://musicbrainz.org/release/308c0054-2e9f-4aa4-bcbb-b0deef20bc6d"
+      ]
+    },
+    {
+      "artista": "Belinda Carlisle",
+      "titulo": "I Get Weak",
+      "aliases_artista": [
+        "Belinda Carlisle"
+      ],
+      "aliases_titulo": [
+        "I Get Weak"
+      ],
+      "anio": 1988,
+      "texto": "I Get Weak fue el segundo single de Heaven on Earth y mostró a Belinda Carlisle en un registro más dramático y romántico. Diane Warren escribió la canción y Rick Nowels volvió a encargarse de la producción. El tema llegó al segundo puesto del Billboard Hot 100 y al décimo del ranking británico.",
+      "cierre": "La canción que convirtió la vulnerabilidad amorosa en otro gran éxito de la etapa Heaven on Earth.",
+      "slug": "belinda-carlisle-i-get-weak",
+      "imagen": "img/archivo/belinda-carlisle-i-get-weak.jpg",
+      "album": "Heaven on Earth",
+      "sello": "MCA",
+      "single": "I Get Weak / Should I Let You In?",
+      "catalogo": "SINGLES_80S",
+      "duracion": "4:52",
+      "compositor": "Diane Warren",
+      "productor": "Rick Nowels",
+      "voz_principal": "Belinda Carlisle",
+      "historia": "La canción fue publicada como single en enero de 1988 en Estados Unidos y posteriormente en otros mercados. Diane Warren había imaginado inicialmente la canción para Stevie Nicks, pero Rick Nowels consideró que encajaba especialmente bien con Carlisle. El videoclip fue dirigido por Diane Keaton.",
+      "quienes_er_an": "Belinda Carlisle atravesaba el momento más exitoso de su carrera solista. El álbum Heaven on Earth había generado Heaven Is a Place on Earth y el segundo single mantuvo el impulso comercial con una canción de corte más adulto y emocional.",
+      "musicos": "Diane Warren · Rick Nowels · Belinda Carlisle · músicos y coristas de las sesiones de Heaven on Earth",
+      "ranking": "Billboard Hot 100: #2 · Canada RPM Top Singles: #4 · UK Singles Chart: #10.",
+      "sabias_que": "Diane Keaton dirigió el videoclip, y la canción fue publicada un día después de San Valentín de 1988 en Estados Unidos según la reseña de GRAMMY. La versión de álbum dura 4:52 y el single edit 4:20.",
+      "por_que_recordarlo": "Porque demuestra que el éxito de Belinda Carlisle no dependió de un solo hit: Heaven on Earth produjo una secuencia de canciones reconocibles que definió una etapa completa del pop de los 80.",
+      "recuerdo_personal": "",
+      "tipo_artista": "canción",
+      "fuentes": [
+        "https://www.officialcharts.com/songs/belinda-carlisle-i-get-weak/",
+        "https://en.wikipedia.org/wiki/I_Get_Weak",
+        "https://www.grammy.com/news/in-deep-with-belinda-carlisle/"
+      ]
+    },
+    {
+      "artista": "Culture Club",
+      "titulo": "It's a Miracle / Miss Me Blind (Multimix)",
+      "aliases_artista": [
+        "Culture Club"
+      ],
+      "aliases_titulo": [
+        "It's A Miracle - Miss Me Blind",
+        "Miss Me Blind / It's a Miracle",
+        "Miss Me Blind / It's a Miracle (Multimix)"
+      ],
+      "anio": 1984,
+      "texto": "Esta entrada corresponde al cruce de dos canciones de Colour by Numbers que circularon también en formato de mezcla de 12 pulgadas: Miss Me Blind y It's a Miracle. La versión multimix es especialmente representativa de la cultura de maxi-single y pista de baile de los años 80, donde una canción podía prolongarse y enlazarse con otra para el circuito de clubes.",
+      "cierre": "Dos éxitos de Culture Club reunidos en una misma experiencia de pista: una puerta directa al sonido de los maxi de los 80.",
+      "slug": "culture-club-its-a-miracle-miss-me-blind",
+      "imagen": "img/archivo/culture-club-its-a-miracle-miss-me-blind.jpg",
+      "album": "Colour by Numbers",
+      "sello": "Virgin / Epic",
+      "single": "Miss Me Blind / It's a Miracle (Multimix)",
+      "catalogo": "BOLICHERO_DISCO",
+      "duracion": "versión 12 pulgadas / multimix",
+      "compositor": "Boy George · Mikey Craig · Roy Hay · Jon Moss · Phil Pickett",
+      "productor": "Steve Levine",
+      "voz_principal": "Boy George",
+      "historia": "Miss Me Blind fue el tercer single de Colour by Numbers en Norteamérica y alcanzó el puesto #5 del Billboard Hot 100. La versión de 12 pulgadas incorporó extractos de It's a Miracle. A su vez, It's a Miracle fue lanzada como single en el Reino Unido en marzo de 1984 y llegó al #4. La edición dance de Miss Me Blind / It's a Miracle alcanzó el #10 en el Billboard Hot Dance Club Play.",
+      "quienes_er_an": "Culture Club estaba en plena expansión internacional. Boy George, Roy Hay, Mikey Craig y Jon Moss formaban el núcleo del grupo, con Phil Pickett como colaborador clave en composición. Steve Levine produjo Colour by Numbers y buena parte de su identidad sonora.",
+      "musicos": "Boy George · Roy Hay · Mikey Craig · Jon Moss · Phil Pickett · Jermaine Stewart (coros en Miss Me Blind)",
+      "ranking": "Miss Me Blind: #5 Billboard Hot 100 · #5 Canadá · #5 US R&B · Miss Me Blind / It's a Miracle dance mix: #10 Hot Dance Club Play · It's a Miracle: #4 UK y #13 Billboard Hot 100.",
+      "sabias_que": "El dato clave para FlashBack es que el maxi no es simplemente una canción mal etiquetada: existe una edición multimix que une ambos temas. Esa relación está documentada en las referencias discográficas de Miss Me Blind.",
+      "por_que_recordarlo": "Porque recupera la forma en que los 80 se escuchaban en los boliches: versiones largas, mezclas y conexiones entre singles que permitían que la canción viviera más allá de su edición de radio.",
+      "recuerdo_personal": "",
+      "tipo_artista": "canción",
+      "fuentes": [
+        "https://en.wikipedia.org/wiki/Miss_Me_Blind",
+        "https://en.wikipedia.org/wiki/It%27s_a_Miracle_(Culture_Club_song)",
+        "https://www.officialcharts.com/songs/culture-club-its-a-miracle/"
+      ]
+    },
+    {
+      "artista": "Culture Club",
+      "titulo": "Karma Chameleon",
+      "aliases_artista": [
+        "Culture Club"
+      ],
+      "aliases_titulo": [
+        "Karma Chameleon"
+      ],
+      "anio": 1983,
+      "texto": "Karma Chameleon fue el gran salto internacional de Culture Club en 1983. Publicada como single en septiembre de ese año y perteneciente a Colour by Numbers, combinó pop, soul, R&B y una instrumentación de fuerte identidad caribeña. Se convirtió en uno de los singles más reconocibles de toda la década.",
+      "cierre": "Una canción que pasó de provocar risas dentro del propio grupo a convertirse en uno de los mayores himnos pop de los 80.",
+      "slug": "culture-club-karma-chameleon",
+      "imagen": "img/archivo/culture-club-karma-chameleon.jpg",
+      "album": "Colour by Numbers",
+      "sello": "Virgin",
+      "single": "Karma Chameleon / That's the Way (I'm Only Trying to Help You)",
+      "catalogo": "SINGLES_80S",
+      "duracion": "4:12",
+      "compositor": "Boy George · Jon Moss · Mikey Craig · Roy Hay · Phil Pickett",
+      "productor": "Steve Levine",
+      "voz_principal": "Boy George",
+      "historia": "Boy George contó que cuando presentó por primera vez la canción al resto del grupo, algunos integrantes se rieron y Roy Hay dudó de su potencial. La intervención de Phil Pickett ayudó a completar la composición. Después de su lanzamiento, el single llegó al #1 británico durante seis semanas y encabezó las listas de numerosos países.",
+      "quienes_er_an": "Culture Club estaba integrado por Boy George, Roy Hay, Mikey Craig y Jon Moss. Colour by Numbers consolidó al grupo internacionalmente y fue producido por Steve Levine.",
+      "musicos": "Boy George · Roy Hay · Mikey Craig · Jon Moss · Phil Pickett · músicos de sesión del álbum Colour by Numbers",
+      "ranking": "UK Singles Chart: #1 durante 6 semanas · US Billboard Hot 100: #1 durante 3 semanas · #1 en numerosos países · 955.000 copias vendidas en Reino Unido durante 1983.",
+      "sabias_que": "El single fue el segundo número uno británico de Culture Club, después de Do You Really Want to Hurt Me. Official Charts señala que fue el single más vendido del Reino Unido en 1983.",
+      "por_que_recordarlo": "Porque tiene todo lo que FlashBack busca en un clásico: una melodía instantánea, un color sonoro inconfundible y una historia detrás que demuestra que los grandes éxitos no siempre son reconocidos como tales desde el primer momento.",
+      "recuerdo_personal": "",
+      "tipo_artista": "canción",
+      "fuentes": [
+        "https://www.officialcharts.com/songs/culture-club-karma-chameleon/",
+        "https://www.officialcharts.com/chart-news/official-chart-flashback-1983-culture-club-karma-chameleon__4608/",
+        "https://www.the-independent.com/independentpremium/song-karma-chameleon-culture-club-b2138303.html"
+      ]
+    },
+    {
+      "artista": "Edwin Starr",
+      "titulo": "Contact",
+      "aliases_artista": [
+        "Edwin Starr"
+      ],
+      "aliases_titulo": [
+        "(Eye to Eye) Contact",
+        "Contact (Extended Mix)"
+      ],
+      "anio": 1978,
+      "texto": "Contact pertenece a la etapa disco de Edwin Starr y es una de las canciones con las que el cantante regresó a las listas a fines de los años 70. La grabación es un extenso tema de pista, con una duración de alrededor de siete minutos en su versión de álbum, construido alrededor del encuentro visual entre dos personas en una discoteca.",
+      "cierre": "El Edwin Starr de War también encontró un lugar en la pista disco: Contact fue su gran regreso de finales de los 70.",
+      "slug": "edwin-starr-contact",
+      "imagen": "img/archivo/edwin-starr-contact.jpg",
+      "album": "Clean",
+      "sello": "20th Century Fox",
+      "single": "Contact / Don't Waste Your Time",
+      "catalogo": "BOLICHERO_DISCO",
+      "duracion": "7:12",
+      "compositor": "Edwin Starr · Arthur Eugene Pullam · Robert Dickerson",
+      "productor": "Edwin Starr",
+      "voz_principal": "Edwin Starr",
+      "historia": "Edwin Starr produjo Contact y la grabación formó parte del álbum Clean. El single de 20th Century apareció en 1978 y tuvo una fuerte vida en 1979: llegó al #1 del Billboard Disco, #13 R&B, #65 pop estadounidense y #6 en Reino Unido. La versión difundida en YouTube como 'Contact (1976)' presenta un problema de datación: la documentación discográfica sitúa la canción en la etapa 1978–1979, no en 1976.",
+      "quienes_er_an": "Después de su etapa en Motown y de trabajos en sellos menores, Starr se reinventó con un sonido disco-pop en 20th Century. Contact, H.A.P.P.Y. Radio y Get Up Whirlpool consolidaron esa nueva etapa.",
+      "musicos": "Edwin Starr · Arthur Eugene Pullam · Robert Dickerson · Ed Watkins · James Gadson · Charles Fearing · David T. Walker · Greg Poree · John Barnes · Ronald Coleman · Gary Coleman · Paulinho Da Costa",
+      "ranking": "Billboard Hot 100: #65 · Billboard R&B: #13 · Billboard Disco: #1 · UK Singles Chart: #6.",
+      "sabias_que": "El sitio oficial de Edwin Starr registra el single Contact en 20th Century en 1978 para EE.UU. y 1979 para el Reino Unido. Qobuz acredita una versión Extended Mix de 7:16 con copyright de 1979. La etiqueta '1976' del video de YouTube no coincide con la cronología discográfica disponible.",
+      "por_que_recordarlo": "Porque permite recordar otra faceta de Edwin Starr: no solamente el intérprete de War, sino también un artista capaz de entrar con fuerza en la era disco y funcionar en la pista de baile.",
+      "recuerdo_personal": "",
+      "tipo_artista": "canción",
+      "fuentes": [
+        "https://www.edwinstarr.info/discography.php",
+        "https://www.edwinstarr.info/bioguk.php",
+        "https://jazzrocksoul.com/artists/edwin-starr/",
+        "https://www.qobuz.com/gb-en/album/12-club-classics-disco-various-artists/0060075334133"
       ]
     }
   ]
