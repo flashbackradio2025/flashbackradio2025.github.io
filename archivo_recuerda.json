@@ -1367,6 +1367,7 @@
       "titulo": "Xanadu",
       "aliases_artista": [
         "Olivia Newton John Con Elo",
+        "Olivia Newton-John Con ELO",
         "Olivia Newton-John & ELO",
         "Olivia Newton-John and Electric Light Orchestra"
       ],
@@ -8288,6 +8289,8 @@
       "titulo": "You Make My Dreams",
       "aliases_artista": [
         "Daryl Hall & John Oates",
+		"Daryl Hall John Oates",
+        "Hall and Oates",
         "Hall & Oates",
         "Daryl Hall and John Oates"
       ],
@@ -16105,6 +16108,7 @@
         "Paul Parker Linda Imperial",
         "Patrick Cowley & Linda Imperial",
         "Patrick Cowley feat. Linda Imperial",
+        "Patrick Cowley Loverde (hi-nrg)",
         "Linda Imperial / Patrick Cowley",
         "Linda Imperial & Patrick Cowley"
       ],
@@ -16188,7 +16192,10 @@
       "artista": "Paul Young",
       "titulo": "Every Time You Go Away",
       "aliases_artista": [
-        "Paul Young"
+        "Paul Young",
+		"Everytime You Go Away",
+        "Everytime You Go",
+        "Every Time You Go"
       ],
       "aliases_titulo": [
         "Every Time You Go Away"
