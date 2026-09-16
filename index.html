@@ -1906,6 +1906,15 @@ footer {
     padding: 2px 0 !important;
   }
 }
+    /* === ACCESIBILIDAD: enlace "saltar al contenido" (visible solo con teclado) === */
+    .skip-link {
+      position: absolute; left: -9999px; top: 0;
+      background: #00f3ff; color: #0a0a1a;
+      padding: 10px 16px; border-radius: 0 0 8px 0;
+      font-family: 'Orbitron', sans-serif; font-weight: bold;
+      z-index: 10000; text-decoration: none;
+    }
+    .skip-link:focus { left: 0; }
 </style>
     <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://flashbackradio2025.github.io/">
@@ -1933,8 +1942,12 @@ footer {
   </script>
 </head>
 <body>
+<body>
+  <!-- === ACCESIBILIDAD: salto al contenido principal === -->
+  <a class="skip-link" href="#player-section">Saltar al contenido principal</a>
+
   <!-- === MENÚ FIJO === -->
-  <nav id="main-nav" class="main-nav">
+  <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
     <div class="nav-container">
       <a href="#player-section" class="nav-logo">📻 FlashBack Radio</a>
       <button id="nav-toggle" class="nav-toggle" aria-label="Menú"><span class="hamburger"></span></button>
@@ -1948,21 +1961,21 @@ footer {
     </div>
   </nav>
 
-  <div class="vinyl-background">
+  <div class="vinyl-background" aria-hidden="true">
     <video autoplay muted loop playsinline><source src="video/vinilo-loop.mp4" type="video/mp4"></video>
   </div>
 
-  <header id="header-intro">
+  <header id="header-intro" aria-hidden="true">
     <video id="intro-video" autoplay muted playsinline preload="metadata"><source src="video/presentacion.mp4" type="video/mp4"></video>
   </header>
 
   <main id="hero">
     <div class="quote" id="random-quote"></div>
 
-    <div class="retro-gifs">
-      <img src="https://static.wixstatic.com/media/da6f98_152ffd5bcbd64e94a2ba49fc1ab71345~mv2.gif" alt="Retro 1">
-      <img src="https://static.wixstatic.com/media/da6f98_2493d16d46f9442d9194f2fa6edc2b23~mv2.gif" alt="Retro 2">
-      <img src="https://static.wixstatic.com/media/da6f98_d7417aa13a9b4a75af096acc03354264~mv2.gif" alt="Retro 3">
+    <div class="retro-gifs" aria-hidden="true">
+      <img src="https://static.wixstatic.com/media/da6f98_152ffd5bcbd64e94a2ba49fc1ab71345~mv2.gif" alt="">
+      <img src="https://static.wixstatic.com/media/da6f98_2493d16d46f9442d9194f2fa6edc2b23~mv2.gif" alt="">
+      <img src="https://static.wixstatic.com/media/da6f98_d7417aa13a9b4a75af096acc03354264~mv2.gif" alt="">
     </div>
 
     <section class="player-section" id="player-section">
@@ -2350,6 +2363,8 @@ const playlistMap = {
 
       imagenEl.src = ficha.imagen || 'img/logo.png';
       imagenEl.onerror = () => { imagenEl.src = 'img/logo.png'; };
+      imagenEl.alt = 'Carátula de ' + (ficha.artista || '') + ' — ' + (ficha.titulo || '');
+      masEl.setAttribute('aria-label', 'Conocé más sobre ' + (ficha.artista || '') + ' — ' + (ficha.titulo || ''));
 
       masEl.style.display = 'inline-flex';
       masEl.onclick = () => {
