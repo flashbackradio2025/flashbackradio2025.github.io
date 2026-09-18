@@ -2764,7 +2764,22 @@ async function cargarProximoEspecial() {
     // PEGUE 3a — Activar botón CONOCÉ MÁS
     const botonMas = document.getElementById('especial-mas');
     if (botonMas) {
-      botonMas.href = (proximo.url || 'explorar.html');
+      const t = String(proximo.titulo || '').toUpperCase();
+if (t.includes('HOLLIES')) {
+  botonMas.href = 'hollies.html';
+} else if (t.includes('BEATLES')) {
+  botonMas.href = 'beatles.html';
+} else if (t.includes('PLATEROS')) {
+  botonMas.href = 'plateros.html';
+} else if (t.includes('ROLLING')) {
+  botonMas.href = 'rolling.html';
+} else if (t.includes('PARSONS')) {
+  botonMas.href = 'parsons.html';
+} else if (t.includes('CERATI') || t.includes('SODA')) {
+  botonMas.href = 'cerati.html';
+} else {
+  botonMas.href = 'explorar.html';
+}
       botonMas.style.display = 'inline-flex';
     }
 
@@ -2908,7 +2923,22 @@ async function cargarEspecialActual() {
     // PEGUE 3b — Activar botón CONOCÉ MÁS
     const botonMas = document.getElementById('especial-actual-mas');
     if (botonMas) {
-      botonMas.href = (especialActual.url || 'explorar.html');
+      const t = String(especialActual.titulo || '').toUpperCase();
+if (t.includes('HOLLIES')) {
+  botonMas.href = 'hollies.html';
+} else if (t.includes('BEATLES')) {
+  botonMas.href = 'beatles.html';
+} else if (t.includes('PLATEROS')) {
+  botonMas.href = 'plateros.html';
+} else if (t.includes('ROLLING')) {
+  botonMas.href = 'rolling.html';
+} else if (t.includes('PARSONS')) {
+  botonMas.href = 'parsons.html';
+} else if (t.includes('CERATI') || t.includes('SODA')) {
+  botonMas.href = 'cerati.html';
+} else {
+  botonMas.href = 'explorar.html';
+}
       botonMas.style.display = 'inline-flex';
     }
 
