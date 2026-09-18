@@ -601,7 +601,28 @@
   text-shadow: 0 0 8px rgba(0, 243, 255, 0.65);
   box-shadow: 0 0 14px rgba(0, 243, 255, 0.15);
 }
-
+/* PEGUE 2 — Estilo del botón CONOCÉ MÁS en las tarjetas de especiales */
+.especial-mas {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
+  padding: 10px 22px;
+  border: 1px solid rgba(0, 243, 255, 0.65);
+  border-radius: 999px;
+  color: #00f3ff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-shadow: 0 0 8px rgba(0, 243, 255, 0.65);
+  box-shadow: 0 0 14px rgba(0, 243, 255, 0.15);
+  transition: all 0.2s ease;
+}
+.especial-mas:hover {
+  background: rgba(0, 243, 255, 0.15);
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.35);
+  transform: translateY(-1px);
+}
 @keyframes especialEntrada {
   from {
     opacity: 0;
@@ -781,7 +802,7 @@ main::before {
   bottom: -70px;
   left: -40px;
 
-   /* background-image: url("img/marco-main-flashback.png"); */
+  /* background-image: url("img/marco-main-flashback.png"); */
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100% 100%;
@@ -1941,6 +1962,7 @@ footer {
   }
   </script>
 </head>
+
 <body>
   <!-- === ACCESIBILIDAD: salto al contenido principal === -->
   <a class="skip-link" href="#player-section">Saltar al contenido principal</a>
@@ -2123,6 +2145,7 @@ footer {
       <p id="especial-descripcion"></p>
 
       <div id="especial-horario" class="especial-horario"></div>
+	<a id="especial-mas" class="especial-mas" href="explorar.html" style="display:none;">→ CONOCÉ MÁS</a>
 
     </div>
 
@@ -2155,6 +2178,7 @@ footer {
       <h2 id="especial-actual-titulo"></h2>
       <p id="especial-actual-descripcion"></p>
       <div id="especial-actual-horario" class="especial-horario"></div>
+	<a id="especial-mas" class="especial-mas" href="explorar.html" style="display:none;">→ CONOCÉ MÁS</a>  
     </div>
 
   </div>
@@ -2737,6 +2761,13 @@ async function cargarProximoEspecial() {
 
     tarjeta.classList.add('visible');
 
+    // PEGUE 3a — Activar botón CONOCÉ MÁS
+    const botonMas = document.getElementById('especial-mas');
+    if (botonMas) {
+      botonMas.href = (proximo.url || 'explorar.html');
+      botonMas.style.display = 'inline-flex';
+    }
+
   } catch (error) {
     console.error('Error cargando próximo especial:', error);
   }
@@ -2873,6 +2904,13 @@ async function cargarEspecialActual() {
     horario.textContent = '🔴 En vivo · FlashBack Radio';
 
     tarjeta.classList.add('visible');
+
+    // PEGUE 3b — Activar botón CONOCÉ MÁS
+    const botonMas = document.getElementById('especial-actual-mas');
+    if (botonMas) {
+      botonMas.href = (especialActual.url || 'explorar.html');
+      botonMas.style.display = 'inline-flex';
+    }
 
   } catch (error) {
     console.error('Error cargando especial actual:', error);
