@@ -2145,7 +2145,7 @@ footer {
       <p id="especial-descripcion"></p>
 
       <div id="especial-horario" class="especial-horario"></div>
-	<a id="especial-mas" class="especial-mas" href="explorar.html" style="display:none;">→ CONOCÉ MÁS</a>
+	<a id="especial-mas-proximo" class="especial-mas" href="explorar.html" style="display:none;">→ CONOCÉ MÁS</a>
 
     </div>
 
@@ -2178,7 +2178,7 @@ footer {
       <h2 id="especial-actual-titulo"></h2>
       <p id="especial-actual-descripcion"></p>
       <div id="especial-actual-horario" class="especial-horario"></div>
-	<a id="especial-mas" class="especial-mas" href="explorar.html" style="display:none;">→ CONOCÉ MÁS</a>  
+	<a id="especial-mas-actual" class="especial-mas" href="explorar.html" style="display:none;">→ CONOCÉ MÁS</a>  
     </div>
 
   </div>
@@ -2305,7 +2305,23 @@ const playlistMap = {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
         const data = await res.json();
-        archivoRecuerdaCache = Array.isArray(data) ? data : (data.fichas || []);
+        
+        // 🛠️ SOLUCIÓN AUTOMÁTICA: Limpiar espacios en claves y valores del JSON
+        const limpiarObjeto = (obj) => {
+          if (Array.isArray(obj)) return obj.map(limpiarObjeto);
+          if (obj !== null && typeof obj === 'object') {
+            return Object.keys(obj).reduce((acc, key) => {
+              const nuevaClave = key.trim(); // Quita espacios de la clave
+              acc[nuevaClave] = limpiarObjeto(obj[key]);
+              return acc;
+            }, {});
+          }
+          // Quita espacios al final de los textos (como "Night " -> "Night")
+          return typeof obj === 'string' ? obj.trim() : obj; 
+        };
+
+        const dataLimpia = limpiarObjeto(data);
+        archivoRecuerdaCache = Array.isArray(dataLimpia) ? dataLimpia : (dataLimpia.fichas || []);
         return archivoRecuerdaCache;
       } catch (error) {
         console.warn('🎵 El Archivo Recuerda: no se pudo cargar el JSON.', error);
@@ -2762,7 +2778,7 @@ async function cargarProximoEspecial() {
     tarjeta.classList.add('visible');
 
     // PEGUE 3a — Activar botón CONOCÉ MÁS
-    const botonMas = document.getElementById('especial-mas');
+    const botonMas = document.getElementById('especial-mas-proximo');
     if (botonMas) {
       const t = String(proximo.titulo || '').toUpperCase();
 if (t.includes('HOLLIES')) {
@@ -2921,7 +2937,7 @@ async function cargarEspecialActual() {
     tarjeta.classList.add('visible');
 
     // PEGUE 3b — Activar botón CONOCÉ MÁS
-    const botonMas = document.getElementById('especial-actual-mas');
+    const botonMas = document.getElementById('especial-mas-actual');
     if (botonMas) {
       const t = String(especialActual.titulo || '').toUpperCase();
 if (t.includes('HOLLIES')) {
