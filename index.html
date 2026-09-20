@@ -147,104 +147,104 @@
     .meta-error { color: #ff6666; font-size: 0.9em; text-align: center; padding: 10px; }
 
     /* === BANNER DE MOMENTO ACTUAL (NEÓN) === */
-#playlist-banner {
-  background: linear-gradient(135deg, rgba(10,10,30,0.95), rgba(30,10,40,0.95));
-  border: 3px solid #00f3ff;
-  border-radius: 16px;
-  padding: 20px 30px;
-  margin: 25px auto;
-  max-width: 550px;
-  text-align: center;
-  font-family: 'Orbitron', sans-serif;
-  color: #00ffff;
-  box-shadow: 
-    0 0 20px rgba(0, 243, 255, 0.6),
-    0 0 40px rgba(0, 243, 255, 0.3),
-    inset 0 0 20px rgba(0, 243, 255, 0.1);
-  animation: neonGlow 2s ease-in-out infinite alternate;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-}
+    #playlist-banner {
+      background: linear-gradient(135deg, rgba(10,10,30,0.95), rgba(30,10,40,0.95));
+      border: 3px solid #00f3ff;
+      border-radius: 16px;
+      padding: 20px 30px;
+      margin: 25px auto;
+      max-width: 550px;
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffff;
+      box-shadow: 
+        0 0 20px rgba(0, 243, 255, 0.6),
+        0 0 40px rgba(0, 243, 255, 0.3),
+        inset 0 0 20px rgba(0, 243, 255, 0.1);
+      animation: neonGlow 2s ease-in-out infinite alternate;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
 
-#playlist-banner::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background: linear-gradient(45deg, #00f3ff, #ff00ff, #00f3ff);
-  border-radius: 16px;
-  opacity: 0;
-  z-index: -1;
-  animation: borderGlow 3s ease-in-out infinite;
-}
+    #playlist-banner::before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      right: -2px;
+      bottom: -2px;
+      background: linear-gradient(45deg, #00f3ff, #ff00ff, #00f3ff);
+      border-radius: 16px;
+      opacity: 0;
+      z-index: -1;
+      animation: borderGlow 3s ease-in-out infinite;
+    }
 
-@keyframes neonGlow {
-  0% { 
-    box-shadow: 
-      0 0 20px rgba(0, 243, 255, 0.6),
-      0 0 40px rgba(0, 243, 255, 0.3),
-      inset 0 0 20px rgba(0, 243, 255, 0.1);
-    border-color: #00f3ff;
-  }
-  100% { 
-    box-shadow: 
-      0 0 30px rgba(0, 243, 255, 0.9),
-      0 0 60px rgba(0, 243, 255, 0.5),
-      0 0 80px rgba(255, 0, 255, 0.3),
-      inset 0 0 30px rgba(0, 243, 255, 0.2);
-    border-color: #ff00ff;
-  }
-}
+    @keyframes neonGlow {
+      0% { 
+        box-shadow: 
+          0 0 20px rgba(0, 243, 255, 0.6),
+          0 0 40px rgba(0, 243, 255, 0.3),
+          inset 0 0 20px rgba(0, 243, 255, 0.1);
+        border-color: #00f3ff;
+      }
+      100% { 
+        box-shadow: 
+          0 0 30px rgba(0, 243, 255, 0.9),
+          0 0 60px rgba(0, 243, 255, 0.5),
+          0 0 80px rgba(255, 0, 255, 0.3),
+          inset 0 0 30px rgba(0, 243, 255, 0.2);
+        border-color: #ff00ff;
+      }
+    }
 
-@keyframes borderGlow {
-  0%, 100% { opacity: 0; }
-  50% { opacity: 0.3; }
-}
+    @keyframes borderGlow {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 0.3; }
+    }
 
-#playlist-banner .icon {
-  font-size: 2em;
-  filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.8));
-  animation: iconPulse 1.5s ease-in-out infinite;
-}
+    #playlist-banner .icon {
+      font-size: 2em;
+      filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.8));
+      animation: iconPulse 1.5s ease-in-out infinite;
+    }
 
-@keyframes iconPulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.1); }
-}
+    @keyframes iconPulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
 
-#playlist-banner .label {
-  text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
-  line-height: 1.4;
-}
+    #playlist-banner .label {
+      text-shadow: 0 0 10px rgba(0, 255, 255, 0.8);
+      line-height: 1.4;
+    }
 
-#playlist-banner .label div:first-child {
-  color: #00ffff;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
+    #playlist-banner .label div:first-child {
+      color: #00ffff;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
 
-#playlist-banner .label div:last-child {
-  color: #ffcc66;
-  font-family: 'Special Elite', cursive;
-}
+    #playlist-banner .label div:last-child {
+      color: #ffcc66;
+      font-family: 'Special Elite', cursive;
+    }
 
-@media (max-width: 600px) {
-  #playlist-banner {
-    animation: none !important; /* Desactiva animación en móvil */
-    box-shadow: 0 0 20px rgba(0, 243, 255, 0.6) !important;
-  }
-  #playlist-banner::before {
-    display: none; /* Elimina el brillo extra */
-  }
-}
+    @media (max-width: 600px) {
+      #playlist-banner {
+        animation: none !important;
+        box-shadow: 0 0 20px rgba(0, 243, 255, 0.6) !important;
+      }
+      #playlist-banner::before {
+        display: none;
+      }
+    }
     @keyframes neonPulse {
       0% { box-shadow: 0 0 15px rgba(0, 243, 255, 0.3), inset 0 0 5px rgba(0, 243, 255, 0.1); }
       100% { box-shadow: 0 0 30px rgba(0, 243, 255, 0.7), 0 0 10px rgba(255, 0, 255, 0.3), inset 0 0 15px rgba(0, 243, 255, 0.2); }
@@ -338,162 +338,134 @@
       transform: scale(1.02);
       box-shadow: 0 0 12px rgba(0, 243, 255, 0.4);
     }
-/* === BOX CAFECITO MEJORADO - IMAGEN GRANDE === */
-.cafecito-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-  background: linear-gradient(135deg, rgba(10,10,30,0.9), rgba(30,10,40,0.9));
-  border: 3px solid #00f3ff;
-  border-radius: 20px;
-  padding: 30px 40px;
-  max-width: 750px;
-  margin: 0 auto;
-  box-shadow: 
-    0 0 25px rgba(0, 243, 255, 0.5),
-    0 0 50px rgba(255, 204, 102, 0.2);
-  animation: boxGlow 3s ease-in-out infinite alternate;
-}
 
-@keyframes boxGlow {
-  0% { 
-    box-shadow: 0 0 25px rgba(0, 243, 255, 0.5), 0 0 50px rgba(255, 204, 102, 0.2);
-    border-color: #00f3ff;
-  }
-  100% { 
-    box-shadow: 0 0 35px rgba(0, 243, 255, 0.8), 0 0 60px rgba(255, 204, 102, 0.4);
-    border-color: #ffcc00;
-  }
-}
+    /* === BOX CAFECITO MEJORADO - IMAGEN GRANDE === */
+    .cafecito-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      background: linear-gradient(135deg, rgba(10,10,30,0.9), rgba(30,10,40,0.9));
+      border: 3px solid #00f3ff;
+      border-radius: 20px;
+      padding: 30px 40px;
+      max-width: 750px;
+      margin: 0 auto;
+      box-shadow: 
+        0 0 25px rgba(0, 243, 255, 0.5),
+        0 0 50px rgba(255, 204, 102, 0.2);
+      animation: boxGlow 3s ease-in-out infinite alternate;
+    }
 
-.cafecito-imagen {
-  flex: 0 0 auto;
-}
+    @keyframes boxGlow {
+      0% { 
+        box-shadow: 0 0 25px rgba(0, 243, 255, 0.5), 0 0 50px rgba(255, 204, 102, 0.2);
+        border-color: #00f3ff;
+      }
+      100% { 
+        box-shadow: 0 0 35px rgba(0, 243, 255, 0.8), 0 0 60px rgba(255, 204, 102, 0.4);
+        border-color: #ffcc00;
+      }
+    }
 
-.radio-logo {
-  max-width: 250px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 204, 102, 0.8);
-  transition: transform 0.3s ease;
-}
+    .cafecito-imagen {
+      flex: 0 0 auto;
+    }
 
-.radio-logo:hover {
-  transform: scale(1.05);
-}
+    .radio-logo {
+      max-width: 250px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 204, 102, 0.8);
+      transition: transform 0.3s ease;
+    }
 
-.cafecito-contenido {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  text-align: center;
-  flex: 1;
-}
+    .radio-logo:hover {
+      transform: scale(1.05);
+    }
 
-.cafecito-pregunta {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1.4em;
-  color: #ffcc66;
-  text-shadow: 0 0 10px rgba(255, 204, 102, 0.6);
-  margin: 0;
-}
+    .cafecito-contenido {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      text-align: center;
+      flex: 1;
+    }
 
-.cafecito-gif-container {
-  background: rgba(0, 0, 0, 0.4);
-  border: 2px solid #ffcc00;
-  border-radius: 12px;
-  padding: 10px;
-  box-shadow: 0 0 15px rgba(255, 204, 102, 0.4);
-}
+    .cafecito-pregunta {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.4em;
+      color: #ffcc66;
+      text-shadow: 0 0 10px rgba(255, 204, 102, 0.6);
+      margin: 0;
+    }
 
-.gif-loop {
-  max-width: 150px;
-  height: auto;
-  display: block;
-  border-radius: 8px;
-}
+    .cafecito-gif-container {
+      background: rgba(0, 0, 0, 0.4);
+      border: 2px solid #ffcc00;
+      border-radius: 12px;
+      padding: 10px;
+      box-shadow: 0 0 15px rgba(255, 204, 102, 0.4);
+    }
 
-.btn-cafecito-neon {
-  display: inline-block;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 0.95em;
-  color: #00ffff;
-  text-decoration: none;
-  padding: 12px 25px;
-  background: linear-gradient(135deg, rgba(0, 243, 255, 0.1), rgba(255, 204, 102, 0.1));
-  border: 2px solid #00f3ff;
-  border-radius: 25px;
-  box-shadow: 
-    0 0 15px rgba(0, 243, 255, 0.4),
-    inset 0 0 10px rgba(0, 243, 255, 0.1);
-  transition: all 0.3s ease;
-  text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
-  line-height: 1.4;
-}
+    .gif-loop {
+      max-width: 150px;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
 
-.btn-cafecito-neon:hover {
-  background: linear-gradient(135deg, rgba(0, 243, 255, 0.3), rgba(255, 204, 102, 0.3));
-  border-color: #ffcc00;
-  box-shadow: 
-    0 0 25px rgba(0, 243, 255, 0.7),
-    0 0 40px rgba(255, 204, 102, 0.5),
-    inset 0 0 15px rgba(255, 204, 102, 0.2);
-  transform: translateY(-3px) scale(1.02);
-  color: #fff;
-}
+    .btn-cafecito-neon {
+      display: inline-block;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.95em;
+      color: #00ffff;
+      text-decoration: none;
+      padding: 12px 25px;
+      background: linear-gradient(135deg, rgba(0, 243, 255, 0.1), rgba(255, 204, 102, 0.1));
+      border: 2px solid #00f3ff;
+      border-radius: 25px;
+      box-shadow: 
+        0 0 15px rgba(0, 243, 255, 0.4),
+        inset 0 0 10px rgba(0, 243, 255, 0.1);
+      transition: all 0.3s ease;
+      text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
+      line-height: 1.4;
+    }
 
-/* === RESPONSIVE MÓVIL === */
-@media (max-width: 768px) {
-  .cafecito-box {
-    flex-direction: column;
-    padding: 25px;
-    gap: 25px;
-    max-width: 95%;
-  }
-  
-  .radio-logo {
-    max-width: 200px;
-  }
-  
-  .cafecito-pregunta {
-    font-size: 1.2em;
-  }
-  
-  .gif-loop {
-    max-width: 130px;
-  }
-  
-  .btn-cafecito-neon {
-    font-size: 0.9em;
-    padding: 10px 20px;
-  }
-}
+    .btn-cafecito-neon:hover {
+      background: linear-gradient(135deg, rgba(0, 243, 255, 0.3), rgba(255, 204, 102, 0.3));
+      border-color: #ffcc00;
+      box-shadow: 
+        0 0 25px rgba(0, 243, 255, 0.7),
+        0 0 40px rgba(255, 204, 102, 0.5),
+        inset 0 0 15px rgba(255, 204, 102, 0.2);
+      transform: translateY(-3px) scale(1.02);
+      color: #fff;
+    }
 
-@media (max-width: 480px) {
-  .cafecito-box {
-    padding: 20px;
-    gap: 20px;
-  }
-  
-  .radio-logo {
-    max-width: 160px;
-  }
-  
-  .cafecito-pregunta {
-    font-size: 1.1em;
-  }
-  
-  .gif-loop {
-    max-width: 120px;
-  }
-  
-  .btn-cafecito-neon {
-    font-size: 0.85em;
-    padding: 10px 18px;
-  }
-}
+    @media (max-width: 768px) {
+      .cafecito-box {
+        flex-direction: column;
+        padding: 25px;
+        gap: 25px;
+        max-width: 95%;
+      }
+      .radio-logo { max-width: 200px; }
+      .cafecito-pregunta { font-size: 1.2em; }
+      .gif-loop { max-width: 130px; }
+      .btn-cafecito-neon { font-size: 0.9em; padding: 10px 20px; }
+    }
+
+    @media (max-width: 480px) {
+      .cafecito-box { padding: 20px; gap: 20px; }
+      .radio-logo { max-width: 160px; }
+      .cafecito-pregunta { font-size: 1.1em; }
+      .gif-loop { max-width: 120px; }
+      .btn-cafecito-neon { font-size: 0.85em; padding: 10px 18px; }
+    }
+
     /* === GADGETS RESPONSIVE === */
     @media (max-width: 480px) {
       #weather-time-widget { gap: 10px; }
@@ -502,1432 +474,679 @@
       #album-art { width: 110px !important; height: 110px !important; }
     }
     #album-art:hover { transform: scale(1.05); }
-  
-
-/* ===== MEJORAS RECUPERADAS DESDE indexA.html ===== */
-/* ==========================================================
-   FLASHBACK ORO — PRÓXIMO ESPECIAL
-   ========================================================== */
-
-#proximo-especial,
-#especial-actual {
-  display: none;
-  max-width: 960px;
-  margin: 35px auto;
-  padding: 22px;
-  border: 1px solid rgba(255, 204, 0, 0.65);
-  border-radius: 22px;
-
-  background:
-    radial-gradient(circle at top, rgba(255, 204, 0, 0.10), transparent 55%),
-    linear-gradient(145deg, rgba(10, 10, 18, 0.96), rgba(23, 18, 12, 0.96));
-
-  box-shadow:
-    0 0 20px rgba(255, 204, 0, 0.18),
-    0 0 45px rgba(0, 0, 0, 0.55);
-
-  overflow: hidden;
-}
-
-#proximo-especial.visible,
-#especial-actual.visible {
-  display: block;
-  animation: especialEntrada 0.9s ease both;
-}
-
-/* Cuando termina un especial, la tarjeta no desaparece de golpe. */
-#proximo-especial.desvaneciendo,
-#especial-actual.desvaneciendo {
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 1.4s ease, transform 1.4s ease;
-}
-
-.especial-etiqueta {
-  text-align: center;
-  font-family: 'Orbitron', sans-serif;
-  color: #ffd700;
-  font-size: 0.9rem;
-  letter-spacing: 2px;
-  margin-bottom: 18px;
-  text-shadow: 0 0 10px rgba(255, 215, 0, 0.55);
-}
-
-.especial-contenido {
-  display: grid;
-  grid-template-columns: minmax(280px, 1.25fr) minmax(220px, 0.75fr);
-  gap: 28px;
-  align-items: center;
-}
-
-.especial-imagen {
-  width: 100%;
-  display: block;
-  border-radius: 16px;
-  border: 1px solid rgba(255, 215, 0, 0.65);
-  box-shadow:
-    0 0 18px rgba(255, 204, 0, 0.25),
-    0 12px 30px rgba(0, 0, 0, 0.5);
-}
-
-.especial-info {
-  text-align: center;
-}
-
-.especial-info h2 {
-  margin: 0 0 12px;
-  font-family: 'Orbitron', sans-serif;
-  color: #ffd700;
-  font-size: clamp(1.5rem, 3vw, 2.25rem);
-  text-shadow: 0 0 12px rgba(255, 215, 0, 0.45);
-}
-
-.especial-info p {
-  margin: 0 auto 18px;
-  max-width: 430px;
-  color: #f4e7c5;
-  font-size: 1.05rem;
-  line-height: 1.6;
-}
-
-.especial-horario {
-  display: inline-block;
-  padding: 10px 18px;
-  border: 1px solid rgba(0, 243, 255, 0.65);
-  border-radius: 999px;
-  color: #00f3ff;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 0.95rem;
-  text-shadow: 0 0 8px rgba(0, 243, 255, 0.65);
-  box-shadow: 0 0 14px rgba(0, 243, 255, 0.15);
-}
-/* PEGUE 2 — Estilo del botón CONOCÉ MÁS en las tarjetas de especiales */
-.especial-mas {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin-top: 14px;
-  padding: 10px 22px;
-  border: 1px solid rgba(0, 243, 255, 0.65);
-  border-radius: 999px;
-  color: #00f3ff;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 0.9rem;
-  text-decoration: none;
-  text-shadow: 0 0 8px rgba(0, 243, 255, 0.65);
-  box-shadow: 0 0 14px rgba(0, 243, 255, 0.15);
-  transition: all 0.2s ease;
-}
-.especial-mas:hover {
-  background: rgba(0, 243, 255, 0.15);
-  box-shadow: 0 0 20px rgba(0, 243, 255, 0.35);
-  transform: translateY(-1px);
-}
-@keyframes especialEntrada {
-  from {
-    opacity: 0;
-    transform: translateY(18px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media (max-width: 720px) {
-  #proximo-especial,
-#especial-actual {
-    margin: 25px 12px;
-    padding: 15px;
-  }
-
-  .especial-contenido {
-    grid-template-columns: 1fr;
-    gap: 18px;
-  }
-
-  .especial-info p {
-    font-size: 1rem;
-  }
-}
-
-
-/* ==========================================================
-   FLASHBACK RADIO — REDISEÑO VISUAL GENERAL / LABORATORIO LOCAL
-   21/08/2026
-   Conserva estructura, IDs, enlaces y JavaScript existentes.
-   ========================================================== */
-:root {
-  --fb-bg: #050812;
-  --fb-bg-2: #091322;
-  --fb-panel: rgba(7, 13, 27, 0.88);
-  --fb-panel-soft: rgba(12, 20, 38, 0.76);
-  --fb-cyan: #42e8ff;
-  --fb-cyan-soft: rgba(66, 232, 255, .18);
-  --fb-violet: #9b6cff;
-  --fb-magenta: #e56cff;
-  --fb-gold: #f4c96b;
-  --fb-gold-strong: #ffd76a;
-  --fb-text: #f5f7ff;
-  --fb-muted: #aab5ca;
-  --fb-line: rgba(126, 217, 255, .22);
-  --fb-shadow: 0 24px 70px rgba(0,0,0,.46);
-  --fb-radius: 22px;
-}
-
-html { scroll-behavior: smooth; }
-body {
-  background: #0f1c28;
-  color: var(--fb-text);
-  min-height: 100vh;
-  overflow-x: hidden;
-}
-body::before { display: none; }
-
-/* Navegación más limpia y profunda */
-.main-nav {
-  background: rgba(4, 7, 17, .84);
-  border-bottom: 1px solid rgba(66,232,255,.34);
-  box-shadow: 0 10px 35px rgba(0,0,0,.42), 0 1px 18px rgba(66,232,255,.10);
-  backdrop-filter: blur(16px) saturate(135%);
-  -webkit-backdrop-filter: blur(16px) saturate(135%);
-}
-.nav-container { max-width: 1080px; }
-.nav-logo {
-  color: var(--fb-gold-strong);
-  letter-spacing: .4px;
-  text-shadow: 0 0 16px rgba(244,201,107,.30);
-}
-.nav-menu { gap: 7px; }
-.nav-menu a {
-  color: #c8f8ff;
-  border: 1px solid transparent;
-  border-radius: 999px;
-  padding: 7px 12px;
-  text-shadow: none;
-}
-.nav-menu a:hover {
-  background: rgba(66,232,255,.08);
-  border-color: rgba(66,232,255,.28);
-  color: #fff;
-  box-shadow: 0 0 18px rgba(66,232,255,.12);
-}
-
-/* Fondo audiovisual — restaurado exactamente al tratamiento del index original */
-.vinyl-background {
-  opacity: 1;
-  background: transparent;
-}
-.vinyl-background::after { display: none; }
-.vinyl-background video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(1.8) contrast(1.0);
-  opacity: 1;
-}
-#header-intro {
-  max-width: 900px;
-  margin-top: 14px;
-  border: 1px solid rgba(244,201,107,.48);
-  border-radius: 24px;
-  background: #000;
-  box-shadow: 0 24px 70px rgba(0,0,0,.48), 0 0 42px rgba(244,201,107,.22);
-}
-#intro-video { border-radius: inherit; }
-
-
-/* ==========================================================
-   CONTENEDOR CENTRAL — MARCO FLASHBACK
-   Marco independiente + centro translúcido + responsive
-   ========================================================== */
-
-main {
-  width: calc(100% - 18px);
-  max-width: 1120px;
-
-  margin: 26px auto 48px;
-  padding: 68px 78px 185px;
-
-  position: relative;
-  z-index: 10;
-  isolation: isolate;
-
-  /* El main conserva su ancho para no achicar los boxes internos.
-     La franja opaca se dibuja aparte, centrada y alineada con
-     el ancho del video de cabecera (900px). */
-  background: transparent;
-
-  border: none;
-  border-radius: 34px;
-
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-
-  box-shadow: none;
-}
-
-/* FRANJA OPACA CENTRAL — mismo ancho visual que la cabecera */
-main::after {
-  content: "";
-  position: absolute;
-  z-index: -2;
-
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-
-  width: min(900px, 100%);
-  border-radius: 34px;
-
-  background: rgba(4, 9, 20, 0.34);
-
-  box-shadow:
-    0 22px 68px rgba(0,0,0,.38),
-    0 0 34px rgba(244,201,107,.10);
-
-  pointer-events: none;
-}
-
-/* El marco se dibuja en una capa separada.
-   Así puede ensancharse sin achicar ni deformar los boxes internos. */
-main::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-
-  top: -62px;
-  right: -40px;
-  bottom: -70px;
-  left: -40px;
-
-  /* background-image: url("img/marco-main-flashback.png"); */
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 100% 100%;
-
-  opacity: .86;
-  pointer-events: none;
-  border-radius: 38px;
-
-  filter:
-    drop-shadow(0 10px 18px rgba(0,0,0,.32))
-    drop-shadow(0 0 14px rgba(244,201,107,.10));
-}
-
-/* ==========================================================
-   RESPONSIVE DEL MARCO CENTRAL
-   ========================================================== */
-
-@media (max-width: 900px) {
-  main {
-    width: calc(100% - 10px);
-    padding: 58px 44px 155px;
-  }
-
-  main::before {
-    top: -46px;
-    right: -14px;
-    bottom: -22px;
-    left: -14px;
-  }
-}
-
-@media (max-width: 600px) {
-  main::after {
-    width: 100%;
-    border-radius: 22px;
-  }
-
-  main {
-    width: calc(100% - 4px);
-    margin: 18px auto 34px;
-    padding: 48px 20px 135px;
-    border-radius: 22px;
-    background: rgba(4, 9, 20, 0.38);
-  }
-
-  main::before {
-    top: -34px;
-    right: -10px;
-    bottom: -18px;
-    left: -10px;
-    background-size: 108% 100%;
-    opacity: .90;
-    border-radius: 24px;
-  }
-
-  #contacto-section {
-    width: 100%;
-    padding: 18px 14px;
-    margin-top: 32px;
-  }
-}
-
-@media (max-width: 400px) {
-  main::after {
-    border-radius: 18px;
-  }
-
-  main {
-    width: 100%;
-    padding: 42px 14px 125px;
-    border-radius: 18px;
-  }
-
-  main::before {
-    top: -28px;
-    right: -8px;
-    bottom: -16px;
-    left: -8px;
-    background-size: 112% 100%;
-  }
-
-  #contacto-section {
-    font-size: .86rem;
-  }
-}
-h2, h3 { letter-spacing: .5px; }
-h2 {
-  color: #dffaff;
-  text-shadow: 0 0 20px rgba(66,232,255,.24);
-}
-h3 {
-  color: var(--fb-gold);
-  text-shadow: 0 0 16px rgba(244,201,107,.20);
-}
-.quote {
-  max-width: 680px;
-  margin: 8px auto 24px;
-  color: #f4dfa8;
-  font-size: clamp(1.05rem, 2.3vw, 1.28rem);
-  text-shadow:
-    0 2px 7px rgba(0,0,0,.92),
-    0 0 18px rgba(244,201,107,.28);
-}
-.retro-gifs { opacity: 1; }
-.retro-gifs img {
-  filter:
-    drop-shadow(0 6px 10px rgba(0,0,0,.65))
-    drop-shadow(0 0 8px rgba(66,232,255,.15));
-}
-
-/* Familia visual común de paneles */
-.radio-card,
-.metadata-widget,
-.schedule-iframe-wrapper,
-.sobre-radio,
-.cafecito-box,
-#playlist-banner,
-#proximo-especial,
-#especial-actual,
-#hero > div[style*="background:rgba(10,8,26,0.95)"] {
-  border-radius: var(--fb-radius) !important;
-  background:
-    radial-gradient(circle at 20% 0%, rgba(89,101,214,.10), transparent 35%),
-    linear-gradient(145deg, rgba(8,14,29,.94), rgba(11,18,34,.86)) !important;
-  border: 1px solid rgba(100,215,255,.52) !important;
-  box-shadow: 0 20px 48px rgba(0,0,0,.38), 0 0 28px rgba(66,232,255,.28), 0 0 52px rgba(155,108,255,.14), inset 0 0 22px rgba(66,232,255,.055) !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-}
-
-/* ==========================================================
-   PLAYER PRINCIPAL — PANEL ARTÍSTICO ANIMADO HORIZONTAL
-   Fondo: video/fondo-player.mp4
-   Video recortado: 744 x 392
-   ========================================================== */
-.player-section { margin-top: 34px; }
-
-#player-section .radio-card {
-  width: 100%;
-  max-width: 800px;
-  aspect-ratio: 744 / 392;
-  margin: 0 auto;
-  padding: 0;
-  position: relative;
-  overflow: hidden;
-  isolation: isolate;
-  border-radius: 26px !important;
-  border: 0 !important;
-  background: #000 !important;
-  box-shadow:
-    0 24px 58px rgba(0,0,0,.55),
-    0 0 26px rgba(0,238,255,.30),
-    0 0 52px rgba(186,56,255,.20) !important;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-}
-
-#player-section .radio-card::before {
-  content: none !important;
-}
-
-.radio-card-bg {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
-  z-index: 0;
-  pointer-events: none;
-  border-radius: inherit;
-  background: #000;
-}
-
-/* Se elimina la placa oscura artificial: el propio video ya aporta el fondo. */
-.radio-card-center-shade {
-  display: none;
-}
-
-/* Área central útil del marco.
-   Todo el contenido HTML queda dentro de la zona negra del diseño. */
-.radio-card-content {
-  position: relative;
-  z-index: 2;
-  width: 62%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 8.2% 1.5% 5.2%;
-  display: grid;
-  grid-template-columns: 30% 1fr;
-  grid-template-rows: auto auto auto 1fr auto;
-  column-gap: 5%;
-  align-items: center;
-  text-align: left;
-}
-
-/* Logo: sin placa, borde ni sombra rectangular superpuesta. */
-/* Logo — se conserva como está visualmente */
-#player-section .radio-card .radio-main-logo {
-  grid-column: 1;
-  grid-row: 1 / span 3;
-  align-self: start;
-  justify-self: center;
-}
-
-/* Título */
-#player-section .radio-card h3 {
-  grid-column: 2;
-  grid-row: 1;
-  margin: -14px 0 0;
-  color: #eafcff;
-  font-size: clamp(1.25rem, 3vw, 2rem);
-  line-height: 1.08;
-  letter-spacing: .7px;
-  text-align: left;
-  text-shadow:
-    0 0 10px rgba(80,224,255,.45),
-    0 0 24px rgba(90,115,255,.22);
-}
-
-/* Descripción */
-#player-section .radio-card .subtitle:not(.radio-tagline) {
-  grid-column: 2;
-  grid-row: 2;
-  width: 100%;
-  margin: 14px 0 0;
-  color: #d8e5ef;
-  font-size: clamp(.70rem, 1.42vw, .91rem);
-  line-height: 1.38;
-  text-align: left;
-  text-shadow: 0 2px 6px rgba(0,0,0,.90);
-}
-
-/* Indicador EN VIVO */
-#player-section .live-indicator {
-  grid-column: 2;
-  grid-row: 3;
-  justify-self: start;
-  margin: 16px 0 0;
-  padding: 6px 16px;
-  background: rgba(90,0,12,.42);
-  border: 1px solid rgba(255,61,83,.88);
-  color: #ff7e8c;
-  box-shadow:
-    0 0 12px rgba(255,42,66,.35),
-    inset 0 0 12px rgba(255,42,66,.10);
-}
-
-/* Reproductor: sin marco/sombra propios; flota sobre el fondo del panel. */
-#player-section .player-iframe {
-  grid-column: 1 / -1;
-  grid-row: 4;
-  align-self: end;
-  justify-self: center;
-  width: min(84%, 430px);
-  height: 82px;
-  margin: 8px auto 5px;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  box-shadow: none;
-}
-
-/* Frase final, siempre dentro del marco. */
-#player-section .radio-tagline {
-  grid-column: 1 / -1 !important;
-  grid-row: 5 !important;
-  justify-self: center;
-  align-self: end;
-  text-align: center !important;
-  margin: 0 !important;
-  color: #e7eef5 !important;
-  font-size: clamp(.70rem, 1.42vw, .90rem) !important;
-  line-height: 1.2;
-  white-space: nowrap;
-  text-shadow:
-    0 2px 6px rgba(0,0,0,.95),
-    0 0 10px rgba(141,85,255,.22);
-	transform: translateY(-25px);
-}
-
-/* ==========================================================
-   INFORMACIÓN EN VIVO — SEGUNDO PANEL ARTÍSTICO ANIMADO
-   Fondo: video/fondo-info-vivo.mp4
-   ========================================================== */
-.metadata-widget {
-  width:100%;
-  max-width:800px !important;
-  aspect-ratio:3 / 2;
-  min-height:0 !important;
-  position:relative;
-  isolation:isolate;
-  overflow:hidden;
-  padding:0 !important;
-  border-radius:26px !important;
-  border:0 !important;
-  background:#030714 !important;
-  box-shadow:0 24px 58px rgba(0,0,0,.55),0 0 26px rgba(0,238,255,.28),0 0 48px rgba(186,56,255,.18) !important;
-}
-.metadata-widget::before { content:none !important; }
-.metadata-video-bg {
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-  object-fit:contain;
-  object-position:center;
-  z-index:0;
-  pointer-events:none;
-  border-radius:inherit;
-  display:block;
-}
-
-/* El contenido queda exclusivamente dentro del área central quieta del video. */
-.metadata-content {
-  position:absolute;
-  z-index:2;
-  left:27%;
-  right:26%;
-  top:5.5%;
-  bottom:6.5%;
-  display:flex;
-  flex-direction:column;
-  min-width:0;
-  padding:8px 10px 10px;
-  border-radius:20px;
-  background:linear-gradient(180deg,rgba(2,6,18,.32),rgba(2,6,18,.20) 62%,rgba(2,6,18,.30));
-  box-shadow:inset 0 0 38px rgba(0,0,0,.18);
-}
-.metadata-content h3 {
-  position:relative;
-  z-index:2;
-  margin:0 0 8px !important;
-  font-size:clamp(.95rem,2vw,1.28rem) !important;
-}
-.metadata-cover {
-  text-align:center;
-  margin:0 0 8px;
-  flex:0 0 auto;
-}
-.metadata-widget #album-art {
-  position:relative;
-  z-index:2;
-  width:clamp(82px,12vw,120px) !important;
-  height:clamp(82px,12vw,120px) !important;
-}
-.metadata-widget #meta-content {
-  position:relative;
-  z-index:2;
-  min-height:0;
-  flex:1 1 auto;
-  overflow:auto;
-  padding:0 4px 2px;
-  scrollbar-width:thin;
-}
-.metadata-widget .meta-row {
-  gap:12px;
-  align-items:flex-start;
-  padding:6px 0;
-  font-size:clamp(.68rem,1.25vw,.88rem);
-}
-.metadata-widget .meta-label {
-  flex:0 0 32%;
-  max-width:32%;
-  white-space:nowrap;
-}
-.metadata-widget .meta-value {
-  flex:1 1 auto;
-  max-width:none;
-  text-align:right;
-  overflow-wrap:anywhere;
-}
-.metadata-widget .history-list {
-  max-height:none;
-  margin:5px 0 0;
-}
-.metadata-widget .history-list li {
-  font-size:clamp(.62rem,1.12vw,.80rem);
-  line-height:1.25;
-  padding:4px 0;
-}
-
-/* ==========================================================
-   RESPONSIVE DE LOS DOS PANELES NUEVOS
-   Se conserva el responsive original del sitio.
-   Sólo se adapta el contenido interno de los nuevos fondos animados.
-   ========================================================== */
-@media (max-width:400px) {
-  #player-section .radio-card,
-  .metadata-widget {
-    width:100%;
-    max-width:100% !important;
-  }
-
-  #player-section .radio-card {
-    aspect-ratio: 744 / 392;
-  }
-
-  .metadata-widget {
-    aspect-ratio:3 / 2;
-  }
-
-  .radio-card-content {
-    width: 68%;
-    padding: 7.2% 1% 4.5%;
-    grid-template-columns: 30% 1fr;
-    column-gap: 4%;
-  }
-  #player-section .radio-card .radio-main-logo {
-    max-width: 72px;
-    border-radius: 0;
-  }
-  #player-section .radio-card h3 {
-    font-size: clamp(.78rem, 4vw, 1.02rem);
-  }
-  #player-section .radio-card .subtitle {
-    font-size: clamp(.47rem, 2.3vw, .63rem);
-    line-height: 1.25;
-    margin-bottom: 1%;
-  }
-  #player-section .live-indicator {
-    font-size: .60rem;
-    padding: 3px 8px;
-    gap: 5px;
-    margin-bottom: 0;
-  }
-  #player-section .live-dot { width:7px; height:7px; }
-  #player-section .player-iframe {
-    width: 90%;
-    height: 58px;
-    margin: 3px auto 2px;
-    transform: none;
-  }
-  #player-section .radio-tagline {
-    font-size: clamp(.43rem, 2.05vw, .58rem) !important;
-  }
-
-  .metadata-content {
-    left:25.5%;
-    right:24.5%;
-    top:4.5%;
-    bottom:5.5%;
-    padding:4px 5px 6px;
-  }
-  .metadata-content h3 {
-    font-size:clamp(.67rem,3vw,.88rem) !important;
-    margin-bottom:4px !important;
-  }
-  .metadata-widget #album-art {
-    width:clamp(54px,14.5vw,76px) !important;
-    height:clamp(54px,14.5vw,76px) !important;
-  }
-  .metadata-widget .meta-row {
-    gap:6px;
-    padding:3px 0;
-    font-size:clamp(.47rem,2.25vw,.64rem);
-  }
-  .metadata-widget .meta-label {
-    flex-basis:31%;
-    max-width:31%;
-  }
-  .metadata-widget .history-list li {
-    font-size:clamp(.43rem,2vw,.58rem);
-    padding:2px 0;
-  }
-}
-
-/* Banner de programación: más elegante, menos discoteca visual */
-#playlist-banner {
-  max-width: 610px;
-  padding: 18px 24px;
-  border-color: rgba(66,232,255,.64) !important;
-  animation: fbBreath 5s ease-in-out infinite !important;
-  overflow: hidden;
-}
-#playlist-banner::before {
-  opacity: .35;
-  background: linear-gradient(90deg, transparent, rgba(66,232,255,.5), rgba(155,108,255,.45), transparent);
-  animation: fbSweep 8s linear infinite;
-}
-#playlist-banner .icon { animation: none; filter: drop-shadow(0 0 12px rgba(66,232,255,.28)); }
-#playlist-banner .label { text-shadow: none; }
-#playlist-banner .label div:first-child { color: #dffaff; letter-spacing: 1.4px; }
-#playlist-banner .label div:last-child { color: #e9cf93; margin-top: 5px; line-height: 1.5; }
-
-/* Efemérides — usa el JSON existente, cambia sólo la piel */
-#hero > div[style*="background:rgba(10,8,26,0.95)"] {
-  max-width: 610px !important;
-  padding: 22px !important;
-  margin: 24px auto !important;
-  position: relative;
-  overflow: hidden;
-}
-#hero > div[style*="background:rgba(10,8,26,0.95)"] > h3 {
-  color: var(--fb-gold-strong) !important;
-  font-size: 1.15rem !important;
-  letter-spacing: 1.2px;
-  text-shadow: 0 0 14px rgba(244,201,107,.20) !important;
-}
-#efemeride-banner {
-  background: linear-gradient(135deg, rgba(26,21,55,.72), rgba(8,28,45,.74)) !important;
-  border: 1px solid rgba(155,108,255,.36) !important;
-  color: #f2dfae !important;
-  padding: 17px 20px !important;
-  line-height: 1.65;
-  box-shadow: inset 0 0 24px rgba(155,108,255,.06), 0 12px 30px rgba(0,0,0,.22) !important;
-  animation: none !important;
-}
-#efemeride-placeholder { color: #7f8ba1 !important; }
-
-/* Hora y clima */
-#weather-time-widget { gap: 12px !important; margin: 24px auto !important; max-width: 610px !important; }
-.neon-gadget {
-  flex: 1 1 190px;
-  background: rgba(7,14,28,.82) !important;
-  border: 1px solid rgba(66,232,255,.20) !important;
-  border-radius: 18px !important;
-  padding: 16px 20px !important;
-  box-shadow: 0 14px 34px rgba(0,0,0,.25) !important;
-}
-#clock-time { color: #dffaff !important; text-shadow: 0 0 14px rgba(66,232,255,.22) !important; }
-#weather-temp { color: var(--fb-gold-strong) !important; text-shadow: 0 0 14px rgba(244,201,107,.20) !important; }
-
-/* Texto identitario */
-.sobre-radio {
-  max-width: 690px;
-  margin: 28px auto;
-  padding: 25px 28px;
-  border-color: rgba(244,201,107,.20) !important;
-}
-.sobre-radio p { color: #e8d6a8; }
-.sobre-radio .firma { color: #9ca9bd; }
-
-/* Información en vivo */
-.metadata-widget {
-  max-width: 800px;
-  padding: 0;
-  font-family: 'Special Elite', cursive;
-}
-.metadata-widget h3 { color: var(--fb-gold-strong); text-shadow: 0 0 14px rgba(244,201,107,.18); }
-#album-art {
-  width: 150px !important;
-  height: 150px !important;
-  border: 1px solid rgba(66,232,255,.32) !important;
-  border-radius: 18px !important;
-  box-shadow: 0 16px 38px rgba(0,0,0,.38), 0 0 24px rgba(66,232,255,.10) !important;
-}
-.meta-row {
-  gap: 18px;
-  padding: 11px 0;
-  border-bottom-color: rgba(126,217,255,.13);
-}
-.meta-label { color: var(--fb-gold); }
-.meta-value { color: #eef5ff; }
-.history-list li { color: #c9d6e9; border-bottom-color: rgba(244,201,107,.12); padding: 7px 0; }
-
-/* FlashBack Oro: identidad premium reservada */
-#proximo-especial,
-#especial-actual {
-  max-width: 760px;
-  border-color: rgba(244,201,107,.68) !important;
-  background:
-    radial-gradient(circle at top, rgba(255,204,0,.09), transparent 50%),
-    linear-gradient(145deg, rgba(8,8,13,.97), rgba(24,18,10,.94)) !important;
-  box-shadow: 0 22px 55px rgba(0,0,0,.48), 0 0 30px rgba(244,201,107,.34), 0 0 58px rgba(244,201,107,.16), inset 0 0 20px rgba(244,201,107,.045) !important;
-}
-.especial-etiqueta { color: var(--fb-gold-strong); }
-.especial-imagen { border-color: rgba(244,201,107,.42); }
-.especial-info h2 { color: var(--fb-gold-strong); }
-.especial-info p { color: #eadfca; }
-
-/* Cartelera */
-.schedule-iframe-wrapper { max-width: 610px; padding: 20px; }
-.schedule-iframe-wrapper iframe { border: 1px solid rgba(66,232,255,.12); }
-.btn-cartelera {
-  border: 1px solid rgba(66,232,255,.25);
-  background: rgba(66,232,255,.055);
-  border-radius: 999px;
-  color: #c9f8ff;
-}
-.btn-cartelera:hover { background: rgba(66,232,255,.11); box-shadow: 0 0 18px rgba(66,232,255,.10); }
-
-/* Cafecito */
-.cafecito-box {
-  max-width: 760px;
-  border-color: rgba(244,201,107,.50) !important;
-  box-shadow: 0 20px 48px rgba(0,0,0,.38), 0 0 28px rgba(244,201,107,.24), 0 0 50px rgba(66,232,255,.12) !important;
-  animation: none;
-}
-.radio-logo { box-shadow: 0 16px 38px rgba(0,0,0,.34), 0 0 20px rgba(244,201,107,.12); }
-.cafecito-pregunta { color: var(--fb-gold-strong); text-shadow: 0 0 14px rgba(244,201,107,.18); }
-.cafecito-gif-container {
-  background: rgba(0,0,0,.28);
-  border: 1px solid rgba(244,201,107,.24);
-  box-shadow: none;
-}
-.btn-cafecito-neon {
-  color: #dffaff;
-  border: 1px solid rgba(66,232,255,.28);
-  background: linear-gradient(135deg, rgba(66,232,255,.06), rgba(244,201,107,.055));
-  box-shadow: 0 10px 25px rgba(0,0,0,.20);
-}
-.btn-cafecito-neon:hover {
-  color: #fff;
-  border-color: rgba(244,201,107,.45);
-  background: linear-gradient(135deg, rgba(66,232,255,.12), rgba(244,201,107,.10));
-  box-shadow: 0 14px 32px rgba(0,0,0,.28), 0 0 18px rgba(244,201,107,.08);
-}
-
-/* Contacto y pie */
-#contacto-section {
-  margin: 38px auto 0;
-  padding: 22px 28px;
-  max-width: 680px;
-
-  background:
-    linear-gradient(
-      180deg,
-      rgba(3, 8, 18, 0.88),
-      rgba(5, 12, 24, 0.78)
-    );
-
-  border: 1px solid rgba(244,201,107,.34);
-  border-radius: 18px;
-
-  box-shadow:
-    0 14px 34px rgba(0,0,0,.38),
-    0 0 20px rgba(244,201,107,.10);
-
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-}
-
-#contacto-section a {
-  color: #ffd76a !important;
-  font-weight: 600;
-  text-shadow:
-    0 0 9px rgba(255,215,106,.36),
-    0 2px 5px rgba(0,0,0,.95);
-}
-footer {
-  position: relative;
-  z-index: 2;
-  color: #8795ad;
-  font-weight: 400;
-  line-height: 1.75;
-  text-shadow: none;
-  border-top: 1px solid rgba(126,217,255,.12);
-  background: rgba(3,6,13,.58);
-}
-
-/* Animación ambiental controlada */
-@keyframes fbBreath {
-  0%,100% { box-shadow: 0 20px 48px rgba(0,0,0,.35), 0 0 20px rgba(66,232,255,.06); }
-  50% { box-shadow: 0 20px 48px rgba(0,0,0,.35), 0 0 28px rgba(155,108,255,.10); }
-}
-@keyframes fbSweep {
-  from { transform: translateX(-80%); }
-  to { transform: translateX(80%); }
-}
-
-
-
-/* ==========================================================
-   EL ARCHIVO RECUERDA — MARCO VISUAL
-   Fondo gráfico común para las fichas dinámicas
-   ========================================================== */
-#archivo-recuerda {
-  display: none;
-  width: 100%;
-  max-width: 800px;
-  margin: 30px auto;
-  position: relative;
-  min-height: 320px;
-  border-radius: 26px;
-  overflow: visible;
-
-  /* Fondo base oscuro. El marco gráfico pasa a ::before para
-     poder extenderlo independientemente del contenido. */
-  background: rgba(3,6,12,.24);
-
-  /* Reborde luminoso tipo LED */
-  border: 2px solid rgba(255,190,70,.78);
-
-  box-shadow:
-    0 24px 58px rgba(0,0,0,.52),
-    0 0 10px rgba(255,177,58,.55),
-    0 0 24px rgba(255,177,58,.34),
-    0 0 38px rgba(0,220,255,.22),
-    inset 0 0 16px rgba(255,177,58,.08);
-
-  animation: archivoLedGlow 4.2s ease-in-out infinite alternate;
-}
-
-#archivo-recuerda.visible {
-  display: block;
-  animation:
-    archivoEntrada .7s ease both,
-    archivoLedGlow 4.2s ease-in-out .7s infinite alternate;
-}
-
-/* Marco gráfico independiente:
-   se extiende 14px en cada dirección sin mover el contenido. */
-#archivo-recuerda::before {
-  content: "";
-  position: absolute;
-  z-index: 0;
-
-  top: -20px;
-  right: -20px;
-  bottom: -20px;
-  left: -20px;
-
-  background:
-    linear-gradient(rgba(3,6,12,.08), rgba(3,6,12,.08)),
-    url("img/archivo_recuerda_box.png") center center / 100% 100% no-repeat;
-
-  border-radius: 30px;
-  pointer-events: none;
-}
-
-#archivo-recuerda::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  padding: 2px;
-  pointer-events: none;
-  background: linear-gradient(
-    115deg,
-    rgba(255,184,55,.95),
-    rgba(255,184,55,.65) 24%,
-    rgba(178,62,255,.72) 52%,
-    rgba(0,221,255,.92) 78%,
-    rgba(255,184,55,.90)
-  );
-  -webkit-mask:
-    linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  opacity: .82;
-  filter: drop-shadow(0 0 8px rgba(0,220,255,.22));
-}
-
-@keyframes archivoLedGlow {
-  0% {
-    border-color: rgba(255,184,55,.80);
-    box-shadow:
-      0 24px 58px rgba(0,0,0,.52),
-      0 0 10px rgba(255,177,58,.48),
-      0 0 24px rgba(255,177,58,.28),
-      0 0 30px rgba(178,62,255,.14),
-      inset 0 0 16px rgba(255,177,58,.07);
-  }
-  100% {
-    border-color: rgba(0,220,255,.82);
-    box-shadow:
-      0 24px 58px rgba(0,0,0,.52),
-      0 0 12px rgba(0,220,255,.52),
-      0 0 28px rgba(0,220,255,.28),
-      0 0 36px rgba(178,62,255,.22),
-      inset 0 0 18px rgba(0,220,255,.06);
-  }
-}
-
-.archivo-recuerda-contenido {
-  position: relative;
-  z-index: 2;
-  width: 82%;
-  margin: 0 auto;
-  padding: 72px 18px 30px;
-  display: grid;
-  grid-template-columns: 190px 1fr;
-  gap: 28px;
-  align-items: start;
-  text-align: left;
-  font-family: 'Special Elite', cursive;
-}
-
-.archivo-recuerda-portada {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 6px;
-  transform: translateX(20px);
-}
-
-#archivo-recuerda-imagen {
-  width: 100%;
-  max-width: 190px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 16px;
-  border: 1px solid rgba(244,201,107,.52);
-  box-shadow:
-    0 10px 28px rgba(0,0,0,.45),
-    0 0 18px rgba(244,201,107,.18);
-  background: rgba(0,0,0,.35);
-}
-
-.archivo-recuerda-info {
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-top: 2px;
-}
-
-#archivo-recuerda-artista {
-  margin: 0 0 4px;
-  color: #f4f7ff;
-  font-family: 'Orbitron', sans-serif;
-  font-size: clamp(1.15rem, 2.7vw, 1.65rem);
-  letter-spacing: .7px;
-  text-align: left;
-  text-shadow:
-    0 0 10px rgba(255,255,255,.18),
-    0 0 16px rgba(0,220,255,.12);
-}
-
-#archivo-recuerda-titulo {
-  margin: 0 0 14px;
-  color: #f6c64f;
-  font-size: clamp(1rem, 2.2vw, 1.28rem);
-  font-weight: 700;
-  text-shadow: 0 0 10px rgba(246,198,79,.18);
-}
-
-#archivo-recuerda-texto {
-  margin: 0 0 14px;
-  color: #e9e0cf;
-  line-height: 1.55;
-  font-size: clamp(.9rem, 1.8vw, 1rem);
-}
-
-#archivo-recuerda-cierre {
-  margin: 0 0 18px;
-  color: #f4c96b;
-  font-style: italic;
-  line-height: 1.45;
-  font-size: clamp(.88rem, 1.7vw, .98rem);
-}
-
-#archivo-recuerda-mas {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  align-self: flex-start;
-  margin-top: 4px;
-  color: #fff5d2;
-  font-family: 'Orbitron', sans-serif;
-  font-size: .82rem;
-  letter-spacing: .7px;
-  padding: 11px 18px;
-  border: 1px solid rgba(244,201,107,.72);
-  border-radius: 999px;
-  background: linear-gradient(180deg, rgba(210,154,33,.92), rgba(145,94,8,.92));
-  box-shadow: 0 8px 20px rgba(0,0,0,.35), 0 0 18px rgba(244,201,107,.18);
-  cursor: pointer;
-  transition: .25s ease;
-}
-
-#archivo-recuerda-mas:hover {
-  color: #fff;
-  border-color: rgba(255,224,140,.95);
-  box-shadow: 0 10px 22px rgba(0,0,0,.38), 0 0 24px rgba(244,201,107,.30);
-  transform: translateY(-1px);
-}
-
-@keyframes archivoEntrada {
-  from { opacity: 0; transform: translateY(10px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-@media (max-width: 700px) {
-  #archivo-recuerda {
-    min-height: 500px;
-    background-position: center center;
-    background-size: 100% 100%;
-  }
-
-  .archivo-recuerda-contenido {
-    width: 78%;
-    margin: 0 auto;
-    padding: 76px 14px 28px;
-    grid-template-columns: 1fr;
-    gap: 16px;
-    text-align: center;
-  }
-
-  #archivo-recuerda-imagen {
-    max-width: 165px;
-  }
-
-  .archivo-recuerda-info {
-    align-items: center;
-    text-align: center;
-  }
-
-  #archivo-recuerda-artista,
-  #archivo-recuerda-titulo {
-    text-align: center;
-  }
-
-  #archivo-recuerda-mas {
-    align-self: center;
-  }
-}
-
-@media (max-width: 480px) {
-  #archivo-recuerda {
-    min-height: 520px;
-    border-radius: 20px;
-  }
-
-  .archivo-recuerda-contenido {
-    width: 82%;
-    padding: 92px 10px 26px;
-  }
-
-  #archivo-recuerda-imagen {
-    max-width: 150px;
-  }
-}
-
-/* === CORRECCIÓN RESPONSIVE PLAYER EN CELULAR ===
-   Mantiene visible TODO el video/marco original.
-   El iframe flota dentro del panel sin agrandar ni recortar el fondo. */
-@media (max-width: 480px) {
-
-  #player-section .radio-card {
-    width: 100%;
-    max-width: 100% !important;
-    aspect-ratio: 744 / 392 !important;
-    min-height: 0 !important;
-    overflow: hidden;
-  }
-
-  #player-section .radio-card-bg {
-    width: 100%;
-    height: 100%;
-    object-fit: contain !important;
-    object-position: center;
-  }
-
-  .radio-card-content {
-    width: 72%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 5% 1% 3%;
-    grid-template-columns: 27% 1fr;
-    grid-template-rows: auto auto auto 1fr;
-    column-gap: 4%;
-    position: relative;
-  }
-
-  #player-section .radio-card .radio-main-logo {
-    max-width: 62px;
-  }
-
-  #player-section .radio-card h3 {
-    font-size: clamp(.72rem, 3.7vw, .96rem);
-    margin-top: -4px;
-  }
-
-  #player-section .radio-card .subtitle:not(.radio-tagline) {
-    font-size: clamp(.40rem, 2vw, .56rem);
-    line-height: 1.15;
-    margin-top: 3px;
-  }
-
-  #player-section .live-indicator {
-    font-size: .52rem;
-    padding: 2px 7px;
-    margin-top: 4px;
-  }
-
-  #player-section .live-dot {
-    width: 6px;
-    height: 6px;
-  }
-
-  #player-section .player-iframe {
-    position: absolute;
-    left: 50%;
-    bottom: 16px;
-    transform: translateX(-50%) !important;
-    width: 92%;
-    height: 58px;
-    margin: 0;
-    border: 0;
-    display: block;
-    z-index: 5;
-  }
-
-  #player-section .radio-tagline {
-    display: none !important;
-  }
-}
-
-
-/* === CORRECCIÓN RESPONSIVE INFORMACIÓN EN VIVO EN CELULAR ===
-   Mantiene TODO dentro del marco original y recupera el scroll interno. */
-@media (max-width: 480px) {
-
-  /* El panel conserva la misma proporción del video de fondo. */
-  .metadata-widget {
-    width: 100%;
-    max-width: 100% !important;
-    aspect-ratio: 3 / 2 !important;
-    min-height: 0 !important;
-    position: relative;
-    overflow: hidden !important;
-    background: #030714 !important;
-  }
-
-  /* El video se ve completo, sin recortes. */
-  .metadata-video-bg {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain !important;
-    object-position: center;
-  }
-
-  /* La información vuelve a quedar encerrada en la ventana central
-     dibujada por el propio video. */
-  .metadata-content {
-    position: absolute !important;
-    left: 25.5% !important;
-    right: 24.5% !important;
-    top: 4.5% !important;
-    bottom: 5.5% !important;
-
-    width: auto !important;
-    min-height: 0 !important;
-    margin: 0 !important;
-    padding: 4px 5px 6px !important;
-
-    display: flex;
-    flex-direction: column;
-    overflow: hidden !important;
-  }
-
-  .metadata-content h3 {
-    flex: 0 0 auto;
-    font-size: clamp(.64rem, 2.9vw, .82rem) !important;
-    line-height: 1.15;
-    margin: 0 0 3px !important;
-  }
-
-  .metadata-cover {
-    flex: 0 0 auto;
-    margin: 0 0 4px !important;
-  }
-
-  .metadata-widget #album-art {
-    width: clamp(46px, 13vw, 62px) !important;
-    height: clamp(46px, 13vw, 62px) !important;
-  }
-
-  /* ÉSTE es el marco móvil: la información se desplaza aquí
-     sin salir nunca del marco gráfico. */
-  .metadata-widget #meta-content {
-    flex: 1 1 auto;
-    min-height: 0 !important;
-    max-height: 100%;
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior: contain;
-    padding: 0 5px 3px 2px !important;
-    scrollbar-width: thin;
-    scrollbar-color: rgba(66,232,255,.72) rgba(4,9,20,.28);
-  }
-
-  .metadata-widget #meta-content::-webkit-scrollbar {
-    width: 5px;
-  }
-
-  .metadata-widget #meta-content::-webkit-scrollbar-track {
-    background: rgba(4,9,20,.28);
-    border-radius: 10px;
-  }
-
-  .metadata-widget #meta-content::-webkit-scrollbar-thumb {
-    background: rgba(66,232,255,.72);
-    border-radius: 10px;
-    box-shadow: 0 0 6px rgba(66,232,255,.25);
-  }
-
-  .metadata-widget .meta-row {
-    gap: 4px !important;
-    padding: 2px 0 !important;
-    font-size: clamp(.44rem, 1.95vw, .58rem) !important;
-    line-height: 1.2;
-  }
-
-  .metadata-widget .meta-label {
-    flex: 0 0 33% !important;
-    max-width: 33% !important;
-    white-space: normal !important;
-  }
-
-  .metadata-widget .meta-value {
-    flex: 1 1 auto;
-    max-width: none !important;
-    text-align: right;
-    overflow-wrap: anywhere;
-  }
-
-  .metadata-widget .history-list {
-    max-height: none !important;
-    margin: 3px 0 0 !important;
-  }
-
-  .metadata-widget .history-list li {
-    font-size: clamp(.41rem, 1.82vw, .54rem) !important;
-    line-height: 1.2;
-    padding: 2px 0 !important;
-  }
-}
-    /* === ACCESIBILIDAD: enlace "saltar al contenido" (visible solo con teclado) === */
+
+    /* ===== MEJORAS RECUPERADAS DESDE indexA.html ===== */
+    /* ==========================================================
+       FLASHBACK ORO — PRÓXIMO ESPECIAL
+       ========================================================== */
+    #proximo-especial,
+    #especial-actual {
+      display: none;
+      max-width: 960px;
+      margin: 35px auto;
+      padding: 22px;
+      border: 1px solid rgba(255, 204, 0, 0.65);
+      border-radius: 22px;
+      background:
+        radial-gradient(circle at top, rgba(255, 204, 0, 0.10), transparent 55%),
+        linear-gradient(145deg, rgba(10, 10, 18, 0.96), rgba(23, 18, 12, 0.96));
+      box-shadow:
+        0 0 20px rgba(255, 204, 0, 0.18),
+        0 0 45px rgba(0, 0, 0, 0.55);
+      overflow: hidden;
+    }
+
+    #proximo-especial.visible,
+    #especial-actual.visible {
+      display: block;
+      animation: especialEntrada 0.9s ease both;
+    }
+
+    #proximo-especial.desvaneciendo,
+    #especial-actual.desvaneciendo {
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 1.4s ease, transform 1.4s ease;
+    }
+
+    .especial-etiqueta {
+      text-align: center;
+      font-family: 'Orbitron', sans-serif;
+      color: #ffd700;
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+      margin-bottom: 18px;
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.55);
+    }
+
+    .especial-contenido {
+      display: grid;
+      grid-template-columns: minmax(280px, 1.25fr) minmax(220px, 0.75fr);
+      gap: 28px;
+      align-items: center;
+    }
+
+    .especial-imagen {
+      width: 100%;
+      display: block;
+      border-radius: 16px;
+      border: 1px solid rgba(255, 215, 0, 0.65);
+      box-shadow:
+        0 0 18px rgba(255, 204, 0, 0.25),
+        0 12px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .especial-info { text-align: center; }
+
+    .especial-info h2 {
+      margin: 0 0 12px;
+      font-family: 'Orbitron', sans-serif;
+      color: #ffd700;
+      font-size: clamp(1.5rem, 3vw, 2.25rem);
+      text-shadow: 0 0 12px rgba(255, 215, 0, 0.45);
+    }
+
+    .especial-info p {
+      margin: 0 auto 18px;
+      max-width: 430px;
+      color: #f4e7c5;
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    .especial-horario {
+      display: inline-block;
+      padding: 10px 18px;
+      border: 1px solid rgba(0, 243, 255, 0.65);
+      border-radius: 999px;
+      color: #00f3ff;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.95rem;
+      text-shadow: 0 0 8px rgba(0, 243, 255, 0.65);
+      box-shadow: 0 0 14px rgba(0, 243, 255, 0.15);
+    }
+
+    .especial-mas {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 14px;
+      padding: 10px 22px;
+      border: 1px solid rgba(0, 243, 255, 0.65);
+      border-radius: 999px;
+      color: #00f3ff;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 0.9rem;
+      text-decoration: none;
+      text-shadow: 0 0 8px rgba(0, 243, 255, 0.65);
+      box-shadow: 0 0 14px rgba(0, 243, 255, 0.15);
+      transition: all 0.2s ease;
+    }
+    .especial-mas:hover {
+      background: rgba(0, 243, 255, 0.15);
+      box-shadow: 0 0 20px rgba(0, 243, 255, 0.35);
+      transform: translateY(-1px);
+    }
+
+    @keyframes especialEntrada {
+      from { opacity: 0; transform: translateY(18px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 720px) {
+      #proximo-especial, #especial-actual { margin: 25px 12px; padding: 15px; }
+      .especial-contenido { grid-template-columns: 1fr; gap: 18px; }
+      .especial-info p { font-size: 1rem; }
+    }
+
+    /* ==========================================================
+       FLASHBACK RADIO — REDISEÑO VISUAL GENERAL
+       ========================================================== */
+    :root {
+      --fb-bg: #050812;
+      --fb-bg-2: #091322;
+      --fb-panel: rgba(7, 13, 27, 0.88);
+      --fb-panel-soft: rgba(12, 20, 38, 0.76);
+      --fb-cyan: #42e8ff;
+      --fb-cyan-soft: rgba(66, 232, 255, .18);
+      --fb-violet: #9b6cff;
+      --fb-magenta: #e56cff;
+      --fb-gold: #f4c96b;
+      --fb-gold-strong: #ffd76a;
+      --fb-text: #f5f7ff;
+      --fb-muted: #aab5ca;
+      --fb-line: rgba(126, 217, 255, .22);
+      --fb-shadow: 0 24px 70px rgba(0,0,0,.46);
+      --fb-radius: 22px;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      background: #0f1c28;
+      color: var(--fb-text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    body::before { display: none; }
+
+    .main-nav {
+      background: rgba(4, 7, 17, .84);
+      border-bottom: 1px solid rgba(66,232,255,.34);
+      box-shadow: 0 10px 35px rgba(0,0,0,.42), 0 1px 18px rgba(66,232,255,.10);
+      backdrop-filter: blur(16px) saturate(135%);
+      -webkit-backdrop-filter: blur(16px) saturate(135%);
+    }
+    .nav-container { max-width: 1080px; }
+    .nav-logo {
+      color: var(--fb-gold-strong);
+      letter-spacing: .4px;
+      text-shadow: 0 0 16px rgba(244,201,107,.30);
+    }
+    .nav-menu { gap: 7px; }
+    .nav-menu a {
+      color: #c8f8ff;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      padding: 7px 12px;
+      text-shadow: none;
+    }
+    .nav-menu a:hover {
+      background: rgba(66,232,255,.08);
+      border-color: rgba(66,232,255,.28);
+      color: #fff;
+      box-shadow: 0 0 18px rgba(66,232,255,.12);
+    }
+
+    .vinyl-background { opacity: 1; background: transparent; }
+    .vinyl-background::after { display: none; }
+    .vinyl-background video {
+      width: 100%; height: 100%; object-fit: cover;
+      filter: brightness(1.8) contrast(1.0); opacity: 1;
+    }
+    #header-intro {
+      max-width: 900px; margin-top: 14px;
+      border: 1px solid rgba(244,201,107,.48);
+      border-radius: 24px; background: #000;
+      box-shadow: 0 24px 70px rgba(0,0,0,.48), 0 0 42px rgba(244,201,107,.22);
+    }
+    #intro-video { border-radius: inherit; }
+
+    /* ==========================================================
+       CONTENEDOR CENTRAL — MARCO FLASHBACK
+       ========================================================== */
+    main {
+      width: calc(100% - 18px);
+      max-width: 1120px;
+      margin: 26px auto 48px;
+      padding: 68px 78px 185px;
+      position: relative; z-index: 10; isolation: isolate;
+      background: transparent; border: none;
+      border-radius: 34px; backdrop-filter: none;
+      -webkit-backdrop-filter: none; box-shadow: none;
+    }
+
+    main::after {
+      content: ""; position: absolute; z-index: -2;
+      top: 0; bottom: 0; left: 50%; transform: translateX(-50%);
+      width: min(900px, 100%); border-radius: 34px;
+      background: rgba(4, 9, 20, 0.34);
+      box-shadow: 0 22px 68px rgba(0,0,0,.38), 0 0 34px rgba(244,201,107,.10);
+      pointer-events: none;
+    }
+
+    main::before {
+      content: ""; position: absolute; z-index: -1;
+      top: -62px; right: -40px; bottom: -70px; left: -40px;
+      /* background-image: url("img/marco-main-flashback.png"); */
+      background-repeat: no-repeat; background-position: center top;
+      background-size: 100% 100%; opacity: .86; pointer-events: none;
+      border-radius: 38px;
+      filter: drop-shadow(0 10px 18px rgba(0,0,0,.32)) drop-shadow(0 0 14px rgba(244,201,107,.10));
+    }
+
+    @media (max-width: 900px) {
+      main { width: calc(100% - 10px); padding: 58px 44px 155px; }
+      main::before { top: -46px; right: -14px; bottom: -22px; left: -14px; }
+    }
+
+    @media (max-width: 600px) {
+      main::after { width: 100%; border-radius: 22px; }
+      main {
+        width: calc(100% - 4px); margin: 18px auto 34px;
+        padding: 48px 20px 135px; border-radius: 22px;
+        background: rgba(4, 9, 20, 0.38);
+      }
+      main::before {
+        top: -34px; right: -10px; bottom: -18px; left: -10px;
+        background-size: 108% 100%; opacity: .90; border-radius: 24px;
+      }
+      #contacto-section { width: 100%; padding: 18px 14px; margin-top: 32px; }
+    }
+
+    @media (max-width: 400px) {
+      main::after { border-radius: 18px; }
+      main { width: 100%; padding: 42px 14px 125px; border-radius: 18px; }
+      main::before {
+        top: -28px; right: -8px; bottom: -16px; left: -8px;
+        background-size: 112% 100%;
+      }
+      #contacto-section { font-size: .86rem; }
+    }
+
+    h2, h3 { letter-spacing: .5px; }
+    h2 { color: #dffaff; text-shadow: 0 0 20px rgba(66,232,255,.24); }
+    h3 { color: var(--fb-gold); text-shadow: 0 0 16px rgba(244,201,107,.20); }
+    .quote {
+      max-width: 680px; margin: 8px auto 24px; color: #f4dfa8;
+      font-size: clamp(1.05rem, 2.3vw, 1.28rem);
+      text-shadow: 0 2px 7px rgba(0,0,0,.92), 0 0 18px rgba(244,201,107,.28);
+    }
+    .retro-gifs { opacity: 1; }
+    .retro-gifs img {
+      filter: drop-shadow(0 6px 10px rgba(0,0,0,.65)) drop-shadow(0 0 8px rgba(66,232,255,.15));
+    }
+
+    .radio-card, .metadata-widget, .schedule-iframe-wrapper, .sobre-radio,
+    .cafecito-box, #playlist-banner, #proximo-especial, #especial-actual,
+    #hero > div[style*="background:rgba(10,8,26,0.95)"] {
+      border-radius: var(--fb-radius) !important;
+      background: radial-gradient(circle at 20% 0%, rgba(89,101,214,.10), transparent 35%),
+                  linear-gradient(145deg, rgba(8,14,29,.94), rgba(11,18,34,.86)) !important;
+      border: 1px solid rgba(100,215,255,.52) !important;
+      box-shadow: 0 20px 48px rgba(0,0,0,.38), 0 0 28px rgba(66,232,255,.28),
+                  0 0 52px rgba(155,108,255,.14), inset 0 0 22px rgba(66,232,255,.055) !important;
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+    }
+
+    /* ==========================================================
+       PLAYER PRINCIPAL — PANEL ARTÍSTICO ANIMADO
+       ========================================================== */
+    .player-section { margin-top: 34px; }
+    #player-section .radio-card {
+      width: 100%; max-width: 800px; aspect-ratio: 744 / 392;
+      margin: 0 auto; padding: 0; position: relative; overflow: hidden;
+      isolation: isolate; border-radius: 26px !important; border: 0 !important;
+      background: #000 !important;
+      box-shadow: 0 24px 58px rgba(0,0,0,.55), 0 0 26px rgba(0,238,255,.30),
+                  0 0 52px rgba(186,56,255,.20) !important;
+      backdrop-filter: none; -webkit-backdrop-filter: none;
+    }
+    #player-section .radio-card::before { content: none !important; }
+    .radio-card-bg {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: contain; object-position: center; z-index: 0;
+      pointer-events: none; border-radius: inherit; background: #000;
+    }
+    .radio-card-center-shade { display: none; }
+    .radio-card-content {
+      position: relative; z-index: 2; width: 62%; height: 100%;
+      margin: 0 auto; padding: 8.2% 1.5% 5.2%; display: grid;
+      grid-template-columns: 30% 1fr; grid-template-rows: auto auto auto 1fr auto;
+      column-gap: 5%; align-items: center; text-align: left;
+    }
+    #player-section .radio-card .radio-main-logo {
+      grid-column: 1; grid-row: 1 / span 3; align-self: start; justify-self: center;
+    }
+    #player-section .radio-card h3 {
+      grid-column: 2; grid-row: 1; margin: -14px 0 0; color: #eafcff;
+      font-size: clamp(1.25rem, 3vw, 2rem); line-height: 1.08;
+      letter-spacing: .7px; text-align: left;
+      text-shadow: 0 0 10px rgba(80,224,255,.45), 0 0 24px rgba(90,115,255,.22);
+    }
+    #player-section .radio-card .subtitle:not(.radio-tagline) {
+      grid-column: 2; grid-row: 2; width: 100%; margin: 14px 0 0;
+      color: #d8e5ef; font-size: clamp(.70rem, 1.42vw, .91rem);
+      line-height: 1.38; text-align: left;
+      text-shadow: 0 2px 6px rgba(0,0,0,.90);
+    }
+    #player-section .live-indicator {
+      grid-column: 2; grid-row: 3; justify-self: start; margin: 16px 0 0;
+      padding: 6px 16px; background: rgba(90,0,12,.42);
+      border: 1px solid rgba(255,61,83,.88); color: #ff7e8c;
+      box-shadow: 0 0 12px rgba(255,42,66,.35), inset 0 0 12px rgba(255,42,66,.10);
+    }
+    #player-section .player-iframe {
+      grid-column: 1 / -1; grid-row: 4; align-self: end; justify-self: center;
+      width: min(84%, 430px); height: 82px; margin: 8px auto 5px;
+      border: 0; border-radius: 0; background: transparent; box-shadow: none;
+    }
+    #player-section .radio-tagline {
+      grid-column: 1 / -1 !important; grid-row: 5 !important;
+      justify-self: center; align-self: end; text-align: center !important;
+      margin: 0 !important; color: #e7eef5 !important;
+      font-size: clamp(.70rem, 1.42vw, .90rem) !important;
+      line-height: 1.2; white-space: nowrap;
+      text-shadow: 0 2px 6px rgba(0,0,0,.95), 0 0 10px rgba(141,85,255,.22);
+      transform: translateY(-25px);
+    }
+
+    /* ==========================================================
+       INFORMACIÓN EN VIVO — SEGUNDO PANEL
+       ========================================================== */
+    .metadata-widget {
+      width:100%; max-width:800px !important; aspect-ratio:3 / 2;
+      min-height:0 !important; position:relative; isolation:isolate;
+      overflow:hidden; padding:0 !important; border-radius:26px !important;
+      border:0 !important; background:#030714 !important;
+      box-shadow:0 24px 58px rgba(0,0,0,.55),0 0 26px rgba(0,238,255,.28),
+                 0 0 48px rgba(186,56,255,.18) !important;
+    }
+    .metadata-widget::before { content:none !important; }
+    .metadata-video-bg {
+      position:absolute; inset:0; width:100%; height:100%;
+      object-fit:contain; object-position:center; z-index:0;
+      pointer-events:none; border-radius:inherit; display:block;
+    }
+    .metadata-content {
+      position:absolute; z-index:2; left:27%; right:26%; top:5.5%; bottom:6.5%;
+      display:flex; flex-direction:column; min-width:0;
+      padding:8px 10px 10px; border-radius:20px;
+      background:linear-gradient(180deg,rgba(2,6,18,.32),rgba(2,6,18,.20) 62%,rgba(2,6,18,.30));
+      box-shadow:inset 0 0 38px rgba(0,0,0,.18);
+    }
+    .metadata-content h3 {
+      position:relative; z-index:2; margin:0 0 8px !important;
+      font-size:clamp(.95rem,2vw,1.28rem) !important;
+    }
+    .metadata-cover { text-align:center; margin:0 0 8px; flex:0 0 auto; }
+    .metadata-widget #album-art {
+      position:relative; z-index:2;
+      width:clamp(82px,12vw,120px) !important;
+      height:clamp(82px,12vw,120px) !important;
+    }
+    .metadata-widget #meta-content {
+      position:relative; z-index:2; min-height:0; flex:1 1 auto;
+      overflow:auto; padding:0 4px 2px; scrollbar-width:thin;
+    }
+    .metadata-widget .meta-row {
+      gap:12px; align-items:flex-start; padding:6px 0;
+      font-size:clamp(.68rem,1.25vw,.88rem);
+    }
+    .metadata-widget .meta-label { flex:0 0 32%; max-width:32%; white-space:nowrap; }
+    .metadata-widget .meta-value { flex:1 1 auto; max-width:none; text-align:right; overflow-wrap:anywhere; }
+    .metadata-widget .history-list { max-height:none; margin:5px 0 0; }
+    .metadata-widget .history-list li {
+      font-size:clamp(.62rem,1.12vw,.80rem); line-height:1.25; padding:4px 0;
+    }
+
+    @media (max-width:400px) {
+      #player-section .radio-card, .metadata-widget { width:100%; max-width:100% !important; }
+      #player-section .radio-card { aspect-ratio: 744 / 392; }
+      .metadata-widget { aspect-ratio:3 / 2; }
+      .radio-card-content { width: 68%; padding: 7.2% 1% 4.5%; grid-template-columns: 30% 1fr; column-gap: 4%; }
+      #player-section .radio-card .radio-main-logo { max-width: 72px; border-radius: 0; }
+      #player-section .radio-card h3 { font-size: clamp(.78rem, 4vw, 1.02rem); }
+      #player-section .radio-card .subtitle { font-size: clamp(.47rem, 2.3vw, .63rem); line-height: 1.25; margin-bottom: 1%; }
+      #player-section .live-indicator { font-size: .60rem; padding: 3px 8px; gap: 5px; margin-bottom: 0; }
+      #player-section .live-dot { width:7px; height:7px; }
+      #player-section .player-iframe { width: 90%; height: 58px; margin: 3px auto 2px; transform: none; }
+      #player-section .radio-tagline { font-size: clamp(.43rem, 2.05vw, .58rem) !important; }
+      .metadata-content { left:25.5%; right:24.5%; top:4.5%; bottom:5.5%; padding:4px 5px 6px; }
+      .metadata-content h3 { font-size:clamp(.67rem,3vw,.88rem) !important; margin-bottom:4px !important; }
+      .metadata-widget #album-art { width:clamp(54px,14.5vw,76px) !important; height:clamp(54px,14.5vw,76px) !important; }
+      .metadata-widget .meta-row { gap:6px; padding:3px 0; font-size:clamp(.47rem,2.25vw,.64rem); }
+      .metadata-widget .meta-label { flex-basis:31%; max-width:31%; }
+      .metadata-widget .history-list li { font-size:clamp(.43rem,2vw,.58rem); padding:2px 0; }
+    }
+
+    #playlist-banner {
+      max-width: 610px; padding: 18px 24px;
+      border-color: rgba(66,232,255,.64) !important;
+      animation: fbBreath 5s ease-in-out infinite !important; overflow: hidden;
+    }
+    #playlist-banner::before {
+      opacity: .35;
+      background: linear-gradient(90deg, transparent, rgba(66,232,255,.5), rgba(155,108,255,.45), transparent);
+      animation: fbSweep 8s linear infinite;
+    }
+    #playlist-banner .icon { animation: none; filter: drop-shadow(0 0 12px rgba(66,232,255,.28)); }
+    #playlist-banner .label { text-shadow: none; }
+    #playlist-banner .label div:first-child { color: #dffaff; letter-spacing: 1.4px; }
+    #playlist-banner .label div:last-child { color: #e9cf93; margin-top: 5px; line-height: 1.5; }
+
+    #hero > div[style*="background:rgba(10,8,26,0.95)"] {
+      max-width: 610px !important; padding: 22px !important; margin: 24px auto !important; position: relative; overflow: hidden;
+    }
+    #hero > div[style*="background:rgba(10,8,26,0.95)"] > h3 {
+      color: var(--fb-gold-strong) !important; font-size: 1.15rem !important;
+      letter-spacing: 1.2px; text-shadow: 0 0 14px rgba(244,201,107,.20) !important;
+    }
+    #efemeride-banner {
+      background: linear-gradient(135deg, rgba(26,21,55,.72), rgba(8,28,45,.74)) !important;
+      border: 1px solid rgba(155,108,255,.36) !important; color: #f2dfae !important;
+      padding: 17px 20px !important; line-height: 1.65;
+      box-shadow: inset 0 0 24px rgba(155,108,255,.06), 0 12px 30px rgba(0,0,0,.22) !important;
+      animation: none !important;
+    }
+    #efemeride-placeholder { color: #7f8ba1 !important; }
+
+    #weather-time-widget { gap: 12px !important; margin: 24px auto !important; max-width: 610px !important; }
+    .neon-gadget {
+      flex: 1 1 190px; background: rgba(7,14,28,.82) !important;
+      border: 1px solid rgba(66,232,255,.20) !important; border-radius: 18px !important;
+      padding: 16px 20px !important; box-shadow: 0 14px 34px rgba(0,0,0,.25) !important;
+    }
+    #clock-time { color: #dffaff !important; text-shadow: 0 0 14px rgba(66,232,255,.22) !important; }
+    #weather-temp { color: var(--fb-gold-strong) !important; text-shadow: 0 0 14px rgba(244,201,107,.20) !important; }
+
+    .sobre-radio { max-width: 690px; margin: 28px auto; padding: 25px 28px; border-color: rgba(244,201,107,.20) !important; }
+    .sobre-radio p { color: #e8d6a8; } .sobre-radio .firma { color: #9ca9bd; }
+
+    .metadata-widget { max-width: 800px; padding: 0; font-family: 'Special Elite', cursive; }
+    .metadata-widget h3 { color: var(--fb-gold-strong); text-shadow: 0 0 14px rgba(244,201,107,.18); }
+    #album-art {
+      width: 150px !important; height: 150px !important;
+      border: 1px solid rgba(66,232,255,.32) !important; border-radius: 18px !important;
+      box-shadow: 0 16px 38px rgba(0,0,0,.38), 0 0 24px rgba(66,232,255,.10) !important;
+    }
+    .meta-row { gap: 18px; padding: 11px 0; border-bottom-color: rgba(126,217,255,.13); }
+    .meta-label { color: var(--fb-gold); } .meta-value { color: #eef5ff; }
+    .history-list li { color: #c9d6e9; border-bottom-color: rgba(244,201,107,.12); padding: 7px 0; }
+
+    #proximo-especial, #especial-actual {
+      max-width: 760px; border-color: rgba(244,201,107,.68) !important;
+      background: radial-gradient(circle at top, rgba(255,204,0,.09), transparent 50%),
+                  linear-gradient(145deg, rgba(8,8,13,.97), rgba(24,18,10,.94)) !important;
+      box-shadow: 0 22px 55px rgba(0,0,0,.48), 0 0 30px rgba(244,201,107,.34),
+                  0 0 58px rgba(244,201,107,.16), inset 0 0 20px rgba(244,201,107,.045) !important;
+    }
+    .especial-etiqueta { color: var(--fb-gold-strong); }
+    .especial-imagen { border-color: rgba(244,201,107,.42); }
+    .especial-info h2 { color: var(--fb-gold-strong); }
+    .especial-info p { color: #eadfca; }
+
+    .schedule-iframe-wrapper { max-width: 610px; padding: 20px; }
+    .schedule-iframe-wrapper iframe { border: 1px solid rgba(66,232,255,.12); }
+    .btn-cartelera {
+      border: 1px solid rgba(66,232,255,.25); background: rgba(66,232,255,.055);
+      border-radius: 999px; color: #c9f8ff;
+    }
+    .btn-cartelera:hover { background: rgba(66,232,255,.11); box-shadow: 0 0 18px rgba(66,232,255,.10); }
+
+    .cafecito-box {
+      max-width: 760px; border-color: rgba(244,201,107,.50) !important;
+      box-shadow: 0 20px 48px rgba(0,0,0,.38), 0 0 28px rgba(244,201,107,.24),
+                  0 0 50px rgba(66,232,255,.12) !important; animation: none;
+    }
+    .radio-logo { box-shadow: 0 16px 38px rgba(0,0,0,.34), 0 0 20px rgba(244,201,107,.12); }
+    .cafecito-pregunta { color: var(--fb-gold-strong); text-shadow: 0 0 14px rgba(244,201,107,.18); }
+    .cafecito-gif-container { background: rgba(0,0,0,.28); border: 1px solid rgba(244,201,107,.24); box-shadow: none; }
+    .btn-cafecito-neon {
+      color: #dffaff; border: 1px solid rgba(66,232,255,.28);
+      background: linear-gradient(135deg, rgba(66,232,255,.06), rgba(244,201,107,.055));
+      box-shadow: 0 10px 25px rgba(0,0,0,.20);
+    }
+    .btn-cafecito-neon:hover {
+      color: #fff; border-color: rgba(244,201,107,.45);
+      background: linear-gradient(135deg, rgba(66,232,255,.12), rgba(244,201,107,.10));
+      box-shadow: 0 14px 32px rgba(0,0,0,.28), 0 0 18px rgba(244,201,107,.08);
+    }
+
+    #contacto-section {
+      margin: 38px auto 0; padding: 22px 28px; max-width: 680px;
+      background: linear-gradient(180deg, rgba(3, 8, 18, 0.88), rgba(5, 12, 24, 0.78));
+      border: 1px solid rgba(244,201,107,.34); border-radius: 18px;
+      box-shadow: 0 14px 34px rgba(0,0,0,.38), 0 0 20px rgba(244,201,107,.10);
+      backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    }
+    #contacto-section a {
+      color: #ffd76a !important; font-weight: 600;
+      text-shadow: 0 0 9px rgba(255,215,106,.36), 0 2px 5px rgba(0,0,0,.95);
+    }
+    footer {
+      position: relative; z-index: 2; color: #8795ad; font-weight: 400;
+      line-height: 1.75; text-shadow: none;
+      border-top: 1px solid rgba(126,217,255,.12);
+      background: rgba(3,6,13,.58);
+    }
+
+    @keyframes fbBreath {
+      0%,100% { box-shadow: 0 20px 48px rgba(0,0,0,.35), 0 0 20px rgba(66,232,255,.06); }
+      50% { box-shadow: 0 20px 48px rgba(0,0,0,.35), 0 0 28px rgba(155,108,255,.10); }
+    }
+    @keyframes fbSweep { from { transform: translateX(-80%); } to { transform: translateX(80%); } }
+
+    /* ==========================================================
+       EL ARCHIVO RECUERDA — MARCO VISUAL
+       ========================================================== */
+    #archivo-recuerda {
+      display: none; width: 100%; max-width: 800px; margin: 30px auto;
+      position: relative; min-height: 320px; border-radius: 26px; overflow: visible;
+      background: rgba(3,6,12,.24); border: 2px solid rgba(255,190,70,.78);
+      box-shadow: 0 24px 58px rgba(0,0,0,.52), 0 0 10px rgba(255,177,58,.55),
+                  0 0 24px rgba(255,177,58,.34), 0 0 38px rgba(0,220,255,.22),
+                  inset 0 0 16px rgba(255,177,58,.08);
+      animation: archivoLedGlow 4.2s ease-in-out infinite alternate;
+    }
+    #archivo-recuerda.visible {
+      display: block; animation: archivoEntrada .7s ease both, archivoLedGlow 4.2s ease-in-out .7s infinite alternate;
+    }
+    #archivo-recuerda::before {
+      content: ""; position: absolute; z-index: 0;
+      top: -20px; right: -20px; bottom: -20px; left: -20px;
+      background: linear-gradient(rgba(3,6,12,.08), rgba(3,6,12,.08)),
+                  url("img/archivo_recuerda_box.png") center center / 100% 100% no-repeat;
+      border-radius: 30px; pointer-events: none;
+    }
+    #archivo-recuerda::after {
+      content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 2px;
+      pointer-events: none;
+      background: linear-gradient(115deg, rgba(255,184,55,.95), rgba(255,184,55,.65) 24%,
+                  rgba(178,62,255,.72) 52%, rgba(0,221,255,.92) 78%, rgba(255,184,55,.90));
+      -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+      -webkit-mask-composite: xor; mask-composite: exclude;
+      opacity: .82; filter: drop-shadow(0 0 8px rgba(0,220,255,.22));
+    }
+    @keyframes archivoLedGlow {
+      0% {
+        border-color: rgba(255,184,55,.80);
+        box-shadow: 0 24px 58px rgba(0,0,0,.52), 0 0 10px rgba(255,177,58,.48),
+                    0 0 24px rgba(255,177,58,.28), 0 0 30px rgba(178,62,255,.14),
+                    inset 0 0 16px rgba(255,177,58,.07);
+      }
+      100% {
+        border-color: rgba(0,220,255,.82);
+        box-shadow: 0 24px 58px rgba(0,0,0,.52), 0 0 12px rgba(0,220,255,.52),
+                    0 0 28px rgba(0,220,255,.28), 0 0 36px rgba(178,62,255,.22),
+                    inset 0 0 18px rgba(0,220,255,.06);
+      }
+    }
+    .archivo-recuerda-contenido {
+      position: relative; z-index: 2; width: 82%; margin: 0 auto;
+      padding: 72px 18px 30px; display: grid; grid-template-columns: 190px 1fr;
+      gap: 28px; align-items: start; text-align: left; font-family: 'Special Elite', cursive;
+    }
+    .archivo-recuerda-portada {
+      display: flex; align-items: flex-start; justify-content: center;
+      padding-top: 6px; transform: translateX(20px);
+    }
+    #archivo-recuerda-imagen {
+      width: 100%; max-width: 190px; aspect-ratio: 1 / 1; object-fit: cover;
+      border-radius: 16px; border: 1px solid rgba(244,201,107,.52);
+      box-shadow: 0 10px 28px rgba(0,0,0,.45), 0 0 18px rgba(244,201,107,.18);
+      background: rgba(0,0,0,.35);
+    }
+    .archivo-recuerda-info {
+      min-width: 0; display: flex; flex-direction: column;
+      align-items: flex-start; padding-top: 2px;
+    }
+    #archivo-recuerda-artista {
+      margin: 0 0 4px; color: #f4f7ff; font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.15rem, 2.7vw, 1.65rem); letter-spacing: .7px;
+      text-align: left; text-shadow: 0 0 10px rgba(255,255,255,.18), 0 0 16px rgba(0,220,255,.12);
+    }
+    #archivo-recuerda-titulo {
+      margin: 0 0 14px; color: #f6c64f; font-size: clamp(1rem, 2.2vw, 1.28rem);
+      font-weight: 700; text-shadow: 0 0 10px rgba(246,198,79,.18);
+    }
+    #archivo-recuerda-texto {
+      margin: 0 0 14px; color: #e9e0cf; line-height: 1.55;
+      font-size: clamp(.9rem, 1.8vw, 1rem);
+    }
+    #archivo-recuerda-cierre {
+      margin: 0 0 18px; color: #f4c96b; font-style: italic;
+      line-height: 1.45; font-size: clamp(.88rem, 1.7vw, .98rem);
+    }
+    #archivo-recuerda-mas {
+      display: inline-flex; align-items: center; justify-content: center;
+      align-self: flex-start; margin-top: 4px; color: #fff5d2;
+      font-family: 'Orbitron', sans-serif; font-size: .82rem; letter-spacing: .7px;
+      padding: 11px 18px; border: 1px solid rgba(244,201,107,.72); border-radius: 999px;
+      background: linear-gradient(180deg, rgba(210,154,33,.92), rgba(145,94,8,.92));
+      box-shadow: 0 8px 20px rgba(0,0,0,.35), 0 0 18px rgba(244,201,107,.18);
+      cursor: pointer; transition: .25s ease;
+    }
+    #archivo-recuerda-mas:hover {
+      color: #fff; border-color: rgba(255,224,140,.95);
+      box-shadow: 0 10px 22px rgba(0,0,0,.38), 0 0 24px rgba(244,201,107,.30);
+      transform: translateY(-1px);
+    }
+    @keyframes archivoEntrada { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    @media (max-width: 700px) {
+      #archivo-recuerda { min-height: 500px; background-position: center center; background-size: 100% 100%; }
+      .archivo-recuerda-contenido { width: 78%; margin: 0 auto; padding: 76px 14px 28px; grid-template-columns: 1fr; gap: 16px; text-align: center; }
+      #archivo-recuerda-imagen { max-width: 165px; }
+      .archivo-recuerda-info { align-items: center; text-align: center; }
+      #archivo-recuerda-artista, #archivo-recuerda-titulo { text-align: center; }
+      #archivo-recuerda-mas { align-self: center; }
+    }
+    @media (max-width: 480px) {
+      #archivo-recuerda { min-height: 520px; border-radius: 20px; }
+      .archivo-recuerda-contenido { width: 82%; padding: 92px 10px 26px; }
+      #archivo-recuerda-imagen { max-width: 150px; }
+    }
+
+    @media (max-width: 480px) {
+      #player-section .radio-card { width: 100%; max-width: 100% !important; aspect-ratio: 744 / 392 !important; min-height: 0 !important; overflow: hidden; }
+      #player-section .radio-card-bg { width: 100%; height: 100%; object-fit: contain !important; object-position: center; }
+      .radio-card-content { width: 72%; height: 100%; margin: 0 auto; padding: 5% 1% 3%; grid-template-columns: 27% 1fr; grid-template-rows: auto auto auto 1fr; column-gap: 4%; position: relative; }
+      #player-section .radio-card .radio-main-logo { max-width: 62px; }
+      #player-section .radio-card h3 { font-size: clamp(.72rem, 3.7vw, .96rem); margin-top: -4px; }
+      #player-section .radio-card .subtitle:not(.radio-tagline) { font-size: clamp(.40rem, 2vw, .56rem); line-height: 1.15; margin-top: 3px; }
+      #player-section .live-indicator { font-size: .52rem; padding: 2px 7px; margin-top: 4px; }
+      #player-section .live-dot { width: 6px; height: 6px; }
+      #player-section .player-iframe { position: absolute; left: 50%; bottom: 16px; transform: translateX(-50%) !important; width: 92%; height: 58px; margin: 0; border: 0; display: block; z-index: 5; }
+      #player-section .radio-tagline { display: none !important; }
+    }
+
+    @media (max-width: 480px) {
+      .metadata-widget { width: 100%; max-width: 100% !important; aspect-ratio: 3 / 2 !important; min-height: 0 !important; position: relative; overflow: hidden !important; background: #030714 !important; }
+      .metadata-video-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain !important; object-position: center; }
+      .metadata-content { position: absolute !important; left: 25.5% !important; right: 24.5% !important; top: 4.5% !important; bottom: 5.5% !important; width: auto !important; min-height: 0 !important; margin: 0 !important; padding: 4px 5px 6px !important; display: flex; flex-direction: column; overflow: hidden !important; }
+      .metadata-content h3 { flex: 0 0 auto; font-size: clamp(.64rem, 2.9vw, .82rem) !important; line-height: 1.15; margin: 0 0 3px !important; }
+      .metadata-cover { flex: 0 0 auto; margin: 0 0 4px !important; }
+      .metadata-widget #album-art { width: clamp(46px, 13vw, 62px) !important; height: clamp(46px, 13vw, 62px) !important; }
+      .metadata-widget #meta-content { flex: 1 1 auto; min-height: 0 !important; max-height: 100%; overflow-y: auto !important; overflow-x: hidden !important; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; padding: 0 5px 3px 2px !important; scrollbar-width: thin; scrollbar-color: rgba(66,232,255,.72) rgba(4,9,20,.28); }
+      .metadata-widget #meta-content::-webkit-scrollbar { width: 5px; }
+      .metadata-widget #meta-content::-webkit-scrollbar-track { background: rgba(4,9,20,.28); border-radius: 10px; }
+      .metadata-widget #meta-content::-webkit-scrollbar-thumb { background: rgba(66,232,255,.72); border-radius: 10px; box-shadow: 0 0 6px rgba(66,232,255,.25); }
+      .metadata-widget .meta-row { gap: 4px !important; padding: 2px 0 !important; font-size: clamp(.44rem, 1.95vw, .58rem) !important; line-height: 1.2; }
+      .metadata-widget .meta-label { flex: 0 0 33% !important; max-width: 33% !important; white-space: normal !important; }
+      .metadata-widget .meta-value { flex: 1 1 auto; max-width: none !important; text-align: right; overflow-wrap: anywhere; }
+      .metadata-widget .history-list { max-height: none !important; margin: 3px 0 0 !important; }
+      .metadata-widget .history-list li { font-size: clamp(.41rem, 1.82vw, .54rem) !important; line-height: 1.2; padding: 2px 0 !important; }
+    }
+
     .skip-link {
       position: absolute; left: -9999px; top: 0;
       background: #00f3ff; color: #0a0a1a;
@@ -1936,15 +1155,16 @@ footer {
       z-index: 10000; text-decoration: none;
     }
     .skip-link:focus { left: 0; }
-</style>
-    <meta name="robots" content="index, follow">
+  </style>
+
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://flashbackradio2025.github.io/">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="FlashBack Radio – El Eco del Tiempo">
   <meta name="twitter:description" content="Radio online dedicada a los clásicos de los 60s, 70s, 80s y 90s. Música retro sin comerciales.">
   <meta name="twitter:image" content="https://flashbackradio2025.github.io/img/logo.png">
   
-    <script type="application/ld+json">
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "RadioStation",
@@ -1964,10 +1184,8 @@ footer {
 </head>
 
 <body>
-  <!-- === ACCESIBILIDAD: salto al contenido principal === -->
   <a class="skip-link" href="#player-section">Saltar al contenido principal</a>
 
-  <!-- === MENÚ FIJO === -->
   <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
     <div class="nav-container">
       <a href="#player-section" class="nav-logo">📻 FlashBack Radio</a>
@@ -2005,59 +1223,34 @@ footer {
         <video class="radio-card-bg" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
           <source src="video/fondo-player.mp4" type="video/mp4">
         </video>
-
         <div class="radio-card-center-shade" aria-hidden="true"></div>
-
         <div class="radio-card-content">
-          <img
-            class="radio-main-logo"
-            src="https://static.wixstatic.com/media/da6f98_5c139a923d8849978c3b8ce6ed99aeac~mv2.png"
-            alt="FlashBack Radio"
-          >
-
+          <img class="radio-main-logo" src="https://static.wixstatic.com/media/da6f98_5c139a923d8849978c3b8ce6ed99aeac~mv2.png" alt="FlashBack Radio">
           <h3>FlashBack Radio</h3>
-
-          <p class="subtitle">
-            El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s
-          </p>
-
+          <p class="subtitle">El Eco del Tiempo – Clásicos de los ´60s, ´70s, ´80s y ´90s</p>
           <div class="live-indicator">
             <span class="live-dot"></span>
             <span>EN VIVO</span>
           </div>
-
-          <iframe
-            class="player-iframe"
-            src="player.html"
-            title="Reproductor de FlashBack Radio"
-          ></iframe>
-
-          <p class="subtitle radio-tagline">
-            ✨ Música retro – Hecho a pulmón 💜
-          </p>
+          <iframe class="player-iframe" src="player.html" title="Reproductor de FlashBack Radio"></iframe>
+          <p class="subtitle radio-tagline">✨ Música retro – Hecho a pulmón 💜</p>
         </div>
       </div>
     </section>
 
-    <!-- === BANNER DE MOMENTO ACTUAL === -->
-      <div id="playlist-banner">
-        <span class="icon">🎵</span>
-        <span class="label">
-        <div>Cargando...</div>
-       </span>
-      </div>
-    <!-- === EFEMÉRIDE (TODO EN UN BOX) === -->
+    <div id="playlist-banner">
+      <span class="icon">🎵</span>
+      <span class="label"><div>Cargando...</div></span>
+    </div>
+
     <div style="background:rgba(10,8,26,0.95); border:2px solid #00f3ff; border-radius:16px; padding:20px; margin:20px auto; max-width:500px; box-shadow:0 0 30px rgba(0,243,255,0.4);">
       <h3 style="color:#00ffff; text-align:center; margin:0 0 15px; font-family:'Orbitron',sans-serif; font-size:1.3em; text-shadow:0 0 8px rgba(0,243,255,0.6);">📅 Efemérides</h3>
       <div id="efemeride-banner" style="display:none; background:linear-gradient(135deg,rgba(26,0,51,0.9),rgba(0,26,51,0.9)); border:2px solid #ff00ff; border-radius:12px; padding:12px 20px; text-align:center; font-family:'Special Elite',cursive; color:#ffcc66; box-shadow:0 0 15px rgba(255,0,255,0.5); animation:pulseBanner 3s infinite;">
         <span id="efemeride-text"></span>
       </div>
-      <div id="efemeride-placeholder" style="text-align:center; color:#888; font-family:'Special Elite',cursive; font-size:0.9em; padding:10px;">
-        Sin efeméride para hoy
-      </div>
+      <div id="efemeride-placeholder" style="text-align:center; color:#888; font-family:'Special Elite',cursive; font-size:0.9em; padding:10px;">Sin efeméride para hoy</div>
     </div>
 	
-    <!-- === HORA Y TEMPERATURA (GADGET) === -->
     <div id="weather-time-widget" style="display:flex; justify-content:center; gap:15px; margin:20px auto; max-width:500px; flex-wrap:wrap;">
       <div class="neon-gadget" style="background:rgba(10,8,26,0.9); border:2px solid #00f3ff; border-radius:12px; padding:12px 18px; text-align:center; box-shadow:0 0 15px rgba(0,243,255,0.4); min-width:140px;">
         <div style="font-family:'Orbitron',sans-serif; font-size:1.6em; color:#00ffff; text-shadow:0 0 10px rgba(0,243,255,0.8);" id="clock-time">--:--</div>
@@ -2068,6 +1261,7 @@ footer {
         <div style="font-family:'Special Elite',cursive; font-size:0.85em; color:#ffcc66; margin-top:4px;">Capilla del Monte</div>
       </div>
     </div>
+
     <section class="sobre-radio">
       <p>Esta radio nace de un vinilo, un recuerdo y las ganas de compartir.<br>Sin prisas. Solo aquella música que me vibra el alma.</p>
       <p class="firma">— Raúl, desde Capilla del Monte, Córdoba 💜 — </p>
@@ -2085,10 +1279,8 @@ footer {
       <video class="metadata-video-bg" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
         <source src="video/fondo-info-vivo.mp4" type="video/mp4">
       </video>
-
       <div class="metadata-content">
         <h3>📊 Información en Vivo</h3>
-        <!-- ✅ TAPA DEL DISCO -->
         <div class="metadata-cover">
           <img id="album-art" src="img/logo.png" alt="Tapa del disco" style="object-fit:cover; border-radius:12px; border:2px solid #00f3ff; box-shadow:0 0 20px rgba(0,243,255,0.5); transition:transform 0.3s;">
         </div>
@@ -2096,16 +1288,11 @@ footer {
       </div>
     </section>
 
-    <!-- ==========================================================
-         EL ARCHIVO RECUERDA
-         Se activa sólo cuando exista una ficha para la canción actual.
-         ========================================================== -->
     <section id="archivo-recuerda" aria-label="El Archivo Recuerda">
       <div class="archivo-recuerda-contenido">
         <div class="archivo-recuerda-portada">
           <img id="archivo-recuerda-imagen" src="img/logo.png" alt="Carátula de El Archivo Recuerda">
         </div>
-
         <div class="archivo-recuerda-info">
           <h3 id="archivo-recuerda-artista"></h3>
           <div id="archivo-recuerda-titulo"></div>
@@ -2116,107 +1303,59 @@ footer {
       </div>
     </section>
 
-<!-- ==========================================================
-     FLASHBACK ORO — PRÓXIMO ESPECIAL
-     Los datos se cargan desde proximo_especial.json
-     ========================================================== -->
+    <section id="proximo-especial" aria-label="Próximo especial de FlashBack Radio">
+      <div class="especial-etiqueta">✦ FLASHBACK ORO · ESPECIAL DE LA SEMANA ✦</div>
+      <div class="especial-contenido">
+        <div>
+          <img id="especial-imagen" class="especial-imagen" src="img/logo.png" alt="Próximo especial de FlashBack Radio">
+        </div>
+        <div class="especial-info">
+          <h2 id="especial-titulo"></h2>
+          <p id="especial-descripcion"></p>
+          <div id="especial-horario" class="especial-horario"></div>
+          <a id="especial-mas-proximo" class="especial-mas" href="explorar.html" style="display:none;">→ CONOCÉ MÁS</a>
+        </div>
+      </div>
+    </section>
 
-<section id="proximo-especial" aria-label="Próximo especial de FlashBack Radio">
+    <section id="especial-actual" aria-label="Especial actual de FlashBack Radio">
+      <div class="especial-etiqueta">🔴 FLASHBACK ORO · AHORA EN EL AIRE</div>
+      <div class="especial-contenido">
+        <div>
+          <img id="especial-actual-imagen" class="especial-imagen" src="img/logo.png" alt="Especial actual de FlashBack Radio">
+        </div>
+        <div class="especial-info">
+          <h2 id="especial-actual-titulo"></h2>
+          <p id="especial-actual-descripcion"></p>
+          <div id="especial-actual-horario" class="especial-horario"></div>
+          <a id="especial-mas-actual" class="especial-mas" href="explorar.html" style="display:none;">→ CONOCÉ MÁS</a>  
+        </div>
+      </div>
+    </section>
 
-  <div class="especial-etiqueta">
-    ✦ FLASHBACK ORO · ESPECIAL DE LA SEMANA ✦
-  </div>
-
-  <div class="especial-contenido">
-
-    <div>
-      <img
-        id="especial-imagen"
-        class="especial-imagen"
-        src="img/logo.png"
-        alt="Próximo especial de FlashBack Radio"
-      >
-    </div>
-
-    <div class="especial-info">
-
-      <h2 id="especial-titulo"></h2>
-
-      <p id="especial-descripcion"></p>
-
-      <div id="especial-horario" class="especial-horario"></div>
-	<a id="especial-mas-proximo" class="especial-mas" href="explorar.html" style="display:none;">→ CONOCÉ MÁS</a>
-
-    </div>
-
-  </div>
-
-</section>
-
-<!-- ==========================================================
-     FLASHBACK ORO — ESPECIAL ACTUAL
-     Tarjeta independiente: no reemplaza al próximo especial.
-     ========================================================== -->
-<section id="especial-actual" aria-label="Especial actual de FlashBack Radio">
-
-  <div class="especial-etiqueta">
-    🔴 FLASHBACK ORO · AHORA EN EL AIRE
-  </div>
-
-  <div class="especial-contenido">
-
-    <div>
-      <img
-        id="especial-actual-imagen"
-        class="especial-imagen"
-        src="img/logo.png"
-        alt="Especial actual de FlashBack Radio"
-      >
-    </div>
-
-    <div class="especial-info">
-      <h2 id="especial-actual-titulo"></h2>
-      <p id="especial-actual-descripcion"></p>
-      <div id="especial-actual-horario" class="especial-horario"></div>
-	<a id="especial-mas-actual" class="especial-mas" href="explorar.html" style="display:none;">→ CONOCÉ MÁS</a>  
-    </div>
-
-  </div>
-
-</section>
     <section class="schedule-iframe-wrapper" id="schedule-section">
       <h3>🎙️ Cartelera Musical</h3>
       <iframe src="https://flashbackradio.duckdns.org/public/flashbackradio/schedule" loading="lazy" title="Programación FlashBack Radio"></iframe>
-      <a href="https://flashbackradio.duckdns.org/public/flashbackradio/schedule" target="_blank" rel="noopener" class="btn-cartelera">
-        📅 Ver cartelera completa ↗
-      </a>
+      <a href="https://flashbackradio.duckdns.org/public/flashbackradio/schedule" target="_blank" rel="noopener" class="btn-cartelera">📅 Ver cartelera completa ↗</a>
     </section>
 
-<div class="seccion-apoyo" style="text-align: center; margin: 30px 0;">
-  <div class="cafecito-box">
-    <!-- Imagen actual de la radio -->
-    <div class="cafecito-imagen">
-      <img src="img/apoyo.png" alt="FlashBack Radio" class="radio-logo">
-    </div>
-    
-    <!-- GIF + Texto + Botón -->
-    <div class="cafecito-contenido">
-      <p class="cafecito-pregunta">¿Te gusta la Radio?</p>
-      
-      <!-- VIDEO (corregido) -->
-      <div class="cafecito-gif-container">
-        <video autoplay muted loop playsinline class="gif-loop">
-          <source src="video/cafecito.mp4" type="video/mp4">
-          Tu navegador no soporta videos HTML5
-        </video>
+    <div class="seccion-apoyo" style="text-align: center; margin: 30px 0;">
+      <div class="cafecito-box">
+        <div class="cafecito-imagen">
+          <img src="img/apoyo.png" alt="FlashBack Radio" class="radio-logo">
+        </div>
+        <div class="cafecito-contenido">
+          <p class="cafecito-pregunta">¿Te gusta la Radio?</p>
+          <div class="cafecito-gif-container">
+            <video autoplay muted loop playsinline class="gif-loop">
+              <source src="video/cafecito.mp4" type="video/mp4">
+              Tu navegador no soporta videos HTML5
+            </video>
+          </div>
+          <a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener" class="btn-cafecito-neon">☕ Invítanos un cafecito y ayúdanos a mantener viva la nostalgia</a>
+        </div>
       </div>
-      
-      <a href="https://cafecito.app/flashbackradio" target="_blank" rel="noopener" class="btn-cafecito-neon">
-        ☕ Invítanos un cafecito y ayúdanos a mantener viva la nostalgia
-      </a>
     </div>
-  </div>
-</div>
 
     <section id="contacto-section" class="contacto-navidad">
       <div style="text-align: center; font-family: 'Orbitron', sans-serif; font-size: 0.95em; color: #aaa; width: 100%;">
@@ -2226,7 +1365,7 @@ footer {
     </section>
   </main>
 
-<script>
+  <script>
     const hoy = new Date();
     const mes = hoy.getMonth(), dia = hoy.getDate(), anio = hoy.getFullYear();
     const esNavidad = (mes === 11 && dia >= 1) || (mes === 0 && dia <= 6 && anio === (new Date().getFullYear()));
@@ -2243,83 +1382,55 @@ footer {
     const quoteElement = document.getElementById('random-quote');
     if (!esNavidad) quoteElement.innerHTML = `"${frases[Math.floor(Math.random() * frases.length)]}"`;
 
-    // 1. CONFIGURACIÓN DE TUS PROGRAMAS Y FRASES
-const playlistMap = {
-  'BLOQUE_FITNESS': { icon: '', label: '¡Hora y media para bailar y entrenar con energía!' },
-  'BOLICHERO_DISCO': { icon: '🕺', label: '¡Sacudí la nostalgia con los hits de la pista!' },
-  'Despierta_Flashback': { icon: '🌅', label: '¡Buen día, viajero del tiempo! Arrancamos con los clásicos que te acompañan.' },
-  'ESPECIALES_DOMINGO': { icon: '🌟', label: 'Domingos de Oro: un viaje por las leyendas que marcaron época.' },
-  'LENTOS_NOCHE': { icon: '🌙', label: 'Baladas que llegan directo al corazón.' },
-  'MUSICA_DIA': { icon: '🎵', label: 'La mejor selección para acompañar tu jornada.' },
-  'PROGRAMAS_RECUERDO': { icon: '📼', label: 'Viajes en el tiempo: Programas que rescatan lo mejor de cada época.' },
-  'PROGRAMAS_ROMANTICOS': { icon: '💖', label: 'Canciones para enamorarse una y otra vez.' },
-  'PROGRAMA_ROCK': { icon: '🎸', label: 'Rock & Roll: los Hits que me marcaron momentos inolvidables.' },
-  'PROGRAMA_OLDIES': { icon: '📻', label: 'Oldies but Goldies: Aquellos clásicos que nunca pasan de moda.' },
-  
-  // === ESPECIALES INDIVIDUALES ===
-  'ESPECIAL_BEATLES': { icon: '', label: 'The Beatles: Un viaje musical que marcó y cambió la historia.' },
-  'ESPECIAL_PLATEROS': { icon: '🇪🇸', label: 'Los Plateros: Un momento del Recuerdo que me hizo vibrar.' },
-  'ESPECIAL_HOLLIES': { icon: '🎸', label: 'The Hollies: Armonías perfectas y clásicos eternos.' },
-  'ESPECIAL_STONES': { icon: '👅', label: 'The Rolling Stones: Actitud, blues y rock en estado puro.' },
-  'ESPECIAL_PARSONS': { icon: '🌌', label: 'Alan Parsons Project: sinfonías electrónicas y sonidos del espacio.' },
-  'ESPECIAL_CERATI': { icon: '🎹', label: 'Gustavo Cerati & Soda Stereo: Poesía rock que sigue latiendo.' },
-  
-    // === MICROS Y VERSIONES (¡Agregado!) ===
-  'MICROS_VERSIONES': { icon: '', label: 'Momento de versiones únicas y especiales.' },
-  'MICRO_COME_PRIMA': { icon: '🎻', label: 'Viajes de una Canción: "Come Prima", un clásico que cruzó océanos.' },
-  
-  // === REFLEXIONES ===
-  'REFLEXIONES_MAÑANA': { icon: '', label: 'Un momento de calma: palabras para arrancar el día con buena energía.' }
-};
+    const playlistMap = {
+      'BLOQUE_FITNESS': { icon: '', label: '¡Hora y media para bailar y entrenar con energía!' },
+      'BOLICHERO_DISCO': { icon: '🕺', label: '¡Sacudí la nostalgia con los hits de la pista!' },
+      'Despierta_Flashback': { icon: '🌅', label: '¡Buen día, viajero del tiempo! Arrancamos con los clásicos que te acompañan.' },
+      'ESPECIALES_DOMINGO': { icon: '🌟', label: 'Domingos de Oro: un viaje por las leyendas que marcaron época.' },
+      'LENTOS_NOCHE': { icon: '🌙', label: 'Baladas que llegan directo al corazón.' },
+      'MUSICA_DIA': { icon: '🎵', label: 'La mejor selección para acompañar tu jornada.' },
+      'PROGRAMAS_RECUERDO': { icon: '📼', label: 'Viajes en el tiempo: Programas que rescatan lo mejor de cada época.' },
+      'PROGRAMAS_ROMANTICOS': { icon: '💖', label: 'Canciones para enamorarse una y otra vez.' },
+      'PROGRAMA_ROCK': { icon: '🎸', label: 'Rock & Roll: los Hits que me marcaron momentos inolvidables.' },
+      'PROGRAMA_OLDIES': { icon: '📻', label: 'Oldies but Goldies: Aquellos clásicos que nunca pasan de moda.' },
+      'ESPECIAL_BEATLES': { icon: '', label: 'The Beatles: Un viaje musical que marcó y cambió la historia.' },
+      'ESPECIAL_PLATEROS': { icon: '🇪🇸', label: 'Los Plateros: Un momento del Recuerdo que me hizo vibrar.' },
+      'ESPECIAL_HOLLIES': { icon: '🎸', label: 'The Hollies: Armonías perfectas y clásicos eternos.' },
+      'ESPECIAL_STONES': { icon: '👅', label: 'The Rolling Stones: Actitud, blues y rock en estado puro.' },
+      'ESPECIAL_PARSONS': { icon: '🌌', label: 'Alan Parsons Project: sinfonías electrónicas y sonidos del espacio.' },
+      'ESPECIAL_CERATI': { icon: '🎹', label: 'Gustavo Cerati & Soda Stereo: Poesía rock que sigue latiendo.' },
+      'MICROS_VERSIONES': { icon: '', label: 'Momento de versiones únicas y especiales.' },
+      'MICRO_COME_PRIMA': { icon: '🎻', label: 'Viajes de una Canción: "Come Prima", un clásico que cruzó océanos.' },
+      'REFLEXIONES_MAÑANA': { icon: '', label: 'Un momento de calma: palabras para arrancar el día con buena energía.' }
+    };
 
-
-    // ==========================================================
-    // EL ARCHIVO RECUERDA — BASE + MATCH ARTISTA/TÍTULO
-    // ==========================================================
     let archivoRecuerdaCache = null;
 
     function normalizarArchivoRecuerda(valor) {
-      return String(valor || '')
-        .normalize('NFD')
-        .replace(/[\u0300-\u036f]/g, '')
-        .toLowerCase()
-        .replace(/&/g, ' and ')
-        .replace(/['’´`]/g, '')
-        .replace(/[^a-z0-9]+/g, ' ')
-        .trim();
+      return String(valor || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase()
+        .replace(/&/g, ' and ').replace(/[''´`]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
     }
 
     async function obtenerArchivoRecuerda() {
       if (archivoRecuerdaCache) return archivoRecuerdaCache;
-
-      // En GitHub lee el JSON del propio sitio.
-      // Si abrimos index.html directamente desde la PC (file://),
-      // intenta leer temporalmente la copia publicada en GitHub.
-      const archivoUrl =
-        window.location.protocol === 'file:'
-          ? 'https://flashbackradio2025.github.io/archivo_recuerda.json?ts=' + Date.now()
-          : 'archivo_recuerda.json?ts=' + Date.now();
-
+      const archivoUrl = window.location.protocol === 'file:'
+        ? 'https://flashbackradio2025.github.io/archivo_recuerda.json?ts=' + Date.now()
+        : 'archivo_recuerda.json?ts=' + Date.now();
       try {
         const res = await fetch(archivoUrl, { cache: 'no-store' });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
         const data = await res.json();
-        
-        // 🛠️ SOLUCIÓN AUTOMÁTICA: Limpiar espacios en claves y valores del JSON
         const limpiarObjeto = (obj) => {
           if (Array.isArray(obj)) return obj.map(limpiarObjeto);
           if (obj !== null && typeof obj === 'object') {
             return Object.keys(obj).reduce((acc, key) => {
-              const nuevaClave = key.trim(); // Quita espacios de la clave
+              const nuevaClave = key.trim();
               acc[nuevaClave] = limpiarObjeto(obj[key]);
               return acc;
             }, {});
           }
-          // Quita espacios al final de los textos (como "Night " -> "Night")
-          return typeof obj === 'string' ? obj.trim() : obj; 
+          return typeof obj === 'string' ? obj.trim() : obj;
         };
-
         const dataLimpia = limpiarObjeto(data);
         archivoRecuerdaCache = Array.isArray(dataLimpia) ? dataLimpia : (dataLimpia.fichas || []);
         return archivoRecuerdaCache;
@@ -2332,23 +1443,12 @@ const playlistMap = {
     function coincideArchivoRecuerda(ficha, artistaActual, tituloActual) {
       const artista = normalizarArchivoRecuerda(artistaActual);
       const titulo = normalizarArchivoRecuerda(tituloActual);
-
-      const artistas = [
-        ficha.artista,
-        ...(Array.isArray(ficha.aliases_artista) ? ficha.aliases_artista : [])
-      ].map(normalizarArchivoRecuerda).filter(Boolean);
-
-      const titulos = [
-        ficha.titulo,
-        ...(Array.isArray(ficha.aliases_titulo) ? ficha.aliases_titulo : [])
-      ].map(normalizarArchivoRecuerda).filter(Boolean);
-
+      const artistas = [ficha.artista, ...(Array.isArray(ficha.aliases_artista) ? ficha.aliases_artista : [])]
+        .map(normalizarArchivoRecuerda).filter(Boolean);
+      const titulos = [ficha.titulo, ...(Array.isArray(ficha.aliases_titulo) ? ficha.aliases_titulo : [])]
+        .map(normalizarArchivoRecuerda).filter(Boolean);
       const artistaOk = artistas.some(a => a === artista);
-      const tituloOk = titulos.some(t =>
-        t === titulo ||
-        (titulo && t && (titulo.includes(t) || t.includes(titulo)))
-      );
-
+      const tituloOk = titulos.some(t => t === titulo || (titulo && t && (titulo.includes(t) || t.includes(titulo))));
       return artistaOk && tituloOk;
     }
 
@@ -2360,204 +1460,128 @@ const playlistMap = {
       const cierreEl = document.getElementById('archivo-recuerda-cierre');
       const masEl = document.getElementById('archivo-recuerda-mas');
       const imagenEl = document.getElementById('archivo-recuerda-imagen');
-
       if (!box || !artistaEl || !tituloEl || !textoEl || !cierreEl || !masEl || !imagenEl) return;
-
-      // Prueba manual opcional:
-      // abrir index.html?archivoTest=night
-      // Si no se indica ese parámetro, funciona 100% automático con AzuraCast.
       const params = new URLSearchParams(window.location.search);
       const test = params.get('archivoTest');
-
       let ficha = null;
       const fichas = await obtenerArchivoRecuerda();
-
       if (test) {
-        const pruebas = {
-          'night': 'night-hot-summer-nights',
-          'company-b': 'company-b-fascinated',
-          'chicago': 'chicago-hard-to-say-im-sorry',
-          'louis-armstrong': 'louis-armstrong-what-a-wonderful-world'
-        };
-
+        const pruebas = { 'night': 'night-hot-summer-nights', 'company-b': 'company-b-fascinated', 'chicago': 'chicago-hard-to-say-im-sorry', 'louis-armstrong': 'louis-armstrong-what-a-wonderful-world' };
         const clavePrueba = String(test).trim().toLowerCase();
         const slugPrueba = pruebas[clavePrueba] || clavePrueba;
-
-        ficha = fichas.find(f =>
-          normalizarArchivoRecuerda(f.slug) === normalizarArchivoRecuerda(slugPrueba)
-        ) || null;
+        ficha = fichas.find(f => normalizarArchivoRecuerda(f.slug) === normalizarArchivoRecuerda(slugPrueba)) || null;
       } else {
         ficha = fichas.find(f => coincideArchivoRecuerda(f, artistaActual, tituloActual)) || null;
       }
-
-      if (!ficha) {
-        box.classList.remove('visible');
-        return;
-      }
-
+      if (!ficha) { box.classList.remove('visible'); return; }
       artistaEl.textContent = ficha.artista || artistaActual || '';
       tituloEl.textContent = ficha.titulo || tituloActual || '';
       textoEl.textContent = ficha.texto || '';
-      cierreEl.textContent = ficha.cierre ? `“${ficha.cierre}”` : '';
-
+      cierreEl.textContent = ficha.cierre ? `"${ficha.cierre}"` : '';
       imagenEl.src = ficha.imagen || 'img/logo.png';
       imagenEl.onerror = () => { imagenEl.src = 'img/logo.png'; };
       imagenEl.alt = 'Carátula de ' + (ficha.artista || '') + ' — ' + (ficha.titulo || '');
       masEl.setAttribute('aria-label', 'Conocé más sobre ' + (ficha.artista || '') + ' — ' + (ficha.titulo || ''));
-
       masEl.style.display = 'inline-flex';
-      masEl.onclick = () => {
-        if (!ficha.slug) return;
-        window.location.href =
-          'explorar.html?ficha=' + encodeURIComponent(ficha.slug) + '#ficha-archivo';
-      };
-
+      masEl.onclick = () => { if (!ficha.slug) return; window.location.href = 'explorar.html?ficha=' + encodeURIComponent(ficha.slug) + '#ficha-archivo'; };
       box.classList.add('visible');
     }
 
-    // === TIMEOUT DE RED: si el servidor no responde en 8 s, la consulta se cancela sola ===
     function fetchConTimeout(url, opciones, ms) {
       const control = new AbortController();
       const reloj = setTimeout(() => control.abort(), ms || 8000);
-      return fetch(url, Object.assign({}, opciones, { signal: control.signal }))
-        .finally(() => clearTimeout(reloj));
+      return fetch(url, Object.assign({}, opciones, { signal: control.signal })).finally(() => clearTimeout(reloj));
     }
-    // 2. FUNCIÓN ACTUALIZAR RADIO (VERSIÓN FINAL CON CARÁTULA BLINDADA)
- async function actualizarRadio() {
-  const API_URL = 'https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio';
-  const banner = document.getElementById('playlist-banner');
-  const iconSpan = banner?.querySelector('.icon');
-  const labelSpan = banner?.querySelector('.label');
-  const contenedorMeta = document.getElementById('meta-content');
-  const albumArt = document.getElementById('album-art');
 
-  try {
-    const response = await fetchConTimeout(API_URL, {
-      method: 'GET',
-      headers: { 'Accept': 'application/json' },
-      mode: 'cors'
-    }, 8000);
-    
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json();
-
-    const actual = data.now_playing?.song?.text || 'Desconocido';
-    const artista = data.now_playing?.song?.artist || '';
-    const tituloReal = data.now_playing?.song?.title || actual;
-    const proxima = data.playing_next?.song?.text || 'No programada';
-    const historial = data.song_history?.slice(0, 5) || [];
-    
-    // ✅ LÓGICA DE CARÁTULA ROBUSTA (acepta rutas relativas y absolutas)
-    if(albumArt) {
-      const artRaw = data.now_playing?.song?.art;
-      if (artRaw) {
-        if (artRaw.startsWith('http')) {
-          albumArt.src = artRaw;
-        } else {
-          albumArt.src = `https://flashbackradio.duckdns.org${artRaw}`;
+    async function actualizarRadio() {
+      const API_URL = 'https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio';
+      const banner = document.getElementById('playlist-banner');
+      const iconSpan = banner?.querySelector('.icon');
+      const labelSpan = banner?.querySelector('.label');
+      const contenedorMeta = document.getElementById('meta-content');
+      const albumArt = document.getElementById('album-art');
+      try {
+        const response = await fetchConTimeout(API_URL, { method: 'GET', headers: { 'Accept': 'application/json' }, mode: 'cors' }, 8000);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        const actual = data.now_playing?.song?.text || 'Desconocido';
+        const artista = data.now_playing?.song?.artist || '';
+        const tituloReal = data.now_playing?.song?.title || actual;
+        const proxima = data.playing_next?.song?.text || 'No programada';
+        const historial = data.song_history?.slice(0, 5) || [];
+        if(albumArt) {
+          const artRaw = data.now_playing?.song?.art;
+          if (artRaw) {
+            albumArt.src = artRaw.startsWith('http') ? artRaw : `https://flashbackradio.duckdns.org${artRaw}`;
+          } else { albumArt.src = 'img/logo.png'; }
+          albumArt.onerror = () => { albumArt.src = 'img/logo.png'; };
         }
-        albumArt.onerror = () => { albumArt.src = 'img/logo.png'; };
-      } else {
-        albumArt.src = 'img/logo.png';
+        let html = `<div class="meta-row"><span class="meta-label">🎵 Ahora:</span><span class="meta-value">${artista ? `<strong>${artista}</strong><br>` : ''}${actual}</span></div><div class="meta-row"><span class="meta-label">⏭️ Próxima:</span><span class="meta-value">${proxima}</span></div><div class="meta-row"><span class="meta-label">📜 Últimas:</span><span class="meta-value"></span></div><ul class="history-list">`;
+        historial.forEach(item => {
+          const titulo = item.song?.text || 'Desconocido';
+          const art = item.song?.artist || '';
+          const tiempo = item.played_at ? new Date(item.played_at * 1000).toLocaleTimeString('es-AR', {hour:'2-digit', minute:'2-digit'}) : '';
+          html += `<li>${tiempo} • ${art ? `<strong>${art}</strong> - ` : ''}${titulo}</li>`;
+        });
+        html += `</ul>`;
+        if(contenedorMeta) contenedorMeta.innerHTML = html;
+        actualizarArchivoRecuerda(artista, tituloReal);
+        const currentSong = data.now_playing?.song?.text || '';
+        const currentArtist = data.now_playing?.song?.artist || '';
+        const currentPlaylist = data.now_playing?.playlist || '';
+        const fullText = `${currentArtist} ${currentSong}`.toUpperCase();
+        const currentPlaylistUpper = currentPlaylist.toUpperCase();
+        let detectedSpecial = null;
+        const specialKeywords = {
+          'ESPECIAL_BEATLES': ['BEATLES', 'FAB FOUR', 'LIVERPOOL'],
+          'ESPECIAL_HOLLIES': ['HOLLIES', 'THE HOLLIES'],
+          'ESPECIAL_STONES': ['ROLLING STONES', 'STONES', 'JAGGER', 'RICHARDS'],
+          'ESPECIAL_PARSONS': ['ALAN PARSONS', 'PARSONS PROJECT'],
+          'ESPECIAL_PLATEROS': ['PLATEROS', 'PLATEROS Y TU'],
+          'ESPECIAL_CERATI': ['CERATI', 'SODA STEREO', 'GUSTAVO CERATI']
+        };
+        if (currentPlaylistUpper === 'ESPECIALES_DOMINGO') {
+          for (const [specialName, keywords] of Object.entries(specialKeywords)) {
+            if (keywords.some(keyword => fullText.includes(keyword))) { detectedSpecial = specialName; break; }
+          }
+          if (!detectedSpecial) detectedSpecial = 'ESPECIALES_DOMINGO';
+        }
+        const isLive = data.live?.is_live || false;
+        const rawPlaylistName = currentPlaylist || '';
+        if (banner) {
+          if (detectedSpecial && playlistMap[detectedSpecial]) {
+            const config = playlistMap[detectedSpecial];
+            if(iconSpan) iconSpan.textContent = config.icon;
+            if(labelSpan) labelSpan.innerHTML = `<div>🔴 AHORA: ${detectedSpecial.replace('_', ' ')}</div><div>${config.label}</div>`;
+          } else if (rawPlaylistName && playlistMap[rawPlaylistName]) {
+            const config = playlistMap[rawPlaylistName];
+            if(iconSpan) iconSpan.textContent = config.icon;
+            if(labelSpan) labelSpan.innerHTML = `<div>🔴 AHORA: ${rawPlaylistName}</div><div>${config.label}</div>`;
+          } else if (isLive || data.now_playing?.song?.text) {
+            if(iconSpan) iconSpan.textContent = '🎧';
+            if(labelSpan) labelSpan.innerHTML = `<div>🔴 En vivo: ${artista || 'Música'} - ${actual}</div>`;
+          } else {
+            if(iconSpan) iconSpan.textContent = '⏳';
+            if(labelSpan) labelSpan.innerHTML = '<div>Cargando programación...</div>';
+          }
+          banner.style.display = 'flex';
+        }
+      } catch (error) { 
+        console.error('❌ Error en actualizarRadio:', error);
+        if (banner && labelSpan) {
+          labelSpan.innerHTML = '<div>⚠️ Sin conexión con la radio</div>';
+          banner.style.display = 'flex';
+          banner.style.borderColor = '#ff6666';
+        }
       }
     }
 
-    let html = `<div class="meta-row"><span class="meta-label">🎵 Ahora:</span><span class="meta-value">${artista ? `<strong>${artista}</strong><br>` : ''}${actual}</span></div>
-      <div class="meta-row"><span class="meta-label">⏭️ Próxima:</span><span class="meta-value">${proxima}</span></div>
-      <div class="meta-row"><span class="meta-label">📜 Últimas:</span><span class="meta-value"></span></div><ul class="history-list">`;
-    
-    historial.forEach(item => {
-      const titulo = item.song?.text || 'Desconocido';
-      const art = item.song?.artist || '';
-      const tiempo = item.played_at ? new Date(item.played_at * 1000).toLocaleTimeString('es-AR', {hour:'2-digit', minute:'2-digit'}) : '';
-      html += `<li>${tiempo} • ${art ? `<strong>${art}</strong> - ` : ''}${titulo}</li>`;
-    });
-    html += `</ul>`;
-    if(contenedorMeta) contenedorMeta.innerHTML = html;
-
-    // 🎵 EL ARCHIVO RECUERDA
-    actualizarArchivoRecuerda(artista, tituloReal);
-
-    // === DETECCIÓN DE ESPECIAL: SOLO SI AZURACAST INFORMA UNA PLAYLIST DE ESPECIAL ===
-    const currentSong = data.now_playing?.song?.text || '';
-    const currentArtist = data.now_playing?.song?.artist || '';
-    const currentPlaylist = data.now_playing?.playlist || '';
-    const fullText = `${currentArtist} ${currentSong}`.toUpperCase();
-    const currentPlaylistUpper = currentPlaylist.toUpperCase();
-
-    let detectedSpecial = null;
-    const specialKeywords = {
-      'ESPECIAL_BEATLES': ['BEATLES', 'FAB FOUR', 'LIVERPOOL'],
-      'ESPECIAL_HOLLIES': ['HOLLIES', 'THE HOLLIES'],
-      'ESPECIAL_STONES': ['ROLLING STONES', 'STONES', 'JAGGER', 'RICHARDS'],
-      'ESPECIAL_PARSONS': ['ALAN PARSONS', 'PARSONS PROJECT'],
-      'ESPECIAL_PLATEROS': ['PLATEROS', 'PLATEROS Y TU'],
-      'ESPECIAL_CERATI': ['CERATI', 'SODA STEREO', 'GUSTAVO CERATI']
-    };
-
-    if (currentPlaylistUpper === 'ESPECIALES_DOMINGO') {
-      for (const [specialName, keywords] of Object.entries(specialKeywords)) {
-        if (keywords.some(keyword => fullText.includes(keyword))) {
-          detectedSpecial = specialName;
-          break;
-        }
-      }
-
-      if (!detectedSpecial) {
-        detectedSpecial = 'ESPECIALES_DOMINGO';
-      }
-    }
-
-    // === ACTUALIZAR BANNER ===
-    const isLive = data.live?.is_live || false;
-    const rawPlaylistName = currentPlaylist || '';
-
-    if (banner) {
-      if (detectedSpecial && playlistMap[detectedSpecial]) {
-        const config = playlistMap[detectedSpecial];
-        if(iconSpan) iconSpan.textContent = config.icon;
-        if(labelSpan) {
-          labelSpan.innerHTML = `<div>🔴 AHORA: ${detectedSpecial.replace('_', ' ')}</div><div>${config.label}</div>`;
-        }
-      } else if (rawPlaylistName && playlistMap[rawPlaylistName]) {
-        const config = playlistMap[rawPlaylistName];
-        if(iconSpan) iconSpan.textContent = config.icon;
-        if(labelSpan) {
-          labelSpan.innerHTML = `<div>🔴 AHORA: ${rawPlaylistName}</div><div>${config.label}</div>`;
-        }
-      } else if (isLive || data.now_playing?.song?.text) {
-        if(iconSpan) iconSpan.textContent = '🎧';
-        if(labelSpan) {
-          labelSpan.innerHTML = `<div>🔴 En vivo: ${artista || 'Música'} - ${actual}</div>`;
-        }
-      } else {
-        if(iconSpan) iconSpan.textContent = '⏳';
-        if(labelSpan) {
-          labelSpan.innerHTML = '<div>Cargando programación...</div>';
-        }
-      }
-      banner.style.display = 'flex';
-    }
-
-  } catch (error) { 
-    console.error('❌ Error en actualizarRadio:', error);
-    if (banner && labelSpan) {
-      labelSpan.innerHTML = '<div>⚠️ Sin conexión con la radio</div>';
-      banner.style.display = 'flex';
-      banner.style.borderColor = '#ff6666';
-    }
-  }
-}
-
-    // 3. NAVEGACIÓN Y CARGA INICIAL
     const navToggle = document.getElementById('nav-toggle');
     const navMenu = document.getElementById('nav-menu');
     navToggle?.addEventListener('click', () => navMenu.classList.toggle('active'));
-    
     document.querySelectorAll('.nav-menu a').forEach(link => {
       link.addEventListener('click', () => navMenu.classList.remove('active'));
     });
-
     window.addEventListener('scroll', () => {
       const nav = document.getElementById('main-nav');
       if (window.scrollY > 50) { 
@@ -2576,7 +1600,6 @@ const playlistMap = {
         document.body.classList.remove('mode-programacion');
       }
     }
-
     window.addEventListener('hashchange', actualizarVista);
   </script>
   <script data-goatcounter="https://flashbackradio.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -2627,358 +1650,190 @@ const playlistMap = {
       }, 3000);
     });
 	
-	// === 1. RELOJ EN TIEMPO REAL ===
-	function actualizarReloj() {
-	  const ahora = new Date();
-	  const elHora = document.getElementById('clock-time');
-	  const elFecha = document.getElementById('clock-date');
-	  if (elHora) elHora.textContent = ahora.toLocaleTimeString('es-AR', { hour:'2-digit', minute:'2-digit' });
-	  if (elFecha) elFecha.textContent = `${ahora.toLocaleDateString('es-AR', { weekday:'long', day:'numeric', month:'long' })} ${ahora.getFullYear()}`;
-	}
-	setInterval(actualizarReloj, 1000);
-	actualizarReloj();
-
-	// === 2. TEMPERATURA (Open-Meteo - Gratis, sin API Key) ===
-	async function cargarClima() {
-	  try {
-		const lat = -30.7333, lon = -64.5167;
-		const res = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`);
-		const data = await res.json();
-		const temp = Math.round(data.current_weather.temperature);
-		const elTemp = document.getElementById('weather-temp');
-		if (elTemp) elTemp.textContent = `${temp}°C`;
-	  } catch (e) {
-		const elTemp = document.getElementById('weather-temp');
-		if (elTemp) elTemp.textContent = 'N/D';
-	  }
-	}
-	cargarClima();
-	setInterval(cargarClima, 1800000);
-
-// === 3. EFEMÉRIDES DESDE JSON ===
-// Si hoy hay varias, se muestran una por una con transición suave.
-let efemeridesInterval = null;
-
-async function cargarEfemerides() {
-  try {
-    const res = await fetch('efemerides.json');
-    const lista = await res.json();
-
-    const hoy = new Date();
-    const mes = String(hoy.getMonth()+1).padStart(2,'0');
-    const dia = String(hoy.getDate()).padStart(2,'0');
-    const clave = `${mes}-${dia}`;
-
-    const eventos = lista.filter(e => String(e.fecha || '').trim() === clave);
-
-    const banner = document.getElementById('efemeride-banner');
-    const txtEl = document.getElementById('efemeride-text');
-    const placeholder = document.getElementById('efemeride-placeholder');
-
-    if (!banner || !txtEl || !placeholder) return;
-
-    if (efemeridesInterval) {
-      clearInterval(efemeridesInterval);
-      efemeridesInterval = null;
+    function actualizarReloj() {
+      const ahora = new Date();
+      const elHora = document.getElementById('clock-time');
+      const elFecha = document.getElementById('clock-date');
+      if (elHora) elHora.textContent = ahora.toLocaleTimeString('es-AR', { hour:'2-digit', minute:'2-digit' });
+      if (elFecha) elFecha.textContent = `${ahora.toLocaleDateString('es-AR', { weekday:'long', day:'numeric', month:'long' })} ${ahora.getFullYear()}`;
     }
+    setInterval(actualizarReloj, 1000);
+    actualizarReloj();
 
-    if (eventos.length > 0) {
-      let indice = 0;
-
-      const mostrarEfemeride = () => {
-        txtEl.style.transition = 'opacity 0.45s ease';
-        txtEl.style.opacity = '0';
-
-        setTimeout(() => {
-          txtEl.textContent = eventos[indice].texto;
-          txtEl.style.opacity = '1';
-          indice = (indice + 1) % eventos.length;
-        }, 450);
-      };
-
-      banner.style.display = 'block';
-      placeholder.style.display = 'none';
-      mostrarEfemeride();
-
-      if (eventos.length > 1) {
-        efemeridesInterval = setInterval(mostrarEfemeride, 12000);
+    async function cargarClima() {
+      try {
+        const lat = -30.7333, lon = -64.5167;
+        const res = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`);
+        const data = await res.json();
+        const temp = Math.round(data.current_weather.temperature);
+        const elTemp = document.getElementById('weather-temp');
+        if (elTemp) elTemp.textContent = `${temp}°C`;
+      } catch (e) {
+        const elTemp = document.getElementById('weather-temp');
+        if (elTemp) elTemp.textContent = 'N/D';
       }
-    } else {
-      banner.style.display = 'none';
-      placeholder.style.display = 'block';
     }
-  } catch(e) {
-    console.log('📅 Efemérides: sin evento para hoy');
-  }
-}
-cargarEfemerides();
+    cargarClima();
+    setInterval(cargarClima, 1800000);
 
-// === FLASHBACK ORO — TARJETAS SEPARADAS: PRÓXIMO + ACTUAL ===
-
-// Próximo especial: sigue leyendo el proximo_especial.json vigente.
-// Esta tarjeta NO es reemplazada por el especial que esté al aire.
-async function cargarProximoEspecial() {
-  const tarjeta = document.getElementById('proximo-especial');
-  const imagen = document.getElementById('especial-imagen');
-  const titulo = document.getElementById('especial-titulo');
-  const descripcion = document.getElementById('especial-descripcion');
-  const horario = document.getElementById('especial-horario');
-  const etiqueta = tarjeta?.querySelector('.especial-etiqueta');
-
-  if (!tarjeta || !imagen || !titulo || !descripcion || !horario) return;
-
-  try {
-    const ahoraArgentina = new Date(
-      new Date().toLocaleString('en-US', {
-        timeZone: 'America/Argentina/Cordoba'
-      })
-    );
-
-    const diaSemana = ahoraArgentina.getDay(); // 0 domingo, 6 sábado
-
-    // Conservamos el comportamiento de fin de semana del aviso principal.
-    if (diaSemana !== 6 && diaSemana !== 0) {
-      tarjeta.classList.remove('visible');
-      return;
-    }
-
-    const proximoEspecialUrl =
-      window.location.protocol === 'file:'
-        ? 'https://flashbackradio2025.github.io/proximo_especial.json?ts=' + Date.now()
-        : 'proximo_especial.json?ts=' + Date.now();
-
-    const res = await fetch(proximoEspecialUrl, { cache: 'no-store' });
-    if (!res.ok) throw new Error(`JSON próximo especial: HTTP ${res.status}`);
-
-    const proximo = await res.json();
-
-    // Si justamente ese mismo especial ya está al aire,
-    // dejamos sólo la tarjeta "AHORA EN EL AIRE" para no duplicarlo.
-    if (
-      window.flashbackEspecialActualTitulo &&
-      String(proximo.titulo || '').trim().toUpperCase() ===
-        String(window.flashbackEspecialActualTitulo).trim().toUpperCase()
-    ) {
-      tarjeta.classList.remove('visible');
-      return;
-    }
-
-    imagen.src = proximo.imagen || 'img/logo.png';
-    imagen.alt = `Próximo especial ${proximo.titulo || 'FlashBack Radio'}`;
-    imagen.onerror = () => { imagen.src = 'img/logo.png'; };
-
-    titulo.textContent = proximo.titulo || 'FlashBack Oro';
-    descripcion.textContent = proximo.descripcion || '';
-    horario.textContent = `${proximo.dia || 'Domingo'} · ${proximo.hora || '17:00'} hs`;
-
-    if (etiqueta) {
-      etiqueta.textContent = '✦ FLASHBACK ORO · PRÓXIMO ESPECIAL ✦';
-    }
-
-    tarjeta.classList.add('visible');
-
-    // PEGUE 3a — Activar botón CONOCÉ MÁS
-    const botonMas = document.getElementById('especial-mas-proximo');
-    if (botonMas) {
-      const t = String(proximo.titulo || '').toUpperCase();
-if (t.includes('HOLLIES')) {
-  botonMas.href = 'hollies.html';
-} else if (t.includes('BEATLES')) {
-  botonMas.href = 'explorar.html?ficha=especial-the-beatles#ficha-archivo';
-} else if (t.includes('PLATEROS')) {
-  botonMas.href = 'explorar.html?ficha=especial-los-plateros#ficha-archivo';
-} else if (t.includes('ROLLING')) {
-  botonMas.href = 'explorar.html?ficha=especial-the-rolling-stones#ficha-archivo';
-} else if (t.includes('PARSONS')) {
-  botonMas.href = 'explorar.html?ficha=especial-the-alan-parsons-project#ficha-archivo';
-} else if (t.includes('CERATI') || t.includes('SODA')) {
-  botonMas.href = 'explorar.html?ficha=especial-gustavo-cerati-soda-stereo#ficha-archivo';
-} else {
-  botonMas.href = 'explorar.html';
-}
-      botonMas.style.display = 'inline-flex';
-    }
-
-  } catch (error) {
-    console.error('Error cargando próximo especial:', error);
-  }
-}
-
-
-// Especial actual: tarjeta independiente, debajo del próximo especial.
-async function cargarEspecialActual() {
-  const tarjeta = document.getElementById('especial-actual');
-  const imagen = document.getElementById('especial-actual-imagen');
-  const titulo = document.getElementById('especial-actual-titulo');
-  const descripcion = document.getElementById('especial-actual-descripcion');
-  const horario = document.getElementById('especial-actual-horario');
-
-  if (!tarjeta || !imagen || !titulo || !descripcion || !horario) return;
-
-  const especiales = {
-    beatles: {
-      palabras: ['BEATLES', 'THE BEATLES', 'FAB FOUR', 'LIVERPOOL'],
-      titulo: 'The Beatles',
-      descripcion: 'Un viaje musical por la banda que marcó y cambió para siempre la historia de la música popular.',
-      imagen: 'img/artistas/especiales/especial-beatles.png'
-    },
-
-    plateros: {
-      palabras: ['PLATEROS', 'LOS PLATEROS', 'PLATEROS Y TU'],
-      titulo: 'Los Plateros',
-      descripcion: 'Un momento del Recuerdo dedicado a Los Plateros y a esas canciones que siguen haciendo vibrar la memoria.',
-      imagen: 'img/artistas/especiales/especial-los-plateros.png'
-    },
-
-    hollies: {
-      palabras: ['HOLLIES', 'THE HOLLIES'],
-      titulo: 'The Hollies',
-      descripcion: 'Armonías, melodías y clásicos de una de las grandes bandas británicas.',
-      imagen: 'img/artistas/especiales/especial-hollies.png'
-    },
-
-    rolling: {
-      palabras: ['ROLLING STONES', 'STONES'],
-      titulo: 'The Rolling Stones',
-      descripcion: 'Rock, historia y canciones esenciales de una banda que atravesó generaciones.',
-      imagen: 'img/artistas/especiales/especial-rolling-stones.png'
-    },
-
-    parsons: {
-      palabras: ['ALAN PARSONS', 'PARSONS PROJECT'],
-      titulo: 'The Alan Parsons Project',
-      descripcion: 'Un viaje por el sonido, la producción y las canciones de una obra inolvidable.',
-      imagen: 'img/artistas/especiales/especial-alan-parsons.png'
-    },
-
-    cerati: {
-      palabras: ['CERATI', 'SODA STEREO', 'GUSTAVO CERATI'],
-      titulo: 'Gustavo Cerati · Soda Stereo',
-      descripcion: 'Un recorrido por la obra de Gustavo Cerati y el legado de Soda Stereo.',
-      imagen: 'img/artistas/especiales/especial-gustavo-cerati.png'
-    }
-  };
-
-  try {
-    const res = await fetchConTimeout(
-      'https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio?ts=' + Date.now(),
-      { cache: 'no-store' },
-      8000
-    );
-
-    if (!res.ok) throw new Error(`Now Playing: HTTP ${res.status}`);
-
-    const radio = await res.json();
-
-    const playlist = String(radio.now_playing?.playlist || '').toUpperCase();
-    const artista = String(radio.now_playing?.song?.artist || '');
-    const cancion = String(radio.now_playing?.song?.text || '');
-    const textoActual = `${artista} ${cancion}`.toUpperCase();
-
-    // La tarjeta "AHORA" sólo puede activarse cuando AzuraCast informa
-    // una playlist real de especial o uno de los programas fijos.
-    const esPlaylistEspecial =
-      playlist.includes('ESPECIAL') ||
-      playlist === 'ESPECIALES_DOMINGO' ||
-      playlist === 'PROGRAMA_BEATLES' ||
-      playlist === 'PROGRAMA_PLATEROS';
-
-    if (!esPlaylistEspecial) {
-      window.flashbackEspecialActual = null;
-      window.flashbackEspecialActualTitulo = null;
-      tarjeta.classList.remove('visible');
-      return;
-    }
-
-    let especialActual = null;
-
-    // Prioridad al nombre real de la playlist cuando AzuraCast lo informa.
-    if (playlist === 'PROGRAMA_BEATLES') {
-      especialActual = especiales.beatles;
-    } else if (playlist === 'PROGRAMA_PLATEROS') {
-      especialActual = especiales.plateros;
-    }
-
-    // Dentro de una playlist real de especial, los metadatos identifican
-    // cuál de los especiales está sonando.
-    if (!especialActual) {
-      for (const datos of Object.values(especiales)) {
-        if (datos.palabras.some(p => textoActual.includes(p))) {
-          especialActual = datos;
-          break;
+    let efemeridesInterval = null;
+    async function cargarEfemerides() {
+      try {
+        const res = await fetch('efemerides.json');
+        const lista = await res.json();
+        const hoy = new Date();
+        const mes = String(hoy.getMonth()+1).padStart(2,'0');
+        const dia = String(hoy.getDate()).padStart(2,'0');
+        const clave = `${mes}-${dia}`;
+        const eventos = lista.filter(e => String(e.fecha || '').trim() === clave);
+        const banner = document.getElementById('efemeride-banner');
+        const txtEl = document.getElementById('efemeride-text');
+        const placeholder = document.getElementById('efemeride-placeholder');
+        if (!banner || !txtEl || !placeholder) return;
+        if (efemeridesInterval) { clearInterval(efemeridesInterval); efemeridesInterval = null; }
+        if (eventos.length > 0) {
+          let indice = 0;
+          const mostrarEfemeride = () => {
+            txtEl.style.transition = 'opacity 0.45s ease';
+            txtEl.style.opacity = '0';
+            setTimeout(() => {
+              txtEl.textContent = eventos[indice].texto;
+              txtEl.style.opacity = '1';
+              indice = (indice + 1) % eventos.length;
+            }, 450);
+          };
+          banner.style.display = 'block';
+          placeholder.style.display = 'none';
+          mostrarEfemeride();
+          if (eventos.length > 1) efemeridesInterval = setInterval(mostrarEfemeride, 12000);
+        } else {
+          banner.style.display = 'none';
+          placeholder.style.display = 'block';
         }
-      }
+      } catch(e) { console.log('📅 Efemérides: sin evento para hoy'); }
+    }
+    cargarEfemerides();
+
+    async function cargarProximoEspecial() {
+      const tarjeta = document.getElementById('proximo-especial');
+      const imagen = document.getElementById('especial-imagen');
+      const titulo = document.getElementById('especial-titulo');
+      const descripcion = document.getElementById('especial-descripcion');
+      const horario = document.getElementById('especial-horario');
+      const etiqueta = tarjeta?.querySelector('.especial-etiqueta');
+      if (!tarjeta || !imagen || !titulo || !descripcion || !horario) return;
+      try {
+        const ahoraArgentina = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Argentina/Cordoba' }));
+        const diaSemana = ahoraArgentina.getDay();
+        if (diaSemana !== 6 && diaSemana !== 0) { tarjeta.classList.remove('visible'); return; }
+        const proximoEspecialUrl = window.location.protocol === 'file:'
+          ? 'https://flashbackradio2025.github.io/proximo_especial.json?ts=' + Date.now()
+          : 'proximo_especial.json?ts=' + Date.now();
+        const res = await fetch(proximoEspecialUrl, { cache: 'no-store' });
+        if (!res.ok) throw new Error(`JSON próximo especial: HTTP ${res.status}`);
+        const proximo = await res.json();
+        if (window.flashbackEspecialActualTitulo && String(proximo.titulo || '').trim().toUpperCase() === String(window.flashbackEspecialActualTitulo).trim().toUpperCase()) {
+          tarjeta.classList.remove('visible'); return;
+        }
+        imagen.src = proximo.imagen || 'img/logo.png';
+        imagen.alt = `Próximo especial ${proximo.titulo || 'FlashBack Radio'}`;
+        imagen.onerror = () => { imagen.src = 'img/logo.png'; };
+        titulo.textContent = proximo.titulo || 'FlashBack Oro';
+        descripcion.textContent = proximo.descripcion || '';
+        horario.textContent = `${proximo.dia || 'Domingo'} · ${proximo.hora || '17:00'} hs`;
+        if (etiqueta) etiqueta.textContent = '✦ FLASHBACK ORO · PRÓXIMO ESPECIAL ✦';
+        tarjeta.classList.add('visible');
+        const botonMas = document.getElementById('especial-mas-proximo');
+        if (botonMas) {
+          const t = String(proximo.titulo || '').toUpperCase();
+          if (t.includes('HOLLIES')) botonMas.href = 'hollies.html';
+          else if (t.includes('BEATLES')) botonMas.href = 'explorar.html?ficha=especial-the-beatles#ficha-archivo';
+          else if (t.includes('PLATEROS')) botonMas.href = 'explorar.html?ficha=especial-los-plateros#ficha-archivo';
+          else if (t.includes('ROLLING')) botonMas.href = 'explorar.html?ficha=especial-the-rolling-stones#ficha-archivo';
+          else if (t.includes('PARSONS')) botonMas.href = 'explorar.html?ficha=especial-the-alan-parsons-project#ficha-archivo';
+          else if (t.includes('CERATI') || t.includes('SODA')) botonMas.href = 'explorar.html?ficha=especial-gustavo-cerati-soda-stereo#ficha-archivo';
+          else botonMas.href = 'explorar.html';
+          botonMas.style.display = 'inline-flex';
+        }
+      } catch (error) { console.error('Error cargando próximo especial:', error); }
     }
 
-    // Una vez reconocido el especial, lo mantenemos mientras siga la playlist especial,
-    // aunque un separador o una locución no tenga el nombre del artista.
-    if (especialActual) {
-      window.flashbackEspecialActual = especialActual;
-    } else if (window.flashbackEspecialActual) {
-      especialActual = window.flashbackEspecialActual;
+    async function cargarEspecialActual() {
+      const tarjeta = document.getElementById('especial-actual');
+      const imagen = document.getElementById('especial-actual-imagen');
+      const titulo = document.getElementById('especial-actual-titulo');
+      const descripcion = document.getElementById('especial-actual-descripcion');
+      const horario = document.getElementById('especial-actual-horario');
+      if (!tarjeta || !imagen || !titulo || !descripcion || !horario) return;
+      const especiales = {
+        beatles: { palabras: ['BEATLES', 'THE BEATLES', 'FAB FOUR', 'LIVERPOOL'], titulo: 'The Beatles', descripcion: 'Un viaje musical por la banda que marcó y cambió para siempre la historia de la música popular.', imagen: 'img/artistas/especiales/especial-beatles.png' },
+        plateros: { palabras: ['PLATEROS', 'LOS PLATEROS', 'PLATEROS Y TU'], titulo: 'Los Plateros', descripcion: 'Un momento del Recuerdo dedicado a Los Plateros y a esas canciones que siguen haciendo vibrar la memoria.', imagen: 'img/artistas/especiales/especial-los-plateros.png' },
+        hollies: { palabras: ['HOLLIES', 'THE HOLLIES'], titulo: 'The Hollies', descripcion: 'Armonías, melodías y clásicos de una de las grandes bandas británicas.', imagen: 'img/artistas/especiales/especial-hollies.png' },
+        rolling: { palabras: ['ROLLING STONES', 'STONES'], titulo: 'The Rolling Stones', descripcion: 'Rock, historia y canciones esenciales de una banda que atravesó generaciones.', imagen: 'img/artistas/especiales/especial-rolling-stones.png' },
+        parsons: { palabras: ['ALAN PARSONS', 'PARSONS PROJECT'], titulo: 'The Alan Parsons Project', descripcion: 'Un viaje por el sonido, la producción y las canciones de una obra inolvidable.', imagen: 'img/artistas/especiales/especial-alan-parsons.png' },
+        cerati: { palabras: ['CERATI', 'SODA STEREO', 'GUSTAVO CERATI'], titulo: 'Gustavo Cerati · Soda Stereo', descripcion: 'Un recorrido por la obra de Gustavo Cerati y el legado de Soda Stereo.', imagen: 'img/artistas/especiales/especial-gustavo-cerati.png' }
+      };
+      try {
+        const res = await fetchConTimeout('https://flashbackradio.duckdns.org/api/nowplaying/flashbackradio?ts=' + Date.now(), { cache: 'no-store' }, 8000);
+        if (!res.ok) throw new Error(`Now Playing: HTTP ${res.status}`);
+        const radio = await res.json();
+        const playlist = String(radio.now_playing?.playlist || '').toUpperCase();
+        const artista = String(radio.now_playing?.song?.artist || '');
+        const cancion = String(radio.now_playing?.song?.text || '');
+        const textoActual = `${artista} ${cancion}`.toUpperCase();
+        const esPlaylistEspecial = playlist.includes('ESPECIAL') || playlist === 'ESPECIALES_DOMINGO' || playlist === 'PROGRAMA_BEATLES' || playlist === 'PROGRAMA_PLATEROS';
+        if (!esPlaylistEspecial) {
+          window.flashbackEspecialActual = null;
+          window.flashbackEspecialActualTitulo = null;
+          tarjeta.classList.remove('visible');
+          return;
+        }
+        let especialActual = null;
+        if (playlist === 'PROGRAMA_BEATLES') especialActual = especiales.beatles;
+        else if (playlist === 'PROGRAMA_PLATEROS') especialActual = especiales.plateros;
+        if (!especialActual) {
+          for (const datos of Object.values(especiales)) {
+            if (datos.palabras.some(p => textoActual.includes(p))) { especialActual = datos; break; }
+          }
+        }
+        if (especialActual) { window.flashbackEspecialActual = especialActual; }
+        else if (window.flashbackEspecialActual) { especialActual = window.flashbackEspecialActual; }
+        if (!especialActual) { window.flashbackEspecialActualTitulo = null; tarjeta.classList.remove('visible'); return; }
+        window.flashbackEspecialActualTitulo = especialActual.titulo;
+        imagen.src = especialActual.imagen || 'img/logo.png';
+        imagen.alt = `Especial ${especialActual.titulo}`;
+        imagen.onerror = () => { imagen.src = 'img/logo.png'; };
+        titulo.textContent = especialActual.titulo;
+        descripcion.textContent = especialActual.descripcion;
+        horario.textContent = '🔴 En vivo · FlashBack Radio';
+        tarjeta.classList.add('visible');
+        const botonMas = document.getElementById('especial-mas-actual');
+        if (botonMas) {
+          const t = String(especialActual.titulo || '').toUpperCase();
+          if (t.includes('HOLLIES')) botonMas.href = 'hollies.html';
+          else if (t.includes('BEATLES')) botonMas.href = 'explorar.html?ficha=especial-the-beatles#ficha-archivo';
+          else if (t.includes('PLATEROS')) botonMas.href = 'explorar.html?ficha=especial-los-plateros#ficha-archivo';
+          else if (t.includes('ROLLING')) botonMas.href = 'explorar.html?ficha=especial-the-rolling-stones#ficha-archivo';
+          else if (t.includes('PARSONS')) botonMas.href = 'explorar.html?ficha=especial-the-alan-parsons-project#ficha-archivo';
+          else if (t.includes('CERATI') || t.includes('SODA')) botonMas.href = 'explorar.html?ficha=especial-gustavo-cerati-soda-stereo#ficha-archivo';
+          else botonMas.href = 'explorar.html';
+          botonMas.style.display = 'inline-flex';
+        }
+      } catch (error) { console.error('Error cargando especial actual:', error); }
     }
 
-    if (!especialActual) {
-      window.flashbackEspecialActualTitulo = null;
-      tarjeta.classList.remove('visible');
-      return;
-    }
-
-    window.flashbackEspecialActualTitulo = especialActual.titulo;
-
-    imagen.src = especialActual.imagen || 'img/logo.png';
-    imagen.alt = `Especial ${especialActual.titulo}`;
-    imagen.onerror = () => { imagen.src = 'img/logo.png'; };
-
-    titulo.textContent = especialActual.titulo;
-    descripcion.textContent = especialActual.descripcion;
-    horario.textContent = '🔴 En vivo · FlashBack Radio';
-
-    tarjeta.classList.add('visible');
-
-    // PEGUE 3b — Activar botón CONOCÉ MÁS
-    const botonMas = document.getElementById('especial-mas-actual');
-    if (botonMas) {
-      const t = String(especialActual.titulo || '').toUpperCase();
-if (t.includes('HOLLIES')) {
-  botonMas.href = 'hollies.html';
-} else if (t.includes('BEATLES')) {
-  botonMas.href = 'explorar.html?ficha=especial-the-beatles#ficha-archivo';
-} else if (t.includes('PLATEROS')) {
-  botonMas.href = 'explorar.html?ficha=especial-los-plateros#ficha-archivo';
-} else if (t.includes('ROLLING')) {
-  botonMas.href = 'explorar.html?ficha=especial-the-rolling-stones#ficha-archivo';
-} else if (t.includes('PARSONS')) {
-  botonMas.href = 'explorar.html?ficha=especial-the-alan-parsons-project#ficha-archivo';
-} else if (t.includes('CERATI') || t.includes('SODA')) {
-  botonMas.href = 'explorar.html?ficha=especial-gustavo-cerati-soda-stereo#ficha-archivo';
-} else {
-  botonMas.href = 'explorar.html';
-}
-      botonMas.style.display = 'inline-flex';
-    }
-
-  } catch (error) {
-    console.error('Error cargando especial actual:', error);
-  }
-}
-
-
-// === 4. INICIALIZACIÓN FINAL ===
-	window.addEventListener('DOMContentLoaded', () => {
-	  actualizarVista();
-	  actualizarRadio();
-	  cargarProximoEspecial();
-	  cargarEspecialActual();
-
-	  if (window.radioInterval) clearInterval(window.radioInterval);
-
-	  window.radioInterval = setInterval(() => {
-	    actualizarRadio();
-	    cargarProximoEspecial();
-	    cargarEspecialActual();
-	  }, 30000);
-	});
+    window.addEventListener('DOMContentLoaded', () => {
+      actualizarVista();
+      actualizarRadio();
+      cargarProximoEspecial();
+      cargarEspecialActual();
+      if (window.radioInterval) clearInterval(window.radioInterval);
+      window.radioInterval = setInterval(() => {
+        actualizarRadio();
+        cargarProximoEspecial();
+        cargarEspecialActual();
+      }, 30000);
+    });
   </script>
 
   <div id="pwa-banner" style="position:fixed;bottom:0;left:0;width:100%;background:linear-gradient(135deg,#1a1a2e,#16213e);color:#ffcc66;padding:12px 20px;text-align:center;font-family:'Orbitron',sans-serif;font-size:0.95em;box-shadow:0 -2px 10px rgba(0,0,0,0.5);z-index:9999;display:none;flex-direction:column;gap:8px;">
