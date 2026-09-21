@@ -13697,12 +13697,15 @@
     },
     {
       "artista": "Mike + The Mechanics",
-      "titulo": "Silent Running (On Dangerous Ground)",
+      "titulo": "Silent Running",
       "aliases_artista": [
-        "Mike + The Mechanics"
+        "Mike + The Mechanics",
+		"Mike & The Mechanics"
       ],
       "aliases_titulo": [
-        "Silent Running (On Dangerous Ground)"
+        "Silent Running (On Dangerous Ground)",
+		"Silent Running",
+		"Silent Running(Can You Hear Me)"
       ],
       "anio": 1985,
       "texto": "Silent Running (On Dangerous Ground) es el primer gran sencillo del proyecto de Mike Rutherford, con una letra planteada como advertencia desde un futuro amenazante.",
